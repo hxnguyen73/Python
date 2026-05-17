@@ -1,0 +1,14 @@
+alpaca-py>=0.13.0
+vectorbt>=0.26.0
+streamlit>=1.35.0
+plotly>=5.22.0
+pandas>=2.2.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+ta>=0.11.0
+plyer>=2.1.0
+detect-secrets>=1.4.0
+black>=24.0.0
+ruff>=0.4.0
+pytest>=8.2.0

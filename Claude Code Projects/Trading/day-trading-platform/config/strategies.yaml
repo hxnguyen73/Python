@@ -1,0 +1,21 @@
+vwap:
+  vwap_buffer_pct: 0.001
+  volume_multiplier: 1.8
+  stop_pct: 0.005
+
+macd_ema:
+  fast_period: 12
+  slow_period: 26
+  signal_period: 9
+  ema_trend_period: 50
+
+orb:
+  range_minutes: 15
+  volume_multiplier: 1.5
+  stop_buffer_pct: 0.002
+
+rsi:
+  rsi_period: 14
+  oversold_level: 30.0
+  overbought_level: 70.0
+  confirm_bars: 1

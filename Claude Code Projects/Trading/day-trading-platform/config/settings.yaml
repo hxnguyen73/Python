@@ -1,0 +1,37 @@
+symbols:
+  - AAPL
+  - TSLA
+  - NVDA
+  - SPY
+  - QQQ
+
+default_symbol: AAPL
+
+timeframes:
+  - 1Min
+  - 5Min
+  - 15Min
+  - 1Hour
+
+default_timeframe: 5Min
+
+data:
+  cache_dir: data/cache
+  cache_enabled: true
+  min_bars: 43200          # 6 months of 1-min bars
+  feed: iex                # iex or sip
+
+backtest:
+  default_start: "2024-01-01"
+  default_end: "2024-12-31"
+  initial_cash: 100000
+  commission: 0.001        # 0.1% per trade
+
+dashboard:
+  default_strategy: vwap
+  panels:
+    chart: true
+    signals: true
+    backtest: true
+    news: true
+    strategy_editor: true

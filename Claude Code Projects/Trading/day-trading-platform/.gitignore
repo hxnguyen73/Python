@@ -1,0 +1,38 @@
+# Secrets — NEVER commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data cache
+data/cache/
+*.parquet
+*.csv.gz
+
+# Exports (keep directory, ignore generated files)
+exports/thinkscript/*.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
