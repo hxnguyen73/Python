@@ -33,5 +33,6 @@ dashboard:
     chart: true
     signals: true
     backtest: true
+    position_sizer: true
     news: true
     strategy_editor: true

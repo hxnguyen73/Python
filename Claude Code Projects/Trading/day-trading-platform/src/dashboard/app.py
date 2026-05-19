@@ -14,6 +14,7 @@ from src.data.data_manager import get_bars
 from src.dashboard.components.backtest_panel import render_backtest
 from src.dashboard.components.chart_panel import render_chart
 from src.dashboard.components.news_panel import render_news
+from src.dashboard.components.position_sizer_panel import render_position_sizer
 from src.dashboard.components.settings_panel import render_sidebar
 from src.dashboard.components.signal_panel import render_signals
 from src.dashboard.components.strategy_editor import render_strategy_editor
@@ -31,13 +32,13 @@ def main() -> None:
 
     st.title(f"📈 {symbol} — {strategy_name.upper()}")
 
-    # Strategy editor (updates live params before computing signals)
+    # Strategy editor — runs before signal computation to pick up live params
     live_params: dict = {}
     if panels.get("strategy_editor"):
         with st.expander("Strategy Parameters", expanded=False):
             live_params = render_strategy_editor(strategy_name)
 
-    # Fetch data (cached in session_state to avoid redundant network calls)
+    # Fetch data (cached in session_state)
     cache_key = f"df_{symbol}_{timeframe}_{start}_{end}"
     if cache_key not in st.session_state:
         with st.spinner(f"Fetching {symbol} data…"):
@@ -66,7 +67,8 @@ def main() -> None:
     if panels.get("signals"):
         render_signals(df, signals, symbol)
 
-    # Backtest panel
+    # Backtest + quality evaluation panel
+    portfolio, metrics = None, None
     if panels.get("backtest"):
         bt_key = f"bt_{symbol}_{strategy_name}_{timeframe}_{start}_{end}"
         if bt_key not in st.session_state or live_params:
@@ -76,12 +78,16 @@ def main() -> None:
                     st.session_state[bt_key] = (portfolio, metrics)
                 except Exception as exc:
                     st.error(f"Backtest failed: {exc}")
-                    portfolio, metrics = None, None
         else:
             portfolio, metrics = st.session_state[bt_key]
 
         if portfolio is not None and metrics is not None:
             render_backtest(portfolio, metrics)
+
+    # Position sizer panel (pre-filled from backtest metrics when available)
+    if panels.get("position_sizer"):
+        with st.expander("Position Sizer", expanded=False):
+            render_position_sizer(metrics)
 
     # News panel
     if panels.get("news"):

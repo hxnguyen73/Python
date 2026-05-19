@@ -8,7 +8,7 @@ import yaml
 from src.strategies.base_strategy import BaseStrategy
 from src.strategies.registry import registry
 
-_STRATEGIES_YAML = Path(__file__).parents[4] / "config" / "strategies.yaml"
+_STRATEGIES_YAML = Path(__file__).parents[3] / "config" / "strategies.yaml"
 
 
 def render_strategy_editor(strategy_name: str) -> dict:

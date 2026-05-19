@@ -8,7 +8,7 @@ import yaml
 
 from src.strategies.registry import registry
 
-_SETTINGS_PATH = Path(__file__).parents[4] / "config" / "settings.yaml"
+_SETTINGS_PATH = Path(__file__).parents[3] / "config" / "settings.yaml"
 
 
 def _load_settings() -> dict:
@@ -54,6 +54,7 @@ def render_sidebar() -> dict:
         "chart": st.sidebar.checkbox("Chart", value=panel_cfg.get("chart", True)),
         "signals": st.sidebar.checkbox("Signals Table", value=panel_cfg.get("signals", True)),
         "backtest": st.sidebar.checkbox("Backtest Results", value=panel_cfg.get("backtest", True)),
+        "position_sizer": st.sidebar.checkbox("Position Sizer", value=panel_cfg.get("position_sizer", True)),
         "news": st.sidebar.checkbox("News", value=panel_cfg.get("news", True)),
         "strategy_editor": st.sidebar.checkbox("Strategy Editor", value=panel_cfg.get("strategy_editor", True)),
     }
