@@ -8,7 +8,7 @@ orb:
   stop_buffer_pct: 0.002
   volume_multiplier: 1.5
 rsi:
-  confirm_bars: 1
+  confirm_bars: 3
   overbought_level: 70.0
   oversold_level: 30.0
   rsi_period: 14
