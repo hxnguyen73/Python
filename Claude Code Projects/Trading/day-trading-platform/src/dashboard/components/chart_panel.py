@@ -14,6 +14,13 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
         st.warning("No data to display.")
         return
 
+    # Convert UTC timestamps to LA local time for display only
+    la_tz = "America/Los_Angeles"
+    if df.index.tz is None:
+        la_index = df.index.tz_localize("UTC").tz_convert(la_tz)
+    else:
+        la_index = df.index.tz_convert(la_tz)
+
     fig = make_subplots(
         rows=2,
         cols=1,
@@ -26,7 +33,7 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
     # Candlestick
     fig.add_trace(
         go.Candlestick(
-            x=df.index,
+            x=la_index,
             open=df["open"],
             high=df["high"],
             low=df["low"],
@@ -42,7 +49,7 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
     try:
         vwap_line = vwap(df)
         fig.add_trace(
-            go.Scatter(x=df.index, y=vwap_line, name="VWAP", line=dict(color="gold", width=1.5)),
+            go.Scatter(x=la_index, y=vwap_line, name="VWAP", line=dict(color="gold", width=1.5)),
             row=1, col=1,
         )
     except Exception:
@@ -52,21 +59,22 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
     try:
         ema20 = ema(df, 20)
         fig.add_trace(
-            go.Scatter(x=df.index, y=ema20, name="EMA 20", line=dict(color="cyan", width=1, dash="dot")),
+            go.Scatter(x=la_index, y=ema20, name="EMA 20", line=dict(color="cyan", width=1, dash="dot")),
             row=1, col=1,
         )
     except Exception:
         pass
 
-    # Entry/exit arrows
-    entry_idx = df.index[signals == 1]
-    exit_idx = df.index[signals == -1]
+    # Entry/exit arrows — convert signal timestamps to LA time
+    entry_utc = df.index[signals == 1]
+    exit_utc = df.index[signals == -1]
 
-    if len(entry_idx):
+    if len(entry_utc):
+        entry_la = entry_utc.tz_convert(la_tz) if entry_utc.tz else entry_utc.tz_localize("UTC").tz_convert(la_tz)
         fig.add_trace(
             go.Scatter(
-                x=entry_idx,
-                y=df.loc[entry_idx, "low"] * 0.998,
+                x=entry_la,
+                y=df.loc[entry_utc, "low"] * 0.998,
                 mode="markers",
                 marker=dict(symbol="triangle-up", color="lime", size=10),
                 name="Entry",
@@ -74,11 +82,12 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
             row=1, col=1,
         )
 
-    if len(exit_idx):
+    if len(exit_utc):
+        exit_la = exit_utc.tz_convert(la_tz) if exit_utc.tz else exit_utc.tz_localize("UTC").tz_convert(la_tz)
         fig.add_trace(
             go.Scatter(
-                x=exit_idx,
-                y=df.loc[exit_idx, "high"] * 1.002,
+                x=exit_la,
+                y=df.loc[exit_utc, "high"] * 1.002,
                 mode="markers",
                 marker=dict(symbol="triangle-down", color="red", size=10),
                 name="Exit",
@@ -89,7 +98,7 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
     # Volume bars
     colors = ["#26a69a" if c >= o else "#ef5350" for c, o in zip(df["close"], df["open"])]
     fig.add_trace(
-        go.Bar(x=df.index, y=df["volume"], name="Volume", marker_color=colors, showlegend=False),
+        go.Bar(x=la_index, y=df["volume"], name="Volume", marker_color=colors, showlegend=False),
         row=2, col=1,
     )
 

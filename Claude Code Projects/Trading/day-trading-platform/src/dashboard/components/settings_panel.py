@@ -65,15 +65,46 @@ def render_sidebar() -> dict:
     entry_strategy = st.sidebar.selectbox("Entry Strategy", options=strategy_names, index=entry_idx)
     exit_strategy = st.sidebar.selectbox("Exit Strategy", options=strategy_names, index=exit_idx)
 
-    stop_pct = st.sidebar.number_input(
-        "Trailing Stop %",
-        value=dash_cfg.get("default_stop_pct", 0.5) / 100,
-        step=0.001,
-        min_value=0.0,
-        max_value=0.20,
-        format="%.3f",
-        help="Trailing stop as a fraction (e.g. 0.005 = 0.5%). Set 0 to disable.",
+    # ── Stop Loss ──────────────────────────────────────────────────────────
+    st.sidebar.subheader("Stop Loss")
+    stop_mode = st.sidebar.radio(
+        "Stop type",
+        options=["Fixed %", "ATR Multiple"],
+        horizontal=True,
     )
+
+    if stop_mode == "Fixed %":
+        stop_pct = st.sidebar.number_input(
+            "Trailing Stop %",
+            value=dash_cfg.get("default_stop_pct", 0.5) / 100,
+            step=0.001,
+            min_value=0.0,
+            max_value=0.20,
+            format="%.3f",
+            help="Trailing stop as a fraction (e.g. 0.005 = 0.5%). Set 0 to disable.",
+        )
+        atr_period = 14
+        atr_multiplier = 2.0
+    else:
+        stop_pct = 0.0
+        atr_period = st.sidebar.number_input(
+            "ATR Period",
+            value=14,
+            min_value=1,
+            max_value=50,
+            step=1,
+            help="Number of bars used to calculate the Average True Range.",
+        )
+        atr_multiplier = st.sidebar.number_input(
+            "ATR Multiplier",
+            value=2.0,
+            min_value=0.1,
+            max_value=10.0,
+            step=0.1,
+            format="%.1f",
+            help="Stop is placed at close − N × ATR and trails up as price rises.",
+        )
+
     trailing_stop_only = st.sidebar.checkbox(
         "Trailing stop as sole exit",
         value=False,
@@ -110,7 +141,10 @@ def render_sidebar() -> dict:
         "timeframe": timeframe,
         "entry_strategy": entry_strategy,
         "exit_strategy": exit_strategy,
+        "stop_mode": stop_mode,
         "stop_pct": stop_pct,
+        "atr_period": int(atr_period),
+        "atr_multiplier": float(atr_multiplier),
         "trailing_stop_only": trailing_stop_only,
         "start_date": start_date.isoformat(),
         "end_date": end_date.isoformat(),

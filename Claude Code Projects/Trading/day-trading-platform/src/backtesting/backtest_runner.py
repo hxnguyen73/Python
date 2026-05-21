@@ -13,7 +13,7 @@ from src.backtesting.metrics import BacktestMetrics, compute_metrics
 from src.backtesting.trade_rules import TRADING_MODES, enforce_trade_limits
 from src.strategies.base_strategy import BaseStrategy
 from src.strategies.registry import registry
-from src.strategies.trailing_stop import apply_trailing_stop
+from src.strategies.trailing_stop import apply_atr_trailing_stop, apply_trailing_stop
 
 _SETTINGS = Path(__file__).parents[2] / "config" / "settings.yaml"
 
@@ -32,15 +32,18 @@ def build_signals(
     stop_pct: float,
     trading_mode: str = "Day Trade",
     trailing_stop_only: bool = False,
+    stop_mode: str = "Fixed %",
+    atr_period: int = 14,
+    atr_multiplier: float = 2.0,
 ) -> tuple[pd.Series, pd.Series, pd.Series]:
     """Combine entry strategy, exit strategy, and trailing stop into filtered signals.
 
+    stop_mode:          "Fixed %" uses stop_pct; "ATR Multiple" uses atr_period + atr_multiplier.
     trailing_stop_only: when True the exit strategy's signals are suppressed —
-    only the trailing stop and EOD auto-close can exit the position.
+                        only the trailing stop and EOD auto-close can exit the position.
 
     Returns (entries, exits, exit_reasons).
-    exit_reasons is a Series with "Strategy Stop", "Trailing Stop", or "End of Day"
-    at each exit bar, and "" everywhere else.
+    exit_reasons values: "Strategy Stop", "Trailing Stop", "End of Day", or "".
     """
     raw_entries = entry_strategy.generate_entries(df)
 
@@ -50,7 +53,9 @@ def build_signals(
         raw_strategy_exits = exit_strategy.generate_exits(df)
 
     raw_trailing_exits = pd.Series(0, index=df.index, dtype=int)
-    if stop_pct > 0:
+    if stop_mode == "ATR Multiple":
+        raw_trailing_exits = apply_atr_trailing_stop(df, raw_entries, atr_period, atr_multiplier)
+    elif stop_pct > 0:
         raw_trailing_exits = apply_trailing_stop(df, raw_entries, stop_pct)
 
     return enforce_trade_limits(df, raw_entries, raw_strategy_exits, raw_trailing_exits)
@@ -64,6 +69,9 @@ def run(
     trading_mode: str = "Day Trade",
     params: dict | None = None,
     trailing_stop_only: bool = False,
+    stop_mode: str = "Fixed %",
+    atr_period: int = 14,
+    atr_multiplier: float = 2.0,
 ) -> tuple[object, BacktestMetrics]:
     """Run a single backtest. Returns (vbt.Portfolio, BacktestMetrics)."""
     settings = _load_settings()
@@ -81,7 +89,10 @@ def run(
     mode_cfg = TRADING_MODES["Day Trade"]
     freq = mode_cfg["freq"]
 
-    entries, exits, _ = build_signals(df, entry_strategy, exit_strategy, stop_pct, trading_mode, trailing_stop_only)
+    entries, exits, _ = build_signals(
+        df, entry_strategy, exit_strategy, stop_pct, trading_mode,
+        trailing_stop_only, stop_mode, atr_period, atr_multiplier,
+    )
 
     portfolio = vbt.Portfolio.from_signals(
         close=df["close"],

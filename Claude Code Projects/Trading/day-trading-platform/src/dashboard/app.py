@@ -37,7 +37,10 @@ def main() -> None:
     trading_mode = selection["trading_mode"]    # always "Day Trade"
     entry_name = selection["entry_strategy"]
     exit_name = selection["exit_strategy"]
+    stop_mode = selection["stop_mode"]
     stop_pct = selection["stop_pct"]
+    atr_period = selection["atr_period"]
+    atr_multiplier = selection["atr_multiplier"]
     trailing_stop_only = selection["trailing_stop_only"]
     start = selection["start_date"]
     end = selection["end_date"]
@@ -74,7 +77,8 @@ def main() -> None:
 
     # Compute filtered signals + exit reasons
     entries, exits, exit_reasons = build_signals(
-        df, entry_strat, exit_strat, stop_pct, trading_mode, trailing_stop_only
+        df, entry_strat, exit_strat, stop_pct, trading_mode,
+        trailing_stop_only, stop_mode, atr_period, atr_multiplier,
     )
     signals = _combine_signals(entries, exits)
 
@@ -89,7 +93,7 @@ def main() -> None:
     # Backtest + quality evaluation panel
     portfolio, metrics = None, None
     if panels.get("backtest"):
-        bt_key = f"bt_{symbol}_{entry_name}_{exit_name}_{stop_pct}_{trading_mode}_{timeframe}_{start}_{end}"
+        bt_key = f"bt_{symbol}_{entry_name}_{exit_name}_{stop_mode}_{stop_pct}_{atr_period}_{atr_multiplier}_{trailing_stop_only}_{trading_mode}_{timeframe}_{start}_{end}"
         if bt_key not in st.session_state or live_params:
             with st.spinner("Running backtest…"):
                 try:
@@ -100,6 +104,9 @@ def main() -> None:
                         stop_pct=stop_pct,
                         trading_mode=trading_mode,
                         trailing_stop_only=trailing_stop_only,
+                        stop_mode=stop_mode,
+                        atr_period=atr_period,
+                        atr_multiplier=atr_multiplier,
                     )
                     st.session_state[bt_key] = (portfolio, metrics)
                 except Exception as exc:
