@@ -18,7 +18,7 @@ class MACDEMAStrategy(BaseStrategy):
         "ema_trend_period": {"type": "int", "default": 50, "min": 10, "max": 200, "step": 5},
     }
 
-    def generate_signals(self, df: pd.DataFrame) -> pd.Series:
+    def _compute(self, df: pd.DataFrame):
         result = macd(
             df,
             fast=self.params["fast_period"],
@@ -26,14 +26,23 @@ class MACDEMAStrategy(BaseStrategy):
             signal_period=self.params["signal_period"],
         )
         trend = ema(df, self.params["ema_trend_period"])
+        return result, trend
 
-        macd_cross_up = (result.macd > result.signal) & (result.macd.shift(1) <= result.signal.shift(1))
-        macd_cross_dn = (result.macd < result.signal) & (result.macd.shift(1) >= result.signal.shift(1))
+    def generate_entries(self, df: pd.DataFrame) -> pd.Series:
+        result, trend = self._compute(df)
+        cross_up = (result.macd > result.signal) & (result.macd.shift(1) <= result.signal.shift(1))
         above_trend = df["close"] > trend
+        return (cross_up & above_trend).astype(int)
 
+    def generate_exits(self, df: pd.DataFrame) -> pd.Series:
+        result, _ = self._compute(df)
+        cross_dn = (result.macd < result.signal) & (result.macd.shift(1) >= result.signal.shift(1))
+        return cross_dn.astype(int)
+
+    def generate_signals(self, df: pd.DataFrame) -> pd.Series:
         signal = pd.Series(0, index=df.index, dtype=int)
-        signal[macd_cross_up & above_trend] = 1
-        signal[macd_cross_dn] = -1
+        signal[self.generate_entries(df) == 1] = 1
+        signal[self.generate_exits(df) == 1] = -1
         return signal
 
     def thinkscript_body(self) -> str:

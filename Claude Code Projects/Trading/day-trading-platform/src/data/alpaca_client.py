@@ -4,6 +4,7 @@ import os
 from datetime import datetime, timezone
 
 import pandas as pd
+from alpaca.data.enums import Adjustment
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
@@ -60,6 +61,7 @@ def fetch_bars(
         start=start,
         end=end,
         feed=feed,
+        adjustment=Adjustment.SPLIT,
     )
 
     bars = client.get_stock_bars(request)

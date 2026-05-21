@@ -7,7 +7,7 @@ from src.strategies.indicators import vwap, volume_ratio
 
 
 class VWAPStrategy(BaseStrategy):
-    """VWAP reversion/breakout: entry when price crosses above VWAP with a volume spike."""
+    """VWAP reversion/breakout."""
 
     name = "vwap"
 
@@ -17,7 +17,7 @@ class VWAPStrategy(BaseStrategy):
         "stop_pct": {"type": "float", "default": 0.005, "min": 0.001, "max": 0.05, "step": 0.001},
     }
 
-    def generate_signals(self, df: pd.DataFrame) -> pd.Series:
+    def generate_entries(self, df: pd.DataFrame) -> pd.Series:
         vwap_line = vwap(df)
         vol_ratio = volume_ratio(df)
         buffer = self.params["vwap_buffer_pct"]
@@ -28,11 +28,18 @@ class VWAPStrategy(BaseStrategy):
         vol_spike = vol_ratio >= vol_mul
 
         entry = above_vwap & was_below & vol_spike
-        exit_ = df["close"] < vwap_line * (1 - buffer)
+        return entry.astype(int)
 
+    def generate_exits(self, df: pd.DataFrame) -> pd.Series:
+        vwap_line = vwap(df)
+        buffer = self.params["vwap_buffer_pct"]
+        exit_ = df["close"] < vwap_line * (1 - buffer)
+        return exit_.astype(int)
+
+    def generate_signals(self, df: pd.DataFrame) -> pd.Series:
         signal = pd.Series(0, index=df.index, dtype=int)
-        signal[entry] = 1
-        signal[exit_] = -1
+        signal[self.generate_entries(df) == 1] = 1
+        signal[self.generate_exits(df) == 1] = -1
         return signal
 
     def thinkscript_body(self) -> str:

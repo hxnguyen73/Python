@@ -18,7 +18,8 @@ def _load_settings() -> dict:
 
 
 def _cache_path(cache_dir: Path, symbol: str, start: str, end: str, timeframe: str) -> Path:
-    key = f"{symbol}_{start}_{end}_{timeframe}"
+    # "_split" suffix version-stamps the key so unadjusted cache files are never reused
+    key = f"{symbol}_{start}_{end}_{timeframe}_split"
     h = hashlib.md5(key.encode()).hexdigest()[:8]
     return cache_dir / f"{symbol}_{timeframe}_{h}.parquet"
 

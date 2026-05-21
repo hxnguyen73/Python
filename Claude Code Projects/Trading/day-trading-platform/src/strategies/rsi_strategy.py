@@ -7,7 +7,7 @@ from src.strategies.indicators import rsi
 
 
 class RSIStrategy(BaseStrategy):
-    """RSI oversold/overbought mean reversion with bullish confirmation candle."""
+    """RSI oversold/overbought mean reversion."""
 
     name = "rsi"
 
@@ -18,22 +18,24 @@ class RSIStrategy(BaseStrategy):
         "confirm_bars": {"type": "int", "default": 1, "min": 1, "max": 5, "step": 1},
     }
 
-    def generate_signals(self, df: pd.DataFrame) -> pd.Series:
+    def generate_entries(self, df: pd.DataFrame) -> pd.Series:
         rsi_line = rsi(df, self.params["rsi_period"])
         oversold = self.params["oversold_level"]
-        overbought = self.params["overbought_level"]
         confirm = self.params["confirm_bars"]
-
         was_oversold = rsi_line.shift(confirm) < oversold
         crosses_up = rsi_line > oversold
         bullish_candle = df["close"] > df["open"]
+        return (was_oversold & crosses_up & bullish_candle).astype(int)
 
-        entry = was_oversold & crosses_up & bullish_candle
-        exit_ = rsi_line >= overbought
+    def generate_exits(self, df: pd.DataFrame) -> pd.Series:
+        rsi_line = rsi(df, self.params["rsi_period"])
+        overbought = self.params["overbought_level"]
+        return (rsi_line >= overbought).astype(int)
 
+    def generate_signals(self, df: pd.DataFrame) -> pd.Series:
         signal = pd.Series(0, index=df.index, dtype=int)
-        signal[entry] = 1
-        signal[exit_] = -1
+        signal[self.generate_entries(df) == 1] = 1
+        signal[self.generate_exits(df) == 1] = -1
         return signal
 
     def thinkscript_body(self) -> str:

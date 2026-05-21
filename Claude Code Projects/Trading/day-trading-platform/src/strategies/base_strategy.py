@@ -22,12 +22,14 @@ class BaseStrategy(ABC):
 
     Subclasses declare PARAMS as a class-level dict; the constructor merges
     defaults → strategies.yaml overrides → any runtime params passed in.
+
+    Implement generate_entries() and generate_exits() independently so the
+    dashboard can mix entry and exit strategies from different classes.
+    The legacy generate_signals() is kept for backward compatibility and
+    delegates to the two methods above by default.
     """
 
-    # Each entry: {"type": "int"|"float"|"bool"|"select", "default": ..., ...}
     PARAMS: dict[str, dict] = {}
-
-    # Registry key — set automatically by the registry; override to customise.
     name: str = ""
 
     def __init__(self, params: dict | None = None) -> None:
@@ -36,9 +38,31 @@ class BaseStrategy(ABC):
         runtime = params or {}
         self.params: dict = {**defaults, **yaml_overrides, **runtime}
 
+    # ── Entry / Exit split ─────────────────────────────────────────────────
+
+    def generate_entries(self, df: pd.DataFrame) -> pd.Series:
+        """Return a Series aligned to df.index: 1=entry signal, 0=nothing.
+
+        Default implementation extracts entries from generate_signals().
+        Override for a clean implementation.
+        """
+        return (self.generate_signals(df) == 1).astype(int)
+
+    def generate_exits(self, df: pd.DataFrame) -> pd.Series:
+        """Return a Series aligned to df.index: 1=exit signal, 0=nothing.
+
+        Default implementation extracts exits from generate_signals().
+        Override for a clean implementation.
+        """
+        return (self.generate_signals(df) == -1).astype(int)
+
     @abstractmethod
     def generate_signals(self, df: pd.DataFrame) -> pd.Series:
-        """Return a Series aligned to df.index: 1=entry, -1=exit, 0=hold."""
+        """Return a Series aligned to df.index: 1=entry, -1=exit, 0=hold.
+
+        Kept for backward compatibility with custom user strategies that
+        implement only this method.
+        """
 
     def thinkscript_body(self) -> str:
         """Return a strategy-specific ThinkScript snippet.

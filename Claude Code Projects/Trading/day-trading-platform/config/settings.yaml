@@ -1,20 +1,3 @@
-symbols:
-  - AAPL
-  - TSLA
-  - NVDA
-  - SPY
-  - QQQ
-
-default_symbol: AAPL
-
-timeframes:
-  - 1Min
-  - 5Min
-  - 15Min
-  - 1Hour
-
-default_timeframe: 5Min
-
 data:
   cache_dir: data/cache
   cache_enabled: true
@@ -28,7 +11,11 @@ backtest:
   commission: 0.001        # 0.1% per trade
 
 dashboard:
-  default_strategy: vwap
+  default_symbols: "AAPL"
+  default_trading_mode: "Day Trade"
+  default_entry_strategy: vwap
+  default_exit_strategy: macd_ema
+  default_stop_pct: 0.5    # trailing stop % (0.5 = 0.5%)
   panels:
     chart: true
     signals: true
