@@ -82,14 +82,14 @@ def render_sidebar() -> dict:
 
     # ── Date Range ─────────────────────────────────────────────────────────
     st.sidebar.subheader("Date Range")
-    start_date = st.sidebar.date_input(
-        "Start",
-        value=date.fromisoformat(bt_cfg.get("default_start", "2024-01-01")),
+    _today = date.today()
+    _default_end = _today
+    _default_start = _today.replace(
+        year=_today.year if _today.month > 6 else _today.year - 1,
+        month=_today.month - 6 if _today.month > 6 else _today.month + 6,
     )
-    end_date = st.sidebar.date_input(
-        "End",
-        value=date.fromisoformat(bt_cfg.get("default_end", "2024-12-31")),
-    )
+    start_date = st.sidebar.date_input("Start", value=_default_start)
+    end_date = st.sidebar.date_input("End", value=_default_end)
 
     # ── Panel visibility ───────────────────────────────────────────────────
     st.sidebar.markdown("---")
