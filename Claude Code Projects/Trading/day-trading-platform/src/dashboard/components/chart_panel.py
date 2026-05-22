@@ -110,10 +110,12 @@ def render_chart(df: pd.DataFrame, signals: pd.Series, strategy_name: str) -> No
         margin=dict(l=0, r=0, t=40, b=0),
     )
 
-    # Allow Y axis to rescale when the user zooms on the X axis.
-    # fixedrange=False unlocks the axis; autorange=True tells Plotly to
-    # refit the visible bars rather than keeping the full-dataset extent.
+    # Price axis: auto-range so zooming X rescales Y to visible bars.
     fig.update_yaxes(autorange=True, fixedrange=False, row=1, col=1)
-    fig.update_yaxes(autorange=True, fixedrange=False, row=2, col=1)
+
+    # Volume axis: cap at the 95th-percentile so one spike day doesn't
+    # squash every other bar to a sliver. fixedrange=False keeps it interactive.
+    vol_ceil = df["volume"].quantile(0.95) * 1.1
+    fig.update_yaxes(range=[0, vol_ceil], fixedrange=False, row=2, col=1)
 
     st.plotly_chart(fig, use_container_width=True)
