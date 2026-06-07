@@ -1,0 +1,420 @@
+[
+  {
+    "id": "2009-AMC10B-Q01",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Each morning of her ﬁve-day workweek, Jane bought either a 50-cent mufﬁn or a 75-cent bagel.\nHer total cost for the week was a whole number of dollars. How many bagels did she buy?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "Make a table for the cost of the muﬃns and bagels:\nCost of Muﬃns\nCost of Bagels\nTotal Cost\n0 · 0.50 = 0.00\n5 · 0.75 = 3.75\n3.75\n1 · 0.50 = 0.50\n4 · 0.75 = 3.00\n3.50\n2 · 0.50 = 1.00\n3 · 0.75 = 2.25\n3.25\n3 · 0.50 = 1.50\n2 · 0.75 = 1.50\n3.00\n4 · 0.50 = 2.00\n1 · 0.75 = 0.75\n2.75\n5 · 0.50 = 2.50\n0 · 0.75 = 0.00\n2.50\nThe only combination which is a whole number of dollars is the cost of 3 muﬃns\nand 2 bagels.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q03",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "?",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "1\n3",
+      "C": "1\n2",
+      "D": "2\n3",
+      "E": "3"
+    },
+    "correct_answer": "C",
+    "solution_text": "The loss of 3 cans of paint resulted in 5 fewer rooms being\npainted, so the ratio of cans of paint to rooms painted is 3 : 5. Hence for 25\nrooms she would require 3\n5 · 25 = 15 cans of paint.\nOR\nIf she used x cans of paint for 25 rooms, then x+3\n30 =\nx\n25. Hence 25x + 75 = 30x,\nand x = 15.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q04",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A rectangular yard contains two ﬂower beds in the shape of congruent isosceles right triangles.\nTHe remainder of the yard has a trapezoidal shape, as shown. The parallel sides of the trapezoid\nhave lengths 15 and 25 meters. What fraction of the yard is occupied by the ﬂower beds?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "1\n6",
+      "C": "1\n5",
+      "D": "1\n4",
+      "E": "1\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "Each triangle has leg length 1\n2 · (25 −15) = 5 meters and area\n1\n2 · 52 = 25\n2 square meters. Thus the ﬂower beds have a total area of 25 square\nmeters. The entire yard has length 25 and width 5, so its area is 125. The\nfraction of the yard occupied by the ﬂower beds is\n25\n125 = 1\n5.",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10B-Q05",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Twenty percent less than 60 is one-third more than what number?",
+    "answer_choices": {
+      "A": "16",
+      "B": "30",
+      "C": "32",
+      "D": "36",
+      "E": "48"
+    },
+    "correct_answer": "D",
+    "solution_text": "Twenty percent less than 60 is 4\n5 · 60 = 48. One-third more than\na number n is 4\n3n. Therefore 4\n3n = 48, and the number is 36.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q06",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Kiana has two older twin brothers. The product of their ages is 128. What is the sum of their\nthree ages?",
+    "answer_choices": {
+      "A": "10",
+      "B": "12",
+      "C": "16",
+      "D": "18",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "The age of each person is a factor of 128 = 27. So the twins could\nbe 20 = 1, 21 = 2, 22 = 4, 23 = 8 years of age and, consequently, Kiana could\nbe 128\n12 = 128, 128\n22 = 32, 128\n42 = 8, or 128\n82 = 2 years old, respectively. Because\nKiana is younger than her brothers, she must be 2 years old. The sum of their\nages is 2 + 8 + 8 = 18.\n\nSolutions\n2009\n10th AMC 10 B\n3",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q07",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "By inserting parentheses, it is possible to give the expression\n2 × 3 + 4 × 5\nseveral values. How many different values can be obtained?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "C",
+    "solution_text": "The three operations can be performed in any of 3! = 6 orders.\nHowever, if the addition is performed either ﬁrst or last, then multiplying in\neither order produces the same result. Thus at most four distinct values can be\nobtained. It is easily checked that the values of the four expressions\n(2 × 3) + (4 × 5) = 26,\n((2 × 3 + 4) × 5) = 50,\n2 × (3 + (4 × 5)) = 46,\n2 × (3 + 4) × 5 = 70\nare in fact all distinct.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q08",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In a certain year the price of gasoline rose by 20% during January, fell by 20% during February,\nrose by 25% during March, and fell by x% during April. The price of gasoline at the end of April\nwas the same as it had been at the beginning of January. To the nearest integer, what is x?",
+    "answer_choices": {
+      "A": "12",
+      "B": "17",
+      "C": "20",
+      "D": "25",
+      "E": "35"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let p denote the price at the beginning of January. The price at\nthe end of March was (1.2)(0.8)(1.25)p = 1.2p. Because the price at the end of\nApril was p, the price decreased by 0.2p during April, and the percent decrease\nwas\nx = 100 · 0.2p\n1.2p = 100\n6\n≈16.7 .\nTo the nearest integer, x is 17.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q09",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Segment BD and AE intersect at C, as shown, AB = BC = CD = CE, and ∠A = 5\n2∠B. What\nis the degree measure of ∠D?",
+    "answer_choices": {
+      "A": "52.5",
+      "B": "55",
+      "C": "57.5",
+      "D": "60",
+      "E": "62.5"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because △ABC is isosceles, ∠A = ∠C. Because ∠A = 5\n2∠B, we\nhave 5\n2∠B + 5\n2∠B + ∠B = 180◦, so ∠B = 30◦. Therefore ∠ACB = ∠DCE =\n75◦. Because △CDE is isosceles, 2∠D + 75◦= 180◦, so ∠D = 52.5◦.\nx\n5-x\n1",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10B-Q10",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A ﬂagpole is originally 5 meters tall. A hurricane snaps the ﬂagpole at a point x meters above\nthe ground so that the upper part, still attached to the stump, touches the ground 1 meter away\nfrom the base. What is x?",
+    "answer_choices": {
+      "A": "2.0",
+      "B": "2.1",
+      "C": "2.2",
+      "D": "2.3",
+      "E": "2.4"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let x be the height of the stump. Then\n5 −x is the height of the snapped part, now forming the\nhypotenuse of a right triangle. By the Pythagorean Theo-\nrem,\nx2 + 12 = (5 −x)2 = x2 −10x + 25\nfrom which x = 2.4.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q11",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "How many 7 digit palindromes (numbers that read the same backward as forward) can be\nformed using the digits 2, 2, 3, 3, 5, 5, 5?",
+    "answer_choices": {
+      "A": "6",
+      "B": "12",
+      "C": "24",
+      "D": "36",
+      "E": "48"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because the digit 5 appears three times, 5 must be the middle\ndigit of any such palindrome. In the ﬁrst three digits each of 2, 3, and 5 must\nappear once and the order in which they appear determines the last three dig-\nits. Since there are 3! = 6 ways to order three distinct digits the number of\npalindromes is 6.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q12",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Distinct points A, B, C, and D lie on a line, with AB = BC = CD = 1. Points E and F lie on a\nsecond line, parallel to the ﬁrst, with EF = 1. A triangle with positive area has three of the six\npoints as its vertices. How many possible values are there for the area of the triangle?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "A",
+    "solution_text": "The base of the triangle can be 1, 2, or 3, and its altitude is the\ndistance between the two parallel lines, so there are three possible values for the\narea.\n\nSolutions\n2009\n10th AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q13",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "As shown below, convex pentagon ABCDE has sides AB = 3, BC = 4, CD = 6, DE = 3, and\nEA = 7. The pentagon is originally positioned in the plane with vertex A at the origin and vertex\nB on the positive x-axis. The pentagon is then rolled clockwise to the right along the x-axis.\nWhich side will touch the point x = 2009 on the x-axis?\n\nx\nE\nD\nC\nB\nA\n(0, 0)\n3\n4\n6\n3\n7",
+    "answer_choices": {
+      "A": "AB",
+      "B": "BC",
+      "C": "CD",
+      "D": "DE",
+      "E": "EA"
+    },
+    "correct_answer": "C",
+    "solution_text": "Deﬁne a rotation of the pentagon to be a sequence that starts\nwith AB on the x-axis and ends when AB is on the x-axis the ﬁrst time there-\nafter. Because the pentagon has perimeter 23 and 2009 = 23 · 87 + 8, it follows\nthat after 87 rotations, point A will be at x = 23 · 87 = 2001 and point B will\nbe at x = 2001 + 3 = 2004. Points C and D will next touch the x-axis at\nx = 2004 + 4 = 2008 and x = 2008 + 6 = 2014, respectively. Therefore a point\non CD will touch x = 2009.",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10B-Q14",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "On Monday, Millie puts a quart of seeds, 25% of which are millet, into a bird feeder. On each\nsuccessive day she adds another quart of the same mix of seeds without removing any seeds\nthat are left. Each day the birds eat only 25% of the millet in the feeder, but they eat all of the\nother seeds. On which day, just after Millie has placed the seeds, will the birds ﬁnd that more\nthan half the seeds in the feeder are millet?",
+    "answer_choices": {
+      "A": "Tuesday",
+      "B": "Wednesday",
+      "C": "Thursday",
+      "D": "Friday",
+      "E": "Saturday"
+    },
+    "correct_answer": "D",
+    "solution_text": "On Monday, day 1, the birds ﬁnd 1\n4 quart of millet in the feeder.\nOn Tuesday they ﬁnd\n1\n4 + 3\n4 · 1\n4\nquarts of millet. On Wednesday, day 3, they ﬁnd\n1\n4 + 3\n4 · 1\n4 +\nµ3\n4\n¶2\n· 1\n4\nquarts of millet. The number of quarts of millet they ﬁnd on day n is\n1\n4 + 3\n4 · 1\n4 +\nµ3\n4\n¶2\n· 1\n4 + · · · +\nµ3\n4\n¶n−1\n· 1\n4 = ( 1\n4)(1 −( 3\n4)n)\n1 −3\n4\n= 1 −\nµ3\n4\n¶n\n.\nThe birds always ﬁnd 3\n4 quart of other seeds, so more than half the seeds are\nmillet if 1 −( 3\n4)n > 3\n4, that is, when ( 3\n4)n < 1\n4. Because ( 3\n4)4 =\n81\n256 > 1\n4 and\n( 3\n4)5 =\n243\n1024 < 1\n4, this will ﬁrst occur on day 5 which is Friday.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q15",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "When a bucket is two-thirds full of water, the bucket and water weigh a kilograms. When the\nbucket is one-half full of water the total weight is b kilograms. In terms of a and b, what is the\ntotal weight in kilograms when the bucket is full of water?",
+    "answer_choices": {
+      "A": "√\n2\n3",
+      "B": "1\n2",
+      "C": "√\n3\n3",
+      "D": "√\n2\n2",
+      "E": "3a −2b\n16\nPoints A and C lie on a circle centered at O, each of BA and BC are tangent to the circle, and\n△ABC is equilateral. The circle intersects BO at D. What is BD\nBO ?"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let x be the weight of the bucket and let y be the weight of the\nwater in a full bucket. Then we are given that x + 2\n3y = a and x + 1\n2y = b.\nHence 1\n6y = a −b, so y = 6a −6b. Thus x = b −1\n2(6a −6b) = −3a + 4b. Finally,\nx + y = 3a −2b.\nOR\nThe diﬀerence between a kg and b kg is the weight of water that would ﬁll 1\n6\nof a bucket. So the weight of water that would ﬁll 1\n2 of a bucket is 3(a −b).\nTherefore the weight of a bucket ﬁlled with water is b + 3(a −b) = 3a −2b.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q17",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Five unit squares are arranged in the coordinate plane as shown, with the lower left corner at the\norigin. The slanted line, extending from (a, 0) to (3, 3), divides the entire region into two regions\nof equal area. What is a?\n\ny\nx\n(a, 0)\n(3, 3)",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "3\n5",
+      "C": "2\n3",
+      "D": "3\n4",
+      "E": "4\n5"
+    },
+    "correct_answer": "C",
+    "solution_text": "The area of the entire region is 5. The shaded region consists of a\ntriangle with base 3−a and altitude 3, with one unit square removed. Therefore\n3(3 −a)\n2\n−1 = 5\n2.\nSolving this equation yields a = 2\n3.\nA\nB\nC\nD\nE\nM\n6\n8",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10B-Q18",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Rectangle ABCD has AB = 8 and BC = 6. Point M is the midpoint of diagonal AC, and E is\non AB with ME ⊥AC. What is the area of △AME?",
+    "answer_choices": {
+      "A": "65\n8",
+      "B": "25\n3",
+      "C": "9",
+      "D": "75\n8",
+      "E": "85\n8"
+    },
+    "correct_answer": "D",
+    "solution_text": "By the Pythagorean Theorem, AC = 10,\nso AM = 5.\nTriangles AME and ABC are similar, so\nME\nAM = 6\n8 and ME = 15\n4 . The area of △AME is 1\n2 · 5 · 15\n4 = 75\n8 .\nOR\nAs above, AM = 5 and △AME and △ABC are similar with similarity ratio 5:8.\nTherefore\nArea(△AME) =\nµ5\n8\n¶2\n· Area(△ABC) = 52\n82 · 8 · 6\n2\n= 75\n8 .",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q19",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "A particular 12-hour digital clock displays the hour and minute of a day. Unfortunately, whenever\nit is supposed to display a 1, it mistakenly displays a 9. For example, when it is 1:16 PM the clock\nincorrectly shows 9:96 PM. What fraction of the day will the clock show the correct time?",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "5\n8",
+      "C": "3\n4",
+      "D": "5\n6",
+      "E": "9"
+    },
+    "correct_answer": "A",
+    "solution_text": "The clock will display the incorrect time for the entire hours\nof 1, 10, 11, and 12. So the correct hour is displayed correctly 2\n3 of the time.\nThe minutes will not display correctly whenever either the tens digit or the ones\ndigit is a 1, so the minutes that will not display correctly are 10, 11, 12, . . . ,\n19, and 01, 21, 31, 41, and 51. This is 15 of the 60 possible minutes for a given\nhour. Hence the fraction of the day that the clock shows the correct time is\n2\n3 · (1 −15\n60) = 2\n3 · 3\n4 = 1\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q21",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the remainder when 3^{0} + 3^{1} + 3^{2} + . . . + 3^{2009} is divided by 8?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "4",
+      "E": "6"
+    },
+    "correct_answer": "D",
+    "solution_text": "The sum of any four consecutive powers of 3 is divisible by\n30 + 31 + 32 + 33 = 40 and hence is divisible by 8. Therefore\n(32 + 33 + 34 + 35) + · · · + (32006 + 32007 + 32008 + 32009)\nis divisible by 8. So the required remainder is 30 + 31 = 4.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q22",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A cubical cake with edge length 2 inches is iced on the sides and the top. It is cut vertically into\nthree pieces as shown in this top view, where M is the midpoint of a top edge. The piece whose\ntop is triangle B contains c cubic inches of cake and s square inches of icing. What is c + s?",
+    "answer_choices": {
+      "A": "24\n5",
+      "B": "32\n5",
+      "C": "8 +\n√\n5",
+      "D": "5 + 16\n√\n5\n5",
+      "E": "10 + 5\n√\n5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The area of triangle A is 1, and its hypotenuse has length\n√\n5.\nTriangle B is similar to triangle A and has a hypotenuse of 2, so its area is\n( 2\n√\n5)2 = 4\n5. The volume of the required piece is c = 4\n5 · 2 = 8\n5 cubic inches. The\nicing on this piece has an area of s = 4\n5 + 22 = 24\n5 square inches. Therefore\nc + s = 8\n5 + 24\n5 = 32\n5 .",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10B-Q23",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Rachel and Robert run on a circular track. Rachel runs counterclockwise and completes a lap\nevery 90 seconds, and Robert runs clockwise and completes a lap every 80 seconds. Both start\nfrom the start line at the same time. At some random time between 10 minutes and 11 minutes\nafter they begin to run, a photographer standing inside the track takes a picture that shows one-\nfourth of the track, centered on the starting line. What is the probability that both Rachel and\nRobert are in the picture?",
+    "answer_choices": {
+      "A": "1\n16",
+      "B": "1\n8",
+      "C": "3\n16",
+      "D": "1\n4",
+      "E": "5"
+    },
+    "correct_answer": "C",
+    "solution_text": "After 10 min. = 600 sec., Rachel will have completed 6 laps and\nbe 30 seconds from the ﬁnish line. Because Rachel runs one-fourth of a lap in\n22.5 seconds, she will be in the picture taking region between\n30 −22.5\n2\n= 18.75\nand\n30 + 22.5\n2\n= 41.25\nseconds of the 10th minute. After 10 minutes Robert will have completed 7 laps\nand will be 40 seconds from the starting line. Because Robert runs one-fourth\nof a lap in 20 seconds, he will be in the picture taking region between 30 and\n50 seconds of the 10th minute. Hence both Rachel and Robert will be in the\npicture if it is taken between 30 and 41.25 seconds of the 10th minute. The\nprobability that the picture is snapped during this time is\n41.25 −30\n60\n= 3\n16.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10B-Q24",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "The keystone arch is an ancient architectural feature. It is composed of congruent isosceles\ntrapezoids ﬁtted together along the non-parallel sides, as shown. The bottom sides of the two\nend trapezoids are horizontal. In an arch made with 9 trapezoids, let x be the angle measure in\ndegrees of the larger interior angle of the trapezoid. What is x?",
+    "answer_choices": {
+      "A": "100",
+      "B": "102",
+      "C": "104",
+      "D": "106",
+      "E": "108"
+    },
+    "correct_answer": "A",
+    "solution_text": "Add a symmetric arch to the given arch to create a closed loop\nof trapezoids. Consider the regular 18-sided polygon created by the interior of\nthe completed loop. Each interior angle of a regular 18-gon measures\n(18 −2) · 180◦/18 = 160◦.\nThen x + x + 160◦= 360◦, so x = 100◦.\n\nSolutions\n2009\n10th AMC 10 B\n7\nOR\nA\nB\nC\nExtend two sides of a trapezoid until they meet at the center of the arch, as\nshown. Then △ABC is isosceles and by symmetry ∠ABC = 180\n9\n= 20◦, and\n∠BAC = 80◦. The requested angle is supplementary to ∠BAC, so x = 180 −\n80 = 100◦.",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10B-Q25",
+    "year": 2009,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Each face of a cube is given a single narrow stripe painted from the center of one edge to the\ncenter of its opposite edge. The choice of the edge pairing is made at random and independently\nfor each face. What is the probability that there is a continuous stripe encircling the cube?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "3\n16",
+      "C": "1\n4",
+      "D": "3\n8",
+      "E": "1\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "The stripe on each face of the cube will be oriented in one\nof two possible directions, so there are 26 = 64 possible stripe combinations\non the cube.\nThere are 3 pairs of parallel faces so, if there is an encircling\nstripe, then the pair of faces that do not contribute uniquely determine the\nstripe orientation for the remaining faces. In addition, the stripe on each face\nthat does not contribute may be oriented in 2 diﬀerent ways. Thus a total of\n3·2·2 = 12 stripe combinations on the cube result in a continuous stripe around\nthe cube, and the requested probability is 12\n64 =\n3\n16.\nOR\nWithout loss of generality, orient the cube so that the stripe on the top face\ngoes from front to back. There are two mutually exclusive ways for there to\nbe an encircling stripe: either the front, bottom, and back faces are painted to\ncomplete an encircling stripe with the top face’s stripe, or the front, right, back,\nand left faces are painted to form an encircling stripe. The probability of the\nﬁrst cases is ( 1\n2)3 = 1\n8, and the probability of the second case is ( 1\n2)4 =\n1\n16, so\nthe answer is 1\n8 + 1\n16 =\n3\n16.\nOR\nThere are three possible orientations of an encircling stripe. For any one of these\nto appear, the four faces through which the stripe is to pass must be properly\naligned. The probability of one such stripe alignment is\n¡ 1\n2\n¢4 =\n1\n16. Because\n\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCasualty Actuarial Society\nClay Mathematics Institute\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour Company\nMath Zoom Academy\nMu Alpha Theta\nNational Assessment & Testing\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.\nSolutions\n2009\n10th AMC 10 B\n8\nthere are 3 such possibilities, and these events are disjoint, the total probability\nis 3\n1\n16\n\n=\n3\n16.\nThe problems and solutions in this contest were proposed by Steve Blasberg,\nThomas Butts, Gerald Bergum, Steve Dunbar, Douglas Faires, Sister Josanne Furey,\nGregory Galperin, Jerrold Grossman, Elgin Johnston, Joe Kennedy, David Wells,\nLeRoy Wenstrom, Woody Wenstrom.",
+    "has_image": false
+  }
+]

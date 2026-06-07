@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2007-AMC10A-Q01",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "One ticket to a show costs $20 at full price. Susan buys 4 tickets using a coupon that gives her\na 25% discount. Pam buys 5 tickets using a coupon that gives her a 30% discount. How many\nmore dollars does Pam pay than Susan?",
+    "answer_choices": {
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "15",
+      "E": "20"
+    },
+    "correct_answer": "C",
+    "solution_text": "Susan pays (4)(0.75)(20) = 60 dollars. Pam pays (5)(0.70)(20) =\n70 dollars, so she pays 70 −60 = 10 more dollars than Susan.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q02",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Deﬁne a@b = ab −b^{2} and a#b = a + b −ab^{2}. What is 6@2\n6#2?",
+    "answer_choices": {
+      "A": "−1\n2",
+      "B": "−1\n4",
+      "C": "1\n8",
+      "D": "1\n4",
+      "E": "1\n2"
+    },
+    "correct_answer": "A",
+    "solution_text": "The value of 6@2 is 6 · 2 −22 = 12 −4 = 8, and the value of\n6#2 is 6 + 2 −6 · 22 = 8 −24 = −16. Thus\n6@2\n6#2 =\n8\n−16 = −1\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q03",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "An aquarium has a rectangular base that measures 100 cm by 40 cm and has a height of 50\ncm. It is ﬁlled with water to a height of 40 cm. A brick with a rectangular base that measures 40\ncm by 20 cm and a height of 10 cm is placed in the aquarium. By how many centimeters does\nthe water rise?",
+    "answer_choices": {
+      "A": "0.5",
+      "B": "1",
+      "C": "1.5",
+      "D": "2",
+      "E": "2.5"
+    },
+    "correct_answer": "D",
+    "solution_text": "The brick has a volume of 40 · 20 · 10 = 8000 cubic centimeters.\nSuppose that after the brick is placed in the tank, the water level rises by h\ncentimeters. Then the additional volume occupied in the aquarium is 100·40·h =\n4000h cubic centimeters. Since this must be the same as the volume of the brick,\nwe have\n8000 = 4000h\nand\nh = 2 centimeters",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q04",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The larger of two consecutive odd integers is three times the smaller. What is their sum?",
+    "answer_choices": {
+      "A": "4",
+      "B": "8",
+      "C": "12",
+      "D": "16",
+      "E": "20"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let the smaller of the integers be x. Then the larger is x + 2.\nSo x + 2 = 3x, from which x = 1. Thus the two integers are 1 and 3, and their\nsum is 4.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q05",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A school store sells 7 pencils and 8 notebooks for $4.15. It also sells 5 pencils and 3 notebooks\nfor $1.77. How much do 16 pencils and 10 notebooks cost?",
+    "answer_choices": {
+      "A": "$1.76",
+      "B": "$5.84",
+      "C": "$6.00",
+      "D": "$6.16",
+      "E": "$6.32"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let p be the cost in cents of a pencil and n be the cost in cents\nof a notebook. Then\n7p + 8n = 415\nand\n5p + 3n = 177.\nThe solution of this pair of equations is p = 9 and n = 44. So the cost of 16\npencils and 10 notebooks is 16(9) + 10(44) = 584 cents, or $5.84.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q06",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "At Euclid High School, the number of students taking the AMC10 was 60 in 2002, 66 in 2003,\n70 in 2004, 76 in 2005, 78 in 2006, and is 85 in 2007. Between what two consecutive years was\nthere the largest percentage increase?",
+    "answer_choices": {
+      "A": "2002 and 2003",
+      "B": "2003 and 2004",
+      "C": "2004 and 2005",
+      "D": "2005 and 2006",
+      "E": "2006 and 2007"
+    },
+    "correct_answer": "A",
+    "solution_text": "Between 2002 and 2003, the increase was\n6\n60 = 1\n10 = 10%.\nBetween the other four pairs of consecutive years, the increases were\n4\n66 < 4\n40 = 1\n10,\n6\n70 < 6\n60 = 1\n10,\n2\n76 < 2\n20 = 1\n10,\nand\n7\n78 < 7\n70 = 1\n10.\nTherefore the largest percentage increase occurred between 2002 and 2003.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q07",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Last year Mr. John Q. Public received an inheritance. He paid 20% in federal taxes on the inheri-\ntance, and paid 10% of what he has left in state taxes. He paid a total of $10, 500 for both taxes.\nHow many dollars was the inheritance?",
+    "answer_choices": {
+      "A": "30, 000",
+      "B": "32, 500",
+      "C": "35, 000",
+      "D": "37, 500",
+      "E": "40, 000"
+    },
+    "correct_answer": "D",
+    "solution_text": "After paying the federal taxes, Mr. Public had 80% of his\ninheritance money left. He paid 10% of that, or 8% of his inheritance, in state\ntaxes. Hence his total tax bill was 28% of his inheritance, and his inheritance\nwas $10,500/0.28 = $37,500.\n\nSolutions\n2007\n8th AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q08",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Triangles ABC and ADC are isosceles with AB = BC and AD = DC. Point D is inside △ABC.\n∠ABC = 40^{◦}, and ∠ADC = 140^{◦}. What is the degree measure of ∠BAD?",
+    "answer_choices": {
+      "A": "20",
+      "B": "30",
+      "C": "40",
+      "D": "50",
+      "E": "60"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because △ABC is isosceles, ∠BAC = 1\n2 (180◦−∠ABC) = 70◦.\nA\nB\nC\nD\n40\n140\nSimilarly,\n∠DAC = 1\n2 (180◦−∠ADC) = 20◦.\nThus ∠BAD = ∠BAC −∠DAC = 50◦.\nOR\nBecause △ABC and △ADC are isosceles triangles and BD bisects ∠ABC and\n∠ADC, applying the Exterior Angle Theorem to △ABD gives ∠BAD = 70◦−\n20◦= 50◦.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q09",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Real numbers a and b satisfy the equations 3^{a} = 81^{b+2} and 125^{b} = 5^{a−3}. What is ab?",
+    "answer_choices": {
+      "A": "−60",
+      "B": "−17",
+      "C": "9",
+      "D": "12",
+      "E": "60"
+    },
+    "correct_answer": "E",
+    "solution_text": "The given equations are equivalent, respectively, to\n3a = 34(b+2)\nand\n53b = 5a−3.\nTherefore a = 4(b + 2) and 3b = a −3. The solution of this system is a = −12\nand b = −5, so ab = 60.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q10",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The Dunbar family consists of a mother, a father, and some children. The average age of the\nmembers of the family is 20, the father is 48 years old, and the average age of the mother and\nchildren is 16. How many children are in the family?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let N represent the number of children in the family and T\nrepresent the sum of the ages of all the family members. The average age of\nthe members of the family is 20, and the average age of the members when the\n48-year-old father is not included is 16, so\n20 =\nT\nN + 2\nand\n16 = T −48\nN + 1 .\nThis implies that\n20N + 40 = T\nand\n16N + 16 = T −48,\nso\n20N + 40 = 16N + 64.\nHence 4N = 24 and N = 6.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q11",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The numbers from 1 to 8 are placed at the vertices of a cube in such a manner that the sum of\nthe four numbers on each face is the same. What is this common sum?",
+    "answer_choices": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "20",
+      "E": "24"
+    },
+    "correct_answer": "C",
+    "solution_text": "Each vertex appears on exactly three faces, so the sum of the\nnumbers on all the faces is\n3(1 + 2 + · · · + 8) = 3 · 8 · 9\n2\n= 108.\n\nSolutions\n2007\n8th AMC 10 A\n4\nThere are six faces for the cube, so the common sum must be 108/6 = 18. A\npossible numbering is shown in the ﬁgure.\n6\n3\n8\n2\n7\n5\n4\n1",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q12",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Two tour guides are leading six tourists. The guides decide to split up. Each tourist must choose\none of the guides, but with the stipulation that each guide must take at least one tourist. How\nmany different groupings of guides and tourists are possible?",
+    "answer_choices": {
+      "A": "56",
+      "B": "58",
+      "C": "60",
+      "D": "62",
+      "E": "64"
+    },
+    "correct_answer": "D",
+    "solution_text": "The ﬁrst guide can take any combination of tourists except all\nthe tourists or none of the tourists. Therefore the number of possibilities is\nµ6\n1\n¶\n+\nµ6\n2\n¶\n+\nµ6\n3\n¶\n+\nµ6\n4\n¶\n+\nµ6\n5\n¶\n= 6 + 15 + 20 + 15 + 6 = 62.\nOR\nIf each guide did not need to take at least one tourist, then each tourist could\nchoose one of the two guides independently. In this case there would be 26 = 64\npossible arrangements. The two arrangements for which all tourists choose the\nsame guide must be excluded, leaving a total of 64 −2 = 62 possible arrange-\nments.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q13",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Yan is somewhere between his home and the stadium. To get to the stadium he can walk directly\nto the stadium, or else he can walk home and then ride his bicycle to the stadium. He rides 7\ntimes as fast as he walks, and both choices require the same amount of time. What is the ratio\nof Yan’s distance from his home to his distance from the stadium?",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "3\n4",
+      "C": "4\n5",
+      "D": "5\n6",
+      "E": "6\n7"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let w be Yan’s walking speed, and let x and y be the distances\nfrom Yan to his home and to the stadium, respectively. The time required for\nYan to walk to the stadium is y/w, and the time required for him to walk home\nis x/w. Because he rides his bicycle at a speed of 7w, the time required for him\nto ride his bicycle from his home to the stadium is (x + y)/(7w). Thus\ny\nw = x\nw + x + y\n7w\n= 8x + y\n7w\n.\nAs a consequence, 7y = 8x + y, so 8x = 6y. The required ratio is x/y = 6/8 =\n3/4.\nOR\nBecause we are interested only in the ratio of the distances, we may assume that\nthe distance from Yan’s home to the stadium is 1 mile. Let x be his present\ndistance from his home. Imagine that Yan has a twin, Nay. While Yan walks\nto the stadium, Nay walks to their home and continues 1/7 of a mile past their\nhome. Because walking 1/7 of a mile requires the same amount of time as riding\n1 mile, Yan and Nay will complete their trips at the same time. Yan has walked\n1 −x miles while Nay has walked x + 1\n7 miles, so 1 −x = x + 1\n7. Thus x = 3/7,\n1 −x = 4/7, and the required ratio is x/(1 −x) = 3/4.\n\nSolutions\n2007\n8th AMC 10 A\n5",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q14",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A triangle with side lengths in the ratio 3 : 4 : 5 is inscribed in a circle of radius 3. What is the\narea of the triangle?",
+    "answer_choices": {
+      "A": "8.64",
+      "B": "12",
+      "C": "5π",
+      "D": "17.28",
+      "E": "18"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let the sides of the triangle have lengths 3x, 4x, and 5x. The\ntriangle is a right triangle, so its hypotenuse is a diameter of the circle. Thus\n5x = 2 · 3 = 6, so x = 6/5. The area of the triangle is\n1\n2 · 3x · 4x = 1\n2 · 18\n5 · 24\n5 = 216\n25 = 8.64.\nOR\nA right triangle with side lengths 3, 4, and 5 has area (1/2)(3)(4) = 6. Because\nthe given right triangle is inscribed in a circle with diameter 6, the hypotenuse\nof this triangle has length 6. Thus the sides of the given triangle are 6/5 as\nlong as those of a 3 – 4 – 5 triangle, and its area is (6/5)2 times that of a 3 – 4 – 5\ntriangle. The area of the given triangle is\nµ6\n5\n¶2\n(6) = 216\n25 = 8.64.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q15",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Four circles of radius 1 are each tangent to two sides of a square and externally tangent to a\ncircle of radius 2, as shown. What is the area of the square?\n2\n1",
+    "answer_choices": {
+      "A": "32",
+      "B": "22 + 12\n√\n2",
+      "C": "16 + 16\n√\n3",
+      "D": "48",
+      "E": "36 + 16\n√\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let s be the length of a side of the square. Consider an isosceles\nright triangle with vertices at the centers of the circle of radius 2 and two of\nthe circles of radius 1. This triangle has legs of length 3, so its hypotenuse has\nlength 3\n√\n2.\n1\n1\n2\n2\nThe length of a side of the square is 2 more than the length of this hypotenuse,\nso s = 2 + 3\n√\n2. Hence the area of the square is\ns2 = (2 + 3\n√\n2)2 = 22 + 12\n√\n2.\nOR\nThe distance from a vertex of the square to the center of the nearest small circle\nis\n√\n12 + 12 =\n√\n2, and the distance between the centers of two small circles in\nopposite corners of the square is 1 + 4 + 1 = 6. Therefore each diagonal of the\nsquare has length 6 + 2\n√\n2, and each side has length\ns = 6 + 2\n√\n2\n√\n2\n= 2 + 3\n√\n2.\nThe area of the square is consequently s2 =\n¡\n2 + 3\n√\n2\n¢2 = 22 + 12\n√\n2.\n\nSolutions\n2007\n8th AMC 10 A\n6",
+    "has_image": true
+  },
+  {
+    "id": "2007-AMC10A-Q16",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Integers a, b, c, and d, not necessarily distinct, are chosen independently and at random from 0\nto 2007, inclusive. What is the probability that ad −bc is even?",
+    "answer_choices": {
+      "A": "3\n8",
+      "B": "7\n16",
+      "C": "1\n2",
+      "D": "9\n16",
+      "E": "5\n8"
+    },
+    "correct_answer": "E",
+    "solution_text": "The number ad −bc is even if and only if ad and bc are both\nodd or are both even. Each of ad and bc is odd if both of its factors are odd,\nand even otherwise. Exactly half of the integers from 0 to 2007 are odd, so\neach of ad and bc is odd with probability (1/2) · (1/2) = 1/4 and are even with\nprobability 3/4. Hence the probability that ad −bc is even is\n1\n4 · 1\n4 + 3\n4 · 3\n4 = 5\n8.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q17",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Suppose that m and n are positive integers such that 75m = n^{3}. What is the minimum possible\nvalue of m + n?",
+    "answer_choices": {
+      "A": "15",
+      "B": "30",
+      "C": "50",
+      "D": "60",
+      "E": "5700"
+    },
+    "correct_answer": "D",
+    "solution_text": "An integer is a cube if and only if, in the prime factorization\nof the number, each prime factor occurs a multiple of three times.\nBecause\nn3 = 75m = 3 · 52 · m, the minimum value for m is 32 · 5 = 45. In that case\nn = 15, and m + n = 60.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q18",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Consider the 12-sided polygon ABCDEFGHIJKL, as shown. Each of its sides has length 4,\nand each two consecutive sides form a right angle. Suppose that AG and CH meet at M. What\nis the area of quadrilateral ABCM?",
+    "answer_choices": {
+      "A": "44\n3",
+      "B": "16",
+      "C": "88\n5",
+      "D": "20",
+      "E": "62\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "Extend CD past C to meet AG at N.\nA\nL\nB\nC\nN\nD\nE\nF\nG\nH\nM\nI\nJ\nK\n4\nSince △ABG is similar to △NCG,\nNC = AB · CG\nBG = 4 · 8\n12 = 8\n3.\nThis implies that trapezoid ABCN has area\n1\n2 ·\nµ8\n3 + 4\n¶\n· 4 = 40\n3 .\nLet v denote the length of the perpendicular from M to NC. Since △CMN is\nsimilar to △HMG, and\nGH\nNC =\n4\n8/3 = 3\n2,\nthe length of the perpendicular from M to HG is 3\n2v. Because\nv + 3\n2v = 8,\nwe have\nv = 16\n5 .\nHence the area of △CMN is\n1\n2 · 8\n3 · 16\n5 = 64\n15.\n\nSolutions\n2007\n8th AMC 10 A\n7\nSo\nArea(ABCM) = Area(ABCN) + Area(△CMN) = 40\n3 + 64\n15 = 88\n5 .\nOR\nLet Q be the foot of the perpendicular from M to BG.\nA\nL\nB\nC\nD\nE\nG\nH\nM\nI\nJ\nK\n4\nQ\nSince △MQG is similar to △ABG, we have\nMQ\nQG = AB\nBG = 4\n12 = 1\n3.\nAlso, △MCQ is similar to △HCG, so\nMQ\nCQ = HG\nCG = 4\n8 = 1\n2.\nThus\nQG = 3MQ = 3\nµ1\n2CQ\n¶\n= 3\n2(8 −QG),\nwhich implies that\nQG = 24\n5\nand\nMQ = 1\n3QG = 8\n5.\nHence\nArea(ABCM) = Area(△ABG) −Area(△CMG) = 1\n2 · 4 · 12 −1\n2 · 8 · 8\n5 = 88\n5 .",
+    "has_image": true
+  },
+  {
+    "id": "2007-AMC10A-Q19",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A paint brush is swept along both diagonals of a square to produce the symmetric painted area,\nas shown. Half the area of the square is painted. What is the ratio of the side length of the square\nto the brush width?",
+    "answer_choices": {
+      "A": "2\n√\n2 + 1",
+      "B": "3\n√\n2",
+      "C": "2\n√\n2 + 2",
+      "D": "3\n√\n2 + 1",
+      "E": "3\n√\n2 + 2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let s be the side length of the square, let w be the width of the\nbrush, and let x be the leg length of one of the congruent unpainted isosceles\nright triangles. Since the unpainted area is half the area of the square, the area\nof each unpainted triangle is 1/8 of the area of the square. So\n1\n2x2 = 1\n8s2\nand\nx = 1\n2s.\n\nSolutions\n2007\n8th AMC 10 A\n8\nThe leg length x plus the brush width w is equal to half the diagonal of the\nsquare, so x + w = (\n√\n2/2)s. Thus\nw =\n√\n2\n2 s −1\n2s\nand\ns\nw =\n2\n√\n2 −1 = 2\n√\n2 + 2.\nOR\nw\nw\ns\n2\n2\n√\nw\n2\n2\n√\nx\nThe painted stripes have isosceles right triangles with hypotenuse w at each\nvertex of the square, and the legs of these triangles have length (\n√\n2/2)w. Since\nthe total area of the four congruent unpainted triangles is half the area of the\noriginal square, we have\ns −\n√\n2w =\ns\n√\n2,\nso\n√\n2s −2w = s.\nand\ns\nw =\n2\n√\n2 −1 = 2\n√\n2 + 2.",
+    "has_image": true
+  },
+  {
+    "id": "2007-AMC10A-Q20",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Suppose that the number a satisﬁes the equation 4 = a + a^{−1}. What is the value of a^{4} + a^{−4}?",
+    "answer_choices": {
+      "A": "164",
+      "B": "172",
+      "C": "192",
+      "D": "194",
+      "E": "212"
+    },
+    "correct_answer": "D",
+    "solution_text": "Squaring each side of the equation 4 = a + a−1 gives\n16 = a2 + 2a · a−1 +\n¡\na−1¢2 = a2 + 2 + a−2,\nso\n14 = a2 + a−2.\nSquaring again gives\n196 = a4 + 2a2 · a−2 +\n¡\na−2¢2 = a4 + 2 + a−4,\nso\n194 = a4 + a−4.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q21",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A sphere is inscribed in a cube that has a surface area of 24 square meters. A second cube is\nthen inscribed within the sphere. What is the surface area in square meters of the inner cube?",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "8",
+      "D": "9",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Since the surface area of the original cube is 24 square meters,\neach face of the cube has a surface area of 24/6 = 4 square meters, and the\nside length of this cube is 2 meters. The sphere inscribed within the cube has\ndiameter 2 meters, which is also the length of the diagonal of the cube inscribed\nin the sphere. Let l represent the side length of the inscribed cube. Applying\nthe Pythagorean Theorem twice gives\nl2 + l2 + l2 = 22 = 4.\nHence each face has surface area\nl2 = 4\n3 square meters.\nSo the surface area of the inscribed cube is 6 · (4/3) = 8 square meters.\n\nSolutions\n2007\n8th AMC 10 A\n9",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q22",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "A ﬁnite sequence of three-digit integers has the property that the tens and units digits of each\nterms are, respectively, the hundreds and tens digits of the next term, and the tens and units dig-\nits of the last term are, respectively, the hundreds and tens digits of the ﬁrst term. For example,\nsuch a sequence might begin with terms 247, 475, and 756 and end with the term 824. Let S be\nthe sum of all the terms in the sequence. What is the largest prime number that always divides\nS?",
+    "answer_choices": {
+      "A": "3",
+      "B": "7",
+      "C": "13",
+      "D": "37",
+      "E": "43"
+    },
+    "correct_answer": "D",
+    "solution_text": "A given digit appears as the hundreds digit, the tens digit, and\nthe units digit of a term the same number of times. Let k be the sum of the\nunits digits in all the terms. Then S = 111k = 3 · 37k, so S must be divisible\nby 37. To see that S need not be divisible by any larger prime, note that the\nsequence 123, 231, 312 gives S = 666 = 2 · 32 · 37.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q23",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs (m, n) of positive integers, with m > n, have the property that their\nsquares differ by 96?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "9",
+      "E": "12"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let x and y be, respectively, the larger and smaller of the\nintegers. Then 96 = x2 −y2 = (x + y)(x −y). Because 96 is even, x and y are\nboth even or are both odd. In either case x + y and x −y are both even. Hence\nthere are four possibilities for (x + y, x −y), which are (48, 2), (24, 4), (16, 6),\nand (12, 8). The four corresponding values of (x, y) are (25, 23), (14, 10), (11, 5),\nand (10, 2).",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10A-Q24",
+    "year": 2007,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Circles centered at A and B each have radius 2, as shown. Point O is the midpoint of AB, and\nOA = 2\n√\n2. Segments OC and OD are tangent to the circles centered at A and B, respectively,\nand EF is a common tangent. What is the area of the shaded region ECODF?\nA\nB\nC\nD\nE\nF\nO\n2\n2",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "8\n√\n2 −2 −π\n2\n25\nFor each positive integer n, let S(n) denote the sum of the digits of n. For how many values of\nn is n + S(n) + S(S(n)) = 2007?"
+    },
+    "correct_answer": "B",
+    "solution_text": "Rectangle ABFE has area AE · AB = 2 · 4\n√\n2 = 8\n√\n2. Right\ntriangles ACO and BDO each have hypotenuse 2\n√\n2 and one leg of length 2.\nE\nC\nA\nB\nO\nD\nF\n2\n2\nHence they are each isosceles, and each has area (1/2)\n¡\n22¢\n= 2. Angles CAE\nand DBF are each 45◦, so sectors CAE and DBF each have area\n1\n8 · π · 22 = π\n2 .\nThus the area of the shaded region is\n8\n√\n2 −2 · 2 −2 · π\n2 = 8\n√\n2 −4 −π.",
+    "has_image": true
+  }
+]

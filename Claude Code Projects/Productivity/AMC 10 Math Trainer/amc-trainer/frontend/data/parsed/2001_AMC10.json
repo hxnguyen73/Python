@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2001-AMC10-Q01",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The median of the list\nn, n + 3, n + 4, n + 5, n + 6, n + 8, n + 10, n + 12, n + 15\nis 10. What is the mean?",
+    "answer_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "7",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "E",
+    "solution_text": "The middle number in the 9-number list is n+6, which is given as 10. Thus\nn = 4. Add the terms together to get 9n + 63 = 9 · 4 + 63 = 99. Thus the mean\nis 99/9 = 11.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q02",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A number x is 2 more than the product of its reciprocal and its additive inverse. In which interval\ndoes the number lie?",
+    "answer_choices": {
+      "A": "−4 ≤x ≤−2",
+      "B": "−2 < x ≤0",
+      "C": "0 < x ≤2",
+      "D": "2 < x ≤4",
+      "E": "4 < x ≤6"
+    },
+    "correct_answer": "C",
+    "solution_text": "The reciprocal of x is 1\nx, and the additive inverse of x is −x. The product of\nthese is ( 1\nx) · (−x) = −1. So x = −1 + 2 = 1, which is in the interval 0 < x ≤2.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q03",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The sum of two numbers is S. Suppose 3 is added to each number and then each of the resulting\nnumbers is doubled. What is the sum of the ﬁnal two numbers?",
+    "answer_choices": {
+      "A": "2S + 3",
+      "B": "3S + 2",
+      "C": "3S + 6",
+      "D": "2S + 6",
+      "E": "2S + 12"
+    },
+    "correct_answer": "E",
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q04",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "What is the maximum number of possible points of intersection of a circle and a triangle?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "The circle can intersect at most two points of each side\nof the triangle, so the number can be no greater than six.\nThe ﬁgure shows that the number can indeed be six.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q05",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 5,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "How many of the twelve pentominoes pictured below have at least one line of symmetry?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "D",
+    "solution_text": "Exactly six have at least one line of symmetry. They are:",
+    "has_image": true
+  },
+  {
+    "id": "2001-AMC10-Q06",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Let P(n) and S(n) denote the product and the sum, respectively, of the digits of the integer\nn. For example, P(23) = 6 and S(23) = 5. Suppose N is a two-digit number such that N =\n\nP(N) + S(N). What is the units digit of N?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "6",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "E",
+    "solution_text": "Suppose N = 10a + b. Then 10a + b = ab + (a + b). It follows that 9a = ab,\nwhich implies that b = 9, since a ̸= 0.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q07",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "When the decimal point of a certain positive decimal number is moved four places to the right,\nthe new number is four times the reciprocal of the original number. What is the original number?",
+    "answer_choices": {
+      "A": "0.0002",
+      "B": "0.002",
+      "C": "0.02",
+      "D": "0.2",
+      "E": "2"
+    },
+    "correct_answer": "C",
+    "solution_text": "If x is the number, then moving the decimal point four places to the right\nis the same as multiplying x by 10,000. That is, 10,000x = 4 · ( 1\nx), which is\nequivalent to x2 = 4/10,000. Since x is positive, it follows that x = 2/100 = 0.02.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q08",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Wanda, Darren, Beatrice, and Chi are tutors in the school math lab. Their schedule is as follows:\nDarren works every third school day, Wanda works every fourth school day, Beatrice works every\nsixth school day, and Chi works every seventh school day. Today they are all working in the math\nlab. In how many school days from today will they next be together tutoring in the lab?",
+    "answer_choices": {
+      "A": "42",
+      "B": "84",
+      "C": "126",
+      "D": "178",
+      "E": "252"
+    },
+    "correct_answer": "B",
+    "solution_text": "The number of school days until they will next be together is the least\ncommon multiple of 3, 4, 6, and 7, which is 84.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q09",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The state income tax where Kristin lives is levied at the rate of p% of the ﬁrst $28000 of annual\nincome plus (p+2)% of any amount above $28000. Kristin noticed that the state income tax she\npaid amounted to (p + 0.25)% of her annual income. What was her annual income?",
+    "answer_choices": {
+      "A": "$28000",
+      "B": "$32000",
+      "C": "$35000",
+      "D": "$42,000",
+      "E": "$56000"
+    },
+    "correct_answer": "B",
+    "solution_text": "If Kristin's annual income is x ≥28,000 dollars, then\np\n100 · 28,000 + p + 2\n100 · (x −28,000) = p + 0.25\n100\n· x.\nMultiplying by 100 and expanding yields\n28,000p + px + 2x −28,000p −56,000 = px + 0.25x.\nSo, 1.75x = 7\n4x = 56,000 and x = 32,000.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q10",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "If x, y, and z are positive with xy = 24, xz = 48, and yz = 72, then x + y + z is",
+    "answer_choices": {
+      "A": "18",
+      "B": "19",
+      "C": "20",
+      "D": "22",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since\nx = 24\ny = 48z\nwe have z = 2y. So 72 = 2y2, which implies that y = 6, x = 4, and z = 12.\nHence x + y + z = 22.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q11",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 11,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Consider the dark square in an array of unit squares, part of which is shown. The ﬁrst ring of\nsquares around this center square contains 8 unit squares. The second ring contains 16 unit\nsquares. If we continue this process, the number of unit squares in the 100^{th} ring is",
+    "answer_choices": {
+      "A": "396",
+      "B": "404",
+      "C": "800",
+      "D": "10,000",
+      "E": "10,404"
+    },
+    "correct_answer": "C",
+    "solution_text": "The nth ring can be partitioned into four rectangles: two containing 2n + 1\nunit squares and two containing 2n −1 unit squares. So there are\n2(2n + 1) + 2(2n −1) = 8n\nunit squares in the nth ring. Thus, the 100th ring has 8·100 = 800 unit squares.",
+    "has_image": true
+  },
+  {
+    "id": "2001-AMC10-Q12",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 12,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Suppose that n is the product of three consecutive integers and that n is divisible by 7. Which\nof the following is not necessarily a divisor of n?",
+    "answer_choices": {
+      "A": "6",
+      "B": "14",
+      "C": "21",
+      "D": "28",
+      "E": "42"
+    },
+    "correct_answer": "D",
+    "solution_text": "In any triple of consecutive integers, at least one is even and one is a\nmultiple of 3. Therefore, the product of the three integers is both even and a\nmultiple of 3. Since 7 is adivisor of the product, the numbers 6, 14, 21, and 42\nmust also be divisors of the product. However, 28 contains two factors of 2, and\nn need not. For example, 5 · 6 · 7 is divisible by 7, but not by 28.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q13",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 13,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A telephone number has the form ABC−DEF −GHIJ, where each letter represents a different\ndigit. The digits in each part of the numbers are in decreasing order; that is, A > B > C, D >\nE > F, and G > H > I > J. Furthermore, D, E, and F are consecutive even digits; G, H, I, and\n\nJ are consecutive odd digits; and A + B + C = 9. Find A.",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "E",
+    "solution_text": "The last four digits (GHIJ) are either 9753 or 7531, and the remaining odd\ndigit (either 1 or 9) is A, B, or C. Since A + B + C = 9, the odd digit among\nA, B, and C must be 1. Thus the sum of the two even digits in ABC is 8. The\nthree digits in DEF are 864, 642, or 420, leaving the pairs 2 and 0, 8 and 0, or\n8 and 6, respectively, as the two even digits in ABC. Of those, only the pair 8\nand 0 has sum 8, so ABC is 810, and the required ﬁrst digit is 8. The only such\ntelephone number is 810-642-9753.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q14",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A charity sells 140 beneﬁt tickets for a total of $2001. Some tickets sell for full price (a whole\ndollar amount), and the rest sells for half price. How much money is raised by the full-price\ntickets?",
+    "answer_choices": {
+      "A": "$782",
+      "B": "$986",
+      "C": "$1158",
+      "D": "$1219",
+      "E": "$1449"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let n be the number of full-price tickets and p be the price of each in\ndollars. Then\nnp + (140 −n) · p\n2 = 2001, so p(n + 140) = 4002.\nThus n + 140 must be a factor of 4002 = 2 · 3 · 23 · 29. Since 0 ≤n ≤140, we\nhave 140 ≤n + 140 ≤280, and the only factor of 4002 that is in the required\nrange for n + 140 is 174 = 2 · 3 · 29. Therefore, n + 140 = 174, so n = 34 and\np = 23. The money raised by the full-price tickets is 34 · 23 = 782 dollars.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q15",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A street has parallel curbs 40 feet apart. A crosswalk bounded by two parallel stripes crosses\nthe street at an angle. The length of the curb between the stripes is 15 feet and each stripe is 50\nfeet long. Find the distance, in feet, between the stripes.",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "12",
+      "D": "15",
+      "E": "25"
+    },
+    "correct_answer": "C",
+    "solution_text": "The crosswalk is in the shape of a parallelogram with\nbase 15 feet and altitude 40 feet, so its area is 15×40 =\n600 ft2. But viewed another way, the parallelogram has\nbase 50 feet and altitude equal to the distance between\nthe stripes, so this distance must be 600/50 = 12 feet.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q16",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The mean of three numbers is 10 more than the least of the numbers and 15 less than the\ngreatest. The median of the three numbers is 5. What is their sum?",
+    "answer_choices": {
+      "A": "5",
+      "B": "20",
+      "C": "25",
+      "D": "30",
+      "E": "36"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since the median is 5, we can write the three numbers as x, 5, and y, where\n1\n3(x + 5 + y) = x + 10 and 1\n3(x + 5 + y) + 15 = y.\nIf we add these equations, we get\n2\n3(x + 5 + y) + 15 = x + y + 10\nand solving for x+y gives x+y = 25. Hence the sum of the numbers x+y+5 =\n30.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q17",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Which of the cones listed below can be formed from a 252° sector of a circle of radius 10 by\naligning the two straight edges? (The sector has arc length 14π, giving a cone with base radius 7\nand slant height 10.)",
+    "answer_choices": {
+      "A": "Cone diagram A",
+      "B": "Cone diagram B",
+      "C": "Cone diagram C",
+      "D": "Cone diagram D",
+      "E": "Cone diagram E"
+    },
+    "correct_answer": "B",
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2001-AMC10-Q18",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The plane is tiled by congruent squares and congruent pentagons. The tiling repeats in 3×3\nblocks of 9 unit squares: 4 of the 9 unit squares form square regions, and the remaining 5 form\n4 pentagonal regions. The percent of the plane that is enclosed by the pentagons is closest to",
+    "answer_choices": {
+      "A": "50",
+      "B": "52",
+      "C": "54",
+      "D": "56",
+      "E": "58"
+    },
+    "correct_answer": "D",
+    "solution_text": "The pattern repeats in a 3×3 arrangement. Four of the 9 unit squares in each\nblock are pure squares, so 5 out of 9 belong to pentagons.\n5/9 = 55.5...% ≈ 56%.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q19",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 19,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Pat wants to buy four donuts from an ample supply of three types of donuts: glazed, chocolate,\nand powdered. How many different selections are possible?",
+    "answer_choices": {
+      "A": "6",
+      "B": "9",
+      "C": "12",
+      "D": "15",
+      "E": "18"
+    },
+    "correct_answer": "D",
+    "solution_text": "The number of possible selections is the number of solutions of the equation\ng + c + p = 4\nwhere g,c, and p represent, respectively, the number of glazed, chocolate, and\npowdered donuts. The 15 possible solutions are (4,0,0), (0,4,0), (0,0,4),\n(3,0,1),(3,1,0),(1,3,0),(0,3,1),(1,0,3),(0,1,3),(2,2,0),(2,0,2),(0,2,2),(2,1,1),\n(1,2,1), and (1,1,2).",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q20",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A regular octagon is formed by cutting an isosceles right triangle from each of the corners of a\nsquare with sides of length 2000. What is the length of each side of the octagon?",
+    "answer_choices": {
+      "A": "$\\frac{2000}{3}$",
+      "B": "$2000(\\sqrt{2} - 1)$",
+      "C": "$2000(2 - \\sqrt{2})$",
+      "D": "1000",
+      "E": "$1000\\sqrt{2}$"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let x represent the length of each side of the octagon, which is also the\nlength of the hypotenuse of each of the right triangles. Each leg of the right\ntriangles has length x√2/2, so\n2 · x√2/2 + x = 2000, and x = 2000/(√2 + 1) = 2000(√2 − 1).",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q21",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A right circular cylinder with its diameter equal to its height is inscribed in a right circular cone.\nThe cone has diameter 10 and altitude 12, and the axes of the cylinder and cone coincide. Find\nthe radius of the cylinder.",
+    "answer_choices": {
+      "A": "$\\frac{8}{3}$",
+      "B": "$\\frac{30}{11}$",
+      "C": "3",
+      "D": "$\\frac{25}{8}$",
+      "E": "$\\frac{7}{2}$"
+    },
+    "correct_answer": "B",
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q22",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 22,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "In the magic square shown, the sums of the numbers in each row, column, and diagonal are the\nsame. Five of these numbers are represented by v, w, x, y, and z. Find y + z.",
+    "answer_choices": {
+      "A": "43",
+      "B": "44",
+      "C": "45",
+      "D": "46",
+      "E": "47"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since v appears in the ﬁrst row, ﬁrst column, and on diagonal, the sum of\nthe remaining two numbers in each of these lines must be the same. Thus,\n25 + 18 = 24 + w = 21 + x,\nso w = 19 and x = 22. Now 25, 22, and 19 form a diagonal with a sum of 66, so\nwe can ﬁnd v = 23, y = 26, and z = 20. Hence y + z = 46.",
+    "has_image": true
+  },
+  {
+    "id": "2001-AMC10-Q23",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 23,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "A box contains exactly ﬁve chips, three red and two white. Chips are randomly removed one at a\ntime without replacement until all the red chips are drawn or all the white chips are drawn. What\nis the probability that the last chip drawn is white?",
+    "answer_choices": {
+      "A": "$\\frac{3}{10}$",
+      "B": "$\\frac{2}{5}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{3}{5}$",
+      "E": "$\\frac{7}{10}$"
+    },
+    "correct_answer": "D",
+    "solution_text": "Think of continuing the drawing until all ﬁve chips are removed. There are\nten possible orderings of the colors: RRRWW, RRWRW, RWRRW, WRRRW,\nRRWWR, RWRWR, WRRWR, RWWRR, WRWRR, and WWRRR. The six\norderings that end in R represent drawings that would have ended when the\nsecond white chip was drawn.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q24",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In trapezoid ABCD, AB and CD are perpendicular to AD, with AB + CD = BC, AB < CD,\nand AD = 7. What is AB · CD?",
+    "answer_choices": {
+      "A": "12",
+      "B": "12.25",
+      "C": "12.5",
+      "D": "12.75",
+      "E": "13"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let E be the foot of the perpendicular from B to CD.\nThen AB = DE and BE = AD = 7. By the Pythagorean Theorem,\nAD^{2} = BE^{2} = BC^{2} − CE^{2}\n= (CD + AB)^{2} − (CD − AB)^{2}\n= 4 · CD · AB.\nHence, AB · CD = AD^{2}/4 = 7^{2}/4 = 49/4 = 12.25.",
+    "has_image": false
+  },
+  {
+    "id": "2001-AMC10-Q25",
+    "year": 2001,
+    "exam": "AMC10",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many positive integers not exceeding 2001 are multiples of 3 or 4 but not 5?",
+    "answer_choices": {
+      "A": "768",
+      "B": "801",
+      "C": "934",
+      "D": "1067",
+      "E": "1167"
+    },
+    "correct_answer": "B",
+    "solution_text": "For integers not exceeding 2001, there are ⌊2001/3⌋= 667 multiples of 3\nand ⌊2001/4⌋= 500 multiples of 4. The total, 1167, counts the ⌊2001/12⌋= 166\nmultiples of 12 twice, so there are 1167 −166 = 1001 multiples of 3 or 4. From\nthese we exclude the ⌊2001/15⌋= 133 multiples of 15 and the ⌊2001/20⌋=\n100 multiples of 20, since these are multiples of 5. However, this excludes the\n⌊2001/60⌋= 33 multiples of 60 twice, so we must re-include these. The number\nof integers satisfying the conditions is 1001 −133 −100 + 33 = 801.",
+    "has_image": false
+  }
+]

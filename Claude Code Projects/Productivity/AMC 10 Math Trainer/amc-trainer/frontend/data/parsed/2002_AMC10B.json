@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2002-AMC10B-Q01",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The ratio $\\frac{2^{2001} \\cdot 3^{2003}}{6^{2002}}$ is",
+    "answer_choices": {
+      "A": "$\\frac{1}{6}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{2}{3}$",
+      "E": "$\\frac{3}{2}$"
+    },
+    "correct_answer": "E",
+    "solution_text": "We have\n22001 · 32003\n62002\n= 22001 · 32003\n(2 · 3)2002\n= 22001 · 32003\n22002 · 32002 = 3\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q02",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For the nonzero numbers a, b, and c, deﬁne\n$(a, b, c) = \\frac{abc}{a + b + c}$.\nFind (2, 4, 6).",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "24"
+    },
+    "correct_answer": "C",
+    "solution_text": "We have\n(2, 4, 6) =\n2 · 4 · 6\n2 + 4 + 6 = 48\n12 = 4.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q03",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The arithmetic mean of the nine numbers in the set {9, 99, 999, 9999, ..., 999999999} is a 9-digit\nnumber M, all of whose digits are distinct. The number M does not contain the digit",
+    "answer_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "A",
+    "solution_text": "The number M is equal to\n1\n9(9+99+999+. . .+999,999,999) = 1+11+111+. . .+111,111,111 = 123,456,789.\nThe number M does not contain the digit 0.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q04",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of\n(3x −2)(4x + 1) −(3x −2)4x + 1\nwhen x = 4?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since\n(3x −2)(4x + 1) −(3x −2)4x + 1 = (3x −2)(4x + 1 −4x) + 1\n= (3x −2) · 1 + 1 = 3x −1,\nwhen x = 4 we have the value 3 · 4 −1 = 11.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q05",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Circles of radius 2 and 3 are externally tangent and are circumscribed by a third circle, as shown\nin the ﬁgure. Find the area of the shaded region.\n3\n2",
+    "answer_choices": {
+      "A": "3π",
+      "B": "4π",
+      "C": "6π",
+      "D": "9π",
+      "E": "12π"
+    },
+    "correct_answer": "E",
+    "solution_text": "The diameter of the large circle is 6 + 4 = 10, so its radius is 5. Hence, the\narea of the shaded region is\nπ(52) −π(32) −π(22) = π(25 −9 −4) = 12π.",
+    "has_image": true
+  },
+  {
+    "id": "2002-AMC10B-Q06",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "For how many positive integers n is n^{2} −3n + 2 a prime number?",
+    "answer_choices": {
+      "A": "none",
+      "B": "one",
+      "C": "two",
+      "D": "more than two, but ﬁnitely many",
+      "E": "inﬁnitely many"
+    },
+    "correct_answer": "B",
+    "solution_text": "If n ≥4, then\nn2 −3n + 2 = (n −1)(n −2)\nis the product of two integers greater than 1, and thus is not prime. For n = 1,\n2, and 3 we have, respectively,\n(1 −1)(1 −2) = 0,\n(2 −1)(2 −2) = 0,\nand\n(3 −1)(3 −2) = 2.\nTherefore, n2 −3n + 2 is prime only when n = 3.\n\nSolutions\n2002\n3rd AMC 10 B\n3",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q07",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Let n be a positive integer such that $\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{7} + \\frac{1}{n}$ is an integer. Which of the following statements is not true?",
+    "answer_choices": {
+      "A": "2 divides n",
+      "B": "3 divides n",
+      "C": "6 divides n",
+      "D": "7 divides n",
+      "E": "n > 84"
+    },
+    "correct_answer": "E",
+    "solution_text": "The number 1\n2 + 1\n3 + 1\n7 + 1\nn is greater than 0 and less than 1\n2 + 1\n3 + 1\n7 + 1\n1 < 2.\nHence,\n1\n2 + 1\n3 + 1\n7 + 1\nn = 41\n42 + 1\nn\nis an integer precisely when it is equal to 1. This implies that n = 42, so the\nanswer is (E).",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q08",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Suppose July of year N has ﬁve Mondays. Which of the following must occur ﬁve times in\nAugust of year N? (Note: Both months have 31 days.)",
+    "answer_choices": {
+      "A": "Monday",
+      "B": "Tuesday",
+      "C": "Wednesday",
+      "D": "Thursday",
+      "E": "Friday"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since July has 31 days, Monday must be one of the last three days of July.\nTherefore, Thursday must be one of the ﬁrst three days of August, which also\nhas 31 days. So Thursday must occur ﬁve times in August.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q09",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Using the letters A, M, O, S, and U, we can form 120 ﬁve-letter ”words”. If these ”words” are\narranged in alphabetical order, then the ”word” USAMO occupies position",
+    "answer_choices": {
+      "A": "112",
+      "B": "113",
+      "C": "114",
+      "D": "115",
+      "E": "116"
+    },
+    "correct_answer": "D",
+    "solution_text": "The last “word,” which occupies position 120, is USOMA. Immediately\npreceding this we have USOAM, USMOA, USMAO, USAOM,and USAMO. The\nalphabetic position of the word USAMO is consequently 115.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q10",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Suppose that a and b are are nonzero real numbers, and that the equation x^{2} + ax + b = 0 has\nsolutions a and b. Then the pair (a, b) is",
+    "answer_choices": {
+      "A": "(−2, 1)",
+      "B": "(−1, 2)",
+      "C": "(1, −2)",
+      "D": "(2, −1)",
+      "E": "(4, 4)"
+    },
+    "correct_answer": "C",
+    "solution_text": "The given conditions imply that\nx2 + ax + b = (x −a)(x −b) = x2 −(a + b)x + ab,\nso\na + b = −a\nand\nab = b.\nSince b ̸= 0, the second equation implies that a = 1. The ﬁrst equation gives\nb = −2, so (a, b) = (1, −2).",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q11",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The product of three consecutive positive integers is 8 times their sum. What is the sum of their\nsquares?",
+    "answer_choices": {
+      "A": "50",
+      "B": "77",
+      "C": "110",
+      "D": "149",
+      "E": "194"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let n −1, n, and n + 1 denote the three integers. Then\n(n −1)n(n + 1) = 8(3n).\nSince n ̸= 0, we have n2 −1 = 24. It follows that n2 = 25 and n = 5. Thus,\n(n −1)2 + n2 + (n + 1)2 = 16 + 25 + 36 = 77.\n\nSolutions\n2002\n3rd AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q12",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "For which of the following values of k does the equation $\\frac{x-1}{x-2} = \\frac{x-k}{x-6}$ have no solution for x?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "E",
+    "solution_text": "From the given equation we have (x −1)(x −6) = (x −2)(x −k). This\nimplies that\nx2 −7x + 6 = x2 −(2 + k)x + 2k,\nso\n(k −5)x = 2k −6\nand\nx = 2k −6\nk −5 .\nHence a value of x satisfying the equation occurs unless k = 5.\nNote that when k = 6 there is also no solution for x, but this is not one of the\nanswer choices.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q13",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Find the value(s) of x such that 8xy −12y + 2x −3 = 0 is true for all values of y.",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "3\n2 or −1\n4",
+      "C": "−2\n3 or −1\n4",
+      "D": "3\n2",
+      "E": "$-\\frac{3}{2}$ or $-\\frac{1}{4}$"
+    },
+    "correct_answer": "D",
+    "solution_text": "The given equation can be factored as\n0 = 8xy −12y + 2x −3 = 4y(2x −3) + (2x −3) = (4y + 1)(2x −3).\nFor this equation to be true for all values of y we must have 2x −3 = 0, that is,\nx = 3/2.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q14",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The number 25^{64} · 64^{25} is the square of a positive integer N. In decimal representation, the sum\nof the digits of N is",
+    "answer_choices": {
+      "A": "7",
+      "B": "14",
+      "C": "21",
+      "D": "28",
+      "E": "35"
+    },
+    "correct_answer": "B",
+    "solution_text": "We have\nN =\np\n(52)64 · (26)25 = 564 · 23·25 = (5 · 2)64 · 211 = 1064 · 2048 = 2048 000 · · ·0\n|\n{z\n}\n64 digits\n.\nThe zeros do not contribute to the sum, so the sum of the digits of N is 2+4+8 =\n14.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q15",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The positive integers A, B, A −B, and A + B are all prime numbers. The sum of these four\nprimes is",
+    "answer_choices": {
+      "A": "even",
+      "B": "divisible by 3",
+      "C": "divisible by 5",
+      "D": "divisible by 7",
+      "E": "prime"
+    },
+    "correct_answer": "E",
+    "solution_text": "The numbers A −B and A + B are both odd or both even. However, they\nare also both prime, so they must both be odd. Therefore, one of A and B is\nodd and the other even. Because A is a prime between A −B and A + B, A\nmust be the odd prime. Therefore, B = 2, the only even prime. So A −2, A,\nand A + 2 are consecutive odd primes and thus must be 3, 5, and 7. The sum\nof the four primes 2, 3, 5, and 7 is the prime number 17.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q16",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "For how many integers n is $\\frac{n}{20-n}$ the square of an integer?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": "If\nn\n20−n = k2, for some k ≥0, then n = 20k2\nk2+1. Since k2 and k2 + 1 have no\ncommon factors and n is an integer, k2 + 1 must be a factor of 20. This occurs\nonly when k = 0, 1, 2, or 3. The corresponding values of n are 0, 10, 16, and 18.\n\nSolutions\n2002\n3rd AMC 10 B\n5",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q17",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A regular octagon ABCDEFGH has sides of length two. Find the area of △ADG.",
+    "answer_choices": {
+      "A": "4 + 2\n√\n2",
+      "B": "6 +\n√\n2",
+      "C": "4 + 3\n√\n2",
+      "D": "3 + 4\n√\n2",
+      "E": "8 +\n√\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Construct the right triangle △AOB as shown in the ﬁgure. Since AB = 2,\nwe have AO =\n√\n2 and AD = 2 + 2\n√\n2. Similarly, we have OG = 2 +\n√\n2, so\nArea(△ADG) = 1\n2(2 + 2\n√\n2)(2 +\n√\n2) = (1 +\n√\n2)(2 +\n√\n2) = 4 + 3\n√\n2.\nA\nB\nC\nD\nE\nH\nG\nF\nO\n2\n2\n2\n2\n2\nx\n2\nx\n2\nx",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q18",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Four distinct circles are drawn in a plane. What is the maximum number of points where at least\ntwo of the circles intersect?",
+    "answer_choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12",
+      "E": "16"
+    },
+    "correct_answer": "D",
+    "solution_text": "Each pair of circles has at most two intersection points. There are\n\u00004\n2\n\u0001\n= 6\npairs of circles, so there are at most 6 × 2 = 12 points of intersection. The\nfollowing conﬁguration shows that 12 points of intersection are indeed possible:",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q19",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "Suppose that {$a_{n}$} is an arithmetic sequence with\n$a_{1}$ + $a_{2}$ + · · · + $a_{100}$ = 100\nand\n$a_{101}$ + $a_{102}$ + · · · + $a_{200}$ = 200.\nWhat is the value of $a_{2}$ −$a_{1}$?",
+    "answer_choices": {
+      "A": "0.0001",
+      "B": "0.001",
+      "C": "0.01",
+      "D": "0.1",
+      "E": "1"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let d = a2 −a1. Then ak+100 = ak + 100d, and\na101 + a102 + · · · + a200 = (a1 + 100d) + (a2 + 100d) + . . . + (a100 + 100d)\n= a1 + a2 + . . . + a100 + 10,000d.\nThus 200 = 100 + 10,000d and d =\n100\n10,000 = 0.01.\n\nSolutions\n2002\n3rd AMC 10 B\n6",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q20",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let a, b, and c be real numbers such that a −7b + 8c = 4 and 8a + 4b −c = 7. Then a^{2} −b^{2} + c^{2} is",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "4",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "B",
+    "solution_text": "We have a + 8c = 4 + 7b and 8a −c = 7 −4b. Squaring both equations and\nadding the results yields\n(a + 8c)2 + (8a −c)2 = (4 + 7b)2 + (7 −4b)2.\nExpanding gives 65(a2+c2) = 65(1+b2). So a2+c2 = 1+b2, and a2−b2+c2 = 1.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q21",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Andy’s lawn has twice as much area as Beth’s lawn and three times as much area as Carlos’\nlawn. Carlos’ lawn mower cuts half as fast as Beth’s mower and one third as fast as Andy’s\nmower. If they all start to mow their lawns at the same time, who will ﬁnish ﬁrst?",
+    "answer_choices": {
+      "A": "Andy",
+      "B": "Beth",
+      "C": "Carlos",
+      "D": "Andy and Carlos tie for ﬁrst.",
+      "E": "All three tie."
+    },
+    "correct_answer": "B",
+    "solution_text": "Let A be the number of square feet in Andy’s lawn. Then A/2 and A/3 are\nthe areas of Beth’s lawn and Carlos’ lawn, respectively, in square feet. Let R be\nthe rate, in square feet per minute, that Carlos’ lawn mower cuts. Then Beth’s\nmower and Andy’s mower cut at rates of 2R and 3R square feet per minute,\nrespectively. Thus,\nAndy takes A\n3R minutes to mow his lawn,\nBeth takes A/2\n2R = A\n4R minutes to mow hers,\nand\nCarlos takes A/3\nR\n= A\n3R minutes to mow his.\nSince A\n4R < A\n3R, Beth will ﬁnish ﬁrst.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q22",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let △XOY be a right-angled triangle with m∠XOY = 90°. Let M and N be the midpoints of\nlegs OX and OY, respectively. Given that XN = 19 and YM = 22, ﬁnd XY.",
+    "answer_choices": {
+      "A": "24",
+      "B": "26",
+      "C": "28",
+      "D": "30",
+      "E": "32"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let OM = a and ON = b. Then\n192 = (2a)2 + b2\nand\n222 = a2 + (2b)2.\nX\n2a\n19\nb\nY\nO\nN\nX\na\n2b\n22\nM\nY\nO\nHence\n5(a2 + b2) = 192 + 222 = 845.\nIt follows that\nMN =\np\na2 + b2 =\n√\n169 = 13.\nSince △XOY is similar to △MON and XO = 2·MO, we have XY = 2·MN =\n26.\nX\nM\nY\na\na\nb\nb\n13\n26\nO\nN\n\nSolutions\n2002\n3rd AMC 10 B\n7",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q23",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Let {$a_{k}$} be a sequence of integers such that $a_{1}$ = 1 and $a_{m+n}$ = $a_{m}$ + $a_{n}$ + mn, for all positive\nintegers m and n. Then $a_{12}$ is",
+    "answer_choices": {
+      "A": "45",
+      "B": "56",
+      "C": "67",
+      "D": "78",
+      "E": "89"
+    },
+    "correct_answer": "D",
+    "solution_text": "By setting n = 1 in the given recursive equation, we obtain am+1 = am +\na1+m, for all positive integers m. So am+1−am = m+1 for each m = 1, 2, 3, . . ..\nHence,\na12 −a11 = 12, a11 −a10 = 11, . . . , a2 −a1 = 2.\nSumming these equalities yields a12 −a1 = 12 + 11 + · · · + 2. So\na12 = 12 + 11 + · · · + 2 + 1 = 12(12 + 1)\n2\n= 78.\nOR\nWe have\na2 = a1+1 = a1 + a1 + 1 · 1 = 1 + 1 + 1 = 3,\na3 = a2+1 = a2 + a1 + 2 · 1 = 3 + 1 + 2 = 6,\na6 = a3+3 = a3 + a3 + 3 · 3 = 6 + 6 + 9 = 21,\nand\na12 = a6+6 = a6 + a6 + 6 · 6 = 21 + 21 + 36 = 78.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q24",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Trigonometry",
+    "difficulty": "hard",
+    "problem_text": "Riders on a Ferris wheel travel in a circle in a vertical plane. A particular wheel has radius 20 feet\nand revolves at the constant rate of one revolution per minute. How many seconds does it take\na rider to travel from the bottom of the wheel to a point 10 vertical feet above the bottom?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7.5",
+      "D": "10",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "In the ﬁgure, the center of the wheel is at O, and the rider travels from A\nto B. Since AC = 10 and OB = OA = 20, the point C is the midpoint of OA.\nIn the right △OCB, we have OC half of the length of the hypotenuse OB, so\nm̸ COB = 60◦. Since the wheel turns through an angle of 360◦in 60 seconds,\nthe time required to turn through an angle of 60◦is\n60\n\u0012 60\n360\n\u0013\n= 10 seconds.\nA\nB\nO\nC\n10\n10\n20\n\nSolutions\n2002\n3rd AMC 10 B\n8",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10B-Q25",
+    "year": 2002,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "When 15 is appended to a list of integers, the mean is increased by 2. When 1 is appended to\nthe enlarged list, the mean of the enlarged list is decreased by 1. How many integers were in the\noriginal list?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let n denote the number of integers in the original list, and m the original\nmean. Then the sum of the original numbers is mn. After 15 is appended to\nthe list, we have the sum\n(m + 2)(n + 1) = mn + 15,\nso\nm + 2n = 13.\nAfter 1 is appended to the enlarged list, we have the sum\n(m + 1)(n + 2) = mn + 16,\nso\n2m + n = 14.\nSolving m + 2n = 13 and 2m + n = 14 gives m = 5 and n = 4.\n\nSolutions\n2002\n3rd AMC 10 B\n9\nThis page left intentionally blank.\n\nThe\nAmerican Mathematics Contest 10 (AMC 10)\nSponsored by\nMathematical Association of America\nThe Akamai Foundation\nUniversity of Nebraska – Lincoln\nContributors\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nCasualty Actuarial Society\nClay Mathematics Institute\nConsortium for Mathematics and its Applications\nInstitute for Operations Research and the Management Sciences\nKappa Mu Epsilon\nMu Alpha Theta\nNational Association of Mathematicians\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSchool Science and Mathematics Association\nSociety of Actuaries\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+    "has_image": false
+  }
+]

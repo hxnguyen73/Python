@@ -1,0 +1,420 @@
+[
+  {
+    "id": "2008-AMC10A-Q01",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "A bakery owner turns on his doughnut machine at 8:30 AM. At 11:10 AM the machine has com-\npleted one third of the day’s job. At what time will the doughnut machine complete the job?",
+    "answer_choices": {
+      "A": "1:50 PM",
+      "B": "3:00 PM",
+      "C": "3:30 PM",
+      "D": "4:30 PM",
+      "E": "5:50 PM"
+    },
+    "correct_answer": "D",
+    "solution_text": "The machine worked for 2 hours and 40 minutes, or 160 minutes,\nto complete one third of the job, so the entire job will take 3·160 = 480 minutes,\nor 8 hours. Hence the doughnut machine will complete the job at 4:30 pm.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q02",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A square is drawn inside a rectangle. The ratio of the width of the rectangle to a side of the\nsquare is 2 : 1. The ratio of the rectangle’s length to its width is 2 : 1. What percent of the\nrectangle’s area is inside the square?",
+    "answer_choices": {
+      "A": "12.5",
+      "B": "25",
+      "C": "50",
+      "D": "75",
+      "E": "87.5"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let x be the side length of the square. Then the area of the\nsquare is x2. The rectangle has sides of length 2x and 4x, and hence area 8x2.\nThe fraction of the rectangle’s area inside the square is\nx2\n8x2 = 1\n8 or 12.5%.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q03",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "For the positive integer n, let ⟨n⟩denote the sum of all the positive divisors of n with the ex-\nception of n itself. For example, ⟨4⟩= 1 + 2 = 3 and ⟨12⟩= 1 + 2 + 3 + 4 + 6 = 16 What is\n⟨⟨⟨6⟩⟩⟩?",
+    "answer_choices": {
+      "A": "6",
+      "B": "12",
+      "C": "24",
+      "D": "32",
+      "E": "36"
+    },
+    "correct_answer": "A",
+    "solution_text": "The positive divisors of 6, other than 6, are 1, 2, and 3, so\n<6> = 1 + 2 + 3 = 6. As a consequence, we also have <<<6>>> = 6.\nNote: A positive integer whose divisors other than itself add up to that positive\ninteger is called a perfect number. The two smallest perfect numbers are 6 and\n28.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q04",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Suppose that 2\n3 of 10 bananas are worth as much as 8 oranges. How many oranges are worth\nas much is 1\n2 of 5 bananas?",
+    "answer_choices": {
+      "A": "2",
+      "B": "5\n2",
+      "C": "3",
+      "D": "7\n2",
+      "E": "4"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that 2\n3 of 10 bananas is 20\n3 bananas, which are worth as\nmuch as 8 oranges. So one banana is worth as much as 8 ·\n3\n20 =\n6\n5 oranges.\nTherefore 1\n2 of 5 bananas are worth as much as 5\n2 · 6\n5 = 3 oranges.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q06",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A triathlete competes in a triathlon in which the swimming, biking, and running segments are\nall of the same length. The triathlete swims at a rate of 3 kilometers per hour, bikes at a rate of\n20 kilometers per hour, and runs at a rate of 10 kilometers per hour. Which of the following is\nclosest to the triathlete’s average speed, in kilometers per hour, for the entire race?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x be the length of one segment, in kilometers. To complete\nthe race, the triathlete takes\nx\n3 + x\n20 + x\n10 = 29\n60x\nhours to cover the distance of 3x kilometers. The average speed is therefore\n3x\n29\n60x ≈6 kilometers per hour.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q07",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The fraction\n(3^{2008})^{2} −(3^{2006})^{2}\n(3^{2007})^{2} −(3^{2005})^{2}\nsimpliﬁes to which of the following?",
+    "answer_choices": {
+      "A": "1",
+      "B": "9\n4",
+      "C": "3",
+      "D": "9\n2",
+      "E": "9"
+    },
+    "correct_answer": "E",
+    "solution_text": "First note that\n¡\n32008¢2 −\n¡\n32006¢2\n(32007)2 −(32005)2 = 92008 −92006\n92007 −92005 .\nFactoring 92005 from each of the terms on the right side produces\n92008 −92006\n92007 −92005 = 92005 · 93 −92005 · 91\n92005 · 92 −92005 · 1 = 92005\n92005 · 93 −9\n92 −1 = 9 · 92 −1\n92 −1 = 9.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q08",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "4 · 12\n8 · 16\n12 · · · 4n + 4\n4n\n· · · 2008\n2004?",
+    "answer_choices": {
+      "A": "251",
+      "B": "502",
+      "C": "1004",
+      "D": "2008",
+      "E": "4016\n6"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let x denote the sticker price, in dollars. Heather pays 0.85x−90\ndollars at store A and would have paid 0.75x dollars at store B. Thus the sticker\nprice x satisﬁes 0.85x −90 = 0.75x −15, so x = 750.\n\nSolutions\n2008\n9th AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q11",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "While Steve and LeRoy are ﬁshing 1 mile from shore, their boat springs a leak, and water comes\nin at a constant rate of 10 gallons per minute. The boat will sink if it takes in more than 30 gallons\nof water. Steve starts rowing toward the shore at a constant rate of 4 miles per hour while LeRoy\nbails water out of the boat. What is the slowest rate, in gallons per minute, at which LeRoy can\nbail if they are to reach the shore without sinking?",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": "At the rate of 4 miles per hour, Steve can row a mile in 15\nminutes. During that time 15 · 10 = 150 gallons of water will enter the boat.\nLeRoy must bail 150 −30 = 120 gallons of water during that time. So he must\nbail at the rate of at least 120\n15 = 8 gallons per minute.\nOR\nSteve must row for 15 minutes to reach the shore, so the amount of water in the\nboat can increase by at most 30\n15 = 2 gallons per minute. Therefore LeRoy must\nbail out at least 10 −2 = 8 gallons per minute.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q12",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In a collection of red, blue, and green marbles, there are 25% more red marbles than blue mar-\nbles, and there are 60% more green marbles than red marbles. Suppose that there are r red\nmarbles. What is the total number of marbles in that collection?",
+    "answer_choices": {
+      "A": "2.85r",
+      "B": "3r",
+      "C": "3.4r",
+      "D": "3.85r",
+      "E": "4.25r"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let b and g represent the number of blue and green marbles,\nrespectively. Then r = 1.25b and g = 1.6r. Thus the total number of red, blue,\nand green marbles is\nr + b + g = r +\nr\n1.25 + 1.6r = r + 0.8r + 1.6r = 3.4r.\n\nSolutions\n2008\n9th AMC 10 A\n4",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q13",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Doug can paint a room in 5 hours. Dave can paint the same room in 7 hours. Doug and Dave\npaint the room together and take a one-hour break for lunch. Let t be the total time, in hours,\nrequired for them to complete the job working together, including lunch. Which of the following\nequations is satisﬁed by t?",
+    "answer_choices": {
+      "A": "1\n5 + 1\n7\n(t + 1) = 1",
+      "B": "1\n5 + 1\n7\nt + 1 = 1",
+      "C": "1\n5 + 1\n7\nt = 1",
+      "D": "1\n5 + 1\n7\n(t −1) = 1",
+      "E": "(5 + 7)t = 1"
+    },
+    "correct_answer": "D",
+    "solution_text": "In one hour Doug can paint 1\n5 of the room, and Dave can paint\n1\n7 of the room. Working together, they can paint 1\n5 + 1\n7 of the room in one hour.\nIt takes them t hours to do the job, but because they take an hour for lunch,\nthey work for only t −1 hours. The fraction of the room that they paint in this\ntime is\nµ1\n5 + 1\n7\n¶\n(t −1),\nwhich must be equal to 1. It may be checked that the solution, t = 47\n12, does not\nsatisfy the equation in any of the other answer choices.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q14",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Older television screens have an aspect ratio of 4 : 3. That is, the ratio of the width to the height is\n4 : 3. The aspect ratio of many movies is not 4 : 3, so they are sometimes shown on a television\nscreen by ’letterboxing’ - darkening strips of equal height at the top and bottom of the screen, as\nshown. Suppose a movie has an aspect ratio of 2 : 1 and is shown on an older television screen\nwith a 27-inch diagonal. What is the height, in inches, of each darkened strip?",
+    "answer_choices": {
+      "A": "2",
+      "B": "2.25",
+      "C": "2.5",
+      "D": "2.7",
+      "E": "3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let h and w be the height and width of the screen, respectively,\nin inches. By the Pythagorean Theorem, h:w:27 = 3:4:5, so\nh = 3\n5 · 27 = 16.2\nand\nw = 4\n5 · 27 = 21.6.\nThe height of the non-darkened portion of the screen is half the width, or 10.8\ninches. Therefore the height of each darkened strip is\n1\n2(16.2 −10.8) = 2.7\ninches.\nOR\nThe screen has dimensions 4a × 3a for some a. The portion of the screen not\ncovered by the darkened strips has aspect ratio 2:1, so it has dimensions 4a×2a.\nThus the darkened strips each have height a\n2. By the Pythagorean Theorem,\nthe diagonal of the screen is 5a = 27 inches. Hence the height of each darkened\nstrip is 27\n10 = 2.7 inches.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q15",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Yesterday Han drove 1 hour longer than Ian at an average speed 5 miles per hour faster than\nIan. Jan drove 2 hours longer than Ian at an average speed 10 miles per hour faster than Ian.\nHan drove 70 miles more than Ian. How many more miles did Jan drive than Ian?",
+    "answer_choices": {
+      "A": "120",
+      "B": "130",
+      "C": "140",
+      "D": "150",
+      "E": "160"
+    },
+    "correct_answer": "D",
+    "solution_text": "Suppose that Ian drove for t hours at an average speed of r\nmiles per hour. Then he covered a distance of rt miles. The number of miles\nHan covered by driving 5 miles per hour faster for 1 additional hour is\n(r + 5)(t + 1) = rt + 5t + r + 5.\nSince Han drove 70 miles more than Ian,\n70 = (r + 5)(t + 1) −rt = 5t + r + 5,\nso\n5t + r = 65.\nThe number of miles Jan drove more than Ian is consequently\n(r + 10)(t + 2) −rt = 10t + 2r + 20 = 2(5t + r) + 20 = 2 · 65 + 20 = 150.\nOR\n\nSolutions\n2008\n9th AMC 10 A\n5\nRepresent the time traveled, average speed, and distance for Ian as length, width,\nand area, respectively, of a rectangle as shown. A similarly formed rectangle\nfor Han would include an additional 1 unit of length and 5 units of width as\ncompared to Ian’s rectangle. Jan’s rectangle would have an additional 2 units\nof length and 10 units of width as compared to Ian’s rectangle.\nr\nt\n1\n5\n2\n10\nr\nt\nr\nt\nIan\nHan\nJan\nGiven that Han’s distance exceeds that of Ian by 70 miles, and Jan’s 10 × t and\n2×r rectangles are twice the size of Ian’s 5×t and 1×r rectangles, respectively,\nit follows that Jan’s distance exceeds that of Ian by\n2(70 −5) + 20 = 150 miles.\nA\nB\nC\nD\nE\nO",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q16",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Points A and B lie on a circle centered at O, and ∠AOB = 60^{◦}. A second circle is internally\ntangent to the ﬁrst and tangent to both OA and OB. What is the ratio of the area of the smaller\ncircle to that of the larger circle?",
+    "answer_choices": {
+      "A": "1\n16",
+      "B": "1\n9",
+      "C": "1\n8",
+      "D": "1\n6",
+      "E": "1\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let r and R be the radii of the smaller\nand larger circles, respectively. Let E be the center of the\nsmaller circle, let OC be the radius of the larger circle\nthat contains E, and let D be the point of tangency of the\nsmaller circle to OA. Then OE = R −r, and because\n△EDO is a 30 – 60 – 90◦triangle, OE = 2DE = 2r.\nThus 2r = R −r, so\nr\nR = 1\n3. The ratio of the areas is\n( 1\n3)2 = 1\n9.\n6\n3",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q17",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "An equilateral triangle has side length 6. What is the area of the region containing all points that\nare outside the triangle and not more than 3 units from a point of the triangle?",
+    "answer_choices": {
+      "A": "36 + 24\n√\n3",
+      "B": "54 + 9π",
+      "C": "54 + 18\n√\n3 + 6π",
+      "D": "2\n√\n3 + 3\n2 π",
+      "E": "9\n√\n3 + 1\n2 π"
+    },
+    "correct_answer": "B",
+    "solution_text": "The region consists of three rectangles\nwith length 6 and width 3 together with three 120◦\nsectors of circles with radius 3.\nThe combined area of the three 120◦sectors is the\nsame as the area of a circle with radius 3, so the area\nof the region is\n3 · 6 · 3 + π · 32 = 54 + 9π.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q18",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A right triangle has perimeter 32 and area 20. What is the length of its hypotenuse?",
+    "answer_choices": {
+      "A": "57\n4",
+      "B": "59\n4",
+      "C": "61\n4",
+      "D": "63\n4",
+      "E": "65\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let x be the length of the hypotenuse, and let y and z be the\nlengths of the legs. The given conditions imply that\ny2 + z2 = x2,\ny + z = 32 −x,\nand\nyz = 40.\n\nSolutions\n2008\n9th AMC 10 A\n6\nThus\n(32 −x)2 = (y + z)2 = y2 + z2 + 2yz = x2 + 80,\nfrom which 1024 −64x = 80, and x = 59\n4 .\nNote: Solving the system of equations yields leg lengths of\n1\n8(69 +\n√\n2201)\nand\n1\n8(69 −\n√\n2201),\nso a triangle satisfying the given conditions does in fact exist.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q19",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Rectangle PQRS lies in a plane with PQ = RS = 2 and QR = SP = 6. The rectangle is rotated\n90^{◦}clockwise about R, then rotated 90^{◦}clockwise about the point that S moved to after the ﬁrst\nrotation. What is the length of the path traveled by point P?",
+    "answer_choices": {
+      "A": "(2\n√\n3 +\n√\n5)π",
+      "B": "6π",
+      "C": "(3 +\n√\n10)π",
+      "D": "(\n√\n3 + 2\n√\n5)π",
+      "E": "2\n√\n10π"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let P ′ and S′ denote the positions of P and S, respectively, after\nthe rotation about R, and let P ′′ denote the ﬁnal position of P. In the rotation\nthat moves P to position P ′, the point P rotates 90◦on a circle with center\nR and radius PR =\n√\n22 + 62 = 2\n√\n10. The length of the arc traced by P is\n(1/4)\n¡\n2π · 2\n√\n10\n¢\n= π\n√\n10. Next, P ′ rotates to P ′′ through a 90◦arc on a circle\nwith center S′ and radius S′P ′ = 6. The length of this arc is 1\n4(2π · 6) = 3π.\nThe total distance traveled by P is\nπ\n√\n10 + 3π =\n³\n3 +\n√\n10\n´\nπ.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q20",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Trapezoid ABCD has bases AB and CD and diagonals intersecting at K. Suppose that AB = 9,\nDC = 12, and the area of △AKD is 24. What is the area of trapezoid ABCD?",
+    "answer_choices": {
+      "A": "92",
+      "B": "94",
+      "C": "96",
+      "D": "98",
+      "E": "100"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that △ABK is similar to △CDK. Because △AKD and\n△KCD have collinear bases and share a vertex D,\nArea(△KCD)\nArea(△AKD) = KC\nAK = CD\nAB = 4\n3,\nso △KCD has area 32.\nBy a similar argument, △KAB has area 18.\nFinally, △BKC has the same\narea as △AKD since they are in the same proportion to each of the other two\ntriangles. The total area is 24 + 32 + 18 + 24 = 98.\nA\nB\nC\nD\nK\n9\n24\n12\nOR\nLet h denote the height of the trapezoid. Then\n24 + Area(△AKB) = 9h\n2 .\n\nSolutions\n2008\n9th AMC 10 A\n7\nBecause △CKD is similar to △AKB with similarity ratio 12\n9 = 4\n3,\nArea(△CKD) = 16\n9 Area(△AKB),\nso\n24 + 16\n9 Area(△AKB) = 12h\n2 .\nSolving the two equations simultaneously yields h = 28\n3 . This implies that the\narea of the trapezoid is\n1\n2 · 28\n3 (9 + 12) = 98.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q21",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A cube with side length 1 is sliced by a plane that passes through two diagonally opposite ver-\ntices A and C and the midpoints B and D of two opposite edges not containing A and C, ac\nshown. What is the area of quadrilateral ABCD?",
+    "answer_choices": {
+      "A": "√\n6\n2",
+      "B": "5\n4",
+      "C": "√\n2",
+      "D": "3\n2",
+      "E": "√\n3"
+    },
+    "correct_answer": "A",
+    "solution_text": "All sides of ABCD are of equal length, so ABCD is a rhombus.\nIts diagonals have lengths AC =\n√\n3 and BD =\n√\n2, so its area is\n1\n2\n√\n3 ·\n√\n2 =\n√\n6\n2 .",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q22",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Jacob uses the following procedure to write down a sequence of numbers. First he chooses the\nﬁrst term to be 6. To generate each succeeding term, he ﬂips a fair coin. If it comes up heads, he\ndoubles the previous term and subtracts 1. If it comes up tails, he takes half of the previous term\nand subtracts 1. What is the probability that the fourth term in Jacob’s sequence is an integer?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n3",
+      "C": "1\n2",
+      "D": "5\n8",
+      "E": "3\n4"
+    },
+    "correct_answer": "D",
+    "solution_text": "The tree diagram below gives all possible sequences of four\nterms. In the diagram, each left branch from a number corresponds to a head,\nand each right branch to a tail.\n6\n11\n2\n21\n3\n0\n41\n8\n5\n–1\n19\n2\n9\n2\n5\n4\n1\n2\n–1\nBecause the coin is fair, each of the eight possible outcomes in the bottom row of\nthe diagram is equally likely. Five of those numbers are integers, so the required\nprobability is 5\n8.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q23",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Two subsets of the set S = {a, b, c, d, e} are to be chosen so that their union is S and their\nintersection contains exactly two elements. In how many ways can this be done, assuming that\nthe order in which the subsets are chosen does not matter?",
+    "answer_choices": {
+      "A": "20",
+      "B": "40",
+      "C": "60",
+      "D": "160",
+      "E": "320"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the two subsets be A and B. There are\n¡5\n2\n¢\n= 10 ways to\nchoose the two elements common to A and B. There are then 23 = 8 ways to\nassign the remaining three elements to A or B, so there are 80 ordered pairs\n(A, B) that meet the required conditions. However, the ordered pairs (A, B)\nand (B, A) represent the same pair {A, B} of subsets, so the conditions can be\nmet in 80\n2 = 40 ways.\n\nSolutions\n2008\n9th AMC 10 A\n8",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q24",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let k = 2008^{2} + 2^{2008}. What is the units digit of k^{2} + 2^{k}?",
+    "answer_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "D",
+    "solution_text": "The units digit of 2n is 2, 4, 8, and 6 for n = 1, 2, 3, and 4,\nrespectively. For n > 4, the units digit of 2n is equal to that of 2n−4. Thus for\nevery positive integer j the units digit of 24j is 6, and hence 22008 has a units\ndigit of 6. The units digit of 20082 is 4. Therefore the units digit of k is 0, so\nthe units digit of k2 is also 0. Because 2008 is even, both 20082 and 22008 are\nmultiples of 4. Therefore k is a multiple of 4, so the units digit of 2k is 6, and\nthe units digit of k2 + 2k is also 6.\n√3x\nP\nQ\nS\nU\nT\nR\nx\nx\nx",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10A-Q25",
+    "year": 2008,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A round table has radius 4. Six rectangular place mats are placed on the table. Each place mat\nhas width 1 and length x as shown. They are positioned so that each mat has two corners on\nthe edge of the table, these two corners being end points of the same side of length x. Further,\n\nthe mats are positioned so that the inner corners each touch an inner corner of an adjacent mat.\nWhat is x?\nx\n1",
+    "answer_choices": {
+      "A": "2\n√\n5 −\n√\n3",
+      "B": "3",
+      "C": "3\n√\n7−\n√\n3\n2",
+      "D": "2\n√\n3",
+      "E": "5+2\n√\n3\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Select one of the mats. Let P and Q be\nthe two corners of the mat that are on the edge of the\ntable, and let R be the point on the edge of the table\nthat is diametrically opposite P as shown. Then R is\nalso a corner of a mat and △PQR is a right triangle\nwith hypotenuse PR = 8. Let S be the inner corner of\nthe chosen mat that lies on QR, T the analogous point\non the mat with corner R, and U the corner common\nto the other mat with corner S and the other mat with\ncorner T. Then △STU is an isosceles triangle with two sides of length x and\nvertex angle 120◦. It follows that ST =\n√\n3x, so QR = QS+ST +TR =\n√\n3x+2.\nApply the Pythagorean Theorem to △PQR to obtain\n¡√\n3x + 2\n¢2 + x2 = 82,\nfrom which x2 +\n√\n3x −15 = 0. Solve for x and ignore the negative root to\nobtain\nx = 3\n√\n7 −\n√\n3\n2\n.\n\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCanada/USA Mathpath\nCasualty Actuarial Society\nClay Mathematics Institute\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour Company\nMu Alpha Theta\nNational Assessment & Testing\nNational Council of Teachers of Mathematics\nPedagoguery Software Inc.\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.",
+    "has_image": true
+  }
+]

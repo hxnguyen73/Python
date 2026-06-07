@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2015-AMC10B-Q01",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of 2 −(−2)^{−2}?",
+    "answer_choices": {
+      "A": "−2",
+      "B": "1\n16",
+      "C": "7\n4",
+      "D": "9\n4",
+      "E": "6"
+    },
+    "correct_answer": "C",
+    "solution_text": "2 −(−2)−2 = 2 −\n1\n(−2)2 = 2 −1\n4 = 7\n4",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q02",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Marie does three equally time-consuming tasks in a row without taking breaks. She begins the\nﬁrst task at 1:00 PM and ﬁnishes the second task at 2:40 PM. When does she ﬁnish the third\ntask?",
+    "answer_choices": {
+      "A": "3:10 PM",
+      "B": "3:30 PM",
+      "C": "4:00 PM",
+      "D": "4:10 PM",
+      "E": "4:30 PM"
+    },
+    "correct_answer": "B",
+    "solution_text": "The ﬁrst two tasks together took 100 minutes—from 1:00 to\n2:40. Therefore each task took 50 minutes. Marie began the third task at 2:40\nand ﬁnished 50 minutes later, at 3:30 PM.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q03",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Isaac has written down one integer two times and another integer three times. The sum of the\nﬁve numbers is 100, and one of the numbers is 28. What is the other number?",
+    "answer_choices": {
+      "A": "8",
+      "B": "11",
+      "C": "14",
+      "D": "15",
+      "E": "18"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let x be the integer Isaac wrote two times, and let y be the\ninteger Isaac wrote three times. Then 2x + 3y = 100. If x = 28, then 3y =\n100 −2 · 28 = 44, and y cannot be an integer. Therefore y = 28 and 2x =\n100 −3 · 28 = 16, so x = 8.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q04",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Four siblings ordered an extra large pizza. Alex ate 1\n5, Beth 1\n3, and Cyril 1\n4 of the pizza. Dan got\nthe leftovers. What is the sequence of the siblings in decreasing order of the part of pizza they\nconsumed?",
+    "answer_choices": {
+      "A": "Alex, Beth, Cyril, Dan",
+      "B": "Beth, Cyril, Alex, Dan",
+      "C": "Beth, Cyril, Dan, Alex",
+      "D": "Beth, Dan, Cyril, Alex",
+      "E": "Dan, Beth, Cyril, Alex"
+    },
+    "correct_answer": "C",
+    "solution_text": "After the ﬁrst three siblings ate, there was 1−1\n5 −1\n3 −1\n4 = 13\n60 of\nthe pizza left for Dan to eat, so Dan ate more than 1\n5 = 12\n60 but less than 1\n4 = 15\n60\nof the pizza. Because 1\n3 > 1\n4 > 13\n60 > 1\n5, the order is Beth, Cyril, Dan, Alex.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q05",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "David, Hikmet, Jack, Marta, Rand, and Todd were in a 12-person race with 6 other people. Rand\nﬁnished 6 places ahead of Hikmet. Marta ﬁnished 1 place behind Jack. David ﬁnished 2 places\nbehind Hikmet. Jack ﬁnished 2 places behind Todd. Todd ﬁnished 1 place behind Rand. Marta\nﬁnished in 6th place. Who ﬁnished in 8th place?",
+    "answer_choices": {
+      "A": "David",
+      "B": "Hikmet",
+      "C": "Jack",
+      "D": "Rand",
+      "E": "Todd"
+    },
+    "correct_answer": "B",
+    "solution_text": "Marta ﬁnished 6th, so Jack ﬁnished 5th. Therefore Todd ﬁnished\n3rd and Rand ﬁnished 2nd. Because Hikmet was 6 places behind Rand, it was\nHikmet who ﬁnished 8th. (David ﬁnished 10th.)",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q06",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Marley practices exactly one sport each day of the week. She runs three days a week but never\non two consecutive days. On Monday she plays basketball and two days later golf. She swims\nand plays tennis, but she never plays tennis the day after running or swimming. Which day of\nthe week does Marley swim?",
+    "answer_choices": {
+      "A": "Sunday",
+      "B": "Tuesday",
+      "C": "Thursday",
+      "D": "Friday",
+      "E": "Saturday"
+    },
+    "correct_answer": "E",
+    "solution_text": "Marley plays basketball on Monday and golf on Wednesday.\nBecause she cannot run three of the four consecutive days between Thursday\nand Sunday, she must run on Tuesday. From Thursday to Sunday she runs,\nswims, and plays tennis, but she cannot play tennis the day after running or\nswimming. So she must play tennis on Thursday. She must swim on Saturday,\nand run on Friday and Sunday, so that she does not run on consecutive days.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q07",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Consider the operation ”minus the reciprocal of,” deﬁned by a ⋄b = a −1\nb. What is ((1 ⋄2) ⋄3) −\n(1 ⋄(2 ⋄3))?",
+    "answer_choices": {
+      "A": "−7\n30",
+      "B": "−1\n6",
+      "C": "0",
+      "D": "1\n6",
+      "E": "7\n30"
+    },
+    "correct_answer": "A",
+    "solution_text": "\u0000(1 ⋄2) ⋄3\n\u0001\n−\n\u00001 ⋄(2 ⋄3)\n\u0001\n=\n\u0012\u0012\n1 −1\n2\n\u0013\n−1\n3\n\u0013\n−\n\n1 −\n\u0012\n2 −1\n3\n\u0013−1!\n= 1\n6 −\n\u0012\n1 −3\n5\n\u0013\n= 1\n6 −2\n5 = −7\n30\n\n2015 AMC10 B Solutions\n3",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q08",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The letter F shown below is rotated 90^{◦}clockwise around the origin, then reﬂected in the y-axis,\nand then rotated a half turn around the origin. What is the ﬁnal image?\ny\nx\ny",
+    "answer_choices": {
+      "A": "x\ny",
+      "B": "x\ny",
+      "C": "x\ny",
+      "D": "x\ny",
+      "E": ""
+    },
+    "correct_answer": "E",
+    "solution_text": "The ﬁrst rotation results in Figure 1, the reﬂection in Figure 2,\nand the half turn in Figure 3.\nFigure 1\nFigure 2\nFigure 3",
+    "has_image": true
+  },
+  {
+    "id": "2015-AMC10B-Q10",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What are the sign and units digit of the product of all the odd negative integers strictly greater\nthan −2015?",
+    "answer_choices": {
+      "A": "8\n99",
+      "B": "2\n5",
+      "C": "9\n20",
+      "D": "1\n2",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are 2014 negative integers strictly greater than −2015,\nand exactly half of them, or 1007, are odd. The product of an odd number of\nnegative numbers is negative. Furthermore, because all factors are odd and some\nof them are multiples of 5, this product is an odd multiple of 5 and therefore\nhas units digit 5.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q12",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "For how many integers x is the point (x, −x) inside or on the circle of radius 10 centered at (5, 5)?",
+    "answer_choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": "A",
+    "solution_text": "The circle intersects the line y = −x at the points A = (−5, 5)\nand B = (5, −5). Segment AB is a chord of the circle and contains 11 points\nwith integer coordinates.\n\n2015 AMC10 B Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q13",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The line 12x+5y = 60 forms a triangle with the coordinate axes. What is the sum of the lengths\nof the altitudes of this triangle?",
+    "answer_choices": {
+      "A": "20",
+      "B": "360\n17",
+      "C": "107\n5",
+      "D": "43\n2",
+      "E": "281"
+    },
+    "correct_answer": "E",
+    "solution_text": "Label the vertices of the triangle A = (0, 0), B = (5, 0), and\nC = (0, 12).\nBy the Pythagorean Theorem BC = 13.\nTwo altitudes are 5\nand 12.\nLet AD be the third altitude.\nThe area of this triangle is 30, so\n1\n2 · AD · BC = 30. Therefore AD = 2·30\nBC = 60\n13. The sum of the lengths of the\naltitudes is 5 + 12 + 60\n13 = 281\n13 .",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q14",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Let a, b, and c be three distinct one-digit numbers. What is the maximum value of the sum of the\nroots of the equation (x −a)(x −b) + (x −b)(x −c) = 0?",
+    "answer_choices": {
+      "A": "15",
+      "B": "15.5",
+      "C": "16",
+      "D": "16.5",
+      "E": "17"
+    },
+    "correct_answer": "D",
+    "solution_text": "If (x−a)(x−b)+(x−b)(x−c) = 0, then (x−b)(2x−(a+c)) = 0, so\nthe two roots are b and a+c\n2 . The maximum value of their sum is 9+ 8+7\n2\n= 16.5.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q15",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The town of Hamlet has 3 people for each horse, 4 sheep for each cow, and 3 ducks for each\nperson. Which of the following could not possibly be the total number of people, horses, sheep,\ncows, and ducks in Hamlet?",
+    "answer_choices": {
+      "A": "41",
+      "B": "47",
+      "C": "59",
+      "D": "61",
+      "E": "66"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let h be the number of horses and c be the number of cows.\nThere are then 3h people, 9h ducks, and 4c sheep in Hamlet. The total popu-\nlation of Hamlet is 13h + 5c, where h and c are whole numbers. A number N\ncan be the population only if there exists a whole number value for h such that\nN −13h is a whole number multiple of 5. This is possible for all the provided\nnumbers except 47, as follows: 41−13·2 = 5·3, 59−13·3 = 5·4, 61−13·2 = 5·7,\nand 66 −13 · 2 = 5 · 8\nNone of 47, 47 −13 = 34, 47 −13 · 2 = 21, and 47 −13 · 3 = 8 is a multiple of 5.\nTherefore 47 cannot be the population of Hamlet.\nNote: In fact, 47 is the largest number that cannot be the population.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q16",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Al, Bill, and Cal will each randomly be assigned a whole number from 1 to 10, inclusive, with no\ntwo of them getting the same number. What is the probability that Al’s number will be a whole\nnumber multiple of Bill’s and Bill’s number will be a whole number multiple of Cal’s?",
+    "answer_choices": {
+      "A": "9\n1000",
+      "B": "1\n90",
+      "C": "1\n80",
+      "D": "1\n72",
+      "E": "2\n121"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are 9 assignments satisfying the condition: (4, 2, 1),\n(6, 2, 1), (8, 2, 1), (10, 2, 1), (6, 3, 1), (9, 3, 1), (8, 4, 1), (10, 5, 1), and (8, 4, 2).\nThere are 10 · 9 · 8 = 720 possible assignments, so the probability is\n9\n720 =\n1\n80.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q17",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The centers of the faces of the right rectangular prism shown below are joined to create an\noctahedron, What is the volume of the octahedron?",
+    "answer_choices": {
+      "A": "75\n12",
+      "B": "10",
+      "C": "12",
+      "D": "10\n√\n2",
+      "E": "15"
+    },
+    "correct_answer": "B",
+    "solution_text": "Consider the octahedron to be two pyramids whose base is a\nrhombus in the middle horizontal plane, as shown below. One pyramid points\n\n2015 AMC10 B Solutions\n5\nup, the other down. The area of the base is the area of 4 right triangles with\nlegs 2 and 5\n2, or 10. The altitude of each pyramid is half that of the prism or 3\n2.\nThe volume of the octahedron is 2 · 1\n3 · 10 · 3\n2 = 10.",
+    "has_image": true
+  },
+  {
+    "id": "2015-AMC10B-Q18",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Johann has 64 fair coins. He ﬂips all the coins. Any coin that lands on tails is tossed again. Coins\nthat land on tails on the second toss are tossed a third time. What is the expected number of\ncoins that are now heads?",
+    "answer_choices": {
+      "A": "32",
+      "B": "40",
+      "C": "48",
+      "D": "56",
+      "E": "64"
+    },
+    "correct_answer": "D",
+    "solution_text": "A coin can be tossed once, twice, or three times. View the\nproblem as tossing each coin three times. If all three tosses are tails then the\ncoin ends on a tail; however, if any of the three tosses is a head then the coin\nends on a head (the subsequent tosses can be ignored). Thus each coin has a 7\nout of 8 chance of landing on heads. Therefore the expected number of heads is\n7\n8 · 64 = 56.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q19",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In △ABC, ∠C = 90^{◦}and AB = 12. Squares ABXY and ACWZ are constructed outside of the\ntriangle. The points X, Y, Z, and W lie on a circle. What is the perimeter of the triangle?",
+    "answer_choices": {
+      "A": "12 + 9\n√\n3",
+      "B": "18 + 6\n√\n3",
+      "C": "12 + 12\n√\n2",
+      "D": "30",
+      "E": "32"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let O be the center of the circle on which X, Y , Z, and W\nlie. Then O lies on the perpendicular bisectors of segments XY and ZW, and\nOX = OW. Note that segments XY and AB have the same perpendicular\nbisector and segments ZW and AC have the same perpendicular bisector, from\nwhich it follows that O lies on the perpendicular bisectors of segments AB and\nAC; that is, O is the circumcenter of △ABC. Because ∠C = 90◦, O is the\nmidpoint of hypotenuse AB. Let a = 1\n2BC and b = 1\n2CA. Then a2 + b2 = 62\nand 122 + 62 = OX2 = OW 2 = b2 + (a + 2b)2. Solving these two equations\nsimultaneously gives a = b = 3\n√\n2. Thus the perimeter of △ABC is 12+2a+2b =\n12 + 12\n√\n2.\n\n2015 AMC10 B Solutions\n6\nC\nA\nB\n2a\na\nb\n6\nW\nZ\nb\nX\nY\n6\nO\n12\n2b",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q20",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Erin the ant starts at a given corner of a cube and crawls along exactly 7 edges in such a way\nthat she visits every corner exactly once and then ﬁnds that she is unable to return along an\nedge to her starting point. How many paths are there meeting these conditions?",
+    "answer_choices": {
+      "A": "6",
+      "B": "9",
+      "C": "12",
+      "D": "18",
+      "E": "24"
+    },
+    "correct_answer": "A",
+    "solution_text": "The ﬁrst two edges of Erin’s crawl can be chosen in 3·2 = 6 ways.\nThese edges share a unique face of the cube, called the initial face. At this point,\nErin is standing at a vertex u and there is only one unvisited vertex v of the\ninitial face. If v is not visited right after u, then Erin visits all vertices adjacent\nto v before v. This means that once Erin reaches v, she cannot continue her\ncrawl to any unvisited vertex, and v cannot be her last visited vertex because v\nis adjacent to her starting point. Thus v must be visited right after u. There are\nonly two ways to visit the remaining four vertices (clockwise or counterclockwise\naround the face opposite to the initial face) and exactly one of them cannot be\nfollowed by a return to the starting vertex. Therefore there are exactly 6 paths\nin all.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q21",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Cozy the Cat and Dash the Dog are going up a staircase with a certain number of steps. However,\ninstead of walking up the steps one at a time, both Cozy and Dash jump. Cozy goes two steps\nup with each jump (though if necessary, he will just jump the last step). Dash goes ﬁve steps\nup with each jump (though if necessary, he will just jump the last steps if there are fewer than 5\nsteps left). Suppose the Dash takes 19 fewer jumps than Cozy to reach the top of the staircase.\nLet s denote the sum of all possible numbers of steps this staircase can have. What is the sum\nof the digits of s?",
+    "answer_choices": {
+      "A": "9",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "Assume that there are t steps in this staircase and it took Dash\nd+1 jumps. Then the possible values of t are 5d+1, 5d+2, 5d+3, 5d+4, 5d+5.\nOn the other hand, it took Cozy d + 20 jumps, and t = 2d + 39 or t = 2d + 40.\n\n2015 AMC10 B Solutions\n7\nThere are 10 possible combinations but only 3 of them lead to integer values of\nd: t = 5d + 3 = 2d + 39, or t = 5d + 1 = 2d + 40, or t = 5d + 4 = 2d + 40. The\npossible values of t are 63, 66, and 64, and s = 63 + 66 + 64 = 193. The answer\nis 1 + 9 + 3 = 13.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q22",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In the ﬁgure shown below, ABCDE is a regular pentagon and AG = 1. What is FG+JH +CD?",
+    "answer_choices": {
+      "A": "3",
+      "B": "12 −4\n√\n5",
+      "C": "5 + 2\n√\n5\n3",
+      "D": "1 +\n√\n5",
+      "E": "11 + 11\n√\n5"
+    },
+    "correct_answer": "D",
+    "solution_text": "Triangles AGB and CHJ are isosceles and congruent, so AG =\nHC = HJ = 1.\nTriangles AFG and BGH are congruent, so FG = GH.\nTriangles AGF, AHJ, and ACD are similar, so a\nb = a+b\nc\n= 2a+b\nd\n.\nBecause a = c = 1, the ﬁrst equation becomes\n1\nb =\n1+b\n1\nor b2 + b −1 = 0,\nso b =\n−1+\n√\n5\n2\n. Substituting this in the second equation gives d =\n1+\n√\n5\n2\n, so\nb + c + d = 1 +\n√\n5.",
+    "has_image": true
+  },
+  {
+    "id": "2015-AMC10B-Q23",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let n be a positive integer greater than 4 such that the decimal representation of n! ends in k\nzeros and the decimal representation of (2n)! ends in 3k zeros. Let s denote the sum of the four\nleast possible values of n. What is the sum of the digits of s?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because there are ample factors of 2, it is enough to count the\nnumber of factors of 5. Let f(n) be the number of factors of 5 in positive integers\nless than or equal to n. For n from 5 to 9, f(n) = 1. In order for f(2n) to equal\n3, 2n must be between 15 and 19, inclusive. Therefore n = 8 or n = 9. For n\nfrom 10 to 14, f(n) = 2. In order for f(2n) to equal 6, 2n must be between 25\nand 29, inclusive. Hence, n = 13 or n = 14. Thus the four smallest integers n\nthat satisfy the speciﬁed condition are 8, 9, 13, and 14. Their sum is 44 and the\nsum of the digits of 44 is 8.\nOR\nIn fact there are only 4 possible values of n. By Legendre’s Theorem, if n! ends\nin k zeros and (2n)! ends in k′ zeros, then\nk =\njn\n5\nk\n+\nj n\n52\nk\n+\nj n\n53\nk\n+ · · · +\nj n\n5j\nk\n,\n\n2015 AMC10 B Solutions\n8\nk′ =\n\u00162n\n5\n\u0017\n+\n\u00162n\n52\n\u0017\n+\n\u00162n\n53\n\u0017\n+ · · · +\n\u00162n\n5j\n\u0017\n+\n\u0016 2n\n5j+1\n\u0017\n,\nwhere j is the highest power of 5 not exceeding n, and thus the highest power of\n5 not exceeding 2n is at most j + 1. If x is a real number, then ⌊2x⌋≤2⌊x⌋+ 1.\nSo\n\u0004 2n\n5i\n\u0005\n≤2\n\u0004 n\n5i\n\u0005\n+ 1 for each 1 ≤i ≤j + 1. Adding these inequalities yields\nk′ ≤2k + j + 1. If n ≥15, then k > 2 + j −1 = j + 1 and k′ < 3k. For n = 13\nand n = 14, k = 2 and k′ = 5+1 = 6 = 3k. For n ≤12, k =\n\u0004 n\n5\n\u0005\nand k′ =\n\u0004 2n\n5\n\u0005\n;\nin this case k′ = 3k only for n = 8 and n = 9. So s = 8 + 9 + 13 + 14 = 44 and\nthe answer is 4 + 4 = 8.",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q24",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "hard",
+    "problem_text": "Aaron the ant walks on the coordinate plane according to the following rules. He starts at the\norigin p^{0} = (0, 0) facing to the east and walks one unit, arriving at p^{1} = (1, 0). For n = 1, 2, 3, . . . ,\nright after arriving at the point p^{n}, if Aaron can turn 90^{◦}left and walk one unit to an unvisited\npoint p^{n+1}, he does that. Otherwise, he walks one unit straight ahead to reach p^{n+1}. Thus the\nsequence of points continues p^{2} = (1, 1), p^{3} = (0, 1), p^{4} = (−1, 1), p^{5} = (−1, 0), and so on in a\ncounterclockwise spiral pattern. What is p^{2015}?",
+    "answer_choices": {
+      "A": "(−22, −13)",
+      "B": "(−13, −22)",
+      "C": "(−13, 22)",
+      "D": "(13, −22)",
+      "E": "(22, −13)"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that for any natural number k, when Aaron reaches point\n(k, −k), he will have just completed visiting all of the grid points within the\nsquare with vertices at (k, −k), (k, k), (−k, k), and (−k, −k). Thus the point\n(k, −k) is equal to p(2k+1)2−1. It follows that p2024 = p(2·22+1)2−1 = (22, −22).\nBecause 2024 −2015 = 9, the point p2015 = (22 −9, −22) = (13, −22).",
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10B-Q25",
+    "year": 2015,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "A rectangular box measures a × b × c, where a, b, and c are integers and 1 ≤a ≤b ≤c. The\nvolume and surface area of the box are numerically equal. How many ordered triples (a, b, c) are\npossible?",
+    "answer_choices": {
+      "A": "4",
+      "B": "10",
+      "C": "12",
+      "D": "21",
+      "E": "26\n–"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because the volume and surface area are numerically equal,\nabc = 2(ab+ac+bc). Rewriting the equation as ab(c−6)+ac(b−6)+bc(a−6) = 0\nshows that a ≤6. The original equation can also be written as (a−2)bc−2ab−\n2ac = 0. Note that if a = 2, this becomes b + c = 0, and there are no solutions.\nOtherwise, multiplying both sides by a −2 and adding 4a2 to both sides gives\n[(a −2)b −2a][(a −2)c −2a] = 4a2. Consider the possible values of a.\na = 1: (b + 2)(c + 2) = 4\nThere are no solutions in positive integers.\na = 3: (b −6)(c −6) = 36\nThe 5 solutions for (b, c) are (7, 42), (8, 24), (9, 18), (10, 15), and (12, 12).\na = 4: (b −4)(c −4) = 16\nThe 3 solutions for (b, c) are (5, 20), (6, 12), and (8, 8).\na = 5: (3b −10)(3c −10) = 100\nEach factor must be congruent to 2 modulo 3, so the possible pairs of factors\nare (2, 50) and (5, 20). The solutions for (b, c) are (4, 20) and (5, 10), but only\n(5, 10) has a ≤b.\na = 6: (b −3)(c −3) = 9\nThe solutions for (b, c) are (4, 12) and (6, 6), but only (6, 6) has a ≤b.\nThus in all there are 10 ordered triples (a, b, c): (3, 7, 42), (3, 8, 24), (3, 9, 18),\n(3, 10, 15), (3, 12, 12), (4, 5, 20), (4, 6, 12), (4, 8, 8), (5, 5, 10), and (6, 6, 6).\nThe problems and solutions in this contest were proposed by Bernardo Abrego, Tom\nButts, Steve Dunbar, Marta Eso, Zuming Feng, Silvia Fernandez, Charles Garner,\nPeter Gilchrist, Jerry Grossman, Joe Kennedy, Dan Kennedy, Cap Khoury, Steve\nMiller, David Wells, and Carl Yerger.",
+    "has_image": false
+  }
+]

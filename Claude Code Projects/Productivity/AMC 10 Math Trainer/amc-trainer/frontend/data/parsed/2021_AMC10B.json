@@ -1,0 +1,401 @@
+[
+  {
+    "id": "2021-AMC10B-Q01",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of 1234 + 2341 + 3412 + 4123?",
+    "answer_choices": {
+      "A": "10, 000",
+      "B": "10, 010",
+      "C": "10, 110",
+      "D": "11, 000",
+      "E": "11, 110"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q03",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The expression 2021\n2020 −2020\n2021 is equal to the fraction p\nq, where p and q are positive integers whose\ngreatest common divisor is 1. What is p?",
+    "answer_choices": {
+      "A": "1",
+      "B": "9",
+      "C": "2020",
+      "D": "2021",
+      "E": "4041"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q04",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At noon on a certain day, Minneapolis is N degrees warmer than St. Louis. At 4:00 the temper-\nature in Minneapolis has fallen by 5 degrees while the temperature in St. Louis has risen by 3\n\nAoPS Community\n2021 AMC 10 Fall\ndegrees, at which time the temperatures in the two cities differ by 2 degrees. What is the product\nof all possible values of N?",
+    "answer_choices": {
+      "A": "10",
+      "B": "30",
+      "C": "60",
+      "D": "100",
+      "E": "120"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q05",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Let n = 8^{2022}. Which of the following is equal to n\n4 ?",
+    "answer_choices": {
+      "A": "4^{1010}",
+      "B": "2^{2022}",
+      "C": "8^{2018}",
+      "D": "4^{3031}",
+      "E": "4^{3032}"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q06",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The least positive integer with exactly 2021 distinct positive divisors can be written in the form\nm · 6^{k}, where m and k are integers and 6 is not a divisor of m. What is m + k?",
+    "answer_choices": {
+      "A": "47",
+      "B": "58",
+      "C": "59",
+      "D": "88",
+      "E": "90"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q07",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Call a fraction a\nb, not necessarily in the simplest form special if a and b are positive integers\nwhose sum is 15. How many distinct integers can be written as the sum of two, not necessarily\ndifferent, special fractions?",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12",
+      "E": "13"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q08",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The largest prime factor of 16384 is 2, because 16384 = 2^{14}. What is the sum of the digits of the\nlargest prime factor of 16383?",
+    "answer_choices": {
+      "A": "3",
+      "B": "7",
+      "C": "10",
+      "D": "16",
+      "E": "22"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q09",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The knights in a certain kingdom come in two colors. 2\n7 of them are red, and the rest are blue.\nFurthermore, 1\n6 of the knights are magical, and the fraction of red knights who are magical is 2\ntimes the fraction of blue knights who are magical. What fraction of red knights are magical?",
+    "answer_choices": {
+      "A": "2\n9",
+      "B": "3\n13",
+      "C": "7\n27",
+      "D": "2\n7",
+      "E": "1\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q10",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Fourty slips of paper numbered 1 to 40 are placed in a hat. Alice and Bob each draw one number\nfrom the hat without replacement, keeping their numbers hidden from each other. Alice says, ”I\ncan’t tell who has the larger number.” Then Bob says, ”I know who has the larger number.” Alice\nsays, ”You do? Is your number prime?” Bob replies, ”Yes.” Alice says, ”In that case, if I multiply\nyour number by 100 and add my number, the result is a perfect square. ” What is the sum of the\ntwo numbers drawn from the hat?",
+    "answer_choices": {
+      "A": "27",
+      "B": "37",
+      "C": "47",
+      "D": "57",
+      "E": "67"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q11",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A regular hexagon of side length 1 is inscribed in a circle. Each minor arc of the circle determined\nby a side of the hexagon is reﬂected over that side. What is the area of the region bounded by\nthese 6 reﬂected arcs?",
+    "answer_choices": {
+      "A": "5\n√\n3\n2\n−π",
+      "B": "3\n√\n3 −π",
+      "C": "4\n√\n3 −3π\n2",
+      "D": "π −\n√\n3\n2",
+      "E": "π+\n√\n3\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q12",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Which of the following conditions is sufﬁcient to guarantee that integers x, y, and z satisfy the\nequation\nx(x −y) + y(y −z) + z(z −x) = 1?",
+    "answer_choices": {
+      "A": "19 1\n4",
+      "B": "20 1\n4",
+      "C": "21 3\n4",
+      "D": "22 1\n2",
+      "E": "23 3\n4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q14",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Una rolls 6 standard 6-sided dice simultaneously and calculates the product of the 6 numbers\nobtained. What is the probability that the product is divisible by 4?",
+    "answer_choices": {
+      "A": "3\n4",
+      "B": "57\n64",
+      "C": "59\n64",
+      "D": "187\n192",
+      "E": "63\n64"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q15",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In square ABCD, points P and Q lie on AD and AB, respectively. Segments BP and CQ inter-\nsect at right angles at R, with BR = 6 and PR = 7. What is the area of the square?\n\nAoPS Community\n2021 AMC 10 Fall\nA\nB\nC\nD\nQ\nP\nR\n7\n6",
+    "answer_choices": {
+      "A": "85",
+      "B": "93",
+      "C": "100",
+      "D": "117",
+      "E": "125"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q16",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Five balls are arranged around a circle. Chris chooses two adjacent balls at random and inter-\nchanges them. Then Silva does the same, with her choice of adjacent balls to interchange being\nindependent of Chris’s. What is the expected number of balls that occupy their original positions\nafter these two successive transpositions?",
+    "answer_choices": {
+      "A": "1.6",
+      "B": "1.8",
+      "C": "2.0",
+      "D": "2.2",
+      "E": "2.4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q17",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Distinct lines ℓand m lie in the xy-plane. They intersect at the origin. Point P(−1, 4) is reﬂected\nabout line ℓto point P ′, and then P ′ is reﬂected about line m to point P ′′. The equation of line ℓ\nis 5x −y = 0, and the coordinates of P ′′ are (4, 1). What is the equation of line m?",
+    "answer_choices": {
+      "A": "75",
+      "B": "93",
+      "C": "96",
+      "D": "129",
+      "E": "5x −3y = 0\n18\nThree identical square sheets of paper each with side length 6 are stacked on top of each other.\nThe middle sheet is rotated clockwise 30^{◦}about its center and the top sheet is rotated clockwise\n60^{◦}about its center, resulting in the 24-sided polygon shown in the ﬁgure below. The area of this\npolygon can be expressed in the form a −b√c, where a, b, and c are positive integers, and c is\nnot divisible by the square of any prime. What is a + b + c?\n\nAoPS Community\n2021 AMC 10 Fall"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q19",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let N be the positive integer 7777 . . . 777, a 313-digit number where each digit is a 7. Let f(r) be\nthe leading digit of the rth root of N. What is\nf(2) + f(3) + f(4) + f(5) + f(6)?",
+    "answer_choices": {
+      "A": "8",
+      "B": "9",
+      "C": "11",
+      "D": "22",
+      "E": "29"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q20",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In a particular game, each of 4 players rolls a standard 6-sided die. The winner is the player who\nrolls the highest number. If there is a tie for the highest roll, those involved in the tie will roll\nagain and this process will continue until one player wins. Hugo is one of the players in this\ngame. What is the probability that Hugo’s ﬁrst roll was a 5, given that he won the game?",
+    "answer_choices": {
+      "A": "61\n216",
+      "B": "367\n1296",
+      "C": "41\n144",
+      "D": "185\n648",
+      "E": "11\n36"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q21",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Regular polygons with 5, 6, 7, and 8 sides are inscribed in the same circle. No two of the polygons\nshare a vertex, and no three of their sides intersect at a common point. At how many points\ninside the circle do two of their sides intersect?",
+    "answer_choices": {
+      "A": "52",
+      "B": "56",
+      "C": "60",
+      "D": "64",
+      "E": "68"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q22",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "For each integer n ≥2, let S^{n} be the sum of all products jk, where j and k are integers and\n1 ≤j < k ≤n. What is the sum of the 10 least values of n such that S^{n} is divisible by 3?",
+    "answer_choices": {
+      "A": "196",
+      "B": "197",
+      "C": "198",
+      "D": "199",
+      "E": "200"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q23",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Each of the 5 sides and the 5 diagonals of a regular pentagon are randomly and independently\ncolored red or blue with equal probability. What is the probability that there will be a triangle\nwhose vertices are among the vertices of the pentagon such that all of its sides have the same\ncolor?\n\nAoPS Community\n2021 AMC 10 Fall",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "105\n128",
+      "C": "125\n128",
+      "D": "253\n256",
+      "E": "1"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10B-Q24",
+    "year": 2021,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A cube is constructed from 4 white unit cubes and 4 black unit cubes. How many different ways\nare there to construct the 2 × 2 × 2 cube using these smaller cubes? (Two constructions are\nconsidered the same if one can be rotated to match the other.)",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

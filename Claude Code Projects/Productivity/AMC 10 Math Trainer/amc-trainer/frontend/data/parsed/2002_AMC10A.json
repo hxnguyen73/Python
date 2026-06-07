@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2002-AMC10A-Q01",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The ratio 10^{2000} + 10^{2002}\n10^{2001} + 10^{2001} is closest to which of the following numbers?",
+    "answer_choices": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "1",
+      "D": "5",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": "We have\n102000 + 102002\n102001 + 102001 = 102000(1 + 100)\n102000(10 + 10) = 101\n20 ≈5.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q02",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For the nonzero numbers a, b, c, deﬁne\n(a, b, c) = a\nb + b\nc + c\na.\nFind (2, 12, 9).",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "C",
+    "solution_text": "We have\n(2, 12, 9) = 2\n12 + 12\n9 + 9\n2 = 1\n6 + 4\n3 + 9\n2 = 1 + 8 + 27\n6\n= 36\n6 = 6.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q03",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "According to the standard convention for exponentiation,\n2^{2^{2^{2}}}\n= 2\n2(22)\n= 2^{16} = 65,536.\nIf the order in which the exponentiations are performed is changed, how many other values are\npossible?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "B",
+    "solution_text": "No matter how the exponentiations are performed, 222 always gives 16.\nDepending on which exponentiation is done last, we have\n\u0010\n222\u00112\n= 256,\n2\n\u0010\n222\n\u0011\n= 65, 536,\nor\n\u000022\u0001(22) = 256,\nso there is one other possible value.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q04",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "For how many positive integers m does there exist at least one positive integer n such that\nm · n ≤m + n?",
+    "answer_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "9",
+      "D": "12",
+      "E": "inﬁnitely many"
+    },
+    "correct_answer": "E",
+    "solution_text": "When n = 1, the inequality becomes m ≤1 + m, which is satisﬁed by all\nintegers m. Thus, there are inﬁnitely many of the desired values of m.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q05",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Each of the small circles in the ﬁgure has radius one. The innermost circle is tangent to the\nsix circles that surround it, and each of those circles is tangent to the large circle and to its\nsmall-circle neighbors. Find the area of the shaded region.",
+    "answer_choices": {
+      "A": "π",
+      "B": "1.5π",
+      "C": "2π",
+      "D": "3π",
+      "E": "3.5π"
+    },
+    "correct_answer": "C",
+    "has_image": true,
+    "solution_text": "The large circle has radius 3, so its area is π·32 = 9π. The seven small circles\nhave a total area of 7\n\u0000π · 12\u0001\n= 7π. So the shaded region has area 9π−7π = 2π."
+  },
+  {
+    "id": "2002-AMC10A-Q06",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Cindy was asked by her teacher to subtract 3 from a certain number and then divide the result\nby 9. Instead, she subtracted 9 and then divided the result by 3, giving an answer of 43. What\nwould her answer have been had she worked the problem correctly?",
+    "answer_choices": {
+      "A": "15",
+      "B": "34",
+      "C": "43",
+      "D": "51",
+      "E": "138"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let x be the number she was given. Her calculations produce\nx −9\n3\n= 43,\nso\nx −9 = 129\nand\nx = 138.\nThe correct answer is\n138 −3\n9\n= 135\n9\n= 15.\n\nSolutions\n2002\n3rd AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q07",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "If an arc of 45^{◦}on circle A has the same length as an arc of 30^{◦}on circle B, then the ratio of the\narea of circle A to the area of circle B is",
+    "answer_choices": {
+      "A": "4\n9",
+      "B": "2\n3",
+      "C": "5\n6",
+      "D": "3\n2",
+      "E": "9\n4"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let CA = 2πRA be the circumference of circle A, let CB = 2πRB be the\ncircumference of circle B, and let L the common length of the two arcs. Then\n45\n360CA = L = 30\n360CB.\nTherefore\nCA\nCB\n= 2\n3\nso\n2\n3 = 2πRA\n2πRB\n= RA\nRB\n.\nThus, the ratio of the areas is\nArea of Circle (A)\nArea of Circle (B) = πR2\nA\nπR2\nB\n=\n\u0012RA\nRB\n\u00132\n= 4\n9.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q08",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Betsy designed a ﬂag using blue triangles, small white squares, and a red center square, as\nshown. Let B be the total area of the blue triangles, W the total area of the white squares, and\nR the area of the red square. Which of the following is correct?",
+    "answer_choices": {
+      "A": "B = W",
+      "B": "W = R",
+      "C": "B = R",
+      "D": "3B = 2R",
+      "E": "2R = W"
+    },
+    "correct_answer": "A",
+    "solution_text": "Draw additional lines to cover the entire ﬁgure with congruent triangles.\nThere are 24 triangles in the blue region, 24 in the white region, and 16 in the\nred region. Thus, B = W.",
+    "has_image": true
+  },
+  {
+    "id": "2002-AMC10A-Q09",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Suppose A, B, and C are three numbers for which 1001C −2002A = 4004 and 1001B +3003A =\n5005.The average of the three numbers A, B, and C is",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "6",
+      "D": "9",
+      "E": "not uniquely determined"
+    },
+    "correct_answer": "B",
+    "solution_text": "Adding 1001C −2002A = 4004 and 1001B + 3003A = 5005 yields 1001A+\n1001B + 1001C = 9009. So A + B + C = 9, and the average is\nA + B + C\n3\n= 3.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q10",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Compute the sum of all the roots of (2x + 3)(x −4) + (2x + 3)(x −6) = 0.",
+    "answer_choices": {
+      "A": "7/2",
+      "B": "4",
+      "C": "5",
+      "D": "7",
+      "E": "13"
+    },
+    "correct_answer": "A",
+    "solution_text": "Factor to get (2x+3)(2x−10) = 0, so the two roots are −3/2 and 5, which\nsum to 7/2.\n\nSolutions\n2002\n3rd AMC 10 A\n4",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q11",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Jamal wants to store 30 computer ﬁles on ﬂoppy disks, each of which has a capacity of 1.44\nmegabytes (MB). Three of his ﬁles require 0.8 MB of memory each, 12 more require 0.7 MB each,\nand the remaining 15 require 0.4 MB each. No ﬁle can be split between ﬂoppy disks. What is the\nminimal number of ﬂoppy disks that will hold all the ﬁles?",
+    "answer_choices": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "15",
+      "E": "16"
+    },
+    "correct_answer": "B",
+    "solution_text": "First note that the amount of memory needed to store the 30 ﬁles is\n3(0.8) + 12(0.7) + 15(0.4) = 16.8 mb,\nso the number of disks is at least\n16.8\n1.44 = 11 + 2\n3.\nHowever, a disk that contains a 0.8-mb ﬁle can, in addition, hold only one 0.4-\nmb ﬁle, so on each of these disks at least 0.24 mb must remain unused. Hence,\nthere is at least 3(0.24) = 0.72 mb of unused memory, which is equivalent to\nhalf a disk. Since\n\u0012\n11 + 2\n3\n\u0013\n+ 1\n2 > 12,\nat least 13 disks are needed.\nTo see that 13 disks suﬃce, note that:\nSix disks could be used to store the 12 ﬁles containing 0.7 mb;\nThree disks could be used to store the three 0.8-mb ﬁles together with three of\nthe 0.4-mb ﬁles;\nFour disks could be used to store the remaining twelve 0.4-mb ﬁles.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q12",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Mr. Earl E. Bird leaves his house for work at exactly 8:00 A.M. every morning. When he averages 40 miles per hour, he arrives at his workplace three minutes late. When he averages 60 miles per\nhour, he arrives three minutes early. At what average speed, in miles per hour, should Mr. Bird\ndrive to arrive at his workplace precisely on time?",
+    "answer_choices": {
+      "A": "45",
+      "B": "48",
+      "C": "50",
+      "D": "55",
+      "E": "58"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let t be the number of hours Mr. Bird must travel to arrive on time. Since\nthree minutes is the same as 0.05 hours, 40(t + 0.05) = 60(t −0.05). Thus,\n40t + 2 = 60t −3,\nso t = 0.25.\nThe distance from his home to work is 40(0.25 + 0.05) = 12 miles. Therefore,\nhis average speed should be 12/0.25 = 48 miles per hour.\nOR\nLet d be the distance from Mr. Bird’s house to work, and let s be the desired\naverage speed. Then the desired driving time is d/s. Since d/60 is three minutes\ntoo short and d/40 is three minutes too long, the desired time must be the\naverage, so\nd\ns = 1\n2\n\u0012 d\n60 + d\n40\n\u0013\n.\nThis implies that s = 48.\n\nSolutions\n2002\n3rd AMC 10 A\n5",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q13",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The sides of a triangle have lengths of 15, 20, and 25. Find the length of the shortest altitude.",
+    "answer_choices": {
+      "A": "6",
+      "B": "12",
+      "C": "12.5",
+      "D": "13",
+      "E": "15"
+    },
+    "correct_answer": "B",
+    "solution_text": "First notice that this is a right triangle, so two of the altitudes are the legs,\nwhose lengths are 15 and 20. The third altitude, whose length is x, is the one\ndrawn to the hypotenuse. The area of the triangle is 1\n2(15)(20) = 150. Using 25\nas the base and x as the altitude, we have\n1\n2(25)x = 150,\nso\nx = 300\n25 = 12.\nx\n20\n25\n15\nOR\nSince the three right triangles in the ﬁgure are similar,\nx\n15 = 20\n25,\nso\nx = 300\n25 = 12.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q14",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Both roots of the quadratic equation x^{2}−63x+k = 0 are prime numbers. The number of possible\nvalues of k is",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "more than four"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let p and q be two primes that are roots of x2 −63x + k = 0. Then\nx2 −63x + k = (x −p)(x −q) = x2 −(p + q)x + p · q,\nso p + q = 63 and p · q = k.\nSince 63 is odd, one of the primes must be\n2 and the other 61. Thus, there is exactly one possible value for k, namely\nk = p · q = 2 · 61 = 122.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q15",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The digits 1, 2, 3, 4, 5, 6, 7, and 9 are used to form four two-digit prime numbers, with each digit\nused exactly once. What is the sum of these four primes?",
+    "answer_choices": {
+      "A": "150",
+      "B": "160",
+      "C": "170",
+      "D": "180",
+      "E": "190"
+    },
+    "correct_answer": "E",
+    "solution_text": "The digits 2, 4, 5, and 6 cannot be the units digit of any two-digit prime, so\nthese four digits must be the tens digits, and 1, 3, 7, and 9 are the units digits.\nThe sum is thus\n10(2 + 4 + 5 + 6) + (1 + 3 + 7 + 9) = 190.\n(One set that satisﬁes the conditions is {23, 47, 59, 61}.)",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q16",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "If a + 1 = b + 2 = c + 3 = d + 4 = a + b + c + d + 5, then a + b + c + d is",
+    "answer_choices": {
+      "A": "−5",
+      "B": "−10/3",
+      "C": "−7/3",
+      "D": "5/3",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "From the given information,\n(a + 1) + (b + 2) + (c + 3) + (d + 4) = 4(a + b + c + d + 5),\nso\n(a + b + c + d) + 10 = 4(a + b + c + d) + 20\nand a + b + c + d = −10\n3 .\nOR\nNote that a = d + 3, b = d + 2, and c = d + 1. So,\na + b + c + d = (d + 3) + (d + 2) + (d + 1) + d = 4d + 6.\nThus, d + 4 = (4d + 6) + 5, so d = −7/3, and\na + b + c + d = 4d + 6 = 4\n\u0012\n−7\n3\n\u0013\n+ 6 = −10\n3 .\n\nSolutions\n2002\n3rd AMC 10 A\n6",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q17",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Sarah pours four ounces of coffee into an eight-ounce cup and four ounces of cream into a\nsecond cup of the same size. She then transfers half the coffee from the ﬁrst cup to the second\nand, after stirring thoroughly, transfers half the liquid in the second cup back to the ﬁrst. What\nfraction of the liquid in the ﬁrst cup is now cream?",
+    "answer_choices": {
+      "A": "1/4",
+      "B": "1/3",
+      "C": "3/8",
+      "D": "2/5",
+      "E": "1/2"
+    },
+    "correct_answer": "D",
+    "solution_text": "After the ﬁrst transfer, the ﬁrst cup contains two ounces of coﬀee, and the\nsecond cup contains two ounces of coﬀee and four ounces of cream. After the\nsecond transfer, the ﬁrst cup contains 2 + (1/2)(2) = 3 ounces of coﬀee and\n(1/2)(4) = 2 ounces of cream. Therefore, the fraction of the liquid in the ﬁrst\ncup that is cream is 2/(2 + 3) = 2/5.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q18",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A 3 × 3 × 3 cube is formed by gluing together 27 standard cubical dice. (On a standard die, the\nsum of the numbers on any pair of opposite faces is 7.) The smallest possible sum of all the\nnumbers showing on the surface of the 3 × 3 × 3 cube is",
+    "answer_choices": {
+      "A": "60",
+      "B": "72",
+      "C": "84",
+      "D": "90",
+      "E": "96"
+    },
+    "correct_answer": "D",
+    "solution_text": "There are six dice that have a single face on the surface, and these dice can\nbe oriented so that the face with the 1 is showing. They will contribute 6(1) = 6\nto the sum. There are twelve dice that have just two faces on the surface because\nthey are along an edge but not at a vertex of the large cube. These dice can be\noriented so that the 1 and 2 are showing, and they will contribute 12(1+2) = 36\nto the sum. There are eight dice that have three faces on the surface because\nthey are at the vertices of the large cube, and these dice can be oriented so that\nthe 1, 2, and 3 are showing. They will contribute 8(1 + 2 + 3) = 48 to the sum.\nConsequently, the minimum sum of all the numbers showing on the large cube\nis 6 + 36 + 48 = 90.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q19",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Spot’s doghouse has a regular hexagonal base that measures one yard on each side. He is\ntethered to a vertex with a two-yard rope. What is the area, in square yards, of the region outside\nof the doghouse that Spot can reach?",
+    "answer_choices": {
+      "A": "2π/3",
+      "B": "2π",
+      "C": "5π/2",
+      "D": "8π/3",
+      "E": "3π"
+    },
+    "correct_answer": "E",
+    "solution_text": "Spot can go anywhere in a 240◦sector of radius two yards and can cover\na 60◦sector of radius one yard around each of the adjoining corners. The total\narea is\nπ(2)2 · 240\n360 + 2\n\u0012\nπ(1)2 · 60\n360\n\u0013\n= 3π.\n2\n240\n60\n1\n1",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q20",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Points A, B, C, D, E and F lie, in that order, on AF, dividing it into ﬁve segments, each of length\n1. Point G is not on line AF. Point H lies on GD, and point J lies on GF. The line segments\nHC, JE, and AG are parallel. Find HC/JE.",
+    "answer_choices": {
+      "A": "5/4",
+      "B": "4/3",
+      "C": "3/2",
+      "D": "5/3",
+      "E": "2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since △AGD is similar to △CHD, we have HC/1 = AG/3. Also, △AGF\nis similar to △EJF, so JE/1 = AG/5. Hence,\nHC\nJE = AG/3\nAG/5 = 5\n3.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q21",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The mean, median, unique mode, and range of a collection of eight integers are all equal to 8.\nThe largest integer that can be an element of this collection is",
+    "answer_choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "The values 6, 6, 6, 8, 8, 8, 8, 14 satisfy the requirements of the problem,\nso the answer is at least 14. If the largest number were 15, the collection would\nhave the ordered form 7,\n,\n, 8, 8,\n,\n, 15. But 7 + 8 + 8 + 15 = 38,\nand a mean of 8 implies that the sum of all values is 64. In this case, the four\nmissing values would sum to 64−38 = 26, and their average value would be 6.5.\nThis implies that at least one would be less than 7, which is a contradiction.\nTherefore, the largest integer that can be in the set is 14.\n\nSolutions\n2002\n3rd AMC 10 A\n7",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q22",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "A sit of tiles numbered 1 through 100 is modiﬁed repeatedly by the following operation: remove\nall tiles numbered with a perfect square, and renumber the remaining tiles consecutively starting\n\nwith 1. How many times must the operation be performed to reduce the number of tiles in the\nset to one?",
+    "answer_choices": {
+      "A": "10",
+      "B": "11",
+      "C": "18",
+      "D": "19",
+      "E": "20"
+    },
+    "correct_answer": "C",
+    "solution_text": "The ﬁrst application removes ten tiles, leaving 90. The second and third\napplications each remove nine tiles leaving 81 and 72, respectively. Following\nthis pattern, we consecutively remove 10, 9, 9, 8, 8, . . ., 2, 2, 1 tiles before we are\nleft with only one. This requires 1 + 2(8) + 1 = 18 applications.\nOR\nStarting with n2 tiles, the ﬁrst application leaves n2 −n tiles.\nThe second\napplication reduces the number to n2 −n −(n −1) = (n −1)2 tiles. Since two\napplications reduce the number from n2 to (n −1)2, it follows that 2(n −1)\napplications reduce the number from n2 to (n −(n −1))2 = 1, and 2(10 −1) =\n18.",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q23",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Points A, B, C and D lie on a line, in that order, with AB = CD and BC = 12. Point E is not on\nthe line, and BE = CE = 10. The perimeter of △AED is twice the perimeter of △BEC. Find\nAB.",
+    "answer_choices": {
+      "A": "15/2",
+      "B": "8",
+      "C": "17/2",
+      "D": "9",
+      "E": "19/2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let H be the midpoint of BC. Then EH is the perpendicular bisector of\nAD, and △AED is isosceles. Segment EH is the common altitude of the two\nisosceles triangles △AED and △BEC, and\nEH =\np\n102 −62 = 8.\nLet AB = CD = x and AE = ED = y. Then 2x+2y+12 = 2(32), so y = 26−x.\nThus,\n82 + (x + 6)2 = y2 = (26 −x)2\nand\nx = 9.\nA\nB\nC\nH\nD\n6\n6\n10\n10\nE\nx\nx\ny\ny",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q24",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Tina randomly selects two distinct numbers from the set {1, 2, 3, 4, 5} and Sergio randomly se-\nlects a number from the set {1, 2, ..., 10}. The probability that Sergio’s number is larger than the\nsum of the two numbers chosen by Tina is",
+    "answer_choices": {
+      "A": "2/5",
+      "B": "9/20",
+      "C": "1/2",
+      "D": "11/20",
+      "E": "24/25"
+    },
+    "correct_answer": "A",
+    "solution_text": "There are ten ways for Tina to select a pair of numbers. The sums 9, 8,\n4, and 3 can be obtained in just one way, and the sums 7, 6, and 5 can each\nbe obtained in two ways. The probability for each of Sergio’s choices is 1/10.\nConsidering his selections in decreasing order, the total probability of Sergio’s\nchoice being greater is\n\u0012 1\n10\n\u0013 \u0012\n1 + 9\n10 + 8\n10 + 6\n10 + 4\n10 + 2\n10 + 1\n10 + 0 + 0 + 0\n\u0013\n= 2\n5.\n\nSolutions\n2002\n3rd AMC 10 A\n8",
+    "has_image": false
+  },
+  {
+    "id": "2002-AMC10A-Q25",
+    "year": 2002,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In trapezoid ABCD with bases AB and CD, we have AB = 52, BC = 12, CD = 39, and DA = 5.\nThe area of ABCD is",
+    "answer_choices": {
+      "A": "182",
+      "B": "195",
+      "C": "210",
+      "D": "234",
+      "E": "260"
+    },
+    "correct_answer": "C",
+    "solution_text": "First drop perpendiculars from D and C to AB. Let E and F be the feet\nof the perpendiculars to AB from D and C, respectively, and let\nh = DE = CF,\nx = AE,\nand\ny = FB.\nA\nB\nC\nD\nE\nF\n12\n39\n39\n5\nx\nh\nh\ny\nThen\n25 = h2 + x2,\n144 = h2 + y2,\nand\n13 = x + y.\nSo\n144 = h2 + y2 = h2 + (13 −x)2 = h2 + x2 + 169 −26x = 25 + 169 −26x,\nwhich gives x = 50/26 = 25/13, and\nh =\ns\n52 −\n\u001225\n13\n\u00132\n= 5\nr\n1 −25\n169 = 5\nr\n144\n169 = 60\n13.\nHence\nArea (ABCD) = 1\n2(39 + 52) · 60\n13 = 210.\nOR\nExtend AD and BC to intersect at P. Since △PDC and △PAB are similar,\nwe have\nPD\nPD + 5 = 39\n52 =\nPC\nPC + 12.\nSo PD = 15 and PC = 36. Note that 15, 36, and 39 are three times 5, 12,\nand 13, respectively, so ̸ APB is a right angle. The area of the trapezoid is the\ndiﬀerence of the areas of △PAB and △PDC, so\nArea(ABCD) = 1\n2(20)(48) −1\n2(15)(36) = 210.\nA\nB\nC\nD\nP\nOR\n\nSolutions\n2002\n3rd AMC 10 A\n9\nDraw the line through D parallel to BC, intersecting AB at E. Then BCDE\nis a parallelogram, so DE = 12, EB = 39, and AE = 52 −39 = 13. Thus\nDE2 + AD2 = AE2, and △ADE is a right triangle. Let h be the altitude from\nD to AE, and note that\nArea(ADE) = 1\n2(5)(12) = 1\n2(13)(h),\nso h = 60/13. Thus\nArea(ABCD) = 60\n13 · 1\n2(39 + 52) = 210.\nA\nE\nB\nC\nD\n\nThe\nAmerican Mathematics Contest 10 (AMC 10)\nSponsored by\nMathematical Association of America\nThe Akamai Foundation\nUniversity of Nebraska – Lincoln\nContributors\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nCasualty Actuarial Society\nClay Mathematics Institute\nConsortium for Mathematics and its Applications\nInstitute for Operations Research and the Management Sciences\nKappa Mu Epsilon\nMu Alpha Theta\nNational Association of Mathematicians\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSchool Science and Mathematics Association\nSociety of Actuaries\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+    "has_image": true
+  }
+]

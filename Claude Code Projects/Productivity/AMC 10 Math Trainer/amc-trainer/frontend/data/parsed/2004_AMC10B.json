@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2004-AMC10B-Q01",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Each row of the Misty Moon Amphitheater has 33 seats. Rows 12 through 22 are reserved for a\nyouth club. How many seats are reserved for this club?",
+    "answer_choices": {
+      "A": "297",
+      "B": "330",
+      "C": "363",
+      "D": "396",
+      "E": "726"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are 22 −12 + 1 = 11 reserved rows. Because there are 33 seats in\neach row, there are (33)(11) = 363 reserved seats.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q02",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "How many two-digit positive integers have at least one 7 as a digit?",
+    "answer_choices": {
+      "A": "10",
+      "B": "18",
+      "C": "19",
+      "D": "20",
+      "E": "30"
+    },
+    "correct_answer": "B",
+    "solution_text": "There are 10 two-digit numbers with a 7 as their 10’s digit, and 9 two-digit\nnumbers with 7 as their units digit. Because 77 satisﬁes both of these properties,\nthe answer is 10 + 9 −1 = 18.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q03",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "At each basketball practice last week, Jenny made twice as many free throws as she made at\nthe previous practice. At her ﬁfth practice she made 48 free throws. How many free throws did\n\nshe make at the ﬁrst practice?",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "12",
+      "E": "15"
+    },
+    "correct_answer": "A",
+    "solution_text": "At Jenny’s fourth practice she made 1\n2(48) = 24 free throws. At her third\npractice she made 12, at her second practice she made 6, and at her ﬁrst practice\nshe made 3.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q04",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "A standard six-sided die is rolled, and P is the product of the ﬁve numbers that are visible. What\nis the largest number that is certain to divide P?",
+    "answer_choices": {
+      "A": "6",
+      "B": "12",
+      "C": "24",
+      "D": "144",
+      "E": "720"
+    },
+    "correct_answer": "B",
+    "solution_text": "Since 6! = 720 = 24 ·32 ·5, the prime factors of P can consist of at most 2’s,\n3’s, and 5’s. The least possible number of 2’s is two, which occurs when 4 is not\nvisible. The least possible number of 3’s is one, which occurs when either 3 or\n6 is not visible, and the least number of 5’s is zero, when 5 is not visible. Thus\nP must be divisible by 22 · 3 = 12, but not necessarily by any larger number.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q05",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In the expression c · a^{b} −d, the values of a, b, c, and d are 0, 1, 2, and 3, although not necessarily\nin that order. What is the maximum possible value of the result?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": "If d ̸= 0, the value of the expression can be increased by interchanging 0\nwith the value of d. Therefore the maximum value must occur when d = 0. If\na = 1, the value is c, which is 2 or 3. If b = 1, the value is c · a = 6. If c = 1,\nthe value is ab, which is 23 = 8 or 32 = 9. Thus the maximum value is 9.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q06",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Which of the following numbers is a perfect square?",
+    "answer_choices": {
+      "A": "98! · 99!",
+      "B": "98! · 100!",
+      "C": "99! · 100!",
+      "D": "99! · 101!",
+      "E": "100! · 101!"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that for m < n we have\nm! · n! = (m!)2 · (m + 1) · (m + 2) · · · · · n.\nTherefore m! · n! is a perfect square if and only if\n(m + 1) · (m + 2) · · · · · n\nis a perfect square. For the ﬁve answer choices, that quantity is\n99, 99 · 100, 100, 100 · 101, and 101,\nand of those only 100 is a perfect square. Therefore the answer is 99! · 100!.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q07",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "On a trip from the United States to Canada, Isabella took d U.S. dollars. At the border she ex-\nchanged them all, receiving 10 Canadian dollars for every 7 U.S. dollars. After spending 60 Cana-\ndian dollars, she had d Canadian dollars left. What is the sum of the digits of d?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "A",
+    "solution_text": "Isabella received 10d/7 Canadian dollars at the border and spent 60 of\nthem. Thus 10d/7 −60 = d, from which it follows that d = 140, and the sum of\nthe digits of d is 5.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q08",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Minneapolis-St. Paul International Airport is 8 miles southwest of downtown St. Paul and 10\nmiles southeast of downtown Minneapolis. Which of the following is closest to the number of\nmiles between downtown St. Paul and downtown Minneapolis?",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let downtown St. Paul, downtown Minneapolis, and the airport be located\nat S, M, and A, respectively. Then △MAS has a right angle at A, so by the\nPythagorean Theorem,\nMS =\np\n102 + 82 =\n√\n164 ≈\n√\n169 = 13.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q09",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A square has sides of length 10, and a circle centered at one of its vertices has radius 10. What\nis the area of the union of the regions enclosed by the square and the circle?",
+    "answer_choices": {
+      "A": "5",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "B",
+    "solution_text": "The areas of the regions enclosed by the square and the circle are 102 = 100\nand π(10)2 = 100π, respectively.\nOne quarter of the second region is also\nincluded in the ﬁrst, so the area of the union is\n100 + 100π −25π = 100 + 75π.\n\nSolutions\n2004\n5th AMC 10 B\n3",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q11",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Two eight-sided dice each have faces numbered 1 through 8. When the dice are rolled, each face\nhas an equal probability of appearing on the top. What is the probability that the product of the\ntwo top numbers is greater than their sum?",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "47\n64",
+      "C": "3\n4",
+      "D": "55\n64",
+      "E": "7\n8"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are 8·8 = 64 ordered pairs that can represent the top numbers on the\ntwo dice. Let m and n represent the top numbers on the dice. Then mn > m+n\nimplies that mn −m −n > 0, that is,\n1 < mn −m −n + 1 = (m −1)(n −1).\nThis inequality is satisﬁed except when m = 1, n = 1, or when m = n = 2. There\nare 16 ordered pairs (m, n) excluded by these conditions, so the probability that\nthe product is greater than the sum is\n64 −16\n64\n= 48\n64 = 3\n4.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q12",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "An annulus is the region between two concentric circles. The concentric circles in the ﬁgure\nhave radii b and c, with b > c. Let OX be a radius of the larger circle, let XZ be tangent to the\nsmaller circle at Z, and let OY be the radius of the larger circle that contains Z. Let a = XZ,\nd = Y Z, and e = XY . What is the area of the annulus?",
+    "answer_choices": {
+      "A": "πa^{2}",
+      "B": "πb^{2}",
+      "C": "πc^{2}",
+      "D": "πd^{2}",
+      "E": "πe^{2}"
+    },
+    "correct_answer": "A",
+    "solution_text": "The area of the annulus is the diﬀerence between the areas of the two circles,\nwhich is πb2 −πc2. Because the tangent XZ is perpendicular to the radius OZ,\nb2 −c2 = a2, so the area is πa2.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q13",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In the United States, coins have the following thicknesses: penny, 1.55 mm; nickel, 1.95 mm;\ndime, 1.35 mm; quarter, 1.75 mm. If a stack of these coins is exactly 14 mm high, how many\ncoins are in the stack?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "B",
+    "solution_text": "The height in millimeters of any stack with an odd number of coins has a\n5 in the hundredth place. The height of any two coins has an odd digit in the\ntenth place and a zero in the hundredth place. Therefore any stack with zeros\nin both its tenth and hundredth places must consist of a number of coins that is\na multiple of 4. The highest stack of 4 coins has a height of 4(1.95) = 7.8 mm,\nand the shortest stack of 12 coins has a height of 12(1.35) = 16.2 mm, so no\nnumber other than 8 can work. Note that a stack of 8 quarters has a height of\n8(1.75) = 14 mm.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q14",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A bag initially contains red marbles and blue marbles only, with more blue than red. Red marbles\nare added to the bag until only 1/3 of the marbles in the bag are blue. Then yellow marbles are\nadded to the bag until only 1/5 of the marbles in the bag are blue. Finally, the number of blue\nmarbles in the bag is doubled. What fraction of the marbles now in the bag are blue?",
+    "answer_choices": {
+      "A": "1\n5",
+      "B": "1\n4",
+      "C": "1\n3",
+      "D": "2\n5",
+      "E": "1\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "If there are initially B blue marbles in the bag, after red marbles are\nadded, then the total number of marbles in the bag must be 3B. Then after\nthe yellow marbles are added, the number of marbles in the bag must be 5B.\nFinally, adding B blue marbles to the bag gives 2B blue marbles out of 6B total\nmarbles. Thus 1/3 of the marbles are blue.\nOR\nJust before the number of blue marbles is doubled, the ratio of blue marbles\nto non-blue marbles is 1 to 4. Doubling the number of blue marbles makes the\nratio 2 to 4, so 1/3 of the marbles are blue.\n\nSolutions\n2004\n5th AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q15",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Patty has 20 coins consisting of nickels and dimes. If her nickels were dimes and her dimes\nwere nickels, she would have 70 cents more. How much are her coins worth?",
+    "answer_choices": {
+      "A": "$1.15",
+      "B": "$1.20",
+      "C": "$1.25",
+      "D": "$1.30",
+      "E": "$1.35"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because the value of Patty’s money would increase if the dimes and nickels\nwere interchanged, she must have more nickels than dimes. Interchanging one\nnickel for a dime increases the amount by 5 cents, so she has 70/5 = 14 more\nnickels than dimes. Therefore she has\n1\n2(20 −14) = 3\ndimes\nand\n20 −3 = 17\nnickels,\nand her coins are worth 3 · 10 + 17 · 5 = 115 cents = $1.15.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q16",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Three circles of radius 1 are externally tangent to each other and internally tangent to a larger\ncircle. What is the radius of the large circle?",
+    "answer_choices": {
+      "A": "2+\n√\n6\n3",
+      "B": "2",
+      "C": "2+3\n√\n2\n3",
+      "D": "3+2\n√\n3\n3",
+      "E": "3+\n√\n3\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let O be the center of the large circle, let C be the center of one of the\nsmall circles, and let OA and OB be tangent to the small circle at A and B.\n\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n\u0005\nBy symmetry, ̸ AOB = 120◦and ̸ AOC = 60◦. Thus △AOC is a 30-60-90\ndegree right triangle, and AC = 1, so\nOC =\n2\n√\n3AC = 2\n√\n3\n3 .\nIf OD is a radius of the large circle through C, then\nOD = CD + OC = 1 + 2\n√\n3\n3\n= 3 + 2\n√\n3\n3\n.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q17",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The two digits in Jack’s age are the same as the digits in Bill’s age, but in reverse order. In ﬁve\nyears Jack will be twice as old as Bill will be then. What is the difference in their current ages?",
+    "answer_choices": {
+      "A": "9",
+      "B": "18",
+      "C": "27",
+      "D": "36",
+      "E": "45"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let Jack’s age be 10x + y and Bill’s age be 10y + x. In ﬁve years Jack will\nbe twice as old as Bill. Therefore\n10x + y + 5 = 2(10y + x + 5),\nso 8x = 19y + 5. The expression 19y + 5 = 16y + 8 + 3(y −1) is a multiple of 8\nif and only if y −1 is a multiple of 8. Since both x and y are 9 or less, the only\nsolution is y = 1 and x = 3. Thus Jack is 31 and Bill is 13, so the diﬀerence\nbetween their ages is 18.\n\nSolutions\n2004\n5th AMC 10 B\n5",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q18",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In right triangle △ACE, we have AC = 12, CE = 16, and EA = 20. Points B, D, and F are\nlocated on AC, CE, and EA, respectively, so that AB = 3, CD = 4, and EF = 5. What is the\nratio of the area of △DBF to that of △ACE?\nA\nB\nC\nD\nE\nF\n3\n9\n4\n12\n5\n15",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "9\n25",
+      "C": "3\n8",
+      "D": "11\n25",
+      "E": "7"
+    },
+    "correct_answer": "E",
+    "solution_text": "The area of △ACE is (1/2)(12)(16) = 96. Draw FQ⊥CE. By similar\ntriangles, FQ = 3 and QE = 4. The area of trapezoid BCQF is (1/2)(3 +\n9)(12) = 72. Since △BCD and △FDQ have areas 18 and 12, respectively, the\narea of △BDF is 72 −18 −12 = 42. The desired ratio is 42/96 = 7/16.\nOR\nNote that each of △ABF, △BCD, and △DEF has a base-altitude pair where\nthe base and altitude are, respectively, 3/4 and 1/4 that of a corresponding base\nand altitude for △ACE. Hence\nArea of△BDF\nArea of△ACE = 1 −3(1/4)(3/4) = 7/16.\n\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n\u0006\n\u0007\n\b\n\n\n\n\n\n\n\u0006",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q19",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In the sequence 2001, 2002, 2003, . . ., each term after the third is found by subtracting the previ-\nous term from the sum of the two terms that precede that term. For example, the fourth term is\n2001 + 2002 −2003 = 2000. What is the 2004^{th} term in this sequence?",
+    "answer_choices": {
+      "A": "−2004",
+      "B": "−2",
+      "C": "0",
+      "D": "4003",
+      "E": "6007"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let ak be the kth term of the sequence. For k ≥3,\nak+1 = ak−2 + ak−1 −ak,\nso\nak+1 −ak−1 = −(ak −ak−2).\nBecause the sequence begins\n2001, 2002, 2003, 2000, 2005, 1998, . . .,\nit follows that the odd-numbered terms and the even-numbered terms each form\narithmetic progressions with common diﬀerences of 2 and −2, respectively. The\n2004th term of the original sequence is the 1002nd term of the sequence 2002,\n2000, 1998,. . ., and that term is 2002 + 1001(−2) = 0.\n\nSolutions\n2004\n5th AMC 10 B\n6",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q20",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In △ABC points D and E lie on BC and AC, respectively. If AD and BE intersect at T so that\n\nAT/DT = 3 and BT/ET = 4, what is CD/BD?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "2\n9",
+      "C": "3\n10",
+      "D": "4\n11",
+      "E": "5"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let F be a point on AC such that DF is parallel to BE. Let BT = 4x\nand ET = x.\n\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n\u0006\b\u0007\n\u0007\n\nBecause △ATE and △ADF are similar, we have\nDF\nx\n= AD\nAT = 4\n3,\nand\nDF = 4x\n3 .\nAlso, △BEC and △DFC are similar, so\nCD\nBC = DF\nBE = 4x/3\n5x\n= 4\n15.\nThus\nCD\nBD =\nCD/BC\n1 −(CD/BC) =\n4/15\n1 −4/15 = 4\n11.\nOR\nLet s = Area(△ABC). Then\nArea(△TBC) = 1\n4s\nand\nArea(△ATC) = 1\n5s,\nso\nArea(△ATB) = Area(△ABC) −Area(△TBC) −Area(△ATC) = 11\n20s.\nHence\nCD\nBD = Area(△ADC)\nArea(△ABD) = Area(△ATC)\nArea(△ATB) =\ns/5\n11s/20 = 4\n11.",
+    "has_image": true
+  },
+  {
+    "id": "2004-AMC10B-Q21",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let 1, 4, · · · and 9, 16, · · · be two arithmetic progressions. The set S is the union of the ﬁrst 2004\nterms of each sequence. How many distinct numbers are in S?",
+    "answer_choices": {
+      "A": "3722",
+      "B": "3732",
+      "C": "3914",
+      "D": "3924",
+      "E": "4007"
+    },
+    "correct_answer": "A",
+    "solution_text": "The smallest number that appears in both sequences is 16. The two se-\nquences have common diﬀerences 3 and 7, whose least common multiple is 21,\nso a number appears in both sequences if and only if it is in the form\n16 + 21k,\nwhere k is a nonnegative integer. Such a number is in the ﬁrst 2004 terms of\nboth sequences if and only if\n16 + 21k ≤1 + 2003(3) = 6010.\nThus 0 ≤k ≤285, so there are 286 duplicate numbers. Therefore the number\nof distinct numbers is 4008 −286 = 3722.\n\nSolutions\n2004\n5th AMC 10 B\n7",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q22",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A triangle with sides of 5, 12, and 13 has both an inscibed and a circumscribed circle. What is\nthe distance between the centers of those circles?",
+    "answer_choices": {
+      "A": "3\n√\n5\n2",
+      "B": "7\n2",
+      "C": "√\n15",
+      "D": "√\n65\n2",
+      "E": "9\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The triangle is a right triangle that can be placed in a coordinate system\nwith vertices at (0, 0), (5, 0), and (0, 12). The center of the circumscribed circle\nis the midpoint of the hypotenuse, which is (5/2, 6).\n\u0000\u0002\u0001\u0004\u0003\u0006\u0005\b\u0007\n\n\r\u000f\u000e\n\u0010\n\r\u000f\u000e\n\u0010\n\u0011\n\u0005\u0013\u0012\u0006\u0014\n\u0001\u0015\u0012\u0006\u0014\n\u0001\n\u0012\u0006\u0014\n\u0014\n\u0014\n\u0014\n\u0011\n\u0005\u0013\u0012\u0006\u0014\nTo determine the radius r of the inscribed circle notice that the hypotenuse of\nthe triangle is\n(12 −r) + (5 −r) = 13\nso\nr = 2.\nSo the center of the inscribed circle is (2, 2), and the distance between the two\ncenters is\ns\u00125\n2 −2\n\u00132\n+ (6 −2)2 =\n√\n65\n2 .",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q23",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Each face of a cube is painted either red or blue, each with probability 1/2. The color of each\nface is determined independently. What is the probability that the painted cube can be placed\non a horizontal surface so that the four vertical faces are all the same color?",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "5\n16",
+      "C": "3\n8",
+      "D": "7\n16",
+      "E": "1\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "If the orientation of the cube is ﬁxed, there are 26 = 64 possible arrange-\nments of colors on the faces. There are\n2\n\u00126\n6\n\u0013\n= 2\narrangements in which all six faces are the same color and\n2\n\u00126\n5\n\u0013\n= 12\narrangements in which exactly ﬁve faces have the same color. In each of these\ncases the cube can be placed so that the four vertical faces have the same color.\nThe only other suitable arrangements have four faces of one color, with the\nother color on a pair of opposing faces. Since there are three pairs of opposing\nfaces, there are 2(3) = 6 such arrangements.\nThe total number of suitable\narrangements is therefore 2 + 12 + 6 = 20, and the probability is 20/64 = 5/16.\n\nSolutions\n2004\n5th AMC 10 B\n8",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10B-Q24",
+    "year": 2004,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In △ABC we have AB = 7, AC = 8, and BC = 9. Point D is on the circumscribed circle of the\ntriangle so that AD bisects ∠BAC. What is the value of AD/CD?",
+    "answer_choices": {
+      "A": "9\n8",
+      "B": "5\n3",
+      "C": "2",
+      "D": "17\n7",
+      "E": "5\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Suppose that AD and BC intersect at E.\n\u0000\u0001\nC\n\u0002\n\u0003\nSince ̸ ADC and ̸ ABC cut the same arc of the circumscribed circle, the In-\nscribed Angle Theorem implies that\n̸ ABC = ̸ ADC.\nAlso, ̸ EAB = ̸ CAD, so △ABE is similar to △ADC, and\nAD\nCD = AB\nBE .\nBy the Angle Bisector Theorem,\nBE\nEC = AB\nAC ,\nso\nBE = AB\nAC · EC = AB\nAC (BC −BE)\nand\nBE = AB · BC\nAB + AC .\nHence\nAD\nCD = AB\nBE = AB + AC\nBC\n= 7 + 8\n9\n= 5\n3.",
+    "has_image": false
+  }
+]

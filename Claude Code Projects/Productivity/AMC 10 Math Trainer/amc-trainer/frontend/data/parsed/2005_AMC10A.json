@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2005-AMC10A-Q01",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "While eating out, Mike and Joe each tipped their server 2 dollars. Mike tipped 10% of his bill and\nJoe tipped 20% of his bill. What was the difference, in dollars between their bills?",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "10",
+      "E": "20"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since Mike tipped $2, which was 10% = 1/10 of his bill, his bill must have\nbeen 2 · 10 = 20 dollars. Similarly, Joe tipped $2, which was 20% = 1/5 of his\nbill, so his bill must have been 2 · 5 = 10 dollars. The diﬀerence between their\nbills is therefore $10.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q02",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For each pair of real numbers a ̸= b, deﬁne the operation ⋆as\n(a ⋆b) = a + b\na −b.\nWhat is the value of ((1 ⋆2) ⋆3)?",
+    "answer_choices": {
+      "A": "−2\n3",
+      "B": "−1\n5",
+      "C": "0",
+      "D": "1\n2",
+      "E": "This value is not deﬁned."
+    },
+    "correct_answer": "C",
+    "solution_text": "First we have\n(1 ⋆2) = 1 + 2\n1 −2 = −3.\nThen\n((1 ⋆2) ⋆3) = (−3 ⋆3) = −3 + 3\n−3 −3 = 0\n−6 = 0.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q03",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The equations 2x + 7 = 3 and bx −10 = −2 have the same solution for x. What is the value of b?",
+    "answer_choices": {
+      "A": "−8",
+      "B": "−4",
+      "C": "−2",
+      "D": "4",
+      "E": "8"
+    },
+    "correct_answer": "B",
+    "solution_text": "Since 2x + 7 = 3 we have x = −2. Hence\n−2 = bx −10 = −2b −10,\nso\n2b = −8, and b = −4.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q04",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A rectangle with a diagonal of length x is twice as long as it is wide. What is the area of the\nrectangle?",
+    "answer_choices": {
+      "A": "1\n4x^{2}",
+      "B": "2\n5x^{2}",
+      "C": "1\n2x^{2}",
+      "D": "x^{2}",
+      "E": "3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let w be the width of the rectangle. Then the length is 2w, and\nx2 = w2 + (2w)2 = 5w2.\nThe area is consequently w(2w) = 2w2 = 2\n5x2.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q05",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A store normally sells windows at $100 each. This week the store is offering one free window for\neach purchase of four. Dave needs seven windows and Doug needs eight windows. How many\ndollars will they save if they purchase the windows together rather than separately?",
+    "answer_choices": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "400",
+      "E": "500"
+    },
+    "correct_answer": "A",
+    "solution_text": "If Dave buys seven windows separately he will purchase six and receive one\nfree, for a cost of $600. If Doug buys eight windows separately, he will purchase\nseven and receive one free, for a total cost of $700.\nThe total cost to Dave\nand Doug purchasing separately will be $1300. If they purchase ﬁfteen windows\ntogether, they will need to purchase only 12 windows, for a cost of $1200, and\nwill receive 3 free. This will result in a savings of $100.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q06",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The average (mean) of 20 numbers is 30, and the average of 30 other numbers is 20. What is the\naverage of all 50 numbers?",
+    "answer_choices": {
+      "A": "23",
+      "B": "24",
+      "C": "25",
+      "D": "26",
+      "E": "27"
+    },
+    "correct_answer": "B",
+    "solution_text": "The sum of the 50 numbers is 20 · 30 + 30 · 20 = 1200. Their average is\n1200/50 = 24.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q07",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Josh and Mike live 13 miles apart. Yesterday, Josh started to ride his bicycle toward Mike’s\nhouse. A little later Mike started to ride his bicycle toward Josh’s house. When they met, Josh\nhad ridden for twice the length of time as Mike and at four-ﬁfths of Mike’s rate. How many miles\nhad Mike ridden when they met?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because (rate)(time) = (distance), the distance Josh rode was (4/5)(2) =\n8/5 of the distance that Mike rode. Let m be the number of miles that Mike\nhad ridden when they met. Then the number of miles between their houses is\n13 = m + 8\n5m = 13\n5 m.\nThus m = 5.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q08",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Square EFGH is inside the square ABCD so that each side of EFGH can be extended to pass\nthrough a vertex of ABCD. Square ABCD has side length\n√\n50 and BE = 1. What is the area\nof the inner square EFGH?",
+    "answer_choices": {
+      "A": "25",
+      "B": "32",
+      "C": "36",
+      "D": "40",
+      "E": "42"
+    },
+    "correct_answer": "C",
+    "solution_text": "The symmetry of the ﬁgure implies that △ABH, △BCE, △CDF, and\n△DAG are congruent right triangles. So\nBH = CE =\np\nBC2 −BE2 =\n√\n50 −1 = 7,\nand EH = BH −BE = 7 −1 = 6. Hence the square EFGH has area 62 = 36.\nOR\nAs in the ﬁrst solution, BH = 7. Now note that △ABH, △BCE, △CDF, and\n△DAG are congruent right triangles, so\nArea(EFGH) = Area(ABCD) −4Area(△ABH) = 50 −4\n¡ 1\n2 · 1 · 7\n¢\n= 36.\n\nSolutions\n2005\n6th AMC 10 A\n3",
+    "has_image": true
+  },
+  {
+    "id": "2005-AMC10A-Q09",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "Thee tiles are marked X and two other tiles are marked O. The ﬁve tiles are randomly arranged\nin a row. What is the probability that the arrangement reads XOXOX?",
+    "answer_choices": {
+      "A": "1\n12",
+      "B": "1\n10",
+      "C": "1\n6",
+      "D": "1\n4",
+      "E": "1\n3"
+    },
+    "correct_answer": "B",
+    "solution_text": "There are three X’s and two O’s, and the tiles are selected without replace-\nment, so the probability is\n3\n5 · 2\n4 · 2\n3 · 1\n2 · 1\n1 = 1\n10.\nOR\nThe three tiles marked X are equally likely to lie in any of\n¡5\n3\n¢\n= 10 positions,\nso the probability of this arrangement is 1/10.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q10",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "There are two values of a for which the equation 4x^{2} + ax + 8x + 9 = 0 has only one solution\nfor x. What is the sum of these values of a?",
+    "answer_choices": {
+      "A": "−16",
+      "B": "−8",
+      "C": "0",
+      "D": "8",
+      "E": "20"
+    },
+    "correct_answer": "A",
+    "solution_text": "The quadratic formula yields\nx = −(a + 8) ±\np\n(a + 8)2 −4 · 4 · 9\n2 · 4\n.\nThe equation has only one solution precisely when the value of the discriminant,\n(a + 8)2 −144, is 0. This implies that a = −20 or a = 4, and the sum is −16.\nOR\nThe equation has one solution if and only if the polynomial is the square of\na binomial with linear term ±\n√\n4x2 = ±2x and constant term ±\n√\n9 = ±3.\nBecause (2x ± 3)2 has a linear term ±12x, it follows that a + 8 = ±12. Thus a\nis either −20 or 4, and the sum of those values is −16.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q11",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A wooden cube n units on a side is painted red on all six faces and then cut into n^{3} unit cubes.\nExactly one-fourth of the total number of faces of the unit cubes are red. What is n?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "B",
+    "solution_text": "The unit cubes have a total of 6n3 faces, of which 6n2 are red. Therefore\n1\n4 = 6n2\n6n3 = 1\nn,\nso\nn = 4.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q12",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The ﬁgure shown is called a trefoil and is constructed by drawing circular sectors about sides\nof the congruent equilateral triangles. What is the area of a trefoil whose horizontal base has\nlength 2?\n2",
+    "answer_choices": {
+      "A": "1\n3π +\n√\n3\n2",
+      "B": "2\n3π",
+      "C": "2\n3π +\n√\n3\n4",
+      "D": "2\n3π +\n√\n3\n3",
+      "E": "2\n3π +\n√\n3\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "The trefoil is constructed of four equilateral triangles and four circular\nsegments, as shown. These can be combined to form four 60◦circular sectors.\nSince the radius of the circle is 1, the area of the trefoil is\n4\n6\n¡\nπ · 12¢\n= 2\n3π.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q13",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "How many positive integers n satisfy the following condition:\n(130n)^{50} > n^{100} > 2^{200}?",
+    "answer_choices": {
+      "A": "0",
+      "B": "7",
+      "C": "12",
+      "D": "65",
+      "E": "125"
+    },
+    "correct_answer": "E",
+    "solution_text": "The condition is equivalent to\n130n > n2 > 24 = 16,\nso\n130n > n2 and n2 > 16.\nThis implies that 130 > n > 4. So n can be any of the 125 integers strictly\nbetween 130 and 4.\n\nSolutions\n2005\n6th AMC 10 A\n4",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q14",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many three-digit numbers satisfy the property that the middle digit is the average of the\nﬁrst and the last digits?",
+    "answer_choices": {
+      "A": "41",
+      "B": "42",
+      "C": "43",
+      "D": "44",
+      "E": "45"
+    },
+    "correct_answer": "E",
+    "solution_text": "The ﬁrst and last digits must be both odd or both even for their average to\nbe an integer. There are 5 · 5 = 25 odd-odd combinations for the ﬁrst and last\ndigits. There are 4 · 5 = 20 even-even combinations that do not use zero as the\nﬁrst digit. Hence the total is 45.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q15",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many positive integer cubes divide 3! · 5! · 7!?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Written as a product of primes, we have\n3! · 5! · 7! = 28 · 34 · 52 · 7.\nA cube that is a factor has a prime factorization of the form 2p ·3q ·5r ·7s, where\np, q, r, and s are all multiples of 3. There are 3 possible values for p, which are\n0, 3, and 6. There are 2 possible values for q, which are 0 and 3. The only value\nfor r and for s is 0. Hence there are 6 = 3 · 2 · 1 · 1 distinct cubes that divide\n3! · 5! · 7!. They are\n1 =20305070,\n8 = 23305070,\n27 = 20335070,\n64 =26305070,\n216 = 23335070,\nand\n1728 = 26335070.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q16",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The sum of the digits of a two-digit number is subtracted from the number. The units digit of\nthe result is 6. How many two-digit numbers have this property?",
+    "answer_choices": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "10",
+      "E": "19"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let 10a+b be the two-digit number. When a+b is subtracted the result is\n9a. The only two-digit multiple of 9 that ends in 6 is 9 · 4 = 36, so a = 4. The\nten numbers between 40 and 49, inclusive, have this property.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q17",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "In the ﬁve-sided star shown, the letters A, B, C, D, and E are replaced by the numbers 3, 5, 6, 7,\nand 9, although not necessarily in this order. The sums of the numbers at the ends of the line\nsegments AB,BC,CD,DE, and EA form an arithmetic sequence, although not necessarily in\nthis order. What is the middle term of the arithmetic sequence?",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12",
+      "E": "13"
+    },
+    "correct_answer": "D",
+    "solution_text": "Each number appears in two sums, so the sum of the sequence is\n2(3 + 5 + 6 + 7 + 9) = 60.\nThe middle term of a ﬁve-term arithmetic sequence is the mean of its terms, so\n60/5 = 12 is the middle term.\nThe ﬁgure shows an arrangement of the ﬁve numbers that meets the requirement.\n5\n3\n6\n9\n7\n10\n11\n12\n13\n14",
+    "has_image": true
+  },
+  {
+    "id": "2005-AMC10A-Q18",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Team A and team B play a series. The ﬁrst team to win three games wins the series. Each\nteam is equally likely to win each game, there are no ties, and the outcomes of the individual\ngames are independent. If team B wins the second game and team A wins the series, what is\n\nthe probability that team B wins the ﬁrst game?",
+    "answer_choices": {
+      "A": "1\n5",
+      "B": "1\n4",
+      "C": "1\n3",
+      "D": "1\n2",
+      "E": "2\n3"
+    },
+    "correct_answer": "A",
+    "solution_text": "There are four possible outcomes,\nABAA,\nABABA,\nABBAA,\nand\nBBAAA,\nbut they are not equally likely. This is because, in general, the probability of\nany speciﬁc four-game series is (1/2)4 = 1/16, whereas the probability of any\nspeciﬁc ﬁve-game series is (1/2)4 = 1/32. Thus the ﬁrst listed outcome is twice\n\nSolutions\n2005\n6th AMC 10 A\n5\nas likely as each of the other three. Let p be the probability of the occurrence\nABBAA. Then the probability of ABABA is also p, as is the probability of\nBBAAA, whereas the probability of ABAA is 2p. So\n2p + p + p + p = 1,\nand\np = 1\n5.\nThe only outcome in which team B wins the ﬁrst game is BBAAA, so the\nprobability of this occurring is 1/5.\nOR\nTo consider equally-likely cases, suppose that all ﬁve games are played, even if\nteam A has won the series before the ﬁfth game. Then the possible ways that\nteam A can win the series, given that team B wins the second game, are\nBBAAA,\nABBAA,\nABABA,\nABAAB,\nand\nABAAA.\nIn only the ﬁrst case does team B win the ﬁrst game, so the probability of this\noccurring is 1/5.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q19",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Three one-inch squares are palced with their bases on a line. The center square is lifted out and\nrotated 45^{◦}, as shown. Then it is centered and lowered into its original location until it touches\nboth of the adjoining squares. How many inches is the point B from the line on which the bases\nof the original squares were placed?",
+    "answer_choices": {
+      "A": "1",
+      "B": "√\n2",
+      "C": "3\n2",
+      "D": "√\n2 + 1\n2",
+      "E": "2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Consider the rotated middle square shown in the ﬁgure. It will drop until\nlength DE is 1 inch. Thus\nFC = DF = FE = 1\n2\nand\nBC =\n√\n2.\nHence BF =\n√\n2 −1/2. This is added to the 1 inch height of the supporting\nsquares, so the overall height of point B above the line is\n1 + BF =\n√\n2 + 1\n2 inches.\nB\nC\nF\nD\nE\n\nSolutions\n2005\n6th AMC 10 A\n6",
+    "has_image": true
+  },
+  {
+    "id": "2005-AMC10A-Q21",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For how many positive integers n does 1 + 2 + · · · + n evenly divide from 6n?",
+    "answer_choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9",
+      "E": "11"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because\n1 + 2 + · · · + n = n(n + 1)\n2\n,\n1 + 2 + · · · + n divides the positive integer 6n if and only if\n6n\nn(n + 1)/2 =\n12\nn + 1 is an integer.\nThere are ﬁve such positive values of n, namely, 1, 2, 3, 5, and 11.\n\nSolutions\n2005\n6th AMC 10 A\n7",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q22",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Let S be the set of the 2005 smallest multiples of 4, and let T be the set of the 2005 smallest\npositive multiples of 6. How many elements are common to S and T?",
+    "answer_choices": {
+      "A": "166",
+      "B": "333",
+      "C": "500",
+      "D": "668",
+      "E": "1001"
+    },
+    "correct_answer": "D",
+    "solution_text": "The sets S and T consist, respectively, of the positive multiples of 4 that\ndo not exceed 2005 · 4 = 8020 and the positive multiples of 6 that do not exceed\n2005 · 6 = 12,030. Thus S T T, the set of numbers that are common to S and\nto T, consists of the positive multiples of 12 that do not exceed 8020. Let ⌊x⌋\nrepresent the largest integer that is less than or equal to x. Then the number\nof elements in the set S T T is\n¹8020\n12\nº\n=\n¹\n668 + 1\n3\nº\n= 668.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q23",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let AB be a diameter of a circle and C be a point on AB with 2 · AC = BC. Let D and E be\npoints on the circle such that DC ⊥AB and DE is a second diameter. What is the ratio of the\narea of △DCE to the area of △ABD?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n4",
+      "C": "1\n3",
+      "D": "1\n2",
+      "E": "2\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let O be the center of the circle.\nEach of △DCE and △ABD has a\ndiameter of the circle as a side. Thus the ratio of their areas is the ratio of the\ntwo altitudes to the diameters. These altitudes are DC and the altitude from\nC to DO in △DCE. Let F be the foot of this second altitude. Since △CFO is\nsimilar to △DCO,\nCF\nDC = CO\nDO = AO −AC\nDO\n=\n1\n2AB −1\n3AB\n1\n2AB\n= 1\n3,\nwhich is the desired ratio.\nA\nB\nO\nF\nE\nC\nD\nOR\nBecause AC = AB/3 and AO = AB/2, we have CO = AB/6. Triangles DCO\nand DAB have a common altitude to AB so the area of △DCO is 1\n6 the area of\n△ADB. Triangles DCO and ECO have equal areas since they have a common\nbase CO and their altitudes are equal. Thus the ratio of the area of △DCE to\nthe area of △ABD is 1/3.\n\nSolutions\n2005\n6th AMC 10 A\n8",
+    "has_image": true
+  },
+  {
+    "id": "2005-AMC10A-Q24",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For each positive integer m > 1, let P(m) denote the greatest prime factor of m. For how many\npositive integers n is it true that both P(n) = √n and P(n + 48) = √n + 48?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The conditions imply that both n and n + 48 are squares of primes. So for\neach successful value of n we have primes p and q with p2 = n + 48 and q2 = n,\nand\n48 = p2 −q2 = (p + q)(p −q).\nThe pairs of factors of 48 are\n48 and 1,\n24 and 2,\n16 and 3,\n12 and 4,\nand\n8 and 6.\nThese give pairs (p, q), respectively, of\nµ49\n2 , 47\n2\n¶\n,\n(13, 11),\nµ19\n2 , 13\n2\n¶\n, (8, 4) ,\nand\n(7, 1).\nOnly (p, q) = (13, 11) gives prime values for p and for q, with n = 112 = 121\nand n + 48 = 132 = 169.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10A-Q25",
+    "year": 2005,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In ABC we have AB = 25, BC = 39, and AC = 42. Points D and E are on AB and AC\nrespectively, with AD = 19 and AE = 14. What is the ratio of the area of triangle ADE to the\narea of quadrilateral BCED?",
+    "answer_choices": {
+      "A": "266\n1521",
+      "B": "19\n75",
+      "C": "1\n3",
+      "D": "19\n56",
+      "E": "1\n–"
+    },
+    "correct_answer": "D",
+    "solution_text": "We have\nArea(ADE)\nArea(ABE) = AD\nAB = 19\n25\nand\nArea(ABE)\nArea(ABC) = AE\nAC = 14\n42 = 1\n3,\nso\nArea(ABC)\nArea(ADE) = 25\n19 · 3\n1 = 75\n19,\nand\nArea(BCED)\nArea(ADE)\n= Area(ABC) −Area(ADE)\nArea(ADE)\n= 75\n19 −1 = 56\n19.\nThus\nArea(ADE)\nArea(BCED) = 19\n56.\nA\nB\nC\nE\nD\n19\n6\n39\n28\n14\n\nThe\nAmerican Mathematics Contest 10 (AMC 10)\nSponsored by\nThe Mathematical Association of America\nUniversity of Nebraska – Lincoln\nContributors\nAkamai Foundation\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nCanada/USA Mathcamp\nCanada/USA Mathpath\nCasualty Actuarial Society\nClay Mathematics Institute\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour & Company\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPedagoguery Software Inc.\nPi Mu Epsilon\nSociety of Actuaries\nUSA Math Talent Search\nW. H. Freeman & Company",
+    "has_image": false
+  }
+]

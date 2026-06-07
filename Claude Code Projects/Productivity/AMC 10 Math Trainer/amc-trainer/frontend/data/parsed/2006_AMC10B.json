@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2006-AMC10B-Q01",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is (−1)^{1} + (−1)^{2} + · · · + (−1)^{2006}?",
+    "answer_choices": {
+      "A": "−2006",
+      "B": "−1",
+      "C": "0",
+      "D": "1",
+      "E": "2006"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because\n(−1)k =\n(\n1,\nif k is even,\n−1,\nif k is odd,\nthe sum can be written as\n(−1 + 1) + (−1 + 1) + · · · + (−1 + 1) = 0 + 0 + · · · + 0 = 0.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q02",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For real numbers x and y, deﬁne x♠y = (x + y)(x −y). What is 3♠(4♠5)?",
+    "answer_choices": {
+      "A": "−72",
+      "B": "−27",
+      "C": "−24",
+      "D": "24",
+      "E": "72"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because 4 ♠5 = (4 + 5)(4 −5) = −9, it follows that\n3 ♠(4 ♠5) = 3 ♠(−9) = (3 + (−9))(3 −(−9)) = (−6)(12) = −72.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q03",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A football game was played between two teams, the Cougars and the Panthers. The two teams\nscored a total of 34 points, and the Cougars won by a margin of 14 points. How many points did\nthe Panthers score?",
+    "answer_choices": {
+      "A": "10",
+      "B": "14",
+      "C": "17",
+      "D": "20",
+      "E": "24"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let c and p represent the number of points scored by the Cougars and the\nPanthers, respectively. The two teams scored a total of 34 points, so c + p = 34.\nThe Cougars won by 14 points, so c−p = 14. The solution is c = 24 and p = 10,\nso the Panthers scored 10 points.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q04",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Circles of diameter 1 inch and 3 inches have the same center. The smaller circle is painted red,\nand the portion outside the smaller circle and inside the larger circle is painted blue. What is the\nratio of the blue-painted area to the red-painted area?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "6",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "D",
+    "solution_text": "The circle with diameter 3 has area π\n¡ 3\n2\n¢2. The circle with diameter 1 has\narea π\n¡ 1\n2\n¢2. Therefore the ratio of the blue-painted area to the red-painted area\nis\nπ\n¡ 3\n2\n¢2 −π\n¡ 1\n2\n¢2\nπ\n¡ 1\n2\n¢2\n= 8.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q05",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A 2 x 3 rectangle and a 3 x 4 rectangle are contained within a square without overlapping at any\ninterior point, and the sides of the square are parallel to the sides of the two given rectangles.\nWhat is the smallest possible area of the square?",
+    "answer_choices": {
+      "A": "16",
+      "B": "25",
+      "C": "36",
+      "D": "49",
+      "E": "64"
+    },
+    "correct_answer": "B",
+    "solution_text": "The side length of the square is at least equal to the sum of the smaller\ndimensions of the rectangles, which is 2 + 3 = 5.\n4\n3\n5\n2\n3\nIf the rectangles are placed as shown, it is in fact possible to contain them within\na square of side length 5. Thus the smallest possible area is 52 = 25.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q06",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A region is bounded by semicircular arcs constructed on the side of a square whose sides mea-\nsure 2/π, as shown. What is the perimeter of this region?",
+    "answer_choices": {
+      "A": "4\nπ",
+      "B": "2",
+      "C": "8\nπ",
+      "D": "4",
+      "E": "16\nπ"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since the square has side length 2/π, the diameter of each circular section is\n2/π. The boundary of the region consists of 4 semicircles, whose total perimeter\nis twice the circumference of a circle having diameter 2/π. Hence the perimeter\nof the region is\n2 ·\nµ\nπ · 2\nπ\n¶\n= 4.\n\nSolutions\n2006\n7th AMC 10 B\n3",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10B-Q07",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Which of the following is equivalent to\nr\nx\n1 −x−1\nx\nwhen x < 0?",
+    "answer_choices": {
+      "A": "−x",
+      "B": "x",
+      "C": "1",
+      "D": "p x\n2",
+      "E": "x√−1"
+    },
+    "correct_answer": "A",
+    "solution_text": "We have\nr\nx\n1 −x−1\nx\n=\nr\nx\nx−x+1\nx\n=\nr x\n1\nx\n=\n√\nx2 = |x|.\nWhen x < 0, the given expression is equivalent to −x.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q08",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A square of area 40 is inscribed in a semicircle as shown. What is the area of the semicircle?",
+    "answer_choices": {
+      "A": "20π",
+      "B": "25π",
+      "C": "30π",
+      "D": "40π",
+      "E": "50π"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10B-Q09",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Francesca uses 100 grams of lemon juice, 100 grams of sugar, and 400 grams of water to make\nlemonade. There are 25 calories in 100 grams of lemon juice and 386 calories in 100 grams of\nsugar. Water contains no calories. How many calories are in 200 grams of her lemonade?",
+    "answer_choices": {
+      "A": "129",
+      "B": "137",
+      "C": "174",
+      "D": "223",
+      "E": "411"
+    },
+    "correct_answer": "B",
+    "solution_text": "Francesca’s 600 grams of lemonade contains 25 + 386 = 411 calories, so 200\ngrams of her lemonade contains 411/3 = 137 calories.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q10",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "In a triangle with integer side lengths, one side is three times as long as a second side, and the\nlength of the third side is 15. What is the greatest possible perimeter of the triangle?",
+    "answer_choices": {
+      "A": "43",
+      "B": "44",
+      "C": "45",
+      "D": "46",
+      "E": "47"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let the sides of the triangle have lengths x, 3x, and 15.\nThe Triangle\nInequality implies that 3x < x + 15, so x < 7.5. Because x is an integer, the\ngreatest possible perimeter is 7 + 21 + 15 = 43.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q11",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the tens digit in the sum 7! + 8! + 9! + · · · + 2006!?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "Since n! contains the product 2 · 5 · 10 = 100 whenever n ≥10, it suﬃces\nto determine the tens digit of\n7! + 8! + 9! = 7!(1 + 8 + 8 · 9) = 5040(1 + 8 + 72) = 5040 · 81.\nThis is the same as the units digit of 4 · 1, which is 4.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q12",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The lines x = 1\n4y + a and y = 1\n4x + b intersect at the point (1, 2). What is a + b?",
+    "answer_choices": {
+      "A": "0",
+      "B": "3\n4",
+      "C": "1",
+      "D": "2",
+      "E": "9\n4"
+    },
+    "correct_answer": "E",
+    "solution_text": "Substituting x = 1 and y = 2 into the equations gives\n1 = 2\n4 + a\nand\n2 = 1\n4 + b.\nIt follows that\na + b =\nµ\n1 −2\n4\n¶\n+\nµ\n2 −1\n4\n¶\n= 3 −3\n4 = 9\n4.\nOR\nBecause\na = x −y\n4\nand\nb = y −x\n4\nwe have\na + b = 3\n4(x + y).\nSince x = 1 when y = 2, this implies that a + b = 3\n4(1 + 2) = 9\n4.\n\nSolutions\n2006\n7th AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q13",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Joe and JoAnn each bought 12 ounces of coffee in a 16-ounce cup. Joe drank 2 ounces of his\ncoffee and then added 2 ounces of cream. JoAnn added 2 ounces of cream, stirred the coffee\nwell, and then drank 2 ounces. What is the resulting ratio of the amount of cream in Joe’s coffee\nto that in JoAnn’s coffee?",
+    "answer_choices": {
+      "A": "6\n7",
+      "B": "13\n14",
+      "C": "1",
+      "D": "14\n13",
+      "E": "7\n6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Joe has 2 ounces of cream in his cup. JoAnn has drunk 2 ounces of the 14\nounces of coﬀee-cream mixture in her cup, so she has only 12/14 = 6/7 of her 2\nounces of cream in her cup. Therefore the ratio of the amount of cream in Joe’s\ncoﬀee to that in JoAnn’s coﬀee is\n2\n6\n7 · 2 = 7\n6.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q14",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Let a and b be the roots of the equation x^{2} −mx + 2 = 0. Suppose that a + (1/b) and b + (1/a)\nare the roots of the equation x^{2} −px + q = 0. What is q?",
+    "answer_choices": {
+      "A": "5\n2",
+      "B": "7\n2",
+      "C": "4",
+      "D": "9\n2",
+      "E": "8"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since a and b are roots of x2 −mx + 2 = 0, we have\nx2 −mx + 2 = (x −a)(x −b)\nand\nab = 2.\nIn a similar manner, the constant term of x2 −px+q is the product of a+(1/b)\nand b + (1/a), so\nq =\nµ\na + 1\nb\n¶ µ\nb + 1\na\n¶\n= ab + 1 + 1 + 1\nab = 9\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q15",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Rhombus ABCD is similar to rhombus BFDE. The area of rhombus ABCD is 24, and ∠BAD =\n60^{◦}. What is the area of rhombus BFDE?",
+    "answer_choices": {
+      "A": "6",
+      "B": "4\n√\n3",
+      "C": "8",
+      "D": "9",
+      "E": "6\n√\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "Since ∠BAD = 60◦, isosceles △BAD is also equilateral. As a consequence,\n△AEB, △AED, △BED, △BFD, △BFC, and △CFD are congruent. These\nsix triangles have equal areas and their union forms rhombus ABCD, so each\nhas area 24/6 = 4. Rhombus BFDE is the union of △BED and △BFD, so\nits area is 8.\nA\nF\nE\nD\nC\nB\nOR\nLet the diagonals of rhombus ABCD intersect at O. Since the diagonals of a\nrhombus intersect at right angles, △ABO is a 30 – 60 – 90◦triangle. Therefore\nAO =\n√\n3·BO. Because AO and BO are half the length of the longer diagonals\nof rhombi ABCD and BFDE, respectively, it follows that\nArea(BFDE)\nArea(ABCD) =\nµBO\nAO\n¶2\n= 1\n3.\nThus the area of rhombus BFDE is (1/3)(24) = 8.\n\nSolutions\n2006\n7th AMC 10 B\n5\nA\nF\nO\nE\nD\nC\nB",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10B-Q16",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Leap Day, February 29, 2004, occurred on a Sunday. On what day of the week will Leap Day,\nFebruary 29, 2020, occur?",
+    "answer_choices": {
+      "A": "Tuesday",
+      "B": "Wednesday",
+      "C": "Thursday",
+      "D": "Friday",
+      "E": "Saturday"
+    },
+    "correct_answer": "E",
+    "solution_text": "In the years from 2004 through 2020, Each Leap Day occurs 3 · 365 +\n366 = 1461 days after the preceding Leap Day. When 1461 is divided by 7 the\nremainder is 5. So the day of the week advances 5 days for each 4-year cycle. In\nthe four cycles from 2004 to 2020, the Leap Day will advance 20 days. So Leap\nDay in 2020 will occur one day of the week earlier than in 2004, that is, on a\nSaturday.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q17",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Bob and Alice each have a bag that contains one ball of each of the colors blue, green, orange,\nred, and violet. Alice randomly selects one ball from her bag and puts it into Bob’s bag. Bob then\nrandomly selects one ball from his bag and puts it into Alice’s bag. What is the probability that\nafter this process, the contents of the two bags are the same?",
+    "answer_choices": {
+      "A": "1\n10",
+      "B": "1\n6",
+      "C": "1\n5",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "After Alice puts the ball into Bob’s bag, his bag will contain six balls: two\nof one color and one of each of the other colors. After Bob selects a ball and\nplaces it into Alice’s bag, the two bags will have the same contents if and only\nif Bob picked one of the two balls in his bag that are the same color. Because\nthere are six balls in the bag when Bob makes his selection, the probability of\nselecting one of the same colored pair is 2/6 = 1/3.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q18",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Let a^{1}, a^{2}, ... be a sequence for which\na^{1} = 2\na^{2} = 3\nand\na^{n} = a^{n−1}\na^{n−2}\nfor each positive integer n ≥3.\nWhat is a^{2006}?",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "2\n3",
+      "C": "3\n2",
+      "D": "2",
+      "E": "3"
+    },
+    "correct_answer": "E",
+    "solution_text": "Note that the ﬁrst several terms of the sequence are:\n2, 3, 3\n2, 1\n2, 1\n3, 2\n3, 2, 3, . . . ,\nso the sequence consists of a repeating cycle of 6 terms. Since 2006 = 334·6+2,\nwe have a2006 = a2 = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q19",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A circle of radius 2 is centered at O. Square OABC has side length 1. Sides AB and CB are\nextended past b to meet the circle at D and E, respectively. What is the area of the shaded\nregion in the ﬁgure, which is bounded by BD, BE, and the minor arc connecting D and E?",
+    "answer_choices": {
+      "A": "π\n3 + 1 −\n√\n3",
+      "B": "π\n2\n2 −\n√\n3",
+      "C": "π\n2 −\n√\n3",
+      "D": "π\n6 +\n√\n3−1\n2",
+      "E": "π\n3 −1 +\n√\n3"
+    },
+    "correct_answer": "A",
+    "solution_text": "Since OC = 1 and OE = 2, it follows that ∠EOC = 60◦and ∠EOA = 30◦.\nThe area of the shaded region is the area of the 30◦sector DOE minus the area\nof congruent triangles OBD and OBE. First note that\nArea(Sector DOE) = 1\n12(4π) = π\n3 .\nO\nB\nD\nA\nC\nE\nIn right triangle OCE, we have CE =\n√\n3, so BE =\n√\n3 −1. Therefore\nArea(△OBE) = 1\n2(\n√\n3 −1)(1).\n\nSolutions\n2006\n7th AMC 10 B\n6\nThe required area is consequently\nπ\n3 −2\nÃ√\n3 −1\n2\n!\n= π\n3 + 1 −\n√\n3.\nOR\nLet F be the point where ray OA intersects the circle, and let G be the point\nwhere ray OC intersects the circle.\nO\nB\nD\nA\nC\nE\nF\nG\nLet a be the area of the shaded region described in the problem, and b be the\narea of the region bounded by AD, AF, and the minor arc from D to F. Then\nb is also the area of the region bounded by CE, CG, and the minor arc from G\nto E. By the Inclusion-Exclusion Principle,\n2b −a = Area (Quartercircle OFG) −Area (Square OABC) = π −1.\nSince b is the area of a 60◦sector from which the area of △OAD has been\ndeleted, we have\nb = 2π\n3 −\n√\n3\n2 .\nHence the area of the shaded region described in the problem is\na = 2b −π + 1 = 2\nÃ\n2π\n3 −\n√\n3\n2\n!\n−π + 1 = π\n3 + 1 −\n√\n3.",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10B-Q20",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In rectangle ABCD, we have A = (6, −22), B = (2006, 178), and D = (8, y), for some integer y.\nWhat is the area of rectangle ABCD?",
+    "answer_choices": {
+      "A": "4000",
+      "B": "4040",
+      "C": "4400",
+      "D": "40, 000",
+      "E": "40, 400"
+    },
+    "correct_answer": "E",
+    "solution_text": "The slope of line AB is (178 −(−22))/(2006 −6) = 1/10. Since the line\nAD is perpendicular to the line AB, its slope is −10. This implies that\n−10 = y −(−22)\n8 −6\n,\nso\ny = −10(2) −22 = −42,\nand\nD = (8, −42).\nAs a consequence,\nAB =\np\n20002 + 2002 = 200\n√\n101\nand\nAD =\np\n22 + 202 = 2\n√\n101.\nThus\nArea(ABCD) = AB · AD = 400 · 101 = 40,400.\n\nSolutions\n2006\n7th AMC 10 B\n7",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q21",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "For a particular peculiar pair of dice, the probabilities of rolling 1, 2, 3, 4, 5 and 6 on each die are\nin the ratio 1 : 2 : 3 : 4 : 5 : 6. What is the probability of rolling a total of 7 on the two dice?",
+    "answer_choices": {
+      "A": "4\n63",
+      "B": "1\n8",
+      "C": "8\n63",
+      "D": "1\n6",
+      "E": "2\n7"
+    },
+    "correct_answer": "C",
+    "solution_text": "On each die the probability of rolling k, for 1 ≤k ≤6, is\nk\n1 + 2 + 3 + 4 + 5 + 6 = k\n21.\nThere are six ways of rolling a total of 7 on the two dice, represented by the\nordered pairs (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), and (6, 1). Thus the probability\nof rolling a total of 7 is\n1 · 6 + 2 · 5 + 3 · 4 + 4 · 3 + 5 · 2 + 6 · 1\n212\n= 56\n212 = 8\n63.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q22",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Elmo makes N sandwiches for a fundraiser. For each sandwich he uses B globs of peanut\nbutter at 4 cents per glob and J blobs of jam at 5 cents per glob. The cost of the peanut butter\nand jam to make all the sandwiches is $2.53. Assume that B, J, and N are all positive integers\nwith N > 1. What is the cost of the jam Elmo uses to make the sandwiches?",
+    "answer_choices": {
+      "A": "$1.05",
+      "B": "$1.25",
+      "C": "$1.45",
+      "D": "$1.65",
+      "E": "$1.85"
+    },
+    "correct_answer": "D",
+    "solution_text": "The total cost of the peanut butter and jam is N(4B + 5J) = 253 cents, so\nN and 4B + 5J are factors of 253 = 11 · 23. Because N > 1, the possible values\nof N are 11, 23, and 253. If N = 253, then 4B + 5J = 1, which is impossible\nsince B and J are positive integers. If N = 23, then 4B + 5J = 11, which also\nhas no solutions in positive integers. Hence N = 11 and 4B + 5J = 23, which\nhas the unique positive integer solution B = 2 and J = 3. So the cost of the\njam is 11(3)(5¢) = $1.65.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10B-Q23",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A triangle is partitioned into three triangles and a quadrilateral by drawing two lines from ver-\ntices to their opposite sides. The areas of the three triangles are 3, 7, and 7, as shown. What is\nthe area of the shaded quadrilateral?\n7\n7\n3",
+    "answer_choices": {
+      "A": "15",
+      "B": "17",
+      "C": "35\n2",
+      "D": "18",
+      "E": "55\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Partition the quadrilateral into two triangles and let the areas of the trian-\ngles be R and S as shown. Then the required area is T = R + S.\n3\n7\n7\nR\nS\na\nb\nLet a and b, respectively, be the bases of the triangles with areas R and 3, as\nindicated. If two triangles have the same altitude, then the ratio of their areas\nis the same as the ratio of their bases. Thus\na\nb = R\n3 = R + S + 7\n3 + 7\n,\nso\nR\n3 = T + 7\n10\n.\nSimilarly,\nS\n7 = S + R + 3\n7 + 7\n,\nso\nS\n7 = T + 3\n14\n.\nThus\nT = R + S = 3\nµT + 7\n10\n¶\n+ 7\nµT + 3\n14\n¶\n.\nFrom this we obtain\n10T = 3(T + 7) + 5(T + 3) = 8T + 36,\nand it follows that T = 18.\n\nSolutions\n2006\n7th AMC 10 B\n8",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10B-Q25",
+    "year": 2006,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Mr. Jones has eight children of different ages. On a family trip his oldest child, who is 9, spots\na license plate with a 4-digit number in which each of two digits appears two times. ”Look,\ndaddy!” she exclaims. ”That number is evenly divisible by the age of each of us kids!” ”That’s\nright,” replies Mr. Jones, ”and the last two digits just happen to be my age.” Which of the following\nis not the age of one of Mr. Jones’s children?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8\n–"
+    },
+    "correct_answer": "B",
+    "solution_text": "The 4-digit number on the license plate has the form aabb or abab or baab,\nwhere a and b are distinct integers from 0 to 9. Because Mr. Jones has a child\nof age 9, the number on the license plate is divisible by 9. Hence the sum of the\ndigits, 2(a + b), is also divisible by 9. Because of the restriction on the digits a\nand b, this implies that a + b = 9. Moreover, since Mr. Jones must have either\na 4-year-old or an 8-year-old, the license plate number is divisible by 4. These\nconditions narrow the possibilities for the number to 1188, 2772, 3636, 5544,\n6336, 7272, and 9900. The last two digits of 9900 could not yield Mr. Jones’s\nage, and none of the others is divisible by 5, so he does not have a 5-year-old.\nNote that 5544 is divisible by each of the other eight non-zero digits.\n\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nUniversity of Nebraska-Lincoln\nThe Akamai Foundation\nContributors\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nCanada/USA Mathcamp\nCanada/USA Mathpath\nCasualty Actuarial Society\nClay Mathematics Institute\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour Company\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nNational Assessment & Testing\nPedagoguery Software Inc.\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.",
+    "has_image": false
+  }
+]

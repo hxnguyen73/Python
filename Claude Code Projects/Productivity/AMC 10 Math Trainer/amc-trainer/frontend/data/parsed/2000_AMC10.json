@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2000-AMC10-Q01",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 1,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "In the year 2001, the United States will host the International Mathematical Olympiad. Let I, M,\nand O be distinct positive integers such that the product I · M · O = 2001. What's the largest\npossible value of the sum I + M + O?",
+    "answer_choices": {
+      "A": "23",
+      "B": "55",
+      "C": "99",
+      "D": "111",
+      "E": "671"
+    },
+    "correct_answer": "E",
+    "solution_text": "Factor 2001 into primes to get 2001 = 3 · 23 · 29. The largest\npossible sum of three distinct factors whose product is the one which combines\nthe two largest prime factors, namely I = 23 · 29 = 667, M = 3, and O = 1, so\nthe largest possible sum is 1 + 3 + 667 = 671 .",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q02",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "2000(2000^{2000}) =",
+    "answer_choices": {
+      "A": "2000^{2001}",
+      "B": "4000^{2000}",
+      "C": "2000^{4000}",
+      "D": "4, 000, 000^{2000}",
+      "E": "2000^{4,000,000}"
+    },
+    "correct_answer": "A",
+    "solution_text": "2000(20002000) = (20001)(20002000) = 20001+2000 = 20002001.\nAll the other options are greater than 20002001 .",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q03",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Each day, Jenny ate 20% of the jellybeans that were in her jar at the beginning of the day. At the\nend of the second day, 32 remained. How many jellybeans were in the jar originally?",
+    "answer_choices": {
+      "A": "40",
+      "B": "50",
+      "C": "55",
+      "D": "60",
+      "E": "75"
+    },
+    "correct_answer": "B",
+    "solution_text": "Since Jenny ate 20% of the jellybeans remaining each day, 80%\nof the jellybeans are left at the end of each day. If x is the number of jellybeans\nin the jar originally, then(0.8)2x = 32. Thus x = 50.",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q04",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Chandra pays an on-line service provider a ﬁxed monthly fee plus an hourly charge for connect\ntime. Her December bill was $12.48, but in January her bill was $17.54 because she used twice\nas much connect time as in December. What is the ﬁxed monthly fee?",
+    "answer_choices": {
+      "A": "$2.53",
+      "B": "$5.06",
+      "C": "$6.24",
+      "D": "$7.42",
+      "E": "$8.77"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since Chandra paid extra $5.06 in January, her December con-\nnect time must have cost her $5.06.\nTherefore, her monthly fee is $12.48 −\n$5.06 = $7.42 .\nP\nA\nB\nM\nN",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q05",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Points M and N are the midpoints of sides PA and PB of △PAB. As P moves along a line\nthat is parallel to side AB, how many of the four quantities listed below change?\n- the length of the segment MN\n- the perimeter of △PAB\n- the area of △PAB\n- the area of trapezoid ABNM",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Since △ABP is similar to △MNP\nand PM = 1\n2 · AP, it follows that MN = 1\n2 · AB.\nSince the base AB and the altitude to AB of △ABP\ndo not change, the area does not change. The alti-\ntude of the trapezoid is half that of the triangle, and\nthe bases do not change as P changes, so the area\nof the trapezoid does not change. Only the perime-\nter changes (reaching a minimum when △ABP is\nisosceles).",
+    "has_image": true
+  },
+  {
+    "id": "2000-AMC10-Q06",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 6,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "The Fibonacci Sequence 1, 1, 2, 3, 5, 8, 13, 21, . . . starts with two 1s and each term afterwards is\nthe sum of its predecessors. Which one of the ten digits is the last to appear in the units position\nof a number in the Fibonacci Sequence?",
+    "answer_choices": {
+      "A": "0",
+      "B": "4",
+      "C": "6",
+      "D": "7",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "The sequence of units digits is\n1, 1, 2, 3, 5, 8, 3, 1, 4, 5, 9, 4, 3, 7, 0, 7, 7, 4, 1, 5, 6, . . .\nThe digit 6 is the last of the ten digits to appear.\nA\nB\nC\nD\nP",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q07",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In rectangle ABCD, AD = 1, P is on AB, and DB and DP trisect ∠ADC. What is the perimeter\nof △BDP?",
+    "answer_choices": {
+      "A": "3 + $\\frac{\\sqrt{3}}{3}$",
+      "B": "2 + $\\frac{4\\sqrt{3}}{3}$",
+      "C": "2 + $2\\sqrt{2}$",
+      "D": "$\\frac{3+3\\sqrt{5}}{2}$",
+      "E": "2 + $\\frac{5\\sqrt{3}}{3}$"
+    },
+    "correct_answer": "B",
+    "solution_text": "Both triangles APD and CBD are\n30 – 60 – 90◦triangles. Thus DP = 2\n√\n3\n3\nand DB =\n2. Since ∠BDP = ∠PDB, it follows that PB =\nPD = 2\n√\n3\n3 . Hence the perimeter of △BDP is 2\n√\n3\n3 +\n2\n√\n3\n3\n+ 2 = 2 + 4\n√\n3\n3\n.\n\nSolutions\n2000 AMC 10\n3",
+    "has_image": true
+  },
+  {
+    "id": "2000-AMC10-Q08",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At Olympic High School, 2/5 of the freshmen and 4/5 of the sophomores took the AMC-10. Given\nthat the number of freshmen and sophomore contestants was the same, which of the following\nmust be true?",
+    "answer_choices": {
+      "A": "There are ﬁve times as many sophomores as freshmen.",
+      "B": "There are twice as many sophomores as freshmen.",
+      "C": "There are as many freshmen as sophomores.",
+      "D": "There are twice as many freshmen as sophomores.",
+      "E": "There are ﬁve times as many freshmen as sophomores."
+    },
+    "correct_answer": "D",
+    "solution_text": "Let f and s represent the numbers of freshmen and sophomores\nat the school, respectively. According to the given condition, (2/5)f = (4/5)s.\nThus, f = 2s. That is, there are twice as many freshmen as sophomores.",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q10",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The sides of a triangle with positive area have lengths 4, 6, and x. The sides of a second triangle\nwith positive area have lengths 4, 6, and y. What is the smallest positive number that is not a\npossible value of |x − y|?",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q11",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Two different prime numbers between 4 and 18 are chosen. When their sum is subtracted from\ntheir product, which of the following numbers could be obtained?",
+    "answer_choices": {
+      "A": "21",
+      "B": "60",
+      "C": "119",
+      "D": "180",
+      "E": "231"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are ﬁve prime numbers between 4 and 18: 5,7,11,13, and\n17. Hence the product of any two of these is odd and the sum is even. Because\nxy −(x+y) = (x−1)(y −1)−1 increases as either x or y increases (since both x\nand y are bigger than 1), the answer must be an odd number that is no smaller\nthan 23 = 5 · 7 −(5 + 7) and no larger than 191 = 13 · 17 −(13 + 17). The only\npossibility among the options is 119, and indeed 119 = 11 · 13 −(11 + 13) .",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q12",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 12,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Figures 0, 1, 2, and 3 form a growing diamond pattern of nonoverlapping unit squares:\n- Figure 0: 1 square\n- Figure 1: 5 squares\n- Figure 2: 13 squares\n- Figure 3: 25 squares\nIf the pattern were continued, how many nonoverlapping unit squares would there be in ﬁgure 100?",
+    "answer_choices": {
+      "A": "10401",
+      "B": "19801",
+      "C": "20201",
+      "D": "39801",
+      "E": "40801"
+    },
+    "correct_answer": "C",
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q13",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 13,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "There are 5 yellow pegs, 4 red pegs, 3 green pegs, 2 blue pegs, and 1 orange peg on a triangular\npeg board. In how many ways can the pegs be placed so that no (horizontal) row or (vertical)\ncolumn contains two pegs of the same color?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "5! · 4! · 3! · 2! · 1!",
+      "D": "$\\frac{15!}{5! \\cdot 4! \\cdot 3! \\cdot 2! \\cdot 1!}$",
+      "E": "15!"
+    },
+    "correct_answer": "B",
+    "solution_text": "To avoid having two yellow pegs in the\nsame row or column, there must be exactly one yellow\npeg in each row and in each column. Hence, starting at\nthe top of the array, the peg in the ﬁrst row must be\nyellow, the second peg of the second row must be yellow,\nthe third peg of the third row must be yellow, etc. To\navoid having two red pegs in some row, there must be a\nred peg in each of rows 2,3,4, and 5. The red pegs must be in the ﬁrst position\nof the second row, the second position of the third row, etc. Continuation yields\nexactly one ordering that meets the requirements, as shown.",
+    "has_image": true
+  },
+  {
+    "id": "2000-AMC10-Q14",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Mrs. Walter gave an exam in a mathematics class of ﬁve students. She entered the scores in\nrandom order into a spreadsheet, which recalculated the class average after each score was\nentered. Mrs. Walter noticed that after each score was entered, the average was always an\ninteger. The scores (listed in ascending order) were 71, 76, 80, 82, and 91. What was the last\nscore Mrs. Walter entered?",
+    "answer_choices": {
+      "A": "71",
+      "B": "76",
+      "C": "80",
+      "D": "82",
+      "E": "91"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that the integer average condition means that the sum of\nthe scores of the ﬁrst n students is a multiple of n. The scores of the ﬁrst two\nstudents must be both even or both odd, and the sum of the scores of the ﬁrst\nthree students must be divisible by 3. The remainders when 71, 76, 80, 82, and\n91 are divided by 3 are 2, 1, 2, 1, and 1, respectively. Thus the only sum of\nthree scores divisible by 3 is 76 + 82 + 91 = 249, so the ﬁrst two scores entered\nare 76 and 82 (in some order), and the third score is 91. Since 249 is 1 larger\nthan a multiple of 4, the fourth score must be 3 larger than a multiple of 4, and\nthe only possible is 71, leaving 80 as the score of the ﬁfth student.",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q15",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 15,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Two non-zero real numbers, a and b, satisfy ab = a−b. Which of the following is a possible value\nof a\nb + b\na −ab?",
+    "answer_choices": {
+      "A": "−2",
+      "B": "−1\n2",
+      "C": "1\n3",
+      "D": "1\n2",
+      "E": "2"
+    },
+    "correct_answer": "E",
+    "solution_text": "Find the common denominator and replace the ab in the numer-\nator with a −b to get\na\nb + b\na −ab = a2 + b2 −(ab)2\nab\n= a2 + b2 −(a −b)2\nab\n= a2 + b2 −(a2 −2ab + b2)\nab\n= 2ab\nab = 2.\nOR\nNote that a = a/b −1 and b = 1 −b/a. It follows that a\nb + b\na −ab = (a + 1) +\n(1 −b) −(a −b) = 2.\n\nSolutions\n2000 AMC 10\n5",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q16",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The diagram show 28 lattice points, each one unit from its nearest neighbors. Segment AB\nmeets segment CD at E. Find the length of segment AE.",
+    "answer_choices": {
+      "A": "4\n√\n5\n3",
+      "B": "5\n√\n5\n3",
+      "C": "12\n√\n5\n7",
+      "D": "2\n√\n5",
+      "E": "5\n√\n65\n9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Extend DC to F. Triangle FAE and DBE are similar with\nratio 5 : 4. Thus AE = 5 · AB/9, AB =\n√\n32 + 62 =\n√\n45 = 3\n√\n5, and AE =\n5(3\n√\n5)/9 = 5\n√\n5/3.\nA\nB\nC\nD\nE\nF\nOR\nCoordinatize the points so that A = (0, 3), B = (6, 0), C = (4, 2), and D =\n(2, 0). Then the line through A and B is given by x + 2y = 6, and the line\nthrough C and D is given by x −y = 2. Solve these simultaneously to get\nE =\n¡ 10\n3 , 4\n3\n¢\n. Hence AE =\nq\n( 10\n3 −0)2 + ( 4\n3 −3)2 =\nq\n125\n9 = 5\n√\n5\n3 .",
+    "has_image": true
+  },
+  {
+    "id": "2000-AMC10-Q17",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Boris has an incredible coin changing machine. When he puts in a quarter, it returns ﬁve nickels;\nwhen he puts in a nickel, it returns ﬁve pennies; and when he puts in a penny, it returns ﬁve\nquarters. Boris starts with just one penny. Which of the following amounts could Boris have\nafter using the machine repeatedly?",
+    "answer_choices": {
+      "A": "$3.63",
+      "B": "$5.13",
+      "C": "$6.30",
+      "D": "$7.45",
+      "E": "$9.07"
+    },
+    "correct_answer": "D",
+    "solution_text": "Neither of the exchanges quarter →ﬁve nickels nor nickel →\nﬁve pennies changes the total value of Boris's coins. The exchange penny →ﬁve\nquarters increase the total value of Boris's coins by $1.24. Hence, Boris must\nhave $.01 + $1.24n after n uses of the last exchange. Only option D is of this\nform: 745 = 1 + 124 · 6. In cents, option A is 115 more than a multiple of 124,\nB is 17 more than a multiple of 124, C is 10 more than a multiple of 124, and\nE is 39 more than a multiple of 124.\n\nSolutions\n2000 AMC 10\n6",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q18",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Charlyn walks completely around the boundary of a square whose sides are each 5 km long.\nFrom any point on her path she can see exactly 1 km horizontally in all directions. What is the\narea of the region consisting of all points Charlyn can see during her walk, expressed in square\nkilometers and rounded to the nearest whole number?",
+    "answer_choices": {
+      "A": "24",
+      "B": "27",
+      "C": "39",
+      "D": "40",
+      "E": "42"
+    },
+    "correct_answer": "C",
+    "solution_text": "At any point on Charlyn's walk, she can see all the points inside\na circle of radius 1 km. The portion of the viewable region inside the square\nconsists of the interior of the square except for a smaller square with side length\n3 km. This portion of the viewable region has area (25 −9) km2. The portion\nof the viewable region outside the square consists of four rectangles, each 5 km\nby 1 km, and four quarter-circles, each with a radius of 1 km. This portion of\nthe viewable region has area 4(5 + π\n4 ) = (20 + π) km2. The area of the entire\nviewable region is 36 + π ≈30 km2.\nr\ns\n1\nA\nB\nC\nD\nE\nF\nA\n(0,1)\n(0,0)\n(1,1)\n(1,0)\n(1+2m,0)",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q19",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Through a point on the hypotenuse of a right triangle, lines are drawn parallel to the legs of the\ntriangle so that the triangle is divided into a square and two smaller right triangles. The area of\none of the two small right triangles is m times the area of the square. The ratio of the area of\nthe other small right triangle to the area of the square is",
+    "answer_choices": {
+      "A": "$\\frac{1}{2m+1}$",
+      "B": "m",
+      "C": "1 − m",
+      "D": "$\\frac{1}{4m}$",
+      "E": "$\\frac{1}{8m^{2}}$"
+    },
+    "correct_answer": "D",
+    "solution_text": "With out loss of generality, let the\nside of the square have length 1 unit and let the\narea of triangle ADF be m.\nLet AD = r and\nEC = s. Because triangles ADF and FEC are\nsimilar, s/1 = 1/r. Since\n1\n2r = m, the area of\ntriangle FEC is 1\n2s =\n1\n2r =\n1\n4m.\nOR\nLet B = (0, 0), E = (1, 0), F\n= (1, 1) and\nD = (0, 1) be the vertices of the square.\nLet\nC = (1 + 2m, 0), and notice that the area of\nBEFD is 1 and the area of triangle FEC is m.\nThe slope of the line through C and F is −1\n2m;\nthus, it intersects the y-axis at A =\n¡\n0, 1 +\n1\n2m\n¢\n.\nThe area of triangle ADF is therefore\n1\n4m.\n\nSolutions\n2000 AMC 10\n7",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q20",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 20,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let A, M, and C be nonnegative integers such that A + M + C = 10. What is the maximum\nvalue of A · M · C + A · M + M · C + C · A?",
+    "answer_choices": {
+      "A": "49",
+      "B": "59",
+      "C": "69",
+      "D": "79",
+      "E": "89"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that\nAMC +AM +MC +CA = (A+1)(M +1)(C +1)−(A+M +C)−1 = pqr−11,\nwhere p, q, and r are positive integers whose sum is 13. A case-by-case analysis\nshows that pqt is largest when two of the numbers p, q, r are 4 and the third is\n5. Thus the answer is 4 · 4 · 5 −11 = 69.",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q21",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "If all alligators are ferocious creatures and some creepy crawlers are alligators, which state-\nment(s) must be true?\nI. All alligators are creepy crawlers.\nII. Some ferocious creatures are creepy crawlers.\nIII. Some alligators are not creepy crawlers.",
+    "answer_choices": {
+      "A": "I only",
+      "B": "II only",
+      "C": "III only",
+      "D": "II and III only",
+      "E": "None must be true"
+    },
+    "correct_answer": "B",
+    "solution_text": "From the conditions we can conclude that some creepy crawlers\nare ferocious (since some are alligators). Hence, there are some ferocious crea-\ntures that are creepy crawlers, and thus II must be true. The diagram below\nshows that the only conclusion that can be drawn is existence of an animal in the\nregion with the dot. Thus, neither I nor III follows from the given conditions.\nferocious\ncreatures\nalligators\ncreepy\ncrawlers\n\nSolutions\n2000 AMC 10\n8",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q22",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 22,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "One morning each member of Angela's family drank an 8-ounce mixture of coffee with milk. The\namounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter\n\nof the total amount of milk and a sixth of the total amount of coffee. How many people are in\nthe family?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "C",
+    "solution_text": "Suppose that the whole family drank x cups of milk and y cups\nof coﬀee. Let n denote the number of people in the family. The information\ngiven implies that x/4 + y/6 = (x + y)/n. This leads to\n3x(n −4) = 2y(6 −n).\nSince x and y are positive, the only positive integer n for which both sides have\nthe same sign is n = 5.\nOR\nIf Angela drank c cups of coﬀee and m cups of mile, then 0 < c < 1 and\nm + c = 1. The number of people in the family is 6c + 4m = 4 + 2c, which is an\ninteger if and only if c = 1\n2. Thus, there are 5 people in the family.",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q23",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 23,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "When the mean, median, and mode of the list 10, 2, 5, 2, 4, 2, x are arranged in increasing order,\nthey form a non-constant arithmetic progression. What is the sum of all possible real values of\nx?",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "17",
+      "E": "20"
+    },
+    "correct_answer": "E",
+    "solution_text": "If x were less than or equal to 2, then 2 would be both the median\nand the mode of the list. Thus x > 2. Consider the two cases 2 < x < 4, and\nx ≥4.\nCase 1: If 2 < x < 4, then 2 is the mode, x is the median, and 25+x\n7\nis the mean,\nwhich must equal 2 −(x −2), x+2\n2 , or x + (x −2), depending on the size of the\nmean relative to 2 and x. These give x = 3\n8, x = 36\n5 , and x = 3, of which x = 3\nis the only value between 2 and 4.\nCase 2: If x ≥4, then 4 is the median, 2 is the mode, and 25+x\n7\nis the mean,\nwhich must be 0,3, or 6. Thus x = −25, −4, or 17, of which 17 is the only one\nof these values greater than or equal to 4.\nThus the x-value sum to 3 + 17 = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q24",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 24,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let f be a function for which f(x/3) = x^{2} + x + 1. Find the sum of all values of z for which\nf(3z) = 7.",
+    "answer_choices": {
+      "A": "$-\\frac{1}{3}$",
+      "B": "$-\\frac{1}{9}$",
+      "C": "0",
+      "D": "$\\frac{5}{9}$",
+      "E": "$\\frac{5}{3}$"
+    },
+    "correct_answer": "B",
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2000-AMC10-Q25",
+    "year": 2000,
+    "exam": "AMC10",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In year N, the 300^{th} day of the year is a Tuesday. In year N + 1, the 200^{th} day is also a Tuesday.\nOn what day of the week did the 100^{th} of year N −1 occur?",
+    "answer_choices": {
+      "A": "Thursday",
+      "B": "Friday",
+      "C": "Saturday",
+      "D": "Sunday",
+      "E": "Monday"
+    },
+    "correct_answer": "A",
+    "solution_text": "Note that, if a Tuesday is d days after a Tuesday, then d is a\nmultiple of 7. Next, we need to consider whether any of the years N −1, N,\nN + 1 is a leap year. If N is not a leap year, the 200th day of year N + 1 is\n365 −300 + 200 = 265 days after a Tuesday, and thus is a Monday, since 265\nif 6 larger than a multiple of 7. Thus, year N is a leap year and the 200th day\nof year N + 1 is another Tuesday (as given), being 266 days after a Tuesday.\nIt follows that year N −1 is not a leap year. Therefore, the 100th day of year\nN −1 precedes the given Tuesday in year N by 365−100+300 = 565 days, and\ntherefore is a Thursday, since 565 = 7 · 80 + 5 is 5 larger than a multiple of 7.",
+    "has_image": false
+  }
+]

@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2015-AMC10A-Q01",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of (2^{0} −1 + 5^{2} + 0)^{−1} × 5?",
+    "answer_choices": {
+      "A": "−125",
+      "B": "−120",
+      "C": "1\n5",
+      "D": "5\n24",
+      "E": "25"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q02",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A box contains a collection of triangular and square tiles. There are 25 tiles in the box, containing\n84 edges total. How many square tiles are there in the box?",
+    "answer_choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9",
+      "E": "11"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q03",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "Ann made a 3-step staircase using 18 toothpicks as shown in the ﬁgure. How many toothpicks\ndoes she need to add to complete a 5-step staircase?",
+    "answer_choices": {
+      "A": "9",
+      "B": "18",
+      "C": "20",
+      "D": "22",
+      "E": "24"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2015-AMC10A-Q04",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Pablo, Soﬁa, and Mia got some candy eggs at a party. Pablo had three times as many eggs as\nSoﬁa, and Soﬁa had twice as many eggs as Mia. Pablo decides to give some of his eggs to Soﬁa\nand Mia so that all three will have the same number of eggs. What fraction of his eggs should\nPablo give to Soﬁa?",
+    "answer_choices": {
+      "A": "1\n12",
+      "B": "1\n6",
+      "C": "1\n4",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q05",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Mr. Patrick teaches math to 15 students. He was grading tests and found that when he graded\neveryone’s test except Payton’s, the average grade for the class was 80. After he graded Payton’s\ntest, the class average became 81. What was Payton’s score on the test?",
+    "answer_choices": {
+      "A": "81",
+      "B": "85",
+      "C": "91",
+      "D": "94",
+      "E": "95"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q06",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The sum of two positive numbers is 5 times their difference. What is the ratio of the larger\nnumber to the smaller?",
+    "answer_choices": {
+      "A": "5\n4",
+      "B": "3\n2",
+      "C": "9\n5",
+      "D": "2",
+      "E": "5\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q07",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "How many terms are there in the arithmetic sequence 13, 16, 19, . . . , 70, 73?",
+    "answer_choices": {
+      "A": "20",
+      "B": "21",
+      "C": "24",
+      "D": "60",
+      "E": "61"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q08",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Two years ago Pete was three times as old as his cousin Claire. Two years before that, Pete\nwas four times as old as Claire. In how many years will the ratio of their ages be 2 : 1?",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q09",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Two right circular cylinders have the same volume. The radius of the second cylinder is 10%\nmore than the radius of the ﬁrst. What is the relationship between the heights of the two cylin-\nders?",
+    "answer_choices": {
+      "A": "The second height is 10% less than the ﬁrst.",
+      "B": "The ﬁrst height is 10% more than the second.",
+      "C": "The second height is 21% less than the ﬁrst.",
+      "D": "The ﬁrst height is 21% more than the second.",
+      "E": "The second height is 80% of the ﬁrst."
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q10",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "How many rearrangements of abcd are there in which no two adjacent letters are also adjacent\nletters in the alphabet? For example, no such rearrangements could include either ab or ba.",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q11",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The ratio of the length to the width of a rectangle is 4 : 3. If the rectangle has diagonal of length\nd, then the area may be expressed as kd^{2} for some constant k. What is k?",
+    "answer_choices": {
+      "A": "2\n7",
+      "B": "3\n7",
+      "C": "12\n25",
+      "D": "16\n25",
+      "E": "3\n4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q12",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Points (√π, a) and (√π, b) are distinct points on the graph of y^{2} +x^{4} = 2x^{2}y +1. What is |a−b|?",
+    "answer_choices": {
+      "A": "1",
+      "B": "π\n2",
+      "C": "2",
+      "D": "√1 + π",
+      "E": "1 + √π"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2015-AMC10A-Q13",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Claudia has 12 coins, each of which is a 5-cent coin or a 10-cent coin. There are exactly 17\ndifferent values that can be obtained as combinations of one or more of her coins. How many\n10-cent coins does Claudia have?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q14",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The diagram below shows the circular face of a clock with radius 20 cm and a circular disk with\nradius 10 cm externally tangent to the clock face at 12 o’clock. The disk has an arrow painted on\nit, initially pointing in the upward vertical direction. Let the disk roll clockwise around the clock\nface. At what point on the clock face will the disk be tangent when the arrow is next pointing in\nthe upward vertical direction?\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+    "answer_choices": {
+      "A": "2 o’clock",
+      "B": "3 o’clock",
+      "C": "4 o’clock",
+      "D": "6 o’clock",
+      "E": "8 o’clock"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2015-AMC10A-Q15",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Consider the set of all fractions x\ny, where x and y are relatively prime positive integers. How many\nof these fractions have the property that if both numerator and denominator are increased by 1,\nthe value of the fraction is increased by 10%?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "inﬁnitely many"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q16",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "If y + 4 = (x −2)^{2}, x + 4 = (y −2)^{2}, and x ̸= y, what is the value of x^{2} + y^{2}?",
+    "answer_choices": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "25",
+      "E": "30"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q18",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Hexadecimal (base-16) numbers are written using numeric digits 0 through 9 as well as the\nletters A through F to represent 10 through 15. Among the ﬁrst 1000 positive integers, there are\nn whose hexadecimal representation contains only numeric digits. What is the sum of the digits\nof n?",
+    "answer_choices": {
+      "A": "17",
+      "B": "18",
+      "C": "19",
+      "D": "20",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q19",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "The isosceles right triangle ABC has right angle at C and area 12.5. The rays trisecting ∠ACB\nintersect AB at D and E. What is the area of △CDE?",
+    "answer_choices": {
+      "A": "5\n√\n2\n3",
+      "B": "50\n√\n3−75\n4",
+      "C": "15\n√\n3\n8",
+      "D": "50−25\n√\n3\n2",
+      "E": "25\n6"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q20",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "A rectangle has area A cm^{2} and perimeter P cm, where A and P are positive integers. Which of\nthe following numbers cannot equal A + P?",
+    "answer_choices": {
+      "A": "100",
+      "B": "102",
+      "C": "104",
+      "D": "106",
+      "E": "108"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q22",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Eight people are sitting around a circular table, each holding a fair coin. All eight people ﬂip\ntheir coins and those who ﬂip heads stand while those who ﬂip tails remain seated. What is the\nprobability that no two adjacent people will stand?",
+    "answer_choices": {
+      "A": "47\n256",
+      "B": "3\n16",
+      "C": "49\n256",
+      "D": "25\n128",
+      "E": "51\n256"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q23",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The zeroes of the function f(x) = x^{2} −ax + 2a are integers. What is the sum of all possible\nvalues of a?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "16",
+      "D": "17",
+      "E": "18"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q24",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "For some positive integers p, there is a quadrilateral ABCD with positive integer side lengths,\nperimeter p, right angles at B and C, AB = 2, and CD = AD. How many different values of\np < 2015 are possible?",
+    "answer_choices": {
+      "A": "30",
+      "B": "31",
+      "C": "61",
+      "D": "62",
+      "E": "63"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2015-AMC10A-Q25",
+    "year": 2015,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let S be a square of side length 1. Two points are chosen independently at random on the sides\nof S. The probability that the straight-line distance between the points is at least 1\n2 is a−bπ\nc\n, where\na, b, and c are positive integers and gcd(a, b, c) = 1. What is a + b + c?",
+    "answer_choices": {
+      "A": "59",
+      "B": "60",
+      "C": "61",
+      "D": "62",
+      "E": "63"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

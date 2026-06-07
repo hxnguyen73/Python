@@ -1,0 +1,420 @@
+[
+  {
+    "id": "2023-AMC10B-Q01",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Mrs. Jones is pouring orange juice for her 4 kids into 4 identical glasses. She ﬁlls the ﬁrst 3 full,\nbut only has enough orange juice to ﬁll one third of the last glass. What fraction of a glass of\norange juice does she need to pour from the 3 full glasses into the last glass so that all glasses\nhave an equal amount of orange juice?",
+    "answer_choices": {
+      "A": "1\n12",
+      "B": "1\n4",
+      "C": "1\n6",
+      "D": "1\n8",
+      "E": "2\n9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q03",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A 3 −4 −5 right triangle is inscribed in circle A, and a 5 −12 −13 right triangle is inscribed in\ncircle B. What is the ratio of the area of circle A to the area of circle B?",
+    "answer_choices": {
+      "A": "9\n25",
+      "B": "1\n9",
+      "C": "1\n5",
+      "D": "25\n169",
+      "E": "4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q04",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Jackson’s paintbrush makes a narrow strip that is 6.5 mm wide. Jackson has enough paint to\nmake a strip of 25 meters. How much can he paint, in cm^{2}?",
+    "answer_choices": {
+      "A": "10",
+      "B": "5",
+      "C": "6",
+      "D": "8",
+      "E": "9\n6"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q06",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Let L^{1} = 1, L^{2} = 3, and L^{n+2} = L^{n+1} + L^{n} for n ≥1. How many terms in the sequence\nL^{1}, L^{2}, L^{3}, . . . , L^{2023} are even?",
+    "answer_choices": {
+      "A": "673",
+      "B": "1011",
+      "C": "675",
+      "D": "1010",
+      "E": "674"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q07",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Square ABCD is rotated 20^{◦}clockwise about its center to obtain square EFGH, as shown\nbelow. What is the degree measure of ∠EAB?",
+    "answer_choices": {
+      "A": "20^{◦}",
+      "B": "30^{◦}",
+      "C": "32^{◦}",
+      "D": "35^{◦}",
+      "E": "45^{◦}"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2023-AMC10B-Q08",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "What is the units digit of 2022^{2023} + 2023^{2022}?",
+    "answer_choices": {
+      "A": "7",
+      "B": "1",
+      "C": "3",
+      "D": "5",
+      "E": "9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q09",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The numbers 16 and 25 are a pair of consecutive perfect squares whose difference is 9. How\nmany pairs of consecutive positive perfect squares have a difference of less than or equal to\n2023?",
+    "answer_choices": {
+      "A": "674",
+      "B": "1011",
+      "C": "1010",
+      "D": "2019",
+      "E": "2017"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q10",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "You are playing a game. A 2×1 rectangle covers two adjacent squares (oriented either horizon-\ntally or vertically) of a 3 × 3 grid of squares, but you are not told which two squares are covered.\nYour goal is to ﬁnd at least one square that is covered by the rectangle. A ”turn” consists of\nyou guessing a square, after which you are told whether that square is covered by the hidden\nrectangle. What is the minimum number of turns you need to ensue that at least one of your\nguessed squares is covered by the rectangle?",
+    "answer_choices": {
+      "A": "3",
+      "B": "5",
+      "C": "4",
+      "D": "8",
+      "E": "6"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q11",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Suzanne went to the bank and withdrew $800. The teller gave her this amount using $20 bills,\n$50 bills, and $100 bills, with at least one of each denomination. How many different collections\nof bills could Suzanne have received?",
+    "answer_choices": {
+      "A": "45",
+      "B": "21",
+      "C": "36",
+      "D": "28",
+      "E": "32"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q13",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "What is the area of the region in the coordinate plane deﬁned by the inequality\n||x| −1| + ||y| −1| ≤1?",
+    "answer_choices": {
+      "A": "4",
+      "B": "8",
+      "C": "10",
+      "D": "12",
+      "E": "15"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q14",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs of integers (m, n) satisfy the equation m^{2} + mn + n^{2} = m^{2}n^{2}?",
+    "answer_choices": {
+      "A": "7",
+      "B": "1",
+      "C": "3",
+      "D": "6",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q15",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "What is the least positive integer m such that m · 2! · 3! · 4! · 5! · · · 16! is a perfect square?",
+    "answer_choices": {
+      "A": "30",
+      "B": "30030",
+      "C": "70",
+      "D": "1430",
+      "E": "1001"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q16",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Deﬁne an upno to be a positive integer of 2 or more digits where the digits are strictly increasing\nmoving left to right. Similarly, deﬁne a downno to be a positive integer of 2 or more digits where\nthe digits are strictly decreasing moving left to right. For instance, the number 258 is an upno\nand 8620 is a downno. Let U equal the total number of upnos and let D equal the total number\nof downnos. What is |U −D|?",
+    "answer_choices": {
+      "A": "512",
+      "B": "10",
+      "C": "0",
+      "D": "9",
+      "E": "511"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q17",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A rectangular box P has distinct edge lengths a, b, and c. The sum of the lengths of all 12 edges\nof P is 13, the sum of the areas of all 6 faces of P is 11\n2 , and the volume of P is 1\n2. What is the\nlength of the longest interior diagonal connecting two vertices of P?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3\n8",
+      "C": "9\n8",
+      "D": "9\n4",
+      "E": "3\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q18",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Suppose a, b, and c are positive integers such that\na\n14 + b\n15 =\nc\n210.\nWhich of the following statements are necessarily true?\n\nI. If gcd(a, 14) = 1 or gcd(b, 15) = 1 or both, then gcd(c, 210) = 1.\nII. If gcd(c, 210) = 1, then gcd(a, 14) = 1 or gcd(b, 15) = 1 or both.\nIII. gcd(c, 210) = 1 if and only if gcd(a, 14) = gcd(b, 15) = 1.",
+    "answer_choices": {
+      "A": "I, II, and III",
+      "B": "I only",
+      "C": "I and II only",
+      "D": "III only",
+      "E": "II and III only"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q19",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Sonya the frog chooses a point uniformly at random lying within the square [0, 6] × [0, 6] in the\ncoordinate plane and hops to that point. She then randomly chooses a distance uniformly at ran-\ndom from [0, 1] and a direction uniformly at random from north, south east, west. All he choices\nare independent. She now hops the distance in the chosen direction. What is the probability that\nshe lands outside the square?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n12",
+      "C": "1\n4",
+      "D": "1\n10",
+      "E": "1\n9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q20",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Four congruent semicircles are drawn on the surface of a sphere with radius 2, as shown, creat-\ning a close curve that divides the surface into two congruent regions. The length of the curcve\nis π√n. What is n?",
+    "answer_choices": {
+      "A": "32",
+      "B": "12",
+      "C": "48",
+      "D": "36",
+      "E": "27"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2023-AMC10B-Q21",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Each of 2023 balls is placed in on of 3 bins. Which of the following is closest to the probability\nthat each of the bins will contain an odd number of balls?",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "3\n10",
+      "C": "1\n2",
+      "D": "1\n3",
+      "E": "1\n4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q22",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "How many distinct values of x satisfy ⌊x⌋2–3x + 2 = 0 where ⌊x⌋denotes the largest integer\nless than or equal to x?",
+    "answer_choices": {
+      "A": "an inﬁnite number",
+      "B": "4",
+      "C": "2",
+      "D": "3",
+      "E": "0"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q23",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "An arithmetic sequence has n ≥3 terms, initial term a and common difference d > 1. Carl wrote\ndown all the terms in this sequence correctly except for one term which was off by 1. The sum\nof the terms was 222. What was a + d + n",
+    "answer_choices": {
+      "A": "24",
+      "B": "20",
+      "C": "22",
+      "D": "28",
+      "E": "26"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q24",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "What is the perimeter of the boundary of the region consisting of all points which can be ex-\npressed as (2u −3w, v + 4w) with 0 ≤u ≤1, 0 ≤v ≤1, and 0 ≤w ≤1?",
+    "answer_choices": {
+      "A": "10\n√\n3",
+      "B": "10",
+      "C": "12",
+      "D": "18",
+      "E": "16"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10B-Q25",
+    "year": 2023,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A regular pentagon with area\n√\n5 + 1 is printed on paper and cut out. The ﬁve vertices of the\npentagon are folded into the center of the pentagon, creating a smaller pentagon. What is the\narea of the new pentagon?",
+    "answer_choices": {
+      "A": "4 −\n√\n5",
+      "B": "√\n5 −1",
+      "C": "8 −3\n√\n5",
+      "D": "√\n5+1\n2",
+      "E": "2+\n√\n5\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

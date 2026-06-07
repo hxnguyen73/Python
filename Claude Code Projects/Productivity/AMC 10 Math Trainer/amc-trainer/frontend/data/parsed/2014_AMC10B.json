@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2014-AMC10B-Q01",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "1. Leah has 13 coins, all of which are pennies and nickels. If she had one more nickel than she\nhas now, then she would have the same number of pennies and nickels. In cents, how much are\nLeah’s coins worth?",
+    "answer_choices": {
+      "A": "33",
+      "B": "35",
+      "C": "37",
+      "D": "39",
+      "E": "41"
+    },
+    "correct_answer": "C",
+    "solution_text": "Leah has 7 pennies and 6 nickels, which are worth 37 cents.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q02",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is\n2^{3}+2^{3}\n2^{−3}+2^{−3} ?",
+    "answer_choices": {
+      "A": "16",
+      "B": "24",
+      "C": "32",
+      "D": "48",
+      "E": "64"
+    },
+    "correct_answer": "E",
+    "solution_text": "Note that\n23 + 23\n2−3 + 2−3 = 2 · 23\n2 · 2−3 = 26 = 64.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q03",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Randy drove the ﬁrst third of his trip on a gravel road, the next 20 miles on pavement, and the\nremaining one-ﬁfth on a dirt road. In miles, how long was Randy’s trip?",
+    "answer_choices": {
+      "A": "30",
+      "B": "400\n11",
+      "C": "75\n2",
+      "D": "40",
+      "E": "300\n7"
+    },
+    "correct_answer": "E",
+    "solution_text": "The fraction of Randy’s trip driven on pavement was 1−1\n3 −1\n5 =\n7\n15. Therefore the entire trip was 20 ÷ 7\n15 = 300\n7\nmiles.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q04",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Susie pays for 4 mufﬁns and 3 bananas. Calvin spends twice as much paying for 2 mufﬁns and 16\nbananas. A mufﬁn is how many times as expensive as a banana?",
+    "answer_choices": {
+      "A": "3\n2",
+      "B": "5\n3",
+      "C": "7\n4",
+      "D": "2",
+      "E": "1"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let a muﬃn cost m dollars and a banana cost b dollars. Then\n2(4m + 3b) = 2m + 16b, and simplifying gives m = 5\n3b.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q05",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Doug constructs a square window using 8 equal-size panes of glass, as shown. The ratio of\nthe height to width for each pane is 5 : 2, and the borders around and between the panes are 2\ninches wide. In inches, what is the side length o the square window?",
+    "answer_choices": {
+      "A": "26",
+      "B": "28",
+      "C": "30",
+      "D": "32",
+      "E": "34"
+    },
+    "correct_answer": "A",
+    "solution_text": "Denote the height of a pane by 5x and the width by 2x. Then\nthe square window has height 2 · 5x + 6 inches and width 4 · 2x + 10 inches.\nSolving 2·5x+6 = 4·2x+10 gives x = 2. The side length of the square window\nis 26 inches.",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10B-Q06",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Orvin went to the store with just enough money to buy 30 balloons. When he arrived, he discov-\nered that the store had a special sale on balloons: buy 1 balloon at the regular price and get a\nsecond at 1\n3 off the regular price. What is the greatest number of balloons Orvin could buy?",
+    "answer_choices": {
+      "A": "33",
+      "B": "34",
+      "C": "36",
+      "D": "38",
+      "E": "39"
+    },
+    "correct_answer": "C",
+    "solution_text": "The special allows Orvin to purchase balloons at\n1+ 2\n3\n2\n=\n5\n6\ntimes the regular price. Because Orvin had just enough money to purchase 30\nballoons at the regular price, he may now purchase 30 · 6\n5 = 36 balloons.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q07",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Suppose A > B > 0 and A is x% greater than B. What is x?",
+    "answer_choices": {
+      "A": "100\n A−B\nB",
+      "B": "100\n A+B\nB",
+      "C": "100\n A+B\nA",
+      "D": "100\n A−B\nA",
+      "E": "100"
+    },
+    "correct_answer": "A",
+    "solution_text": "The fraction by which A is greater than B is simply the positive\ndiﬀerence A −B divided by B. The percent diﬀerence is 100 times this, or\n100\n\u001f A−B\nB\n\n.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q08",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A truck travels b\n6 feet every t seconds. There are 3 feet in a yard. How many yards does the truck\ntravel in 3 minutes?",
+    "answer_choices": {
+      "A": "b\n1080t",
+      "B": "30t\nb",
+      "C": "30b\nt",
+      "D": "10t\nb",
+      "E": "10b"
+    },
+    "correct_answer": "E",
+    "solution_text": "The truck travels for 3 · 60 = 180 seconds, at a rate of\nb\n6t · 1\n3\nyards per second. Hence the truck travels 180 · b\n6t · 1\n3 = 10b\nt\nyards.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q10",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "In the addition shown below A, B, C, and D are distinct digits. How many different values are\npossible for D?\n\nABBCB\n+\nBCADA\nDBDDD",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "As indicated by the leftmost column A+B ≤9. Then both the\nsecond and fourth columns show that C = 0. Because A, B, and C are distinct\ndigits, D must be at least 3. The following values for (A, B, C, D) show that D\nmay be any of the 7 digits that are at least 3: (1, 2, 0, 3), (1, 3, 0, 4), (2, 3, 0, 5),\n(2, 4, 0, 6), (2, 5, 0, 7), (2, 6, 0, 8), (2, 7, 0, 9).",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10B-Q11",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "For the consumer, a single discount of n% is more advantageous than any of the following\ndiscounts:\n(1) two successive 15% discounts (2) three successive 10% discounts (3) a 25% discount fol-\nlowed by a 5% discount\nWhat is the smallest possible positive integer value of n?",
+    "answer_choices": {
+      "A": "27",
+      "B": "28",
+      "C": "29",
+      "D": "31",
+      "E": "33"
+    },
+    "correct_answer": "C",
+    "solution_text": "If P is the price paid for an item, then the discounted prices\nwith the three given discounts are given by the following calculations:\n(1) (0.85)2P = 0.7225P for a discount of 27.75%\n(2) (0.9)3P = 0.729P for a discount of 27.1%\n(3) (0.75) · (0.95)P = 0.7125P for a discount of 28.75%\nThe smallest integer greater than 27.75, 27.1, and 28.75 is 29.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q12",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The largest divisor of 2, 014, 000, 000 is itself. What is its ﬁfth largest divisor?",
+    "answer_choices": {
+      "A": "125, 875, 000",
+      "B": "201, 400, 000",
+      "C": "251, 750, 000",
+      "D": "402, 800, 000",
+      "E": "503, 500, 000"
+    },
+    "correct_answer": "C",
+    "solution_text": "By inspection, the ﬁve smallest positive divisors of 2,014,000,000\nare 1, 2, 4, 5, and 8.\nTherefore the ﬁfth largest divisor is\n2,014,000,000\n8\n=\n251,750,000.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q13",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Six regular hexagons surround a regular hexagon of side length 1 as shown. What is the area of\n△ABC?",
+    "answer_choices": {
+      "A": "2\n√\n3",
+      "B": "3\n√\n3",
+      "C": "1 + 3\n√\n2",
+      "D": "2 + 2\n√\n3",
+      "E": "3 + 2\n√\n3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Label points E and F as shown in the ﬁgure, and let D be the\nmidpoint of BE. Because △BFD is a 30 – 60 – 90◦triangle with hypotenuse 1,\nthe length of BD is\n√\n3\n2 , and therefore BC = 2\n√\n3. It follows that the area of\n△ABC is\n√\n3\n4 · (2\n√\n3)2 = 3\n√\n3.\nOR\n\n2014 AMC10B Solutions\n4\nNotice that AE = 3 since AE is composed of a hexagon side (length 1) and\nthe longest diagonal of a hexagon (length 2). Triangle ABE is 30 – 60 – 90◦, so\nBE =\n3\n√\n3 =\n√\n3. The area of △ABC is AE · BE = 3\n√\n3.",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10B-Q14",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Danica drove her new car on a trip for a whole number of hours, averaging 55 miles per hour.\nAt the beginning of the trip, abc miles were displayed on the odometer, where abc is a 3-digit\nnumber with a ≥1 and a + b + c ≤7. At the end of the trip, where the odometer showed cba\nmiles. What is a^{2} + b^{2} + c^{2}?",
+    "answer_choices": {
+      "A": "26",
+      "B": "27",
+      "C": "36",
+      "D": "37",
+      "E": "41"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let m be the total mileage of the trip. Then m must be a\nmultiple of 55. Also, because m = cba −abc = 99(c −a), it is a multiple of 9.\nTherefore m is a multiple of 495. Because m is at most a 3-digit number and a\nis not equal to 0, m = 495. Therefore c −a = 5. Because a + b + c ≤7, the only\npossible abc is 106, so a2 + b2 + c2 = 1 + 0 + 36 = 37.\nOR\nLet m be the total mileage of the trip. Then m must be a multiple of 55. Also,\nbecause m = cba −abc = 99(c −a), c −a is a multiple of 5. Because a ≥1 and\na+b+c ≤7, it follows that c = 6 and a = 1. Therefore b = 0, so a2+b2+c2 = 37.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q15",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In rectangle ABCD, DC = 2CB and points E and F lie on AB so that ED and FD trisect\n∠ADC as shown. What is the ratio of the area of △DEF to the area of rectangle ABCD?",
+    "answer_choices": {
+      "A": "√\n3\n6",
+      "B": "√\n6\n8",
+      "C": "3\n√\n3\n16",
+      "D": "1\n3",
+      "E": "√\n2\n4"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let AD =\n√\n3. Because ∠ADE = 30◦, it follows that AE = 1\nand DE = 2. Now ∠EDF = 30◦and ∠DEF = 120◦, so △DEF is isosceles and\nEF = 2. Thus the area of △DEF (with EF viewed as the base) is 1\n2·2·\n√\n3 =\n√\n3,\nand the desired ratio is\n√\n3\n√\n3·2\n√\n3 =\n√\n3\n6 .",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10B-Q16",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Four fair six-sided dice are rolled. What is the probability that at least three of the four dice show\nthe same value?",
+    "answer_choices": {
+      "A": "1\n36",
+      "B": "7\n72",
+      "C": "1\n9",
+      "D": "5\n36",
+      "E": "1\n6"
+    },
+    "correct_answer": "B",
+    "solution_text": "If exactly three of the four dice show the same number, then\nthere are 6 possible choices for the repeated value and 5 possible choices for the\nnon-repeated value. The non-repeated value may appear on any one of the 4\ndice, so there are 6 · 5 · 4 = 120 possible ways for such a result to occur. There\nare 6 ways for all four dice to show the same value. There are 64 total possible\noutcomes for the four dice. The probability of the desired result is 120+6\n64\n=\n7\n72.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q17",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the greatest power of 2 that is a factor of 10^{1002} −4^{501}?",
+    "answer_choices": {
+      "A": "2^{1002}",
+      "B": "2^{1003}",
+      "C": "2^{1004}",
+      "D": "2^{1005}",
+      "E": "2^{1006}"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that\n101002 −4501 = 21002 · 51002 −21002\n= 21002(51002 −1)\n= 21002(5501 −1)(5501 + 1)\n= 21002(5 −1)(5500 + 5499 + · · · + 5 + 1)(5 + 1)(5500 −5499 + · · ·\n−5 + 1)\n= 21005(3)(5500 + 5499 + · · · + 5 + 1)(5500 −5499 + · · · −5 + 1).\nBecause each of the last two factors is a sum of an odd number of odd terms,\nthey are both odd. The greatest power of 2 is 21005.\n\n2014 AMC10B Solutions\n5",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q18",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A list of 11 positive integers has a mean of 10, a median of 9, and a unique mode of 8. What is\nthe largest possible value of an integer in the list?",
+    "answer_choices": {
+      "A": "24",
+      "B": "30",
+      "C": "31",
+      "D": "33",
+      "E": "35"
+    },
+    "correct_answer": "E",
+    "solution_text": "The numbers in the list have a sum of 11 · 10 = 110. The\nvalue of the 11th number is maximized when the sum of the ﬁrst ten numbers\nis minimized subject to the following conditions.\n• If the numbers are arranged in nondecreasing order, the sixth number is 9.\n• The number 8 occurs either 2, 3, 4, or 5 times, and all other numbers occur\nfewer times.\nIf 8 occurs 5 times, the smallest possible sum of the ﬁrst 10 numbers is\n8 + 8 + 8 + 8 + 8 + 9 + 9 + 9 + 9 + 10 = 86.\nIf 8 occurs 4 times, the smallest possible sum of the ﬁrst 10 numbers is\n1 + 8 + 8 + 8 + 8 + 9 + 9 + 9 + 10 + 10 = 80.\nIf 8 occurs 3 times, the smallest possible sum of the ﬁrst 10 numbers is\n1 + 1 + 8 + 8 + 8 + 9 + 9 + 10 + 10 + 11 = 75.\nIf 8 occurs 2 times, the smallest possible sum of the ﬁrst 10 numbers is\n1 + 2 + 3 + 8 + 8 + 9 + 10 + 11 + 12 + 13 = 77.\nThus the largest possible value of the 11th number is 110 −75 = 35.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q19",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Two concentric circles have radii 1 and 2. Two points on the outer circle are chosen indepen-\ndently and uniformly at random. What is the probability that the chord joining the two points\nintersects the inner circle?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n4",
+      "C": "2−\n√\n2\n2",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let A be the ﬁrst point chosen on the outer circle, let chords\nAB and AC on the outer circle be tangent to the inner circle at D and E,\nrespectively, and let O be the common center of the two circles. Triangle ADO\nhas a right angle at D, OA = 2, and OD = 1, so ∠OAD = 30◦. Similarly,\n∠OAE = 30◦, so ∠BAC = ∠DAE = 60◦, and minor arc BC = 120◦. If X is\nthe second point chosen on the outer circle, then chord AX intersects the inner\ncircle if and only if X is on minor arc BC. Therefore the requested probability\nis 120◦\n360◦= 1\n3.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q20",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "For how many integers is the number x^{4} −51x^{2} + 50 negative?",
+    "answer_choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14",
+      "E": "16"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that x4 −51x2 + 50 = (x2 −50)(x2 −1), so the roots of\nthe polynomial are ±1 and ±\n√\n50. Arranged from least to greatest, these roots\nare approximately −7.1, −1, 1, 7.1. The polynomial takes negative values on the\nintervals (−7.1, −1) and (1, 7.1), which include 12 integers: −7, −6, −5, −4,\n−3, −2, 2, 3, 4, 5, 6, 7.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q21",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Trapezoid ABCD has parallel sides AB or length 33 and CD of length 21. The other two sides\nare of lengths 10 and 14. The angles at A and B are acute. What is the length of the shorter\ndiagonal of ABCD?",
+    "answer_choices": {
+      "A": "10\n√\n6",
+      "B": "25",
+      "C": "8\n√\n10",
+      "D": "18\n√\n2",
+      "E": "26"
+    },
+    "correct_answer": "B",
+    "solution_text": "Assume without loss of generality that DA = 10 and BC = 14.\nLet M and N be the feet of the perpendicular segments to AB from D and\n\n2014 AMC10B Solutions\n6\nC, respectively. The four points A, M, N, B appear on AB in that order. Let\nx = DM = CN, y = AM, and z = NB. Then x2 + y2 = 102 = 100, x2 + z2 =\n142 = 196, and y + 21 + z = 33. Therefore z = 12 −y, and it follows that\n√\n196 −x2 = 12−\n√\n100 −x2. Squaring and simplifying gives 24\n√\n100 −x2 = 48,\nso x2 = 96 and y = √100 −96 = 2. The square of the length of the shorter\ndiagonal, AC, is (y + 21)2 + x2 = 232 + 96 = 625, so AC = 25.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q22",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Eight semicircles line the inside of a square with side length 2 as shown. What is the radius of\nthe circle tangent to all of these semicircles?",
+    "answer_choices": {
+      "A": "1 +\n√\n2\n4",
+      "B": "√\n5 −1\n2",
+      "C": "√\n3 + 1\n4",
+      "D": "2\n√\n3\n5",
+      "E": "√\n5\n3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let O be the center of the circle and choose one of the semicircles\nto have center point B. Label the point of tangency C and point A as in the\nﬁgure. In △OAB, AB =\n1\n2 and OA = 1, so OB =\n√\n5\n2 . Because BC =\n1\n2,\nOC =\n√\n5\n2 −1\n2 =\n√\n5−1\n2\n.\n\n2014 AMC10B Solutions\n7",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10B-Q23",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated\ncone is twice that of the sphere. What is the ratio of the radius of the bottom base of the trun-\ncated cone to the radius of the top base of the truncated cone?",
+    "answer_choices": {
+      "A": "3\n2",
+      "B": "1 +\n√\n5\n2",
+      "C": "√\n3",
+      "D": "2",
+      "E": "3 +\n√\n5\n2"
+    },
+    "correct_answer": "E",
+    "solution_text": "Assume without loss of generality that the radius of the top\nbase of the truncated cone (frustum) is 1. Denote the radius of the bottom base\nby r and the radius of the sphere by a. The ﬁgure on the left is a side view of\nthe frustum. Applying the Pythagorean Theorem to the triangle on the right\nyields r = a2. The volume of the frustum is\n1\n3π(r2 + r · 1 + 12) · 2a = 1\n3π(a4 + a2 + 1) · 2a.\nSetting this equal to twice the volume of the sphere, 4\n3πa3, and simplifying gives\na4 −3a2 + 1 = 0, or r2 −3r + 1 = 0. Therefore r = 3+\n√\n5\n2\n.",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10B-Q24",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "The numbers 1, 2, 3, 4, 5 are to be arranged in a circle. An arrangement is bad if it is not true that\nfor every n from 1 to 15 one can ﬁnd a subset of the numbers that appear consecutively on the\ncircle that sum to n. Arrangements that differ only by a rotation or a reﬂection are considered\nthe same. How many different bad arrangements are there?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The circular arrangement 14352 is bad because the sum 6 cannot\nbe achieved with consecutive numbers, and the circular arrangement 23154 is\nbad because the sum 7 cannot be so achieved. It remains to show that these\nare the only bad arrangements. Given a circular arrangement, sums 1 through\n5 can be achieved with a single number, and if the sum n can be achieved, then\nthe sum 15 −n can be achieved using the complementary subset. Therefore an\narrangement is not bad as long as sums 6 and 7 can be achieved. Suppose 6\ncannot be achieved. Then 1 and 5 cannot be adjacent, so by a suitable rotation\nand/or reﬂection, the arrangement is 1bc5e. Furthermore, {b, c} cannot equal\n{2, 3} because 1 + 2 + 3 = 6; similarly {b, c} cannot equal {2, 4}. It follows\nthat e = 2, which then forces the arrangement to be 14352 in order to avoid\nconsecutive 213.\nThis arrangement is bad.\nNext suppose that 7 cannot be\nachieved. Then 2 and 5 cannot be adjacent, so again without loss of generality\n\n2014 AMC10B Solutions\n8\nthe arrangement is 2bc5e. Reasoning as before, {b, c} cannot equal {3, 4} or\n{1, 4}, so e = 4, and then b = 3 and c = 1, to avoid consecutive 421; therefore\nthe arrangement is 23154, which is also bad.\nThus there are only two bad\narrangements up to rotation and reﬂection.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10B-Q25",
+    "year": 2014,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "In a small pond there are eleven lily pads in a row labeled 0 through 10. A frog is sitting on pad\n1. When the frog is on pad N, 0 < N < 10, it will jump to pad N −1 with probability N\n10 and to\npad N + 1 with probability 1 −N\n10. Each jump is independent of the previous jumps. If the frog\nreaches pad 0 it will be eaten by a patiently waiting snake. If the frog reaches pad 10 it will exit\nthe pond, never to return. What is the probability that the frog will escape being eaten by the\nsnake?",
+    "answer_choices": {
+      "A": "32\n79",
+      "B": "161\n384",
+      "C": "63\n146",
+      "D": "7\n16",
+      "E": "1\n2\n–"
+    },
+    "correct_answer": "C",
+    "solution_text": "First note that once the frog is on pad 5, it has probability 1\n2 of\neventually being eaten by the snake, and a probability 1\n2 of eventually exiting\nthe pond without being eaten. It is therefore necessary only to determine the\nprobability that the frog on pad 1 will reach pad 5 before being eaten.\nConsider the frog’s jumps in pairs. The frog on pad 1 will advance to pad 3 with\nprobability\n9\n10 · 8\n10 =\n72\n100, will be back at pad 1 with probability\n9\n10 · 2\n10 =\n18\n100,\nand will retreat to pad 0 and be eaten with probability\n1\n10. Because the frog\nwill eventually make it to pad 3 or make it to pad 0, the probability that it\nultimately makes it to pad 3 is\n72\n100 ÷\n\u001f 72\n100 + 10\n100\n\n= 36\n41, and the probability that\nit ultimately makes it to pad 0 is\n10\n100 ÷\n\u001f 72\n100 + 10\n100\n\n=\n5\n41.\nSimilarly, in a pair of jumps the frog will advance from pad 3 to pad 5 with\nprobability\n7\n10 · 6\n10 =\n42\n100, will be back at pad 3 with probability\n7\n10 · 4\n10 + 3\n10 · 8\n10 =\n52\n100, and will retreat to pad 1 with probability\n3\n10 · 2\n10 =\n6\n100. Because the frog\nwill ultimately make it to pad 5 or pad 1 from pad 3, the probability that it\nultimately makes it to pad 5 is\n42\n100 ÷\n\u001f 42\n100 +\n6\n100\n\n= 7\n8, and the probability that\nit ultimately makes it to pad 1 is\n6\n100 ÷\n\u001f 42\n100 +\n6\n100\n\n= 1\n8.\nThe sequences of pairs of moves by which the frog will advance to pad 5 without\nbeing eaten are\n1 →3 →5, 1 →3 →1 →3 →5, 1 →3 →1 →3 →1 →3 →5,\nand so on. The sum of the respective probabilities of reaching pad 5 is then\n36\n41 · 7\n8 + 36\n41 · 1\n8 · 36\n41 · 7\n8 + 36\n41 · 1\n8 · 36\n41 · 1\n8 · 36\n41 · 7\n8 + · · ·\n= 63\n82\n\n1 + 9\n82 +\n\u001c 9\n82\n\u001b2\n+ · · ·\n\u001a\n= 63\n82 ÷\n\n1 −9\n82\n\u001b\n= 63\n73.\nTherefore the requested probability is 1\n2 · 63\n73 =\n63\n146.\nOR\nFor 1 ≤j ≤5, let pj be the probability that the frog eventually reaches pad 10\nstarting at pad j. By symmetry p5 = 1\n2. For the frog to reach pad 10 starting\n\nThe American Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Institute of Mathematics\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAssociation of Symbolic Logic\nAwesome Math\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nThe D.E. Shaw Group\nIDEA Math\nJane Street Capital\nMath For America\nMath Training Center\nMu Alpha Theta\nPi Mu Epsilon\nSociety for Industrial and Applied Math – SIAM\nW.H. Freeman\n2014 AMC10B Solutions\n9\nfrom pad 4, the frog goes either to pad 3 with probability 2\n5 or to pad 5 with\nprobability 3\n5, and then continues on a successful sequence from either of these\npads. Thus p4 = 2\n5p3 + 3\n5p5 = 2\n5p3 +\n3\n10. Similarly, to reach pad 10 starting\nfrom pad 3, the frog goes either to pad 2 with probability\n3\n10 or to pad 4 with\nprobability\n7\n10.\nThus p3 =\n3\n10p2 +\n7\n10p4, and substituting from the previous\nequation for p4 gives p3 =\n5\n12p2 + 7\n24. In the same way, p2 = 1\n5p1 + 4\n5p3 and after\nsubstituting for p3 gives p2 =\n3\n10p1 + 7\n20. Lastly, for the frog to escape starting\nfrom pad 1, it is necessary for it to get to pad 2 with probability\n9\n10, and then\nescape starting from pad 2. Thus p1 =\n9\n10p2 =\n9\n10( 3\n10p1 +\n7\n20), and solving the\nequation gives p1 =\n63\n146.\nNote: This type of random process is called a Markov process.\nThe problems and solutions in this contest were proposed by Steve Blasberg, Tom\nButts, Peter Gilchrist, Jerry Grossman, Jon Kane, Joe Kennedy, Cap Khoury, Stuart\nSidney, Kevin Wang, David Wells, LeRoy Wenstrom, and Ronald Yannone.",
+    "has_image": false
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2020-AMC10B-Q01",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of\n1 −(−2) −3 −(−4) −5 −(−6)?",
+    "answer_choices": {
+      "A": "−20",
+      "B": "−3",
+      "C": "3",
+      "D": "5",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q02",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Carl has 5 cubes each having side length 1, and Kate has 5 cubes each having side length 2.\nWhat is the total volume of the 10 cubes?",
+    "answer_choices": {
+      "A": "24",
+      "B": "25",
+      "C": "28",
+      "D": "40",
+      "E": "45"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q03",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The ratio of w to x is 4 : 3, the ratio of y to z is 3 : 2, and the ratio of z to x is 1 : 6. What is the\nratio of w to y?",
+    "answer_choices": {
+      "A": "4 : 3",
+      "B": "3 : 2",
+      "C": "8 : 3",
+      "D": "4 : 1",
+      "E": "16 : 3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q04",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The acute angles of a right triangle are a^{◦}and b^{◦}, where a > b and both a and b are prime\nnumbers. What is the least possible value of b?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "7",
+      "E": "11"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q05",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "How many distinguishable arrangements are there of 1 brown tile, 1 purple tile, 2 green tiles, and\n3 yellow tiles in a row from left to right? (Tiles of the same color are indistinguishable)",
+    "answer_choices": {
+      "A": "210",
+      "B": "420",
+      "C": "630",
+      "D": "840",
+      "E": "1050"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q06",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Driving along a highway, Megan noticed that her odometer showed 15951 (miles). This number\nis a palindrome—it reads the same forward and backward. Then 2 hours later, the odometer\ndisplayed the next higher palindrome. What was her average speed, in miles per hour, during\nthis 2-hour period?",
+    "answer_choices": {
+      "A": "50",
+      "B": "55",
+      "C": "60",
+      "D": "65",
+      "E": "70"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q07",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "How many positive even multiples of 3 less than 2020 are perfect squares?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "12"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q08",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Points P and Q lie in a plane with PQ = 8. How many locations for point R in this plane are\nthere such that the triangle with vertices P, Q, and R is a right triangle with area 12 square units?",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "12"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q09",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs of integers (x, y) satisfy the equation\nx^{2020} + y^{2} = 2y?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "inﬁnitely many"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q10",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A three-quarter sector of a circle of radius 4 inches together with its interior can be rolled up\nto form the lateral surface area of a right circular cone by taping together along the two radii\nshown. What is the volume of the cone in cubic inches?\n4",
+    "answer_choices": {
+      "A": "3π\n√\n5",
+      "B": "4π\n√\n3",
+      "C": "3π\n√\n7",
+      "D": "6π\n√\n3",
+      "E": "6π\n√\n7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q11",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Ms. Carr asks her students to read any 5 of the 10 books on a reading list. Harold randomly\nselects 5 books from this list, and Betty does the same. What is the probability that there are\nexactly 2 books that they both select?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "5\n36",
+      "C": "14\n45",
+      "D": "25\n63",
+      "E": "1\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q13",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Andy the Ant lives on a coordinate plane and is currently at (−20, 20) facing east (that is, in the\npositive x-direction). Andy moves 1 unit and then turns 90^{◦}degrees left. From there, Andy moves\n2 units (north) and then turns 90^{◦}degrees left. He then moves 3 units (west) and again turns\n90^{◦}degrees left. Andy continues his progress, increasing his distance each time by 1 unit and\nalways turning left. What is the location of the point at which Andy makes the 2020th left turn?",
+    "answer_choices": {
+      "A": "(−1030, −994)",
+      "B": "(−1030, −990)",
+      "C": "(−1026, −994)",
+      "D": "(−1026, −990)",
+      "E": "(−1022, −994"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q14",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "As shown in the ﬁgure below, six semicircles lie in the interior of a regular hexagon with side\nlength 2 so that the diameters of the semicircles coincide with the sides of the hexagon. What\nis the area of the shaded region—inside the hexagon but outside all of the semicircles?\n2",
+    "answer_choices": {
+      "A": "6\n√\n3 −3π",
+      "B": "9\n√\n3\n2\n−2π",
+      "C": "3\n√\n3\n2\n−π\n3",
+      "D": "3\n√\n3 −π",
+      "E": "9\n√\n3\n2\n−π"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2020-AMC10B-Q15",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Steve wrote the digits 1, 2, 3, 4, and 5 in order repeatedly from left to right, forming a list of 10, 000\ndigits, beginning 123451234512 . . . . He then erased every third digit from his list (that is, the 3rd,\n6th, 9th, . . . digits from the left), then erased every fourth digit from the resulting list (that is, the\n4th, 8th, 12th, . . . digits from the left in what remained), and then erased every ﬁfth digit from\nwhat remained at that point. What is the sum of the three digits that were then in the positions\n2019, 2020, 2021?",
+    "answer_choices": {
+      "A": "7",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q16",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Bela and Jenn play the following game on the closed interval [0, n] of the real number line, where\nn is a ﬁxed integer greater than 4. They take turns playing, with Bela going ﬁrst. At his ﬁrst turn,\nBela chooses any real number in the interval [0, n]. Thereafter, the player whose turn it is chooses\na real number that is more than one unit away from all numbers previously chosen by either\nplayer. A player unable to choose such a number loses. Using optimal strategy, which player will\nwin the game?",
+    "answer_choices": {
+      "A": "Bela will always win.",
+      "B": "Jenn will always win.",
+      "C": "Bela will win if and only if n is odd.",
+      "D": "Jenn will win i",
+      "E": "Jenn will win if and only if n > 8."
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q17",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "There are 10 people standing equally spaced around a circle. Each person knows exactly 3 of the\nother 9 people: the 2 people standing next to her or him, as well as the person directly across the\ncircle. How many ways are there for the 10 people to split up into 5 pairs so that the members\nof each pair know each other?",
+    "answer_choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q18",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "An urn contains one red ball and one blue ball. A box of extra red and blue balls lie nearby.\nGeorge performs the following operation four times: he draws a ball from the urn at random\nand then takes a ball of the same color from the box and returns those two matching balls to\nthe urn. After the four iterations the urn contains six balls. What is the probability that the urn\ncontains three balls of each color?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n5",
+      "C": "1\n4",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q19",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "In a certain card game, a player is dealt a hand of 10 cards from a deck of 52 distinct cards.\nThe number of distinct (unordered) hands that can be dealt to the player can be written as\n158A00A4AA0. What is the digit A?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q20",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let B be a right rectangular prism (box) with edges lengths 1, 3, and 4, together with its interior.\nFor real r ≥0, let S(r) be the set of points in 3-dimensional space that lie within a distance r of\nsome point B. The volume of S(r) can be expressed as ar^{3} + br^{2} + cr + d, where a, b, c, and d\nare positive real numbers. What is bc\nad?",
+    "answer_choices": {
+      "A": "6",
+      "B": "19",
+      "C": "24",
+      "D": "26",
+      "E": "38"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q21",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In square ABCD, points E and H lie on AB and DA, respectively, so that AE = AH. Points\nF and G lie on BC and CD, respectively, and points I and J lie on EH so that FI ⊥EH and\nGJ ⊥EH. See the ﬁgure below. Triangle AEH, quadrilateral BFIE, quadrilateral DHJG, and\npentagon FCGJI each has area 1. What is FI^{2}?",
+    "answer_choices": {
+      "A": "7\n3",
+      "B": "8 −4\n√\n2",
+      "C": "1 +\n√\n2",
+      "D": "7\n4\n√\n2",
+      "E": "2\n√\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2020-AMC10B-Q22",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "What is the remainder when 2^{202} + 202 is divided by 2^{101} + 2^{51} + 1?",
+    "answer_choices": {
+      "A": "100",
+      "B": "101",
+      "C": "200",
+      "D": "201",
+      "E": "202"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q23",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Square ABCD in the coordinate plane has vertices at the points A(1, 1), B(−1, 1), C(−1, −1),\nand D(1, −1). Consider the following four transformations:\n-L, a rotation of 90^{◦}counterclockwise around the origin;\n-R, a rotation of 90^{◦}clockwise around the origin;\n-H, a reﬂection across the x-axis; and\n-V, a reﬂection across the y-axis.\nEach of these transformations maps the squares onto itself, but the positions of the labeled\nvertices will change. For example, applying R and then V would send the vertex A at (1, 1) to\n(−1, −1) and would send the vertex B at (−1, 1) to itself. How many sequences of 20 trans-\nformations chosen from {L, R, H, V } will send all of the labeled vertices back to their original\npositions? (For example, R, R, V, H is one sequence of 4 transformations that will send the ver-\ntices back to their original positions.)",
+    "answer_choices": {
+      "A": "2^{37}",
+      "B": "3 · 2^{36}",
+      "C": "2^{38}",
+      "D": "3 · 2^{37}",
+      "E": "2^{39}"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q24",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many positive integers n satisfy\nn + 1000\n70\n= ⌊√n⌋?\n(Recall that ⌊x⌋is the greatest integer not exceeding x.)",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "30",
+      "E": "32"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2020-AMC10B-Q25",
+    "year": 2020,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let D(n) denote the number of ways of writing the positive integer n as a product\nn = f^{1} · f^{2} · · · f^{k},\nwhere k ≥1, the f^{i} are integers strictly greater than 1, and the order in which the factors are\nlisted matters (that is, two representations that differ only in the order of the factors are counted\nas distinct). For example, the number 6 can be written as 6, 2 · 3, and 3 · 2, so D(6) = 3. What is\nD(96)?",
+    "answer_choices": {
+      "A": "112",
+      "B": "128",
+      "C": "144",
+      "D": "172",
+      "E": "184\n–"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

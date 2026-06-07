@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2022-AMC10A-Q01",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "4096. What is the sum of all real numbers m for which\nthese two expressions have the same value?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "D",
+    "solution_text": "Working from the bottom up shows that\n3 +\n1\n3 +\n1\n3+ 1\n3\n= 3 +\n1\n3 + 1\n10\n3\n= 3 +\n1\n3 + 3\n10\n= 3 + 1\n33\n10\n= 3 + 10\n33 = 109\n33 .\nNote: Analogous to the golden ratio, the bronze ratio is the positive solution to the equation\nx2 = 3x + 1, which equals 3+\n√\n32+4\n2\nand has the continued fraction expansion 3 +\n1\n3+\n1\n3 + ··· . The\napproximation evaluated in this problem is accurate to three decimal places (3.303). Assuming the\ncontinued fraction expansion has a limiting value x0, it can be seen that x0 = 3 + 1\nx0\n, which is\nequivalent to x2\n0 = 3x0 + 1.\nThe bronze ratio, 3+\n√\n32+4\n2\n, is analogous to the golden ratio, 1+\n√\n12+4\n2\n. The golden ratio is associated\nwith\n1 +\n1\n1 +\n1\n1 + ···\n.\nSimilarly, the silver ratio is 2+\n√\n22+4\n2\n, associated with\n2 +\n1\n2 +\n1\n2 + ···\n.\nThese metallic ratios are also related to generalizations of the Fibonacci sequence, arise as lengths\nof diagonals in regular polygons, and have many other geometric and algebraic interpretations as\nwell.\nProblem 2:\nMike cycled 15 laps in 57 minutes. Assume he cycled at a constant speed throughout. Approxi-\nmately how many laps did he complete in the first 27 minutes?\n(A) 5\n(B) 7\n(C) 9\n(D) 11\n(E) 13",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q02",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Mike cycled 15 laps in 57 minutes. Assume he cycled at a constant speed throughout. Approxi-\nmately how many laps did he complete in the ﬁrst 27 minutes?",
+    "answer_choices": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "11",
+      "E": "13"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let L denote the number of laps completed in the first 27 minutes. During the\nfirst 27 minutes Mike rode at a speed of L\n27 laps per minute. On the entire ride, Mike’s speed was\n15\n57 laps per minute. Therefore L\n27 = 15\n57, so\nL = 15 · 27\n57\n= 5 · 27\n19\n= 135\n19 = 7 2\n19 ≈7.\n\n2022 AMC 10 A Solutions\n3\nProblem 3:\nThe sum of three numbers is 96. The first number is 6 times the third number, and the third\nnumber is 40 less than the second number. What is the absolute value of the difference between\nthe first and second numbers?\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q03",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "?",
+    "answer_choices": {
+      "A": "31\n10",
+      "B": "49\n15",
+      "C": "33\n10",
+      "D": "109\n33",
+      "E": "15"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let the numbers be a, b, and c. Then a + b + c = 96, a = 6c, and c = b −40.\nFrom the first two equations it follows that b + 7c = 96. From the third equation it follows that\nb + 7(b −40) = 96, which gives 8b = 376. Hence b = 47, c = 7, a = 42, and |a −b| = 5.\nProblem 4:\nIn some countries, automobile fuel efficiency is measured in liters per 100 kilometers while other\ncountries use miles per gallon. Suppose that 1 kilometer equals m miles, and 1 gallon equals ℓ\nliters. Which of the following gives the fuel efficiency in liters per 100 kilometers for a car that gets\nx miles per gallon?\n(A)\nx\n100ℓm\n(B) xℓm\n100\n(C)\nℓm\n100x\n(D) 100\nxℓm\n(E) 100ℓm\nx",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q04",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In some countries, automobile fuel efﬁciency is measured in liters per 100 kilometers while other\ncountries use miles per gallon. Suppose that 1 kilometer equals m miles, and 1 gallon equals ℓ\nliters. Which of the following gives the fuel efﬁciency in liters per 100 kilometers for a car that\ngets x miles per gallon?",
+    "answer_choices": {
+      "A": "x\n100ℓm",
+      "B": "xℓm\n100",
+      "C": "ℓm\n100x",
+      "D": "100\nxℓm",
+      "E": "100ℓm"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because the car can travel x miles per gallon, it uses 1\nx gallons per mile. This can\nbe converted to liters per 100 kilometers by multiplying by fractions equivalent to 1, treating units\nas factors and canceling common factors:\n1\nx\ngallons\nmiles = 1\nx · gallons\nmiles ·\nm miles\n1 kilometers · ℓliters\n1 gallons · 100\n100 = 100ℓm\nx\nliters\n100 kilometers.\n\n2022 AMC 10 A Solutions\n4\nProblem 5:\nSquare ABCD has side length 1. Points P, Q, R, and S each lie on a side of ABCD so that\nAPQCRS is an equilateral convex hexagon with side length s. What is s ?\n(A)\n√\n2\n3\n(B) 1\n2\n(C) 2 −\n√\n2\n(D) 1 −\n√\n2\n4\n(E) 2\n3",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q05",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Square ABCD has side length 1. Point P, Q, R, and S each lie on a side of ABCD such that\nAPQCRS is an equilateral convex hexagon with side length s. What is s?",
+    "answer_choices": {
+      "A": "√\n2\n3",
+      "B": "1\n2",
+      "C": "2 −\n√\n2",
+      "D": "1 −\n√\n2\n4",
+      "E": "2\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "Without loss of generality, assume that P and Q lie on AB and BC, respectively.\nThen AP = PQ = QC = s and PB = BQ = 1 −s, so PQ =\n√\n2(1 −s). Because APQCRS is\nequilateral, it follows that s =\n√\n2(1 −s), from which\ns =\n√\n2\n1 +\n√\n2 = 2 −\n√\n2.\nA\nC\nB\nD\nP\nQ\nS\nR\ns\ns\ns\n1 −s\n1 −s\nProblem 6:\nWhich expression is equal to\n\f\f\f a −2 −\np\n(a −1)2\n\f\f\f for a < 0 ?\n(A) 3 −2a\n(B) 1 −a\n(C) 1\n(D) a + 1\n(E) 3",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q06",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Which expression is equal to\na −2 −\np\n(a −1)^{2}\n for a < 0?",
+    "answer_choices": {
+      "A": "3 −2a",
+      "B": "1 −a",
+      "C": "1",
+      "D": "a + 1",
+      "E": "3"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because a is negative, a −1 < 0, so\np\n(a −1)2 = |a −1| = 1 −a. Therefore\ndistributing gives a −2 −(1 −a) = 2a −3. Because a is negative, 2a −3 < 0, so |2a −3| = 3 −2a.\n\n2022 AMC 10 A Solutions\n5\nProblem 7:\nThe least common multiple of a positive integer n and 18 is 180, and the greatest common divisor\nof n and 45 is 15. What is the sum of the digits of n ?\n(A) 3\n(B) 6\n(C) 8\n(D) 9\n(E) 12",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q07",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The least common multiple of a positive integer n and 18 is 180, and the greatest common\ndivisor of n and 45 is 15. What is the sum of the digits of n?",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "8",
+      "D": "9",
+      "E": "12"
+    },
+    "correct_answer": "B",
+    "solution_text": "The positive integer n must be a multiple of 15 and a divisor of 180. There are 6\nsuch integers, as shown in the following table.\nn\nlcm(n, 18)\ngcd(n, 45)\n15\n90\n15\n30\n90\n15\n45\n90\n45\n60\n180\n15\n90\n90\n45\n180\n180\n45\nThe only choice that satisfies the conditions is n = 60, and the requested sum of digits is 6.\nOR\nBecause 18 = 2 · 32 and 180 = 22 · 32 · 5, it follows from lcm(n, 18) = 180 that n is divisible by 22\nbut not 23, that n is divisible by 5 but not 52, and that n can have no prime factors other than 2,\n3, or 5. Because 45 = 32 · 5 and 15 = 3 · 5, it follows from gcd(n, 45) = 15 that n is divisible by 3\nbut not 32. Therefore n = 22 · 3 · 5 = 60, and the sum of its digits is 6.\nProblem 8:\nA data set consists of 6 (not distinct) positive integers: 1, 7, 5, 2, 5, and X. The average (arithmetic\nmean) of the 6 numbers equals a value in the data set. What is the sum of all possible values of X ?\n(A) 10\n(B) 26\n(C) 32\n(D) 36\n(E) 40",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q08",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A data set consists of 6 (not distinct) positive integers: 1, 7, 5, 2, 5, and X. The average (arithmetic\nmean) of the 6 numbers equals a value in the data set. What is the sum of all positive values of\nX?",
+    "answer_choices": {
+      "A": "10",
+      "B": "26",
+      "C": "32",
+      "D": "36",
+      "E": "40"
+    },
+    "correct_answer": "D",
+    "solution_text": "First note that the mean of the elements of the data set excluding X is 4. The\ngiven condition will therefore be met if X = 4, and if X ̸= 4, then the mean will not be X. Because\nX is a positive integer, the mean of the full data set must be greater than or equal to 21 ÷ 6 = 3.5.\nThe only other possibilities for the mean are therefore 5 and 7. The mean will be 5 if and only if\n1 + 7 + 5 + 2 + 5 + X = 6 · 5, which implies that X = 30 −20 = 10. The mean will be 7 if and only\nif 1 + 7 + 5 + 2 + 5 + X = 6 · 7, which implies that X = 42 −20 = 22. The sum of the possible\nvalues of X is 4 + 10 + 22 = 36.\n\n2022 AMC 10 A Solutions\n6\nProblem 9:\nA rectangle is partitioned into 5 regions as shown. Each region is to be painted a solid color—red,\norange, yellow, blue, or green—so that regions that touch are painted different colors, and colors\ncan be used more than once. How many different colorings are possible?\n(A) 120\n(B) 270\n(C) 360\n(D) 540\n(E) 720",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q09",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A rectangle is partitioned into 5 regions as shown. Each region is to be painted a solid color -\nred, orange, yellow, blue, or green - so that regions that touch are painted different colors, and\ncolors can be used more than once. How many different colorings are possible?",
+    "answer_choices": {
+      "A": "120",
+      "B": "270",
+      "C": "360",
+      "D": "540",
+      "E": "720"
+    },
+    "correct_answer": "D",
+    "solution_text": "There are 5 possible colors for the central rectangle in the lower row. There then are\n4 possible colors for the rectangle at the left end of the lower row, then 3 choices for the rectangle\nat the upper left, then 3 for the rectangle at the upper right, and 3 for the rectangle at the lower\nright. In all there are 5 · 4 · 3 · 3 · 3 = 540 possible colorings.\nOR\nThere are 5! = 120 ways to paint the regions using all 5 colors. If two regions are painted the same\ncolor, then those two regions must be either the upper left and lower right regions, or the upper right\nand lower left regions, or the lower left and lower right regions. Thus there are 3 · (5 · 4 · 3 · 2) = 360\nways to paint the regions using four colors. The only way to paint the regions using only three\ncolors is to paint the upper left and lower right regions the same color and the upper right and lower\nleft regions the same color. This can be done in 5·4·3 = 60 ways. The total is 120+360+60 = 540.\nNote: This problem can be viewed in terms of chromatic polynomials in graph theory, a concept\nintroduced by George David Birkhoff in 1912.\n\n2022 AMC 10 A Solutions\n7\nProblem 10:\nDaniel finds a rectangular index card and measures its diagonal to be 8 centimeters. Daniel then\ncuts out equal squares of side 1 cm at two opposite corners of the index card and measures the\ndistance between the two closest vertices of these squares to be 4\n√\n2 centimeters, as shown below.\nWhat is the area of the original index card?\n1\n1\n8\n4\n√\n2\n(A) 14\n(B) 10\n√\n2\n(C) 16\n(D) 12\n√\n2\n(E) 18",
+    "has_image": true
+  },
+  {
+    "id": "2022-AMC10A-Q12",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "On Halloween 31 children walked into the principal’s ofﬁce asking for candy. They can be clas-\nsiﬁed into three types: Some always lie; some always tell the truth; and some alternately lie and\ntell the truth. The alternaters arbitrarily choose their ﬁrst response, either a lie or the truth, but\neach subsequent statement has the opposite truth value from its predecessor. The principal\nasked everyone the same three questions in this order.\n”Are you a truth-teller?” The principal gave a piece of candy to each of the 22 children who\nanswered yes.\n”Are you an alternater?” The principal gave a piece of candy to each of the 15 children who\nanswered yes.\n”Are you a liar?” The principal gave a piece of candy to each of the 9 children who answered yes.\nHow many pieces of candy in all did the principal give to the children who always tell the truth?",
+    "answer_choices": {
+      "A": "7",
+      "B": "12",
+      "C": "21",
+      "D": "27",
+      "E": "31"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let T denote the number of truth-tellers, Ao the number of alternators who tell\nthe truth on odd-numbered questions, Ae the number of alternators who tell the truth on even-\nnumbered questions, and L the number of liars. These four variables must satisfy the following\nequations.\nTotal:\n31 = T + L + Ae + Ao\nQuestion 1:\n22 = T + L + Ae\nQuestion 2:\n15 = L + Ae\nQuestion 3:\n9 = Ae\nSubtract the third equation from the second to find that T = 7. Because they received candy only\nin response to the first question, they received 7 pieces of candy.\nNote: It may be further deduced from the system of equations that Ae = 9, L = 6, and Ao = 9.\n\n2022 AMC 10 A Solutions\n9\nProblem 13:\nLet △ABC be a scalene triangle. Point P lies on BC so that AP bisects ∠BAC. The line through\nB perpendicular to AP intersects the line through A parallel to BC at point D. Suppose BP = 2\nand PC = 3. What is AD ?\n(A) 8\n(B) 9\n(C) 10\n(D) 11\n(E) 12",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q13",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Let △ABC be a scalene triangle. Point P lies on BC so that AP bisects ∠BAC. The line through\nB perpendicular to AP intersects the line through A parallel to BC at point D. Suppose BP = 2\nand PC = 3. What is AD ?",
+    "answer_choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let Q be the intersection point of AC and BD, as shown.\nA\nB\nC\nD\nP\nQ\nM\nz\ny\nx\nx\n2\n3\nBecause BQ ⊥AP and ∠BAP = ∠QAP, it follows that △ABQ is isosceles with AB = AQ. Then\nby the Angle Bisector Theorem,\n3\n2 = PC\nPB = AC\nAB = AC\nAQ = 1 + CQ\nAQ = 1 + BC\nAD = 1 +\n5\nAD.\nSolving this equation yields AD = 10.\nOR\nLet M be the intersection point of AP and BQ. As above, △ABQ is isosceles with AB = AQ,\nso BM = MQ. Let BM = MQ = x, QD = y, and AD = z. Because △AMD and △PMB are\nsimilar, it follows that\nz\n2 = x + y\nx\n= 1 + y\nx.\nFurther, △AQD and △CQB are also similar, so z\n5 =\ny\n2x. It follows that\nz\n2 −1 = y\nx = 2z\n5 ,\nwhich yields z = 10.\n\n2022 AMC 10 A Solutions\n10\nProblem 14:\nHow many ways are there to split the integers 1 through 14 into 7 pairs so that in each pair the\ngreater number is at least 2 times the lesser number?\n(A) 108\n(B) 120\n(C) 126\n(D) 132\n(E) 144",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q14",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "What is the number of ways the numbers from 1 to 14 can be split into 7 pairs such that for each\npair, the greater number is at least 2 times the smaller number?",
+    "answer_choices": {
+      "A": "108",
+      "B": "120",
+      "C": "126",
+      "D": "132",
+      "E": "144"
+    },
+    "correct_answer": "E",
+    "solution_text": "If the lesser number in some pair is at least 8, then the greater number has to be\nat least 8 · 2 = 16, which is impossible. This means that the lesser number in each pair must be\nbetween 1 and 7, inclusive. Because there are exactly 7 pairs in the collection, it follows that the\nlesser numbers must be exactly the numbers 1 through 7.\nThe 7 must be paired with the 14. There are then 2 choices for the partner of 6—being paired with\neither 12 or 13. Now there are 3 choices for the partner of 5, because exactly 2 of the numbers\nin {10, 11, 12, 13, 14} have already been picked. Continuing in this fashion, there are 4 possible\npartners for the 4, then 3 possible partners for the 3, then 2 possible partners for the 2, and finally\n1 possible partner for the 1. Multiplying these numbers of choices together gives a final answer of\n1 · 2 · 3 · 4 · 3 · 2 · 1 = 144.\n\n2022 AMC 10 A Solutions\n11\nProblem 15:\nQuadrilateral ABCD with side lengths AB = 7, BC = 24, CD = 20, and DA = 15 is inscribed\nin a circle. The area interior to the circle but exterior to the quadrilateral can be written in the\nform aπ−b\nc\n, where a, b, and c are positive integers such that a and c have no common prime factor.\nWhat is a + b + c ?\n(A) 260\n(B) 855\n(C) 1235\n(D) 1565\n(E) 1997",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q15",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Quadrilateral ABCD with side lengths AB = 7, BC = 24, CD = 20, DA = 15 is inscribed in a\ncircle. The area interior to the circle but exterior to the quadrilateral can be written in the form\naπ−b\nc\n, where a, b, and c are positive integers such that a and c have no common prime factor.\nWhat is a + b + c?",
+    "answer_choices": {
+      "A": "260",
+      "B": "855",
+      "C": "1235",
+      "D": "1565",
+      "E": "1997"
+    },
+    "correct_answer": "D",
+    "solution_text": "Observe that\np\n72 + 242 =\np\n202 + 152 = 25.\nIf AC < 25, then ∠ABC and ∠ADC are both acute, so ABCD cannot be cyclic. Analogously, if\nAC > 25, then ∠ABC and ∠ADC are both obtuse, and again ABCD cannot be cyclic. Therefore\n△ABC and △CDA are both right triangles with hypotenuse 25.\nThe area of ABCD is 1\n2 (7 · 24 + 15 · 20) = 234. Because ∠ABC and ∠ADC are right angles, AC\nis the diameter of the circumcircle, so the circumcircle has radius 25\n2 and its area is\nπ\n\u001225\n2\n\u00132\n= 625π\n4\n.\nHence the required area is\n625π\n4\n−234 = 625π −936\n4\n,\nand the requested sum is 625 + 936 + 4 = 1565.\nA\nB\nC\nD\n7\n24\n20\n15\n25\n\n2022 AMC 10 A Solutions\n12\nProblem 16:\nThe roots of the polynomial 10x3−39x2+29x−6 are the height, length, and width of a rectangular\nbox (right rectangular prism). A new rectangular box is formed by lengthening each edge of the\noriginal box by 2 units. What is the volume of the new box?\n(A) 24\n5\n(B) 42\n5\n(C) 81\n5\n(D) 30\n(E) 48",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q16",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The roots of the polynomial 10x^{3}−39x^{2}+29x−6 are the height, length, and width of a rectangular\nbox (right rectangular prism. A new rectangular box is formed by lengthening each edge of the\noriginal box by 2 units. What is the volume of the new box?",
+    "answer_choices": {
+      "A": "24\n5",
+      "B": "42\n5",
+      "C": "81\n5",
+      "D": "30",
+      "E": "48"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let f(x) = 10x3 −39x2 + 29x −6 and let a, b, and c be the roots of f(x). Hence\nf(x) = 10(x −a)(x −b)(x −c). Then the volume of the new box is\n(2 + a)(2 + b)(2 + c) = −(−2 −a)(−2 −b)(−2 −c) = −f(−2)\n10\n= −1\n10(−80 −156 −58 −6) = 30.\nOR\nDividing by 10 gives the polynomial\nx3 −39\n10x2 + 29\n10x −3\n5,\nwhose roots are the same. If a, b, and c are the roots, then Vieta’s Formulas give\nabc = 3\n5,\nab + bc + ac = 29\n10,\nand\na + b + c = 39\n10.\nThe volume of the new box is\n(a + 2)(b + 2)(c + 2) = abc + 2(ab + bc + ac) + 4(a + b + c) + 8.\nSubstituting gives\n3\n5 + 2 · 29\n10 + 4 · 39\n10 + 8 = 30.\nNote: The solutions presented here did not require finding the roots. In fact, the roots of f(x) are\n3, 1\n2, and 2\n5. The dimensions of the new box are 5, 5\n2, and 12\n5 , which gives a volume of 5· 5\n2 · 12\n5 = 30.\n\n2022 AMC 10 A Solutions\n13\nProblem 17:\nHow many three-digit positive integers a b c are there whose nonzero digits a, b, and c satisfy\n0.a b c = 1\n3(0.a + 0.b + 0.c) ?\n(The bar indicates digit repetition; thus 0.a b c is the infinite repeating decimal 0.a b c a b c . . ..)\n(A) 9\n(B) 10\n(C) 11\n(D) 13\n(E) 14",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q17",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many three-digit positive integers a b c are there whose nonzero digits a, b, and c satisfy\n0.a b c = 1\n3(0.a + 0.b + 0.c)?\n\n(The bar indicates repetition, thus 0.a b c in the inﬁnite repeating decimal 0.a b c a b c · · · )",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": "D",
+    "solution_text": "The given equation means\n100a + 10b + c\n999\n= 1\n3\n\u0012a\n9 + b\n9 + c\n9\n\u0013\n,\nwhich simplifies to 7a = 3b + 4c. Therefore 3b ≡−4c ≡3c (mod 7), so b ≡c (mod 7). Given that\nthe variables are nonzero digits, the possibilities for (b, c) are (1, 1), (2, 2), (3, 3), . . . , (9, 9), (1, 8),\n(8, 1), (2, 9), and (9, 2). In each case the value of a is uniquely determined, and the 13 positive\nintegers are 111, 222, 333, . . . , 999, 518, 481, 629, and 592.\nProblem 18:\nLet Tk be the transformation of the coordinate plane that first rotates the plane k degrees counter-\nclockwise around the origin and then reflects the plane across the y-axis. What is the least positive\ninteger n such that performing the sequence of transformations T1, T2, T3, . . . , Tn returns the point\n(1, 0) back to itself?\n(A) 359\n(B) 360\n(C) 719\n(D) 720\n(E) 721",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q18",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let T^{k} be the transformation of the coordinate plane that ﬁrst rotates the plane k degrees\ncounterclockwise around the origin and then reﬂects the plane across the y-axis. What is the\nleast positive integer n such that performing the sequence of transformations transformations\nT^{1}, T^{2}, T^{3}, . . . , T^{n} returns the point (1, 0) back to itself?",
+    "answer_choices": {
+      "A": "359",
+      "B": "360",
+      "C": "719",
+      "D": "720",
+      "E": "721"
+    },
+    "correct_answer": "A",
+    "solution_text": "Denote by O the origin of the coordinate plane. Let Pk be the point obtained\nafter the first k transformations, where P0 = (1, 0). Observe that, for each integer i and for every\npoint P, the transformation Ti(P) preserves the distance from P to the origin. Thus OPk = 1\nfor every k. This means that the point Pk may be uniquely characterized by the counterclockwise\nangle θk between the x-axis and the ray −−→\nOPk. (Here θk is measured in degrees.)\nThe transformation Tj rotates the plane j degrees counterclockwise around the origin and then\nreflects the plane across the y-axis. This means that θk+1 = 180 −(θk + k + 1) and\nθk+2 = 180 −(θk+1 + (k + 2))\n= 180 −\n\u0000180 −(θk + k + 1) + (k + 2)\n\u0001\n= θk −1.\nNote that θ0 = 0 and θ1 = 179. It follows that θ2m = −m and θ2m+1 = 179 −m for every positive\ninteger m. Therefore (1, 0) first returns to its starting position when m = 179 and n = 2·179+1 =\n359.\n\n2022 AMC 10 A Solutions\n14\nProblem 19:\nLet Ln denote the least common multiple of the numbers 1, 2, 3, . . . , n, and let h be the unique\npositive integer such that\n1\n1 + 1\n2 + 1\n3 + · · · + 1\n17 =\nh\nL17\n.\nWhat is the remainder when h is divided by 17 ?\n(A) 1\n(B) 3\n(C) 5\n(D) 7\n(E) 9",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q19",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Deﬁne L^{n} as the least common multiple of all the integers from 1 to n inclusive. There is a\nunique integer h such that 1\n1 + 1\n2 + 1\n3 . . . + 1\n17 =\nh\nL^{17} . What is the remainder when h is divided by\n17?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that\n1 + 1\n2 + · · · + 1\n16 = m\nL16\nfor some integer m, so the given sum is\nm\nL16\n+ 1\n17 =\nh\nL17\n.\nNow L17 = 17L16, so it follows that h = 17m + L16. Therefore h ≡L16 (mod 17). Note that\nL16 = 24 · 32 · 5 · 7 · 11 · 13. These factors modulo 17 satisfy 24 ≡−1, 5 · 7 ≡1, 9 · 11 ≡−3, and\n13 ≡−4, so the product is congruent to (−1)(1)(−3)(−4) = −12 ≡5 (mod 17).\nProblem 20:\nA four-term sequence is formed by adding each term of a four-term arithmetic sequence of positive\nintegers to the corresponding term of a four-term geometric sequence of positive integers. The first\nthree terms of the resulting four-term sequence are 57, 60, and 91. What is the fourth term of this\nsequence?\n(A) 190\n(B) 194\n(C) 198\n(D) 202\n(E) 206",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q20",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "A four-term sequence is formed by adding each term of a four-term arithmetic sequence of pos-\nitive integers to the corresponding term of a four-term geometric sequence of positive integers.\nThe ﬁrst three terms of the resulting four-term sequence are 57, 60, and 91. What is the fourth\nterm of this sequence?",
+    "answer_choices": {
+      "A": "190",
+      "B": "194",
+      "C": "198",
+      "D": "202",
+      "E": "206"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let the terms of the arithmetic sequence be a0, a1, a2, a3, and let the terms of the\ngeometric sequence be g0, g1, g2, g3. There must be constants b, d, c, and r such that an = b + d · n\nand gn = c · rn for n = 0, 1, 2, 3. Let the terms of the sum sequence be xn = an + gn. It is given\nthat x0 = 57, x1 = 60, and x2 = 91. With the goal of eliminating two of the constants, consider\nx2 −2x1 + x0. Then\n28 = 91 −2 · 60 + 57 = (b + 2d + cr2) −2(b + d + cr) + (b + c) = c(r −1)2.\nBecause g1 and g2 are integers, r must be a rational number, say p\nq for some relatively prime positive\nintegers p and q. Then the equation above becomes c(p −q)2 = 28q2. Because gcd(p −q, q) =\ngcd(p, q) = 1, either (p −q)2 = 4 or (p −q)2 = 1.\nIf (p −q)2 = 1, then c = 28q2.\nBecause c < 57, it must be that q = 1 and c = 28.\nThen\np −q = 1 (because p ̸= 0), so p = 2 and r = 2. It follows that b = x0 −c = 57 −28 = 29,\nd = a1 −b = (60 −2 · 28) −29 = −25, and a2 = 29 + 2 · (−25) < 0, violating the conditions of the\nproblem.\nTherefore (p −q)2 = 4 and c = 7q2. Because p −q is even, q must be odd and the only choice\nthat makes c < 57 is q = 1. Then c = 7, p = 3, and r = 3. It follows that the geometric sequence\nis 7, 21, 63, 189. Therefore a0 = 57 −7 = 50 and a1 = 60 −21 = 39, giving d = −11. Therefore\na3 = 50 + 3(−11) = 17 and x3 = 17 + 189 = 206.\n\n2022 AMC 10 A Solutions\n15\nProblem 21:\nA bowl is formed by attaching four regular hexagons of side 1 to a square of side 1. The edges of\nadjacent hexagons coincide, as shown in the figure. What is the area of the octagon obtained by\njoining the top eight vertices of the four hexagons, situated on the rim of the bowl?\n(A) 6\n(B) 7\n(C) 5 + 2\n√\n2\n(D) 8\n(E) 9",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q21",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A bowl is formed by attaching four regular hexagons of side 1 to a square of side 1. The edges\nof adjacent hexagons coincide, as shown in the ﬁgure. What is the area of the octagon obtained\nby joining the top eight vertices of the four hexagons, situated on the rim of the bowl?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "5 + 2\n√\n2",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Adjacent hexagons with side length 1 are folded up so that a square with side\nlength 1—the base of the bowl—exactly fits in the gap between them. By symmetry, a square\nof side length 1 must also fit in the other gap formed by those two hexagons. It follows that the\ndistance between the closest vertices on adjacent hexagons on the top of the bowl are\n√\n2 units\napart—the diagonal of a unit square. Therefore the required octagon is as shown below.\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n√\n2\n√\n2\n√\n2\n√\n2\nIts area is the area of the 3 × 3 square minus the areas of the four isosceles right triangular corners,\nnamely\n3 · 3 −4 · 1\n2 · 1 · 1 = 7.\n\n2022 AMC 10 A Solutions\n16\nProblem 22:\nSuppose that 13 cards numbered 1, 2, 3, . . . , 13 are arranged in a row. The task is to pick them up\nin numerically increasing order, working repeatedly from left to right. In the example below, cards\n1, 2, 3 are picked up on the first pass, 4 and 5 on the second pass, 6 on the third pass, 7, 8, 9, 10\non the fourth pass, and 11, 12, 13 on the fifth pass.\n7\n11\n8\n6\n4\n5\n9\n12\n1\n13 10\n2\n3\nFor how many of the 13! possible orderings of the cards will the 13 cards be picked up in exactly\ntwo passes?\n(A) 4082\n(B) 4095\n(C) 4096\n(D) 8178\n(E) 8191",
+    "has_image": true
+  },
+  {
+    "id": "2022-AMC10A-Q22",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Suppose that 13 cards numbered 1, 2, 3, . . . , 13 are arranged in a row. The task is to pick them\n\nup in numerically increasing order, working repeatedly from left to right. In the example below,\ncards 1, 2, 3 are picked up on the ﬁrst pass, 4 and 5 on the second pass, 6 on the third pass,\n7, 8, 9, 10 on the fourth pass, and 11, 12, 13 on the ﬁfth pass. For how many of the 13! possible\norderings of the cards will the 13 cards be picked up in exactly two passes?\n7\n11\n8\n6\n4\n5\n9\n12\n1\n13\n10\n2\n3",
+    "answer_choices": {
+      "A": "4082",
+      "B": "4095",
+      "C": "4096",
+      "D": "8178",
+      "E": "8191"
+    },
+    "correct_answer": "D",
+    "solution_text": "Choose a subset S of {1, 2, 3, . . . , 13}, and place the cards numbered 1, 2, 3, . . . , |S|\nin increasing order in the spots determined by S. Then place the remaining cards in increasing order\nin the remaining (complementary) spots. The resulting arrangement of cards will be picked up in\nat most two passes, and any other arrangement will require more than two passes. There are 213\nchoices for the subset S, but any subset of the form S = {1, 2, 3, . . . , k} will result in the cards being\npicked up in one pass. There are 14 such “initial block” subsets (∅, {1}, {1, 2}, . . . , {1, 2, 3, . . . , 13})\nthat result in picking up the cards in one pass. This gives 213 −14 = 8178 possible orderings\nrequiring exactly two passes.\nOR\nFor each integer 1 ≤m ≤13, let Am be the number of ways to arrange the 13 cards so that cards\n1 through m are selected in the first pass with 1 or more cards left for a second pass. Observe that\nthere are\n\u000013\nm\n\u0001\nlocations at which these cards can appear in the sequence, and within these locations\nthe cards must appear in increasing order. The remaining 13 −m cards will occupy the remaining\nslots; because these cards will be selected in the second pass, they must appear in increasing order.\nAs long as the first m cards do not occupy the first m spots in the sequence, two passes will be\nrequired to pick up all the cards. Thus Am =\n\u000013\nm\n\u0001\n−1. The total number of ways over all values of\nm is\nA1 + · · · + A13 =\n\u001213\n1\n\u0013\n+ · · · +\n\u001213\n13\n\u0013\n−13 =\n\u0012\n213 −\n\u001213\n0\n\u0013\u0013\n−13 = 213 −14 = 8178.\nOR\nFor i = 1, 2, 3, . . . , 13 let pi denote the position of the number i in the list. Thus in the provided\nexample, p1 = 9, p2 = 12, p3 = 13, and so on. If pj < pj+1 < · · · < pk, then the cards numbered\nj, j + 1, . . . , k are picked up on the same pass. However, if pk > pk+1, then that pass is complete,\nand a new pass is required to pick up the card numbered k + 1. The sequence of numbers pi is said\nto have a drop at k when pk > pk+1. The total number of passes required to pick up all 13 cards is\none more than the number of drops in the sequence of numbers pi.\nLet Dn denote the number of permutations of the numbers 1, 2, 3, . . . , n that have exactly one drop.\nIf π1 is a permutation of the numbers 1, 2, 3, . . . , n −1 with exactly one drop, then a permutation\nπ2 of the numbers 1, 2, 3, . . . , n with exactly one drop can be created either by inserting n at the\n\n2022 AMC 10 A Solutions\n17\nposition of the drop, or by placing n at the righthand end of the sequence that defines π1. Thus\na permutation of the type π1 generates two permutations of the type π2.\nNow let π3 be the\npermutation 1, 2, 3, . . . , n −1 with no drop. A permutation π4 on 1, 2, 3, . . . , n with exactly one\ndrop can be created by inserting n either before 1, or between 1 and 2, or . . ., or between n−2 and\nn −1, which is a total of n −1 places. Thus\nDn = 2Dn−1 + n −1.\nBecause D1 = 0 and D2 = 1, it follows by induction that Dn = 2n −n −1, and hence the answer\nis D13 = 8178.\nNote: Let\n\nn\nk\n\ndenote the number of permutations of 1, 2, 3, . . . , n that can be picked up in exactly\nk + 1 passes. By generalizing the reasoning found above, it can be shown that these numbers are\ngenerated by the Pascal-like recurrence\n\u001cn\nk\n\n= (k + 1)\n\u001cn −1\nk\n\n+ (n −k)\n\u001cn −1\nk −1\n\n.\nThese are the Eulerian numbers. Like the binomial coefficients, they have a symmetry:\n\u001cn\nk\n\n=\n\nn\nn −1 −k\n\n.\nBecause these numbers count permutations in various classes,\nn−1\nX\nk=0\n\u001cn\nk\n\n= n!.\nHowever, unlike binomial coefficients, for which there exists a closed-form formula in terms of\nfactorials, there seems to be no simple closed-form formula for the Eulerian numbers, although\n\u001cn\nk\n\n=\nk\nX\nj=0\n(−1)j\n\u0012n + 1\nj\n\u0013\n(k + 1 −j)n.\nThe special case k = 1 is what was derived.\n\n2022 AMC 10 A Solutions\n18\nProblem 23:\nIsosceles trapezoid ABCD has parallel sides AD and BC, with BC < AD and AB = CD. There\nis a point P in the plane such that PA = 1, PB = 2, PC = 3, and PD = 4. What is BC\nAD ?\n(A) 1\n4\n(B) 1\n3\n(C) 1\n2\n(D) 2\n3\n(E) 3\n4",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q23",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Isosceles trapezoid ABCD has parallel sides AD and BC, with BC < AD and AB = CD.\nThere is a point P in the plane such that PA = 1, PB = 2, PC = 3, and PD = 4. What is BC\nAD?",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "1\n3",
+      "C": "1\n2",
+      "D": "2\n3",
+      "E": "3\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the trapezoid have vertices A(−a, 0), B(−b, c), C(b, c), and D(a, 0), where\na > 0, b > 0, and c > 0. Let P have coordinates (p, q) for real numbers p and q. The given\nconditions imply\n(p + a)2 + q2 = 1,\n(p + b)2 + (c −q)2 = 4,\n(p −b)2 + (c −q)2 = 9,\nand\n(p −a)2 + q2 = 16.\nSubtracting the fourth equation from the first gives pa = −15\n4 , and subtracting the third equation\nfrom the second gives pb = −5\n4. Hence BC\nAD = b\na = 1\n3.\nOR\nLet X and Y be feet of the perpendiculars from P to (parallel) lines AD and BC respectively. (In\nthe diagram below, point Y lies to the left of segment BC and point X lies on segment AD. The\nsolution generalizes to other configurations without issue through the use of directed lengths.)\nA\nB\nC\nD\nX\nY\nP\n1\n2\n3\n4\nBy the Pythagorean Theorem AP 2 −AX2 = XP 2 = DP 2 −DX2. It follows that DX2 −AX2 =\nDP 2 −AP 2 = 42 −12 = 15, so\nAD · (DX −AX) = (DX + AX)(DX −AX) = DX2 −AX2 = DP 2 −AP 2 = 15.\nLikewise, BP 2 −BY 2 = Y P 2 = CP 2 −CY 2, so CY 2 −BY 2 = CP 2 −BP 2 = 32 −22 = 5 and\nBC · (CY + BY ) = (CY −BY )(CY + BY ) = CY 2 −BY 2 = 5.\nBy symmetry, AX + BY = DX −CY , so CY + BY = DX −AX. Therefore\nBC\nAD = BC · (CY + BY )\nAD · (DX −AX) = 1\n3.\nOR\n\n2022 AMC 10 A Solutions\n19\nLet ℓdenote the common perpendicular bisector of AD and BC, and let Q denote the reflection\nof P across ℓ. By symmetry, AP = DQ = 1, AQ = DP = 4, BP = CQ = 2, and BQ = CP = 3.\nFurthermore, APQD is an isosceles trapezoid and is therefore a cyclic quadrilateral. By Ptolemy’s\nTheorem AD·PQ+AP ·DQ = AQ·PD, so AD·PQ = 42−12 = 15. Likewise, BC·PQ = 32−22 = 5.\nTherefore\nBC\nAD = BC · PQ\nAD · PQ = 1\n3.\nA\nB\nC\nD\nP\nQ\nℓ\n1\n2\n3\n4\nNote: Such trapezoids do in fact exist. For example, if a = 2 and b = 2\n3 in the first solution, then\n(p, q) =\n\u0010\n−15\n8 , 3\n√\n7\n8\n\u0011\nand c =\n1\n24\n\u00009\n√\n7 +\n√\n1463\n\u0001\n. A degenerate example has vertices at A(0, 0),\nB(1, 0), C(2, 0), and D(3, 0), with P at (−1, 0).\n\n2022 AMC 10 A Solutions\n20\nProblem 24:\nHow many strings of length 5 formed from the digits 0, 1, 2, 3, 4 are there such that for each j ∈\n{1, 2, 3, 4}, at least j of the digits are less than j ? (For example, 02214 satisfies this condition\nbecause it contains at least 1 digit less than 1, at least 2 digits less than 2, at least 3 digits less\nthan 3, and at least 4 digits less than 4. The string 23404 does not satisfy the condition because it\ndoes not contain at least 2 digits less than 2.)\n(A) 500\n(B) 625\n(C) 1089\n(D) 1199\n(E) 1296",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q24",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "How many strings of length 5 formed from the digits 0,1,2,3,4 are there such that for each j ∈\n{1, 2, 3, 4}, at least j of the digits are less than j? (For example, 02214 satisﬁes the condition\nbecause it contains at least 1 digit less than 1, at least 2 digits less than 2, at least 3 digits less\nthan 3, and at least 4 digits less than 4. The string 23404 does not satisfy the condition because\nit does not contain at least 2 digits less than 2.)",
+    "answer_choices": {
+      "A": "500",
+      "B": "625",
+      "C": "1089",
+      "D": "1199",
+      "E": "1296"
+    },
+    "correct_answer": "E",
+    "solution_text": "From the definition, any permutation of an acceptable string (a string satisfying the\nconditions of the problem) is acceptable. The following lists show the acceptable strings with the\ndigits listed in nondecreasing order, based on the pattern of repeated digits. For example, pattern\n(3, 1, 1) means that one digit occurs 3 times and each of two other digits appears once.\n Pattern (5): 00000 [1 string]\n Pattern (4, 1): 00001, 00002, 00003, 00004, 01111 [5 strings]\n Pattern (3, 2): 00011, 00022, 00033, 00111, 00222 [5 strings]\n Pattern (3, 1, 1): 00012, 00013, 00014, 00023, 00024, 00034, 01112, 01113, 01114, 01222 [10\nstrings]\n Pattern (2, 2, 1): 00112, 00113, 00114, 00122, 00133, 00223, 00224, 00233, 01122, 01133 [10\nstrings]\n Pattern (2, 1, 1, 1): 00123, 00124, 00134, 00234, 01123, 01124, 01134, 01223, 01224, 01233 [10\nstrings]\n Pattern (1, 1, 1, 1, 1): 01234 [1 string]\nThe number of different permutations of numbers in each list can be computed with multinomial\ncoefficients.\n\u00125\n5\n\u0013\n= 5!\n5! = 1\n\u0012 5\n4, 1\n\u0013\n=\n5!\n4! 1! = 5\n\u0012 5\n3, 2\n\u0013\n=\n5!\n3! 2! = 10\n\u0012\n5\n3, 1, 1\n\u0013\n=\n5!\n3! 1! 1! = 20\n\u0012\n5\n2, 2, 1\n\u0013\n=\n5!\n2! 2! 1! = 30\n\u0012\n5\n2, 1, 1, 1\n\u0013\n=\n5!\n2! 1! 1! 1! = 60\n\u0012\n5\n1, 1, 1, 1, 1\n\u0013\n=\n5!\n1! 1! 1! 1! 1! = 120\n\n2022 AMC 10 A Solutions\n21\nFinally, the number of strings with a given pattern that meet the conditions is obtained by mul-\ntiplying the number of instances of that pattern by the number of different permutations for that\npattern. Thus there are\n1 · 1 + 5 · 5 + 5 · 10 + 10 · 20 + 10 · 30 + 10 · 60 + 1 · 120 = 1296\nstrings in all.\nOR\nReplace 5 with a general value of b, and think of the problem as asking for the number of base-\nb nonnegative integers, with leading zeros allowed, that meet the given condition—that for each\nj ∈{1, 2, 3, 4}, at least j of the digits are less than j. Temporarily extend the numbers to base\nb + 1, and consider all (b + 1)b b-digit numbers. These numbers can be divided into (b+1)b\nb+1\nteams of\nsize b + 1 such that every set of b-digit numbers of the form\n{a1 . . . ab, a1 + 1 . . . ab + 1, . . . , a1 + b . . . ab + b}\nforms a team, where addition of digits is done modulo (b + 1). Imagine testing whether each team\nmember meets the stated condition as follows. Starting with the first digit and continuing through\nthe bth digit, place the digits on a (b + 1)-hour clock face so that digit i goes on hour i if hour i is\nempty. Otherwise digit i goes on the next empty hour clockwise after i. All b digits fit, and one\nhour will be left empty. The teams are constructed so that the empty hour for each team member\nis one greater, modulo b + 1, than that of its predecessor, so exactly one team member will leave\nhour b empty. The team member that leaves hour b empty meets the stated condition because in\norder not to use hour b it must have at least i digits less than i for each i < b, and it must not\ncontain digit b. Team members that fill hour b do so because for some i they fail to meet the stated\ncondition. They fail to have i digits less than i, that is, they have b −i + 1 digits greater than or\nequal to i. These digits fill hours i through b.\nEach team has exactly one number that meets the stated condition, so the number of such numbers\nis\n(b + 1)b\nb + 1\n= (b + 1)b−1.\nFor b = 5 the number is 64 = 1296.\nNote: This problem is related to the subject of parking functions. See sequence A000272 in the\nOn-Line Encyclopedia of Integer Sequences. The idea of the second solution is attributed to Henry\nO. Pollak.\n\n2022 AMC 10 A Solutions\n22\nProblem 25:\nLet R, S, and T be squares that have vertices at lattice points (i.e., points whose coordinates are\nboth integers) in the coordinate plane, together with their interiors. The bottom edge of each\nsquare is on the x-axis. The left edge of R and the right edge of S are on the y-axis, and R contains\n9\n4 as many lattice points as does S. The top two vertices of T are in R ∪S, and T contains 1\n4 of\nthe lattice points contained in R ∪S. See the figure (not drawn to scale).\nR\nS\nT\nx\ny\nThe fraction of lattice points in S that are in S ∩T is 27 times the fraction of lattice points in R\nthat are in R∩T. What is the minimum possible value of the edge length of R plus the edge length\nof S plus the edge length of T ?\n(A) 336\n(B) 337\n(C) 338\n(D) 339\n(E) 340",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10A-Q25",
+    "year": 2022,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let R, S, and T be squares that have vertices at lattice points (i.e., points whose coordinates\nare both integers) in the coordinate plane, together with their interiors. The bottom edge of\neach square is on the x-axis. The left edge of R and the right edge of S are on the y-axis, and\nR contains 9\n4 as many lattice points as does S. The top two vertices of T are in R ∪S, and T\ncontains 1\n4 of the lattice points contained in R ∪S. See the ﬁgure (not drawn to scale).\n\ny\nx\nR\nS\nT\nThe fraction of lattice points in S that are in S ∩T is 27 times the fraction of lattice points in\nR that are in R ∩T. What is the minimum possible value of the edge length of R plus the edge\nlength of S plus the edge length of T?",
+    "answer_choices": {
+      "A": "336",
+      "B": "337",
+      "C": "338",
+      "D": "339",
+      "E": "340"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let a −1, b −1, and c −1 be the respective edge lengths of R, S, and T, and let A,\nB, and C be the respective sets of lattice points in R, S, and T. Then there is an integer k such\nthat a = 3k and b = 2k, and |A| = a2 = 9k2, |B| = b2 = 4k2, and |C| = c2. Because A ∩B contains\nb lattice points on the y-axis, |A ∪B| = a2 + b2 −b = k(13k −2). Thus 4c2 = k(13k −2), so k is\neven. Furthermore, if k is a multiple of 4, then the greatest power of 2 that divides the right side\nis odd, so k ≡2 (mod 4).\nNote that\n|B ∩C|\n4k2\n= |B ∩C|\n|B|\n= 27 · |A ∩C|\n|A|\n= 27 · |A ∩C|\n9k2\n,\nimplying that |B ∩C| = 12 · |A ∩C|. If the lower left vertex of T is (−j, 0), then the lower right\nvertex is (c −1 −j, 0), and\n12 = |B ∩C|\n|A ∩C| = j + 1\nc −j .\nTherefore j+1 = 12(c−j), from which c ≡−1 (mod 13), and k ≡−2 (mod 13). Hence k = 52n−2\nfor some positive integer n. The least possible value of k is 50, giving (a, b, c) = (150, 100, 90). The\nsquares in this case have side lengths 149, 99, and 89, and the requested sum is 149+99+89 = 337.\n(Thus it turns out that R contains 22500 lattice points, S contains 10000 lattice points, T contains\n8100 lattice points, 630 lattice points of T are contained in R, and 7560 lattice points of T are\ncontained in S.)\n\n2022 AMC 10 A Solutions\n23\nProblems and solutions were contributed by Theodore Alper, Sophie Alpert, David Altizio, Risto\nAtanasov, Bela Bajnok, Chris Bolognese, Miklos Bona, Silva Chang, Steven Davis, Steve Dunbar,\nZuming Feng, Mary Flagg, Zachary Franco, Peter Gilchrist, Jon Graetz, Andrea Grof, Jerrold\nGrossman, Thomas Howell, Chris Jeuell, Daniel Jordan, Jonathan Kane, Ed Keppelman, Azar\nKhosravani, Sergey Levin, Joseph Li, Ioana Mihaila, Hugh Montgomery, Lucian Sega, Zsuzsanna\nSzaniszlo, Kate Thompson, Agnes Tuska, David Wells, Kathleen Wong, and Carl Yerger.",
+    "has_image": false
+  }
+]

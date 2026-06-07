@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2008-AMC10B-Q01",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "A basketball player made 5 baskets during a game. Each basket was worth either 2 or 3 points.\nHow many different numbers could represent the total points scored by the player?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "The number of points could be any integer between 5 · 2 = 10\nand 5 · 3 = 15, inclusive. The number of possibilities is 15 −10 + 1 = 6.\n1\n2\n3\n4\n8\n9\n10\n11\n15 16\n17\n18\n22\n23\n24\n25",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q02",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A 4 × 4 block of calendar dates is shown. The order of the numbers in the second row is to be\nreversed. Then the order of the numbers in the fourth row is to be reversed. Finally, the numbers\non each diagonal are to be added. What will be the positive difference between the two diagonal\nsums?\n1\n2\n3\n4\n8\n9 10 11\n15 16 17 18\n22 23 24 25",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    },
+    "correct_answer": "B",
+    "solution_text": "The two sums are 1 + 10 + 17 + 22 = 50 and\n4+9+16+25 = 54, so the positive diﬀerence between the sums\nis 54 −50 = 4.\nQuery: If a diﬀerent 4 × 4 block of dates had been chosen, the\nanswer would be unchanged. Why?",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q03",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Assume that x is a positive real number. Which is equivalent to\n3p\nx√x?",
+    "answer_choices": {
+      "A": "x^{1/6}",
+      "B": "x^{1/4}",
+      "C": "x^{3/8}",
+      "D": "x^{1/2}",
+      "E": "x"
+    },
+    "correct_answer": "D",
+    "solution_text": "The properties of exponents imply that\n3q\nx√x =\n³\nx · x\n1\n2\n´ 1\n3 =\n³\nx\n3\n2\n´ 1\n3 = x\n1\n2 .",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q04",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A semipro baseball league has teams with 21 players each. League rules state that a player\nmust be paid at least $15, 000, and that the total of all players’ salaries for each team cannot\nexceed $700, 000. What is the maximum possiblle salary, in dollars, for a single player?",
+    "answer_choices": {
+      "A": "270, 000",
+      "B": "385, 000",
+      "C": "400, 000",
+      "D": "430, 000",
+      "E": "700, 000"
+    },
+    "correct_answer": "C",
+    "solution_text": "A single player can receive the largest possible salary only when\nthe other 20 players on the team are each receiving the minimum salary of\n$15,000. Thus the maximum salary for any player is $700,000 −20 · $15,000 =\n$400,000.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q05",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For real numbers a and b, deﬁne a$b = (a −b)^{2}. What is (x −y)^{2}$(y −x)^{2}?",
+    "answer_choices": {
+      "A": "0",
+      "B": "x^{2} + y^{2}",
+      "C": "2x^{2}",
+      "D": "2y^{2}",
+      "E": "4xy"
+    },
+    "correct_answer": "A",
+    "solution_text": "Note that (y −x)2 = (x −y)2, so\n(x −y)2$(y −x)2 = (x −y)2$(x −y)2 =\n¡\n(x −y)2 −(x −y)2¢2 = 02 = 0.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q06",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Points B and C lie on AD. The length of AB is 4 times the length of BD, and the length of AC\nis 9 times the length of CD. The length of BC is what fraction of the length of AD?",
+    "answer_choices": {
+      "A": "1\n36",
+      "B": "1\n13",
+      "C": "1\n10",
+      "D": "5\n36",
+      "E": "1\n5"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because AB + BD = AD and AB = 4BD, it follows that\nBD = 1\n5 · AD. By similar reasoning, CD =\n1\n10 · AD. Thus\nBC = BD −CD = 1\n5 · AD −1\n10 · AD = 1\n10 · AD.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q07",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "An equilateral triangle of side length 10 is completely ﬁlled in by non-overlapping equilateral\ntriangles of side length 1. How many small triangles are required?",
+    "answer_choices": {
+      "A": "10",
+      "B": "25",
+      "C": "100",
+      "D": "250",
+      "E": "1000"
+    },
+    "correct_answer": "C",
+    "solution_text": "The side length of the large triangle is 10 times the side length\nof each small triangle, so the area of the large triangle is 102 = 100 times the\narea of each small triangle.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q08",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "A class collects $50 to buy ﬂowers for a classmate who is in the hospital. Roses cost $3 each,\nand carnations cost $2 each. No other ﬂowers are to be used. How many different bouquets\ncould be purchased for exactly $50?",
+    "answer_choices": {
+      "A": "1",
+      "B": "7",
+      "C": "9",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": "C",
+    "solution_text": "The total cost of the carnations must be an even number of\ndollars. The total number of dollars spent is the even number 50, so the number\nof roses purchased must also be even. In addition, the number of roses purchased\ncannot exceed 50\n3 . Therefore the number of roses purchased must be one of the\neven integers between 0 and 16, inclusive.\nThis gives 9 possibilities for the\nnumber of roses purchased, and consequently 9 possibilities for the number of\nbouquets.\n\nSolutions\n2008\n9th AMC 10 B\n3",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q09",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A quadratic equation ax^{2} −2ax + b = 0 has two real solutions. What is the average of the\nsolutions?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "b\na",
+      "D": "2b\na",
+      "E": "√"
+    },
+    "correct_answer": "A",
+    "solution_text": "The quadratic formula implies that the two solutions are\nx1 = 2a +\n√\n4a2 −4ab\n2a\nand\nx2 = 2a −\n√\n4a2 −4ab\n2a\n,\nso the average is\n1\n2(x1 + x2) = 1\n2\nµ2a\n2a + 2a\n2a\n¶\n= 1.\nOR\nThe sum of the solutions of a quadratic equation is the negative of the coeﬃcient\nof the linear term divided by the coeﬃcient of the quadratic term. In this case\nthe sum of the solution is −(−2a)\na\n= 2. Hence the average of the solutions is 1 .\nB\nA\nO\nC\nD\n5\n3",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q10",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Points A and B are on a circle of radius 5 and AB = 6. Point C is the midpoint of the minor arc\nAB. What is the length of the line segment AC?",
+    "answer_choices": {
+      "A": "√\n10",
+      "B": "7\n2",
+      "C": "√\n14",
+      "D": "√\n15",
+      "E": "4"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let O be the center of the circle,\nand let D be the intersection of OC and AB.\nBe-\ncause OC bisects minor arc AB, OD is a perpen-\ndicular bisector of chord AB.\nHence AD = 3, and\napplying the Pythagorean Theorem to △ADO yields\nOD =\n√\n52 −33 = 4. Therefore DC = 1, and apply-\ning the Pythagorean Theorem to △ADC yields AC =\n√\n32 + 12 =\n√\n10.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q11",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Suppose that (u^{n}) is a sequence of real numbers satisfying u^{n+2} = 2u^{n+1} + u^{n}, and that u^{3} = 9\nand u^{6} = 128. What is u^{5}?",
+    "answer_choices": {
+      "A": "40",
+      "B": "53",
+      "C": "68",
+      "D": "88",
+      "E": "104"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that u5 = 2u4 + 9 and 128 = u6 = 2u5 + u4 = 5u4 + 18.\nThus u4 = 22, and it follows that u5 = 2 · 22 + 9 = 53.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q12",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Postman Pete has a pedometer to count his steps. The pedometer records up to 99999 steps,\nthen ﬂips over to 00000 on the next step. Pete plans to determine his mileage for a year. On\nJanuary 1 Pete sets the pedometer to 00000. During the year, the pedometer ﬂips from 99999 to\n00000 forty-four times. On December 31 the pedometer reads 50000. Pete takes 1800 steps per\nmile. Which of the following is closest to the number of miles Pete walked during the year?",
+    "answer_choices": {
+      "A": "2500",
+      "B": "3000",
+      "C": "3500",
+      "D": "4000",
+      "E": "4500"
+    },
+    "correct_answer": "A",
+    "solution_text": "During the year Pete takes\n44 × 105 + 5 × 104 = 44.5 × 105\nsteps. At 1800 steps per mile, the number of miles Pete walks is\n44.5 × 105\n18 × 102\n= 44.5\n18 × 103 ≈2.5 × 103 = 2500.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q13",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "For each positive integer n, the mean of the ﬁrst n terms of a sequence is n. What is the 2008th\nterm of the sequence?",
+    "answer_choices": {
+      "A": "2008",
+      "B": "4015",
+      "C": "4016",
+      "D": "4, 030, 056",
+      "E": "4, 032, 064"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because the mean of the ﬁrst n terms is n, their sum is n2.\nTherefore the nth term is n2 −(n −1)2 = 2n −1, and the 2008th term is\n2 · 2008 −1 = 4015.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q14",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Triangle OAB has O = (0, 0), B = (5, 0), and A in the ﬁrst quadrant. In addition, ∠ABO = 90^{◦}\nand ∠AOB = 30^{◦}. Suppose that OA is rotated 90^{◦}counterclockwise about O. What are the\ncoordinates of the image of A?",
+    "answer_choices": {
+      "A": "−10\n3\n√\n3, 5",
+      "B": "−5\n3\n√\n3, 5",
+      "C": "√\n3, 5",
+      "D": "5\n3\n√\n3, 5",
+      "E": ""
+    },
+    "correct_answer": "B",
+    "solution_text": "Because △OAB is a 30 – 60 – 90◦triangle, we have BA = 5\n√\n3\n3 .\nLet A′ and B′ be the images of A and B, respectively, under the rotation. Then\n\nSolutions\n2008\n9th AMC 10 B\n4\nB′ = (0, 5), B′A′ is horizontal, and B′A′ = BA =\n5\n√\n3\n3 . Hence A′ is in the\nsecond quadrant and\nA′ =\nµ\n−5\n3\n√\n3, 5\n¶\n.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q15",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many right triangles have integer leg lengths a and b and a hypotenuse of length b + 1,\nwhere b < 100?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "A",
+    "solution_text": "By the Pythagorean Theorem we have a2 + b2 = (b + 1)2, so\na2 = (b + 1)2 −b2 = 2b + 1.\nBecause b is an integer with b < 100, a2 is an odd perfect square between 1 and\n201, and there are six of these, namely, 9, 25, 49, 81, 121, and 169. Hence a\nmust be 3, 5, 7, 9, 11, or 13, and there are 6 triangles that satisfy the given\nconditions.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q16",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Two fair coins are to be tossed once. For each head that results, one fair die is to be rolled. What\nis the probability that the sum of the die rolls is odd? (Note that if no die is rolled, their sum is\n0.)",
+    "answer_choices": {
+      "A": "3\n8",
+      "B": "1\n2",
+      "C": "43\n72",
+      "D": "5\n8",
+      "E": "2\n3"
+    },
+    "correct_answer": "A",
+    "solution_text": "If one die is rolled, 3 of the 6 possible numbers are odd. If two\ndice are rolled, 18 of the 36 possible outcomes have odd sums. In each of these\ncases, the probability of an odd sum is 1\n2. If no die is rolled, the sum is 0, which\nis not odd. The probability that no die is rolled is equal to the probability that\nboth coin tosses are tails, which is ( 1\n2)2 = 1\n4. Thus the requested probability is\nµ\n1 −1\n4\n¶\n· 1\n2 = 3\n8.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q17",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A poll shows that 70% of all voters approve of the mayor’s work. On three separate occasions\na pollster selects a voter at random. What is the probability that on exactly one of these three\noccasions the voter approves of the mayor’s work?",
+    "answer_choices": {
+      "A": "0.063",
+      "B": "0.189",
+      "C": "0.233",
+      "D": "0.333",
+      "E": "0.441"
+    },
+    "correct_answer": "B",
+    "solution_text": "The responses on these three occasions, in order, must be\nYNN, NYN, or NNY, where Y indicates approval and N indicates disapproval.\nThe probability of each of these is (0.7)(0.3)(0.3) = 0.063, so the requested\nprobability is 3(0.063) = 0.189.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q18",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Bricklayer Brenda would take 9 hours to build a chimney alone, and bricklayer Brandon would\ntake 10 hours to build it alone. When they work together they talk a lot, and their combined\noutput is decreased by 10 bricks per hour. Working together, they build the chimney in 5 hours.\nHow many bricks are in the chimney?",
+    "answer_choices": {
+      "A": "500",
+      "B": "900",
+      "C": "950",
+      "D": "1000",
+      "E": "1900"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let n be the number of bricks in the chimney.\nThen the\nnumber of bricks per hour Brenda and Brandon can lay working alone is n\n9 and\nn\n10, respectively. Working together they can lay ( n\n9 + n\n10 −10) bricks in an hour,\nor\n5\n³n\n9 + n\n10 −10\n´\nbricks in 5 hours to complete the chimney. Thus\n5\n³n\n9 + n\n10 −10\n´\n= n,\nand the number of bricks in the chimney is n = 900.\nOR\nSuppose that Brenda can lay x bricks in an hour and Brandon can lay y bricks\nin an hour. Then the number of bricks in the chimney can be expressed as 9x,\n\nSolutions\n2008\n9th AMC 10 B\n5\n10y, or 5(x + y −10). The equality of these expressions leads to the system of\nequations\n4x −5y = −50\n−5x + 5y = −50.\nIt follows that x = 100, so the number of bricks in the chimney is 9x = 900.\n4\n2",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q19",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A cylindrical tank with radius 4 feet and height 9 feet is lying on its side. The tank is ﬁlled with\nwater to a depth of 2 feet. What is the volume of the water, in cubic feet?",
+    "answer_choices": {
+      "A": "24π −36\n√\n2",
+      "B": "24π −24\n√\n3",
+      "C": "36π −36\n√\n3",
+      "D": "36π −24\n√\n2",
+      "E": "48π −36\n√\n3"
+    },
+    "correct_answer": "E",
+    "solution_text": "The portion of each end of the tank that\nis under water is a circular sector with two right triangles\nremoved as shown. The hypotenuse of each triangle is 4,\nand the vertical leg is 2, so each is a 30 – 60 – 90◦triangle.\nTherefore the sector has a central angle of 120◦, and the\narea of the sector is\n120\n360 · π(4)2 = 16\n3 π.\nThe area of each triangle is\n1\n2(2)\n¡\n2\n√\n3\n¢\n, so the portion of each end that is\nunderwater has area 16\n3 π −4\n√\n3. The length of the cylinder is 9, so the volume\nof the water is\n9\nµ16\n3 π −4\n√\n3\n¶\n= 48π −36\n√\n3.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q20",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "The faces of a cubical die are marked with the numbers 1, 2, 2, 3, 3, and 4. The faces of a second\ncubical die are marked with the numbers 1, 3, 4, 5, 6, and 8. Both dice are thrown. What is the\nprobability that the sum of the two top numbers will be 5, 7, or 9 ?",
+    "answer_choices": {
+      "A": "5\n18",
+      "B": "7\n18",
+      "C": "11\n18",
+      "D": "3\n4",
+      "E": "8\n9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Of the 36 possible outcomes, the four pairs (1, 4), (2, 3), (2, 3),\nand (4, 1) yield a sum of 5. The six pairs (1, 6), (2, 5), (2, 5), (3, 4), (3, 4), and\n(4, 3) yield a sum of 7. The four pairs (1, 8), (3, 6), (3, 6), and (4, 5) yield a sum\nof 9. Thus the probability of getting a sum of 5, 7, or 9 is (4+6+4)/36 = 7/18.\nNote: The dice described here are known as Sicherman dice. The probability of\nobtaining each sum between 2 and 12 is the same as that on a pair of standard\ndice.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q21",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Ten chairs are evenly spaced around a round table and numbered clockwise from 1 through 10.\nFive married couples are to sit in the chairs with men and women alternating, and no one is to\nsit either next to or directly across from his or her spouse. How many seating arrangements are\npossible?",
+    "answer_choices": {
+      "A": "240",
+      "B": "360",
+      "C": "480",
+      "D": "540",
+      "E": "720"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let the women be seated ﬁrst.\nThe ﬁrst woman may sit in\nany of the 10 chairs. Because men and women must alternate, the number of\nchoices for the remaining women is 4, 3, 2, and 1. Thus the number of possible\nseating arrangements for the women is 10 · 4! = 240. Without loss of generality,\nsuppose that a woman sits in chair 1. Then this woman’s spouse must sit in\nchair 4 or chair 8. If he sits in chair 4 then the women sitting in chairs 7, 3,\n9, and 5 must have their spouses sitting in chairs 10, 6, 2, and 8, respectively.\nIf he sits in chair 8 then the women sitting in chairs 5, 9, 3, and 7 must have\ntheir spouses sitting in chairs 2, 6, 10, and 4, respectively. So for each possible\nseating arrangement for the women there are two arrangements for the men.\nHence, there are 2 · 240 = 480 possible seating arrangements.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q22",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Three red beads, two white beads, and one blue bead are placed in a line in random order. What\nis the probability that no two neighboring beads are the same color?",
+    "answer_choices": {
+      "A": "1\n12",
+      "B": "1\n10",
+      "C": "1\n6",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are 6!/(3!2!1!) = 60 distinguishable orders of the beads\non the line. To meet the required condition, the red beads must be placed in\n\nSolutions\n2008\n9th AMC 10 B\n6\none of four conﬁgurations: positions 1, 3, and 5, positions 2, 4, and 6, positions\n1, 3, and 6, or positions 1, 4, and 6. In the ﬁrst two cases, the blue bead can\nbe placed in any of the three remaining positions. In the last two cases, the\nblue bead can be placed in either of the two adjacent remaining positions. In\neach case, the placement of the white beads is then determined. Hence there\nare 2 · 3 + 2 · 2 = 10 orders that meet the required condition, and the requested\nprobability is 10\n60 = 1\n6.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q23",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A rectangular ﬂoor measures a by b feet, where a and b are positive integers with b > a. An artist\n\npaints a rectangle on the ﬂoor with the sides of the rectangle parallel to the sides of the ﬂoor.\nThe unpainted part of the ﬂoor forms a border of width 1 foot around the painted rectangle and\noccupies half of the area of the entire ﬂoor. How many possibilities are there for the ordered\npair (a, b)?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because the area of the border is half the area of the ﬂoor, the\nsame is true of the painted rectangle. The painted rectangle measures a −2 by\nb −2 feet. Hence ab = 2(a −2)(b −2), from which 0 = ab −4a −4b + 8. Add 8\nto each side of the equation to produce\n8 = ab −4a −4b + 16 = (a −4)(b −4).\nBecause the only integer factorizations of 8 are\n8 = 1 · 8 = 2 · 4 = (−4) · (−2) = (−8) · (−1),\nand because b > a > 0, the only possible ordered pairs satisfying this equation\nfor (a−4, b−4) are (1, 8) and (2, 4). Hence (a, b) must be one of the two ordered\npairs (5, 12), or (6, 8).\nA\nB\nC\nD\nM\nA\nB\nC\nD\nO",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q24",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Quadrilateral ABCD has AB = BC = CD, ∠ABC = 70^{◦}, and ∠BCD = 170^{◦}. What is the\ndegree measure of ∠BAD?",
+    "answer_choices": {
+      "A": "75",
+      "B": "80",
+      "C": "85",
+      "D": "90",
+      "E": "95"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let M be on the same side of line BC as\nA, such that △BMC is equilateral. Then △ABM and\n△MCD are isosceles with ∠ABM = 10◦and ∠MCD =\n110◦. Hence ∠AMB = 85◦and ∠CMD = 35◦. There-\nfore\n∠AMD = 360◦−∠AMB −∠BMC −∠CMD\n= 360◦−85◦−60◦−35◦= 180◦.\nIt follows that M lies on AD and ∠BAD = ∠BAM =\n85◦.\nOR\nLet △ABO be equilateral as shown.\nThen\n∠OBC = ∠ABC −∠ABO = 70◦−60◦= 10◦.\nBecause ∠BCD = 170◦and OB = BC = CD,\nthe quadrilateral BCDO is a parallelogram. Thus\n\nSolutions\n2008\n9th AMC 10 B\n7\nOD = BC = AO and △AOD is isosceles. Let α = ∠ODA = ∠OAD. The sum\nof the interior angles of ABCD is 360◦, so we have\n360 = (α + 60) + 70 + 170 + (α + 10)\nand\nα = 25.\nThus ∠DAB = 60 + α = 85◦.",
+    "has_image": false
+  },
+  {
+    "id": "2008-AMC10B-Q25",
+    "year": 2008,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "hard",
+    "problem_text": "Michael walks at the rate of 5 feet per second on a long straight path. Trash pails are located\nevery 200 feet along the path. A garbage truck travels at 10 feet per second in the same direction\nas Michael and stops for 30 seconds at each pail. As Michael passes a pail, he notices the truck\nahead of him just leaving the next pail. How many times will Michael and the truck meet?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8\n–"
+    },
+    "correct_answer": "B",
+    "solution_text": "Number the pails consecutively so that Michael is presently at\npail 0 and the garbage truck is at pail 1. Michael takes 200/5 = 40 seconds to\nwalk between pails, so for n ≥0 he passes pail n after 40n seconds. The truck\ntakes 20 seconds to travel between pails and stops for 30 seconds at each pail.\nThus for n ≥1 it leaves pail n after 50(n −1) seconds, and for n ≥2 it arrives\nat pail n after 50(n −1) −30 seconds. Michael will meet the truck at pail n if\nand only if\n50(n −1) −30 ≤40n ≤50(n −1)\nor, equivalently, 5 ≤n ≤8.\n50\ntime (sec)\ndistance (ft)\n200\ntruck\nMichael\nHence Michael ﬁrst meets the truck at pail 5 after 200 seconds, just as the truck\nleaves the pail. He passes the truck at pail 6 after 240 seconds and at pail 7\nafter 280 seconds. Finally, Michael meets the truck just as it arrives at pail 8\nafter 320 seconds. These conditions imply that the truck is ahead of Michael\nbetween pails 5 and 6 and that Michael is ahead of the truck between pails 7\nand 8. However, the truck must pass Michael at some point between pails 6 and\n7, so they meet a total of ﬁve times.\n\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCanada/USA Mathpath\nCasualty Actuarial Society\nClay Mathematics Institute\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour Company\nMu Alpha Theta\nNational Assessment & Testing\nNational Council of Teachers of Mathematics\nPedagoguery Software Inc.\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.",
+    "has_image": false
+  }
+]

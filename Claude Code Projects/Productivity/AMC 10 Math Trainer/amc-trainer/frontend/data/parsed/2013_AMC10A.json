@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2013-AMC10A-Q01",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A taxi ride costs $1.50 plus $0.25 per mile traveled. How much does a 5-mile taxi ride cost?",
+    "answer_choices": {
+      "A": "$2.25",
+      "B": "$2.50",
+      "C": "$2.75",
+      "D": "$3.00",
+      "E": "$3.25"
+    },
+    "correct_answer": "C",
+    "solution_text": "A 5-mile taxi ride costs $1.50 + 5($0.25) = $2.75.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q02",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Alice is making a batch of cookies and needs 2^{1}\n2 cups of sugar. Unforunately, her measuring\ncup holds only 1\n4 cup of sugar. How many times must she ﬁll that cup to get the correct amount\nof sugar?",
+    "answer_choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "16",
+      "E": "20"
+    },
+    "correct_answer": "B",
+    "solution_text": "Filling the cup 4 times will give Alice 1 cup of sugar. To get 2 1\n2\ncups of sugar, she must ﬁll it 4 + 4 + 1\n2 · 4 = 10 times.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q03",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Square ABCD has side length 10. Point E is on BC, and the area of △ABE is 40. What is BE?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "E",
+    "solution_text": "The legs of △ABE have lengths AB = 10 and BE. Therefore\n1\n2 · 10 · BE = 40, so BE = 8 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q04",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A softball team played ten games, scoring 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 runs. They lost by one\nrun in exactly ﬁve games. In each of the other games, they scored twice as many runs as their\nopponent. How many total runs did their opponents score?",
+    "answer_choices": {
+      "A": "35",
+      "B": "40",
+      "C": "45",
+      "D": "50",
+      "E": "55"
+    },
+    "correct_answer": "C",
+    "solution_text": "The softball team could only have scored twice as many runs as\ntheir opponent when they scored an even number of runs. In those games their\nopponents scored\n2\n2 + 4\n2 + 6\n2 + 8\n2 + 10\n2 = 15 runs.\nIn the games the softball team lost, their opponents scored\n(1 + 1) + (3 + 1) + (5 + 1) + (7 + 1) + (9 + 1) = 30 runs.\nThe total number of runs scored by their opponents was 15 + 30 = 45 runs.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q05",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Tom, Dorothy, and Sammy went on a vacation and agreed to split the costs evenly. During their\ntrip Tom paid $105, Dorothy paid $125, and Sammy paid $175. In order to share the costs equally,\nTom gave Sammy t dollars, and Dorothy gave Sammy d dollars. What is t −d?",
+    "answer_choices": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30",
+      "E": "35"
+    },
+    "correct_answer": "B",
+    "solution_text": "The total shared expenses were 105+125+175 = 405 dollars, so\neach traveler’s fair share was 1\n3 ·405 = 135 dollars. Therefore t = 135−105 = 30\nand d = 135 −125 = 10, so t −d = 30 −10 = 20.\nOR\nBecause Dorothy paid 20 dollars more than Tom, Sammy must receive 20 more\ndollars from Tom than from Dorothy.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q06",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Joey and his ﬁve brothers are ages 3, 5, 7, 9, 11, and 13. One afternoon two of his brothers whose\nages sum to 16 went to the movies, two brothers younger than 10 went to play baseball, and Joey\nand the 5-year-old stayed home. How old is Joey?",
+    "answer_choices": {
+      "A": "3",
+      "B": "7",
+      "C": "9",
+      "D": "11",
+      "E": "13"
+    },
+    "correct_answer": "D",
+    "solution_text": "The 5-year-old and the two brothers who went to play baseball\naccount for three of the four brothers who are younger than 10. Because the\nonly age pairs that sum to 16 are 3 and 13, 5 and 11, and 7 and 9, the brothers\nwho went to the movies must be 3 and 13 years old. Hence the 7-year-old and\n9-year-old brothers went to play baseball, and Joey is 11.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q07",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "A student must choose a program of four courses from a menu of courses consisting of English,\nAlgebra, Geometry, History, Art, and Latin. This program must contain English and at least one\nmathematics course. In how many ways can this program be chosen?",
+    "answer_choices": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "12",
+      "E": "16"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because English is required, the student must choose 3 of the\nremaining 5 courses. If the student takes both math courses, there are 3 possible\nchoices for the ﬁnal course. If the student chooses only one of the 2 possible\n\n2013 AMC10A Solutions\n3\nmath courses, then the student must omit one of the 3 remaining courses, for a\ntotal of 2 · 3 = 6 programs. Hence there are 3 + 6 = 9 programs.\nOR\nBecause English is required, there are 5 remaining courses from which a student\nmust choose 3. Of those\n¡5\n3\n¢\npossibilities, one does not include a math course.\nThus the number of possible programs is\n¡5\n3\n¢\n−1 = 9.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q08",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of\n2^{2014} + 2^{2012}\n2^{2014} −2^{2012} ?",
+    "answer_choices": {
+      "A": "−1",
+      "B": "1",
+      "C": "5\n3",
+      "D": "2013",
+      "E": "2^{4024}"
+    },
+    "correct_answer": "C",
+    "solution_text": "Factoring 22012 from each of the terms and simplifying gives\n22012(22 + 1)\n22012(22 −1) = 4 + 1\n4 −1 = 5\n3 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q09",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In a recent basketball game, Shenille attempted only three-point shots and two-point shots.\nShe was successful on 20% of her three-point shots and 30% of her two-point shots. Shenille\nattempted 30 shots. How many points did she score?",
+    "answer_choices": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "30",
+      "E": "36"
+    },
+    "correct_answer": "B",
+    "solution_text": "If Shenille attempted x three-point shots and 30 −x two-point\nshots, then she scored a total of\n20\n100 · 3 · x + 30\n100 · 2 · (30 −x) = 18 points.\nRemark: The given information does not allow the value of x to be determined.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q10",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A ﬂower bouquet contains pink roses, red roses, pink carnations, and red carnations. One third\nof the pink ﬂowers are roses, three fourths of the red ﬂowers are carnations, and six tenths of\nthe ﬂowers are pink. What percent of the ﬂowers are carnations?",
+    "answer_choices": {
+      "A": "15",
+      "B": "30",
+      "C": "40",
+      "D": "60",
+      "E": "70"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because six tenths of the ﬂowers are pink and two thirds of\nthe pink ﬂowers are carnations,\n6\n10 · 2\n3 = 2\n5 of the ﬂowers are pink carnations.\nBecause four tenths of the ﬂowers are red and three fourths of the red ﬂowers\nare carnations,\n4\n10 · 3\n4 =\n3\n10 of the ﬂowers are red carnations. Therefore 2\n5 + 3\n10 =\n7\n10 = 70% of the ﬂowers are carnations.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q11",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A student council must select a two-person welcoming committee and a three-person planning\ncommittee from among its members. There are exactly 10 ways to select a two-person team\nfor the welcoming committee. It is possible for students to serve on both committees. In how\nmany different ways can a three-person planning committee be selected?",
+    "answer_choices": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "18",
+      "E": "25"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let n be the number of student council members. Because\nthere are 10 ways of choosing the two-person welcoming committee, it follows\nthat 10 =\n¡n\n2\n¢\n= 1\n2n(n −1), from which n = 5. The number of ways to select\nthe three-person planning committee is\n¡5\n3\n¢\n= 10 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q12",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In △ABC, AB = AC = 28 and BC = 20. Points D, E, and F are on sides AB, BC, and AC,\nrespectively, such that DE and EF are parallel to AC and AB, respectively. What is the perimeter\nof parallelogram ADEF?",
+    "answer_choices": {
+      "A": "48",
+      "B": "52",
+      "C": "56",
+      "D": "60",
+      "E": "72"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because EF is parallel to AB, it follows that △FEC is similar\nto △ABC and FE = FC. Thus half of the perimeter of ADEF is AF + FE =\nAF + FC = AC = 28. The entire perimeter is 56.",
+    "has_image": true
+  },
+  {
+    "id": "2013-AMC10A-Q13",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many three-digit numbers are not divisible by 5, have digits that sum to less than 20, and\nhave the ﬁrst digit equal to the third digit?",
+    "answer_choices": {
+      "A": "52",
+      "B": "60",
+      "C": "66",
+      "D": "68",
+      "E": "70"
+    },
+    "correct_answer": "B",
+    "solution_text": "Each such three-digit number must have the form aba, where a\nand b are digits and a ̸= 0. Such a number will not be divisible by 5 if and only\nif a ̸= 5. If a is equal to 1, 2, 3, or 4, then any of the ten choices for b satisﬁes\nthe requirement. If a is equal to 6, 7, 8, or 9, then there are 8, 6, 4, or 2 choices\nfor b, respectively. This results in 4 · 10 + 8 + 6 + 4 + 2 = 60 numbers.\n\n2013 AMC10A Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q14",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A solid cube of side length 1 is removed from each corner of a solid cube of side length 3. How\nmany edges does the remaining solid have?",
+    "answer_choices": {
+      "A": "36",
+      "B": "60",
+      "C": "72",
+      "D": "84",
+      "E": "108"
+    },
+    "correct_answer": "D",
+    "solution_text": "The large cube has 12 edges, and a portion of each edge remains\nafter the 8 small cubes are removed. All of the 12 edges of each small cube are\nalso edges of the new solid, except for the 3 edges that meet at a vertex of the\nlarge cube. Thus the new solid has a total of 12 + 8(12 −3) = 84 edges.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q15",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two sides of a triangle have lengths 10 and 15. The length of the altitude to the third side is the\naverage of the lengths of the altitudes to the two given sides. How long is the third side?",
+    "answer_choices": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "12",
+      "E": "18"
+    },
+    "correct_answer": "D",
+    "solution_text": "Denote the length of the third side as x, and the altitudes to\nthe sides of lengths 10 and 15 as m and n, respectively. Then twice the area of\nthe triangle is 10m = 15n = 1\n2x(m + n). This implies that m = 3\n2n, so\n15n = 1\n2x\nµ3\n2n + n\n¶\n= 5\n4xn .\nTherefore 15 = 5\n4x, and x = 12.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q16",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A triangle with vertices (6, 5), (8, −3), and (9, 1) is reﬂected about the line x = 8 to create a\nsecond triangle. What is the area of the union of the two triangles?",
+    "answer_choices": {
+      "A": "9",
+      "B": "28\n3",
+      "C": "10",
+      "D": "31\n3",
+      "E": "32\n3"
+    },
+    "correct_answer": "E",
+    "solution_text": "The reﬂected triangle has vertices (7, 1), (8, −3), and (10, 5).\nThe point (9, 1) is on the line segment from (10, 5) to (8, −3). The line segment\nfrom (6, 5) to (9, 1) contains the point (8, 7\n3), which must be on both triangles,\nand by symmetry the point (7, 1) is on the line segment from (6, 5) to (8, −3).\nTherefore the union of the two triangles is also the union of two congruent\ntriangles with disjoint interiors, each having the line segment from (8, −3) to\n(8, 7\n3) as a base. The altitude of one of the two triangles is the distance from\nthe line x = 8 to the point (10, 5), which is 2. Hence the union of the triangles\nhas area 2 · ( 1\n2 · 2 · ( 7\n3 + 3)) = 32\n3 .\nx = 8\n(6, 5)\n(7, 1)\n(9, 1)\n(8, −3)\nO\nx\ny\n(10, 5)",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q17",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Daphne is visited periodically by her three best friends: Alice, Beatrix, and Claire. Alice visits\nevery third day, Beatrix visits every fourth day, and Claire visits every ﬁfth day. All three friends\nvisited Daphne yesterday. How many days of the next 365-day period will exactly two friends\nvisit her?",
+    "answer_choices": {
+      "A": "48",
+      "B": "54",
+      "C": "60",
+      "D": "66",
+      "E": "72"
+    },
+    "correct_answer": "B",
+    "solution_text": "Alice and Beatrix will visit Daphne together every 3 · 4 = 12\ndays, so this will happen ⌊365\n12 ⌋= 30 times. Likewise Alice and Claire will visit\ntogether ⌊365\n3·5 ⌋= 24 times, and Beatrix and Claire will visit together ⌊365\n4·5 ⌋=\n18 times. However, each of these counts includes the ⌊365\n3·4·5⌋= 6 times when\nall three friends visit.\nThe number of days that exactly two friends visit is\n(30 −6) + (24 −6) + (18 −6) = 54.\n\n2013 AMC10A Solutions\n5",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q18",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Let points A = (0, 0), B = (1, 2), C = (3, 3), and D = (4, 0). Quadrilateral ABCD is cut into\nequal area pieces by a line passing through A. This line intersects CD at point\np\nq, r\ns\n, where\nthese fractions are in lowest terms. What is p + q + r + s?",
+    "answer_choices": {
+      "A": "54",
+      "B": "58",
+      "C": "62",
+      "D": "70",
+      "E": "75"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let line AG be the required line, with G on CD. Divide ABCD\ninto triangle ABF, trapezoid BCEF, and triangle CDE, as shown. Their areas\nare 1, 5, and 3\n2, respectively. Hence the area of ABCD = 15\n2 , and the area of\ntriangle ADG =\n15\n4 . Because AD = 4, it follows that GH =\n15\n8 =\nr\ns. The\nequation of CD is y = −3(x −4), so when y = 15\n8 , x = p\nq = 27\n8 . Therefore\np + q + r + s = 58.\nA\nB\nF\nC\nG\nE\nH\nD\ny\nx",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q19",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "In base 10, the number 2013 ends in the digit 3. In base 9, on the other hand, the same number\nis written as (2676)^{9} and ends in the digit 6. For how many positive integers b does the base-b\nrepresentation of 2013 end in the digit 3?",
+    "answer_choices": {
+      "A": "6",
+      "B": "9",
+      "C": "13",
+      "D": "16",
+      "E": "18"
+    },
+    "correct_answer": "C",
+    "solution_text": "For the base-b representation of 2013 to end in the digit 3, the\nbase b must exceed 3. Also, b must divide 2013 −3 = 2010, so b must be one of\nthe 16 positive integer factors of 2010 = 2 · 3 · 5 · 67 . Thus there are 16 −3 = 13\nbases in which 2013 ends with a 3.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q20",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A unit square is rotated 45^{◦}about its center. What is the area of the region swept out by the\ninterior of the square?",
+    "answer_choices": {
+      "A": "1 −\n√\n2\n2 + π\n4",
+      "B": "1\n2 + π\n4",
+      "C": "2 −\n√\n2 + π\n4",
+      "D": "√\n2\n2 + π\n4",
+      "E": "1 +\n√\n2\n4 + π\n8"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let O be the center of unit square ABCD, let A and B be\nrotated to points A′ and B′, and let OA′ and A′B′ intersect AB at E and F,\nrespectively. Then one quarter of the region swept out by the interior of the\nsquare consists of the 45◦sector AOA′ with radius\n√\n2\n2 , isosceles right triangle\nOEB with leg length 1\n2, and isosceles right triangle A′EF with leg length\n√\n2−1\n2\n.\nThus the area of the region is\n4\n\n\nÃ√\n2\n2\n!2 ³π\n8\n´\n+\nµ1\n2\n¶ µ1\n2\n¶2\n+\nµ1\n2\n¶ Ã√\n2 −1\n2\n!2\n= 2 −\n√\n2 + π\n4 .\n\n2013 AMC10A Solutions\n6\nO\nE\nA′\nF\nB\nA\nB′",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q21",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "A group of 12 pirates agree to divide a treasure chest of gold coins among themselves as fol-\nlows. The k^{th} pirate to take a share takes k\n12 of the coins that remain in the chest. The number\nof coins initially in the chest is the smallest number for which this arrangement will allow each\npirate to receive a positive whole number of coins. How many coins does the 12^{th} pirate receive?",
+    "answer_choices": {
+      "A": "720",
+      "B": "1296",
+      "C": "1728",
+      "D": "1925",
+      "E": "3850"
+    },
+    "correct_answer": "D",
+    "solution_text": "For 1 ≤k ≤11, the number of coins remaining in the chest\nbefore the kth pirate takes a share is\n12\n12−k times the number remaining afterward.\nThus if there are n coins left for the 12th pirate to take, the number of coins\noriginally in the chest is\n1211 · n\n11!\n=\n222 · 311 · n\n28 · 34 · 52 · 7 · 11 = 214 · 37 · n\n52 · 7 · 11 .\nThe smallest value of n for which this is a positive integer is 52 · 7 · 11 = 1925.\nIn this case there are\n214 · 37 ·\n11!\n(12 −k)! · 12k−1\ncoins left for the kth pirate to take, and note that this amount is an integer for\neach k. Hence the 12th pirate receives 1925 coins.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q22",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Six spheres of radius 1 are positioned so that their centers are at the vertices of a regular\nhexagon of side length 2. The six spheres are internally tangent to a larger sphere whose center\nis the center of the hexagon. An eighth sphere is externally tangent to the six smaller spheres\nand internally tangent to the larger sphere. What is the radius of this eighth sphere?",
+    "answer_choices": {
+      "A": "√\n2",
+      "B": "3\n2",
+      "C": "5\n3",
+      "D": "√\n3",
+      "E": "2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the vertices of the regular hexagon be labeled in order A,\nB, C, D, E, and F. Let O be the center of the hexagon, which is also the\ncenter of the largest sphere. Let the eighth sphere have center G and radius r.\nBecause the centers of the six small spheres are each a distance 2 from O and\nthe small spheres have radius 1, the radius of the largest sphere is 3. Because G\nis equidistant from A and D, the segments GO and AO are perpendicular. Let\nx be the distance from G to O. Then x + r = 3. The Pythagorean Theorem\napplied to △AOG gives (r + 1)2 = 22 + x2 = 4 + (3 −r)2, which simpliﬁes to\n2r + 1 = 13 −6r, so r =\n3\n2 . Note that this shows that the eighth sphere is\ntangent to AD at O.\n\n2013 AMC10A Solutions\n7\nO\nE\nD\nC\nB\nA\nF\n1\n2\nA\nD\nO\nG\nr\nx",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q23",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In △ABC, AB = 86, and AC = 97. A circle with center A and radius AB intersects BC at points\nB and X. Moreover BX and CX have integer lengths. What is BC?",
+    "answer_choices": {
+      "A": "11",
+      "B": "28",
+      "C": "33",
+      "D": "61",
+      "E": "72"
+    },
+    "correct_answer": "D",
+    "solution_text": "By the Power of a Point Theorem, BC · CX = AC2 −r2 where\nr = AB is the radius of the circle. Thus BC · CX = 972 −862 = 2013. Since\nBC = BX + CX and CX are both integers, they are complementary factors of\n2013. Note that 2013 = 3 · 11 · 61, and CX < BC < AB + AC = 183. Thus the\nonly possibility is CX = 33 and BC = 61.\nA\nB\nX\nC\n97\n86",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q24",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Central High School is competing against Northern High School in a backgammon match. Each\nschool has three players, and the contest rules require that each player play two games against\neach of the other’s school’s players. The match takes place in six rounds, with three games\nplayed simultaneously in each round. In how many different ways can the match be scheduled?",
+    "answer_choices": {
+      "A": "540",
+      "B": "600",
+      "C": "720",
+      "D": "810",
+      "E": "900"
+    },
+    "correct_answer": "E",
+    "solution_text": "Call the players from Central A, B, and C, and call the players\nfrom Northern X, Y , and Z. Represent the schedule for each Central player by\na string of length six consisting of two each of X, Y , and Z. There are\n¡6\n2\n¢¡4\n2\n¢\n= 90 possible strings for player A. Assume without loss of generality that the\nstring is XXY Y ZZ. Player B’s schedule must be a string with no X’s in the\nﬁrst two positions, no Y ’s in the next two, and no Z’s in the last two. If B’s\nstring begins with a Y and a Z in either order, the next two letters must be an\nX and a Z, and the last two must be an X and a Y . Because each pair can be\nordered in one of two ways, there are 23 = 8 such strings. If B’s string begins\nwith Y Y or ZZ, it must be Y Y ZZXX or ZZXXY Y , respectively.\nHence\nthere are 10 possible schedules for B for each of the 90 schedules for A, and C’s\nschedule is then determined. The total number of possible schedules is 900.\n\n2013 AMC10A Solutions\n8",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10A-Q25",
+    "year": 2013,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "All diagonals are drawn in a regular octagon. At how many distinct points in the interior of the\noctagon (not on the boundary) do two or more diagonals intersect?",
+    "answer_choices": {
+      "A": "49",
+      "B": "65",
+      "C": "70",
+      "D": "96",
+      "E": "128"
+    },
+    "correct_answer": "A",
+    "solution_text": "Label the octagon ABCDEFGH. There are 20 diagonals in all,\n5 with endpoints at each vertex. The diagonals are of three types:\n• Diagonals that skip over only one vertex, such as AC or AG. These diago-\nnals intersect with each of the ﬁve diagonals with endpoints at the skipped\nvertex.\n• Diagonals that skip two vertices, such as AD or AF.\nThese diagonals\nintersect with four of the ﬁve diagonals that have endpoints at each of the\ntwo skipped vertices.\n• Diagonals that cross to the opposite vertex, such as AE. These diagonals\nintersect with three of the ﬁve diagonals that have endpoints at each of the\nthree skipped vertices.\nTherefore, from any given vertex, the diagonals will intersect other diagonals at\n2·5+2·8+1·9 = 35 points. Counting from all 8 vertices, the total is 8·35 = 280\npoints.\nObserve that, by symmetry, all four diagonals that cross to the opposite vertex\nintersect in the center of the octagon. This single intersection point has been\ncounted 24 times, 3 from each of the 8 vertices. Further observe that at each of\nthe vertices of the smallest internal octagon created by the diagonals, 3 diagonals\nintersect. For example, AD intersects with CH on BF. These 8 intersection\npoints have each been counted 12 times, 2 from each of the 6 aﬀected vertices.The\nremaining intersection points each involve only two diagonals and each has been\ncounted 4 times, once from each endpoint. These number 280−24−8·12\n4\n= 40.\nThere are therefore 1 + 8 + 40 = 49 distinct intersection points in the interior\nof the octagon.\nThe problems and solutions in this contest were proposed by Betsy Bennett, George\nBrauer, Steve Blasberg, Steve Davis, Marta Eso, Josanne Furey, Michele Ghrist, Jerry\nGrossman, Peter Gilchrist, Jonathan Kane, Dan Kennedy, Joe Kennedy, Cap Khoury,\nRoy Roehl, Kevin Wang, Dave Wells, LeRoy Wenstrom, and Woody Wenstrom.",
+    "has_image": false
+  }
+]

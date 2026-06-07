@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import type { Problem, FilterState, FilterOptions } from './types';
 
-const DATA_DIR = path.join(process.cwd(), '..', 'data', 'parsed');
+const DATA_DIR = path.join(process.cwd(), 'data', 'parsed');
 
 export function getAllProblems(): Problem[] {
   let files: string[];

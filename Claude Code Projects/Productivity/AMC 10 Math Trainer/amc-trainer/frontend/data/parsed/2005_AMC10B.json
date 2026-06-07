@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2005-AMC10B-Q01",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A scout troop buys 1000 candy bars at a price of ﬁve for $2. They sell all the candy bars at a\nprice of two for $1. What was their proﬁt, in dollars?",
+    "answer_choices": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "400",
+      "E": "500"
+    },
+    "correct_answer": "A",
+    "solution_text": "The scouts bought 1000/5 = 200 groups of 5 candy bars at a total cost of\n200 · 2 = 400 dollars. They sold 1000/2 = 500 groups of 2 candy bars for a total\nof 500 · 1 = 500 dollars. Their proﬁt was $500 −$400 = $100.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q02",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A positive number x has the property that x% of x is 4. What is x?",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "10",
+      "D": "20",
+      "E": "40"
+    },
+    "correct_answer": "D",
+    "solution_text": "We have\nx\n100 · x = 4,\nso\nx2 = 400.\nBecause x > 0, it follows that x = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q03",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A gallon of paint is used to paint a room. One third of the paint is used on the ﬁrst day. On the\nsecond day, one third of the remaining paint is used. What fraction of the original amount of\npaint is available to use on the third day?",
+    "answer_choices": {
+      "A": "1\n10",
+      "B": "1\n9",
+      "C": "1\n3",
+      "D": "4\n9",
+      "E": "5\n9"
+    },
+    "correct_answer": "D",
+    "solution_text": "After the ﬁrst day,\n1 −1\n3 = 2\n3\nof the paint remains. On the second day,\n1\n3 · 2\n3 = 2\n9\nof the paint is used. So for the third day\n1 −1\n3 −2\n9 = 4\n9\nof the original gallon of paint is available.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q04",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For real numbers a and b, deﬁne a ⋄b =\n√\na^{2} + b^{2}. What is the value of\n(5 ⋄12) ⋄((−12) ⋄(−5))?",
+    "answer_choices": {
+      "A": "0",
+      "B": "17\n2",
+      "C": "13",
+      "D": "13\n√\n2",
+      "E": "26"
+    },
+    "correct_answer": "D",
+    "solution_text": "It follows from the deﬁnition that\n(5 ⋄12) ⋄((−12) ⋄(−5)) =\np\n52 + 122 ⋄\np\n(−12)2 + (−5)2\n=13 ⋄13 =\np\n132 + 132 = 13\n√\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q05",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Brianna is using part of the money she earned on her weekend job to buy several equally-priced\nCDs. She used one ﬁfth of her money to buy one third of the CDs. What fraction of her money\nwill she have left after she buys all the CDs?",
+    "answer_choices": {
+      "A": "1\n5",
+      "B": "1\n3",
+      "C": "2\n5",
+      "D": "2\n3",
+      "E": "4\n5"
+    },
+    "correct_answer": "C",
+    "solution_text": "The number of CDs that Brianna will ﬁnally buy is three times the number\nshe has already bought. The fraction of her money that will be required for all\nthe purchases is (3)(1/5) = 3/5. The fraction she will have left is 1−3/5 = 2/5.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q06",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At the beginning of the school year, Lisa’s goal was to earn an A on at least 80% of her 50 quizzes\nfor the year. She earned an A on 22 of the ﬁrst 30 quizzes. If she is to achieve her goal, on at\nmost how many of the remaining quizzes can she earn a grade lower than an A?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "To earn an A on at least 80% of her quizzes, Lisa needs to receive an A on\nat least (0.8)(50) = 40 quizzes. Thus she must earn an A on at least 40−22 = 18\nof the remaining 20. So she can earn a grade lower than an A on at most 2 of\nthe remaining quizzes.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q07",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A circle is inscribed in a square, then a square is inscribed in this circle, and ﬁnally, a circle is\ninscribed in this square. What is the ratio of the area of the smaller circle to the area of the larger\nsquare?",
+    "answer_choices": {
+      "A": "π\n16",
+      "B": "π\n8",
+      "C": "3π\n16",
+      "D": "π\n4",
+      "E": "π\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the radius of the smaller circle be r. Then the side length of the smaller\nsquare is 2r. The radius of the larger circle is half the length of the diagonal\nof the smaller square, so it is\n√\n2r. Hence the larger square has sides of length\n2\n√\n2r. The ratio of the area of the smaller circle to the area of the larger square\nis therefore\nπr2\n¡\n2\n√\n2r\n¢2 = π\n8 .\n\nSolutions\n2005\n6th AMC 10 B\n3\n2 2\n√\n2\n√\nr\nr\n2r\nr",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q08",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "An 8-foot by 10-foot ﬂoor is tiled with square tiles of size 1 foot by 1 foot. Each tile has a pattern\nconsisting of four white quarter circles of radius 1/2 foot centered at each corner of the tile.\nThe remaining portion of the tile is shaded. How many square feet of the ﬂoor are shaded?",
+    "answer_choices": {
+      "A": "80 −20π",
+      "B": "60 −10π",
+      "C": "80 −10π",
+      "D": "60 + 10π",
+      "E": "80 + 10π"
+    },
+    "correct_answer": "A",
+    "solution_text": "The four white quarter circles in each tile have the same area as a whole\ncircle of radius 1/2, that is, π(1/2)2 = π/4 square feet. So the area of the shaded\nportion of each tile is 1 −π/4 square feet. Since there are 8 · 10 = 80 tiles in the\nentire ﬂoor, the area of the total shaded region in square feet is\n80\n³\n1 −π\n4\n´\n= 80 −20π.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q09",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "One fair die has faces 1, 1, 2, 2, 3, 3 and another has faces 4, 4, 5, 5, 6, 6. The dice are rolled and\nthe numbers on the top faces are added. What is the probability that the sum will be odd?",
+    "answer_choices": {
+      "A": "1\n3",
+      "B": "4\n9",
+      "C": "1\n2",
+      "D": "5\n9",
+      "E": "2\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "An odd sum requires either that the ﬁrst die is even and the second is odd\nor that the ﬁrst die is odd and the second is even. The probability is\n1\n3 · 1\n3 + 2\n3 · 2\n3 = 1\n9 + 4\n9 = 5\n9.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q10",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In △ABC, we have AC = BC = 7 and AB = 2. Suppose that D is a point on line AB such that\nB lies between A and D and CD = 8. What is BD?",
+    "answer_choices": {
+      "A": "3",
+      "B": "2\n√\n3",
+      "C": "4",
+      "D": "5",
+      "E": "4\n√\n2"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let CH be an altitude of △ABC. Applying the Pythagorean Theorem to\n△CHB and to △CHD produces\n82 −(BD + 1)2 = CH2 = 72 −12 = 48,\nso\n(BD + 1)2 = 16.\nThus BD = 3.\nA\nH\nB\nD\nC\n7\n7\n1\n1\n8",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q11",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "The ﬁrst term of a sequence is 2005. Each succeeding term is the sum of the cubes of the digits\nof the previous terms. What is the 2005th term of the sequence?",
+    "answer_choices": {
+      "A": "29",
+      "B": "55",
+      "C": "85",
+      "D": "133",
+      "E": "250"
+    },
+    "correct_answer": "E",
+    "solution_text": "The sequence begins 2005, 133, 55, 250, 133, . . . . Thus after the initial term\n2005, the sequence repeats the cycle 133, 55, 250. Because 2005 = 1 + 3 · 668,\nthe 2005th term is the same as the last term of the repeating cycle, 250.\n\nSolutions\n2005\n6th AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q12",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Twelve fair dice are rolled. What is the probability that the product of the numbers on the top\nfaces is prime?",
+    "answer_choices": {
+      "A": "1\n12\n12",
+      "B": "1\n6\n12",
+      "C": "2\n 1\n6\n11",
+      "D": "5\n2\n 1\n6\n11",
+      "E": "1\n6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Exactly one die must have a prime face on top, and the other eleven must\nhave 1’s. The prime die can be any one of the twelve, and the prime can be\n2, 3, or 5. Thus the probability of a prime face on any one die is 1/2, and the\nprobability of a prime product is\n12\nµ1\n2\n¶ µ1\n6\n¶11\n=\nµ1\n6\n¶10\n.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q13",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many numbers between 1 and 2005 are integer multiples of 3 or 4 but not 12?",
+    "answer_choices": {
+      "A": "501",
+      "B": "668",
+      "C": "835",
+      "D": "1002",
+      "E": "1169"
+    },
+    "correct_answer": "C",
+    "solution_text": "Between 1 and 2005, there are 668 multiples of 3, 501 multiples of 4, and\n167 multiples of 12. So there are\n(668 −167) + (501 −167) = 835\nnumbers between 1 and 2005 that are integer multiples of 3 or of 4 but not of\n12.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q14",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Equilateral △ABC has side length 2, M is the midpoint of AC, and C is the midpoint of BD.\nWhat is the area of △CDM?",
+    "answer_choices": {
+      "A": "√\n2\n2",
+      "B": "3\n4",
+      "C": "√\n3\n2",
+      "D": "1",
+      "E": "√\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Drop MQ perpendicular to BC. Then △MQC is a 30–60–90◦triangle, so\nMQ =\n√\n3/2, and the area of △CDM is\n1\n2\nÃ\n2 ·\n√\n3\n2\n!\n=\n√\n3\n2 .\nOR\nTriangles ABC and CDM have equal bases. Because M is the midpoint of AC,\nthe ratio of the altitudes from M and from A is 1/2. So the area of △CDM is\nhalf of the area of △ABC. Since\nArea(△ABC) =\n√\n3\n4 · 22 =\n√\n3,\nwe have\nArea(△CDM) =\n√\n3\n2 .",
+    "has_image": true
+  },
+  {
+    "id": "2005-AMC10B-Q15",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "An envelope contains eight bills: 2 ones, 2 ﬁves, 2 tens, and 2 twenties. Two bills are drawn at\nrandom without replacement. What is the probability that their sum is $20 or more?",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "2\n7",
+      "C": "3\n7",
+      "D": "1\n2",
+      "E": "2\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "There are\nµ8\n2\n¶\n=\n8!\n6! · 2! = 28\nways to choose the bills. A sum of at least $20 is obtained by choosing both\n$20 bills, one of the $20 bills and one of the six smaller bills, or both $10 bills.\nHence the probability is\n1 + 2 · 6 + 1\n28\n= 14\n28 = 1\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q16",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The quadratic equation x^{2} + mx + n = 0 has roots that are twice those of x^{2} + px + m = 0, and\nnone of m, n, and p is zero. What is the value of n\np?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "8",
+      "E": "16"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let r1 and r2 be the roots of x2+px+m = 0. Since the roots of x2+mx+n =\n0 are 2r1 and 2r2, we have the following relationships:\nm = r1r2,\nn = 4r1r2,\np = −(r1 + r2),\nand\nm = −2(r1 + r2).\nSo\nn = 4m,\np = 1\n2m,\nand\nn\np = 4m\n1\n2m = 8.\n\nSolutions\n2005\n6th AMC 10 B\n5\nOR\nThe roots of\n³x\n2\n´2\n+ p\n³x\n2\n´\n+ m = 0\nare twice those of x2 + px + m = 0. Since the ﬁrst equation is equivalent to\nx2 + 2px + 4m = 0, we have\nm = 2p\nand\nn = 4m,\nso\nn\np = 8.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q17",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Suppose that 4^{a} = 5, 5^{b} = 6, 6^{c} = 7, and 7^{d} = 8. What is a · b · c · d?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3\n2",
+      "C": "2",
+      "D": "5\n2",
+      "E": "3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because\n4a·b·c·d =\n³³\n(4a)b´c´d\n=\n³¡\n5b¢c´d\n= (6c)d = 7d = 8 = 43/2,\nwe have a · b · c · d = 3/2.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q18",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "All of David’s telephone numbers have the form 555 −abc −defg, where a, b, c, d, e, f, and g are\ndistinct digits and in increasing order, and none is either 0 or 1. How many different telephone\nnumbers can David have?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "D",
+    "solution_text": "The last seven digits of the phone number use seven of the eight digits\n{2, 3, 4, 5, 6, 7, 8, 9}, so all but one of these digits is used.\nThe unused digit\ncan be chosen in eight ways. The remaining seven digits are then placed in\nincreasing order to obtain a possible phone number. Thus there are 8 possible\nphone numbers.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q19",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "On a certain math exam, 10% of the students got 70 points, 25% got 80 points, 20% got 85 points,\n15% got 90 points, and the rest got 95 points. What is the difference between the mean and the\nmedian score on this exam?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The percentage of students getting 95 points is\n100 −10 −25 −20 −15 = 30,\nso the mean score on the exam is\n0.10(70) + 0.25(80) + 0.20(85) + 0.15(90) + 0.30(95) = 86.\nSince fewer than half of the scores were less than 85, and fewer than half of the\nscores were greater than 85, the median score is 85. The diﬀerence between the\nmean and the median score on this exam is 86 −85 = 1.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q20",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "What is the average (mean) of all 5-digit numbers that can be formed by using each of the digits\n1, 3, 5, 7, and 8 exactly once?",
+    "answer_choices": {
+      "A": "48000",
+      "B": "49999.5",
+      "C": "53332.8",
+      "D": "55555",
+      "E": "56432.8"
+    },
+    "correct_answer": "C",
+    "solution_text": "Each digit appears the same number of times in the 1’s place, the 10’s place,\n. . ., and the 10,000’s place. The average of the digits in each place is\n1\n5(1 + 3 + 5 + 7 + 8) = 24\n5 = 4.8.\nHence the average of all the numbers is\n4.8(1 + 10 + 100 + 1000 + 10000) = 4.8(11111) = 53332.8.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q21",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Forty slips are placed into a hat, each bearing a number 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10, with each\nnumber entered on four slips. Four slips are drawn from the hat at random and without replace-\nment. Let p be the probability that all four slips bear the same number. Let q be the probability\nthat two of the slips bear a number a and the other two bear a number b ̸= a. What is the value\nof q/p?",
+    "answer_choices": {
+      "A": "162",
+      "B": "180",
+      "C": "324",
+      "D": "360",
+      "E": "720"
+    },
+    "correct_answer": "A",
+    "solution_text": "The total number of ways that the numbers can be chosen is\n¡40\n4\n¢\n. Exactly\n10 of these possibilities result in the four slips having the same number.\nNow we need to determine the number of ways that two slips can have a number\na and the other two slips have a number b, with b ̸= a. There are\n¡10\n2\n¢\nways to\n\nSolutions\n2005\n6th AMC 10 B\n6\nchoose the distinct numbers a and b. For each value of a there are\n¡4\n2\n¢\nto choose\nthe two slips with a and for each value of b there are\n¡4\n2\n¢\nto choose the two slips\nwith b. Hence the number of ways that two slips have some number a and the\nother two slips have some distinct number b is\nµ10\n2\n¶\n·\nµ4\n2\n¶\n·\nµ4\n2\n¶\n= 45 · 6 · 6 = 1620.\nSo the probabilities q and p are\n10\n¡40\n4\n¢\nand\n1620\n¡40\n4\n¢ , respectively, which implies\nthat\np\nq = 1620\n10\n= 162.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q22",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For how many positive integers n less than or equal to 24 is n! evenly divisible by 1+2+· · ·+n?",
+    "answer_choices": {
+      "A": "8",
+      "B": "12",
+      "C": "16",
+      "D": "17",
+      "E": "21"
+    },
+    "correct_answer": "C",
+    "solution_text": "Since\n1 + 2 + · · · + n = n(n + 1)\n2\n,\nthe condition is equivalent to having an integer value for\nn!\nn(n + 1)/2.\nThis reduces, when n ≥1, to having an integer value for\n2(n −1)!\nn + 1\n.\nThis fraction is an integer unless n + 1 is an odd prime. There are 8 odd primes\nless than or equal to 25, so there are 24 −8 = 16 numbers less than or equal to\n24 that satisfy the condition.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q23",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In trapezoid ABCD we have AB parallel to DC, E as the midpoint of BC, and F as the midpoint\nof DA. The area of ABEF is twice the area of FECD. What is AB/DC?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "C",
+    "solution_text": "First note that FE = (AB + DC)/2.\nBecause trapezoids ABEF and\nFECD have the same height, the ratio of their areas is equal to the ratio of the\naverages of their parallel sides. Since\nAB + AB + DC\n2\n= 3AB + DC\n2\nand\nAB + DC\n2\n+ DC = AB + 3DC\n2\n,\nwe have\n3AB + DC = 2(AB + 3DC) = 2AB + 6DC,\nand\nAB\nDC = 5.\nA\nB\nD\nE\nF\nC\n\nSolutions\n2005\n6th AMC 10 B\n7",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q24",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let x and y be two-digit integers such that y is obtained by reversing the digits of x. The integers\nx and y satisfy x^{2} −y^{2} = m^{2} for some positive integer m. What is x + y + m?",
+    "answer_choices": {
+      "A": "88",
+      "B": "112",
+      "C": "116",
+      "D": "144",
+      "E": "154"
+    },
+    "correct_answer": "E",
+    "solution_text": "By the given conditions, it follows that x > y.\nLet x = 10a + b and\ny = 10b + a, where a > b. Then\nm2 = x2 −y2 = (10a + b)2 −(10b + a)2 = 99a2 −99b2 = 99(a2 −b2).\nSince 99(a2 −b2) must be a perfect square,\na2 −b2 = (a + b)(a −b) = 11k2,\nfor some positive integer k. Because a and b are distinct digits, we have a −b ≤\n9 −1 = 8 and a + b ≤9 + 8 = 17. It follows that a + b = 11, a −b = k2, and k\nis either 1 or 2.\nIf k = 2, then (a, b) = (15/2, 7/2), which is impossible.\nThus k = 1 and\n(a, b) = (6, 5). This gives x = 65, y = 56, m = 33, and x + y + m = 154.",
+    "has_image": false
+  },
+  {
+    "id": "2005-AMC10B-Q25",
+    "year": 2005,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "A subset B of the set of integers from 1 to 100, inclusive, has the property that no two elements\nof B sum to 125. What is the maximum possible number of elements in B?",
+    "answer_choices": {
+      "A": "50",
+      "B": "51",
+      "C": "62",
+      "D": "65",
+      "E": "68\n–"
+    },
+    "correct_answer": "C",
+    "solution_text": "Several pairs of numbers from 1 to 100 sum to 125. These pairs are (25, 100),\n(26, 99), . . . , (62, 63). Set B can have at most one number from each of these\n62−25+1 = 38 pairs. In addition, B can contain all of the numbers 1, 2, . . . , 24\nsince these cannot be paired with any of the available numbers to sum to 125.\nSo B has at most 38+24 = 62 numbers. The set containing the ﬁrst 62 positive\nintegers, for example, is one of these maximum sets.\n\nThe\nAmerican Mathematics Contest 10 (AMC 10)\nSponsored by\nThe Mathematical Association of America\nUniversity of Nebraska – Lincoln\nContributors\nAkamai Foundation\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nCanada/USA Mathcamp\nCanada/USA Mathpath\nCasualty Actuarial Society\nClay Mathematics Institute\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour & Company\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPedagoguery Software Inc.\nPi Mu Epsilon\nSociety of Actuaries\nUSA Math Talent Search\nW. H. Freeman & Company",
+    "has_image": false
+  }
+]

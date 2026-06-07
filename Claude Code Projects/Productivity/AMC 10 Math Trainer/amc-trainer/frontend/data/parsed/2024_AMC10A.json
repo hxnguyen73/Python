@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2024-AMC10A-Q01",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the value of 9901 · 101 −99 · 10101?",
+    "answer_choices": {
+      "A": "2",
+      "B": "20",
+      "C": "21",
+      "D": "200",
+      "E": "2020"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2024-AMC10A-Q02",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A model used to estimate the time it will take to hike to the top of the mountain on a trail is of\nthe form T = aL + bG, where a and b are constants, T is the time in minutes, L is the length\nof the trail in miles, and G is the altitude gain in feet. The model estimates that it will take 69\nminutes to hike to the top if a trail is 1.5 miles long and ascends 800 feet, as well as if a trail is\n1.2 miles long and ascends 1100 feet. How many minutes does the model estimate it will take\nto hike to the top if the trail is 4.2 miles long and ascends 4000 feet?",
+    "answer_choices": {
+      "A": "240",
+      "B": "246",
+      "C": "252",
+      "D": "258",
+      "E": "264"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q03",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the sum of the digits of the smallest prime that can be written as a sum of 5 distinct\nprimes?",
+    "answer_choices": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q04",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The number 2024 is written as the sum of not necessarily distinct two-digit numbers. What is\nthe least number of two-digit numbers needed to write this sum?",
+    "answer_choices": {
+      "A": "20",
+      "B": "21",
+      "C": "22",
+      "D": "23",
+      "E": "24"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q05",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the least value of n such that n! is a multiple of 2024?",
+    "answer_choices": {
+      "A": "11",
+      "B": "21",
+      "C": "22",
+      "D": "23",
+      "E": "253"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q06",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the minimum number of successive swaps of adjacent letters in the string ABCDEF that\nare needed to change the string to FEDCBA? (For example, 3 swaps are required to change ABC\nto CBA; one such sequence of swaps is ABC →BAC →BCA →CBA.)",
+    "answer_choices": {
+      "A": "6",
+      "B": "10",
+      "C": "12",
+      "D": "15",
+      "E": "24"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q07",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The product of three integers is 60. What is the least possible positive sum of the three integers?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "6",
+      "E": "13"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q08",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Amy, Bomani, Charlie, and Daria work in a chocolate factory. On Monday Amy, Bomani, and\nCharlie started working at 1:00 PM and were able to pack 4, 3, and 3 packages, respectively, every\n3 minutes. At some later time, Daria joined the group, and Daria was able to pack 5 packages\nevery 4 minutes. Together, they ﬁnished packing 450 packages at exactly 2:45 PM. At what time\ndid Daria join the group?",
+    "answer_choices": {
+      "A": "1:25 PM",
+      "B": "1:35 PM",
+      "C": "1:45 PM",
+      "D": "1:55 PM",
+      "E": "2:05 PM"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q09",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In how many ways can 6 juniors and 6 seniors form 3 disjoint teams of 4 people so that each\nteam has 2 juniors and 2 seniors?",
+    "answer_choices": {
+      "A": "720",
+      "B": "1350",
+      "C": "2700",
+      "D": "3280",
+      "E": "8100"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q10",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Consider the following operation. Given a positive integer n, if n is a multiple of 3, then you\nreplace n by n\n3 . If n is not a multiple of 3, then you replace n by n + 10. Then continue this\nprocess. For example, beginning with n = 4, this procedure gives 4 →14 →24 →8 →18 →\n6 →2 →12 →· · · . Suppose you start with n = 100. What value results if you perform this\noperation exactly 100 times?",
+    "answer_choices": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40",
+      "E": "50"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q11",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs of integers (m, n) satisfy\n√\nn^{2} −49 = m?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "Inﬁnitely many"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q12",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Zelda played the Adventures of Math game on August 1 and scored 1700 points. She continued\nto play daily over the next 5 days. The bar chart below shows the daily change in her score\ncompared to the day before. (For example, Zelda’s score on August 2 was 1700 + 80 = 1780\npoints.) What was Zelda’s average score in points over the 6 days?\n\npng",
+    "answer_choices": {
+      "A": "1700",
+      "B": "1702",
+      "C": "1703",
+      "D": "1713",
+      "E": "1715"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2024-AMC10A-Q13",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two transformations are said to commute if applying the ﬁrst followed by the second gives the\nsame result as applying the second followed by the ﬁrst. Consider these four transformations\nof the coordinate plane:\n- A translation 2 units to the right\n- A 90^{◦}- rotation counterclockwise about the origin.\n- A reﬂection across the x-axis, and\n- A dilation centered at the origin with scale factor 2.\n\nOf the 6 pairs of distinct transformations from this list, how many commute?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q14",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "One side of an equilateral triangle of height 24 lies on line ℓ. A circle of radius 12 is tangent to ℓ and is externally tangent to the triangle. The area of the region exterior to the triangle and the circle and bounded by the triangle, the circle, and line ℓ can be written as a\n√\nb −cπ, where a, b, and c are positive integers and b is not divisible by the square of any prime. What is a + b + c?",
+    "answer_choices": {
+      "A": "72",
+      "B": "73",
+      "C": "74",
+      "D": "75",
+      "E": "76"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q15",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Let M be the greatest integer such that both M +1213 and M +3773 are perfect squares. What\nis the units digit of M?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q16",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "All of the rectangles in the ﬁgure below, which is drawn to scale, are similar to the enclosing\nrectangle. Each number represents the area of the rectangle. What is length AB?\n\npng",
+    "answer_choices": {
+      "A": "4 + 4\n√\n5",
+      "B": "10\n√\n2",
+      "C": "5 + 5\n√\n5",
+      "D": "10\n4√\n8",
+      "E": "20"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q17",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Two teams are in a best-two-out-of-three playoff: the teams will play at most 3 games, and the\nwinner of the playoff is the ﬁrst team to win 2 games. The ﬁrst game is played on Team A’s home\nﬁeld, and the remaining games are played on Team B’s home ﬁeld. Team A has a 2\n3 chance of\nwinning at home, and its probability of winning when playing away from home is p. Outcomes\nof the games are independent. The probability that Team A wins the playoff is 1\n2. Then p can be\nwritten in the form 1\n2(m −√n), where m and n are positive integers. What is m + n?",
+    "answer_choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q18",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "There are exactly K positive integers b with 5 ≤b ≤2024 such that the base-b integer $2024_{b}$ is divisible by 16 (where 16 is in base ten). What is the sum of the digits of K?",
+    "answer_choices": {
+      "A": "16",
+      "B": "17",
+      "C": "18",
+      "D": "20",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q19",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "The ﬁrst three terms of a geometric sequence are the integers a, 720, and b, where a < 720 < b.\nWhat is the sum of the digits of the least possible value of b?",
+    "answer_choices": {
+      "A": "9",
+      "B": "12",
+      "C": "16",
+      "D": "18",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q20",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Let S be a subset of {1, 2, 3, . . . , 2024} such that the following two conditions hold:\n- If x and y are distinct elements of S, then |x −y| > 2\n- If x and y are distinct odd elements of S, then |x −y| > 6.\nWhat is the maximum possible number of elements in S?",
+    "answer_choices": {
+      "A": "436",
+      "B": "506",
+      "C": "608",
+      "D": "654",
+      "E": "675"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q21",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "The numbers, in order, of each row and the numbers, in order, of each column of a 5×5 array of integers form an arithmetic progression of length 5. The numbers in positions (5, 5), (2, 4), (4, 3), and (3, 1) are 0, 48, 16, and 12, respectively. What number is in position (1, 2)?",
+    "answer_choices": {
+      "A": "19",
+      "B": "24",
+      "C": "29",
+      "D": "34",
+      "E": "39"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q22",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let K be the kite formed by joining two right triangles with legs 1 and\n√\n3 along a common\nhypotenuse. Eight copies of K are used to form the polygon shown below. What is the area of\ntriangle ∆ABC?\n\npng",
+    "answer_choices": {
+      "A": "2 + 3\n√\n3",
+      "B": "9\n2\n√\n3",
+      "C": "10 + 8\n√\n3\n3",
+      "D": "8",
+      "E": "5\n√\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2024-AMC10A-Q23",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Integers a, b, and c satisfy ab + c = 100, bc + a = 87, and ca + b = 60. What is ab + bc + ca?",
+    "answer_choices": {
+      "A": "212",
+      "B": "247",
+      "C": "258",
+      "D": "276",
+      "E": "284"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q24",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A bee is moving in three-dimensional space. A fair six-sided die with faces labeled A^{+}, A^{−}, B^{+}, B^{−}, C^{+},\nand C^{−}is rolled. Suppose the bee occupies the point (a, b, c). If the die shows A^{+}, then the bee\nmoves to the point (a+1, b, c) and if the die shows A^{−}, then the bee moves to the point (a−1, b, c).\nAnalogous moves are made with the other four outcomes. Suppose the bee starts at the point\n(0, 0, 0) and the die is rolled four times. What is the probability that the bee traverses four distinct\nedges of some unit cube?",
+    "answer_choices": {
+      "A": "1\n54",
+      "B": "7\n54",
+      "C": "1\n6",
+      "D": "5\n18",
+      "E": "2\n5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10A-Q25",
+    "year": 2024,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The ﬁgure below shows a dotted grid 8 cells wide and 3 cells tall consisting of 1^{′′} × 1^{′′} squares.\nCarl places 1-inch toothpicks along some of the sides of the squares to create a closed loop that\ndoes not intersect itself. The numbers in the cells indicate the number of sides of that square\nthat are to be covered by toothpicks, and any number of toothpicks are allowed if no number is\nwritten. In how many ways can Carl place the toothpicks?\n\n1\n1\n1\n1\n1\n1\n1\n1",
+    "answer_choices": {
+      "A": "130",
+      "B": "144",
+      "C": "146",
+      "D": "162",
+      "E": "196"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2021-AMC10A-Q01",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of (2112−2021)^{2}\n169\n?",
+    "answer_choices": {
+      "A": "7",
+      "B": "21",
+      "C": "49",
+      "D": "64",
+      "E": "91"
+    },
+    "correct_answer": "C",
+    "solution_text": "Observe that 2112 \u0000 2021 D 91 D 7 \u0001 13 and that 169 D 132. Thus\n.2112 \u0000 2021/2\n169\nD .7 \u0001 13/2\n132\nD 72 D 49:\n2. Menkara has a 4\u00026 index card. If she shortens the length of one side of this card by 1 inch, the card would have\narea 18 square inches. What would the area of the card be in square inches if instead she shortens the length of\nthe other side by 1 inch?\n(A) 16\n(B) 17\n(C) 18\n(D) 19\n(E) 20",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q02",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Menkara has a 4 × 6 index card. If she shortens the length of one side of this card by 1 inch, the\ncard would have area 18 square inches. What would the area of the card be in square inches if\ninstead she shortens the length of the other side by 1 inch?",
+    "answer_choices": {
+      "A": "16",
+      "B": "17",
+      "C": "18",
+      "D": "19",
+      "E": "20"
+    },
+    "correct_answer": "E",
+    "solution_text": "Shortening the side with length 4 by 1 inch yields a 3 \u0002 6 card, whose area is 18 square inches.\nShortening the side with length 6 by 1 inch results in a 4 \u0002 5 card, whose area is 20 square inches.\n3. What is the maximum number of balls of clay with radius 2 that can completely fit inside a cube of side length\n6 assuming that the balls can be reshaped but not compressed before they are packed in the cube?\n(A) 3\n(B) 4\n(C) 5\n(D) 6\n(E) 7",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q03",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "What is the maximum number of balls of clay of radius 2 that can completely ﬁt inside a cube of\nside length 6 assuming the balls can be reshaped but not compressed before they are packed\nin the cube?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "D",
+    "solution_text": "The volume of each ball of radius 2 is 4\n3 \u0001 \u0019 \u0001 23 D 32\n3 \u0019. The volume of the cube of side length 6\nis 63 D 216. There is room for at most\n216\n32\n3 \u0019 D 648\n32\u0019 D 81\n4\u0019\nballs. Because 12 < 4\u0019 < 13, it follows that\n6 < 81\n13 < 81\n4\u0019 < 81\n12 < 7:\nHence the maximum number of reshaped balls that can completely fit inside the cube is 6.\n4. Mr. Lopez has a choice of two routes to get to work. Route A is 6 miles long, and his average speed along this\nroute is 30 miles per hour. Route B is 5 miles long, and his average speed along this route is 40 miles per hour,\nexcept for a 1\n2-mile stretch in a school zone where his average speed is 20 miles per hour. By how many minutes\nis Route B quicker than Route A?\n(A) 23\n4\n(B) 33\n4\n(C) 41\n2\n(D) 51\n2\n(E) 63\n4",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q04",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Mr. Lopez has a choice of two routes to get to work. Route A is 6 miles long, and his average\nspeed along this route is 30 miles per hour. Route B is 5 miles long, and his average speed along\nthis route is 40 miles per hour, except for a 1\n2-mile stretch in a school zone where his average\nspeed is 20 miles per hour. By how many minutes is Route B quicker than Route A?",
+    "answer_choices": {
+      "A": "2^{3}\n4",
+      "B": "3^{3}\n4",
+      "C": "4^{1}\n2",
+      "D": "5^{1}\n2",
+      "E": "6^{3}\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "The time required for Route A is 6 miles divided by 30 miles per hour, which is 1\n5 hour. The time\nrequired for Route B is 5 \u0000 1\n2 D 9\n2 miles divided by 40 miles per hour, plus 1\n2 mile divided by 20 miles per hour,\nwhich is\n9\n80 C 1\n40 D 11\n80 hour. The difference in time is\n1\n5 \u0000 11\n80 D 16 \u0000 11\n80\nD 5\n80 D 1\n16\nhour. This is equivalent to\n1\n16 \u0001 60 D 15\n4 D 3 3\n4 minutes.\n5. The six-digit number 2 0 2 1 0 A is prime for only one digit A. What is A ?\n(A) 1\n(B) 3\n(C) 5\n(D) 7\n(E) 9",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q05",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The six-digit number 2 0 2 1 0 A is prime for only one digit A. What is A?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7",
+      "E": "9"
+    },
+    "correct_answer": "E",
+    "solution_text": "A number whose units digit is 5 is divisible by 5, so choice (C) does not give a prime. Choices\n(A) and (D) can be ruled out by the fact that a number is divisible by 3 if and only if the sum of its digits is\n\nFall 2021 AMC 10 A Solutions\n3\ndivisible by 3; here 2 C 0 C 2 C 1 C 0 C 1 D 6 and 2 C 0 C 2 C 1 C 0 C 7 D 12 are divisible by 3. Choice\n(B) can be ruled out by the fact that a number is divisible by 11 if and only if the alternating sum of its digits is\ndivisible by 11; here 2 \u0000 0 C 2 \u0000 1 C 0 \u0000 3 D 0 is divisible by 11. The five even choices for A result in a number\ndivisible by 2. Given that one choice produces a prime, A must equal 9 and the number 202109 must be prime.\n(In fact, this can be verified with computer algebra software.)\n6. Elmer the emu takes 44 equal strides to walk between consecutive telephone poles on a rural road. Oscar the\nostrich can cover the same distance in 12 equal leaps. The telephone poles are evenly spaced, and the 41st pole\nalong this road is exactly one mile (5280 feet) from the first pole. How much longer, in feet, is Oscar’s leap than\nElmer’s stride?\n(A) 6\n(B) 8\n(C) 10\n(D) 11\n(E) 15",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q06",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Elmer the emu takes 44 equal strides to walk between consecutive telephone poles on a rural\nroad. Oscar the ostrich can cover the same distance in 12 equal leaps. The telephone poles are\nevenly spaced, and the 41st pole along this road is exactly one mile (5280 feet) from the ﬁrst\npole. How much longer, in feet, is Oscar’s leap than Elmer’s stride?",
+    "answer_choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "11",
+      "E": "15"
+    },
+    "correct_answer": "B",
+    "solution_text": "Consecutive telephone poles are 5280\n40\nD 132 feet apart. Elmer’s stride is then 132\n44 D 3 feet long,\nand Oscar’s leap is 132\n12 D 11 feet long. The requested difference is 11 \u0000 3 D 8.\n7. As shown in the figure below, point E lies in the opposite half-plane determined by line CD from point A so\nthat ∠CDE D 110ı. Point F lies on AD so that DE D DF , and ABCD is a square. What is the degree\nmeasure of ∠AFE ?\nA\nB\nC\nE\nF\n110°\nD\n(A) 160\n(B) 164\n(C) 166\n(D) 170\n(E) 174",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q07",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "As shown in the ﬁgure below, point E lies on the opposite half-plane determined by line CD\nfrom point A so that ∠CDE = 110^{◦}. Point F lies on AD so that DE = DF, and ABCD is a\nsquare. What is the degree measure of ∠AFE?\nA\nB\nC\nD\nE\nF\n110^{◦}",
+    "answer_choices": {
+      "A": "160",
+      "B": "164",
+      "C": "166",
+      "D": "170",
+      "E": "174"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that ∠EDF D 360ı \u0000 ∠ADC \u0000 ∠CDE D 360ı \u0000 90ı \u0000 110ı D 160ı. Because\n4DEF is isosceles, angles DEF and DFE have an equal measure of 180ı\u0000160ı\n2\nD 10ı. Hence ∠AFE D\n180ı \u0000 ∠DFE D 180ı \u0000 10ı D 170ı.\n8. A two-digit positive integer is said to be cuddly if it is equal to the sum of its nonzero tens digit and the square\nof its units digit. How many two-digit positive integers are cuddly?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+    "has_image": true
+  },
+  {
+    "id": "2021-AMC10A-Q08",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A two-digit positive integer is said to be cuddly if it is equal to the sum of its nonzero tens digit\nand the square of its units digit. How many two-digit positive integers are cuddly?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "B",
+    "solution_text": "The value of a two-digit cuddly number a b is 10a C b. Therefore 10a C b D a C b2, so\n9a D b.b \u0000 1/. It follows that 9 divides b.b \u0000 1/. If 3 j b and 3 j .b \u0000 1/, then 3 j 1, which is a contradiction.\nThus either 9 j b or 9 j .b \u0000 1/. Furthermore, a ¤ 0 implies b > 1. Therefore the only possible value for b is 9.\nThen 9a D 9 \u0001 8, so a D 8, and the only two-digit cuddly number is 89.\n9. When a certain unfair die is rolled, an even number is 3 times as likely to appear as an odd number. The die is\nrolled twice. What is the probability that the sum of the numbers rolled is even?\n(A) 3\n8\n(B) 4\n9\n(C) 5\n9\n(D) 9\n16\n(E) 5\n8",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q09",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "When a certain unfair die is rolled, an even number is 3 times as likely to appear as an odd\nnumber. The die is rolled twice. What is the probability that the sum of the numbers rolled is\neven?",
+    "answer_choices": {
+      "A": "3\n8",
+      "B": "4\n9",
+      "C": "5\n9",
+      "D": "9\n16",
+      "E": "5\n8"
+    },
+    "correct_answer": "E",
+    "solution_text": "Suppose that the probability of rolling an odd number is p. The probability of rolling an even\nnumber is then 3p. Because p C 3p D 1, it follows that p D 1\n4, so the probability of rolling an odd number is\n1\n4 and the probability of rolling an even number is 1 \u0000 1\n4 D 3\n4. The sum will be even if both rolls are even or\nboth rolls are odd. Therefore the probability of rolling an even sum is 3\n4 \u0001 3\n4 C 1\n4 \u0001 1\n4 D 5\n8.\n\n4\nFall 2021 AMC 10 A Solutions\n10. A school has 100 students and 5 teachers. In the first period, each student is taking one class, and each teacher\nis teaching one class. The enrollments in the classes are 50, 20, 20, 5, and 5. Let t be the average value obtained\nif a teacher is picked at random and the number of students in their class is noted. Let s be the average value\nobtained if a student is picked at random and the number of students in their class, including that student, is\nnoted. What is t \u0000 s ?\n(A) \u000018:5\n(B) \u000013:5\n(C) 0\n(D) 13:5\n(E) 18:5",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q10",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A school has 100 students and 5 teachers. In the ﬁrst period, each student is taking one class,\nand each teacher is teaching one class. The enrollments in the classes are 50, 20, 20, 5, and 5.\nLet t be the average value obtained if a teacher is picked at random and the number of students\nin their class is noted. Let s be the average value obtained if a student was picked at random\nand the number of students in their class, including the student, is noted. What is t −s?",
+    "answer_choices": {
+      "A": "−18.5",
+      "B": "−13.5",
+      "C": "0",
+      "D": "13.5",
+      "E": "18.5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The average class size when a teacher—that is, a class—is picked at random is given by\nt D 1\n5 \u0001 50 C 2\n5 \u0001 20 C 2\n5 \u0001 5 D 20:\nA randomly picked student has a\n50\n100 chance of being in the class with 50 students, a\n40\n100 chance of being in a\nclass with 20 students, and a\n10\n100 chance of being in a class with 5 students, so\ns D 50\n100 \u0001 50 C 40\n100 \u0001 20 C 10\n100 \u0001 5 D 33:5:\nThe requested difference is 20 \u0000 33:5 D \u000013:5.\n11. Emily sees a ship traveling at a constant speed along a straight section of a river. She walks parallel to the\nriverbank at a uniform rate faster than the ship. She counts 210 equal steps walking from the back of the ship to\nthe front. Walking in the opposite direction, she counts 42 steps of the same size from the front of the ship to\nthe back. In terms of Emily’s equal steps, what is the length of the ship?\n(A) 70\n(B) 84\n(C) 98\n(D) 105\n(E) 126",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q11",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Emily sees a ship traveling at a constant speed along a straight section of a river. She walks\nparallel to the riverbank at a uniform rate faster tha the ship. She counts 210 equal steps walking\nfrom the back of the ship to the front. Walking in the opposite direction, she counts 42 steps of\nthe same size from the front of the ship to the back. In terms of Emily’s equal steps, what is the\n\nAoPS Community\n2021 AMC 10 Fall\nlength of the ship?",
+    "answer_choices": {
+      "A": "70",
+      "B": "84",
+      "C": "98",
+      "D": "105",
+      "E": "126"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let L denote the required length of the ship. Assume Emily’s speed is 1 and let v < 1 denote\nthe speed of the ship relative to the riverbank. When Emily walks from the back to the front, it takes 210 steps,\nso 210.1 \u0000 v/ D L. Similarly, when Emily walks from the front to the back of the ship, it takes 42 steps, so\n42.1 C v/ D L. Solving this system yields v D 2\n3 and L D 70:\n12. The base-nine representation of the number N is 27;006;000;052nine. What is the remainder when N is divided\nby 5 ?\n(A) 0\n(B) 1\n(C) 2\n(D) 3\n(E) 4",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q12",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The base-nine representation of the number N is 27,006,000,052^{nine}. What is the remainder when\nN is divided by 5?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that N D 2\u0001910 C7\u000199 C6\u000196 C5\u000191 C2\u000190. Because even powers of 9 leave remainder\n1 when divided by 5 and odd powers of 9 leave remainder congruent to \u00001 when divided by 5, it follows that N\nleaves remainder congruent to 2 \u0000 7 C 6 \u0000 5 C 2 D \u00002 \u0011 3 .mod 5/, so the requested remainder is 3.\n13. Each of 6 balls is randomly and independently painted either black or white with equal probability. What is the\nprobability that every ball is different in color from more than half of the other 5 balls?\n(A) 1\n64\n(B) 1\n6\n(C) 1\n4\n(D) 5\n16\n(E) 1\n2",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q13",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Each of 6 balls is randomly and independently painted either black or white with equal probabil-\nity. What is the probability that every ball is different in color from more than half of the other 5\nballs?",
+    "answer_choices": {
+      "A": "1\n64",
+      "B": "1\n6",
+      "C": "1\n4",
+      "D": "5\n16",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The specified event will occur if and only if there are 3 balls of each color. Indeed, if they are\npainted that way, then each ball has a different color than 3\n5 of the other balls. Conversely, if 4 or more balls are\nblack, or 4 or more are white, then each of those balls has the same color as at least 3\n5 of the other balls.\nThe number of ways to paint the balls so that there are 3 balls of each color is the number of ways to choose 3\nof the 6 balls to be white, which is\n\u00006\n3\n\u0001\nD 20. There are 26 D 64 equally likely ways to paint the balls, so the\nrequested probability is equal to 20\n64 D\n5\n16.\n\nFall 2021 AMC 10 A Solutions\n5\n14. How many ordered pairs .x; y/ of real numbers satisfy the following system of equations?\nx2 C 3y D 9\n.jxj C jyj \u0000 4/2 D 1\n(A) 1\n(B) 2\n(C) 3\n(D) 5\n(E) 7",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q14",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs (x, y) of real numbers satisfy the following system of equations?\nx^{2} + 3y = 9\n(|x| + |y| −4)^{2} = 1",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "5",
+      "E": "7"
+    },
+    "correct_answer": "D",
+    "solution_text": "The graph of the first equation is a parabola opening downward with vertex .0; 3/, passing through\n.\u00003; 0/ and .3; 0/. The second equation is satisfied if either jxj C jyj D 5 or jxj C jyj D 3. Therefore the graph\nof the second equation is a square with vertices .5; 0/, .0; 5/, .\u00005; 0/, and .0; \u00005/ together with a square with\nvertices .3; 0/, .0; 3/, .\u00003; 0/, and .0; \u00003/. As shown below, the two graphs intersect at 5 points—.0; 3/, .3; 0/,\n.\u00003; 0/, and 2 points on the larger square in the lower half-plane.\n–5\n–4\n–3\n–2\n–1\n1\n2\n3\n4\n5\n6\n7\n8\n–5\n–4\n–3\n–2\n–1\n1\n2\n3\n4\n5\n|x| + |y| = 5\n|x| + |y| = 3\n2\nx  + 3y = 9\n15. Isosceles triangle ABC has AB D AC D 3\np\n6, and a circle with radius 5\np\n2 is tangent to line AB at B and to\nline AC at C. What is the area of the circle that passes through vertices A, B, and C ?\n(A) 24\u0019\n(B) 25\u0019\n(C) 26\u0019\n(D) 27\u0019\n(E) 28\u0019",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q15",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Isosceles triangle ABC has AB = AC = 3\n√\n6, and a circle with radius 5\n√\n2 is tangent to line\nAB at B and to line AC at C. What is the area of the circle that passes through vertices A, B,\nand C?",
+    "answer_choices": {
+      "A": "24π",
+      "B": "25π",
+      "C": "26π",
+      "D": "27π",
+      "E": "28π"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let O be the center of the circle with radius 5\np\n2. Consider the circle with diameter AO. Because\n∠ABO and ∠ACO are right angles, the opposite angles of quadrilateral ABOC are supplementary, and hence\nthis quadrilateral is cyclic. Thus O is also on the circle that passes through A, B, and C, and by symmetry AO\nis a diameter. By the Pythagorean Theorem,\nAO D\nr\u0010\n5\np\n2\n\u00112\nC\n\u0010\n3\np\n6\n\u00112\nD 2\np\n26;\nso the circle that passes through A, B, and C has radius\np\n26 and area 26\u0019.\n\n6\nFall 2021 AMC 10 A Solutions\nA\nO\nC\nB\n5  2\n3  6\n16. The graph of f .x/ D jbxcj \u0000 jb1 \u0000 xcj is symmetric about which of the following? (Here bxc is the greatest\ninteger not exceeding x.)\n(A) the y-axis\n(B) the line x D 1\n(C) the origin\n(D) the point\n\u0000 1\n2; 0\n\u0001\n(E) the point .1; 0/",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q16",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Functions",
+    "difficulty": "medium",
+    "problem_text": "The graph of f(x) = |⌊x⌋| −|⌊1 −x⌋| is symmetric about which of the following? (Here ⌊x⌋is\nthe greatest integer not exceeding x.)",
+    "answer_choices": {
+      "A": "the y-axis",
+      "B": "the line x = 1",
+      "C": "the origin",
+      "D": "the point\n1\n2, 0",
+      "E": "the"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x D n C r, where n is an integer and 0 \u0014 r < 1. First suppose that r D 0. Then\nf .x/ D jnj \u0000 j1 \u0000 nj, which is equal to n \u0000 .n \u0000 1/ D 1 if n \u0015 1 and .\u0000n/ \u0000 .1 \u0000 n/ D \u00001 if n \u0014 0. Hence\nthe graph of f cannot be symmetric about the y-axis, the line x D 1, the origin, or the point .1; 0/. However,\nnote that in all cases f .1 \u0000 n/ D \u0000f .n/, so the graph of f is symmetric about the point\n\u0000 1\n2; 0\n\u0001\nwhen x is\nrestricted to integer values. Finally, when r > 0, observe that bxc D n and b1 \u0000 xc D b1 \u0000 n \u0000 rc D \u0000n, so\nf .x/ D jnj \u0000 j\u0000nj D 0, and again f .1 \u0000 x/ D \u0000f .x/. Hence the graph of f is symmetric about the point\n\u0000 1\n2; 0\n\u0001\n.\nOR\nNote that f .1 \u0000 x/ D\nˇˇb1 \u0000 xc\nˇˇ \u0000ˇˇb1 \u0000 .1 \u0000 x/c\nˇˇ D \u0000f .x/. Thus a point .x; y/ is on the graph of f if and\nonly if .1 \u0000 x; \u0000y/ is on the graph. The midpoint of the segment joining these two points is the point\n\u0000 1\n2; 0\n\u0001\n;\nthat is, the graph is symmetric about this point.\nTo show that f .x/ does not have any of the properties described in the four other alternatives, it is useful to note\nthat\nf .x/ D\n8\nˆ<\nˆ:\n1\nif n is an integer, n \u0015 1;\n0\nif n is not an integer;\n\u00001\nif n is an integer, n \u0014 0:\nThe graph of f is not symmetric about the y-axis because f .1/ D 1 and f .\u00001/ D \u00001 ¤ 1. The graph of f is\nnot symmetric about the line x D 1 because f .3/ D 1 and f .\u00001/ D \u00001 ¤ 1. The graph of f is not symmetric\nwith respect to the origin because f .0/ D 1 and the reflected point .0; \u00001/ is not in the graph of f . The graph\nof f is not symmetric about the point .1; 0/ because f .1/ D 1 and the reflected point .1; \u00001/ is not in the graph\nof f .\n17. An architect is building a structure that will place vertical pillars at the vertices of regular hexagon ABCDEF ,\nwhich is lying horizontally on the ground. The six pillars will hold up a flat solar panel that will not be parallel\nto the ground. The heights of the pillars at A, B, and C are 12, 9, and 10 meters, respectively. What is the\nheight, in meters, of the pillar at E ?\n\nFall 2021 AMC 10 A Solutions\n7\n(A) 9\n(B) 6\np\n3\n(C) 8\np\n3\n(D) 17\n(E) 12\np\n3",
+    "has_image": true
+  },
+  {
+    "id": "2021-AMC10A-Q17",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "An architect is building a structure that will place vertical pillars at the vertices of regular hexagon\nABCDEF, which is lying horizontally on the ground. The six pillars will hold up a ﬂat solar panel\nthat will not be parallel to the ground. The heights of the pillars at A, B, and C are 12, 9, and 10\nmeters, respectively. What is the height, in meters, of the pillar at E?",
+    "answer_choices": {
+      "A": "9",
+      "B": "6\n√\n3",
+      "C": "8\n√\n3",
+      "D": "17",
+      "E": "12\n√\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let M be the midpoint of AC. The pillars at A and C are 12 and 10 meters high, respectively,\nso the height of the panel at M is 11 meters. Because 4BMA is a 30 – 60 – 90ı triangle, BM is half of the\nside length of the hexagon. Therefore BM D\n1\n4BE. It follows that the height of the panel at point E is\n9 C 4 \u0001 .11 \u0000 9/ D 17 meters.\nA\nB\nC\nD\nE\nF\nM\n30°\n60°\nA\nB\nC\nE\nM\n12\n11\n10\n9\n18. A farmer’s rectangular field is partitioned into a 2 by 2 grid of 4 rectangular sections as shown in the figure. In\neach section the farmer will plant one crop: corn, wheat, soybeans, or potatoes. The farmer does not want to\ngrow corn and wheat in any two sections that share a border, and the farmer does not want to grow soybeans\nand potatoes in any two sections that share a border. Given these restrictions, in how many ways can the farmer\nchoose crops to plant in each of the four sections of the field?\n(A) 12\n(B) 64\n(C) 84\n(D) 90\n(E) 144",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q18",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A farmer’s rectangular ﬁeld is partitioned into 2 by 2 grid of 4 rectangular sections as shown in\nthe ﬁgure. In each section the farmer will plant one crop: corn, wheat, soybeans, or potatoes. The\nfarmer does not want to grow corn and wheat in any two sections that share a border, and the\nfarmer does not want to grow soybeans and potatoes in any two sections that share a border.\n\nAoPS Community\n2021 AMC 10 Fall\nGiven these restrictions, in how many ways can the farmer choose crops to plant in each of the\nfour sections of the ﬁeld?",
+    "answer_choices": {
+      "A": "12",
+      "B": "64",
+      "C": "84",
+      "D": "90",
+      "E": "144"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let the sections of the field be numbered clockwise starting with the upper left as sections 1, 2,\n3, and 4. There are 4 ways to select a crop to plant in section 1. If section 3 is planted with the crop in section 1,\nthere are 3 ways to select crops for each of sections 2 and 4, yielding 4 \u0001 3 \u0001 3 D 36 ways. If section 3 is planted\nwith the crop that cannot be planted adjacent to the crop in section 1, then there are 2 ways to select crops for\neach of sections 2 and 4, yielding 4 \u0001 2 \u0001 2 D 16 ways. If section 3 is planted with one of the other 2 crops, then\nthere are 2 ways to select crops for each of sections 2 and 4, yielding 4 \u0001 2 \u0001 2 \u0001 2 D 32 ways. This gives a total\nof 36 C 16 C 32 D 84 ways.\nOR\n\n8\nFall 2021 AMC 10 A Solutions\nIf only one crop is planted, then there are 4 ways to choose that crop. If two compatible crops are planted, then\nthere are 2 \u0001 2 D 4 ways to choose those crops and then 24 \u0000 2 D 14 ways to plant, for 4 \u0001 14 D 56 possibilities.\nIt is not possible to plant two incompatible crops without violating the condition. If three crops are planted, then\nthere are 4 ways to choose them and 2 \u0001 2 D 4 ways to plant, for 16 choices. If four crops are planted, then there\nare 4 \u0001 2 D 8 ways to plant them. The total number of choices is 4 C 56 C 16 C 8 D 84.\nOR\nAs above, let the sections of the field be numbered clockwise starting with the upper left as sections 1, 2, 3,\nand 4. There are 44 D 256 ways for crops to be assigned to sections of the field without regard to crops that are\nnot to be planted in adjacent sections.\nThis problem will be solved via complementary counting. To this end, let A be the set of ways such that sections\n1 and 2 are planted with crops that should not be planted in adjacent sections, and similarly, let B, C, and D be\nthe set of ways sections 2 and 3, 3 and 4, and 4 and 1, respectively, can be planted with crops that should not be\nplanted in adjacent sections. Each of the sets A, B, C, and D contains 2 \u0001 2 \u0001 4 \u0001 4 D 64 elements. Each of the\nintersections A \\ B, B \\ C, C \\ D, and D \\ A contains 4 \u0001 4 D 16 elements, while the intersections A \\ C and\nB \\ D each contain 4 \u0001 4 D 16 elements. Each of the intersections of three of these sets contains 4 elements.\nThe intersection of all four of the sets contains 4 elements.\nThe Inclusion-Exclusion Principle implies that the size of A [ B [ C [ D is 4 \u0001 64 \u0000 6 \u0001 16 C 4 \u0001 4 \u0000 4 D 172.\nThus the number of ways to plant the sections so that adjacent sections are not planted with incompatible crops\nis 256 \u0000 172 D 84.\n19. A disk of radius 1 rolls all the way around the inside of a square of side length s > 4 and sweeps out a region\nof area A. A second disk of radius 1 rolls all the way around the outside of the same square and sweeps out a\nregion of area 2A. The value of s can be written as a C b\u0019\nc , where a, b, and c are positive integers and b and c\nare relatively prime. What is a C b C c ?\n(A) 10\n(B) 11\n(C) 12\n(D) 13\n(E) 14",
+    "has_image": true
+  },
+  {
+    "id": "2021-AMC10A-Q19",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A disk of radius 1 rolls all the way around the inside of a square of side length s > 4 and sweeps\nout a region of area A. A second disk of radius 1 rolls all the way around the outside of the same\nsquare and sweeps out a region of area 2A. The value of s can be written as a + bπ\nc , where a, b,\nand c are positive integers and b and c are relatively prime. What is a + b + c?",
+    "answer_choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": "A",
+    "solution_text": "To obtain the region swept out by the first disk, remove a square of side length s\u00004 from the center\nof the original square and replace the 4 unit squares at the corners of the original square with 4 quarter-circles\nof radius 1. The area of this region is\ns2 \u0000 .s \u0000 4/2 \u0000 4 C \u0019 D 8s \u0000 20 C \u0019:\nThe region swept out by the second disk is the disjoint union of 4 rectangles, each with length s and width 2,\nand 4 quarter-circles of radius 2, so its area is 8s C 4\u0019. Therefore\n8s C 4\u0019 D 2.8s \u0000 20 C \u0019/:\nSolving this equation gives s D 5 C \u0019\n4 , so the requested sum is 5 C 1 C 4 D 10.\n\nFall 2021 AMC 10 A Solutions\n9\ns – 4\ns – 4\ns\n2\n20. For how many ordered pairs .b; c/ of positive integers does neither x2 C bx C c D 0 nor x2 C cx C b D 0 have\ntwo distinct real solutions?\n(A) 4\n(B) 6\n(C) 8\n(D) 12\n(E) 16",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q20",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many ordered pairs of positive integers (b, c) exist where both x^{2} + bx + c = 0 and x^{2} +\ncx + b = 0 do not have distinct, real solutions?",
+    "answer_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10",
+      "E": "12"
+    },
+    "correct_answer": "B",
+    "solution_text": "The equation x2CbxCc D 0 fails to have two distinct real solutions precisely when b2\u00004c \u0014 0.\nSimilarly the equation x2CcxCb D 0 fails to have two distinct real solutions precisely when c2\u00004b \u0014 0. Hence\nthe given condition is satisfied if and only if b2 \u0014 4c and c2 \u0014 4b, which can be written as b4 \u0014 16c2 \u0014 64b.\nBecause b > 0, the inequality b4 \u0014 64b implies that 1 \u0014 b \u0014 4. If b D 1, then 1 \u0014 16c2 \u0014 64, so c D 1 or\nc D 2. If b D 2, then 16 \u0014 16c2 \u0014 128, so c D 1 or c D 2. If b D 3, then 81 \u0014 16c2 \u0014 192, so c D 3. If\nb D 4, then 256 \u0014 16c2 \u0014 256, so c D 4. The total number of ordered pairs .b; c/ is 2 C 2 C 1 C 1 D 6.\nOR\nAs above, the required ordered pairs must satisfy b2 \u0014 4c and c2 \u0014 4b, so they are on or inside both of the\nparabolas c D b2\n4 and b D c2\n4 in the bc-coordinate plane. Those parabolas intersect at .0; 0/ and .4; 4/, and\nthe lattice points with positive coordinates on or inside both parabolas are .1; 1/, .1; 2/, .2; 1/, .2; 2/, .3; 3/, and\n.4; 4/, so the number of ordered pairs is 6.\n–1\n1\n2\n3\n4\n5\n6\n–1\n1\n2\n3\n4\n5\nc =\n2\nb\n4\nb\nc\nb =\n2\nc\n4\n\n10\nFall 2021 AMC 10 A Solutions\n21. Each of 20 balls is tossed independently and at random into one of 5 bins. Let p be the probability that some\nbin ends up with 3 balls, another with 5 balls, and the other three with 4 balls each. Let q be the probability that\nevery bin ends up with 4 balls. What is p\nq ?\n(A) 1\n(B) 4\n(C) 8\n(D) 12\n(E) 16",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q21",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Each of the 20 balls is tossed independently and at random into one of the 5 bins. Let p be the\nprobability that some bin ends up with 3 balls, another with 5 balls, and the other three with 4\nballs each. Let q be the probability that every bin ends up with 4 balls. What is p\nq?",
+    "answer_choices": {
+      "A": "1",
+      "B": "4",
+      "C": "8",
+      "D": "12",
+      "E": "16"
+    },
+    "correct_answer": "E",
+    "solution_text": "The requested ratio divides the number of ways to end up with a 3–4–4–4–5 distribution by the\nnumber of ways to end up with a 4–4–4–4–4 distribution. For either outcome, there are at least three bins with\n4 balls each, leaving 8 balls to distribute into two bins. For a 3–5 split in the two bins, there are 5 \u0001 4 D 20 ways\nto choose the bins, and\n\u00008\n3\n\u0001\nD 56 ways to choose 3 balls. For a 4–4 split in the two bins, there are\n\u00008\n4\n\u0001\nD 70 ways\nto choose 4 balls. The requested ratio is therefore p\nq D 20\u000156\n70\nD 16.\nOR\nThe probabilities of the ball distribution follow the multinomial distribution. If there are n balls and k bins, then\nthe probability that ni balls end up in bin i for every i is given by\nnŠ\nn1Šn2Š \u0001 \u0001 \u0001 nkŠ \u0001 pn1\n1 pn2\n2 \u0001 \u0001 \u0001 pnk\nk ;\nwhere pi is the probability of any particular ball getting tossed into bin i, which equals 1\nk . There are 5\u00014 choices\nfor which bin gets 3 balls and which bin gets 5 balls under the first scenario. The requested ratio is therefore\np\nq D 5 \u0001 4 \u0001\n20Š\n3Š4Š4Š4Š5Š \u0001\n\u0000 1\n5\n\u000120\n20Š\n4Š4Š4Š4Š4Š \u0001\n\u0000 1\n5\n\u000120\nD 5 \u0001 4 \u0001 4\n5 D 16:\n22. Inside a right circular cone with base radius 5 and height 12 are three congruent spheres each with radius r.\nEach sphere is tangent to the other two spheres and also tangent to the base and side of the cone. What is r ?\n(A) 3\n2\n(B) 90 \u0000 40\np\n3\n11\n(C) 2\n(D) 144 \u0000 25\np\n3\n44\n(E) 5\n2",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q22",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Inside a right circular cone with base radius 5 and height 12 are three congruent spheres each\nwith radius r. Each sphere is tangent to the other two spheres and also tangent to the base and\nside of the cone. What is r?",
+    "answer_choices": {
+      "A": "3\n2",
+      "B": "90 −40\n√\n3\n11",
+      "C": "2",
+      "D": "144 −25\n√\n3\n44",
+      "E": "5\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let C be the center of the base of the cone, A be the center of one of the spheres, B be the point\nwhere that sphere is tangent to the base of the cone, D be the point such that CD is a radius of the base of the\ncone containing B, V be the vertex of the cone, and E be the point on CV such that ED contains A. Let the\nradius of the sphere be r D AB.\nA\nB\nC\nD\nE\nV\nr\nBecause the three spheres are mutually tangent, their centers are at the vertices of an equilateral triangle with\nside length 2r. The line CV passes through the centroid of the equilateral triangle, so BC must be 2\n3 the altitude\nof that triangle, implying that BC D 2\n3 \u0001r\np\n3. The Pythagorean Theorem implies that DV D\np\nCD2 C CV 2 D\n13.\n\nFall 2021 AMC 10 A Solutions\n11\nObserve that DE is the angle bisector of ∠CDV . By the Angle Bisector Theorem, CD\nCE D DV\nEV . Thus\n5\nCE D\n13\n12\u0000CE and solving gives CE D 10\n3 . Because 4DAB \u0018 4DEC, it follows that\nBD D AB \u0001 CD\nCE D r \u0001\n5\n\u0000 10\n3\n\u0001 D 3\n2r:\nThen BC C BD D CD gives\n2\np\n3\n3\nr C 3\n2r D 5:\nSolving for r yields r D 90\u000040\np\n3\n11\n.\n23. For each positive integer n, let f1.n/ be twice the number of positive integer divisors of n, and for j \u0015 2, let\nfj .n/ D f1.fj \u00001.n//. For how many values of n \u0014 50 is f50.n/ D 12 ?\n(A) 7\n(B) 8\n(C) 9\n(D) 10\n(E) 11",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q23",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For each positive integer n, let f^{1}(n) be twice the number of positive integer divisors of n, and\nfor j ≥2, let f^{j}(n) = f^{1}(f^{j−1}(n)). For how many values of n ≤50 is f^{50}(n) = 12?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "D",
+    "solution_text": "In the table below, p is a prime, and p1; p2; : : : denote distinct primes. Let \u001c.n/ denote the\nnumber of positive divisors of n. If n D pa1\n1 pa2\n2 \u0001 \u0001 \u0001 par\nr , then\n\u001c.n/ D .a1 C 1/.a2 C 1/ \u0001 \u0001 \u0001 .ar C 1/:\nTwelve important observations are found in the third column of the table.\nLine\nFactorization\nResult\n#\n1\np3\nf1.n/ D 8 D 23, so 8 is a fixed point of f1\n2\n2\np1p2\nf1.n/ D 8 and stays fixed at 8, by line 1\n13\n3\np2\nf1.n/ D 6 D 2 \u0001 3, which goes to 8 by line 2\n4\n4\np\nf1.n/ D 4 D 22, which goes to 8 by line 3\n15\n5\n1\nf1.1/ D 2, which goes to 8 by line 4\n1\n6\np2\n1p2\nf1.n/ D 12 D 22 \u0001 3, so 12 is a fixed point of f1\n7\n7\np4\nf1.n/ D 10 D 2 \u0001 5, which goes to 8 by line 2\n1\n8\np3\n1p2\nf1.n/ D 16 D 24, which goes to 8 by line 7\n2\n9\np1p2p3\nf1.n/ D 16 D 24, which goes to 8 by line 7\n2\n10\np5\nf1.n/ D 12 D 22 \u0001 3, which stays at 12 by line 6\n1\n11\np2\n1p2\n2\nf1.n/ D 18 D 32 \u0001 2, which goes to 12 by line 6\n1\n12\np4\n1p2\nf1.n/ D 20 D 22 \u0001 5, which goes to 12 by line 6\n1\n50\nThere are 7 numbers n \u0014 50 whose factorization takes the form p2\n1p2, namely 12 D 22\u00013, 18 D 32\u00012, 20 D 22\u00015,\n28 D 22 \u0001 7, 44 D 22 \u0001 11, 45 D 32 \u0001 5, and 50 D 52 \u0001 2. There is 1 number n \u0014 50 whose factorization is p5,\nnamely 25 D 32. There is 1 number n \u0014 50 whose factorization is p2\n1p2\n2, namely 22 \u0001 32 D 36. There is 1\nnumber n \u0014 50 whose factorization is p4\n1p2, namely 24 \u0001 3 D 48. In all, there are 7 C 1 C 1 C 1 D 10 numbers\nn \u0014 50 such that f50.n/ D 12.\nNote: Pair one divisor d of n with its complementary divisor n\nd . Because at least one of d and n\nd is less than or\nequal to pn, it follows that \u001c.n/ \u0014 2pn for all n. Hence f1.n/ \u0014 4pn, so f1.n/ < n if n > 16. Indeed, after\nexamining 13, 14, 15, and 16 it emerges that f1.12/ D 12, but f1.n/ < n for all n > 12.\nThe estimate for \u001c.n/ used here is convenient because it is easy to prove and it sufficed for the present purpose.\nWith a little more work it can be shown that for every \" > 0 there is a constant C.\"/ such that \u001c.n/ \u0014 C.\"/n\"\nfor all n \u0015 1. Such an argument can be made to yield the best constant C.\"/ and an n for which equality is\nachieved. When \" D 1\n2, the best possible constant is\np\n3, and equality is achieved when n D 12.\n\n12\nFall 2021 AMC 10 A Solutions\n24. Each of the 12 edges of a cube is labeled 0 or 1. Two labelings are considered different even if one can be\nobtained from the other by a sequence of one or more rotations and/or reflections. For how many such labelings\nis the sum of the labels on the edges of each of the 6 faces of the cube equal to 2 ?\n(A) 8\n(B) 10\n(C) 12\n(D) 16\n(E) 20",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q24",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Each of the 12 edges of a cube is labeled 0 or 1. Two labelings are considered different even if\none can be obtained from the other by a sequence of one or more rotations and/or reﬂections.\n\nAoPS Community\n2021 AMC 10 Fall\nFor how many such labelings is the sum of the labels on the edges of each of the 6 faces of the\ncube equal to 2?",
+    "answer_choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "16",
+      "E": "20"
+    },
+    "correct_answer": "E",
+    "solution_text": "First suppose that the three edges that share one particular vertex are all labeled 1. Then the rest\nof the labels are forced by the sum condition, and the figure below is obtained, up to rotation, where those first\nthree edge labels are shown in bold italic font. Note that in this case there is a pair of vertices at the end of an\ninterior diagonal, all of whose edges connected to it are labeled 1, with the remaining edges all labeled 0, no\nthree of which mutually share a vertex. Because there are 4 interior diagonals, this gives 4 possible labelings.\nBy symmetry there are another 4 possible labelings in which the roles of 0 and 1 are interchanged.\n1\n1\n1\n0\n1\n0\n1\n0\n0\n0\n0\n1\nOtherwise, every vertex is connected to two edges labeled 1 and one edge labeled 0 or vice versa. Suppose\nthat the labels of the edges on the bottom face of the cube are 0; 1; 0; 1 in that order. There are 2 possibilities,\ndepending on which label is given to the front bottom edge. There are also 2 possibilities for the label of the\nleft front edge. Once those five labels are determined, the rest of the labels are forced by the sum condition\nand the fact that no vertex is connected to edges with all the same label. See the figure below, in which the five\nmentioned labels are shown in bold italic font. This gives 2 \u0001 2 D 4 labelings.\n0\n1\n1\n1\n1\n0\n0\n0\n0\n1\n0\n1\nIn the remaining case, the bottom face has labels 0; 0; 1; 1 in that order, which is 4 more cases. Say that the front\nand left bottom edges are labeled 0. Then the right front vertical edge can have either label, and once that label\nis chosen, again the rest of the labeling is forced. See the figure below, in which the five mentioned labels are\nagain shown in bold italic font. This gives 4 \u0001 2 D 8 more labelings.\n\nFall 2021 AMC 10 A Solutions\n13\n0\n1\n0\n0\n1\n1\n0\n1\n1\n1\n0\n0\nThus in all there are 4 C 4 C 4 C 8 D 20 labelings satisfying the condition.\n25. A quadratic polynomial p.x/ with real coefficients and leading coefficient 1 is called disrespectful if the equation\np.p.x// D 0 is satisfied by exactly three real numbers. Among all the disrespectful quadratic polynomials, there\nis a unique such polynomial Qp.x/ for which the sum of the roots is maximized. What is Qp.1/ ?\n(A) 5\n16\n(B) 1\n2\n(C) 5\n8\n(D) 1\n(E) 9\n8",
+    "has_image": false
+  },
+  {
+    "id": "2021-AMC10A-Q25",
+    "year": 2021,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "A quadratic polynomial p(x) with real coefﬁcients and leading coefﬁcient 1 is called disrespect-\nful if the equation p(p(x)) = 0 is satisﬁed by exactly three real numbers. Among all the disre-\nspectful quadratic polynomials, there is a unique such polynomial ˜p(x) for which the sum of the\nroots is maximized. What is ˜p(1)?",
+    "answer_choices": {
+      "A": "5\n16",
+      "B": "1\n2",
+      "C": "5\n8",
+      "D": "1",
+      "E": "9\n8"
+    },
+    "correct_answer": "A",
+    "solution_text": "Suppose p.x/ D .x \u0000 r/.x \u0000 s/. Observe that p.x/ must have (two) real roots in order for\np.p.x// to have any roots at all. More specifically, if y is a root of p.p.x//, then p.y/ D r or p.y/ D s. That\nis, the equations\n.x \u0000 r/.x \u0000 s/ \u0000 r D 0\nand\n.x \u0000 r/.x \u0000 s/ \u0000 s D 0\ntogether must have exactly three real roots among them.\nIt follows that one of these two quadratics, say\n.x \u0000 r/.x \u0000 s/ \u0000 r, must have discriminant zero.\nExpansion yields x2 \u0000 .r C s/x C r.s \u0000 1/ D 0, so the discriminant  of this quadratic must satisfy\n0 D  D .r C s/2 \u0000 4r.s \u0000 1/ D .r \u0000 s/2 C 4r:\nThis implies that r is negative, say r D \u0000r0, and that s D r ˙\np\n\u00004r D \u0000r0 ˙ 2pr0. It follows that\nr C s D 2\n\u0000\u0000r0 ˙ pr0\n\u0001\n\u0014 2\n\u0000\u0000r0 C pr0\n\u0001\n\u0014 2 \u0001 1\n4 D 1\n2;\nwhere the second inequality follows from the fact that a \u0000 a2 \u0014 1\n4 for all real numbers a. Thus r D \u0000 1\n4 and\ns D 3\n4, which works. In turn, Qp.x/ D\n\u0000x C 1\n4\n\u0001 \u0000x \u0000 3\n4\n\u0001\nand Qp.1/ D 5\n4 \u0001 1\n4 D\n5\n16.\nProblems and solutions were contributed by Theodore Alper, Sophie Alpert, David Altizio, Risto Atanasov, Bela\nBajnok, Chris Bolognese, Miklos Bona, Silva Chang, Barbara Currier, Steven Davis, Steve Dunbar, Zuming Feng,\nZachary Franco, Peter Gilchrist, Andrea Grof, Jerrold Grossman, Thomas Howell, Chris Jeuell, Daniel Jordan,\nJonathan Kane, Ed Keppelman, Azar Khosravani, Sergey Levin, Joseph Li, Ioana Mihaila, Hugh Montgomery, Lucian\nSega, Matyas Sustik, Zsuzsanna Szaniszlo, Agnes Tuska, David Wells, Kathleen Wong, Carl Yerger, and Jesse Zhang.\n\nMAA Partner Organizations\nWe acknowledge the generosity of the following\norganizations in supporting the MAA AMC and\nInvitational Competitions:\nAkamai Foundation\nArmy Educational Outreach Program\nArt of Problem Solving\nAwesomeMathGirls.org\nCasualty Actuarial Society\nJane Street Capital\nMathWorks\nSociety for Industrial and Applied Mathematics\nTBL Foundation\nThe D. E. Shaw Group\nTudor Investment Corporation\nTwo Sigma",
+    "has_image": false
+  }
+]

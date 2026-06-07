@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2004-AMC10A-Q01",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "You and ﬁve friends need to raise $1500 in donations for a charity, dividing the fundraising\nequally. How many dollars will each of you need to raise?",
+    "answer_choices": {
+      "A": "250",
+      "B": "300",
+      "C": "1500",
+      "D": "7500",
+      "E": "9000"
+    },
+    "correct_answer": "A",
+    "solution_text": "Six people are fundraising, so each must raise $1500/6 = $250.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q02",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For any three real numbers a, b, and c, with b ̸= c, the operation ⊗is deﬁned by:\n⊗(a, b, c) =\na\nb −c\nWhat is ⊗(⊗(1, 2, 3), ⊗(2, 3, 1), ⊗(3, 1, 2))?",
+    "answer_choices": {
+      "A": "−1\n2",
+      "B": "−1\n4",
+      "C": "0",
+      "D": "1\n4",
+      "E": "1\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because\n¶(1, 2, 3) =\n1\n2 −3 = −1,\n¶(2, 3, 1) =\n2\n3 −1 = 1, and\n¶(3, 1, 2) =\n3\n1 −2 = −3,\nwe have\n¶ (¶(1, 2, 3), ¶(2, 3, 1), ¶(3, 1, 2)) =¶(−1, 1, −3)\n=\n−1\n1 −(−3) = −1\n4.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q03",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Alicia earns $20 per hour, of which 1.45% is deducted to pay local taxes. How many cents per\nhour of Alicia’s wages are used to pay local taxes?",
+    "answer_choices": {
+      "A": "0.0029",
+      "B": "0.029",
+      "C": "0.29",
+      "D": "2.9",
+      "E": "29"
+    },
+    "correct_answer": "E",
+    "solution_text": "Since $20 is 2000 cents, she pays (0.0145)(2000) = 29 cents per hour in local\ntaxes.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q04",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of x if |x −1| = |x −2|?",
+    "answer_choices": {
+      "A": "−1\n2",
+      "B": "1\n2",
+      "C": "1",
+      "D": "3\n2",
+      "E": "2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The equation implies that either\nx −1 = x −2\nor\nx −1 = −(x −2)\nThe ﬁrst equation has no solution, and the solution to the second equation is\nx = 3/2.\nOR\nSince |x −a| is the distance of x from a, x must be equidistant from 1 and 2.\nHence x = 3/2.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q05",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A set of three points is randomly chosen from the grid shown. Each three point set has the same\nprobability of being chosen. What is the probability that the points lie on the same straight line?",
+    "answer_choices": {
+      "A": "1\n21",
+      "B": "1\n14",
+      "C": "2\n21",
+      "D": "1\n7",
+      "E": "2\n7"
+    },
+    "correct_answer": "C",
+    "solution_text": "The number of three-point sets that can be chosen from the nine grid points\nis\n\u00129\n3\n\u0013\n=\n9!\n3! · 6! = 84.\nEight of these sets consist of three collinear points:\n3 sets of points lie on vertical lines, 3 on horizontal lines, and 2 on diagonals.\nHence the probability is 8/84 = 2/21.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q06",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Bertha has 6 daughters and no sons. Some of her daughters have 6 daughters and the rest have\nnone. Bertha has a total of 30 daughters and granddaughters, and no great-grand daughters.\nHow many of Bertha’s daughters and granddaughters have no daughters?",
+    "answer_choices": {
+      "A": "22",
+      "B": "23",
+      "C": "24",
+      "D": "25",
+      "E": "26"
+    },
+    "correct_answer": "E",
+    "solution_text": "Bertha has 30 −6 = 24 granddaughters, none of whom have any daughters.\nThe granddaughters are the children of 24/6 = 4 of Bertha’s daughters, so the\nnumber of women having no daughters is 30 −4 = 26.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q07",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "A grocer stacks oranges in a pyramid-like stack whose rectangular base is 5 oranges by 8 or-\nanges. Each orange above the ﬁrst level rests in a pocket formed by four oranges in the level\n\nbelow. The stack is completed by a single row of oranges. How many oranges are in the stack?",
+    "answer_choices": {
+      "A": "96",
+      "B": "98",
+      "C": "100",
+      "D": "101",
+      "E": "134"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are ﬁve layers in the stack, and each of the top four layers has one\nless orange in its length and width than the layer on which it rests. Hence the\ntotal number of oranges in the stack is\n5 · 8 + 4 · 7 + 3 · 6 + 2 · 5 + 1 · 4 = 100.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q08",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A game is played with tokens according to the following rule. In each round, the player with\nthe most tokens gives one token to each of the other players and also places one token into a\ndiscard pile. The game ends when some player runs out of tokens. Players A, B, and C start\nwith 15, 14, and 13 tokens, respectively. How many rounds will there be in the game?",
+    "answer_choices": {
+      "A": "36",
+      "B": "37",
+      "C": "38",
+      "D": "39",
+      "E": "40"
+    },
+    "correct_answer": "B",
+    "solution_text": "After three rounds the players A, B, and C have 14, 13, and 12 tokens,\nrespectively. Every subsequent three rounds of play reduces each player’s supply\nof tokens by one. After 36 rounds they have 3, 2, and 1 token, respectively, and\nafter the 37th round Player A has no tokens.\n\nSolutions\n2004\n5th AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q09",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In the ﬁgure, ∠EAB and ∠ABC are right angles. AB = 4, BC = 6, AE = 8, and AC and BE\nintersect at D. What is the difference between the areas of △ADE and △BDC?\nA\nB\nC\nE\nD\n4\n6\n8",
+    "answer_choices": {
+      "A": "2",
+      "B": "4",
+      "C": "5",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let x, y, and z be the areas of △ADE, △BDC, and △ABD, respectively.\nThe area of △ABE is (1/2)(4)(8) = 16 = x + z, and the area of △BAC is\n(1/2)(4)(6) = 12 = y + z. The requested diﬀerence is\nx −y = (x + z) −(y + z) = 16 −12 = 4.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q10",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Coin A is ﬂipped three times and coin B is ﬂipped four times. What is the probability that the\nnumber of heads obtained from ﬂipping the two fair coins is the same?",
+    "answer_choices": {
+      "A": "19\n128",
+      "B": "23\n128",
+      "C": "1\n4",
+      "D": "35\n128",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The result will occur when both A and B have either 0, 1, 2, or 3 heads,\nand these probabilities are shown in the table.\nHeads\n0\n1\n2\n3\nA\n1\n8\n3\n8\n3\n8\n1\n8\nB\n1\n16\n4\n16\n6\n16\n4\n16\nThe probability of both coins having the same number of heads is\n1\n8 · 1\n16 + 3\n8 · 4\n16 + 3\n8 · 6\n16 + 1\n8 · 4\n16 = 35\n128.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q11",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A company sells peanut butter in cylindrical jars. Marketing research suggests that using wider\njars will increase sales. If the diameter of the jars is increased by 25% without altering the vol-\nume, by what percent must the height be decreased?",
+    "answer_choices": {
+      "A": "10",
+      "B": "25",
+      "C": "36",
+      "D": "50",
+      "E": "60"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let r, h, and V , respectively, be the radius, height, and volume of the jar\nthat is currently being used. The new jar will have a radius of 1.25r and volume\nV . Let H be the height of the new jar. Then\nπr2h = V = π(1.25r)2H,\nso\nH\nh =\n1\n(1.25)2 = 0.64.\nThus H is 64% of h, so the height must be reduced by (100 −64)% = 36%.\nOR\nMultiplying the diameter by 5/4 multiplies the area of the base by (5/4)2 =\n25/16, so in order to keep the same volume, the height must be multiplied by\n16/25. Thus the height must be decreased by 9/25, or 36%.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q12",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Henry’s Hamburger Heaven orders its hamburgers with the following condiments: ketchup, mus-\ntard, mayonnaise, tomato, lettuce, pickles, cheese, and onions. A customer can choose one, two,\nor three meat patties, and any collection of condiments. How many different kinds of hamburg-\ners can be ordered?",
+    "answer_choices": {
+      "A": "24",
+      "B": "256",
+      "C": "768",
+      "D": "40,320",
+      "E": "120,960"
+    },
+    "correct_answer": "C",
+    "solution_text": "A customer makes one of two choices for each condiment, to include it or\nnot to include it. The choices are made independently, so there are 28 = 256\npossible combinations of condiments. For each of those combinations there are\nthree choices regarding the number of meat patties, so there are altogether\n(3)(256) = 768 diﬀerent kinds of hamburger.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q13",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At a party, each man danced with exactly three women and each woman danced with exactly\ntwo men. Twelve men attended the party. How many women attended the party?",
+    "answer_choices": {
+      "A": "8",
+      "B": "12",
+      "C": "16",
+      "D": "18",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because each man danced with exactly three women, there were (12)(3) =\n36 pairs of men and women who danced together. Each woman had two partners,\nso the number of women who attended is 36/2 = 18.\n\nSolutions\n2004\n5th AMC 10 A\n4",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q14",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The average value of all the pennies, nickels, dimes, and quarters in Paula’s purse is 20 cents.\nIf she had one more quarter, the average value would be 21 cents. How many dimes does she\nhave in her purse?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "A",
+    "solution_text": "If n is the number of coins in Paula’s purse, then their total value is 20n\ncents. If she had one more quarter, she would have n+1 coins whose total value\nin cents could be expressed both as 20n + 25 and as 21(n + 1). Therefore\n20n + 25 = 21(n + 1),\nso\nn = 4.\nSince Paula has four coins with a total value of 80 cents, she must have three\nquarters and one nickel, so the number of dimes is 0.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q15",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Given that −4 ≤x ≤−2 and 2 ≤y ≤4, what is the largest possible value of (x + y)/x?",
+    "answer_choices": {
+      "A": "−1",
+      "B": "−1\n2",
+      "C": "0",
+      "D": "1\n2",
+      "E": "1"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because\nx + y\nx\n= 1 + y\nx\nand\ny\nx < 0,\nthe value is maximized when |y/x| is minimized, that is, when |y| is minimized\nand |x| is maximized. So y = 2 and x = −4 gives the largest value, which is\n1 + (−1/2) = 1/2.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q16",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The 5 × 5 grid shown contains a collection of squares with sizes from 1 × 1 to 5 × 5. How many\nof these squares contain the black center square?",
+    "answer_choices": {
+      "A": "12",
+      "B": "15",
+      "C": "17",
+      "D": "19",
+      "E": "20"
+    },
+    "correct_answer": "D",
+    "solution_text": "All of the squares of size 5 × 5, 4 × 4, and 3 × 3 contain the black square\nand there are\n12 + 22 + 32 = 14\nof these. In addition, 4 of the 2 × 2 squares and 1 of the 1 × 1 squares contain\nthe black square, for a total of 14 + 4 + 1 = 19.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q17",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Brenda and Sally run in opposite directions on a circular track, starting at diametrically opposite\npoints. They ﬁrst meet after Brenda has run 100 meters. They next meet after Sally has run 150\nmeters past their ﬁrst meeting point. Each girl runs at a constant speed. What is the length of\nthe track in meters?",
+    "answer_choices": {
+      "A": "250",
+      "B": "300",
+      "C": "350",
+      "D": "400",
+      "E": "500"
+    },
+    "correct_answer": "C",
+    "solution_text": "When they ﬁrst meet, they have run a combined distance equal to half\nthe length of the track. Between their ﬁrst and second meetings, they run a\ncombined distance equal to the full length of the track. Because Brenda runs\nat a constant speed and runs 100 meters before their ﬁrst meeting, she runs\n2(100) = 200 meters between their ﬁrst and second meetings. Therefore the\nlength of the track is 200 + 150 = 350 meters.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q18",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "A sequence of three real numbers forms an arithmetic progression with a ﬁrst term of 9. If 2 is\nadded to the second term and 20 is added to the third term, the three resulting numbers form a\ngeometric progression. What is the smallest possible value for the third term of the geometric\nprogression?",
+    "answer_choices": {
+      "A": "1",
+      "B": "4",
+      "C": "36",
+      "D": "49",
+      "E": "81"
+    },
+    "correct_answer": "A",
+    "solution_text": "The terms of the arithmetic progression are 9, 9 + d, and 9 + 2d for some\nreal number d. The terms of the geometric progression are 9, 11+d, and 29+2d.\nTherefore\n(11 + d)2 = 9(29 + 2d)\nso\nd2 + 4d −140 = 0.\nThus d = 10 or d = −14. The corresponding geometric progressions are 9, 21,\n49 and 9, −3, 1, so the smallest possible value for the third term of the geometric\nprogression is 1.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q20",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Points E and F are located on square ABCD so that ∆BEF is equilateral. What is the ratio of\nthe area of ∆DEF to that of ∆ABE?",
+    "answer_choices": {
+      "A": "4\n3",
+      "B": "3\n2",
+      "C": "√\n3",
+      "D": "2",
+      "E": "1 +\n√\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "First, assume that AB = 1, and let ED = DF = x. By the Pythagorean\nTheorem x2 + x2 = EF 2 = EB2 = 12 + (1 −x)2, so x2 = 2(1 −x). Hence the\ndesired ratio of the areas is\nArea(△DEF)\nArea(△ABE) =\nx2\n1 −x = 2.",
+    "has_image": true
+  },
+  {
+    "id": "2004-AMC10A-Q21",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Two distinct lines pass through the center of three concentric circles of radii 3, 2, and 1. The\narea of the shaded region in the diagram is 8/13 of the area of the unshaded region. What is the\n\nradian measure of the acute angle formed by the two lines? (Note: π radians is 180 degrees.)",
+    "answer_choices": {
+      "A": "^{π}\n8",
+      "B": "^{π}\n7",
+      "C": "^{π}\n6",
+      "D": "^{π}\n5",
+      "E": "^{π}\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let θ be the acute angle between the two lines. The area of shaded Region\n1 in the diagram is\n2\n\u00121\n2θ(1)2\n\u0013\n= θ.\n\u0000\u0000\u0001\n\u0002\n\u0002\n\u0001\nθ\nThe area of shaded Region 2 is\n2\n\u00121\n2(π −θ)(22 −12)\n\u0013\n= 3π −3θ.\nThe area of shaded Region 3 is\n2\n\u00121\n2θ(32 −22)\n\u0013\n= 5θ.\nHence the total area of the shaded regions is 3π + 3θ. The area bounded by the\nlargest circle is 9π, so\n3π + 3θ\n9π\n=\n8\n8 + 13.\nSolving for θ gives θ = π/7.\n\nSolutions\n2004\n5th AMC 10 A\n6",
+    "has_image": true
+  },
+  {
+    "id": "2004-AMC10A-Q22",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Square ABCD has side length 2. A semicircle with diameter AB is constructed inside the\nsquare, and the tangent to the semicircle from C intersects side AD at E. What is the length of\nCE?",
+    "answer_choices": {
+      "A": "^{2+}\n√\n5\n2",
+      "B": "√\n5",
+      "C": "√\n6",
+      "D": "5\n2",
+      "E": "5 −\n√\n5"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let F be the point at which CE is tangent to the semicircle, and let G be\nthe midpoint of AB. Because CF and CB are both tangents to the semicircle,\nCF = CB = 2. Similarly, EA = EF. Let x = AE. The Pythagorean Theorem\napplied to △CDE gives\n(2 −x)2 + 22 = (2 + x)2.\nIt follows that x = 1/2 and CE = 2 + x = 5/2.\nA\nB\nC\nD\nE\nF\nG",
+    "has_image": true
+  },
+  {
+    "id": "2004-AMC10A-Q23",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Circles A, B, and C are externally tangent to each other and internally tangent to circle D. Circles\nB and C are congruent. Circle A has radius 1 and passes through the center of D. What is the\nradius of circle B?",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "√\n3\n2",
+      "C": "7\n8",
+      "D": "8\n9",
+      "E": "1+\n√\n3\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let E, H, and F be the centers of circles A, B, and D, respectively, and let\nG be the point of tangency of circles B and C. Let x = FG and y = GH. Since\nthe center of circle D lies on circle A and the circles have a common point of\ntangency, the radius of circle D is 2, which is the diameter of circle A. Applying\nthe Pythagorean Theorem to right triangles EGH and FGH gives\n(1 + y)2 = (1 + x)2 + y2\nand\n(2 −y)2 = x2 + y2,\nfrom which it follows that\ny = x + x2\n2\nand\ny = 1 −x2\n4 .\nThe solutions of this system are (x, y) = (2/3, 8/9) and (x, y) = (−2, 0). The\nradius of circle B is the positive solution for y, which is 8/9.\n1\n1\ny\ny\ny H\nG\nE\nF x\n2-y\n\nSolutions\n2004\n5th AMC 10 A\n7",
+    "has_image": true
+  },
+  {
+    "id": "2004-AMC10A-Q24",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "Let a^{1}, a^{2}, · · · , be a sequence with the following properties.\nI. a^{1} = 1, and\nII. a^{2n} = n · a^{n} for any positive integer n.\nWhat is the value of a2^{100}?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2^{99}",
+      "C": "2^{100}",
+      "D": "2^{4950}",
+      "E": "2^{9999}"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that\na21 = a2 = a2·1 = 1 · a1 = 20 · 20 = 20,\na22 = a4 = a2·2 = 2 · a2 = 21 · 20 = 21,\na23 = a8 = a2·4 = 4 · a4 = 22 · 21 = 21+2,\na24 = a16 = a2·8 = 8 · a8 = 23 · 21+2 = 21+2+3,\nand, in general, a2n = 21+2+···+(n−1). Because\n1 + 2 + 3 + · · · + (n −1) = 1\n2n(n −1),\nwe have a2100 = 2(100)(99)/2 = 24950.",
+    "has_image": false
+  },
+  {
+    "id": "2004-AMC10A-Q25",
+    "year": 2004,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Three mutually tangent spheres of radius 1 rest on a horizontal plane. A sphere of radius 2 rests\non them. What is the distance from the plane to the top of the larger sphere?",
+    "answer_choices": {
+      "A": "3 +\n√\n30\n2",
+      "B": "3 +\n√\n69\n3",
+      "C": "3 +\n√\n123\n4",
+      "D": "52\n9",
+      "E": "3 + 2\n√\n2\n–"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let A, B, C and E be the centers of the three small spheres and the large\nsphere, respectively. Then △ABC is equilateral with side length 2. If D is the\nintersection of the medians of △ABC, then E is directly above D. Because\nAE = 3 and AD = 2\n√\n3/3, it follows that\nDE =\nv\nu\nu\nt32 −\n\n2\n√\n3\n3\n!2\n=\n√\n69\n3 .\nBecause D is 1 unit above the plane and the top of the larger sphere is 2 units\nabove E, the distance from the plane to the top of the larger sphere is\n3 +\n√\n69\n3 .\nA\nB\nC\nD\n1\n1\n\nThe\nAmerican Mathematics Contest 10 (AMC 10)\nSponsored by\nMathematical Association of America\nUniversity of Nebraska – Lincoln\nContributors\nAkamai Foundation\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nCanada/USA Mathpath & Mathcamp\nCasualty Actuarial Society\nClay Mathematics Institute\nConsortium for Mathematics and its Applications\nInstitute for Operations Research and the Management Sciences\nKappa Mu Epsilon\nMu Alpha Theta\nNational Association of Mathematicians\nNational Council of Teachers of Mathematics\nPedagoguery Software Inc.\nPi Mu Epsilon\nSchool Science and Mathematics Association\nSociety of Actuaries",
+    "has_image": false
+  }
+]

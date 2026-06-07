@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2011-AMC10B-Q01",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is\n2 + 4 + 6\n1 + 3 + 5 −1 + 3 + 5\n2 + 4 + 6?",
+    "answer_choices": {
+      "A": "−1",
+      "B": "5\n36",
+      "C": "7\n12",
+      "D": "147\n60",
+      "E": "43\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "The given expression is equal to\n12\n9 −9\n12 = 4\n3 −3\n4 = 16 −9\n12\n= 7\n12.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q02",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Josanna’s test scores to date are 90, 80, 70, 60, and 85. Her goal is to raise her test average at\nleast 3 points with her next test. What is the minimum test score she would need to accomplish\nthis goal?",
+    "answer_choices": {
+      "A": "80",
+      "B": "82",
+      "C": "85",
+      "D": "90",
+      "E": "95"
+    },
+    "correct_answer": "E",
+    "solution_text": "The sum of her ﬁrst 5 test scores is 385, yielding an average of\n77. To raise her average to 80, her 6th test score must be the diﬀerence between\n6 · 80 = 480 and 385, which is 95.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q03",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At a store, when a length is reported as x inches that means the length is at least x −0.5 inches\nand at most x+0.5 inches. Suppose the dimensions of a rectangular tile are reported as 2 inches\nby 3 inches. In square inches, what is the minimum area for the rectangle?",
+    "answer_choices": {
+      "A": "3.75",
+      "B": "4.5",
+      "C": "5",
+      "D": "6",
+      "E": "8.75"
+    },
+    "correct_answer": "A",
+    "solution_text": "The smallest possible width for the rectangle is 2 −0.5 = 1.5\ninches. Similarly the smallest possible length is 2.5 inches. Hence the minimum\narea is (1.5)(2.5) = 3.75 square inches.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q04",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "LeRoy and Bernardo went on a week-long trip together and agreed to share the costs equally.\nOver the week, each of them paid for various joint expenses such as gasoline and car rental. At\nthe end of the trip it turned out that LeRoy had paid A dollars and Bernardo had paid B dollars,\nwhere A < B. How many dollars must LeRoy give to Bernardo so that they share the costs\nequally?",
+    "answer_choices": {
+      "A": "A+B\n2",
+      "B": "A−B\n2",
+      "C": "B−A\n2",
+      "D": "B −A",
+      "E": "A + B"
+    },
+    "correct_answer": "C",
+    "solution_text": "Bernardo has paid B −A dollars more than LeRoy. If LeRoy\ngives Bernardo half of that diﬀerence, B−A\n2\n, then each will have paid the same\namount.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q05",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "In multiplying two positive integers a and b, Ron reversed the digits of the two-digit number a.\nHis errorneous product was 161. What is the correct value of the product of a and b?",
+    "answer_choices": {
+      "A": "116",
+      "B": "161",
+      "C": "204",
+      "D": "214",
+      "E": "224"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because 161 = 23 · 7, the only two digit factor of 161 is 23. The\ncorrect product must have been 32 · 7 = 224.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q06",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "On Halloween Casper ate 1\n3 of his candies and then gave 2 candies to his brother. The next day\nhe ate 1\n3 of his remaining candies and then gave 4 candies to his sister. On the third day he ate\nhis ﬁnal 8 candies. How many candies did Casper have at the beginning?",
+    "answer_choices": {
+      "A": "30",
+      "B": "39",
+      "C": "48",
+      "D": "57",
+      "E": "66"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let x be Casper’s original number of candies. After the ﬁrst\nday he was left with x −( 1\n3x + 2) = 2\n3x −2 candies. On the second day he ate\n1\n3( 2\n3x −2) candies, gave away 4 candies, and was left with 8 candies. Therefore\n2\n3x −2 −\n\u001f1\n3\n\u001f2\n3x −2\n\n+ 4\n\n= 8.\nSolving for x results in x = 30.\nOR\nBefore giving 4 candies to his sister, Casper had 12. This was 2\n3 of the number he\nhad after the ﬁrst day, so he had 18 after the ﬁrst day. Before giving 2 candies to\nhis brother, he had 20, and this was 2\n3 of the number he had originally. Therefore\nhe had 30 candies at the beginning.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q07",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The sum of two angles of a triangle is 6\n5 of a right angle, and one of these two angles is 30^{◦}\nlarger than the other. What is the degree measure of the largest angle in the triangle?",
+    "answer_choices": {
+      "A": "69",
+      "B": "72",
+      "C": "90",
+      "D": "102",
+      "E": "108"
+    },
+    "correct_answer": "B",
+    "solution_text": "The degree measures of two of the angles have a sum of\n6\n5 ·90 = 108 and a positive diﬀerence of 30, so their measures are 69 and 39. The\nremaining angle has a degree measure of 180 −108 = 72, which is the largest\nangle.\n\nSolutions\n2011 AMC 10 B\n3",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q08",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "At a certain beach if it is at least 80^{◦}F and sunny, then the beach will be crowded. On June 10\nthe beach was not crowded. What can be said about the weather conditions on June 10?",
+    "answer_choices": {
+      "A": "4\n3",
+      "B": "√\n5",
+      "C": "9\n4",
+      "D": "4\n√\n3\n3",
+      "E": "5\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because the beach was not crowded on June 10, at least one of\nthe conditions was not met. That is, the weather might have been cooler than\n80 ◦F and sunny, at least 80 ◦F and cloudy, or cooler than 80 ◦F and cloudy.\nThe ﬁrst possibility shows that (A) and (E) are invalid, the second shows that\n(C) is invalid, and the third shows that (D) is invalid. Only conclusion (B) is\nconsistent with all three possibilities.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q10",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Consider the set of numbers {1, 10, 10^{2}, 10^{3}, ...10^{10}}. The ratio of the largest element of the set\nto the sum of the other ten elements of the set is closest to which integer?",
+    "answer_choices": {
+      "A": "1",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "101"
+    },
+    "correct_answer": "B",
+    "solution_text": "The sum of the smallest ten elements is\n1 + 10 + 100 + · · · + 1,000,000,000 = 1,111,111,111.\nHence the desired ratio is\n10,000,000,000\n1,111,111,111 = 9,999,999,999 + 1\n1,111,111,111\n= 9 +\n1\n1,111,111,111 ≈9.\nOR\nThe sum of a ﬁnite geometric series of the form a(1 + r + r2 + · · · + rn) is\na\n1−r(1 −rn+1). The desired denominator 1 + 10 + 102 + · · · + 109 is a ﬁnite\ngeometric series with a = 1, r = 10, and n = 9. Therefore the ratio is\n1010\n1 + 10 + 102 + · · · + 109 =\n1010\n1\n1−10(1 −1010) =\n1010\n1010 −1 · 9 ≈1010\n1010 · 9 = 9.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q11",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "There are 52 people in a room. What is the largest value of n such that the statement ”At least\nn people in this room have birthdays falling in the same month” is always true?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "12"
+    },
+    "correct_answer": "D",
+    "solution_text": "If no more than 4 people have birthdays in any month, then\nat most 48 people would be accounted for. Therefore the statement is true for\nn = 5. The statement is false for n ≥6 if, for example, 5 people have birthdays\nin each of the ﬁrst 4 months of the year, and 4 people have birthdays in each of\nthe last 8 months, for a total of 5 · 4 + 4 · 8 = 52 people.\nOR\n\nSolutions\n2011 AMC 10 B\n4\nThe average number of birthdays per month is 52\n12, which is strictly between 4\nand 5. Therefore at least one month must contain at least 5 birthdays, and, as\nabove, it is possible to distribute the birthdays so that all months contain 4 or\n5 birthdays.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q12",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Keiko walks once around a track at exactly the same constant speed every day. The sides of the\ntrack are straight, and the ends are semicircles. The track has width 6 meters, and it takes her\n36 seconds longer to walk around the outside edge of the track than around the inside edge.\nWhat is Keiko’s speed in meters per second?",
+    "answer_choices": {
+      "A": "π\n3",
+      "B": "2π\n3",
+      "C": "π",
+      "D": "4π\n3",
+      "E": "5π\n3"
+    },
+    "correct_answer": "A",
+    "solution_text": "The only parts of the track that are longer walking on the\noutside edge rather than the inside edge are the two semicircular portions. If\nthe radius of the inner semicircle is r, then the diﬀerence in the lengths of the\ntwo paths is 2π(r + 6) −2πr = 12π. Let x be her speed in meters per second.\nThen 36x = 12π, and x = π\n3 .",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q13",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Two real numbers are selected independently at random from the interval [-20, 10]. What is the\nprobability that the product of those numbers is greater than zero?",
+    "answer_choices": {
+      "A": "1\n9",
+      "B": "1\n3",
+      "C": "4\n9",
+      "D": "5\n9",
+      "E": "2\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Consider all ordered pairs (a, b) with each of the numbers a\nand b in the closed interval [−20, 10]. These pairs ﬁll a 30 × 30 square in the\ncoordinate plane, with an area of 900 square units. Ordered pairs in the ﬁrst\nand third quadrants have the desired property, namely a · b > 0. The areas of\nthe portions of the 30×30 square in the ﬁrst and third quadrants are 102 = 100\nand 202 = 400, respectively. Therefore the probability of a positive product is\n100+400\n900\n= 5\n9.\nOR\nEach of the numbers is positive with probability 1\n3 and negative with probability\n2\n3. Their product is positive if and only if both numbers are positive or both are\nnegative, so the requested probability is\n\u001f 1\n3\n\u001e2 +\n\u001f 2\n3\n\u001e2 = 5\n9.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q14",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A rectangular parking lot has a diagonal of 25 meters and an area of 168 square meters. In\nmeters, what is the perimeter of the parking lot?",
+    "answer_choices": {
+      "A": "52",
+      "B": "58",
+      "C": "62",
+      "D": "68",
+      "E": "70"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let x and y be the length and width of the parking lot, respec-\ntively. Then xy = 168 and x2 + y2 = 252. Note that\n(x + y)2 = x2 + y2 + 2xy = 252 + 2 · 168 = 961.\nHence the perimeter is 2(x + y) = 2 ·\n√\n961 = 62.\nNote that the dimensions of the parking lot are 7 and 24 meters.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q15",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let @ denote the ”averaged with” operation: a @ b = a+b\n2 . Which of the following distributive laws\nhold for all numbers x, y and z?\nI. x @ (y+z) = (x @ y) + (x @ z)\nII. x + (y @ z) = (x + y) @ (x + z)\nIII. x @ (y @ z) = (x @ y) @ (x @ z)",
+    "answer_choices": {
+      "A": "I only",
+      "B": "II only",
+      "C": "III only",
+      "D": "I and III only",
+      "E": "II and III only"
+    },
+    "correct_answer": "E",
+    "solution_text": "If x ̸= 0, then I is false:\nx @ (y + z) = x + (y + z)\n2\n̸= x + y + x + z\n2\n= x + y\n2\n+ x + z\n2\n= (x @ y) + (x @ z).\nOn the other hand, II and III are true for all values of x, y and z:\nx + (y @ z) = x + y + z\n2\n= 2x + y + z\n2\n= (x + y) + (x + z)\n2\n= (x + y) @ (x + z),\n\nSolutions\n2011 AMC 10 B\n5\nand\nx @ (y @ z) = x + y+z\n2\n2\n=\n\u001f 2x+y+z\n2\n\n2\n=\nx+y\n2\n+ x+z\n2\n2\n= (x @ y) @ (x @ z)",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q16",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A dart board is a regular octagon divided into regions as shown. Suppose that a dart thrown at\nthe board is equally likely to land anywhere on the board. What is probability that the dart lands\nwithin the center square?",
+    "answer_choices": {
+      "A": "√\n2−1\n2",
+      "B": "1\n4",
+      "C": "2−\n√\n2\n2",
+      "D": "√\n2\n4",
+      "E": "2 −\n√\n2"
+    },
+    "correct_answer": "A",
+    "solution_text": "Assume the octagon’s edge is 1. Then the corner triangles have\nhypotenuse 1 and thus legs\n√\n2\n2\nand area 1\n4 each; the four rectangles are 1 by\n√\n2\n2 and have area\n√\n2\n2 each, and the center square has area 1. The total area is\n4· 1\n4 +4·\n√\n2\n2 +1 = 2+2\n√\n2. The probability that the dart hits the center square\nis\n1\n2+2\n√\n2 =\n√\n2−1\n2\n.\n1\n1\n√\n2\n2\n1\n√\n2\n2",
+    "has_image": true
+  },
+  {
+    "id": "2011-AMC10B-Q17",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In the given circle, the diameter EB is parallel to DC, and AB is parallel to ED. The angles AEB\nand ABE are in the ratio 4 : 5. What is the degree measure of angle BCD?",
+    "answer_choices": {
+      "A": "120",
+      "B": "125",
+      "C": "130",
+      "D": "135",
+      "E": "140"
+    },
+    "correct_answer": "C",
+    "solution_text": "Angle EAB is 90◦because it subtends a diameter. Therefore\nangles BEA and ABE are 40◦and 50◦, respectively. Angle DEB is 50◦because\nAB is parallel to ED. Also, ∠DEB is supplementary to ∠CDE, so ∠CDE =\n130◦. Because EB and DC are parallel chords, ED = BC and EBCD is an\nisosceles trapezoid. Thus ∠BCD = ∠CDE = 130◦.\nOR\nLet O be the center of the circle. Establish, as in the ﬁrst solution, that ∠EAB =\n90◦, ∠BEA = 40◦, ∠ABE = 50◦, and ∠DEB = 50◦. Thus AD is a diameter\nand ∠AOE = 100◦. By the Inscribed Angle Theorem\n∠BCD = 1\n2(∠BOA + ∠AOE + ∠EOD) = 1\n2(80◦+ 100◦+ 80◦) = 130◦.",
+    "has_image": true
+  },
+  {
+    "id": "2011-AMC10B-Q18",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Rectangle ABCD has AB = 6 and BC = 3. Point M is chosen on side AB so that ∠AMD =\n∠CMD. What is the degree measure of ∠AMD?",
+    "answer_choices": {
+      "A": "15",
+      "B": "30",
+      "C": "45",
+      "D": "60",
+      "E": "75"
+    },
+    "correct_answer": "E",
+    "solution_text": "Sides AB and CD are parallel, so ∠CDM = ∠AMD. Because\n∠AMD = ∠CMD, it follows that △CMD is isosceles and CD = CM = 6.\n\nSolutions\n2011 AMC 10 B\n6\nTherefore △MCB is a 30 – 60 – 90◦right triangle with ∠BMC = 30◦. Finally,\n2 · ∠AMD + 30◦= ∠AMD + ∠CMD + 30◦= 180◦, so ∠AMD = 75◦.\nA\nB\nC\nD\nM\n6\n3",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q19",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the product of all the roots of the equation\np\n5|x| + 8 =\np\nx^{2} −16.",
+    "answer_choices": {
+      "A": "−64",
+      "B": "−24",
+      "C": "−9",
+      "D": "24",
+      "E": "576"
+    },
+    "correct_answer": "A",
+    "solution_text": "The right side of the equation is deﬁned only when |x| ≥4. If\nx ≥4, the equation is equivalent to 5x + 8 = x2 −16, and the only solution\nwith x ≥4 is x = 8. If x ≤−4, the equation is equivalent to 8 −5x = x2 −16,\nand the only solution with x ≤−4 is x = −8. The product of the solutions is\n−8 · 8 = −64.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q20",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Rhombus ABCD has side length 2 and ∠B = 120^{◦}. Region R consists of all points inside the\nrhombus that are closer to vertex B than any of the other three vertices. What is the area of R?",
+    "answer_choices": {
+      "A": "√\n3\n3",
+      "B": "√\n3\n2",
+      "C": "2\n√\n3\n3",
+      "D": "1 +\n√\n3\n3",
+      "E": "2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let E and H be the midpoints of AB and BC, respectively. The\nline drawn perpendicular to AB through E divides the rhombus into two regions:\npoints that are closer to vertex A than B, and points that are closer to vertex B\nthan A. Let F be the intersection of this line with diagonal AC. Similarly, let\npoint G be the intersection of the diagonal AC with the perpendicular to BC\ndrawn from the midpoint of BC. Then the desired region R is the pentagon\nBEFGH.\nNote that △AFE is a 30 – 60 – 90◦triangle with AE = 1.\nHence the area\nof △AFE is\n1\n2 · 1 ·\n1\n√\n3 =\n√\n3\n6 .\nBoth △BFE and △BGH are congruent to\n△AFE, so they have the same areas. Also ∠FBG = 120◦−∠FBE −∠GBH =\n60◦, so △FBG is an equilateral triangle. In fact, the altitude from B to FG\ndivides △FBG into two triangles, each congruent to △AFE. Hence the area of\nBEFGH is 4 ·\n√\n3\n6 = 2\n√\n3\n3 .\nA\nB\nC\nD\nE\nF\nG\nH\n\nSolutions\n2011 AMC 10 B\n7",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q21",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Brian writes down four integers w > x > y > z whose sum is 44. The pairwise positive dif-\nferences of these numbers are 1, 3, 4, 5, 6, and 9. What is the sum of the possible values for\nw?",
+    "answer_choices": {
+      "A": "16",
+      "B": "31",
+      "C": "48",
+      "D": "62",
+      "E": "93"
+    },
+    "correct_answer": "B",
+    "solution_text": "The largest pairwise diﬀerence is 9, so w −z = 9. Let n be\neither x or y. Because n is between w and z,\n9 = w −z = (w −n) + (n −z).\nTherefore the positive diﬀerences w −n and n −z must sum to 9. The given\npairwise diﬀerences that sum to 9 are 3 + 6 and 4 + 5. The remaining pairwise\ndiﬀerence must be x −y = 1.\nThe second largest pairwise diﬀerence is 6, so either w −y = 6 or x −z = 6. In\nthe ﬁrst case the set of four numbers may be expressed as {w, w−5, w−6, w−9}.\nHence 4w −20 = 44, so w = 16. In the second case w −x = 3, and the four\nnumbers may be expressed as {w, w −3, w −4, w −9}. Therefore 4w −16 = 44,\nso w = 15. The sum of the possible values for w is 16 + 15 = 31.\nNote: The possible sets of four numbers are {16, 11, 10, 7} and {15, 12, 11, 6}.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q22",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A pyramid has a square base with sides of length 1 and has lateral faces that are equilateral\ntriangles. A cube is placed within the pyramid so that one face is on the base of the pyramid\nand its opposite face has all its edges on the lateral faces of the pyramid. What is the volume\nof this cube?",
+    "answer_choices": {
+      "A": "5\n√\n2 −7",
+      "B": "7 −4\n√\n3",
+      "C": "2\n√\n2\n27",
+      "D": "√\n2\n9",
+      "E": "√\n3\n9"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let A be the apex of the pyramid, and let the base be the\nsquare BCDE. Then AB = AD = 1 and BD =\n√\n2, so △BAD is an isosceles\nright triangle. Let the cube have edge length x. The intersection of the cube\nwith the plane of △BAD is a rectangle with height x and width\n√\n2x. It follows\nthat\n√\n2 = BD = 2x +\n√\n2x, from which x =\n√\n2 −1.\n√\n2x\n√\n2\nx\nA\nD\nB\nHence the cube has volume\n(\n√\n2 −1)3 = (\n√\n2)3 −3(\n√\n2)2 + 3\n√\n2 −1 = 5\n√\n2 −7.\nOR\nLet A be the apex of the pyramid, let O be the center of the base, let P be the\nmidpoint of one base edge, and let the cube intersect AP at Q. Let a coordinate\nplane intersect the pyramid so that O is the origin, A on the positive y-axis,\nand P =\n\u001f 1\n2, 0\n\n. Segment AP is an altitude of a lateral side of the pyramid,\nso AP =\n√\n3\n2 , and it follows that A =\n\n0,\n√\n2\n2\n\n. Thus the equation of line AP\n\nSolutions\n2011 AMC 10 B\n8\nis y =\n√\n2\n2 −\n√\n2x.\nIf the side length of the cube is s, then Q = ( s\n2, s), so\ns =\n√\n2\n2 −\n√\n2 · s\n2. Solving gives s =\n√\n2 −1, and the result follows that in the\nﬁrst solution.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q23",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "What is the hundreds digit of 2011^{2011}?",
+    "answer_choices": {
+      "A": "1",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "9"
+    },
+    "correct_answer": "D",
+    "solution_text": "In the expansion of (2000 + 11)2011, all terms except 112011\nare divisible by 1000, so the hundreds digit of 20112011 is equal to that of\n112011. Furthermore, in the expansion of (10 + 1)2011, all terms except 12011,\n\u001f2011\n1\n\n(10)\n\n12010\n, and\n\u001f2011\n2\n\n(10)2\n12009\nare divisible by 1000. Thus the hun-\ndreds digit of 20112011 is equal to that of\n1 +\n\u001d2011\n1\n\n(10)\n\n12010\n+\n\u001d2011\n2\n\n(10)2\n12009\n= 1 + 2011 · 10 + 2011 · 1005 · 100\n= 1 + 2011 · 100510.\nFinally, the hundreds digit of this number is equal to that of 1+11·510 = 5611,\nso the requested hundreds digit is 6.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10B-Q25",
+    "year": 2011,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let T^{1} be a triangle with sides 2011, 2012, and 2013. For n ≥1, if T^{n} = △ABC and D, E, and F\nare the points of tangency of the incircle of △ABC to the sides AB, BC and AC, respectively,\nthen T^{n+1} is a triangle with side lengths AD, BE, and CF, if it exists. What is the perimeter of\nthe last triangle in the sequence (T^{n})?",
+    "answer_choices": {
+      "A": "1509\n8",
+      "B": "1509\n32",
+      "C": "1509\n64",
+      "D": "1509\n128",
+      "E": "1509\n256\n–"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let Tn = △ABC. Suppose a = BC, b = AC, and c = AB.\nBecause BD and BE are both tangent to the incircle of △ABC, it follows that\nBD = BE. Similarly, AD = AF and CE = CF. Then\n2BE = BE + BD = BE + CE + BD + AD −(AF + CF)\n= a + c −b,\nthat is, BE = 1\n2 (a + c −b). Similarly AD = 1\n2 (b + c −a) and CF = 1\n2 (a + b −c).\nIn the given △ABC, suppose that AB = x+1, BC = x−1, and AC = x. Using\nthe formulas for BE, AD, and CF derived before, it must be true that\nBE = 1\n2 ((x −1) + (x + 1) −x) = 1\n2x,\nAD = 1\n2 (x + (x + 1) −(x −1)) = 1\n2x + 1, and\nCF = 1\n2 ((x −1) + x −(x + 1)) = 1\n2x −1.\n\nSolutions\n2011 AMC 10 B\n9\nHence both (BC, CA, AB) and (CF, BE, AD) are of the form (y −1, y, y + 1).\nThis is independent of the values of a, b, and c, so it holds for all Tn. Further-\nmore, adding the formulas for BE, AD, and CF shows that the perimeter of\nTn+1 equals 1\n2(a + b+c), and consequently the perimeter of the last triangle TN\nin the sequence is\n1\n2N−1 (2011 + 2012 + 2013) = 1509\n2N−3 .\nThe last member TN of the sequence will fail to deﬁne a successor if for the ﬁrst\ntime the new lengths fail the Triangle Inequality, that is, if\n−1 + 2012\n2N\n+ 2012\n2N\n≤1 + 2012\n2N .\nEquivalently, 2012 ≤2N+1 which happens for the ﬁrst time when N = 10. Thus\nthe required perimeter of TN is 1509\n27\n= 1509\n128 .\n\nThe problems and solutions in this contest were proposed by Bernardo Abrego,\nBetsy Bennett, Steven Davis, Steve Dunbar, Doug Faires, Sister Josannae Furey,\nMichelle Ghrist, Peter Gilchrist, Jerrold Grossman, Joe Kennedy, Eugene Veklerov,\nDavid Wells, LeRoy Wenstrom, and Ron Yannone.\nThe\nAmerican Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCasualty Actuarial Society\nD.E. Shaw & Co.\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nJane Street\nMathPath\nMath Zoom Academy\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company",
+    "has_image": false
+  }
+]

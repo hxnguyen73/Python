@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2018-AMC10B-Q01",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Kate bakes a 20-inch by 18-inch pan of cornbread. The cornbread is cut into pieces that measure\n2 inches by 2 inches. How many pieces of cornbread does the pan contain?",
+    "answer_choices": {
+      "A": "90",
+      "B": "100",
+      "C": "180",
+      "D": "200",
+      "E": "360"
+    },
+    "correct_answer": "A",
+    "solution_text": "The total area of cornbread is 20 · 18 = 360 in2.\nBecause each piece of cornbread has area 2·2 = 4 in2, the pan contains\n360 ÷ 4 = 90 pieces of cornbread.\nOR\nWhen cut, there are 20 ÷ 2 = 10 pieces of cornbread along a long\nside of the pan and 18 ÷ 2 = 9 pieces along a short side, so there are\n10 · 9 = 90 pieces.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q02",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Sam drove 96 miles in 90 minutes. His average speed during the ﬁrst 30 minutes was 60 mph\n(miles per hour), and his average speed during the second 30 minutes was 65 mph. What was\nhis average speed, in mph, during the last 30 minutes?",
+    "answer_choices": {
+      "A": "64",
+      "B": "65",
+      "C": "66",
+      "D": "67",
+      "E": "68"
+    },
+    "correct_answer": "D",
+    "solution_text": "Sam covered 1\n2 · 60 = 30 miles during the ﬁrst 30\nminutes and 1\n2 · 65 = 32.5 miles during the second 30 minutes, so he\nneeded to cover 96−30−32.5 = 33.5 miles during the last 30 minutes.\nThus his average speed during the last 30 minutes was\n33.5 miles\n1\n2 hour\n= 67 mph.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q03",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "In the expression (\n×\n)+(\n×\n) each blank is to be ﬁlled in with one of the digits\n1, 2, 3, or 4, with each digit being used once. How many different values can be obtained?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "24"
+    },
+    "correct_answer": "B",
+    "solution_text": "Both the multiplications and the addition can be\nperformed in either order, so each possible value can be obtained by\nputting the 1 in the ﬁrst position and one of the other three numbers\nin the second position. Therefore the only possible values are\n(1 × 2) + (3 × 4) = 14,\n(1 × 3) + (2 × 4) = 11,\nand\n(1 × 4) + (2 × 3) = 10,\nso just 3 diﬀerent values can be obtained.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q04",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "4. A three-dimensional rectangular box with dimensions X, Y , and Z has faces whose surface\nareas are 24, 24, 48, 48, 72, and 72 square units. What is X + Y + Z?",
+    "answer_choices": {
+      "A": "18",
+      "B": "22",
+      "C": "24",
+      "D": "30",
+      "E": "36"
+    },
+    "correct_answer": "B",
+    "solution_text": "Without loss of generality, assume that X ≤Y ≤Z.\nThen the geometric description of the problem can be translated into\nthe system of equations, XY = 24, XZ = 48, and Y Z = 72. Dividing\nthe second equation by the ﬁrst yields\nZ\nY = 2, so Z = 2Y . Then\n72 = Y Z = 2Y 2, so Y 2 = 36. Because Y is positive, Y = 6. It\nfollows that X = 24÷6 = 4 and Z = 72÷6 = 12, so X +Y +Z = 22.\nOR\nWith X, Y , and Z as above, multiply the three equations to give\nX2Y 2Z2 = 24 · 48 · 72 = 24 · 24 · 2 · 24 · 3 = 242 · 144 = (24 · 12)2.\nTherefore XY Z = 24 · 12, and dividing successively by the three\nequations gives Z = 12, Y = 6, and X = 4, so X + Y + Z = 22.\n\n2018 AMC 10B Solutions\n3",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q05",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "How many subsets of {2, 3, 4, 5, 6, 7, 8, 9} contain at least one prime number?",
+    "answer_choices": {
+      "A": "128",
+      "B": "192",
+      "C": "224",
+      "D": "240",
+      "E": "256"
+    },
+    "correct_answer": "D",
+    "solution_text": "The number of qualifying subsets equals the diﬀerence\nbetween the total number of subsets of {2, 3, 4, 5, 6, 7, 8, 9} and the\nnumber of such subsets containing no prime numbers, which is the\nnumber of subsets of {4, 6, 8, 9}. A set with n elements has 2n subsets,\nso the requested number is 28 −24 = 256 −16 = 240.\nOR\nA subset meeting the condition must be the union of a nonempty\nsubset of {2, 3, 5, 7} and a subset of {4, 6, 8, 9}. There are 24 −1 = 15\nof the former and 24 = 16 of the latter, which gives 15 · 16 = 240\nchoices in all.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q06",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A box contains 5 chips, numbered 1, 2, 3, 4, and 5. Chips are drawn randomly one at a time without\nreplacement until the sum of the values drawn exceeds 4. What is the probability that 3 draws\nare required?",
+    "answer_choices": {
+      "A": "1\n15",
+      "B": "1\n10",
+      "C": "^{1}\n6",
+      "D": "1\n5",
+      "E": "^{1}\n4"
+    },
+    "correct_answer": "D",
+    "solution_text": "Three draws will be required if and only if the ﬁrst\ntwo chips drawn have a sum of 4 or less. The draws (1, 2), (2, 1),\n(1, 3), and (3, 1) are the only draws meeting this condition. There\nare 5 · 4 = 20 possible two-chip draws, so the requested probability is\n4\n20 = 1\n5. (Note that all 20 possible two-chip draws are considered in\ndetermining the denominator, even though some draws will end after\nthe ﬁrst chip is drawn.)",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q07",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In the ﬁgure below, N congruent semicircles lie on the diameter of a large semicircle, with their\ndiameters covering the diameter of the large semicircle with no overlap. Let A be the combined\narea of the small semicircles and B be the area of the region inside the large semicircle but\noutside the semicircles. The ratio A : B is 1 : 18. What is N?\n\n...",
+    "answer_choices": {
+      "A": "16",
+      "B": "17",
+      "C": "18",
+      "D": "19",
+      "E": "36"
+    },
+    "correct_answer": "D",
+    "solution_text": "Suppose without loss of generality that each small\nsemicircle has radius 1; then the large semicircle has radius N. The\narea of each small semicircle is π\n2 , and the area of the large semicircle\nis N 2· π\n2 . The combined area A of the N small semicircles is N · π\n2 , and\nthe area B inside the large semicircle but outside the small semicircles\nis\nN 2 · π\n2 −N · π\n2 =\n\u0000N 2 −N\n\u0001\n· π\n2 .\nThus the ratio A : B of the areas is N :\n\u0000N 2 −N\n\u0001\n, which is 1 : (N−1).\nBecause this ratio is given to be 1 : 18, it follows that N −1 = 18 and\nN = 19.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q08",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Sara makes a staircase out of toothpicks as shown:\nThis is a 3-step staircase and uses 18 toothpicks. How many steps would be in a staircase that\nused 180 toothpicks?",
+    "answer_choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "24",
+      "E": "30"
+    },
+    "correct_answer": "C",
+    "solution_text": "In the staircase with n steps, the number of vertical\ntoothpicks is\n1 + 2 + 3 + · · · + n + n = n(n + 1)\n2\n+ n.\nThere are an equal number of horizontal toothpicks, for a total of\nn(n + 1) + 2n toothpicks. Solving n(n + 1) + 2n = 180 with n > 0\nyields n = 12.\n\n2018 AMC 10B Solutions\n4\nOR\nBy inspection, the number of toothpicks for staircases consisting of\n1, 2, and 3 steps are 4, 10, and 18, respectively. The n-step staircase\nis obtained from the (n −1)-step staircase by adding n + 1 horizontal\ntoothpicks and n + 1 vertical toothpicks. With this observation, the\npattern can be continued so that 28, 40, 54, 70, 88, 108, 130, 154, and\n180 are the numbers of toothpicks used to construct staircases con-\nsisting of 4 through 12 steps, respectively. Therefore 180 toothpicks\nare needed for the 12-step staircase.",
+    "has_image": true
+  },
+  {
+    "id": "2018-AMC10B-Q09",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "The faces of each of 7 standard dice are labeled with the integers from 1 to 6. Let p be the\nprobability that when all 7 dice are rolled, the sum of the numbers on the top faces is 10. What\nother sum occurs with the same probability as p?",
+    "answer_choices": {
+      "A": "13",
+      "B": "26",
+      "C": "32",
+      "D": "39",
+      "E": "42"
+    },
+    "correct_answer": "D",
+    "solution_text": "Without loss of generality, one can assume that the\nnumbers on opposite faces of each die add up to 7. In other words,\nthe 1 is opposite the 6, the 2 is opposite the 5, and the 3 is opposite\nthe 4. (In fact, standard dice are numbered in this way.) The top\nfaces give a sum of 10 if and only if the bottom faces give a sum of\n7·7−10 = 39. By symmetry, the probability that the top faces give a\nsum of 39 is also p. The distribution of the outcomes of the dice rolls\nhas the bell-shaped graph shown below, so no other outcome has the\nsame probability as 10 and 39.\n0.01\n0.02\n0.03\n0.04\n0.05\n0.06\n0.07\n0.08\n0\n10\n20\n30\n40\nsum on dice\nprobability",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q10",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In the rectangular parallelpiped shown, AB = 3, BC = 1, and CG = 2. Point M is the midpoint\nof FG. What is the volume of the rectangular pyramid with base BCHE and apex M?\n\nA\nB\nC\nD\nE\nF\nG\nH\nM\n3\n2\n1",
+    "answer_choices": {
+      "A": "1",
+      "B": "4\n3",
+      "C": "3\n2",
+      "D": "5\n3",
+      "E": "2"
+    },
+    "correct_answer": "E",
+    "solution_text": "The volume of the rectangular pyramid with base\nBCHE and apex M equals the volume of the given rectangular par-\nallelepiped, which is 6, minus the combined volume of triangular prism\nAEHDCB, tetrahedron BEFM, and tetrahedron CGHM. Tetra-\nhedra BEFM and CGHM each have three right angles at F and G,\nrespectively, and the edges of the tetrahedra emanating from F and\nG have lengths 2, 3, and 1\n2, so the volume of each of these tetrahedra\n\n2018 AMC 10B Solutions\n5\nis 1\n6 · (2 · 3 · 1\n2) = 1\n2. The volume of the triangluar prism AEHDCB\nis 3 because it is half the volume of the rectangular parallelepiped.\nTherefore the requested volume is 6 −3 −1\n2 −1\n2 = 2.\nOR\nLet P and Q be the midpoints of BC and EH, respectively.\nBy\nthe Pythagorean Theorem PQ =\n√\n13.\nLet R be the foot of the\nperpendicular from M to PQ. Then △PMQ ∼△PRM, so\n3\n√\n13 = MQ\nPQ = RM\nPM = RM\n2\nand\nRM =\n6\n√\n13.\nThe requested volume of the pyramid is 1\n3 times the area of the base\ntimes the height, which is\n1\n3 ·\n\u0010√\n13 · 1\n\u0011\n·\n6\n√\n13 = 2.\nA\nB\nC\nD\nG\nH\nE\nF\nM\n3\n1\n2\nP\nQ\nR",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q11",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Which of the following expressions is never a prime number when p is a prime number?",
+    "answer_choices": {
+      "A": "p^{2} + 16",
+      "B": "p^{2} + 24",
+      "C": "p^{2} + 26",
+      "D": "p^{2} + 46",
+      "E": "p^{2} + 96"
+    },
+    "correct_answer": "C",
+    "solution_text": "If p = 3, then p2 + 26 = 35 = 5 · 7. If p is a prime\nnumber other than 3, then p = 3k ± 1 for some positive integer k. In\nthat case\np2 + 26 = (3k ± 1)2 + 26 = 9k2 ± 6k + 27 = 3(3k2 ± 2k + 9)\nis a multiple of 3 and is not prime. The smallest counterexamples for\nthe other choices are 52 + 16 = 41, 72 + 24 = 73, 52 + 46 = 71, and\n192 + 96 = 457.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q12",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Line segment AB is a diameter of a circle with AB = 24. Point C, not equal to A or B, lies on\nthe circle. As point C moves around the circle, the centroid (center of mass) of △ABC traces\nout a closed curve missing two points. To the nearest positive integer, what is the area of the\nregion bounded by this curve?",
+    "answer_choices": {
+      "A": "25",
+      "B": "38",
+      "C": "50",
+      "D": "63",
+      "E": "75"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let O be the center of the circle. Triangle ABC is\na right triangle, and O is the midpoint of the hypotenuse AB. Then\n\n2018 AMC 10B Solutions\n6\nOC is a radius, and it is also one of the medians of the triangle. The\ncentroid is located one third of the way along the median from O to C,\nso the centroid traces out a circle with center O and radius 1\n3 · 12 = 4\n(except for the two missing points corresponding to C = A or C = B).\nThe area of this smaller circle is then π · 42 = 16π ≈16 · 3.14 ≈50.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q13",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "How many of the ﬁrst 2018 numbers in the sequence 101, 1001, 10001, 100001, . . . are divisible\nby 101?",
+    "answer_choices": {
+      "A": "253",
+      "B": "504",
+      "C": "505",
+      "D": "506",
+      "E": "1009"
+    },
+    "correct_answer": "C",
+    "solution_text": "The numbers in the given sequence are of the form\n10n + 1 for n = 2, 3, . . . , 2019. If n is even, say n = 2k for some\npositive integer k, then 10n + 1 = 100k + 1 ≡(−1)k + 1 (mod 101).\nThus 10n + 1 is divisible by 101 if and only if k is odd, which means\nn = 2, 6, 10, . . . , 2018. There are 1\n4(2018 −2) + 1 = 505 such values.\nOn the other hand, if n is odd, say n = 2k + 1 for some positive\ninteger k, then\n10n + 1 = 10 · 10n−1 + 1 = 10 · 100k + 1 ≡10 · (−1)k + 1\n(mod 101),\nwhich is congruent to 9 or 11, and 10n + 1 is not divisible by 101 in\nthis case.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q14",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A list of 2018 positive integers has a unique mode, which occurs exactly 10 times. What is the\nleast number of distinct values that can occur in the list?",
+    "answer_choices": {
+      "A": "202",
+      "B": "223",
+      "C": "224",
+      "D": "225",
+      "E": "234"
+    },
+    "correct_answer": "D",
+    "solution_text": "The list has 2018 −10 = 2008 entries that are not\nequal to the mode. Because the mode is unique, each of these 2008\nentries can occur at most 9 times. There must be at least\n\u0006 2008\n9\n\u0007\n= 224\ndistinct values in the list that are diﬀerent from the mode, because\nif there were fewer than this many such values, then the size of the\nlist would be at most 9 · (\n\u0006 2008\n9\n\u0007\n−1) + 10 = 2017 < 2018. (The\nceiling function notation ⌈x⌉represents the least integer greater than\nor equal to x.) Therefore the least possible number of distinct values\nthat can occur in the list is 225. One list satisfying the conditions of\nthe problem contains 9 instances of each of the numbers 1 through 223,\n10 instances of the number 224, and one instance of 225.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q15",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A closed box with a square base is to be wrapped with a square sheet of wrapping paper. The\nbox is centered on the wrapping paper with the vertices of the base lying on the midlines of the\nsquare sheet of paper, as shown in the ﬁgure on the left. The four corners of the wrapping paper\nare to be folded up over the sides and brought together to meet at the center of the top of the\nbox, point A in the ﬁgure on the right. The box has base length w and height h. What is the area\nof the sheet of wrapping paper?\n\nA\nw\nw\nA",
+    "answer_choices": {
+      "A": "2(w + h)^{2}",
+      "B": "(w+h)^{2}\n2",
+      "C": "2w^{2} + 4wh",
+      "D": "2w^{2}",
+      "E": "w^{2}h"
+    },
+    "correct_answer": "A",
+    "solution_text": "The ﬁgure shows that the distance AO from a corner\nof the wrapping paper to the center is\nw\n2 + h + w\n2 = w + h.\nThe side of the wrapping paper, AB in the ﬁgure, is the hypotenuse\nof a 45 – 45 – 90◦right triangle, so its length is\n√\n2 · AO =\n√\n2(w + h).\nTherefore the area of the wrapping paper is\n\u0010√\n2(w + h)\n\u00112\n= 2(w + h)2.\n\n2018 AMC 10B Solutions\n7\nA\nB\nw\nw\nw\n2\nw\n2\nh\nO\nOR\nThe area of the wrapping paper, excluding the four small triangles\nindicated by the dashed lines, is equal to the surface area of the box,\nwhich is 2w2 + 4wh. The four triangles are isosceles right triangles\nwith leg length h, so their combined area is 4 · 1\n2h2 = 2h2. Thus the\ntotal area of the wrapping paper is 2w2 + 4wh + 2h2 = 2(w + h)2.",
+    "has_image": true
+  },
+  {
+    "id": "2018-AMC10B-Q16",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let a^{1}, a^{2}, . . . , a^{2018} be a strictly increasing sequence of positive integers such that\na^{1} + a^{2} + · · · + a^{2018} = 2018^{2018}.\nWhat is the remainder when a^{3}\n1 + a^{3}\n2 + · · · + a^{3}\n2018 is divided by 6?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let n be an integer. Because n3−n = (n−1)n(n+1),\nit follows that n3 −n has at least one prime factor of 2 and one prime\nfactor of 3 and therefore is divisible by 6. Thus n3 ≡n (mod 6).\nThen\na3\n1 + a3\n2 + · · · + a3\n2018 ≡a1 + a2 + · · · + a2018 ≡20182018\n(mod 6).\nBecause 2018 ≡2 (mod 6), the powers of 2018 modulo 6 are alter-\nnately 2, 4, 2, 4, . . . , so 20182018 ≡4 (mod 6). Therefore the remain-\nder when a3\n1 + a3\n2 + · · · + a3\n2018 is divided by 6 is 4.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q17",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In rectangle PQRS, PQ = 8 and QR = 6. Points A and B lie on PQ, points C and D lie on QR,\npoints E and F lie on RS, and points G and H lie on SP so that AP = BQ < 4 and the convex\noctagon ABCDEFGH is equilateral. The length of a side of this octagon can be expressed in\nthe form k + m√n, where k, m, and n are integers and n is not divisible by the square of any\nprime. What is k + m + n?",
+    "answer_choices": {
+      "A": "1",
+      "B": "7",
+      "C": "21",
+      "D": "92",
+      "E": "106"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because AP < 4 = 1\n2PQ, it follows that A is closer\nto P than it is to Q and that A is between points P and B. Because\nAP = BQ, AH = BC, and angles APH and BQC are right angles,\n△APH ∼= △BQC.\nThus PH = QC, and PQCH is a rectangle.\nBecause CD = HG, it follows that HCDG is also a rectangle. Thus\nGDRS is a rectangle and DR = GS, and it follows that △ERD ∼=\n△FSG. Therefore segment EF is centered in RS just as congruent\nsegment AB is centered in PQ. Therefore △ERD ∼= △BQC, and\nCD is also centered in QR. Let 2x be the side length AB = BC =\n\n2018 AMC 10B Solutions\n8\nCD = DE = EF = FG = GH = HA of the regular octagon; then\nAP = BQ = 4−x and QC = RD = 3−x. Applying the Pythagorean\nTheorem to △BQC yields (4−x)2+(3−x)2 = (2x)2, which simpliﬁes\nto 2x2 + 14x −25 = 0. Thus x = 1\n2 · (−7 ± 3\n√\n11), and because x > 0,\nit follows that 2x = −7 + 3\n√\n11. Hence k + m + n = −7 + 3 + 11 = 7.\nS\nP\nQ\nR\nA\nB\nC\nD\nF\nE\nH\nG\n2x\n2x\n2x\n2x\n4 – x\n4 – x\n3 – x\n3 – x\n3 – x\n3 – x\n4 – x\n4 – x\n2x\n2x\n2x\n2x",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q18",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Three young brother-sister pairs from different families need to take a trip in a van. These six\nchildren will occupy the second and third rows in the van, each of which has three seats. To\navoid disruptions, siblings may not sit right next to each other in the same row, and no child\nmay sit directly in front of his or her sibling. How many seating arrangements are possible for\nthis trip?",
+    "answer_choices": {
+      "A": "60",
+      "B": "72",
+      "C": "92",
+      "D": "96",
+      "E": "120"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let X, Y , and Z denote the three diﬀerent families\nin some order. Then the only possible arrangements are to have the\nsecond row be members of XY Z and the third row be members of\nZXY , or to have the second row be members of XY Z and the third\nrow be members of Y ZX. Note that these are not the same, because\nin the ﬁrst case one sibling pair occupy the right-most seat in the\nsecond row and the left-most seat in the third row, whereas in the\nsecond case this does not happen.\n(Having members of XY X in\nthe second row does not work because then the third row must be\nmembers of ZY Z to avoid consecutive members of Z; but in this case\none of the Y siblings would be seated directly in front of the other Y\nsibling.) In each of these 2 cases there are 3! = 6 ways to assign the\nfamilies to the letters and 23 = 8 ways to position the boy and girl\nwithin the seats assigned to the families. Therefore the total number\nof seating arrangements is 2 · 6 · 8 = 96.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q19",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Joey and Chloe and their daughter Zoe all have the same birthday. Joey is 1 year older than\nChloe, and Zoe is exactly 1 year old today. Today is the ﬁrst of the 9 birthdays on which Chloe’s\nage will be an integral multiple of Zoe’s age. What will be the sum of the two digits of Joey’s age\nthe next time his age is a multiple of Zoe’s age?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let Chloe be n years old today, so she is n −1 years\nolder than Zoe. For integers y ≥0, Chloe’s age will be a multiple of\nZoe’s age y years from now if and only if\nn + y\n1 + y = 1 + n −1\n1 + y\n\n2018 AMC 10B Solutions\n9\nis an integer, that is, 1 + y is a divisor of n −1. Thus n −1 has\nexactly 9 positive integer divisors, so the prime factorization of n −1\nhas one of the two forms p2q2 or p8. There are no two-digit integers\nof the form p8, and the only one of the form p2q2 is 22 · 32 = 36.\nTherefore Chloe is 37 years old today, and Joey is 38. His age will be\na multiple of Zoe’s age in y years if and only if 1 + y is a divisor of\n38 −1 = 37. The nonnegative integer solutions for y are 0 and 36, so\nthe only other time Joey’s age will be a multiple of Zoe’s age will be\nwhen he is 38 + 36 = 74 years old. The requested sum is 7 + 4 = 11.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q20",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A function f is deﬁned recursively by f(1) = f(2) = 1 and\nf(n) = f(n −1) −f(n −2) + n\nfor all integers n ≥3. What is f(2018)?",
+    "answer_choices": {
+      "A": "2016",
+      "B": "2017",
+      "C": "2018",
+      "D": "2019",
+      "E": "2020"
+    },
+    "correct_answer": "B",
+    "solution_text": "Applying the recursion for several steps leads to the\nconjecture that\nf(n) =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nn + 2\nif n ≡0\n(mod 6),\nn\nif n ≡1\n(mod 6),\nn −1\nif n ≡2\n(mod 6),\nn\nif n ≡3\n(mod 6),\nn + 2\nif n ≡4\n(mod 6),\nn + 3\nif n ≡5\n(mod 6).\nThe conjecture can be veriﬁed using the strong form of mathematical\ninduction with two base cases and six inductive steps. For example,\nif n ≡2 (mod 6), then n = 6k +2 for some nonnegative integer k and\nf(n) = f(6k + 2)\n= f(6k + 1) −f(6k) + 6k + 2\n= (6k + 1) −(6k + 2) + 6k + 2\n= 6k + 1\n= n −1.\nTherefore f(2018) = f(6 · 336 + 2) = 2018 −1 = 2017.\nOR\nNote that\nf(n) = f(n −1) −f(n −2) + n\n= [f(n −2) −f(n −3) + (n −1)] −f(n −2) + n\n= −[f(n −4) −f(n −5) + (n −3)] + 2n −1\n= −[f(n −5) −f(n −6) + (n −4)] + f(n −5) + n + 2\n= f(n −6) + 6.\nIt follows that f(2018) = f(2) + 2016 = 2017.\n\n2018 AMC 10B Solutions\n10",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q21",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Mary chose an even 4-digit number n. She wrote down all the divisors of n in increasing order\nfrom left to right: 1, 2, ..., n\n2 , n. At some moment Mary wrote 323 as a divisor of n. What is the\nsmallest possible value of the next divisor written to the right of 323?",
+    "answer_choices": {
+      "A": "324",
+      "B": "330",
+      "C": "340",
+      "D": "361",
+      "E": "646"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let d be the next divisor of n after 323.\nThen\ngcd(d, 323) ̸= 1, because otherwise n ≥323d > 3232 > 1002 = 10000,\ncontrary to the fact that n is a 4-digit number. Therefore d −323 ≥\ngcd(d, 323) > 1. The prime factorization of 323 is 17 · 19. Thus the\nnext divisor of n is at least 323 + 17 = 340 = 17 · 20. Indeed, 340 will\nbe the next number in Mary’s list when n = 17 · 19 · 20 = 6460.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q22",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Real numbers x and y are chosen independently and uniformly at random from the interval [0, 1].\nWhich of the following numbers is closest to the probability that x, y, and 1 are the side lengths\nof an obtuse triangle?",
+    "answer_choices": {
+      "A": "0.21",
+      "B": "0.25",
+      "C": "0.29",
+      "D": "0.50",
+      "E": "0.79"
+    },
+    "correct_answer": "C",
+    "solution_text": "The set of all possible ordered pairs (x, y) occupies\nthe unit square 0 ≤x ≤1, 0 ≤y ≤1 in the Cartesian plane. The\nnumbers x, y, and 1 are the side lengths of a triangle if and only if\nx + y > 1, which means that (x, y) lies above the line y = 1 −x. By\na generalization of the Pythagorean Theorem, the triangle is obtuse\nif and only if, in addition, x2 + y2 < 12, which means that (x, y)\nlies inside the circle of radius 1 centered at the origin. Within the\nunit square, the region inside the circle of radius 1 centered at the\norigin has area π\n4 , and the region below the line y = 1 −x has area 1\n2.\nTherefore the ordered pairs that meet the required conditions occupy\na region with area π\n4 −1\n2 = π−2\n4 . The area of the unit square is 1, so\nthe required probability is also π−2\n4\n≈1.14\n4\n= 0.285, which is closest\nto 0.29.\n(0, 0)\n(1, 1)\nx\ny",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q23",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many ordered pairs (a, b) of positive integers satisfy the equation\na · b + 63 = 20 · lcm(a, b) + 12 · gcd(a, b),\nwhere gcd(a, b) denotes the greatest common divisor of a and b, and lcm(a, b) denotes their\nleast common multiple?",
+    "answer_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "B",
+    "solution_text": "Recall that a·b = gcd(a, b)·lcm(a, b). Let x = lcm(a, b)\nand y = gcd(a, b). The given equation is then xy + 63 = 20x + 12y,\nwhich can be rewritten as\n(x −12)(y −20) = 240 −63 = 177 = 3 · 59 = 1 · 177.\nBecause x and y are integers, one of the following must be true:\n\n2018 AMC 10B Solutions\n11\n• x −12 = 1\nand\ny −20 = 177,\n• x −12 = 177\nand\ny −20 = 1,\n• x −12 = 3\nand\ny −20 = 59,\n• x −12 = 59\nand\ny −20 = 3.\nTherefore (x, y) must be (13, 197), (189, 21), (15, 79), or (71, 23). Be-\ncause x must be a multiple of y, only (x, y) = (189, 21) is possible.\nTherefore gcd(a, b) = 21 = 7 · 3, and lcm(a, b) = 189 = 7 · 33. Both a\nand b are divisible by 7 but not by 72; one of a and b is divisible by 3\nbut not 32, and the other is divisible by 33 but not 34; and neither is\ndivisible by any other prime. Therefore one of them is 7 · 3 = 21 and\nthe other is 7 · 33 = 189. There are 2 ordered pairs, (a, b) = (21, 189)\nand (a, b) = (189, 21).",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q24",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let ABCDEF be a regular hexagon with side length 1. Denote by X, Y, and Z the midpoints\nof AB, CD, and EF, respectively. What is the area of the convex hexagon whose interior is the\nintersection of the interiors of △ACE and △XY Z?",
+    "answer_choices": {
+      "A": "3\n8\n√\n3",
+      "B": "7\n16\n√\n3",
+      "C": "15\n32\n√\n3",
+      "D": "1\n2\n√\n3",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let O be the center of the regular hexagon. Points\nB, O, E are collinear and BE = BO + OE = 2. Trapezoid FABE\nis isosceles, and XZ is its midline. Hence XZ = 3\n2 and analogously\nXY = ZY = 3\n2.\nO\nA\nB\nC\nD\nE\nF\nX\nY\nZ\nO\nU1\nU3\nU2\nU4\nU5\nU6\nDenote by U1 the intersection of AC and XZ and by U2 the intersec-\ntion of AC and XY . It is easy to see that △AXU1 and △U2XU1 are\ncongruent 30 – 60 – 90◦right triangles.\nBy symmetry the area of the convex hexagon enclosed by the inter-\nsection of △ACE and △XY Z, shaded in the ﬁgure, is equal to the\narea of △XY Z minus 3 times the area of △U2XU1. The hypotenuse\n\n2018 AMC 10B Solutions\n12\nof △U2XU1 is XU2 = AX = 1\n2, so the area of △U2XU1 is\n1\n2 ·\n√\n3\n4 ·\n\u00121\n2\n\u00132\n= 1\n32\n√\n3.\nThe area of the equilateral triangle XY Z with side length 3\n2 is equal\nto 1\n4\n√\n3 ·\n\u0000 3\n2\n\u00012 =\n9\n16\n√\n3. Hence the area of the shaded hexagon is\n9\n16\n√\n3 −3 · 1\n32\n√\n3 = 3\n√\n3\n\u0012 3\n16 −1\n32\n\u0013\n= 15\n32\n√\n3.\nOR\nLet U1 and U2 be as above, and continue labeling the vertices of\nthe shaded hexagon counterclockwise with U3, U4, U5, and U6 as\nshown. The area of △ACE is half the area of hexagon ABCDEF.\nTriangle U2U4U6 is the midpoint triangle of △ACE, so its area is 1\n4\nof the area of △ACE, and thus 1\n8 of the area of ABCDEF. Each of\n△U2U3U4, △U4U5U6, and △U6U1U2 is congruent to half of △U2U4U6,\nso the total shaded area is 5\n2 times the area of △U2U4U6 and therefore\n5\n2· 1\n8 =\n5\n16 of the area of ABCDEF. The area of ABCDEF is 6·\n√\n3\n4 ·12,\nso the requested area is 15\n32\n√\n3.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10B-Q25",
+    "year": 2018,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let ⌊x⌋denote the greatest integer less than or equal to x. How many real numbers x satisfy\nthe equation x^{2} + 10,000⌊x⌋= 10,000x?",
+    "answer_choices": {
+      "A": "197",
+      "B": "198",
+      "C": "199",
+      "D": "200",
+      "E": "201"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let {x} = x −⌊x⌋denote the fractional part of x.\nThen 0 ≤{x} < 1.\nThe given equation is equivalent to x2 =\n10,000{x}, that is,\nx2\n10,000 = {x}.\nTherefore if x satisﬁes the equation, then\n0 ≤\nx2\n10,000 < 1.\nThis implies that x2 < 10,000, so −100 < x < 100. The ﬁgure shows\na sketch of the graphs of\nf(x) =\nx2\n10,000\nand\ng(x) = {x}\nfor −100 < x < 100 on the same coordinate axes. The graph of g\nconsists of the 200 half-open line segments with slope 1 connecting\nthe points (k, 0) and (k + 1, 1) for k = −100, −99, . . . , 98, 99. (The\n\n2018 AMC 10B Solutions\n13\nendpoints of these intervals that lie on the x-axis are part of the graph,\nbut the endpoints with y-coordinate 1 are not.) It is clear that there is\none intersection point for x lying in each of the intervals [−100, −99),\n[−99, −98), [−98, −97), . . . , [−1, 0), [0, 1), [1, 2), . . . , [97, 98), [98, 99)\nbut no others. Thus the equation has 199 solutions.\n100\n50\n50\n100\n0.2\n0.4\n0.6\n0.8\n1\nx\nOR\nThe solutions to the equation correspond to points of intersection of\nthe graphs y = 10000⌊x⌋and y = 10000x−x2. There will be a point of\nintersection any time the parabola intersects the half-open horizontal\nsegment from the point (a, 10000a) to the point (a+1, 10000a), where\na is an integer. This occurs for every integer value of a for which\n10000a −a2 ≤10000a < 10000(a + 1) −(a + 1)2.\nThis is equivalent to (a + 1)2 < 10000, which occurs if and only if\n−101 < a < 99. Thus points of intersection occur on the intervals\n[a, a + 1) for a = −100, −99, −98, . . . , −1, 0, 1, . . . , 97, 98, resulting in\n199 points of intersection.\n\n2018 AMC 10B Solutions\n14\nProblems and solutions were contributed by Risto Atanasov, Chris\nBolognese, Ivan Borsenco, Thomas Butts, Barbara Currier, Steven\nDavis, Steve Dunbar, Marta Eso, Zuming Feng, Jerrold Grossman,\nChris Jeuell, Jonathan Kane, Joe Kennedy, Michael Khoury, Norbert\nKuenzi, Hugh Montgomery, Mohamed Omar, Albert Otto, Joachim\nRebholz, David Wells, and Carl Yerger.\n\nThe\nMAA American Mathematics Competitions\nare supported by\nInnovator’s Circle\nThe D. E. Shaw Group\nSusquehanna International Group\nTudor Investment Corporation\nTwo Sigma\nWinner’s Circle\nMathWorks\nAchiever’s Circle\nArt of Problem Solving\nJane Street Capital\nSustainer’s Circle\nAmerican Mathematical Society\nAnsatz Capital\nArmy Educational Outreach Program\nCollaborator’s Circle\nAmerican Statistical Association\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nMu Alpha Theta\nSociety for Industrial and Applied Mathematics",
+    "has_image": false
+  }
+]
