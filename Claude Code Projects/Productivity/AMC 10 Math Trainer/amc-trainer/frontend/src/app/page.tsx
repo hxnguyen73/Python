@@ -28,7 +28,7 @@ export default async function HomePage({ searchParams }: PageProps) {
   const options = getFilterOptions(allProblems);
 
   return (
-    <div className="flex h-screen overflow-hidden bg-zinc-950">
+    <div className="flex h-full overflow-hidden bg-zinc-950">
       {/* Left sidebar — fixed 280px */}
       <div className="w-[280px] shrink-0 h-full overflow-y-auto">
         <FilterSidebar options={options} current={filterState} />

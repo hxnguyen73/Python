@@ -63,7 +63,7 @@
     "question_number": 4,
     "topic": "Geometry",
     "difficulty": "easy",
-    "problem_text": "Rose fills each of the rectangular regions of her rectangular flower bed with a different type of flower. The lengths, in feet, of the rectangular regions in her flower bed are as shown in the figure. She plants one flower per square foot in each region. Asters cost $1 each, begonias $1.50 each, cannas $2 each, dahlias $2.50 each, and Easter lilies $3 each. What is the least possible cost, in dollars, for her garden?\n      4      7\n5              3\n               3\n1\n      6      5",
+    "problem_text": "Rose fills each of the rectangular regions of her rectangular flower bed with a different type of flower. The lengths, in feet, of the rectangular regions in her flower bed are as shown in the figure. She plants one flower per square foot in each region. Asters cost $1 each, begonias $1.50 each, cannas $2 each, dahlias $2.50 each, and Easter lilies $3 each. What is the least possible cost, in dollars, for her garden?\n(Figure: rectangular bed divided into 5 regions; top widths 4 ft and 7 ft; left heights 5 ft and 1 ft; right heights 3 ft and 3 ft; bottom widths 6 ft and 5 ft.)",
     "answer_choices": {
       "A": "108",
       "B": "115",
@@ -101,7 +101,7 @@
     "question_number": 6,
     "topic": "Geometry",
     "difficulty": "easy",
-    "problem_text": "Many television screens are rectangles that are measured by the length of their diagonals. The ratio of the horizontal length to the height in a standard television screen is 4 : 3. The horizontal length of a \"27-inch\" television screen is closest, in inches, to which of the following?\nDiagonal\nHeight\nLength",
+    "problem_text": "Many television screens are rectangles that are measured by the length of their diagonals. The ratio of the horizontal length to the height in a standard television screen is 4 : 3. The horizontal length of a \"27-inch\" television screen is closest, in inches, to which of the following?\n(Figure: right triangle with Diagonal as hypotenuse, Height as vertical leg, Length as horizontal leg.)",
     "answer_choices": {
       "A": "20",
       "B": "20.5",
@@ -367,7 +367,7 @@
     "question_number": 20,
     "topic": "Geometry",
     "difficulty": "hard",
-    "problem_text": "In rectangle ABCD, AB = 5 and BC = 3. Points F and G are on CD so that DF = 1 and GC = 2. Lines AF and BG intersect at E. Find the area of △AEB.\nE\nD  1  F     G  2  C\n3                    3\nA         5          B",
+    "problem_text": "In rectangle ABCD, AB = 5 and BC = 3. Points F and G are on CD so that DF = 1 and GC = 2. Lines AF and BG intersect at E. Find the area of △AEB.\n(Figure: E is the intersection point above DC; on DC, DF=1 and GC=2; BC=AD=3; AB=5.)",
     "answer_choices": {
       "A": "10",
       "B": "21\n2",
@@ -424,7 +424,7 @@
     "question_number": 23,
     "topic": "Geometry",
     "difficulty": "hard",
-    "problem_text": "A regular octagon ABCDEFGH has an area of one square unit. What is the area of the rectangle ABEF?\nA  B\nH      C\nG      D\nF  E",
+    "problem_text": "A regular octagon ABCDEFGH has an area of one square unit. What is the area of the rectangle ABEF?\n(Figure: regular octagon with vertices A, B at top; C, D at right; E, F at bottom; G, H at left. ABEF is a rectangle spanning the full height.)",
     "answer_choices": {
       "A": "1 − √2\n2",
       "B": "√2\n4",

@@ -405,7 +405,7 @@
     "question_number": 22,
     "topic": "Geometry",
     "difficulty": "hard",
-    "problem_text": "In rectangle ABCD, we have AB = 8, BC = 9, H is on BC with BH = 6, E is on AD with DE = 4, line EC intersects line AH at G, and F is on line AD with GF ⊥ AF. Find the length GF.\nF    G\nC    H  6  B\nD  4  E    A",
+    "problem_text": "In rectangle ABCD, we have AB = 8, BC = 9, H is on BC with BH = 6, E is on AD with DE = 4, line EC intersects line AH at G, and F is on line AD with GF ⊥ AF. Find the length GF.\n(Figure: G is above the rectangle; C and H are on the top edge with BH=6; D, E, A are on the bottom edge with DE=4; F is on the extension of AD to the left.)",
     "answer_choices": {
       "A": "16",
       "B": "20",

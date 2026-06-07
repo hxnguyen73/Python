@@ -74,10 +74,11 @@ export function normalizeProblemText(text: string): string {
   t = t.replace(/√(\d+)/g, (_, d) => `\\sqrt{${d}}`);
   t = t.replace(/√(?!\d)/g, '\\sqrt{}');
 
-  // Strip trailing diagram-label artifacts: multiple standalone numbers at end
-  // (e.g. "\n1\n2\n6" from dimension labels).  Requires 2+ occurrences so that
-  // a legitimate single-line denominator like "\n9" in "4\n9" is not stripped.
-  t = t.replace(/(\n[\d\s]+){2,}$/, '').trimEnd();
+  // Strip trailing diagram-label artifacts: 3+ lines that each contain ONLY a
+  // single number (e.g. "\n1\n2\n3\n4\n5" from position labels). Uses [ \t]*
+  // so multi-number lines like "\n4      7" (two numbers with spaces) are NOT
+  // stripped — they are legitimate spatial diagram representations.
+  t = t.replace(/(\n[ \t]*\d+[ \t]*){3,}$/, '').trimEnd();
 
   // Strip PDF control/encoding artifacts (non-printable chars, keep \n)
   t = t.replace(/[\x00-\x09\x0b-\x1f\x7f]/g, '');
@@ -89,6 +90,11 @@ export function normalizeProblemText(text: string): string {
     .replace(/ﬂ/g, 'fl')
     .replace(/ﬃ/g, 'ffi')
     .replace(/ﬄ/g, 'ffl');
+
+  // Replace WHITE BULLET (U+25E6) — used in some PDFs as a degree-circle —
+  // with the actual degree sign so it renders correctly in plain text and
+  // doesn't trigger KaTeX "unknown symbol" warnings when inside $…$.
+  t = t.replace(/◦/g, '°');
 
   // Step 2: join a partial numerator that ends on one line with a \sqrt{...}
   // that begins the next line — both belong to the same stacked-fraction numerator.
