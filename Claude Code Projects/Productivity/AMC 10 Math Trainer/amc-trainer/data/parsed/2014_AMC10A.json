@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2014-AMC10A-Q02",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Roy’s cat eats 1\n3 of a can of cat food every morning and 1\n4 of a can of cat food every evening.\nBefore feeding his cat on Monday morning, Roy opened a box containing 6 cans of cat food. On\nwhat day of the week did the cat ﬁnish eating all the cat food in the box?",
+    "answer_choices": {
+      "A": "Tuesday",
+      "B": "Wednesday",
+      "C": "Thursday",
+      "D": "Friday",
+      "E": "Saturday"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because Roy’s cat eats 1\n3 + 1\n4 =\n7\n12 of a can of cat food each day,\nthe cat eats 7 cans of cat food in 12 days. Therefore the cat eats 7 −7\n12 = 6 5\n12\ncans in 11 days and 6 5\n12 −\n7\n12 = 5 5\n6 cans in 10 days. The cat ﬁnishes the cat\nfood in the box on the 11th day, which is Thursday.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q03",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Bridget bakes 48 loaves of bread for her bakery. She sells half of them in the morning for $2.50\neach. In the afternoon she sells two thirds of what she has left, and because they are not fresh,\nshe charges only half price. In the late afternoon she sells the remaining loaves at a dollar each.\nEach loaf costs $0.75 for her to make. In dollars, what is her proﬁt for the day?",
+    "answer_choices": {
+      "A": "24",
+      "B": "36",
+      "C": "44",
+      "D": "48",
+      "E": "52"
+    },
+    "correct_answer": "E",
+    "solution_text": "In the morning, Bridget sells half of her loaves of bread for\n1\n2 · 48 · $2.50 = $60. In the afternoon, she sells 2\n3 · 24 = 16 loaves of bread for\n16· 1\n2 ·$2.50 = $20. Finally, she sells the remaining 8 loaves of bread for $8. Her\ntotal cost is 48 · $0.75 = $36. Her proﬁt is 60 + 20 + 8 −36 = 52 dollars.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q04",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Walking down Jane Street, Ralph passed four houses in a row, each painted a different color. He\npassed the orange house before the red house, and he passed the blue house before the yellow\nhouse. The blue house was not next to the yellow house. How many orderings of the colored\nhouses are possible?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "B",
+    "solution_text": "If Ralph passed the orange house ﬁrst, then because the blue\nand yellow houses are not neighbors, the house color ordering must be orange,\nblue, red, yellow. If Ralph passed the blue house ﬁrst, then there are 2 possible\nplacements for the yellow house, and each choice determines the placement of\nthe orange and red houses.\nThese 2 house color orderings are blue, orange,\nyellow, red, and blue, orange, red, yellow. There are 3 possible orderings for the\ncolored houses.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q05",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "On an algebra quiz, 10% of the students scored 70 points, 35% scored 80 points, 30% scored 90\npoints, and the rest scored 100 points. What is the difference between the mean and median\nscore of the students’ scores on this quiz?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because over 50% of the students scored 90 or lower, and over\n50% of the students scored 90 or higher, the median score is 90. The mean score\nis\n10\n100 · 70 + 35\n100 · 80 + 30\n100 · 90 + 25\n100 · 100 = 87,\nfor a diﬀerence of 90 −87 = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q06",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Suppose that a cows give b gallons of milk in c days. At this rate, how many gallons of milk will\nd cows give in e days?",
+    "answer_choices": {
+      "A": "bde\nac",
+      "B": "ac\nbde",
+      "C": "abde\nc",
+      "D": "bcde\na",
+      "E": "abc"
+    },
+    "correct_answer": "A",
+    "solution_text": "One cow gives b\na gallons in c days, so one cow gives\nb\nac gallons\nin 1 day. Thus d cows will give bd\nac gallons in 1 day. In e days d cows will give\nbde\nac gallons of milk.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q07",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Nonzero real numbers x, y, a, and b satisfy x < a and y < b. How many of the following inequal-\nities must be true?\n(I) x + y < a + b\n(II) x −y < a −b\n(III) xy < ab\n(IV) x\ny < a\nb",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that x + y < a + y < a + b, so inequality I is true. If\nx = −2, y = −2, a = −1, and b = −1, then none of the other three inequalities\nis true.\n\n2014 AMC10A Solutions\n3",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q08",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Which of the following numbers is a perfect square?",
+    "answer_choices": {
+      "A": "14!15!\n2",
+      "B": "15!16!\n2",
+      "C": "16!17!\n2",
+      "D": "17!18!\n2",
+      "E": "18!19!\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that n!(n+1)!\n2\n= (n!)2 · n+1\n2 , which is a perfect square if\nand only if n+1\n2\nis a perfect square. Only choice D satisﬁes this condition.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q09",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The two legs of a right triangle, which are altitudes, have lengths 2\n√\n3 and 6. How long is the\nthird altitude of the triangle?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "C",
+    "solution_text": "The area of the triangle is 1\n2 ·2\n√\n3·6 = 6\n√\n3. By the Pythagorean\nTheorem, the hypotenuse has length 4\n√\n3.\nThe desired altitude has length\n6\n√\n3\n1\n2 ·4\n√\n3 = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q10",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "−1?",
+    "answer_choices": {
+      "A": "3",
+      "B": "8",
+      "C": "25\n2",
+      "D": "170\n3",
+      "E": "170\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "The ﬁve consecutive integers starting with a are a, a + 1, a + 2,\na + 3, and a + 4. Their average is a + 2 = b. The average of ﬁve consecutive\nintegers starting with b is b + 2 = a + 4.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q11",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A customer who intends to purchase an appliance has three coupons, only one of which may\nbe used:\nCoupon 1: 10% off the listed price if the listed price is at least $50\nCoupon 2: $20 off the listed price if the listed price is at least $100\nCoupon 3: 18% off the amount by which the listed price exceeds $100\nFor which of the following listed prices will coupon 1 offer a greater price reduction than either\ncoupon 2 or coupon 3?",
+    "answer_choices": {
+      "A": "$179.95",
+      "B": "$199.95",
+      "C": "$219.95",
+      "D": "$239.95",
+      "E": "$259.95"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let P > 100 be the listed price. Then the price reductions in\ndollars are as follows:\nCoupon 1:\nP\n10\nCoupon 2: 20\nCoupon 3:\n18\n100(P −100)\nCoupon 1 gives a greater price reduction than coupon 2 when\nP\n10 > 20, that\nis, P > 200. Coupon 1 gives a greater price reduction than coupon 3 when\nP\n10 >\n18\n100(P −100), that is, P < 225.\nThe only choice that satisﬁes these\ninequalities is $219.95.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q12",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A regular hexagon has side length 6. Congruent arcs with radius 3 are drawn with the center\nat each of the vertices, creating circular sectors as shown. The region inside the hexagon but\noutside the sectors is shaded as shown What is the area of the shaded region?",
+    "answer_choices": {
+      "A": "27\n√\n3 −9π",
+      "B": "27\n√\n3 −6π",
+      "C": "54\n√\n3 −18π",
+      "D": "54\n√\n3 −12π",
+      "E": "108\n√\n3 −9π"
+    },
+    "correct_answer": "C",
+    "solution_text": "Each of the 6 sectors has radius 3 and central angle 120◦.\nTheir combined area is 6 · 1\n3 · π · 32 = 18π. The hexagon can be partitioned\ninto 6 equilateral triangles each having side length 6, so the hexagon has area\n6 ·\n√\n3\n4 · 62 = 54\n√\n3. The shaded region has area 54\n√\n3 −18π.",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10A-Q13",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Equilateral △ABC has side length 1, and squares ABDE, BCHI, CAFG lie outside the triangle.\nWhat is the area of hexagon DEFGHI?",
+    "answer_choices": {
+      "A": "12 + 3\n√\n3\n4",
+      "B": "9\n2",
+      "C": "3 +\n√\n3",
+      "D": "6 + 3\n√\n3\n2",
+      "E": "6"
+    },
+    "correct_answer": "C",
+    "solution_text": "The three squares each have area 1, and △ABC has area\n√\n3\n4 .\nNote that ∠EAF = 360◦−60◦−2 · 90◦= 120◦. Thus the altitude from A\nin isosceles △EAF partitions the triangle into two 30 – 60 – 90◦right triangles,\neach with hypotenuse 1. It follows that △EAF has base EF =\n√\n3 and altitude\n1\n2, so its area is\n√\n3\n4 . Similarly, triangles GCH and DBI each have area\n√\n3\n4 .\nTherefore the area of hexagon DEFGHI is 3 ·\n√\n3\n4 + 3 · 1 +\n√\n3\n4 = 3 +\n√\n3 .",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10A-Q14",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The y-intercepts, P and Q, of two perpendicular lines intersecting at the point A(6, 8) have a\nsum of zero. What is the area of △APQ?",
+    "answer_choices": {
+      "A": "45",
+      "B": "48",
+      "C": "54",
+      "D": "60",
+      "E": "72"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the y-intercepts of lines PA and QA be ±b. Then their\nslopes are\n8±b\n6 .\nSetting the product of the slopes to −1 and solving yields\nb = ±10. Therefore △APQ has base 20 and altitude 6, for an area of 60.\n\n2014 AMC10A Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q15",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "David drives from his home to the airport to catch a ﬂight. He drives 35 miles in the ﬁrst hour,\nbut realizes that he will be 1 hour late if he continues at this speed. He increases his speed by\n15 miles per hour for the rest of the way to the airport and arrives 30 minutes early. How many\nmiles is the airport from his home?",
+    "answer_choices": {
+      "A": "140",
+      "B": "175",
+      "C": "210",
+      "D": "245",
+      "E": "280"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let d be the remaining distance after one hour of driving, and let\nt be the remaining time until his ﬂight. Then d = 35(t+1), and d = 50(t−0.5).\nSolving gives t = 4 and d = 175. The total distance from home to the airport is\n175 + 35 = 210 miles.\nOR\nLet d be the distance between David’s home and the airport. The time required\nto drive the entire distance at 35 MPH is\nd\n35 hours. The time required to drive\nat 35 MPH for the ﬁrst 35 miles and 50 MPH for the remaining d −35 miles is\n1 + d−35\n50 . The second trip is 1.5 hours quicker than the ﬁrst, so\nd\n35 −\n\n1 + d −35\n50\n\n= 1.5.\nSolving yields d = 210 miles.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q16",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In rectangle ABCD, AB = 1, BC = 2, and points E, F, and G are midpoints of BC, CD, and\nAD, respectively. Point H is the midpoint of GE. What is the area of the shaded region?\nA\nB\nC\nD\nE\nF\nG\nH\n1\n2\n1\n2\n1\n1",
+    "answer_choices": {
+      "A": "1\n12",
+      "B": "√\n3\n18",
+      "C": "√\n2\n12",
+      "D": "√\n3\n12",
+      "E": "1\n6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let J be the intersection point of BF and HC. Then △JHF is\nsimilar to △JCB with ratio 1 : 2. The length of the altitude of △JHF to HF\nplus the length of the altitude of △JCB to CB is FC = 1\n2. Thus △JHF has\naltitude 1\n6 and base 1, and its area is\n1\n12. The shaded area is twice the area of\n△JHF, or 1\n6.\nOR\nPlace the ﬁgure on the coordinate plane with H at the origin. Then the equation\nof line DH is y = 2x, and the equation of line AF is y = −4x −1. Solving\n\n2014 AMC10A Solutions\n5\nthe equations simultaneously shows that the leftmost point of the shaded region\nhas x-coordinate −1\n6. The kite therefore has diagonals 1\n3 and 1, so its area is\n1\n2 · 1\n3 · 1 = 1\n6.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q17",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Three fair six-sided dice are rolled. What is the probability that the values shown on two of the\ndice sum to the value shown on the remaining die?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "13\n72",
+      "C": "7\n36",
+      "D": "5\n24",
+      "E": "2\n9"
+    },
+    "correct_answer": "D",
+    "solution_text": "Each roll of the three dice can be recorded as an ordered\ntriple (a, b, c) of the three values appearing on the dice. There are 63 equally\nlikely triples possible. For the sum of two of the values in the triple to equal\nthe third value, the triple must be a permutation of one of the triples (1, 1, 2),\n(1, 2, 3), (1, 3, 4), (1, 4, 5), (1, 5, 6), (2, 2, 4), (2, 3, 5), (2, 4, 6), or (3, 3, 6). There\nare 3! = 6 permutations of the values (a, b, c) when a, b, and c are distinct, and\n3 permutations of the values when two of the values are equal. Thus there are\n6 · 6 + 3 · 3 = 45 triples where the sum of two of the values equals the third. The\nrequested probability is 45\n63 =\n5\n24.\nOR\nThere are 36 outcomes when a pair of dice are rolled, and the probability of\nrolling a total of 2, 3, 4, 5, or 6 is\n1\n36, 2\n36, 3\n36, 4\n36, and\n5\n36, respectively. The prob-\nability that another die matches this total is 1\n6, and there are 3 ways to choose\nthe die that matches the total of the other two. Thus the requested probability\nis 3( 1\n36 · 1\n6 + 2\n36 · 1\n6 + 3\n36 · 1\n6 + 4\n36 · 1\n6 + 5\n36 · 1\n6) = 3 · 15\n36 · 1\n6 =\n5\n24.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q18",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A square in the coordinate plane has vertices whose y-coordinates are 0, 1, 4, and 5. What is the\narea of the square?",
+    "answer_choices": {
+      "A": "16",
+      "B": "17",
+      "C": "25",
+      "D": "26",
+      "E": "27"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the square have vertices A, B, C, D in counterclockwise\norder. Without loss of generality assume that A = (0, 0) and B = (x, 1) for\nsome x > 0. Because D is the image of B under a 90◦counterclockwise rotation\nabout A, the coordinates of D are (−1, x), so x = 4. Therefore the area of the\nsquare is (AB)2 = 42 + 12 = 17. Note that C = (3, 5), and ABCD is indeed a\nsquare.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q19",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Four cubes with edge lengths 1, 2, 3, and 4 are stacked as shown. What is the length of the\nportion of XY contained in the cube with edge length 3?",
+    "answer_choices": {
+      "A": "3\n√\n33\n5",
+      "B": "2\n√\n3",
+      "C": "2\n√\n33\n3",
+      "D": "4",
+      "E": "3\n√\n2"
+    },
+    "correct_answer": "A",
+    "solution_text": "Label vertices A, B, and C as shown. Note that XC = 10\nand CY\n=\n√\n42 + 42 = 4\n√\n2. Because △XY C is a right triangle, XY\n=\n\n102 + (4\n√\n2)2 = 2\n√\n33. The ratio of BX to CX is 3\n5, so in the top face of\nthe bottom cube the distance from B to XY is 4\n√\n2 · 3\n5 = 12\n√\n2\n5\n. This distance\nis less than 3\n√\n2, so XY pierces the top and bottom faces of the cube with side\nlength 3. The ratio of AB to XC is\n3\n10, so the length of XY that is inside the\ncube with side length 3 is\n3\n10 · 2\n√\n33 = 3\n√\n33\n5\n.\n\n2014 AMC10A Solutions\n6\nOR\nPlace the ﬁgure in a 3-dimensional coordinate system with the lower left front\ncorner at (0, 0, 0), X = (0, 0, 10), and Y = (4, 4, 0). Then line XY consists\nof all points of the form (4t, 4t, 10 −10t). This line intersects the bottom face\nof the cube with side length 3 when 10 −10t = 4, or t = 3\n5; this is the point\n( 12\n5 , 12\n5 , 4), and because 12\n5 < 3, the point indeed lies on that face. Similarly, line\nXY intersects the top face of the cube with side length 3 when 10 −10t = 7, or\nt =\n3\n10; this is the point ( 6\n5, 6\n5, 7). Therefore the desired length is\n\u001f\u001e12\n5 −6\n5\n\u001d2\n+\n\u001e12\n5 −6\n5\n\u001d2\n+ (4 −7)2 = 3\n5\n√\n33.",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10A-Q20",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The product (8)(888 . . . 8), where the second factor has k digits, is an integer whose digits have\na sum of 1000. What is k?",
+    "answer_choices": {
+      "A": "901",
+      "B": "911",
+      "C": "919",
+      "D": "991",
+      "E": "999"
+    },
+    "correct_answer": "D",
+    "solution_text": "By direct multiplication, 8 · 888 . . . 8 = 7111 . . . 104, where\nthe product has 2 fewer ones than the number of digits in 888 . . . 8. Because\n7 + 4 = 11, the product must have 1000 −11 = 989 ones, so k −2 = 989 and\nk = 991.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q21",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Positive integers a and b are such that the graphs of y = ax+5 and y = 3x+b intersect the x-axis\nat the same point. What is the sum of all possible x-coordinates of these points of intersection?",
+    "answer_choices": {
+      "A": "−20",
+      "B": "−18",
+      "C": "−15",
+      "D": "−12",
+      "E": "−8"
+    },
+    "correct_answer": "E",
+    "solution_text": "Setting y = 0 in both equations and solving for x gives x =\n−5\na = −b\n3, so ab = 15. Only four pairs of positive integers (a, b) have product\n15, namely (1, 15), (15, 1), (3, 5), and (5, 3). Therefore the four possible points\non the x-axis have coordinates −5, −1\n3, −5\n3, and −1, the sum of which is −8.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q22",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In rectangle ABCD, AB = 20 and BC = 10. Let E be a point on CD such that ∠CBE = 15^{◦}.\nWhat is AE?",
+    "answer_choices": {
+      "A": "20\n√\n3\n3",
+      "B": "10\n√\n3",
+      "C": "18",
+      "D": "11\n√\n3",
+      "E": "20"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let E′ be the point on CD such that AE′ = AB = 2AD. Then\n△ADE′ is a 30 – 60 – 90◦triangle, so ∠DAE′ = 60◦. Hence ∠BAE′ = 30◦. Also,\n\n2014 AMC10A Solutions\n7\nAE′ = AB implies that ∠E′BA = ∠BE′A = 75◦, and then ∠CBE′ = 15◦.\nThus it follows that E′ and E are the same point. Therefore, AE = AE′ =\nAB = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q23",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A rectangular piece of paper whose length is\n√\n3 times the width has area A. The paper is divided\ninto equal sections along the opposite lengths, and then a dotted line is drawn from the ﬁrst\ndivider to the second divider on the opposite side as shown. The paper is then folded ﬂat along\nthis dotted line to create a new shape with area B. What is the ratio B : A?",
+    "answer_choices": {
+      "A": "1 : 2",
+      "B": "3 : 5",
+      "C": "2 : 3",
+      "D": "3 : 4",
+      "E": "4 : 5"
+    },
+    "correct_answer": "C",
+    "solution_text": "Without loss of generality, assume that the rectangle has dimen-\nsions 3 by\n√\n3. Then the fold has length 2, and the overlapping areas are equilat-\neral triangles each with area\n√\n3\n4 ·22. The new shape has area 3\n√\n3−\n√\n3\n4 ·22 = 2\n√\n3,\nand the desired ratio is 2\n√\n3 : 3\n√\n3 = 2 : 3.",
+    "has_image": true
+  },
+  {
+    "id": "2014-AMC10A-Q24",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "A sequence of natural numbers is constructed by listing the ﬁrst 4, then skipping one, listing the\nnext 5, skipping 2, listing 6, skipping 3, and, on the nth iteration, listing n + 3 and skipping n. The\nsequence begins 1, 2, 3, 4, 6, 7, 8, 9, 10, 13. What is the 500, 000th number in the sequence?",
+    "answer_choices": {
+      "A": "996, 506",
+      "B": "996507",
+      "C": "996508",
+      "D": "996509",
+      "E": "996510"
+    },
+    "correct_answer": "A",
+    "solution_text": "After the nth iteration there will be 4 + 5 + 6 + · · · + (n + 3) =\n(n+3)(n+4)\n2\n−6 = n(n+7)\n2\nnumbers listed, and 1+2+3+· · ·+n = n(n+1)\n2\nnumbers\nskipped. The ﬁrst number to be listed on the (n + 1)st iteration will be one\nmore than the sum of these, or n2 + 4n + 1.\nIt is necessary to ﬁnd the greatest integer value of n such that n(n+7)\n2\n< 500,000.\nThis implies that n(n + 7) < 1,000,000. Note that, for n = 993, this product\nbecomes 993 · 1000 = 993,000. Next observe that, in general, (a + k)(b + k) =\nab + (a + b)k + k2 so (993 + k)(1000 + k) = 993,000 + 1993k + k2. By inspection,\nthe largest integer value of k that will satisfy the above inequality is 3 and\nthe n needed is 996. After the 996th iteration, there will be 993,000+1993·3+9\n2\n=\n998,988\n2\n= 499,494 numbers in the sequence. The 997th iteration will begin with\nthe number 9962 + 4 · 996 + 1 = 996 · 1000 + 1 = 996,001.\nThe 506th number in the 997th iteration will be the 500,000th number in the\nsequence. This is 996,001 + 505 = 996,506.",
+    "has_image": false
+  },
+  {
+    "id": "2014-AMC10A-Q25",
+    "year": 2014,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "The number 5^{867} is between 2^{2013} and 2^{2014}. How many pairs of integers (m, n) are there such\nthat 1 ≤m ≤2012 and\n5^{n} < 2^{m} < 2^{m+2} < 5^{n+1}?",
+    "answer_choices": {
+      "A": "278",
+      "B": "279",
+      "C": "280",
+      "D": "281",
+      "E": "282\n–"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because 22 < 5 and 23 > 5, there are either two or three integer\npowers of 2 strictly between any two consecutive integer powers of 5. Thus for\n\n2014 AMC10A Solutions\n8\neach n there is at most one m satisfying the given inequalities, and the question\nasks for the number of cases in which there are three powers rather than two.\nLet d (respectively, t) be the number of nonnegative integers n less than 867\nsuch that there are exactly two (respectively, three) powers of 2 strictly between\n5n and 5n+1. Because 22013 < 5867 < 22014, it follows that d + t = 867 and\n2d + 3t = 2013. Solving the system yields t = 279.\n\nThe American Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Institute of Mathematics\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAssociation of Symbolic Logic\nAwesome Math\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nThe D.E. Shaw Group\nIDEA Math\nJane Street Capital\nMath For America\nMath Training Center\nMu Alpha Theta\nPi Mu Epsilon\nSociety for Industrial and Applied Math – SIAM\nW.H. Freeman\nThe problems and solutions in this contest were proposed by Bernardo Abrego, Steve\nBlasberg, Tom Butts, Steven Davis, Peter Gilchrist, Jerry Grossman, Jon Kane, Joe\nKennedy, Gerald Kraus, Roger Waggoner, Kevin Wang, David Wells, LeRoy Wen-\nstrom, and Ronald Yannone.",
+    "has_image": false
+  }
+]

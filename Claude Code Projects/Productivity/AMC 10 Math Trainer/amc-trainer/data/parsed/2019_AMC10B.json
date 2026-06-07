@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2019-AMC10B-Q01",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Alicia had two containers. The ﬁrst was 5\n6 full of water and the second was empty. She poured all\nthe water from the ﬁrst container into the second container, at which point the second container\nwas 3\n4 full of water. What is the ratio of the volume of the ﬁrst container to the volume of the\nsecond container?",
+    "answer_choices": {
+      "A": "5\n8",
+      "B": "4\n5",
+      "C": "7\n8",
+      "D": "9\n10",
+      "E": "11"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q02",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Consider the statement, ”If n is not prime, then n −2 is prime.” Which of the following values of\nn is a counterexample to this statement?",
+    "answer_choices": {
+      "A": "11",
+      "B": "15",
+      "C": "19",
+      "D": "21",
+      "E": "27"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q03",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In a high school with 500 students, 40% of the seniors play a musical instrument, while 30% of\nthe non-seniors do not play a musical instrument. In all, 46.8% of the students do not play a\nmusical instrument. How many non-seniors play a musical instrument?",
+    "answer_choices": {
+      "A": "66",
+      "B": "154",
+      "C": "186",
+      "D": "220",
+      "E": "266"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q04",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "All lines with equation ax + by = c such that a, b, c form an arithmetic progression pass through\na common point. What are the coordinates of that point?",
+    "answer_choices": {
+      "A": "(−1, 2)",
+      "B": "(0, 1)",
+      "C": "(1, −2)",
+      "D": "(1, 0)",
+      "E": "(1, 2)"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q05",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Triangle ABC lies in the ﬁrst quadrant. Points A, B, and C are reﬂected across the line y = x to\npoints A^{′}, B^{′}, and C^{′}, respectively. Assume that none of the vertices of the triangle lie on the line\ny = x. Which of the following statements is not always true?",
+    "answer_choices": {
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "12",
+      "E": "15\n7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q07",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Each piece of candy in a store costs a whole number of cents. Casper has exactly enough money\nto buy either 12 pieces of red candy, 14 pieces of green candy, 15 pieces of blue candy, or n pieces\nof purple candy. A piece of purple candy costs 20 cents. What is the smallest possible value of\nn?",
+    "answer_choices": {
+      "A": "18",
+      "B": "21",
+      "C": "24",
+      "D": "25",
+      "E": "28"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q08",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The ﬁgure below shows a square and four equilateral triangles, with each triangle having a side\nlying on a side of the square, such that each triangle has side length 2 and the third vertices\nof the triangles meet at the center of the square. The region inside the square but outside the\ntriangles is shaded. What is the area of the shaded region?",
+    "answer_choices": {
+      "A": "4",
+      "B": "12 −4\n√\n3",
+      "C": "3\n√\n3",
+      "D": "4\n√\n3",
+      "E": "16 −\n√\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2019-AMC10B-Q09",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Functions",
+    "difficulty": "medium",
+    "problem_text": "The function f is deﬁned by\nf(x) =\nj\n|x|\nk\n−\n⌊x⌋\nfor all real numbers x, where ⌊r⌋denotes the greatest integer less than or equal to the real\n\nnumber r. What is the range of f?",
+    "answer_choices": {
+      "A": "{−1, 0}",
+      "B": "The set of nonpositive integers",
+      "C": "{−1, 0, 1}",
+      "D": "{0}",
+      "E": "The set of nonnegative integers"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q10",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In a given plane, points A and B are 10 units apart. How many points C are there in the plane\nsuch that the perimeter of △ABC is 50 units and the area of △ABC is 100 square units?",
+    "answer_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "8",
+      "E": "inﬁnitely many"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q11",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Two jars each contain the same number of marbles, and every marble is either blue or green. In\nJar 1 the ratio of blue to green marbles is 9:1, and the ratio of blue to green marbles in Jar 2 is\n8:1. There are 95 green marbles in all. How many more blue marbles are in Jar 1 than in Jar 2?",
+    "answer_choices": {
+      "A": "5",
+      "B": "10",
+      "C": "25",
+      "D": "45",
+      "E": "50"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q12",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the greatest possible sum of the digits in the base-seven representation of a positive\ninteger less than 2019?",
+    "answer_choices": {
+      "A": "11",
+      "B": "14",
+      "C": "22",
+      "D": "23",
+      "E": "27"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q13",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "What is the sum of all real numbers x for which the median of the numbers 4, 6, 8, 17, and x is\nequal to the mean of those ﬁve numbers?",
+    "answer_choices": {
+      "A": "−5",
+      "B": "0",
+      "C": "5",
+      "D": "15\n4",
+      "E": "35\n4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q14",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The base-ten representation for 19! is 121, 6T5, 100, 40M, 832, H00, where T, M, and H denote\ndigits that are not given. What is T + M + H?",
+    "answer_choices": {
+      "A": "3",
+      "B": "8",
+      "C": "12",
+      "D": "14",
+      "E": "17"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q15",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two right triangles, T^{1} and T^{2}, have areas of 1 and 2, respectively. One side length of one triangle\nis congruent to a different side length in the other, and another side length of the ﬁrst triangle is\ncongruent to yet another side length in the other. What is the square of the product of the third\nside lengths of T^{1} and T^{2}?",
+    "answer_choices": {
+      "A": "28\n3",
+      "B": "10",
+      "C": "32\n3",
+      "D": "34\n3",
+      "E": "12"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q16",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In △ABC with a right angle at C, point D lies in the interior of AB and point E lies in the interior\nof BC so that AC = CD, DE = EB, and the ratio AC : DE = 4 : 3. What is the ratio AD : DB?",
+    "answer_choices": {
+      "A": "2 : 3",
+      "B": "2 :\n√\n5",
+      "C": "1 : 1",
+      "D": "3 :\n√\n5",
+      "E": "3 : 2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q17",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A red ball and a green ball are randomly and independently tossed into bins numbered with\npositive integers so that for each ball, the probability that it is tossed into bin k is 2^{−k} for k =\n\n1, 2, 3, . . . . What is the probability that the red ball is tossed into a higher-numbered bin than the\ngreen ball?",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "2\n7",
+      "C": "1\n3",
+      "D": "3\n8",
+      "E": "3\n7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q18",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Henry decides one morning to do a workout, and he walks 3\n4 of the way from his home to his\ngym. The gym is 2 kilometers away from Henry’s home. At that point, he changes his mind\nand walks 3\n4 of the way from where he is back toward home. When he reaches that point, he\nchanges his mind again and walks 3\n4 of the distance from there back toward the gym. If Henry\nkeeps changing his mind when he has walked 3\n4 of the distance toward either the gym or home\nfrom the point where he last changed his mind, he will get very close to walking back and forth\nbetween a point A kilometers from home and a point B kilometers from home. What is |A−B|?",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "1",
+      "C": "1^{1}\n5",
+      "D": "1^{1}\n4",
+      "E": "1^{1}\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q19",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let S be the set of all positive integer divisors of 100, 000. How many numbers are the product\nof two distinct elements of S?",
+    "answer_choices": {
+      "A": "98",
+      "B": "100",
+      "C": "117",
+      "D": "119",
+      "E": "121"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q20",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "As shown in the ﬁgure, line segment AD is trisected by points B and C so that AB = BC =\nCD = 2. Three semicircles of radius 1, AEB\n⌢, BFC\n⌢, and CGD\n⌢, have their diameters on AD, and\nare tangent to line EG at E, F, and G, respectively. A circle of radius 2 has its center on F. The\narea of the region inside the circle but outside the three semicircles, shaded in the ﬁgure, can\nbe expressed in the form\na\nb · π −√c + d,\nwhere a, b, c, and d are positive integers and a and b are relatively prime. What is a + b + c + d?",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2019-AMC10B-Q21",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Debra ﬂips a fair coin repeatedly, keeping track of how many heads and how many tails she has\nseen in total, until she gets either two heads in a row or two tails in a row, at which point she\n\nstops ﬂipping. What is the probability that she gets two heads in a row but she sees a second\ntail before she sees a second head?",
+    "answer_choices": {
+      "A": "1\n36",
+      "B": "1\n24",
+      "C": "1\n18",
+      "D": "1\n12",
+      "E": "1\n6"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q22",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Raashan, Sylvia, and Ted play the following game. Each starts with $1. A bell rings every 15\nseconds, at which time each of the players who currently have money simultaneously chooses\none of the other two players independently and at random and gives $1 to that player. What is\nthe probability that after the bell has rung 2019 times, each player will have $1? (For example,\nRaashan and Ted may each decide to give $1 to Sylvia, and Sylvia may decide to give her dollar\nto Ted, at which point Raashan will have $0, Sylvia would have $2, and Ted would have $1, and\nand that is the end of the ﬁrst round of play. In the second round Raashan has no money to give,\nbut Sylvia and Ted might choose each other to give their $1 to, and and the holdings will be the\nsame as the end of the second [sic] round.",
+    "answer_choices": {
+      "A": "1\n7",
+      "B": "1\n4",
+      "C": "1\n3",
+      "D": "1\n2",
+      "E": "2\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q23",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Points A(6, 13) and B(12, 11) lie on circle ω in the plane. Suppose that the tangent lines to ω at\nA and B intersect at a point on the x-axis. What is the area of ω?",
+    "answer_choices": {
+      "A": "83π\n8",
+      "B": "21π\n2",
+      "C": "85π\n8",
+      "D": "43π\n4",
+      "E": "87π\n8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q24",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "Deﬁne a sequence recursively by x^{0} = 5 and\nx^{n+1} = x^{2}\nn + 5x^{n} + 4\nx^{n} + 6\nfor all nonnegative integers n. Let m be the least positive integer such that\nx^{m} ≤4 + 1\n2^{20} .\nIn which of the following intervals does m lie?",
+    "answer_choices": {
+      "A": "[9, 26]",
+      "B": "[27, 80]",
+      "C": "[81, 242]",
+      "D": "[243, 728]",
+      "E": "[729, ∞]"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10B-Q25",
+    "year": 2019,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "How many sequences of 0s and 1s of length 19 are there that begin with a 0, end with a 0, contain\nno two consecutive 0s, and contain no three consecutive 1s?",
+    "answer_choices": {
+      "A": "55",
+      "B": "60",
+      "C": "65",
+      "D": "70",
+      "E": "75\n–"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2017-AMC10B-Q01",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Mary thought of a positive two-digit number. She multiplied it by 3 and added 11. Then she\nswitched the digits of the result, obtaining a number between 71 and 75, inclusive. What was\nMary’s number?",
+    "answer_choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": "B",
+    "solution_text": "Working backwards, switching the digits of the num-\nbers 71, 72, 73, 74, and 75 and subtracting 11 gives, respectively,\n6, 16, 26, 36, and 46. Only 6 and 36 are divisible by 3, and only\n36 ÷ 3 = 12 is a two-digit number.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q02",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Soﬁa ran 5 laps around the 400-meter track at her school. For each lap, she ran the ﬁrst 100\nmeters at an average speed of 4 meters per second and the remaining 300 meters at an average\nspeed of 5 meters per second. How much time did Soﬁa take running the 5 laps?",
+    "answer_choices": {
+      "A": "5 minutes and 35 seconds",
+      "B": "6 minutes and 40 seconds",
+      "C": "7 minutes and 5 seconds",
+      "D": "7 minutes a",
+      "E": "8 minutes and 10 seconds"
+    },
+    "correct_answer": "C",
+    "solution_text": "Each lap took Soﬁa 100 m\n4 m/s + 300 m\n5 m/s = 85 seconds, so 5\nlaps took her 5 · 85 = 425 seconds, which is 7 minutes and 5 seconds.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q03",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Real numbers x, y, and z satisfy the inequalities\n0 < x < 1,\n−1 < y < 0,\nand\n1 < z < 2.\nWhich of the following numbers is nessecarily positive?",
+    "answer_choices": {
+      "A": "y + x^{2}",
+      "B": "y + xz",
+      "C": "y + y^{2}",
+      "D": "y + 2y^{2}",
+      "E": "y + z"
+    },
+    "correct_answer": "E",
+    "solution_text": "Adding the inequalities y > −1 and z > 1 yields\ny +z > 0. The other four choices give negative values if, for example,\nx = 1\n8, y = −1\n4, and z = 3\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q04",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Suppose that x and y are nonzero real numbers such that\n3x + y\nx −3y = −2.\nWhat is the value of\nx + 3y\n3x −y?",
+    "answer_choices": {
+      "A": "−3",
+      "B": "−1",
+      "C": "1",
+      "D": "2",
+      "E": "3"
+    },
+    "correct_answer": "D",
+    "solution_text": "The given equation implies that 3x+y = −2(x−3y),\nwhich is equivalent to x = y. Therefore\nx + 3y\n3x −y = 4y\n2y = 2.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q05",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Camilla had twice as many blueberry jelly beans as cherry jelly beans. After eating 10 pieces of\neach kind, she now has three times as many blueberry jelly beans as cherry jelly beans. How\nmany blueberry jelly beans did she originally have?",
+    "answer_choices": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40",
+      "E": "50"
+    },
+    "correct_answer": "D",
+    "solution_text": "Suppose Camilla originally had b blueberry jelly beans\nand c cherry jelly beans. After eating 10 pieces of each kind, she now\nhas b −10 blueberry jelly beans and c −10 cherry jelly beans. The\nconditions of the problem are equivalent to the equations b = 2c and\nb −10 = 3(c −10). Then 2c −10 = 3c −30, which means that c = 20\nand b = 2 · 20 = 40.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q06",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "What is the largest number of solid 2-in×2-in×1-in blocks that can ﬁt in a 3-in×2-in×3-in box?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": "B",
+    "solution_text": "A possible arrangement of 4 blocks is shown by the\nﬁgure.\n\n2017 AMC 10B Solutions\n3\nFour blocks do not completely ﬁll the box because the combined vol-\nume of the blocks is only 4(2 · 2 · 1) = 16 cubic inches, whereas the\nvolume of the box is 3 · 2 · 3 = 18 cubic inches. Because the unused\nspace, 18 −16 = 2 cubic inches, is less than the volume of a block, 4\ncubic inches, no more than 4 blocks can ﬁt in the box.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q07",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Samia set off on her bicycle to visit her friend, traveling at an average speed of 17 kilometers per\nhour. When she had gone half the distance to her friend’s house, a tire went ﬂat, and she walked\nthe rest of the way at 5 kilometers per hour. In all it took her 44 minutes to reach her friend’s\nhouse. In kilometers rounded to the nearest tenth, how far did Samia walk?",
+    "answer_choices": {
+      "A": "2.0",
+      "B": "2.2",
+      "C": "2.8",
+      "D": "3.4",
+      "E": "4.4"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let 2d be the distance in kilometers to the friend’s\nhouse. Then Samia bicycled distance d at rate 17 and walked distance\nd at rate 5, for a total time of\nd\n17 + d\n5 = 44\n60\nhours. Solving this equation yields d =\n17\n6 = 2.833 . . .. Therefore\nSamia walked about 2.8 kilometers.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q08",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Points A(11, 9) and B(2, −3) are vertices of △ABC with AB = AC. The altitude from A meets\nthe opposite side at D(−1, 3). What are the coordinates of point C?",
+    "answer_choices": {
+      "A": "(−8, 9)",
+      "B": "(−4, 8)",
+      "C": "(−4, 9)",
+      "D": "(−2, 3)",
+      "E": "(−1, 0)"
+    },
+    "correct_answer": "C",
+    "solution_text": "The altitude AD lies on a line of symmetry for the\nisosceles triangle.\nUnder reﬂection about this line, B will be sent\nto C. Because B is obtained from D by adding 3 to the x-coordinate\nand subtracting 6 from the y-coordinate, C is obtained from D by\nsubtracting 3 from the x-coordinate and adding 6 to the y-coordinate.\nThus the third vertex C has coordinates (−1 −3, 3 + 6) = (−4, 9).\nOR\nTo ﬁnd the coordinates of C(x, y), note that D is the midpoint of\nBC. Therefore\nx + 2\n2\n= −1\nand\ny −3\n2\n= 3.\nSolving these equations gives x = −4 and y = 9, so C = (−4, 9).",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q09",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "A radio program has a quiz consisting of 3 multiple-choice questions, each with 3 choices. A\ncontestant wins if he or she gets 2 or more of the questions right. The contestant answers\nrandomly to each question. What is the probability of winning?",
+    "answer_choices": {
+      "A": "1\n27",
+      "B": "1\n9",
+      "C": "2\n9",
+      "D": "7\n27",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The probability of getting all 3 questions right is\n\u001f 1\n3\n\u001e3 =\n1\n27. Because there are 3 ways to get 2 of the questions right and\n1 wrong, the probability of getting exactly 2 right is 3\n\u001f 1\n3\n\u001e2 \u001f 2\n3\n\n=\n6\n27.\nTherefore the probability of winning is\n1\n27 + 6\n27 =\n7\n27.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q10",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The lines with equations ax−2y = c and 2x+by = −c are perpendicular and intersect at (1, −5).\nWhat is c?",
+    "answer_choices": {
+      "A": "−13",
+      "B": "−8",
+      "C": "2",
+      "D": "8",
+      "E": "13"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because the lines are perpendicular, their slopes,\na\n2 and −2\nb, are negative reciprocals, so a = b.\nSubstituting b for\na and using the point (1, −5) yields the equations b + 10 = c and\n2 −5b = −c. Adding the two equations yields 12 −4b = 0, so b = 3.\nThus c = 3 + 10 = 13.\n\n2017 AMC 10B Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q11",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "At Typico High School, 60% of the students like dancing, and the rest dislike it. Of those who\nlike dancing, 80% say that they like it, and the rest say that they dislike it. Of those who dislike\ndancing, 90% say that they dislike it, and the rest say that they like it. What fraction of students\nwho say they dislike dancing actually like it?",
+    "answer_choices": {
+      "A": "10%",
+      "B": "12%",
+      "C": "20%",
+      "D": "25%",
+      "E": "33 1\n3%"
+    },
+    "correct_answer": "D",
+    "solution_text": "The students who like dancing but say they dislike\nit constitute 60% · (100% −80%) = 12% of the students. Similarly,\nthe students who dislike dancing and say they dislike it constitute\n(100% −60%) · 90% = 36% of the students. Therefore the requested\nfraction is\n12\n12+36 = 1\n4 = 25%.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q12",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Elmer’s new car gives 50% percent better fuel efﬁciency, measured in kilometers per liter, than\nhis old car. However, his new car uses diesel fuel, which is 20% more expensive per liter than the\ngasoline his old car used. By what percent will Elmer save money if he uses his new car instead\nof his old car for a long trip?",
+    "answer_choices": {
+      "A": "20%",
+      "B": "26^{2}\n3%",
+      "C": "27 7\n9%",
+      "D": "33 1\n3%",
+      "E": "66^{2}\n3%"
+    },
+    "correct_answer": "A",
+    "solution_text": "For Elmer’s old car, let M be the fuel eﬃciency in\nkilometers per liter, and let C be the cost of fuel in dollars per liter.\nThen for his new car, the fuel eﬃciency is 1.5M, and the cost of fuel\nis 1.2C. The cost in dollars per kilometer for the old car is\nC\nM , and\nfor the new car it is\n1.2C\n1.5M = 0.8 C\nM . Therefore, fuel for the long trip\nwill cost 20% less in Elmer’s new car.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q13",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "There are 20 students participating in an after-school program offering classes in yoga, bridge,\nand painting. Each student must take at least one of these three classes, but may take two or\nall three. There are 10 students taking yoga, 13 taking bridge, and 9 taking painting. There are 9\nstudents taking at least two classes. How many students are taking all three classes?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let x, y, and z be the number of people taking\nexactly one, two, and three classes, respectively. The condition that\neach student in the program takes at least one class is equivalent to\nthe equation x + y + z = 20. The condition that there are 9 students\ntaking at least two classes is equivalent to the equation y + z = 9.\nThe sum 10 + 13 + 9 = 32 counts once the students taking one class,\ntwice the students taking two classes, and three times the students\ntaking three classes. Then x + 2y + 3z = 32, which is equivalent to\nz = 32 −(x + y + z) −(y + z) = 32 −20 −9 = 3.\nOR\nLet Y , B, and P be the sets of students taking yoga, bridge, and\npainting, respectively. By the Inclusion–Exclusion Principle,\n|Y ∪B∪P| = |Y |+|B|+|P|−(|Y ∩B|+|Y ∩P|+|B∩P|)+|Y ∩B∩P|.\nFurthermore, |Y ∩B| + |Y ∩P| + |B ∩P| = 9 + 2|Y ∩B ∩P|, because\nin tabulating the students taking at least two classes by considering\nthe pairs of classes one by one, the students taking all three classes\nare counted three times rather than just once. Thus\n20 = 10+13+9−(9+2|Y ∩B ∩P|)+|Y ∩B ∩P| = 23−|Y ∩B ∩P|,\nso the number of students taking all three classes is |Y ∩B ∩P| = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q14",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "An integer N is selected at random in the range 1 ≤N ≤2020. What is the probability that the\nremainder when N^{16} is divided by 5 is 1?",
+    "answer_choices": {
+      "A": "1\n5",
+      "B": "2\n5",
+      "C": "3\n5",
+      "D": "4\n5",
+      "E": "1"
+    },
+    "correct_answer": "D",
+    "solution_text": "An integer will have a remainder of 1 when divided by\n5 if and only if the units digit is either 1 or 6. The randomly selected\npositive integer will itself have a units digit of each of the numbers\n\n2017 AMC 10B Solutions\n5\nfrom 0 through 9 with equal probability. This digit of N alone will\ndetermine the units digit of N 16. Computing the 16th power of each\nof these 10 digits by squaring the units digit four times yields one 0,\none 5, four 1s, and four 6s. The probability is therefore\n8\n10 = 4\n5.\nNote: This result also follows from Fermat’s Little Theorem.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q15",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Rectangle ABCD has AB = 3 and BC = 4. Point E is the foot of the perpendicular from B to\ndiagonal AC. What is the area of △ADE?",
+    "answer_choices": {
+      "A": "1",
+      "B": "42\n25",
+      "C": "28\n15",
+      "D": "2",
+      "E": "54"
+    },
+    "correct_answer": "E",
+    "solution_text": "Triangles ADE and ABE have the same area because\nthey share the base AE and, by symmetry, they have the same height.\nBy the Pythagorean Theorem, AC = 5. Because △ABE ∼△ACB,\nthe ratio of their areas is the square of the ratio of their corresponding\nsides. Their hypotenuses have lengths 3 and 5, respectively, so their\nareas are in the ratio 9 to 25. The area of △ACB is half that of\nthe rectangle, so the area of △ABE is\n9\n25 · 6 = 54\n25. Thus the area of\n△ADE is also 54\n25.\nB\nA\nC\nD\nE",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q16",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "How many of the base-ten numerals for the positive integers less than or equal to 2017 contain\nthe digit 0?",
+    "answer_choices": {
+      "A": "469",
+      "B": "471",
+      "C": "475",
+      "D": "478",
+      "E": "481"
+    },
+    "correct_answer": "A",
+    "solution_text": "It will be easier to count the complementary set.\nThere are 9 one-digit numerals that do not contain the digit 0, 9·9 =\n81 two-digit numerals that do not contain the digit 0, 9 · 9 · 9 = 729\nthree-digit numerals that do not contain the digit 0, and 1 · 9 · 9 · 9 =\n729 four-digit numerals starting with 1 that do not contain the digit\n0, a total of 1548. All four-digit numerals between 2000 and 2017,\ninclusive, contain the digit 0. Therefore 2017 −1548 = 469 numerals\nin the required range do contain the digit 0.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q17",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Call a positive integer monotonous if it is a one-digit number or its digits, when read from left to\nright, form either a strictly increasing or a strictly decreasing sequence. For example, 3, 23578,\nand 987620 are monotonous, but 88, 7434, and 23557 are not. How many monotonous positive\nintegers are there?",
+    "answer_choices": {
+      "A": "1024",
+      "B": "1524",
+      "C": "1533",
+      "D": "1536",
+      "E": "2048"
+    },
+    "correct_answer": "B",
+    "solution_text": "The monotonous positive integers with one digit or\nincreasing digits can be put into a one-to-one correspondence with\nthe nonempty subsets of {1, 2, 3, 4, 5, 6, 7, 8, 9}. The number of such\nsubsets is 29 −1 = 511. The monotonous positive integers with one\ndigit or decreasing digits can be put into a one-to-one correspondence\n\n2017 AMC 10B Solutions\n6\nwith the subsets of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} other than ∅and {0}. The\nnumber of these is 210 −2 = 1022.\nThe single-digit numbers are\nincluded in both sets, so there are 511+1022 −9 = 1524 monotonous\npositive integers.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q18",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "In the ﬁgure below, 3 of the 6 disks are to be painted blue, 2 are to be painted red, and 1 is to be\npainted green. Two paintings that can be obtained from one another by a rotation or a reﬂection\nof the entire ﬁgure are considered the same. How many different paintings are possible?",
+    "answer_choices": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "12",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "By symmetry, there are just two cases for the position\nof the green disk: corner or non-corner. If a corner disk is painted\ngreen, then there is 1 case in which both red disks are adjacent to the\ngreen disk, there are 2 cases in which neither red disk is adjacent to\nthe green disk, and there are 3 cases in which exactly one of the red\ndisks is adjacent to the green disk. Similarly, if a non-corner disk is\npainted green, then there is 1 case in which neither red disk is in a\ncorner, there are 2 cases in which both red disks are in a corner, and\nthere are 3 cases in which exactly one of the red disks is in a corner.\nThe total number of paintings is 1 + 2 + 3 + 1 + 2 + 3 = 12.\nG\nR G\nR G R\nR G\nG\nG R\nR R\nR\nR\nR\nR\nR\nR R\nR\nR\nR\nR\nR\nR R\nR\nR\nR\nG\nG\nG\nG\nG\nG",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q19",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let ABC be an equilateral triangle. Extend side AB beyond B to a point B^{′} so that BB^{′} = 3AB.\nSimilarly, extend side BC beyond C to a point C^{′} so that CC^{′} = 3BC, and extend side CA\nbeyond A to a point A^{′} so that AA^{′} = 3CA. What is the ratio of the area of △A^{′}B^{′}C^{′} to the area\nof △ABC?",
+    "answer_choices": {
+      "A": "9 : 1",
+      "B": "16 : 1",
+      "C": "25 : 1",
+      "D": "36 : 1",
+      "E": "37 : 1"
+    },
+    "correct_answer": "E",
+    "solution_text": "Draw segments CB′, AC′, and BA′. Let X be the\narea of △ABC.\nBecause △BB′C has a base 3 times as long and\nthe same altitude, its area is 3X. Similarly, the areas of △AA′B and\n△CC′A are also 3X. Furthermore, △AA′C′ has 3 times the base and\nthe same height as △ACC′, so its area is 9X. The areas of △CC′B′\nand △BB′A′ are also 9X by the same reasoning. Therefore the area\nof △A′B′C′ is X + 3(3X) + 3(9X) = 37X, and the requested ratio\nis 37 : 1. Note that nothing in this argument requires △ABC to be\nequilateral.\n\n2017 AMC 10B Solutions\n7\nA\nB\nC\nA′\nB′\nC′\nX\n3X\n3X\n3X\n9X\n9X\n9X",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q20",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "The number 21! = 51, 090, 942, 171, 709, 440, 000 has over 60, 000 positive integer divisors. One\nof them is chosen at random. What is the probability that it is odd?",
+    "answer_choices": {
+      "A": "1\n21",
+      "B": "1\n19",
+      "C": "1\n18",
+      "D": "1\n2",
+      "E": "^{11}"
+    },
+    "correct_answer": "B",
+    "solution_text": "There are\n\u001f 21\n2\n\n+\n\u001f 21\n4\n\n+\n\u001f 21\n8\n\n+\n\u001f 21\n16\n\n= 10+5+2+1 = 18\npowers of 2 in the prime factorization of 21!. Thus 21! = 218k, where\nk is odd. A divisor of 21! must be of the form 2ib where 0 ≤i ≤18\nand b is a divisor of k. For each choice of b, there is one odd divisor of\n21! and 18 even divisors. Therefore the probability that a randomly\nchosen divisor is odd is\n1\n19. In fact, 21! = 218 ·39 ·54 ·73 ·11·13·17·19,\nso it has 19 · 10 · 5 · 4 · 2 · 2 · 2 · 2 = 60,800 positive integer divisors, of\nwhich 10 · 5 · 4 · 2 · 2 · 2 · 2 = 3,200 are odd.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q21",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In △ABC, AB = 6, AC = 8, BC = 10, and D is the midpoint of BC. What is the sum of the radii\nof the circles inscribed in △ADB and △ADC?",
+    "answer_choices": {
+      "A": "√\n5",
+      "B": "11\n4",
+      "C": "2\n√\n2",
+      "D": "17\n6",
+      "E": "3"
+    },
+    "correct_answer": "D",
+    "solution_text": "By the converse of the Pythagorean Theorem, ∠BAC\nis a right angle, so BD = CD = AD = 5, and the area of each of the\nsmall triangles is 12 (half the area of △ABC). The area of △ABD\nis equal to its semiperimeter, 1\n2 · (5 + 5 + 6) = 8, multiplied by the\nradius of the inscribed circle, so the radius is 12\n8 = 3\n2. Similarly, the\nradius of the inscribed circle of △ACD is 4\n3. The requested sum is\n3\n2 + 4\n3 = 17\n6 .\n\n2017 AMC 10B Solutions\n8\n5\nD\nC\nB\nA\n8\n6\n5\n5",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q22",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "The diameter AB of a circle of radius 2 is extended to a point D outside the circle so that BD =\n3. Point E is chosen so that ED = 5 and the line ED is perpendicular to the line AD. Segment\nAE intersects the circle at point C between A and E. What is the area of △ABC?",
+    "answer_choices": {
+      "A": "120\n37",
+      "B": "140\n39",
+      "C": "145\n39",
+      "D": "140\n37",
+      "E": "120\n31"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because ∠ACB is inscribed in a semicircle, it is a\nright angle. Therefore △ABC is similar to △AED, so their areas\nare related as AB2 is to AE2. Because AB2 = 42 = 16 and, by the\nPythagorean Theorem,\nAE2 = (4 + 3)2 + 52 = 74,\nthis ratio is 16\n74 =\n8\n37. The area of △AED is 35\n2 , so the area of △ABC\nis 35\n2 · 8\n37 = 140\n37 .\nA\nB\nC\nD\nE\n2\n2\n3\n5\n\n2017 AMC 10B Solutions\n9",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q23",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let N = 123456789101112 . . . 4344 be the 79-digit number obtained that is formed by writing the\nintegers from 1 to 44 in order, one after the other. What is the remainder when N is divided by\n45?",
+    "answer_choices": {
+      "A": "1",
+      "B": "4",
+      "C": "9",
+      "D": "18",
+      "E": "44"
+    },
+    "correct_answer": "C",
+    "solution_text": "The remainder when N is divided by 5 is clearly 4.\nA positive integer is divisible by 9 if and only if the sum of its digits\nis divisible by 9. The sum of the digits of N is 4(0 + 1 + 2 + · · · + 9) +\n10·1+10·2+10·3+(4+0)+(4+1)+(4+2)+(4+3)+(4+4) = 270,\nso N must be a multiple of 9. Then N −9 must also be a multiple of\n9, and the last digit of N −9 is 5, so it is also a multiple of 5. Thus\nN −9 is a multiple of 45, and N leaves a remainder of 9 when divided\nby 45.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q24",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "The vertices of an equilateral triangle lie on the hyperbola xy = 1, and a vertex of this hyperbola\nis the centroid of the triangle. What is the square of the area of the triangle?",
+    "answer_choices": {
+      "A": "48",
+      "B": "60",
+      "C": "108",
+      "D": "120",
+      "E": "169"
+    },
+    "correct_answer": "C",
+    "solution_text": "Assume without loss of generality that two of the\nvertices of the triangle are on the branch of the hyperbola in the\nﬁrst quadrant.\nThis forces the centroid of the triangle to be the\nvertex (1, 1) of the hyperbola. Because the vertices of the triangle\nare equidistant from the centroid, the ﬁrst-quadrant vertices must be\n\na, 1\na\n\nand\n\u001f 1\na, a\n\nfor some positive number a. By symmetry, the third\nvertex must be (−1, −1). The distance between the vertex (−1, −1)\nand the centroid (1, 1) is 2\n√\n2, so the altitude of the triangle must\nbe 3\n2 · 2\n√\n2 = 3\n√\n2, which makes the side length of the triangle s =\n2\n√\n3 · 3\n√\n2 = 2\n√\n6. The required area is\n√\n3\n4 s2 = 6\n√\n3. The requested\nvalue is (6\n√\n3)2 = 108. In fact, the vertices of the equilateral triangle\nare (−1, −1), (2 +\n√\n3, 2 −\n√\n3), and (2 −\n√\n3, 2 +\n√\n3).",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10B-Q25",
+    "year": 2017,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Last year Isabella took 7 math tests and received 7 different scores, each an integer between\n91 and 100, inclusive. After each test she noticed that the average of her test scores was an\ninteger. Her score on the seventh test was 95. What was her score on the sixth test?",
+    "answer_choices": {
+      "A": "92",
+      "B": "94",
+      "C": "96",
+      "D": "98",
+      "E": "100\n–"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let S be the sum of Isabella’s 7 scores. Then S is a\nmultiple of 7, and\n658 = 91 + 92 + 93 + · · · + 97 ≤S ≤94 + 95 + 96 + · · · + 100 = 679,\nso S is one of 658, 665, 672, or 679. Because S −95 is a multiple of 6,\nit follows that S = 665. Thus the sum of Isabella’s ﬁrst 6 scores was\n665 −95 = 570, which is a multiple of 5, and the sum of her ﬁrst 5\nscores was also a multiple of 5. Therefore her sixth score must have\nbeen a multiple of 5. Because her seventh score was 95 and her scores\nwere all diﬀerent, her sixth score was 100. One possible sequence of\nscores is 91, 93, 92, 96, 98, 100, 95.\nProblems and solutions were contributed by Stephen Adams, Thomas Butts,\nSteven Davis, Steven Dunbar, Marta Eso, Silvia Fernandez, Zachary Franco,\nJesse Freeman, Devin Gardella, Peter Gilchrist, Jerrold Grossman, Jonathan\nKane, Joe Kennedy, Michael Khoury, Pamela Mishkin, Hugh Montgomery,\nMark Saul, Roger Waggoner, Dave Wells, and Carl Yerger.\n\nThe\nMAA American Mathematics Competitions\nare supported by\nAcademy of Applied Science\nAkamai Foundation\nAmerican Mathematical Society\nAmerican Statistical Association\nAnsatz Capital\nArmy Educational Outreach Program\nArt of Problem Solving\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nThe DE Shaw Group\nDropbox\nExpii, Inc\nIDEA MATH, LLC\nJane Street Capital\nMathWorks\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nSimons Foundation\nSociety for Industrial and Applied Mathematics\nStar League\nSusquehanna International Group\nTudor Investment Corp\nTwo Sigma",
+    "has_image": false
+  }
+]

@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2006-AMC10A-Q01",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Sandwiches at Joe’s Fast Food cost $3 each and sodas cost $2 each. How many dollars will it\ncost to purchase 5 sandwiches and 8 sodas?",
+    "answer_choices": {
+      "A": "31",
+      "B": "32",
+      "C": "33",
+      "D": "34",
+      "E": "35"
+    },
+    "correct_answer": "A",
+    "solution_text": "Five sandwiches cost 5·3 = 15 dollars and eight sodas cost 8·2 = 16 dollars.\nTogether they cost 15 + 16 = 31 dollars.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q02",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Deﬁne x ⊗y = x^{3} −y. What is h ⊗(h ⊗h)?",
+    "answer_choices": {
+      "A": "−h",
+      "B": "0",
+      "C": "h",
+      "D": "2h",
+      "E": "h^{3}"
+    },
+    "correct_answer": "C",
+    "solution_text": "By the deﬁnition we have\nh ⊗(h ⊗h) = h ⊗(h3 −h) = h3 −(h3 −h) = h.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q03",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The ratio of Mary’s age to Alice’s age is 3 : 5. Alice is 30 years old. How old is Mary?",
+    "answer_choices": {
+      "A": "15",
+      "B": "18",
+      "C": "20",
+      "D": "24",
+      "E": "50"
+    },
+    "correct_answer": "B",
+    "solution_text": "Mary is (3/5)(30) = 18 years old.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q04",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "A digital watch displays hours and minutes with cAM and cPM. What is the largest possible\nsum of the digits in the display?",
+    "answer_choices": {
+      "A": "17",
+      "B": "19",
+      "C": "21",
+      "D": "22",
+      "E": "23"
+    },
+    "correct_answer": "E",
+    "solution_text": "The largest possible sum of the two digits representing the minutes is 5+9 =\n14, occurring at 59 minutes past each hour. The largest possible single digit that\ncan represent the hour is 9. This exceeds the largest possible sum of two digits\nthat can represent the hour, which is 1 + 2 = 3. Therefore, the largest possible\nsum of all the digits is 14 + 9 = 23, occurring at 9:59.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q05",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Doug and Dave shared a pizza with 8 equally-sized slices. Doug wanted a plain pizza, but Dave\nwanted anchovies on half the pizza. The cost of a plain pizza was $8, and there was an additional\ncost of $2 for putting anchovies on one half. Dave ate all the slices of anchovy pizza and one\nplain slice. Doug ate the remainder. Each paid for what he had eaten. How many more dollars\ndid Dave pay than Doug?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "D",
+    "solution_text": "Each slice of plain pizza cost $1. Dave paid $2 for the anchovies in addition\nto $5 for the ﬁve slices of pizza that he ate, for a total of $7. Doug paid only $3\nfor the three slices of pizza that he ate. Hence Dave paid 7 −3 = 4 dollars more\nthan Doug.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q06",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What non-zero real value for x satisﬁes (7x)^{14} = (14x)^{7}?",
+    "answer_choices": {
+      "A": "1\n7",
+      "B": "2\n7",
+      "C": "1",
+      "D": "7",
+      "E": "14"
+    },
+    "correct_answer": "B",
+    "solution_text": "Take the seventh root of both sides to get (7x)2 = 14x. Then 49x2 = 14x,\nand because x ̸= 0 we have 49x = 14. Thus x = 2/7.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q07",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The 8 × 18 rectangle ABCD is cut into two congruent hexagons, as shown, in such a way that\nthe two hexagons can be repositioned without overlap to form a square. What is y?\nD\nC\nB\nA\ny",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let E represent the end of the cut on DC, and let F represent the end of\nthe cut on AB. For a square to be formed, we must have\nDE = y = FB\nand\nDE + y + FB = 18,\nso\ny = 6.\nThe rectangle that is formed by this cut is indeed a square, since the original\nrectangle has area 8 · 18 = 144, and the rectangle that is formed by this cut has\na side of length 2 · 6 = 12 =\n√\n144.\nA\ny\n\ny\ny\nD\nE\nF\nC\nB\nA\ny\n\ny\nD\nE\nF\nF\nE\nC\nB\n\nSolutions\n2006\n7th AMC 10 A\n3",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10A-Q08",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A parabola with equation y = x^{2} + bx + c passes through the points (2, 3) and (4, 3). What is c?",
+    "answer_choices": {
+      "A": "2",
+      "B": "5",
+      "C": "7",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "E",
+    "solution_text": "Substitute (2, 3) and (4, 3) into the equation to give\n3 = 4 + 2b + c\nand\n3 = 16 + 4b + c.\nSubtracting corresponding terms in these equations gives 0 = 12 + 2b. So\nb = −6\nand\nc = 3 −4 −2(−6) = 11.\nOR\nThe parabola is symmetric about the vertical line through its vertex, and the\npoints (2, 3) and (4, 3) have the same y-coordinate. The vertex has x-coordinate\n(2 + 4)/2 = 3, so the equation has the form\ny = (x −3)2 + k\nfor some constant k. Since y = 3 when x = 4, we have 3 = 12 + k and k = 2.\nConsequently the constant term c is\n(−3)2 + k = 9 + 2 = 11.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q09",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many sets of two or more consecutive positive integers have a sum of 15?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "C",
+    "solution_text": "First note that, in general, the sum of n consecutive integers is n times\ntheir median. If the sum is 15, we have the following cases:\nif n = 2, then the median is 7.5 and the two integers are 7 and 8;\nif n = 3, then the median is 5 and the three integers are 4, 5, and 6;\nif n = 5, then the median is 3 and the ﬁve integers are 1, 2, 3, 4, and 5.\nBecause the sum of four consecutive integers is even, 15 cannot be written in\nsuch a manner. Also, the sum of more than ﬁve consecutive integers must be\nmore than 1+2+3+4+5 = 15. Hence there are 3 sets satisfying the condition.\nNote: It can be shown that the number of sets of two or more consecutive positive\nintegers having a sum of k is equal to the number of odd positive divisors of k,\nexcluding 1.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q10",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "For how many real values of x is\np\n120 −√x an integer?",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "E",
+    "solution_text": "Suppose that k =\np\n120 −√x is an integer. Then 0 ≤k ≤\n√\n120, and\nbecause k is an integer, we have 0 ≤k ≤10. Thus there are 11 possible integer\nvalues of k. For each such k, the corresponding value of x is\n¡\n120 −k2¢2. Because\n¡\n120 −k2¢2 is positive and decreasing for 0 ≤k ≤10, the 11 values of x are\ndistinct.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q11",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Which of the following describes the graph of the equation (x + y)^{2} = x^{2} + y^{2}?",
+    "answer_choices": {
+      "A": "the empty set",
+      "B": "one point",
+      "C": "two lines",
+      "D": "a circle",
+      "E": "the entire plane"
+    },
+    "correct_answer": "C",
+    "solution_text": "The equation (x + y)2 = x2 + y2 is equivalent to x2 + 2xy + y2 = x2 + y2,\nwhich reduces to xy = 0. Thus the graph of the equation consists of the two\nlines that are the coordinate axes.\n\nSolutions\n2006\n7th AMC 10 A\n4",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10A-Q13",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A player pays $5 to play a game. A die is rolled. If the number on the die is odd, the game is lost.\nIf the number on the die is even, the die is rolled again. In this case the player wins if the second\nnumber matches the ﬁrst and loses otherwise. How much should the player win if the game is\nfair? (In a fair game the probability of winning times the amount won is what the player should\n\npay.)",
+    "answer_choices": {
+      "A": "$12",
+      "B": "$30",
+      "C": "$50",
+      "D": "$60",
+      "E": "$100"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x represent the amount the player wins if the game is fair. The chance of\nan even number is 1/2, and the chance of matching this number on the second\nroll is 1/6.\nSo the probability of winning is (1/2)(1/6) = 1/12.\nTherefore\n(1/12)x = $5 and x = $60.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q14",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A number of linked rings, each 1 cm thick, are hanging on a peg. The top ring has an outside\ndiameter of 20 cm. The outside diameter of each of the outer rings is 1 cm less than that of\nthe ring above it. The bottom ring has an outside diameter of 3 cm. What is the distance, in cm,\nfrom the top of the top ring to the bottom of the bottom ring?\n20\n18",
+    "answer_choices": {
+      "A": "171",
+      "B": "173",
+      "C": "182",
+      "D": "188",
+      "E": "210"
+    },
+    "correct_answer": "B",
+    "solution_text": "The top of the largest ring is 20 cm above its bottom. That point is 2\ncm below the top of the next ring, so it is 17 cm above the bottom of the\nnext ring. The additional distances to the bottoms of the remaining rings are\n16 cm, 15 cm, . . . , 1 cm. Thus the total distance is\n20 + (17 + 16 + · · · + 2 + 1) = 20 + 17 · 18\n2\n= 20 + 17 · 9 = 173 cm.\nOR\nThe required distance is the sum of the outside diameters of the 18 rings minus\na 2-cm overlap for each of the 17 pairs of consecutive rings. This equals\n(3+4+5+· · ·+20)−2·17 = (1+2+3+4+5+· · ·+20)−3−34 = 20 · 21\n2\n−37 = 173 cm.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q15",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Odell and Kershaw run for 30 minutes on a circular track. Odell runs clockwise at 250 m/min and\nuses the inner lane with a radius of 50 meters. Kershaw runs counterclockwise at 300 m/min\nand uses the outer lane with a radius of 60 meters, starting on the same radial line as Odell.\nHow many times after the start do they pass each other?",
+    "answer_choices": {
+      "A": "29",
+      "B": "42",
+      "C": "45",
+      "D": "47",
+      "E": "50"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since Odell’s rate is 5/6 that of Kershaw, but Kershaw’s lap distance is 6/5\nthat of Odell, they each run a lap in the same time. Hence they pass twice each\ntime they circle the track. Odell runs\n(30 min)\n³\n250 m\nmin\n´ µ\n1\n100π\nlaps\nm\n¶\n= 75\nπ laps ≈23.87 laps,\nas does Kershaw. Because 23.5 < 23.87 < 24, they pass each other 2(23.5) = 47\ntimes.\n\nSolutions\n2006\n7th AMC 10 A\n5",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q16",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A circle of radius 1 is tangent to a circle of radius 2. The sides of △ABC are tangent to the\ncircles as shown, and the sides AB and AC are congruent. What is the area of △ABC?\n\nB\nC\nA\n2\n1",
+    "answer_choices": {
+      "A": "35\n2",
+      "B": "15\n√\n2",
+      "C": "64\n3",
+      "D": "16\n√\n2",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let O and O′ denote the centers of the smaller and larger circles, respec-\ntively. Let D and D′ be the points on AC that are also on the smaller and larger\ncircles, respectively. Since △ADO and △AD′O′ are similar right triangles, we\nhave\nAO\n1\n= AO′\n2\n= AO + 3\n2\n,\nso\nAO = 3.\nAs a consequence,\nAD =\np\nAO2 −OD2 =\n√\n9 −1 = 2\n√\n2.\n1\n2\nA\nF\nO\nO'\nD\nD'\nB\nC\nLet F be the midpoint of BC.\nSince △ADO and △AFC are similar right\ntriangles, we have\nFC\n1\n= AF\nAD = AO + OO′ + O′F\nAD\n= 3 + 3 + 2\n2\n√\n2\n= 2\n√\n2.\nSo the area of △ABC is\n1\n2 · BC · AF = 1\n2 · 4\n√\n2 · 8 = 16\n√\n2.\n\nSolutions\n2006\n7th AMC 10 A\n6",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10A-Q17",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In rectangle ADEH, points B and C trisect AD, and points G and F trisect HE. In addition,\nAH = AC = 2. What is the area of quadrilateral WXY Z shown in the ﬁgure?",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "√\n2\n2",
+      "C": "√\n3\n2",
+      "D": "2\n√\n2\n3",
+      "E": "2\n√\n3\n3"
+    },
+    "correct_answer": "A",
+    "solution_text": "First note that since points B and C trisect AD, and points G and F trisect\nHE, we have HG = GF = FE = AB = BC = CD = 1. Also, HG is parallel\nto CD and HG = CD, so CDGH is a parallelogram. Similarly, AB is parallel\nto FE and AB = FE, so ABEF is a parallelogram. As a consequence, WXY Z\nis a parallelogram, and since HG = CD = AB = FE, it is a rhombus.\nA\nY\nZ\nW\nH\nG\nF\nE\nD\nC\nB\nX\nSince AH = AC = 2, the rectangle ACFH is a square of side length 2. Its\ndiagonals AF and CH have length 2\n√\n2 and form a right angle at X. As a\nconsequence, WXY Z is a square. In isosceles △HXF we have HX = XF =\n√\n2. In addition, HG = 1\n2HF. So XW = 1\n2XF = 1\n2\n√\n2, and the square WXY Z\nhas area XW 2 = 1/2.",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10A-Q18",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A license plate in a certain state consists of 4 digits, not necessarily distinct, and 2 letters,\nalso not necessarily distinct. These six characters may appear in any order, except that the two\nletters must appear next to each other. How many distinct license plates are possible?",
+    "answer_choices": {
+      "A": "10^{4} · 26^{2}",
+      "B": "10^{3} · 26^{3}",
+      "C": "5 · 10^{4} · 26^{2}",
+      "D": "10^{2} · 26^{4}",
+      "E": "5 · 10^{3} · 26^{3}"
+    },
+    "correct_answer": "C",
+    "solution_text": "Since the two letters have to be next to each other, think of them as forming\na two-letter word w. So each license plate consists of 4 digits and w. For each\ndigit there are 10 choices. There are 26 · 26 choices for the letters of w, and\nthere are 5 choices for the position of w. So the total number of distinct license\nplates is 5 · 104 · 262.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q19",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many non-similar triangle have angles whose degree measures are distinct positive inte-\n\ngers in arithmetic progression?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "59",
+      "D": "89",
+      "E": "178"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let n −d, n, and n + d be the angles in the triangle. Then\n180 = n −d + n + n + d = 3n,\nso\nn = 60.\nBecause the sum of the degree measures of two angles of a triangle is less than\n180, we have\n180 > n + (n + d) = 120 + d,\nwhich implies that 0 < d < 60.\nThere are 59 triangles with this property.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q20",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Six distinct positive integers are randomly chosen between 1 and 2006, inclusive. What is the\nprobability that some pair of these integers has a difference that is a multiple of 5?",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "3\n5",
+      "C": "2\n3",
+      "D": "4\n5",
+      "E": "1"
+    },
+    "correct_answer": "E",
+    "solution_text": "Place each of the integers in a pile based on the remainder when the integer\nis divided by 5. Since there are only 5 piles but there are 6 integers, at least one\nof the piles must contain two or more integers. The diﬀerence of two integers in\nthe same pile is divisible by 5. Hence the probability is 1.\nWe have applied what is called the Pigeonhole Principle. This states that if you\nhave more pigeons than boxes and you put each pigeon in a box, then at least\none of the boxes must have more than one pigeon. In this problem the pigeons\nare integers and the boxes are piles.\n\nSolutions\n2006\n7th AMC 10 A\n7",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q21",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "How many four-digit positive integers have at least one digit that is a 2 or a 3?",
+    "answer_choices": {
+      "A": "2439",
+      "B": "4096",
+      "C": "4903",
+      "D": "4904",
+      "E": "5416"
+    },
+    "correct_answer": "E",
+    "solution_text": "There are 9000 four-digit positive integers. For those without a 2 or 3, the\nﬁrst digit could be one of the seven numbers 1, 4, 5, 6, 7, 8, or 9, and each of\nthe other digits could be one of the eight numbers 0, 1, 4, 5, 6, 7, 8, or 9. So\nthere are\n9000 −7 · 8 · 8 · 8 = 5416\nfour-digit numbers with at least one digit that is a 2 or a 3.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q22",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Two farmers agree that pigs are worth $300 and that goats are worth $210. When one farmer\nowes the other money, he pays the debt in pigs or goats, with “change” received in the form of\ngoats or pigs as necessary. (For example, a $390 debt could be paid with two pigs, with one goat\nreceived in change.) What is the amount of the smallest positive debt that can be resolved in\nthis way?",
+    "answer_choices": {
+      "A": "$5",
+      "B": "$10",
+      "C": "$30",
+      "D": "$90",
+      "E": "$210"
+    },
+    "correct_answer": "C",
+    "solution_text": "If a debt of D dollars can be resolved in this way, then integers p and g\nmust exist with\nD = 300p + 210g = 30(10p + 7g).\nAs a consequence, D must be a multiple of 30, and no positive debt less than\n$30 can be resolved. A debt of $30 can be resolved since\n30 = 300(−2) + 210(3).\nThis is done by giving 3 goats and receiving 2 pigs.",
+    "has_image": false
+  },
+  {
+    "id": "2006-AMC10A-Q23",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Circles with centers A and B have radii 3 and 8, respectively. A common internal tangent inter-\nsects the circles at C and D, respectively. Lines AB and CD intersect at E, and AE = 5. What\nis CD?",
+    "answer_choices": {
+      "A": "13",
+      "B": "44\n3",
+      "C": "√\n221",
+      "D": "√\n255",
+      "E": "55\n3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Radii AC and BD are each perpendicular to CD. By the Pythagorean\nTheorem,\nCE =\np\n52 −32 = 4.\nBecause △ACE and △BDE are similar,\nDE\nCE = BD\nAC ,\nso\nDE = CE · BD\nAC = 4 · 8\n3 = 32\n3 .\nTherefore\nCD = CE + DE = 4 + 32\n3 = 44\n3 .",
+    "has_image": true
+  },
+  {
+    "id": "2006-AMC10A-Q24",
+    "year": 2006,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Centers of adjacent faces of a unit cube are joined to form a regular octahedron. What is the\nvolume of this octahedron?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "1\n6",
+      "C": "1\n4",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Two pyramids with square bases form the octahedron. The upper pyramid\nis shown.\nA\nB\nSince the length of AB is\n√\n2/2, the base area of the pyramid is (\n√\n2/2)2 = 1/2.\nThe altitude of the pyramid is 1/2, so its volume is\n1\n3 · 1\n2 · 1\n2 = 1\n12.\nThe volume of the octahedron is 2˙(1/12) = 1/6.\n\nSolutions\n2006\n7th AMC 10 A\n8",
+    "has_image": false
+  }
+]

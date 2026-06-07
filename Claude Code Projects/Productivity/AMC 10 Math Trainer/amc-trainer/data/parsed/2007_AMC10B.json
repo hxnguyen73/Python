@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2007-AMC10B-Q01",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Isabella’s house has 3 bedrooms. Each bedroom is 12 feet long, 10 feet wide, and 8 feet high.\nIsabella must paint the walls of all the bedrooms. Doorways and windows, which will not be\npainted, occupy 60 square feet in each bedroom. How many square feet of walls must be painted?",
+    "answer_choices": {
+      "A": "678",
+      "B": "768",
+      "C": "786",
+      "D": "867",
+      "E": "876"
+    },
+    "correct_answer": "E",
+    "solution_text": "The perimeter of each bedroom is 2(12 + 10) = 44 feet, so the\nsurface to be painted in each bedroom has an area of 44 · 8 −60 = 292 square\nfeet. Since there are 3 bedrooms, Isabella must paint 3 · 292 = 876 square feet.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q02",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Deﬁne the operation ⋆by a ⋆b = (a + b)b. What is (3 ⋆5) −(5 ⋆3)?",
+    "answer_choices": {
+      "A": "−16",
+      "B": "−8",
+      "C": "0",
+      "D": "8",
+      "E": "16"
+    },
+    "correct_answer": "E",
+    "solution_text": "Since 3⋆5 = (3+5)5 = 8·5 = 40 and 5⋆3 = (5+3)3 = 8·3 = 24,\nwe have\n3 ⋆5 −5 ⋆3 = 40 −24 = 16.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q03",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A college student drove his compact car 120 miles home for the weekend and averaged 30 miles\nper gallon. On the return trip the student drove his parents’ SUV and averaged only 20 miles per\ngallon. What was the average gas mileage, in miles per gallon, for the round trip?",
+    "answer_choices": {
+      "A": "22",
+      "B": "24",
+      "C": "25",
+      "D": "26",
+      "E": "28"
+    },
+    "correct_answer": "B",
+    "solution_text": "The student used 120/30 = 4 gallons on the trip home and\n120/20 = 6 gallons on the trip back to school. So the average gas mileage for\nthe round trip was\n240 miles\n10 gallons = 24 miles per gallon.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q04",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The point O is the center of the circle circumscribed about △ABC, with ∠BOC = 120^{◦}and\n∠AOB = 140^{◦}, as shown. What is the degree measure of ∠ABC?\nA\nB\nC\nO\n140^{◦}120^{◦}",
+    "answer_choices": {
+      "A": "35",
+      "B": "40",
+      "C": "45",
+      "D": "50",
+      "E": "60"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since OA = OB = OC, triangles AOB, BOC, and COA are\nall isosceles. Hence\n∠ABC = ∠ABO + ∠OBC = 180◦−140◦\n2\n+ 180◦−120◦\n2\n= 50◦.\nOR\nSince\n∠AOC = 360◦−140◦−120◦= 100◦,\nthe Central Angle Theorem implies that\n∠ABC = 1\n2∠AOC = 50◦.",
+    "has_image": true
+  },
+  {
+    "id": "2007-AMC10B-Q05",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "In a certain land, all Arogs are Brafs, all Crups are Brafs, all Dramps are Arogs, and all Crups are\nDramps. Which of the following statements is implied by these facts?",
+    "answer_choices": {
+      "A": "All Dramps are Brafs and are Crups.",
+      "B": "All Brafs are Crups and are Dramps.",
+      "C": "All Arogs are Crups and are Dramps.",
+      "D": "All Crups are Arogs and are Brafs.",
+      "E": "All Arogs are Dramps and some Arogs may not be Crups."
+    },
+    "correct_answer": "D",
+    "solution_text": "Let A, B, C, and D represent the following statements about\na person in the land.\nA : Is an Arog.\nB : Is a Braf.\nC : Is a Crup.\nD : Is a Dramp.\nThen the statement in the ﬁrst sentence of the problem can be expressed as:\nA =⇒B,\nC =⇒B,\nD =⇒A\nand\nC =⇒D.\nThe most we can conclude is that\nC =⇒D =⇒A =⇒B.\nSo the only statement listed that we are certain is true is that Crups are both\nArogs and Brafs.\n\nSolutions\n2007\n8th AMC 10 B\n3",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q06",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The 2007 AMC 10 will be scored by awarding 6 points for each correct response, 0 points for\neach incorrect response, and 1.5 points for each problem left unanswered. After looking over\nthe 25 problems, Sarah has decided to attempt the ﬁrst 22 and leave only the last 3 unanswered.\nHow many of the ﬁrst 22 problems must she solve correctly in order to score at least 100 points?",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": "D",
+    "solution_text": "Sarah will receive 4.5 points for the three questions she leaves\nunanswered, so she must earn at least 100 −4.5 = 95.5 points on the ﬁrst 22\nproblems. Because\n15 < 95.5\n6\n< 16,\nshe must solve at least 16 of the ﬁrst 22 problems correctly. This would give her\na score of 100.5.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q07",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "All sides of the convex pentagon ABCDE are of equal length, and ∠A = ∠B = 90^{◦}. What is\nthe degree measure of ∠E?",
+    "answer_choices": {
+      "A": "90",
+      "B": "108",
+      "C": "120",
+      "D": "144",
+      "E": "150"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because AB = BC = EA and ∠A = ∠B = 90◦, quadrilateral\nABCE is a square, so ∠AEC = 90◦.\nA\nB\nC\nD\nE\nAlso CD = DE = EC, so △CDE is equilateral and ∠CED = 60◦. Therefore\n∠E = ∠AEC + ∠CED = 90◦+ 60◦= 150◦.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q08",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "On the trip home from the meeting where this AMC10 was constructed, the Contest Chair noted\nthat his airport parking receipt had digits of the form bbcac, where 0 ≤a < b < c ≤9, and b was\nthe average of a and c. How many different ﬁve-digit numbers satisfy all these properties?",
+    "answer_choices": {
+      "A": "12",
+      "B": "16",
+      "C": "18",
+      "D": "20",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "Once a and c are chosen, the integer b is determined. For a = 0,\nwe could have c = 2, 4, 6, or 8. For a = 2, we could have c = 4, 6, or 8. For\na = 4, we could have c = 6 or 8, and for a = 6 the only possibility is c = 8.\nThus there are 1 + 2 + 3 + 4 = 10 possibilities when a is even. Similarly, there\nare 10 possibilities when a is odd, so the number of possibilities is 20.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q09",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "A cryptographic code is designed as follows. The ﬁrst time a letter appears in a given message\nit is replaced by the letter that is 1 place to its right in the alphabet (assuming that the letter A\nis one place to the right of the letter Z). The second time this same letter appears in the given\nmessage, it is replaced by the letter that is 1 + 2 places to the right, the third time it is replaced\nby the letter that is 1 + 2 + 3 places to the right, and so on. For example, with this code the word\n”banana” becomes ”cbodqg”. What letter will replace the last letter s in the message ”Lee’s sis\nis a Mississippi miss, Chriss!”?",
+    "answer_choices": {
+      "A": "g",
+      "B": "h",
+      "C": "o",
+      "D": "s",
+      "E": "t"
+    },
+    "correct_answer": "D",
+    "solution_text": "The last s is the 12th appearance of this letter in the message,\nso it will be replaced by the letter that is\n1 + 2 + 3 + · · · + 12 = 1\n2(12 · 13) = 3 · 26\nletters to the right of s. Since the alphabet has 26 letters, this letter s is coded\nas s.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q10",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two points B and C are in a plane. Let S be the set of all points A in the plane for which △ABC\nhas area 1. Which of the following describes S?",
+    "answer_choices": {
+      "A": "two parallel lines",
+      "B": "a parabola",
+      "C": "a circle",
+      "D": "a line segment",
+      "E": "two points"
+    },
+    "correct_answer": "A",
+    "solution_text": "If the altitude from A has length d, then △ABC has area\n(1/2)(BC)d. The area is 1 if and only if d = 2/(BC). Thus S consists of the\ntwo lines that are parallel to line BC and are 2/(BC) units from it, as shown.\nB\nC\nd\nd\n\nSolutions\n2007\n8th AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q11",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A circle passes through the three vertices of an isosceles triangle that has two sides of length\n3 and a base of length 2. What is the area of this circle?",
+    "answer_choices": {
+      "A": "2π",
+      "B": "5\n2π",
+      "C": "81\n32π",
+      "D": "3π",
+      "E": "7\n2π"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let BD be an altitude of the isosceles △ABC, and let O denote\nthe center of the circle with radius r that passes through A, B, and C, as shown.\nA\nB\nD\nO\n3\n1\nC\nr\nr\nThen\nBD =\np\n32 −12 = 2\n√\n2\nand\nOD = 2\n√\n2 −r.\nSince △ADO is a right triangle, we have\nr2 = 12 +\n³\n2\n√\n2 −r\n´2\n= 1 + 8 −4\n√\n2r + r2,\nand\nr =\n9\n4\n√\n2 = 9\n8\n√\n2.\nAs a consequence, the circle has area\nµ9\n8\n√\n2\n¶2\nπ = 81\n32π.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q12",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Tom’s age is T years, which is also the sum of the ages of his three children. His age N years\nago was twice the sum of their ages then. What is T\nN ?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "D",
+    "solution_text": "Tom’s age N years ago was T −N.\nThe sum of his three\nchildren’s ages at that time was T −3N. Therefore T −N = 2(T −3N), so\n5N = T and T/N = 5. The conditions of the problem can be met, for example,\nif Tom’s age is 30 and the ages of his children are 9, 10, and 11. In that case\nT = 30 and N = 6.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q13",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two circles of radius 2 are centered at (2, 0) and at (0, 2). What is the area of the intersection of\nthe interiors of the two circles?",
+    "answer_choices": {
+      "A": "π −2",
+      "B": "π\n2",
+      "C": "π\n√\n3\n3",
+      "D": "2(π −2)",
+      "E": "π"
+    },
+    "correct_answer": "D",
+    "solution_text": "The two circles intersect at (0, 0) and (2, 2), as shown.\ny\nx\n(2, 2)\n\nSolutions\n2007\n8th AMC 10 B\n5\nHalf of the region described is formed by removing an isosceles right triangle of\nleg length 2 from a quarter of one of the circles. Because the quarter-circle has\narea (1/4)π(2)2 = π and the triangle has area (1/2)(2)2 = 2, the area of the\nregion is 2(π −2).",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q14",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Some boys and girls are having a car wash to raise money for a class trip to China. Initially 40%\nof the group are girls. Shortly thereafter two girls leave and two boys arrive, and then 30% of the\ngroup are girls. How many girls were initially in the group?",
+    "answer_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let g be the number of girls and b the number of boys initially\nin the group. Then g = 0.4(g + b). After two girls leave and two boys arrive,\nthe size of the entire group is unchanged, so g −2 = 0.3(g + b). The solution of\nthe system of equations\ng = 0.4(g + b)\nand\ng −2 = 0.3(g + b)\nis g = 8 and b = 12, so there were initially 8 girls.\nOR\nAfter two girls leave and two boys arrive, the size of the group is unchanged. So\nthe two girls who left represent 40% −30% = 10% of the group. Thus the size\nof the group is 20, and the original number of girls was 40% of 20, or 8.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q15",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The angles of quadrilateral ABCD satisfy ∠A = 2∠B = 3∠C = 4∠D. What is the degree\nmeasure of ∠A, rounded to the nearest whole number?",
+    "answer_choices": {
+      "A": "125",
+      "B": "144",
+      "C": "153",
+      "D": "173",
+      "E": "180"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x be the degree measure of ∠A. Then the degree measures\nof angles B, C, and D are x/2, x/3, and x/4, respectively. The degree measures\nof the four angles have a sum of 360, so\n360 = x + x\n2 + x\n3 + x\n4 = 25x\n12 .\nThus x = (12 · 360)/25 = 172.8 ≈173.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q16",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A teacher gave a test to a class in which 10% of the students are juniors and 90% are seniors.\nThe average score on the test was 84. The juniors all received the same score, and the average\n\nscore of the seniors was 83. What score did each of the juniors receive on the test?",
+    "answer_choices": {
+      "A": "85",
+      "B": "88",
+      "C": "93",
+      "D": "94",
+      "E": "98"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let N be the number of students in the class. Then there are\n0.1N juniors and 0.9N seniors. Let s be the score of each junior. The scores\ntotaled 84N = 83(0.9N) + s(0.1N), so\ns = 84N −83(0.9N)\n0.1N\n= 93.\nNote: In this problem, we could assume that the class has one junior and nine\nseniors. Then\n9 · 83 + s = 10 · 84 = 9 · 84 + 84\nand\ns = 9(84 −83) + 84 = 93.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q17",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Point P is inside equilateral △ABC. Points Q, R and S are the feet of the perpendiculars from\nP to AB, BC, and CA, respectively. Given that PQ = 1, PR = 2, and PS = 3, what is AB?",
+    "answer_choices": {
+      "A": "4",
+      "B": "3\n√\n3",
+      "C": "6",
+      "D": "4\n√\n3",
+      "E": "9"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the side length of △ABC be s. Then the areas of △APB,\n△BPC, and △CPA are, respectively, s/2, s, and 3s/2. The area of △ABC is\nthe sum of these, which is 3s. The area of △ABC may also be expressed as\n(\n√\n3/4)s2, so 3s = (\n√\n3/4)s2. The unique positive solution for s is 4\n√\n3.\n\nSolutions\n2007\n8th AMC 10 B\n6",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q18",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A circle of radius 1 is surrounded by 4 circles of radius r as shown. What is r?\nr\nr\nr\nr\n1",
+    "answer_choices": {
+      "A": "√\n2",
+      "B": "1 +\n√\n2",
+      "C": "√\n6",
+      "D": "3",
+      "E": "2 +\n√\n2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Construct the square ABCD by connecting the centers of the\nlarge circles, as shown, and consider the isosceles right △BAD.\n2\nr\nr\nr\nr\nr\nr\nA\nB\nC\nD\nSince AB = AD = 2r and BD = 2 + 2r, we have 2(2r)2 = (2 + 2r)2. So\n1 + 2r + r2 = 2r2,\nand\nr2 −2r −1 = 0.\nApplying the quadratic formula gives r = 1 +\n√\n2.",
+    "has_image": true
+  },
+  {
+    "id": "2007-AMC10B-Q20",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A set of 25 square blocks is arranged into a 5 × 5 square. How many different combinations of\n3 blocks can be selected from that set so that no two are in the same row or column?",
+    "answer_choices": {
+      "A": "100",
+      "B": "125",
+      "C": "600",
+      "D": "2300",
+      "E": "3600"
+    },
+    "correct_answer": "C",
+    "solution_text": "After one of the 25 blocks is chosen, 16 of the remaining blocks\ndo not share its row or column.\nAfter the second block is chosen, 9 of the\nremaining blocks do not share a row or column with either of the ﬁrst two.\nBecause the three blocks can be chosen in any order, the number of diﬀerent\ncombinations is\n25 · 16 · 9\n3!\n= 25 · 8 · 3 = 600.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q21",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Right △ABC has AB = 3, BC = 4, and AC = 5. Square XY ZW is inscribed in △ABC with X\nand Y on AC, W on AB, and Z on BC. What is the side length of the square?",
+    "answer_choices": {
+      "A": "3\n2",
+      "B": "60\n37",
+      "C": "12\n7",
+      "D": "23\n13",
+      "E": "2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let s be the side length of the square, and let h be the length\nof the altitude of △ABC from B. Because △ABC and △WBZ are similar, it\nfollows that\nh −s\ns\n=\nh\nAC = h\n5 ,\nso\ns =\n5h\n5 + h.\nBecause h = 3 · 4/5 = 12/5, the side length of the square is\ns = 5(12/5)\n5 + 12/5 = 60\n37.\nOR\n\nSolutions\n2007\n8th AMC 10 B\n7\nBecause △WBZ is similar to △ABC, we have\nBZ = 4\n5s\nand\nCZ = 4 −4\n5s.\nBecause △ZY C is similar to △ABC, we have\ns\n4 −(4/5)s = 3\n5.\nThus\n5s = 12 −12\n5 s\nand\ns = 60\n37.",
+    "has_image": true
+  },
+  {
+    "id": "2007-AMC10B-Q22",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A player chooses one of the numbers 1 through 4. After the choice has been made, two regular\nfour-sided (tetrahedral) dice are rolled, with the sides of the dice numbered 1 through 4. If the\nnumber chosen appears on the bottom of exactly one die after it is rolled, then the player wins\n$1. If the number chosen appears on the bottom of both of the dice, then the player wins $2.\nIf the number chosen does not appear on the bottom of either of the dice, the player loses $1.\nWhat is the expected return to the player, in dollars, for one roll of the dice?",
+    "answer_choices": {
+      "A": "−1\n8",
+      "B": "−1\n16",
+      "C": "0",
+      "D": "1\n16",
+      "E": "1\n8"
+    },
+    "correct_answer": "B",
+    "solution_text": "The probability of the number appearing 0, 1, and 2 times is\nP(0) = 3\n4 · 3\n4 = 9\n16,\nP(1) = 2 · 1\n4 · 3\n4 = 6\n16,\nand\nP(2) = 1\n4 · 1\n4 = 1\n16,\nrespectively. So the expected return, in dollars, to the player is\nP(0) · (−1) + P(1) · (1) + P(2) · (2) = −9 + 6 + 2\n16\n= −1\n16.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q23",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A pyramid with a square base is cut by a plane that is parallel to its base and is 2 units from the\nbase. The surface area of the smaller pyramid that is cut from the top is half the surface area\nof the original pyramid. What is the altitude of the original pyramid?",
+    "answer_choices": {
+      "A": "2",
+      "B": "2 +\n√\n2",
+      "C": "1 + 2\n√\n2",
+      "D": "4",
+      "E": "4 + 2\n√\n2"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let h be the altitude of the original pyramid. Then the altitude\nof the smaller pyramid is h −2. Because the two pyramids are similar, the ratio\nof their altitudes is the square root of the ratio of their surface areas. Thus\nh/(h −2) =\n√\n2, so\nh =\n2\n√\n2\n√\n2 −1 = 4 + 2\n√\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q24",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let n denote the smallest positive integer that is divisible by both 4 and 9, and whose base-10\nrepresentation consists of only 4’s and 9’s, with at least one of each. What are the last four digits\nof n?",
+    "answer_choices": {
+      "A": "4444",
+      "B": "4494",
+      "C": "4944",
+      "D": "9444",
+      "E": "9944"
+    },
+    "correct_answer": "C",
+    "solution_text": "Since n is divisible by 9, the sum of the digits of n must be a\nmultiple of 9. At least one digit of n is 4, so at least nine digits must be 4, and\nat least one digit must be 9. For n to be divisible by 4, the last two digits of n\nmust each be 4. These conditions are satisﬁed by several ten-digit numbers, of\nwhich the smallest is 4,444,444,944.\n\nSolutions\n2007\n8th AMC 10 B\n8",
+    "has_image": false
+  },
+  {
+    "id": "2007-AMC10B-Q25",
+    "year": 2007,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many pairs of positive integers (a, b) are there such that gcd(a, b) = 1 and\na\nb + 14b\n9a\n\nis an integer?",
+    "answer_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "9",
+      "D": "12",
+      "E": "inﬁnitely many\n–"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let u = a/b. Then the problem is equivalent to ﬁnding all\npositive rational numbers u such that\nu + 14\n9u = k\nfor some integer k. This equation is equivalent to 9u2 −9uk + 14 = 0, whose\nsolutions are\nu = 9k ±\n√\n81k2 −504\n18\n= k\n2 ± 1\n6\np\n9k2 −56.\nHence u is rational if and only if\n√\n9k2 −56 is rational, which is true if and only\nif 9k2 −56 is a perfect square. Suppose that 9k2 −56 = s2 for some positive\ninteger s. Then (3k −s)(3k + s) = 56. The only factors of 56 are 1, 2, 4, 7,\n8, 14, 28, and 56, so (3k −s, 3k + s) is one of the ordered pairs (1, 56), (2, 28),\n(4, 14), or (7, 8). The cases (1, 56) and (7, 8) yield no integer solutions. The\ncases (2, 28) and (4, 14) yield k = 5 and k = 3, respectively. If k = 5, then\nu = 1/3 or u = 14/3. If k = 3, then u = 2/3 or u = 7/3. Therefore there\nare four pairs (a, b) that satisfy the given conditions, namely (1, 3), (2, 3), (7, 3),\nand (14, 3).\nOR\nRewrite the equation\na\nb + 14b\n9a = k\nin two diﬀerent forms. First, multiply both sides by b and subtract a to obtain\n14b2\n9a\n= bk −a.\nBecause a, b, and k are integers, 14b2 must be a multiple of a, and because a\nand b have no common factors greater than 1, it follows that 14 is divisible by\na. Next, multiply both sides of the original equation by 9a and subtract 14b to\nobtain\n9a2\nb\n= 9ak −14b.\nThis shows that 9a2 is a multiple of b, so 9 must be divisible by b. Thus if (a, b)\nis a solution, then b = 1, 3, or 9, and a = 1, 2, 7, or 14. This gives a total of\ntwelve possible solutions (a, b), each of which can be checked quickly. The only\nsuch pairs for which\na\nb + 14b\n9a\nis an integer are when (a, b) is (1, 3), (2, 3), (7, 3), or (14, 3).\n\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAmerican Mathematical Association of Two Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCanada/USA Mathpath\nCasualty Actuarial Society\nClay Mathematics Institute\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour Company\nMu Alpha Theta\nNational Assessment & Testing\nNational Council of Teachers of Mathematics\nPedagoguery Software Inc.\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.",
+    "has_image": false
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2019-AMC10A-Q01",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "s^{3} −22s^{2} + 80s −67 =\nA\ns −p +\nB\ns −q +\nC\ns −r\nfor all s ̸∈{p, q, r}. What is 1\nA + 1\nB + 1\nC ?",
+    "answer_choices": {
+      "A": "243",
+      "B": "244",
+      "C": "245",
+      "D": "246",
+      "E": "247"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q02",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "0(19)\n+\n2^{01^{9}}\n?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q03",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Ana and Bonita were born on the same date in different years, n years apart. Last year Ana was\n5 times as old as Bonita. This year Ana’s age is the square of Bonita’s age. What is n?",
+    "answer_choices": {
+      "A": "3",
+      "B": "5",
+      "C": "9",
+      "D": "12",
+      "E": "15"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q04",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "A box contains 28 red balls, 20 green balls, 19 yellow balls, 13 blue balls, 11 white balls, and 9\nblack balls. What is the minimum number of balls that must be drawn from the box without\nreplacement to guarantee that at least 15 balls of a single color will be drawn?",
+    "answer_choices": {
+      "A": "75",
+      "B": "76",
+      "C": "79",
+      "D": "84",
+      "E": "91"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q05",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the greatest number of consecutive integers whose sum is 45?",
+    "answer_choices": {
+      "A": "9",
+      "B": "25",
+      "C": "45",
+      "D": "90",
+      "E": "120"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q06",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "For how many of the following types of quadrilaterals does there exist a point in the plane of\nthe quadrilateral that is equidistant from all four vertices of the quadrilateral?\n- a square\n-a rectangle that is not a square\n- a rhombus that is not a square\n- a parallelogram that is not a rectangle or a rhombus\n- an isosceles trapezoid that is not a parallelogram",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q07",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two lines with slopes 1\n2 and 2 intersect at (2, 2). What is the area of the triangle enclosed by\nthese two lines and the line x + y = 10?",
+    "answer_choices": {
+      "A": "4",
+      "B": "4\n√\n2",
+      "C": "6",
+      "D": "8",
+      "E": "6\n√\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q08",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The ﬁgure below shows line ℓwith a regular, inﬁnite, recurring pattern of squares and line seg-\nments.\nHow many of the following four kinds of rigid motion transformations of the plane in which this\nﬁgure is drawn, other than the identity transformation, will transform this ﬁgure into itself?\n- some rotation around a point of line ℓ\n- some translation in the direction parallel to line ℓ\n- the reﬂection across line ℓ\n- some reﬂection across a line perpendicular to line ℓ",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2019-AMC10A-Q09",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the greatest three-digit positive integer n for which the sum of the ﬁrst n positive integers\nis not a divisor of the product of the ﬁrst n positive integers?",
+    "answer_choices": {
+      "A": "995",
+      "B": "996",
+      "C": "997",
+      "D": "998",
+      "E": "999"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q10",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A rectangular ﬂoor that is 10 feet wide and 17 feet long is tiled with 170 one-foot square tiles. A\nbug walks from one corner to the opposite corner in a straight line. Including the ﬁrst and the\nlast tile, how many tiles does the bug visit?",
+    "answer_choices": {
+      "A": "17",
+      "B": "25",
+      "C": "26",
+      "D": "27",
+      "E": "28"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q11",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many positive integer divisors of 201^{9} are perfect squares or perfect cubes (or both)?",
+    "answer_choices": {
+      "A": "32",
+      "B": "36",
+      "C": "37",
+      "D": "39",
+      "E": "41"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q12",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Melanie computes the mean µ, the median M, and the modes of the 365 values that are the\ndates in the months of 2019. Thus her data consist of 12 1s, 12 2s, . . . , 12 28s, 11 29s, 11 30s,\nand 7 31s. Let d be the median of the modes. Which of the following statements is true?",
+    "answer_choices": {
+      "A": "µ < d < M",
+      "B": "M < d < µ",
+      "C": "d = M = µ",
+      "D": "d < M < µ",
+      "E": "d < µ < M"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q13",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Let ∆ABC be an isosceles triangle with BC = AC and ∠ACB = 40^{◦}. Contruct the circle with\ndiameter BC, and let D and E be the other intersection points of the circle with the sides AC\nand AB, respectively. Let F be the intersection of the diagonals of the quadrilateral BCDE.\nWhat is the degree measure of ∠BFC?",
+    "answer_choices": {
+      "A": "90",
+      "B": "100",
+      "C": "105",
+      "D": "110",
+      "E": "120"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q14",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "For a set of four distinct lines in a plane, there are exactly N distinct points that lie on two or\nmore of the lines. What is the sum of all possible values of N?",
+    "answer_choices": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "19",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q15",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "A sequence of numbers is deﬁned recursively by a^{1} = 1, a^{2} = 3\n7, and\na^{n} =\na^{n−2} · a^{n−1}\n2a^{n−2} −a^{n−1}\nfor all n ≥3 Then a^{2019} can be written as p\nq, where p and q are relatively prime positive inegers.\nWhat is p + q?",
+    "answer_choices": {
+      "A": "2020",
+      "B": "4039",
+      "C": "6057",
+      "D": "6061",
+      "E": "8078"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q16",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "The ﬁgure below shows 13 circles of radius 1 within a larger circle. All the intersections occur at\npoints of tangency. What is the area of the region, shaded in the ﬁgure, inside the larger circle\nbut outside all the circles of radius 1?",
+    "answer_choices": {
+      "A": "4π\n√\n3",
+      "B": "7π",
+      "C": "π(3\n√\n3 + 2)",
+      "D": "10π(\n√\n3 −1)",
+      "E": "π(\n√\n3 + 6)"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2019-AMC10A-Q17",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A child builds towers using identically shaped cubes of different color. How many different tow-\ners with a height 8 cubes can the child build with 2 red cubes, 3 blue cubes, and 4 green cubes?\n(One cube will be left out.)",
+    "answer_choices": {
+      "A": "24",
+      "B": "288",
+      "C": "312",
+      "D": "1, 260",
+      "E": "40, 320"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q18",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "For some positive integer k, the repeating base-k representation of the (base-ten) fraction 7\n51 is\n0.23^{k} = 0.232323...k. What is k?",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q19",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "What is the least possible value of\n(x + 1)(x + 2)(x + 3)(x + 4) + 2019\nwhere x is a real number?",
+    "answer_choices": {
+      "A": "2017",
+      "B": "2018",
+      "C": "2019",
+      "D": "2020",
+      "E": "2021"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q20",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "The numbers 1, 2, . . . , 9 are randomly placed into the 9 squares of a 3×3 grid. Each square gets\none number, and each of the numbers is used once. What is the probability that the sum of the\nnumbers in each row and each column is odd?",
+    "answer_choices": {
+      "A": "1/21",
+      "B": "1/14",
+      "C": "5/63",
+      "D": "2/21",
+      "E": "1/7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q21",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A sphere with center O has radius 6. A triangle with sides of length 15, 15, and 24 is situated in\nspace so that each of its sides is tangent to the sphere. What is the distance between O and\nthe plane determined by the triangle?",
+    "answer_choices": {
+      "A": "2\n√\n3",
+      "B": "4",
+      "C": "3\n√\n2",
+      "D": "2\n√\n5",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q22",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Real numbers between 0 and 1, inclusive, are chosen in the following manner. A fair coin is\nﬂipped. If it lands heads, then it is ﬂipped again and the chosen number is 0 if the second ﬂip\nis heads and 1 if the second ﬂip is tails. On the other hand, if the ﬁrst coin ﬂip is tails, then the\nnumber is chosen uniformly at random from the closed interval [0, 1]. Two random numbers x\nand y are chosen independently in this manner. What is the probability that |x −y| > 1\n2?",
+    "answer_choices": {
+      "A": "^{1}\n3",
+      "B": "7\n16",
+      "C": "^{1}\n2",
+      "D": "9\n16",
+      "E": "^{2}\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q23",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Travis has to babysit the terrible Thompson triplets. Knowing that they love big numbers, Travis\ndevises a counting game for them. First Tadd will say the number 1, then Todd must say the next\ntwo numbers (2 and 3), then Tucker must say the next three numbers (4, 5, 6), then Tadd must\nsay the next four numbers (7, 8, 9, 10), and the process continues to rotate through the three\nchildren in order, each saying one more number than the previous child did, until the number\n10, 000 is reached. What is the 2019th number said by Tadd?",
+    "answer_choices": {
+      "A": "5743",
+      "B": "5885",
+      "C": "5979",
+      "D": "6001",
+      "E": "6011"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2019-AMC10A-Q25",
+    "year": 2019,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For how many integers n between 1 and 50, inclusive, is\n(n^{2} −1)!\n(n!)^{n}\nan integer? (Recall that 0! = 1.)",
+    "answer_choices": {
+      "A": "31",
+      "B": "32",
+      "C": "33",
+      "D": "34",
+      "E": "35"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

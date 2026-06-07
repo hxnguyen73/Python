@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2016-AMC10B-Q02",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "a\nwhen a = 1\n2?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "5\n2",
+      "D": "10",
+      "E": "20\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q03",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Let x = −2016. What is the value of\n  |x| −x\n −|x|\n −x?",
+    "answer_choices": {
+      "A": "−2016",
+      "B": "0",
+      "C": "2016",
+      "D": "4032",
+      "E": "6048"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q04",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Zoey read 15 books, one at a time. The ﬁrst book took her 1 day to read, the second book took\nher 2 days to read, the third book took her 3 days to read, and so on, with each book taking her\n1 more day to read than the previous book. Zoey ﬁnished the ﬁrst book on a monday, and the\nsecond on a Wednesday. On what day the week did she ﬁnish her 15th book?",
+    "answer_choices": {
+      "A": "Sunday",
+      "B": "Monday",
+      "C": "Wednesday",
+      "D": "Friday",
+      "E": "Saturday"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q05",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The mean age of Amanda’s 4 cousins is 8, and their median age is 5. What is the sum of the\nages of Amanda’s youngest and oldest cousins?",
+    "answer_choices": {
+      "A": "13",
+      "B": "16",
+      "C": "19",
+      "D": "22",
+      "E": "25"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q06",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Laura added two three-digit positive integers. All six digits in these numbers are different. Laura’s\nsum is a three-digit number S. What is the smallest possible value for the sum of the digits of\nS?",
+    "answer_choices": {
+      "A": "1",
+      "B": "4",
+      "C": "5",
+      "D": "15",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q07",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The ratio of the measures of two acute angles is 5 : 4, and the complement of one of these\ntwo angles is twice as large as the complement of the other. What is the sum of the degree\nmeasures of the two angles?",
+    "answer_choices": {
+      "A": "75",
+      "B": "90",
+      "C": "135",
+      "D": "150",
+      "E": "270"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q08",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the tens digit of 2015^{2016} −2017?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "3",
+      "D": "5",
+      "E": "8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q09",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "All three vertices of △ABC lie on the parabola deﬁned by y = x^{2}, with A at the origin and BC\nparallel to the x-axis. The area of the triangle is 64. What is the length of BC?",
+    "answer_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10",
+      "E": "16"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q10",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A thin piece of wood of uniform density in the shape of an equilateral triangle with side length 3\ninches weighs 12 ounces. A second piece of the same type of wood, with the same thickness,\nalso in the shape of an equilateral triangle, has side length of 5 inches. Which of the following\nis closest to the weight, in ounces, of the second piece?",
+    "answer_choices": {
+      "A": "14.0",
+      "B": "16.0",
+      "C": "20.0",
+      "D": "33.3",
+      "E": "55.6"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q11",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Carl decided to fence in his rectangular garden. He bought 20 fence posts, placed one on each of\nthe four corners, and spaced out the rest evenly along the edges of the garden, leaving exactly 4\nyards between neighboring posts. The longer side of his garden, including the corners, has twice\nas many posts as the shorter side, including the corners. What is the area, in square yards, of\nCarl’s garden?",
+    "answer_choices": {
+      "A": "256",
+      "B": "336",
+      "C": "384",
+      "D": "448",
+      "E": "512"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q12",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "Two different numbers are selected at random from (1, 2, 3, 4, 5) and multiplied together. What\nis the probability that the product is even?",
+    "answer_choices": {
+      "A": "0.2",
+      "B": "0.4",
+      "C": "0.5",
+      "D": "0.7",
+      "E": "0.8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q13",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At Megapolis Hospital one year, multiple-birth statistics were as follows: Sets of twins, triplets,\nand quadruplets accounted for 1000 of the babies born. There were four times as many sets\nof triplets as sets of quadruplets, and there was three times as many sets of twins as sets of\ntriplets. How many of these 1000 babies were in sets of quadruplets?",
+    "answer_choices": {
+      "A": "25",
+      "B": "40",
+      "C": "64",
+      "D": "100",
+      "E": "160"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q14",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "How many squares whose sides are parallel to the axes and whose vertices have coordinates\nthat are integers lie entirely within the region bounded by the line y = πx, the line y = −0.1 and\nthe line x = 5.1?",
+    "answer_choices": {
+      "A": "30",
+      "B": "41",
+      "C": "45",
+      "D": "50",
+      "E": "57"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q15",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "All the numbers 1, 2, 3, 4, 5, 6, 7, 8, 9 are written in a 3 × 3 array of squares, one number in each\nsquare, in such a way that if two numbers are consecutive then they occupy squares that share\nan edge. The numbers in the four corners add up to 18. What is the number in the center?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q16",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "The sum of an inﬁnite geometric series is a positive number S, and the second term in the series\nis 1. What is the smallest possible value of S?",
+    "answer_choices": {
+      "A": "1+\n√\n5\n2",
+      "B": "2",
+      "C": "√\n5",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q17",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "All the numbers 2, 3, 4, 5, 6, 7 are assigned to the six faces of a cube, one number to each face.\nFor each of the eight vertices of the cube, a product of three numbers is computed, where the\nthree numbers are the numbers assigned to the three faces that include that vertex. What is the\ngreatest possible value of the sum of these eight products?",
+    "answer_choices": {
+      "A": "312",
+      "B": "343",
+      "C": "625",
+      "D": "729",
+      "E": "1680"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q18",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "In how many ways can 345 be written as the sum of an increasing sequence of two or more\nconsecutive positive integers?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "6",
+      "E": "7"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q19",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Rectangle ABCD has AB = 5 and BC = 4. Point E lies on AB so that EB = 1, point G lies on\nBC so that CG = 1. and point F lies on CD so that DF = 2. Segments AG and AC intersect\nEF at Q and P, respectively. What is the value of PQ\nEF ?",
+    "answer_choices": {
+      "A": "√\n13\n16",
+      "B": "√\n2\n13",
+      "C": "9\n82",
+      "D": "10\n91",
+      "E": "1\n9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2016-AMC10B-Q20",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A dilation of the plane—that is, a size transformation with a positive scale factor—sends the\ncircle of radius 2 centered at A(2, 2) to the circle of radius 3 centered at A^{′}(5, 6). What distance\ndoes the origin O(0, 0), move under this transformation?",
+    "answer_choices": {
+      "A": "0",
+      "B": "3",
+      "C": "√\n13",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q21",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "What is the area of the region enclosed by the graph of the equation x^{2} + y^{2} = |x| + |y|?",
+    "answer_choices": {
+      "A": "π +\n√\n2",
+      "B": "π + 2",
+      "C": "π + 2\n√\n2",
+      "D": "2π +\n√\n2",
+      "E": "2π + 2\n√\n2"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2016-AMC10B-Q22",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A set of teams held a round-robin tournament in which every team played every other team\nexactly once. Every team won 10 games and lost 10 games; there were no ties. How many sets\nof three teams {A, B, C} were there in which A beat B, B beat C, and C beat A?",
+    "answer_choices": {
+      "A": "385",
+      "B": "665",
+      "C": "945",
+      "D": "1140",
+      "E": "1330"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q23",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In regular hexagon ABCDEF, points W, X, Y , and Z are chosen on sides BC, CD, EF, and\nFA respectively, so lines AB, ZW, Y X, and ED are parallel and equally spaced. What is the\nratio of the area of hexagon WCXY FZ to the area of hexagon ABCDEF?",
+    "answer_choices": {
+      "A": "1\n3",
+      "B": "10\n27",
+      "C": "11\n27",
+      "D": "4\n9",
+      "E": "13\n27"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q24",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "How many four-digit integers abcd, with a ̸= 0, have the property that the three two-digit integers\nab < bc < cd form an increasing arithmetic sequence? One such number is 4692, where a = 4,\n\nb = 6, c = 9, and d = 2.",
+    "answer_choices": {
+      "A": "9",
+      "B": "15",
+      "C": "16",
+      "D": "17",
+      "E": "20"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10B-Q25",
+    "year": 2016,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let f(x) = P10\nk=2(⌊kx⌋−k⌊x⌋), where ⌊r⌋denotes the greatest integer less than or equal to r.\nHow many distinct values does f(x) assume for x ≥0?",
+    "answer_choices": {
+      "A": "32",
+      "B": "36",
+      "C": "45",
+      "D": "46",
+      "E": "inﬁnitely many\n–"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

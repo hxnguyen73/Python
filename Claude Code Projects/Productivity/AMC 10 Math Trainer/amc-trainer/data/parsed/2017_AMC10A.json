@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2017-AMC10A-Q01",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of 2(2(2(2(2(2 + 1) + 1) + 1) + 1) + 1) + 1?",
+    "answer_choices": {
+      "A": "70",
+      "B": "97",
+      "C": "127",
+      "D": "159",
+      "E": "729"
+    },
+    "correct_answer": "C",
+    "solution_text": "(2(2(2(2(2(2 + 1) + 1) + 1) + 1) + 1) + 1)\n= (2(2(2(2(2(3) + 1) + 1) + 1) + 1) + 1)\n= (2(2(2(2(7) + 1) + 1) + 1) + 1)\n= (2(2(2(15) + 1) + 1) + 1)\n= (2(2(31) + 1) + 1)\n= (2(63) + 1)\n= 127\nObserve that each intermediate result is 1 less than a power of 2.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q02",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Pablo buys popsicles for his friends. The store sells single popsicles for $1 each, 3-popsicle\nboxes for $2, and 5-popsicle boxes for $3. What is the greatest number of popsicles that Pablo\ncan buy with $8?",
+    "answer_choices": {
+      "A": "8",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "The cheapest popsicles cost $3.00 ÷ 5 = $0.60 each.\nBecause 14·$0.60 = $8.40 and Pablo has just $8, he could not pay for\n14 popsicles even if he were allowed to buy partial boxes. The best\nhe can hope for is 13 popsicles, and he can achieve that by buying\ntwo 5-popsicle boxes (for $6) and one 3-popsicle box (for $2).\nOR\nIf Pablo buys two single popsicles for $1 each, he could have bought\na 3-popsicle box for the same amount of money. Similarly, if Pablo\nbuys three single popsicles or both one 3-popsicle box and one single\npopsicle, he could have bought a 5-popsicle box for the same amount\nof money. If Pablo buys two 3-popsicle boxes, he could have bought\na 5-popsicle box and a single popsicle for the same amount of money.\nThe previous statements imply that a maximum number of popsicles\nfor a given amount of money can be obtained by buying either at most\none single popsicle and the rest 5-popsicle boxes, or a single 3-popsicle\nbox and the rest 5-popsicle boxes. When Pablo has $8, he can obtain\nthe maximum number of popsicles by buying two 5-popsicle boxes and\none 3-popsicle box. This gives a total of 2 · 5 + 1 · 3 = 13 popsicles.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q03",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Tamara has three rows of two 6-feet by 2-feet ﬂower beds in her garden. The beds are separated\nand also surrounded by 1-foot-wide walkways, as shown on the diagram. What is the total area\nof the walkways, in square feet?\n1\n1\n1\n1\n1\n1\n1\n6\n2",
+    "answer_choices": {
+      "A": "72",
+      "B": "78",
+      "C": "90",
+      "D": "120",
+      "E": "150"
+    },
+    "correct_answer": "B",
+    "solution_text": "The area of the garden is 15 · 10 = 150 square feet,\nand the combined area of the six ﬂower beds is 6 · 6 · 2 = 72 square\nfeet. Therefore the area of the walkways is 150 −72 = 78 square feet.",
+    "has_image": true
+  },
+  {
+    "id": "2017-AMC10A-Q04",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "Mia is ”helping” her mom pick up 30 toys that are strewn on the ﬂoor. Mia’s mom manages to\nput 3 toys into the toy box every 30 seconds, but each time immediately after those 30 seconds\nhave elapsed, Mia takes 2 toys out of the box. How much time, in minutes, will it take Mia and\nher mom to put all 30 toys into the box for the ﬁrst time?",
+    "answer_choices": {
+      "A": "13.5",
+      "B": "14",
+      "C": "14.5",
+      "D": "15",
+      "E": "15.5"
+    },
+    "correct_answer": "B",
+    "solution_text": "After exactly half a minute there will be 3 toys in\nthe box and 27 toys outside the box. During the next half-minute,\nMia takes 2 toys out and her mom puts 3 toys into the box. This\n\n2017 AMC 10A Solutions\n3\nmeans that during this half-minute the number of toys in the box\nwas increased by 1. The same argument applies to each of the fol-\nlowing half-minutes until all the toys are in the box for the ﬁrst time.\nTherefore it takes 1 + 27 · 1 = 28 half-minutes, which is 14 minutes,\nto complete the task.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q05",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The sum of two nonzero real numbers is 4 times their product. What is the sum of the reciprocals\nof the two numbers?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "8",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let the two numbers be x and y. Then x + y = 4xy.\nDividing this equation by xy gives\n1\ny + 1\nx = 4.\nOne such pair of\nnumbers is x = 1\n3, y = 1.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q06",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Ms. Carroll promised that anyone who got all the multiple choice questions right on the up-\ncoming exam would receive an A on the exam. Which of these statements necessarily follows\nlogically?",
+    "answer_choices": {
+      "A": "If Lewis did not receive an A, then he got all of the multiple choice questions wrong.",
+      "B": "If Lewis did not receive an A, then he got at least one of the multiple choice questions wrong.",
+      "C": "If Lewis got at least one of the multiple choice questions wrong, then he did not receive an\nA.",
+      "D": "If Lewis received an A, then he got all of the multiple choice questions right.",
+      "E": "If Lewis received an A, then he got at least one of the multiple choice questions right."
+    },
+    "correct_answer": "B",
+    "solution_text": "The given statement is logically equivalent to its\ncontrapositive: If a student did not receive an A on the exam, then\nthe student did not get all the multiple choice questions right, which\nmeans that he got at least one of them wrong. None of the other\nstatements follows logically from the given implication; the teacher\nmade no promises concerning students who did not get all the multiple\nchoice questions right. In particular, a statement does not imply its\ninverse or its converse; and the negation of the statement that Lewis\ngot all the questions right is not the statement that he got all the\nquestions wrong.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q07",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Jerry and Silvia wanted to go from the southwest corner of a square ﬁeld to the northeast corner.\nJerry walked due east and then due north to reach the goal, but Silvia headed northeast and\nreached the goal walking in a straight line. Which of the following is closest to how much shorter\nSilvia’s trip was, compared to Jerry’s trip?",
+    "answer_choices": {
+      "A": "30%",
+      "B": "40%",
+      "C": "50%",
+      "D": "60%",
+      "E": "70%"
+    },
+    "correct_answer": "A",
+    "solution_text": "If the square had side length x, then Jerry’s path had\nlength 2x, and Silvia’s path along the diagonal, by the Pythagorean\nTheorem, had length\n√\n2x.\nTherefore Silvia’s trip was shorter by\n2x −\n√\n2x, and the required percentage is\n2x −\n√\n2x\n2x\n= 1 −\n√\n2\n2\n≈1 −0.707 = 0.293 = 29.3%.\nThe closest of the answer choices is 30%.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q08",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "At a gathering of 30 people, there are 20 people who all know each other and 10 people who\nknow no one. People who know each other hug, and people who do not know each other shake\nhands. How many handshakes occur?",
+    "answer_choices": {
+      "A": "240",
+      "B": "245",
+      "C": "290",
+      "D": "480",
+      "E": "490"
+    },
+    "correct_answer": "B",
+    "solution_text": "Each of the 20 people who know each other shakes\nhands with 10 people. Each of the 10 people who know no one shakes\nhands with 29 people. Because each handshake involves two people,\nthe number of handshakes is 1\n2(20 · 10 + 10 · 29) = 245.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q09",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Minnie rides on a ﬂat road at 20 kilometers per hour (kph), downhill at 30 kph, and uphill at 5 kph.\nPenny rides on a ﬂat road at 30 kph, downhill at 40 kph, and uphill at 10 kph. Minnie goes from\ntown A to town B, a distance of 10 km all uphill, then from town B to town C, a distance of 15\nkm all downhill, and then back to town A, a distance of 20 km on the ﬂat. Penny goes the other\nway around using the same route. How many more minutes does it take Minnie to complete the\n45-km ride than it takes Penny?",
+    "answer_choices": {
+      "A": "45",
+      "B": "60",
+      "C": "65",
+      "D": "90",
+      "E": "95"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that Penny is going downhill on the segment on\nwhich Minnie is going uphill, and vice versa. Minnie needs 10\n5 hours\nto go from A to B, 15\n30 hours to go from B to C, and 20\n20 hours to go\nfrom C to A, a total of 3 1\n2 hours. Penny’s time is 20\n30 + 15\n10 + 10\n40 = 2 5\n12\nhours. It takes Minnie 3 1\n2 −2 5\n12 = 1 1\n12 hours, which is 65 minutes,\nlonger.\n\n2017 AMC 10A Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q10",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Joy has 30 thin rods, one each of every integer length from 1 cm through 30 cm. She places\nthe rods with lengths 3 cm, 7 cm, and 15 cm on a table. She then wants to choose a fourth rod\nthat she can put with these three to form a quadrilateral with positive area. How many of the\nremaining rods can she choose as the fourth rod?",
+    "answer_choices": {
+      "A": "16",
+      "B": "17",
+      "C": "18",
+      "D": "19",
+      "E": "20"
+    },
+    "correct_answer": "B",
+    "solution_text": "Four rods can form a quadrilateral with positive area\nif and only if the length of the longest rod is less than the sum of the\nlengths of the other three. Therefore if the fourth rod has length n cm,\nthen n must satisfy the inequalities 15 < 3+7+n and n < 3+7+15,\nthat is, 5 < n < 25. Because n is an integer, it must be one of the 19\nintegers from 6 to 24, inclusive. However, the rods of lengths 7 cm\nand 15 cm have already been chosen, so the number of rods that Joy\ncan choose is 19 −2 = 17.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q11",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The region consisting of all points in three-dimensional space within 3 units of line segment AB\nhas volume 216π. What is the length AB?",
+    "answer_choices": {
+      "A": "6",
+      "B": "12",
+      "C": "18",
+      "D": "20",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let h = AB. The region consists of a solid circular\ncylinder of radius 3 and height h, together with two solid hemispheres\nof radius 3 centered at A and B.\nThe volume of the cylinder is\nπ · 32 · h = 9πh, and the two hemispheres have a combined volume of\n4\n3π · 33 = 36π. Therefore 9πh + 36π = 216π, and h = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q12",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Let S be the set of points (x, y) in the coordinate plane such that two of the three quantities 3,\nx + 2, and y −4 are equal and the third of the three quantities is no greater than this common\nvalue. Which of the following is a correct description of S?",
+    "answer_choices": {
+      "A": "a single point",
+      "B": "two intersecting lines",
+      "C": "three lines whose pairwise intersections are three distinct points",
+      "D": "a triangle",
+      "E": "three rays with a common endpoint"
+    },
+    "correct_answer": "E",
+    "solution_text": "Suppose that the two larger quantities are the ﬁrst\nand the second. Then 3 = x + 2 ≥y −4. This is equivalent to x = 1\nand y ≤7, and its graph is the downward-pointing ray with endpoint\n(1, 7). Similarly, if the two larger quantities are the ﬁrst and third,\nthen 3 = y −4 ≥x + 2. This is equivalent to y = 7 and x ≤1, and its\ngraph is the leftward-pointing ray with endpoint (1, 7). Finally, if the\ntwo larger quantities are the second and third, then x+2 = y−4 ≥3.\nThis is equivalent to y = x + 6 and x ≥1, and its graph is the ray\nwith endpoint (1, 7) that points upward and to the right. Thus the\ngraph consists of three rays with common endpoint (1, 7).\n−4\n−1\n1\n4\n7\n10\n1\n4\n7\n10\n13\nNote: This problem is related to a relatively new area of mathematics\ncalled tropical geometry.\n\n2017 AMC 10A Solutions\n5",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q13",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Deﬁne a sequence recursively by F^{0} = 0, F^{1} = 1, and F^{n} = the remainder when F^{n−1} + F^{n−2}\nis divided by 3, for all n ≥2. Thus the sequence starts 0, 1, 1, 2, 0, 2 . . .. What is F^{2017} + F^{2018} +\nF^{2019} + F^{2020} + F^{2021} + F^{2022} + F^{2023} + F^{2024}?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": "The sequence starts 0, 1, 1, 2, 0, 2, 2, 1, 0, 1, 1, 2, . . ..\nNotice that the pattern repeats and the period is 8. Thus no matter\nwhich 8 consecutive numbers are added, the answer will be 0 + 1 +\n1 + 2 + 0 + 2 + 2 + 1 = 9.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q14",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Every week Roger pays for a movie ticket and a soda out of his allowance. Last week, Roger’s\nallowance was A dollars. The cost of his movie ticket was 20% of the difference between A and\nthe cost of his soda, while the cost of his soda was 5% of the difference between A and the\ncost of his movie ticket. To the nearest whole percent, what fraction of A did Roger pay for his\nmovie ticket and soda?",
+    "answer_choices": {
+      "A": "9%",
+      "B": "19%",
+      "C": "22%",
+      "D": "23%",
+      "E": "25%"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let M be the cost of Roger’s movie ticket, and let S be\nthe cost of Roger’s soda. Then M = 0.20(A−S) and S = 0.05(A−M).\nThus 5M + S = A and M + 20S = A. Solving the system for M and\nS in terms of A gives M = 19\n99A and S =\n4\n99A. The total cost of the\nmovie ticket and soda as a fraction of A is 23\n99 = 0.2323 . . . ≈23%.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q15",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Chlo´e chooses a real number uniformly at random from the interval [0, 2017]. Independently,\nLaurent chooses a real number uniformly at random from the interval [0, 4034]. What is the prob-\nability that Laurent’s number is greater than Chlo´e’s number?",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "2\n3",
+      "C": "3\n4",
+      "D": "5\n6",
+      "E": "7\n8"
+    },
+    "correct_answer": "C",
+    "solution_text": "Half of the time Laurent will pick a number between\n2017 and 4034, in which case the probability that his number will\nbe greater than Chlo´e’s number is 1. The other half of the time, he\nwill pick a number between 0 and 2017, and by symmetry his number\nwill be the larger one in half of those cases. Therefore the requested\nprobability is 1\n2 · 1 + 1\n2 · 1\n2 = 3\n4.\nOR\nThe choices of numbers can be represented in the coordinate plane by\npoints in the rectangle with vertices at (0, 0), (2017, 0), (2017, 4034),\nand (0, 4034). The portion of the rectangle representing the event that\nLaurent’s number is greater than Chlo´e’s number is the portion above\nthe line segment with endpoints (0, 0) and (2017, 2017). This area is\n3\n4 of the area of the entire rectangle, so the requested probability is 3\n4.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q16",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "There are 10 horses, named Horse 1, Horse 2, . . ., Horse 10. They get their names from how\nmany minutes it takes them to run one lap around a circular race track: Horse k runs one lap\n\nin exactly k minutes. At time 0 all the horses are together at the starting point on the track.\nThe horses start running in the same direction, and they keep running around the circular track\nat their constant speeds. The least time S > 0, in minutes, at which all 10 horses will again\nsimultaneously be at the starting point is S = 2520. Let T > 0 be the least time, in minutes,\nsuch that at least 5 of the horses are again at the starting point. What is the sum of the digits\nof T?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "B",
+    "solution_text": "Horse k will again be at the starting point after t\nminutes if and only if k is a divisor of t. Let I(t) be the number of\nintegers k with 1 ≤k ≤10 that divide t. Then I(1) = 1, I(2) = 2,\nI(3) = 2, I(4) = 3, I(5) = 2, I(6) = 4, I(7) = 2, I(8) = 4, I(9) = 3,\nI(10) = 4, I(11) = 1, and I(12) = 5. Thus T = 12 and the requested\nsum of digits is 1 + 2 = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q17",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Distinct points P, Q, R, S lie on the circle x^{2} + y^{2} = 25 and have integer coordinates. The\ndistances PQ and RS are irrational numbers. What is the greatest possible value of the ratio\nPQ\nRS ?",
+    "answer_choices": {
+      "A": "3",
+      "B": "5",
+      "C": "3\n√\n5",
+      "D": "7",
+      "E": "5\n√\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The ratio P Q\nRS has its greatest value when PQ is as\nlarge as possible and RS is as small as possible. Points P, Q, R,\nand S have coordinates among (±5, 0), (±4, ±3), (±4, ∓3), (±3, ±4),\n(±3, ∓4), and (0, ±5). In order for the distance between two of these\npoints to be irrational, the two points must not form a diameter,\nand they must not have the same x-coordinate or y-coordinate. If\n\n2017 AMC 10A Solutions\n6\nR = (a, b) and S = (a′, b′), then |a −a′| ≥1 and |b −b′| ≥1. Because\n(3, 4) and (4, 3) achieve this, they are as close as two points can be,\n√\n2 units apart. If P = (a, b) and Q = (a′, b′), then PQ is maximized\nwhen the distance from (a′, b′) to (−a, −b) is minimized.\nBecause\n|a + a′| ≥1 and |b + b′| ≥1, the points (3, −4) and (−4, 3) are as far\napart as possible,\n√\n98 units. Therefore the greatest possible ratio is\n√\n98\n√\n2 =\n√\n49 = 7.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q18",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Amelia has a coin that lands heads with probability 1\n3, and Blaine has a coin that lands on heads\nwith probability 2\n5. Amelia and Blaine alternately toss their coins until someone gets a head; the\nﬁrst one to get a head wins. All coin tosses are independent. Amelia goes ﬁrst. The probability\nthat Amelia wins is p\nq, where p and q are relatively prime positive integers. What is q −p?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x be the probability that Amelia wins. Then\nx = 1\n3 +\n\n1 −1\n3\n\n1 −2\n5\n\nx, because either Amelia wins on the ﬁrst\ntoss, or, if she and Blaine both get tails, then the chance of her\nwinning from that point onward is also x. Solving this equation gives\nx = 5\n9. The requested diﬀerence is 9 −5 = 4.\nOR\nThe probability that Amelia wins on the ﬁrst toss is 1\n3, the probability\nthat Amelia wins on the second toss is 2\n3 · 3\n5 · 1\n3, and so on. Therefore\nthe probability that Amelia wins is\n1\n3 + 2\n3 · 3\n5 · 1\n3 +\n\u001d2\n3\n\u001c2\n·\n\u001d3\n5\n\u001c2\n· 1\n3 + · · · = 1\n3 ·\n\u001b\n1 + 2\n5 +\n\u001d2\n5\n\u001c2\n+ · · ·\n\u001a\n= 1\n3 ·\n1\n1 −2\n5\n= 5\n9.\nOR\nLet n ≥0 be the greatest integer such that Amelia and Blaine each\ntoss tails n times in a row. Then the game will end in the next round\nof tosses, either because Amelia tosses a head, which will occur with\nprobability\n1\n3, or because Amelia tosses a tail and Blaine tosses a\nhead, which will occur with probability 2\n3 · 2\n5 =\n4\n15. The probability\nthat it is Amelia who wins is therefore\n1\n3\n1\n3 + 4\n15\n= 5\n9.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q19",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Alice refuses to sit next to either Bob or Carla. Derek refuses to sit next to Eric. How many ways\nare there for the ﬁve of them to sit in a row of 5 chairs under these conditions?",
+    "answer_choices": {
+      "A": "12",
+      "B": "16",
+      "C": "28",
+      "D": "32",
+      "E": "40"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let X be the set of ways to seat the ﬁve people in\nwhich Alice sits next to Bob. Let Y be the set of ways to seat the\n\n2017 AMC 10A Solutions\n7\nﬁve people in which Alice sits next to Carla. Let Z be the set of ways\nto seat the ﬁve people in which Derek sits next to Eric. The required\nanswer is 5! −|X ∪Y ∪Z|. The Inclusion–Exclusion Principle gives\n|X∪Y ∪Z| =\n\n|X|+|Y |+|Z|\n\n−\n\n|X∩Y |+|X∩Z|+|Y ∩Z|\n\n+|X∩Y ∩Z|.\nViewing Alice and Bob as a unit in which either can sit on the other’s\nleft side shows that there are 2 · 4! = 48 elements of X. Similarly\nthere are 48 elements of Y and 48 elements of Z. Viewing Alice, Bob,\nand Carla as a unit with Alice in the middle shows that |X ∩Y | =\n2 · 3! = 12. Viewing Alice and Bob as a unit and Derek and Eric as\na unit shows that |X ∩Z| = 2 · 2 · 3! = 24. Similarly |Y ∩Z| = 24.\nFinally, there are 2 · 2 · 2! = 8 elements of X ∩Y ∩Z. Therefore\n|X ∪Y ∪Z| = (48+48+48)−(12+24+24)+8 = 92, and the answer\nis 120 −92 = 28.\nOR\nThere are three cases based on where Alice is seated.\n• If Alice takes the ﬁrst or last chair, then Derek or Eric must be\nseated next to her, Bob or Carla must then take the middle chair,\nand either of the remaining two individuals can be seated in either of\nthe other two chairs. This gives a total of 24 = 16 arrangements.\n• If Alice is seated in the second or fourth chair, then Derek and Eric\nwill take the seats on her two sides, and this can be done in two ways.\nBob and Carla can be seated in the two remaining chairs in two ways,\nwhich yields a total of 23 = 8 arrangements.\n• If Alice sits in the middle chair, then Derek and Eric will be seated\non her two sides, with Bob and Carla seated in the ﬁrst and last\nchairs. This results in 22 = 4 arrangements.\nThus there are 16 + 8 + 4 = 28 possible arrangements in total.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q20",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let S(n) equal the sum of the digits of positive integer n. For example, S(1507) = 13. For a\nparticular positive integer n, S(n) = 1274. Which of the following could be the value of S(n+1)?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "12",
+      "D": "1239",
+      "E": "1265"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that S(n + 1) = S(n) + 1 unless the numeral\nfor n ends with a 9. Moreover, if the numeral for n ends with exactly\nk 9s, then S(n + 1) = S(n) + 1 −9k. Thus the possible values of\nS(n + 1) when S(n) = 1274 are all of the form 1275 −9k, where\nk ∈{0, 1, 2, 3, . . . , 141}. Of the choices, only 1239 can be formed in\nthis manner, and S(n + 1) will equal 1239 if, for example, n consists\nof 4 consecutive 9s preceded by 1238 1s.\nOR\n\n2017 AMC 10A Solutions\n8\nThe value of a positive integer is congruent to the sum of its digits\nmodulo 9. Therefore n ≡S(n) = 1274 ≡5 (mod 9), so S(n + 1) ≡\nn + 1 ≡6 (mod 9). Of the given choices, only 1239 meets this re-\nquirement.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q21",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A square with side length x is inscribed in a right triangle with sides of length 3, 4, and 5 so that\none vertex of the square coincides with the right-angle vertex of the triangle. A square with side\nlength y is inscribed so that one side of the square lies on the hypotenuse of the triangle. What\nis x\ny?",
+    "answer_choices": {
+      "A": "12\n13",
+      "B": "35\n37",
+      "C": "1",
+      "D": "37\n35",
+      "E": "13"
+    },
+    "correct_answer": "D",
+    "solution_text": "In the ﬁrst ﬁgure △FEB ∼△DCE, so\nx\n3−x = 4−x\nx\nand x = 12\n7 . In the second ﬁgure, the small triangles are similar to\nthe large one, so the lengths of the portions of the side of length 3 are\nas shown. Solving 3\n5y + 5\n4y = 3 yields y = 60\n37. Thus x\ny = 12\n7 · 37\n60 = 37\n35.\n4 −x\n3 −x\nx\nx\nA\nD\nE\nF\nC\nB\ny\ny\n3\n5y\n5\n4y",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q22",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Sides AB and AC of equilateral triangle ABC are tangent to a circle at points B and C respec-\ntively. What fraction of the area of △ABC lies outside the circle?",
+    "answer_choices": {
+      "A": "4\n√\n3π\n27\n−1\n3",
+      "B": "√\n3\n2 −π\n8",
+      "C": "1\n2",
+      "D": "√\n3 −2\n√\n3π\n9",
+      "E": "4\n3 −4\n√\n3π\n27"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let O be the center of the circle, and without loss\nof generality, assume that radius OB = 1.\nBecause △ABO is a\n30 – 60 – 90◦right triangle, AO = 2 and AB = BC =\n√\n3.\nKite\nABOC has diagonals of lengths 2 and\n√\n3, so its area is\n√\n3. Because\n∠BOC = 120◦, the area of the sector cut oﬀby ∠BOC is 1\n3π. The\narea of the portion of △ABC lying outside the circle (shaded in the\nﬁgure) is therefore\n√\n3−1\n3π. The area of △ABC is 1\n4\n√\n3\n\u001f√\n3\n\u001e2 = 3\n4\n√\n3,\nso the requested fraction is\n√\n3 −1\n3π\n3\n4\n√\n3\n= 4\n3 −4\n√\n3π\n27\n.\n\n2017 AMC 10A Solutions\n9",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q23",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "How many triangles with positive area have all their vertices at points (i, j) in the coordinate\nplane, where i and j are integers between 1 and 5, inclusive?",
+    "answer_choices": {
+      "A": "2128",
+      "B": "2148",
+      "C": "2160",
+      "D": "2200",
+      "E": "2300"
+    },
+    "correct_answer": "B",
+    "solution_text": "There are\n\u001f25\n3\n\n= 25·24·23\n6\n= 2300 ways to choose three\nvertices, but in some cases they will fall on a line. There are 5·\n\u001f5\n3\n\n= 50\nthat fall on a horizontal line, another 50 that fall on a vertical line,\n\u001f5\n3\n\n+2\n\u001f4\n3\n\n+2\n\u001f3\n3\n\n= 20 that fall on a line with slope 1, another 20 that\nfall on a line with slope −1, and 3 each that fall on lines with slopes 2,\n−2, 1\n2, and −1\n2. Therefore the answer is 2300−50−50−20−20−12 =\n2148.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q24",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "For certain real numbers a, b, and c, the polynomial\ng(x) = x^{3} + ax^{2} + x + 10\nhas three distinct roots, and each root of g(x) is also a root of the polynomial\nf(x) = x^{4} + x^{3} + bx^{2} + 100x + c.\nWhat is f(1)?",
+    "answer_choices": {
+      "A": "−9009",
+      "B": "−8008",
+      "C": "−7007",
+      "D": "−6006",
+      "E": "−5005"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let q be the additional root of f(x). Then\nf(x) = (x −q)(x3 + ax2 + x + 10)\n= x4 + (a −q)x3 + (1 −qa)x2 + (10 −q)x −10q.\nThus 100 = 10−q, so q = −90 and c = −10q = 900. Also 1 = a−q =\na + 90, so a = −89. It follows, using the factored form of f shown\nabove, that f(1) =\n\n1−(−90)\n\n·(1−89+1+10) = 91·(−77) = −7007.",
+    "has_image": false
+  },
+  {
+    "id": "2017-AMC10A-Q25",
+    "year": 2017,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many integers between 100 and 999, inclusive, have the property that some permutation\nof its digits is a multiple of 11 between 100 and 999? For example, both 121 and 211 have this\nproperty.",
+    "answer_choices": {
+      "A": "226",
+      "B": "243",
+      "C": "270",
+      "D": "469",
+      "E": "486"
+    },
+    "correct_answer": "A",
+    "solution_text": "Recall the divisibility test for 11: A three-digit num-\nber a b c is divisible by 11 if and only if a −b + c is divisible by 11.\nThe smallest and largest three-digit multiples of 11 are, respectively,\n110 = 10·11 and 990 = 90·11, so the number of three-digit multiples\nof 11 is 90 −10 + 1 = 81. They may be grouped as follows:\n•\nThere are 9 multiples of 11 that have the form a a 0 for 1 ≤a ≤9.\nThey can each be permuted to form a total of 2 three-digit integers. In\neach case a a 0 is a multiple of 11 and a 0 a is not, so these 9 multiples\nof 11 give 18 integers with the required property.\n•\nThere are 8 multiples of 11 that have the form a b a, namely 121,\n242, 363, 484, 616, 737, 858, and 979. They can each be permuted to\nform a total of 3 three-digit integers. In each case a b a is a multiple\n\n2017 AMC 10A Solutions\n10\nof 11, but neither a a b nor b a a is, so these 8 multiples of 11 give 24\nintegers with the required property.\n•\nIf a three-digit multiple of 11 has distinct digits and one digit is 0,\nit must have the form a 0 c with a+c = 11. There are 8 such integers,\nnamely 209, 308, 407, . . . , 902. They can each be permuted to form\na total of 4 three-digit integers, but these 8 multiples of 11 give only\n4 distinct sets of permutations, leading to 4 · 4 = 16 integers with the\nrequired property.\n•\nThe remaining 81 −(9 + 8 + 8) = 56 three-digit multiples of 11\nall have the form a b c, where a, b, and c are distinct nonzero digits.\nThey can each be permuted to form a total of 6 three-digit integers,\nand in each case both a b c and c b a—and only these—are multiples\nof 11. Therefore these 56 multiples of 11 give only 28 distinct sets\nof permutations, leading to 28 · 6 = 168 integers with the required\nproperty.\nThe total number of integers with the required property is 18 + 24 +\n16 + 168 = 226.\nProblems and solutions were contributed by Stephen Adams, Paul Baird-\nSmith, Steven Davis, Marta Eso, Silvia Fernandez, Peter Gilchrist, Jerrold\nGrossman, Jonathan Kane, Joe Kennedy, Michael Khoury, Steven Miller,\nHugh Montgomery, Yasick Nemenov, Mark Saul, Walter Stromquist, Roger\nWaggoner, Dave Wells, and Carl Yerger.\n\nThe\nMAA American Mathematics Competitions\nare supported by\nAcademy of Applied Science\nAkamai Foundation\nAmerican Mathematical Society\nAmerican Statistical Association\nAnsatz Capital\nArmy Educational Outreach Program\nArt of Problem Solving\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nThe DE Shaw Group\nDropbox\nExpii, Inc\nIDEA MATH, LLC\nJane Street Capital\nMathWorks\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nSimons Foundation\nSociety for Industrial and Applied Mathematics\nStar League\nSusquehanna International Group\nTudor Investment Corp\nTwo Sigma",
+    "has_image": false
+  }
+]

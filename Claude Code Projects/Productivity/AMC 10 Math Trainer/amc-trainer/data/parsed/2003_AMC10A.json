@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2003-AMC10A-Q01",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "What is the difference between the sum of the first 2003 even counting numbers and the sum\nof the first 2003 odd counting numbers?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "2003",
+      "E": "4006"
+    },
+    "correct_answer": "D",
+    "solution_text": "Each even counting number, beginning with 2, is one more than the preceding odd counting number. Therefore the difference is (1)(2003) = 2003.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q02",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Members of the Rockham Soccer League buy socks and T-shirts. Socks cost $4 per pair and\neach T-shirt costs $5 more than a pair of socks. Each member needs one pair of socks and a\nshirt for home games and another pair of socks and a shirt for away games. If the total cost is\n$2366, how many members are in the League?",
+    "answer_choices": {
+      "A": "77",
+      "B": "91",
+      "C": "143",
+      "D": "182",
+      "E": "286"
+    },
+    "correct_answer": "B",
+    "solution_text": "The cost for each member is the price of two pairs of socks, $8, and two shirts, $18, for a total of $26. So there are 2366/26 = 91 members.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q03",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A solid box is 15 cm by 10 cm by 8 cm. A new solid is formed by removing a cube 3 cm on a side\nfrom each corner of this box. What percent of the original volume is removed?",
+    "answer_choices": {
+      "A": "4.5",
+      "B": "9",
+      "C": "12",
+      "D": "18",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "The total volume of the eight removed cubes is 8 × 33 = 216 cubic centimeters, and the volume of the original box is 15 × 10 × 8 = 1200 cubic centimeters.\nTherefore the volume has been reduced by (216/1200)(100%) = 18%.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q04",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "It takes Mary 30 minutes to walk uphill 1 km from her home to school, but it takes her only 10\nminutes to walk from school to home along the same route. What is her average speed, in km/hr,\nfor the round trip?",
+    "answer_choices": {
+      "A": "3",
+      "B": "3.125",
+      "C": "3.5",
+      "D": "4",
+      "E": "4.5"
+    },
+    "correct_answer": "A",
+    "solution_text": "Mary walks a total of 2 km in 40 minutes. Because 40 minutes is 2/3 hr, her average speed, in km/hr, is 2/(2/3) = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q05",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Let d and e denote the solutions of 2x^{2} + 3x − 5 = 0. What is the value of (d − 1)(e − 1)?",
+    "answer_choices": {
+      "A": "−5\n2",
+      "B": "0",
+      "C": "3",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "B",
+    "solution_text": "Since 0 = 2x^2 + 3x − 5 = (2x + 5)(x − 1) we have d = −5/2 and e = 1. So (d − 1)(e − 1) = 0.\nOR\nIf x = d and x = e are the roots of the quadratic equation ax^2 + bx + c = 0, then de = c/a and d + e = −b/a. For our equation this implies that (d − 1)(e − 1) = de − (d + e) + 1 = −5/2 − (−3/2) + 1 = 0.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q06",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Define x♡y to be |x − y| for all real numbers x and y. Which of the following statements is not true?",
+    "answer_choices": {
+      "A": "x♡y = y♡x for all x and y",
+      "B": "2(x♡y) = (2x)♡(2y) for all x and y",
+      "C": "x♡0 = x for all x",
+      "D": "x♡x = 0 for all x",
+      "E": "x♡y > 0 if x ≠ y"
+    },
+    "correct_answer": "C",
+    "solution_text": "For example, −1♥0 = |−1 − 0| = 1 ≠ −1. All the other statements are true:\n(A) x♥y = |x − y| = |−(y − x)| = |y − x| = y♥x for all x and y.\n(B) 2(x♥y) = 2|x − y| = |2x − 2y| = (2x)♥(2y) for all x and y.\n(D) x♥x = |x − x| = 0 for all x.\n(E) x♥y = |x − y| > 0 if x ≠ y.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q07",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "How many non-congruent triangles with perimeter 7 have integer side lengths?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The longest side cannot be greater than 3, since otherwise the remaining two sides would not be long enough to form a triangle. The only possible triangles have side lengths 1–3–3 or 2–2–3.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q08",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "What is the probability that a randomly drawn positive factor of 60 is less than 7?",
+    "answer_choices": {
+      "A": "1\n10",
+      "B": "1\n6",
+      "C": "1\n4",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "E",
+    "solution_text": "The factors of 60 are 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, and 60. Six of the twelve factors are less than 7, so the probability is 1/2.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q09",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Simplify\n∛(x · ∛(x · ∛(x · √x)))",
+    "answer_choices": {
+      "A": "√x",
+      "B": "∛(x^2)",
+      "C": "^{27}√(x^2)",
+      "D": "^{54}√x",
+      "E": "^{81}√(x^{80})"
+    },
+    "correct_answer": "A",
+    "solution_text": "We have\n∛(x · ∛(x · ∛(x · √x))) = (x(x(x · x^(1/2))^(1/3))^(1/3))^(1/3)\n= (x(x(x^(3/2))^(1/3))^(1/3))^(1/3)\n= (x(x · x^(1/2))^(1/3))^(1/3)\n= (x(x^(3/2))^(1/3))^(1/3) = (x · x^(1/2))^(1/3) = (x^(3/2))^(1/3) = x^(1/2) = √x.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q10",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The polygon enclosed by the solid lines in the figure consists of 4 congruent squares joined edge-to-edge. One more congruent square is attached to an edge at one of the nine positions indicated. How many of the nine resulting polygons can be folded to form a cube with one face missing?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "If the polygon is folded before the fifth square is attached, then edges a and a′ must be joined, as must b and b′. The fifth face of the cube can be attached at any of the six remaining edges.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10A-Q11",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "The sum of the two 5-digit numbers AMC10 and AMC12 is 123422. What is A + M + C?",
+    "answer_choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": "E",
+    "solution_text": "Since the last two digits of AMC10 and AMC12 sum to 22, we have AMC + AMC = 2(AMC) = 1234. Hence AMC = 617, so A = 6, M = 1, C = 7, and A + M + C = 6 + 1 + 7 = 14.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q12",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A point (x, y) is randomly picked from inside the rectangle with vertices (0, 0), (4, 0), (4, 1), and (0, 1). What is the probability that x < y?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "1\n4",
+      "C": "3\n8",
+      "D": "1\n2",
+      "E": "3\n4"
+    },
+    "correct_answer": "A",
+    "solution_text": "The point (x, y) satisfies x < y if and only if it belongs to the shaded triangle bounded by the lines x = y, y = 1, and x = 0, the area of which is 1/2. The ratio of the area of the triangle to the area of the rectangle is (1/2)/4 = 1/8.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q13",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The sum of three numbers is 20. The first is 4 times the sum of the other two. The second is seven times the third. What is the product of all three?",
+    "answer_choices": {
+      "A": "28",
+      "B": "40",
+      "C": "100",
+      "D": "400",
+      "E": "800"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let a, b, and c be the three numbers. Replace a by four times the sum of the other two to get 4(b + c) + b + c = 20, so b + c = 4. Then replace b with 7c to get 7c + c = 4, so c = 1/2.\nThe other two numbers are b = 7/2 and a = 16, and the product of the three is 16 · 7/2 · 1/2 = 28.\nOR\nLet the first, second, and third numbers be x, 7x, and 32x, respectively. Then 40x = 20 so x = 1/2 and the product is (32)(7)x^3 = (32)(7)(1/8) = 28.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q14",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Let n be the largest integer that is the product of exactly 3 distinct prime numbers, d, e, and 10d + e, where d and e are single digits. What is the sum of the digits of n?",
+    "answer_choices": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "21",
+      "E": "24"
+    },
+    "correct_answer": "A",
+    "solution_text": "The largest single-digit primes are 5 and 7, but neither 75 nor 57 is prime. Using 3, 7, and 73 gives 1533, whose digits have a sum of 12.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q15",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "What is the probability that an integer in the set {1, 2, 3, . . . , 100} is divisible by 2 and not divisible by 3?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "33\n100",
+      "C": "17\n50",
+      "D": "1\n2",
+      "E": "18\n25"
+    },
+    "correct_answer": "C",
+    "solution_text": "Of the 100/2 = 50 integers that are divisible by 2, there are ⌊100/6⌋ = 16 that are divisible by both 2 and 3. So there are 50 − 16 = 34 that are divisible by 2 and not by 3, and 34/100 = 17/50.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q16",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the units digit of 13^{2003}?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "Powers of 13 have the same units digit as the corresponding powers of 3; and 3^1 = 3, 3^2 = 9, 3^3 = 27, 3^4 = 81, and 3^5 = 243. Since the units digit of 3^1 is the same as the units digit of 3^5, units digits of powers of 3 cycle through 3, 9, 7, and 1. Hence the units digit of 3^{2000} is 1, so the units digit of 3^{2003} is 7. The same is true of the units digit of 13^{2003}.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q17",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "The number of inches in the perimeter of an equilateral triangle equals the number of square inches in the area of its circumscribed circle. What is the radius, in inches, of the circle?",
+    "answer_choices": {
+      "A": "3√2/π",
+      "B": "3√3/π",
+      "C": "√3",
+      "D": "6/π",
+      "E": "√3π"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the triangle have vertices A, B, and C, let O be the center of the circle, and let D be the midpoint of BC. Triangle COD is a 30–60–90 degree triangle. If r is the radius of the circle, then the sides of △COD are r, r/2, and r√3/2. The perimeter of △ABC is 6(r√3/2) = 3r√3, and the area of the circle is πr^2. Thus 3r√3 = πr^2, and r = (3√3)/π.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q18",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "What is the sum of the reciprocals of the roots of the equation\n(2003/2004)x + 1 + 1/x = 0?",
+    "answer_choices": {
+      "A": "−2004\n2003",
+      "B": "−1",
+      "C": "2003\n2004",
+      "D": "1",
+      "E": "2004\n2003"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let a = 2003/2004. The given equation is equivalent to ax^2 + x + 1 = 0. If the roots of this equation are denoted r and s, then rs = 1/a and r + s = −1/a, so 1/r + 1/s = (r + s)/(rs) = −1.\nOR\nIf x is replaced by 1/y, then the roots of the resulting equation are the reciprocals of the roots of the original equation. The new equation is (2003/2004)(1/y) + 1 + y = 0, which is equivalent to y^2 + y + 2003/2004 = 0. The sum of the roots of this equation is the opposite of the y-coefficient, which is −1.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q19",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A semicircle of diameter 1 sits at the top of a semicircle of diameter 2, as shown. The shaded area inside the smaller semicircle and outside the larger semicircle is called a lune. Determine the area of this lune.",
+    "answer_choices": {
+      "A": "π/6 − √3/4",
+      "B": "√3/4 − π/12",
+      "C": "√3/4 − π/24",
+      "D": "√3/4 + π/24",
+      "E": "√3/4 + π/12"
+    },
+    "correct_answer": "C",
+    "solution_text": "First note that the area of the region determined by the triangle topped by the semicircle of diameter 1 is (1/2)(√3/2) + (1/2)π(1/2)^2 = √3/4 + (1/8)π. The area of the lune results from subtracting from this the area of the sector of the larger semicircle, (1/6)π(1)^2 = (1/6)π. So the area of the lune is √3/4 + (1/8)π − (1/6)π = √3/4 − (1/24)π.\nNote that the answer does not depend on the position of the lune on the semicircle.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10A-Q20",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A base-10 three-digit number n is selected at random. Which of the following is closest to the probability that the base-9 representation and the base-11 representation of n are both three-digit numerals?",
+    "answer_choices": {
+      "A": "0.3",
+      "B": "0.4",
+      "C": "0.5",
+      "D": "0.6",
+      "E": "0.7"
+    },
+    "correct_answer": "E",
+    "solution_text": "The largest base-9 three-digit number is 9^3 − 1 = 728 and the smallest base-11 three-digit number is 11^2 = 121. There are 608 integers that satisfy 121 ≤ n ≤ 728, and 900 three-digit numbers altogether, so the probability is 608/900 ≈ 0.7.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q21",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Pat is to select six cookies from a tray containing only chocolate chip, oatmeal, and peanut butter cookies. There are at least six of each of these three kinds of cookies on the tray. How many different assortments of six cookies can be selected?",
+    "answer_choices": {
+      "A": "22",
+      "B": "25",
+      "C": "27",
+      "D": "28",
+      "E": "29"
+    },
+    "correct_answer": "D",
+    "solution_text": "The numbers of the three types of cookies must have a sum of six. Possible sets of whole numbers whose sum is six are 0, 0, 6; 0, 1, 5; 0, 2, 4; 0, 3, 3; 1, 1, 4; 1, 2, 3; and 2, 2, 2. Every ordering of each of these sets determines a different assortment of cookies. There are 3 orders for each of the sets 0, 0, 6; 0, 3, 3; and 1, 1, 4. There are 6 orders for each of the sets 0, 1, 5; 0, 2, 4; and 1, 2, 3. There is only one order for 2, 2, 2. Therefore the total number of assortments of six cookies is 3 · 3 + 3 · 6 + 1 = 28.\nOR\nConstruct eight slots, six to place the cookies in and two to divide the cookies by type. There are C(8,2) = 28 ways to place the two dividers, so there are 28 ways to select the six cookies.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q22",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In rectangle ABCD, we have AB = 8, BC = 9, H is on BC with BH = 6, E is on AD with DE = 4, line EC intersects line AH at G, and F is on line AD with GF ⊥ AF. Find the length GF.\nF    G\nC    H  6  B\nD  4  E    A",
+    "answer_choices": {
+      "A": "16",
+      "B": "20",
+      "C": "24",
+      "D": "28",
+      "E": "30"
+    },
+    "correct_answer": "B",
+    "solution_text": "We have EA = 5 and CH = 3. Triangles GCH and GEA are similar, so GC/GE = 3/5 and CE/GE = (GE − GC)/GE = 1 − 3/5 = 2/5. Triangles GFE and CDE are similar, so GF/8 = CE/GE = 5/2 and FG = 20.\nOR\nPlace the figure in the coordinate plane with the origin at D, DA on the positive x-axis, and DC on the positive y-axis. Then H = (3, 8) and A = (9, 0), so line AG has the equation y = −(4/3)x + 12. Also, C = (0, 8) and E = (4, 0), so line EG has the equation y = −2x + 8. The lines intersect at (−6, 20), so FG = 20.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10A-Q23",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "A large equilateral triangle is constructed by using toothpicks to create rows of small equilateral triangles. For example, in the figure we have 3 rows of small congruent equilateral triangles, with 5 small triangles in the base row. How many toothpicks would be needed to construct a large equilateral triangle if the base row of the triangle consists of 2003 small equilateral triangles?",
+    "answer_choices": {
+      "A": "1,004,004",
+      "B": "1,005,006",
+      "C": "1,507,509",
+      "D": "3,015,018",
+      "E": "6,021,018"
+    },
+    "correct_answer": "C",
+    "solution_text": "The base row of the large equilateral triangle has 1001 triangles pointing downward and 1002 pointing upward. This base row requires 3(1002) toothpicks since the downward pointing triangles require no additional toothpicks. Each succeeding row will require one less set of 3 toothpicks, so the total number of toothpicks required is 3(1002 + 1001 + 1000 + · · · + 2 + 1) = 3 · (1002 · 1003)/2 = 1,507,509.\nOR\nCreate a table: for n rows, the base row has 2n − 1 triangles and the total toothpicks is 3(1 + 2 + · · · + n). Thus 2003 = 2n − 1 so n = 1002. The number of toothpicks is 3(1 + 2 + · · · + 1002) = 3(1002)(1003)/2 = 1,507,509.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10A-Q24",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Sally has five red cards numbered 1 through 5 and four blue cards numbered 3 through 6. She stacks the cards so that the colors alternate and so that the number on each red card divides evenly into the number on each neighboring blue card. What is the sum of the numbers on the middle three cards?",
+    "answer_choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let R1, . . ., R5 and B3, . . ., B6 denote the numbers on the red and blue cards, respectively. Note that R4 and R5 divide evenly into only B4 and B5, respectively. Thus the stack must be R4, B4, . . ., B5, R5, or the reverse. Since R2 divides evenly into only B4 and B6, we must have R4, B4, R2, B6, . . ., B5, R5, or the reverse. Since R3 divides evenly into only B3 and B6, the stack must be R4, B4, R2, B6, R3, B3, R1, B5, R5, or the reverse. In either case, the sum of the middle three cards is 12.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10A-Q25",
+    "year": 2003,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let n be a 5-digit number, and let q and r be the quotient and remainder, respectively, when n is divided by 100. For how many values of n is q + r divisible by 11?",
+    "answer_choices": {
+      "A": "8180",
+      "B": "8181",
+      "C": "8182",
+      "D": "9000",
+      "E": "9090"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that n = 100q + r = q + r + 99q. Hence q + r is divisible by 11 if and only if n is divisible by 11. Since 10,000 ≤ n ≤ 99,999, there are ⌊99999/11⌋ − ⌊9999/11⌋ = 9090 − 909 = 8181 such numbers.",
+    "has_image": false
+  }
+]

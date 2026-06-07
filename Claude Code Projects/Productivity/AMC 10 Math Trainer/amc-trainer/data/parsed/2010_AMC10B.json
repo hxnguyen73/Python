@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2010-AMC10B-Q01",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is 100(100 −3) −(100 · 100 −3)?",
+    "answer_choices": {
+      "A": "−20, 000",
+      "B": "−10, 000",
+      "C": "−297",
+      "D": "−6",
+      "E": "0"
+    },
+    "correct_answer": "C",
+    "solution_text": "Simplifying gives\n100(100 −3) −(100 · 100 −3) = 100 · 100 −100 · 3 −100 · 100 + 3\n= −300 + 3\n= −297.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q02",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Makayla attended two meetings during her 9-hour work day. The ﬁrst meeting took 45 minutes\nand the second meeting took twice as long. What percent of her work day was spent attending\nmeetings?",
+    "answer_choices": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30",
+      "E": "35"
+    },
+    "correct_answer": "C",
+    "solution_text": "Makayla spent 45 + 2 · 45 = 135 minutes, or 135\n60 = 9\n4 hours in\nmeetings. Hence she spent 100 · 9/4\n9\n= 25 percent of her time in meetings.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q03",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "A drawer contains red, green, blue, and white socks with at least 2 of each color. What is the\nminimum number of socks that must be pulled from the drawer to guarantee a matching pair?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "If a set of 4 socks does not contain a pair, there must be one\nof each color. The ﬁfth sock must match one of the others and guarantee a\nmatching pair.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q04",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For a real number x, deﬁne ♡(x) to be the average of x and x^{2}. What is ♡(1) + ♡(2) + ♡(3)?",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "10",
+      "D": "12",
+      "E": "20"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that ♥(1) = 1 + 12\n2\n= 1, ♥(2) = 2 + 22\n2\n= 3, and ♥(3) =\n3 + 32\n2\n= 6. Thus ♥(1) + ♥(2) + ♥(3) = 1 + 3 + 6 = 10.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q05",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A month with 31 days has the same number of Mondays and Wednesdays. How many of the\nseven days of the week could be the ﬁrst day of this month?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "B",
+    "solution_text": "A month with 31 days has 3 successive days of the week ap-\npearing ﬁve times and 4 successive days of the week appearing four times. If\nMonday and Wednesday appear ﬁve times then Monday must be the ﬁrst day\nof the month. If Monday and Wednesday appear only four times then either\nThursday or Friday must be the ﬁrst day of the month. Hence there are 3 days\nof the week that could be the ﬁrst day of the month.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q06",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A circle is centered at O, AB is a diameter and C is a point on the circle with ∠COB = 50^{◦}.\nWhat is the degree measure of ∠CAB?",
+    "answer_choices": {
+      "A": "20",
+      "B": "25",
+      "C": "45",
+      "D": "50",
+      "E": "65"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that ∠AOC = 180◦−50◦= 130◦. Because △AOC is\nisosceles, ∠CAB = 1\n2(180◦−130◦) = 25◦.\nA\nB\nC\nO\n50˚\n2010-Solutions-AMC10B.indd   2\n1/4/2010   11:57:48 AM\n\nSolutions\n2010 AMC 10 B\n3\nOR\nBy the Inscribed Angle Theorem, ∠CAB = 1\n2(∠COB) = 1\n2(50◦) = 25◦.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q07",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A triangle has side lengths 10, 10, and 12. A rectangle has width 4 and area equal to the area of\nthe triangle. What is the perimeter of this rectangle?",
+    "answer_choices": {
+      "A": "16",
+      "B": "24",
+      "C": "28",
+      "D": "32",
+      "E": "36"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the triangle be ABC with AB = 12, and let D be the foot of\nthe altitude from C. Then △ACD is a right triangle with hypotenuse AC = 10\nand one leg AD = 1\n2AB = 6. By the Pythagorean Theorem CD =\n√\n102 −62 =\n8, and the area of △ABC is 1\n2(AB)(CD) = 1\n2(12)(8) = 48. The rectangle has\nlength 48\n4 = 12 and perimeter 2(12 + 4) = 32.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q08",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "A ticket to a school play costs x dollars, where x is a whole number. A group of 9th graders buys\ntickets costing a total of $48, and a group of 10th graders buys tickets costing a total of $64.\nHow many values of x are possible?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "E",
+    "solution_text": "The cost of an individual ticket must divide 48 and 64. The\ncommon factors of 48 and 64 are 1, 2, 4, 8, and 16. Each of these may be the\ncost of one ticket, so there are 5 possible values for x.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q09",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Lucky Larry’s teacher asked him to substitute numbers for a, b, c, d, and e in the expression a −\n(b−(c−(d+e))) and evaluate the result. Larry ignored the parentheses but added and subtracted\ncorrectly and obtained the correct result by coincedence. The numbers Larry substituted for a,\nb, c, and d were 1, 2, 3, and 4, respectively. What number did Larry substitute for e?",
+    "answer_choices": {
+      "A": "−5",
+      "B": "−3",
+      "C": "0",
+      "D": "3",
+      "E": "5"
+    },
+    "correct_answer": "D",
+    "solution_text": "The correct answer was 1−(2−(3−(4+e))) = 1−2+3−4−e =\n−2−e. Larry’s answer was 1−2−3−4+e = −8+e. Therefore −2−e = −8+e,\nso e = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q10",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Shelby drives her scooter at a speed of 30 miles per hour if it is not raining, and 20 miles per\nhour if it is raining. Today she drove in the sun in the morning and in the rain in the evening, for\na total of 16 miles in 40 minutes. How many minutes did she drive in the rain?",
+    "answer_choices": {
+      "A": "18",
+      "B": "21",
+      "C": "24",
+      "D": "27",
+      "E": "30"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let t be the number of minutes Shelby spent driving in the rain.\nThen she traveled 20 t\n60 miles in the rain, and 30 40−t\n60\nmiles in the sun. Solving\n20 t\n60 + 30 40−t\n60\n= 16 results in t = 24 minutes.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q11",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A shopper plans to purchase an item that has a listed price greater than $100 and can use any\none of the three coupons. Coupon A gives 15% off the listed price, Coupon B gives $30 the listed\n\nprice, and Coupon C gives 25% off the amount by which the listed price exceeds $100.\nLet x and y be the smallest and largest prices, respectively, for which Coupon A saves at least\nas many dollars as Coupon B or C. What is y −x?",
+    "answer_choices": {
+      "A": "50",
+      "B": "60",
+      "C": "75",
+      "D": "80",
+      "E": "100"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let p dollars be the purchase price of the stem. The savings\nprovided by Coupon A, B, and C respectively are 0.15p, 30, and 0.25(p −100).\nCoupon A saves at least as much as Coupon B if 0.15p ≥30, so p ≥200.\nCoupon A saves at least as much as Coupon C if 0.15p ≥0.25(p −100), so\np ≤250. Therefore x = 200, y = 250, and y −x = 50.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q12",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "At the beginning of the school year, 50% of all students in Mr. Well’s math class answered ”Yes”\nto the question ”Do you love math”, and 50% answered ”No.” At the end of the school year, 70%\nanswered ”Yes” and 30% answered ”No.” Altogether, x% of the students gave a different answer\nat the beginning and end of the school year. What is the difference between the maximum and\nthe minimum possible values of x?",
+    "answer_choices": {
+      "A": "0",
+      "B": "20",
+      "C": "40",
+      "D": "60",
+      "E": "80"
+    },
+    "correct_answer": "D",
+    "solution_text": "Assume there are 100 students in Mr. Wells’ class. Then at least\n70 −50 = 20 students answered “No” at the beginning of the school year and\n“Yes” at the end, so x ≥20. Because only 30 students answered “No” at the\nend of the school year, at least 50−30 = 20 students who answered “Yes”’ at the\nbeginning of the year gave the same answer at the end, so x ≤80. The diﬀerence\nbetween the maximum and minimum possible values of x is 80 −20 = 60.\nThe minimum x = 20 is achieved if exactly 20 students answered ”No” at the\nbeginning and ”Yes” at the end of the school year. The maximum x = 80 is\nachieved if exactly 20 students answered ”Yes at the beginning and the end.\n2010-Solutions-AMC10B.indd   3\n1/4/2010   11:57:48 AM\n\nSolutions\n2010 AMC 10 B\n4",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q13",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "What is the sum of all the solutions of x = |2x −|60 −2x||?",
+    "answer_choices": {
+      "A": "32",
+      "B": "60",
+      "C": "92",
+      "D": "120",
+      "E": "124"
+    },
+    "correct_answer": "C",
+    "solution_text": "If 60 −2x > 0, then |2x −|60 −2x|| = |4x −60|.\nSolving\nx = 4x −60, and x = −(4x −60) results in x = 20, and x = 12, respectively,\nboth of which satisfy the original equation.\nIf 60 −2x < 0, then |2x −|60 −2x|| = |2x + 60 −2x| = 60. Note that x = 60\nsatisﬁes the original equation. The sum of the solutions is 12 + 20 + 60 = 92.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q14",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The average of the numbers 1, 2, 3, ..., 98, 99, and x is 100x. What is x?",
+    "answer_choices": {
+      "A": "49\n101",
+      "B": "50\n101",
+      "C": "1\n2",
+      "D": "51\n101",
+      "E": "50\n99"
+    },
+    "correct_answer": "B",
+    "solution_text": "The average of the numbers is\n1 + 2 + · · · + 99 + x\n100\n=\n99·100\n2\n+ x\n100\n= 99 · 50 + x\n100\n= 100x.\nThis equation is equivalent to 9999x = (99 · 101)x = 99 · 50, so x =\n50\n101.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q15",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "On a 50-question multiple choice math contest, students receive 4 points for a correct answer,\n0 points for an answer left blank, and -1 point for an incorrect answer. Jesse’s total score on the\ncontest was 99. What is the maximum number of questions that Jesse could have answered\ncorrectly?",
+    "answer_choices": {
+      "A": "25",
+      "B": "27",
+      "C": "29",
+      "D": "31",
+      "E": "33"
+    },
+    "correct_answer": "C",
+    "solution_text": "If Jesse answered R questions correctly and W questions incor-\nrectly, then R + W ≤50, and Jesse’s score is 99 = 4R −W ≥4R −(50 −R) =\n5R −50. Thus 5R ≤149, and because R is an integer, R ≤29, Jesse could\nachieve a score of 99 by answering 29 questions correctly and 17 incorrectly,\nleaving 4 answers blank.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q16",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A square of side length 1 and a circle of radius\n√\n3/3 share the same center. What is the area\ninside the circle, but outside the square?",
+    "answer_choices": {
+      "A": "π\n3 −1",
+      "B": "2π\n9 −\n√\n3\n3",
+      "C": "π\n18",
+      "D": "1\n4",
+      "E": "2π/9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let O be the common center of the circle and the square. Let\nM be the midpoint of a side of the square and P and Q be the vertices of the\nsquare on the side containing M. Since\nOM 2 =\n\u001f1\n2\n\u001e2\n<\n\u001d√\n3\n3\n\u001c2\n<\n\u001d√\n2\n2\n\u001c2\n= OP 2 = OQ2,\nthe midpoint of each side is inside the circle and the vertices of the square are\noutside the circle. Therefore the circle intersects the square in two points along\neach side.\nP\nQ\nM\nO\nA\nB\nLet A and B be the intersection points of the circle with PQ. Then M is also the\nmidpoint of AB and △OMA is a right triangle. By the Pythagorean Theorem\nAM =\n1\n2\n√\n3, so △OMA is a 30 – 60 – 90◦right triangle. Then ∠AOB = 60◦, and\n2010-Solutions-AMC10B.indd   4\n1/4/2010   11:57:48 AM\n\nSolutions\n2010 AMC 10 B\n5\nthe area of the sector corresponding to ∠AOB is 1\n6 · π ·\n\u001f √\n3\n3\n\u001e2\n= π\n18. The area\nof △AOB is 2 · 1\n2 · 1\n2 ·\n1\n2\n√\n3 =\n√\n3\n12 . The area outside the square but inside the\ncircle is 4 · ( π\n18 −\n√\n3\n12 ) = 2π\n9 −\n√\n3\n3 .",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q17",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Every high school in the city of Euclid sent a team of 3 students to a math contest. Each partic-\nipant in the contest received a different score. Andrea’s score was the median among all stu-\ndents, and hers was the highest score on her team. Andrea’s teammates Beth and Carla placed\n37th and 64th, respectively. How many schools are in the city?",
+    "answer_choices": {
+      "A": "22",
+      "B": "23",
+      "C": "24",
+      "D": "25",
+      "E": "26"
+    },
+    "correct_answer": "B",
+    "solution_text": "If there are n schools in the city, then there are 3n contestants,\nso 3n ≥64, and n ≥22. Because Andrea received the median score and each\nstudent received a diﬀerent score, n is odd, so n ≥23. Andrea’s position is\n3n+1\n2\n, and Andrea ﬁnished ahead of Beth, so 3n+1\n2\n< 37, and 3n < 73. Because\nn is an odd integer, n ≤23. Therefore n = 23.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q18",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Positive integers a, b, and c are randomly and independently selected with replacement from the\nset {1, 2, 3, . . . , 2010}. What is the probability that abc + ab + a is divisible by 3?",
+    "answer_choices": {
+      "A": "1\n3",
+      "B": "29\n81",
+      "C": "31\n81",
+      "D": "11\n27",
+      "E": "13\n27"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let N = abc + ab + a = a(bc + b + 1). If a is divisible by 3, then\nN is divisible by 3. Note that 2010 is divisible by 3, so the probability that a is\ndivisible by 3 is 1\n3.\nIf a is not divisible by 3 then N is divisible by 3 if bc + b + 1 is divisible by 3.\nDeﬁne b0 and b1 so that b = 3b0 + b1 is an integer and b1 is equal to 0, 1, or 2.\nNote that each possible value of b1 is equally likely. Similarly deﬁne c0 and c1.\nThen\nbc + b + 1 = (3b0 + b1)(3c0 + c1) + 3b0 + b1 + 1\n= 3(3b0c0 + c0b1 + c1b0 + b0) + b1c1 + b1 + 1.\nHence bc + b + 1 is divisible by 3 if and only if b1 = 1 and c1 = 1, or b1 = 2 and\nc1 = 0. The probability of this occurrence is 1\n3 · 1\n3 + 1\n3 · 1\n3 = 2\n9.\nTherefore the requested probability is 1\n3 + 2\n3 · 2\n9 = 13\n27.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q19",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A circle with center O has area 156π. Triangle ABC is equilateral, BC is a chord on the circle,\nOA = 4\n√\n3, and point O is outside △ABC. What is the side length of △ABC?",
+    "answer_choices": {
+      "A": "2\n√\n3",
+      "B": "6",
+      "C": "4\n√\n3",
+      "D": "12",
+      "E": "18"
+    },
+    "correct_answer": "B",
+    "solution_text": "The radius of circle O is\n√\n156 > 4\n√\n3 = OA, so A is inside\nthe circle. Let s be the side length of △ABC, let D be the foot of the altitude\nfrom A, and let OE be the radius through A. This radius is perpendicular to\nBC and contains D, so OD =\n√\nOB2 −BD2 =\n\n156 −1\n4s2. If A is on DE,\nthen ∠BAC > ∠BEC > 90◦, an impossibility. Therefore A lies on OD, and\nOA = OD −AD, that is,\n4\n√\n3 =\n\n156 −1\n4s2 −\n√\n3\n2 s.\nRearranging terms and squaring both sides leads to the quadratic equation s2 +\n12s −108 = 0, and the positive solution is s = 6.\n2010-Solutions-AMC10B.indd   5\n1/4/2010   11:57:49 AM\n\nSolutions\n2010 AMC 10 B\n6\nA\nB\nC\nD\nE\nO",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q20",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Two circles lie outside regular hexagon ABCDEF. The ﬁrst is tangent to AB, and the second is\ntangent to DE. Both are tangent to lines BC and FA. What is the ratio of the area of the second\ncircle to that of the ﬁrst circle?",
+    "answer_choices": {
+      "A": "18",
+      "B": "27",
+      "C": "36",
+      "D": "81",
+      "E": "108"
+    },
+    "correct_answer": "D",
+    "solution_text": "It may be assumed that hexagon ABCDEF has side length 1.\nLet lines BC and FA intersect at G, let H and J be the midpoints of AB and\nDE, respectively, let K be the center of the second circle, and let that circle be\ntangent to line BC at L. Equilateral △ABG has side length 1, so the ﬁrst circle,\nwhich is the inscribed circle of △ABG, has radius\n√\n3\n6 . Let r be the radius of\nthe second circle. Then △GLK is a 30 – 60 – 90◦right triangle with LK = r and\n2r = GK = GH + HJ + JK =\n√\n3\n2 +\n√\n3 + r. Therefore r = 3\n√\n3\n2\n= 9(\n√\n3\n6 ). The\nratio of the radii of the two circles is 9, and the ratio of their areas is 92 = 81.\nA\nB\nC\nD\nE\nF\nG\nH\nJ\nK\nL",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q21",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "A palindrome between 1000 and 10, 000 is chosen at random. What is the probability that it is\ndivisible by 7?",
+    "answer_choices": {
+      "A": "1\n10",
+      "B": "1\n9",
+      "C": "1\n7",
+      "D": "1\n6",
+      "E": "1\n5"
+    },
+    "correct_answer": "E",
+    "solution_text": "Each four-digit palindrome has digit representation abba with\n1 ≤a ≤9 and 0 ≤b ≤9. The value of the palindrome is 1001a + 110b. Because\n1001 is divisible by 7 and 110 is not, the palindrome is divisible by 7 if and only\nif b = 0 or b = 7. Thus the requested probability is\n2\n10 = 1\n5.\n2010-Solutions-AMC10B.indd   6\n1/4/2010   11:57:49 AM\n\nSolutions\n2010 AMC 10 B\n7",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q22",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Seven distinct pieces of candy are to be distributed among three bags. The red bag and the blue\nbag must each receive at least one piece of candy; the white bag may remain empty. How many\narrangements are possible?",
+    "answer_choices": {
+      "A": "1930",
+      "B": "1931",
+      "C": "1932",
+      "D": "1933",
+      "E": "1934"
+    },
+    "correct_answer": "C",
+    "solution_text": "If there were no restrictions on the number of candies per bag,\nthen each piece of candy could be distributed in 3 ways. In this case there would\nbe 37 ways to distribute the candy. However, this counts the cases where the\nred bag or blue bag is empty.\nIf the red bag remained empty then the candy could be distributed in 27 ways.\nThe same is true for the blue bag. Both totals include the case in which all the\ncandy is put into the white bag. Hence there are 27 + 27 −1 ways to distribute\nthe candy such that either the red or blue bag is empty.\nThe number of ways to distribute the candy, subject to the given conditions, is\n37 −(27 + 27 −1) = 1932.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q23",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "The entries in a 3 × 3 array include all the digits from 1 through 9, arranged so that the entries in\nevery row and column are in increasing order. How many such arrays are there?",
+    "answer_choices": {
+      "A": "18",
+      "B": "24",
+      "C": "36",
+      "D": "42",
+      "E": "60"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let aij denote the entry in row i and column j.\nhe given\nconditions imply that a11 = 1, a33 = 9, and a22 = 4, 5, or 6. If a22 = 4, then\n{a12, a21} = {2, 3}, and the sets {a31, a32} and {a13, a23} are complementary\nsubsets of {5, 6, 7, 8}. There are\n\u001f4\n2\n\n= 6 ways to choose {a31, a32} and {a13, a23},\nand only one way to order the entries. There are 2 ways to order {a12, a21}, so\n12 arrays with a22 = 4 meet the given conditions. Similarly, the conditions are\nmet by 12 arrays with a22 = 6. If a22 = 5, then {a12, a13, a23} and {a21, a31, a32}\nare complementary subsets of {2, 3, 4, 6, 7, 8} subject to the conditions a12 < 5,\na21 < 5, a32 > 5, and a23 > 5. Thus {a12, a13, a23} ̸= {2, 3, 4} or {6, 7, 8}, so its\nelements can be chosen in\n\u001f6\n3\n\n−2 = 18 ways. Both the remaining entries and\nthe ordering of all entries are then determined, so 18 arrays with a22 = 5 meet\nthe given conditions.\nAltogether, the conditions are met by 12 + 12 + 18 = 42 arrays.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q24",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Sequences & Series",
+    "difficulty": "hard",
+    "problem_text": "A high school basketball game between the Raiders and Wildcats was tied at the end of the\nﬁrst quarter. The number of points scored by the Raiders in each of the four quarters formed an\nincreasing geometric sequence, and the number of points scored by the Wildcats in each of the\nfour quarters formed an increasing arithmetic sequence. At the end of the fourth quarter, the\nRaiders had won by one point. Neither team scored more than 100 points. What was the total\nnumber of points scored by the two teams in the ﬁrst half?",
+    "answer_choices": {
+      "A": "30",
+      "B": "31",
+      "C": "32",
+      "D": "33",
+      "E": "34"
+    },
+    "correct_answer": "E",
+    "solution_text": "The Raiders’ score was a(1 + r + r2 + r3), where a is a positive\ninteger and r > 1. Because ar is also an integer, r = m/n for relatively prime\npositive integers m and n with m > n. Moreover ar3 = a· m3\nn3 is an integer, so n3\ndivides a. Let a = n3A. Then the Raiders’ score was R = A(n3 + mn2 + m2n +\nm3), and the Wildcats’ score was R−1 = a+(a+d)+(a+2d)+(a+3d) = 4a+6d\nfor some positive integer d. Because A ≥1, the condition R ≤100 implies that\nn ≤2 and m ≤4. The only possibilities are (m, n) = (4, 1), (3, 2), (3, 1), (4, 1),\nor (2, 1). The corresponding values of R are, respectively, 85A, 65A, 40A, and\n15A. In the ﬁrst two cases A = 1, and the corresponding values of R −1 are,\nrespectively, 64 = 32+6d and 84 = 4+6d. In neither case is d an integer. In the\nthird case 40A = 40a = 4a + 6d + 1 which is impossible in integers. In the last\ncase 15a = 4a + 6d + 1, from which 11a = 6d + 1. The only solution in positive\nintegers for which 4a+6d ≤100 is (a, d) = (5, 9). Thus R = 5+10+20+40 = 75,\nR −1 = 5 + 14 + 23 + 32 = 74, and the number of points scored in the ﬁrst half\nwas 5 + 10 + 5 + 14 = 34.\n2010-Solutions-AMC10B.indd   7\n1/4/2010   11:57:49 AM\n\nSolutions\n2010 AMC 10 B\n8",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10B-Q25",
+    "year": 2010,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let a > 0, and let P(x) be a polynomial with integer coefﬁcients such that\nP(1) = P(3) = P(5) = P(7) = a, and\nP(2) = P(4) = P(6) = P(8) = −a.\nWhat is the smallest possible value of a?",
+    "answer_choices": {
+      "A": "105",
+      "B": "315",
+      "C": "945",
+      "D": "7!",
+      "E": "8!\n–"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because 1, 3, 5, and 7 are roots of the polynomial P(x) −a, it\nfollows that\nP(x) −a = (x −1)(x −3)(x −5)(x −7)Q(x),\nwhere Q(x) is a polynomial with integer coeﬃcients. The previous identity must\nhold for x = 2, 4, 6, and 8, thus\n−2a = −15Q(2) = 9Q(4) = −15Q(6) = 105Q(8).\nTherefore 315 = lcm(15, 9, 105) divides a, that is a is an integer multiple of\n315.\nLet a = 315A.\nBecause Q(2) = Q(6) = 42A, it follows that Q(x) −\n42A = (x −2)(x −6)R(x) where R(x) is a polynomial with integer coeﬃcients.\nBecause Q(4) = −70A and Q(8) = −6A it follows that −112A = −4R(4) and\n−48A = 12R(8), that is R(4) = 28A and R(8) = −4A. Thus R(x) = 28A +\n(x−4)(−6A+(x−8)T(x)) where T(x) is a polynomial with integer coeﬃcients.\nMoreover, for any polynomial T(x) and any integer A, the polynomial P(x)\nconstructed this way satisﬁes the required conditions. The required minimum\nis obtained when A = 1 and so a = 315.\n2010-Solutions-AMC10B.indd   8\n1/4/2010   11:57:49 AM\n\nThe problems and solutions in this contest were proposed by Bernardo Abrego,\nBetsy Bennett, Steven Blasberg, Steven Davis, Steven Dunbar, Douglas Faires, Michelle\nGhrist, Jerrold Grossman, Joe Kennedy, Leon La Spina, Raymond Scacalossi, William\nWardlaw, David Wells, LeRoy Wenstrom, Woody Wenstrom and Ron Yannone.\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCasualty Actuarial Society\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nMathPath\nMath Zoom Academy\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.\n2010-Solutions-AMC10B.indd   9\n1/4/2010   11:57:49 AM",
+    "has_image": false
+  }
+]

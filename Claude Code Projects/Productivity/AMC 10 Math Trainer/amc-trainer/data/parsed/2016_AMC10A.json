@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2016-AMC10A-Q01",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of 11! −10!\n9!\n?",
+    "answer_choices": {
+      "A": "99",
+      "B": "100",
+      "C": "110",
+      "D": "121",
+      "E": "132"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q02",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For what value of x does 10^{x} · 100^{2x} = 1000^{5}?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q03",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For every dollar Ben spent on bagels, David spent 25 cents less. Ben paid $12.50 more than\nDavid. How much did they spend in the bagel store together?",
+    "answer_choices": {
+      "A": "$37.50",
+      "B": "$50.00",
+      "C": "$87.50",
+      "D": "$90.00",
+      "E": "$92.50"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q04",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The remainder can be deﬁned for all real numbers x and y with y ̸= 0 by\nrem(x, y) = x −y\nx\ny\nwhere\nj\nx\ny\nk\ndenotes the greatest integer less than or equal to x\ny. What is the value of rem(3\n8, −2\n5)?",
+    "answer_choices": {
+      "A": "−3\n8",
+      "B": "−1\n40",
+      "C": "0",
+      "D": "3\n8",
+      "E": "31\n40"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q05",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "A rectangular box has integer side lengths in the ratio 1 : 3 : 4. Which of the following could be\nthe volume of the box?",
+    "answer_choices": {
+      "A": "48",
+      "B": "56",
+      "C": "64",
+      "D": "96",
+      "E": "144"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q06",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "Ximena lists the whole numbers 1 through 30 once. Emilio copies Ximena’s numbers, replacing\neach occurrence of the digit 2 by the digit 1. Ximena adds her numbers and Emilio adds his\nnumbers. How much larger is Ximena’s sum than Emilio’s?",
+    "answer_choices": {
+      "A": "13",
+      "B": "26",
+      "C": "102",
+      "D": "103",
+      "E": "110"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q07",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The mean, median, and mode of the 7 data values 60, 100, x, 40, 50, 200, 90 are all equal to x.\nWhat is the value of x?",
+    "answer_choices": {
+      "A": "50",
+      "B": "60",
+      "C": "75",
+      "D": "90",
+      "E": "100"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q08",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Trickster Rabbit agrees with Foolish Fox to double Fox’s money every time Fox crosses the\nbridge by Rabbit’s house, as long as Fox pays 40 coins in toll to Rabbit after each crossing. The\npayment is made after the doubling, Fox is excited about his good fortune until he discovers\nthat all his money is gone after crossing the bridge three times. How many coins did Fox have\nat the beginning?",
+    "answer_choices": {
+      "A": "20",
+      "B": "30",
+      "C": "35",
+      "D": "40",
+      "E": "45"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q09",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "A triangular array of 2016 coins has 1 coin in the ﬁrst row, 2 coins in the second row, 3 coins in\nthe third row, and so on up to N coins in the Nth row. What is the sum of the digits of N?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q10",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A rug is made with three different colors as shown. The areas of the three differently colored\nregions form an arithmetic progression. The inner rectangle is one foot wide, and each of the two\nshaded regions is 1 foot wide on all four sides. What is the length in feet of the inner rectangle?\n1\n1\n1\n1\n1",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2016-AMC10A-Q11",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "What is the area of the shaded region of the given 8 × 5 rectangle?\n\n1\n7\n1\n4\n1\n7\n1\n4",
+    "answer_choices": {
+      "A": "43\n5",
+      "B": "5",
+      "C": "51\n4",
+      "D": "61\n2",
+      "E": "8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q12",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Three distinct integers are selected at random between 1 and 2016, inclusive. Which of the fol-\nlowing is a correct statement about the probability p that the product of the three integers is\nodd?",
+    "answer_choices": {
+      "A": "p < 1\n8",
+      "B": "p = 1\n8",
+      "C": "1\n8 < p < 1\n3",
+      "D": "p = 1\n3",
+      "E": "p > 1\n3"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q13",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Five friends sat in a movie theater in a row containing 5 seats, numbered 1 to 5 from left to right.\n(The directions ”left” and ”right” are from the point of view of the people as they sit in the seats.)\nDuring the movie Ada went to the lobby to get some popcorn. When she returned, she found\nthat Bea had moved two seats to the right, Ceci had moved one seat to the left, and Dee and\nEdie had switched seats, leaving an end seat for Ada. In which seat had Ada been sitting before\nshe got up?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q14",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many ways are there to write 2016 as the sum of twos and threes, ignoring order? (For\nexample, 1008 · 2 + 0 · 3 and 402 · 2 + 404 · 3 are two such ways.)",
+    "answer_choices": {
+      "A": "236",
+      "B": "336",
+      "C": "337",
+      "D": "403",
+      "E": "672"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q15",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Seven cookies of radius 1 inch are cut from a circle of cookie dough, as shown. Neighboring\ncookies are tangent, and all except the center cookie are tangent to the edge of the dough. The\nleftover scrap is reshaped to form another cookie of the same thickness. What is the radius in\ninches of the scrap cookie?",
+    "answer_choices": {
+      "A": "√\n2",
+      "B": "1.5",
+      "C": "√π",
+      "D": "√\n2π",
+      "E": "π"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2016-AMC10A-Q16",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A triangle with vertices A(0, 2), B(−3, 2), and C(−3, 0) is reﬂected about the x-axis, then the im-\nage △A^{′}B^{′}C^{′} is rotated counterclockwise about the origin by 90^{◦}to produce △A^{′′}B^{′′}C^{′′}. Which\nof the following transformations will return △A^{′′}B^{′′}C^{′′} to △ABC?",
+    "answer_choices": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18",
+      "E": "20"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q18",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Each vertex of a cube is to be labeled with an integer 1 through 8, with each integer being used\nonce, in such a way that the sum of the four numbers on the vertices of a face is the same for\neach face. Arrangements that can be obtained from each other through rotations of the cube\nare considered to be the same. How many different arrangements are possible?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "6",
+      "D": "12",
+      "E": "24"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q19",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In rectangle ABCD, AB = 6 and BC = 3. Point E between B and C, and point F between E and\nC are such that BE = EF = FC. Segments AE and AF intersect BD at P and Q, respectively.\nThe ratio BP : PQ : QD can be written as r : s : t, where the greatest common factor of r, s\nand t is 1. What is r + s + t?",
+    "answer_choices": {
+      "A": "7",
+      "B": "9",
+      "C": "12",
+      "D": "15",
+      "E": "20"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q20",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "For some particular value of N, when (a+b+c+d+1)^{N} is expanded and like terms are combined,\nthe resulting expression contains exactly 1001 terms that include all four variables a, b, c, and d,\neach to some positive power. What is N?",
+    "answer_choices": {
+      "A": "9",
+      "B": "14",
+      "C": "16",
+      "D": "17",
+      "E": "19"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q21",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Circles with centers P, Q and R, having radii 1, 2 and 3, respectively, lie on the same side of line\nl and are tangent to l at P ′, Q^{′} and R^{′}, respectively, with Q^{′} between P ′ and R^{′}. The circle with\ncenter Q is externally tangent to each of the other two circles. What is the area of triangle PQR?",
+    "answer_choices": {
+      "A": "0",
+      "B": "q\n2\n3",
+      "C": "1",
+      "D": "√\n6 −\n√\n2",
+      "E": ""
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q22",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For some positive integer n, the number 110n^{3} has 110 positive integer divisors, including 1 and\nthe number 110n^{3}. How many positive integer divisors does the number 81n^{4} have?",
+    "answer_choices": {
+      "A": "110",
+      "B": "191",
+      "C": "261",
+      "D": "325",
+      "E": "425"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q23",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "A binary operation ♢has the properties that a ♢(b ♢c) = (a ♢b) · c and that a ♢a = 1 for all\nnonzero real numbers a, b, and c. (Here · represents multiplication). The solution to the equation\n2016 ♢(6 ♢x) = 100 can be written as p\nq, where p and q are relatively prime positive integers.\nWhat is p + q?",
+    "answer_choices": {
+      "A": "109",
+      "B": "201",
+      "C": "301",
+      "D": "3049",
+      "E": "33, 601"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q24",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A quadrilateral is inscribed in a circle of radius 200\n√\n2. Three of the sides of this quadrilateral\nhave length 200. What is the length of the fourth side?",
+    "answer_choices": {
+      "A": "200",
+      "B": "200\n√\n2",
+      "C": "200\n√\n3",
+      "D": "300\n√\n2",
+      "E": "500"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2016-AMC10A-Q25",
+    "year": 2016,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many ordered triples (x, y, z) of positive integers satisfy lcm(x, y) = 72, lcm(x, z) = 600\nand lcm(y, z) = 900?",
+    "answer_choices": {
+      "A": "15",
+      "B": "16",
+      "C": "24",
+      "D": "27",
+      "E": "64"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

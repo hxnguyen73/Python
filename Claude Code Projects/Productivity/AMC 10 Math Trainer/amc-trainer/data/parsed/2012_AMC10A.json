@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2012-AMC10A-Q01",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Cagney can frost a cupcake every 20 seconds and Lacey can frost a cupcake every 30 seconds.\nWorking together, how many cupcakes can they frost in 5 minutes?",
+    "answer_choices": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "25",
+      "E": "30"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because 20 seconds is 1\n3 of a minute, Cagney can frost 5÷ 1\n3 = 15\ncupcakes in ﬁve minutes. Because 30 seconds is 1\n2 of a minute, Lacey can frost\n5 ÷ 1\n2 = 10 cupcakes in ﬁve minutes. Altogether they can frost 15 + 10 = 25\ncupcakes in ﬁve minutes.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q02",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A square with side length 8 is cut in half, creating two congruent rectangles. What are the di-\nmensions of one of these rectangles?",
+    "answer_choices": {
+      "A": "2 by 4",
+      "B": "2 by 6",
+      "C": "2 by 8",
+      "D": "4 by 4",
+      "E": "4 by 8"
+    },
+    "correct_answer": "E",
+    "solution_text": "The length of each rectangle is equal to the side length of the\nsquare. The width of each rectangle is half the side length of the square, so the\nrectangle’s dimensions are 4 by 8.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q03",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "A bug crawls along a number line, starting at −2. It crawls to −6, then turns around and crawls\nto 5. How many units does the bug crawl altogether?",
+    "answer_choices": {
+      "A": "9",
+      "B": "11",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": "E",
+    "solution_text": "The distance from −2 to −6 is |(−6) −(−2)| = 4 units. The\ndistance from −6 to 5 is |5 −(−6)| = 11 units.\nAltogether the bug crawls\n4 + 11 = 15 units.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q04",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Let ∠ABC = 24^{◦}and ∠ABD = 20^{◦}. What is the smallest possible degree measure for ∠CBD?",
+    "answer_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Ray AB is common to both angles, so the degree measure of\n∠CBD is either 24 + 20 = 44 or 24 −20 = 4. The smallest possible degree\nmeasure is 4.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q05",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Last year 100 adult cats, half of whom were female, were brought into the Smallville Animal Shel-\nter. Half of the adult female cats were accompanied by a litter of kittens. The average number\nof kittens per litter was 4. What was the total number of cats and kittens received by the shelter\nlast year?",
+    "answer_choices": {
+      "A": "150",
+      "B": "200",
+      "C": "250",
+      "D": "300",
+      "E": "400"
+    },
+    "correct_answer": "B",
+    "solution_text": "The number of female adult cats was 50, and 25 of those were\naccompanied by an average of 4 kittens each. Thus the total number of kittens\nwas 25 · 4 = 100, and the total number of cats and kittens was 100 + 100 = 200.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q06",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The product of two positive numbers is 9. The reciprocal of one of these numbers is 4 times the\nreciprocal of the other number. What is the sum of the two numbers?",
+    "answer_choices": {
+      "A": "10\n3",
+      "B": "20\n3",
+      "C": "7",
+      "D": "15\n2",
+      "E": "8"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x > 0 be the ﬁrst number, and let y > 0 be the second\nnumber. The ﬁrst statement implies xy = 9. The second statement implies\n1\nx = 4\ny, so y = 4x. Substitution yields x · (4x) = 9, so x =\n\n9\n4 = 3\n2. Therefore\nx + y = 3\n2 + 4 · 3\n2 = 15\n2 .",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q07",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "In a bag of marbles, 3\n5 of the marbles are blue and the rest are red. If the number of red marbles\nis doubled and the number of blue marbles stays the same, what fraction of the marbles will be\nred?",
+    "answer_choices": {
+      "A": "2\n5",
+      "B": "3\n7",
+      "C": "4\n7",
+      "D": "3\n5",
+      "E": "4\n5"
+    },
+    "correct_answer": "C",
+    "solution_text": "The ratio of blue marbles to red marbles is 3 : 2. If the number\nof red marbles is doubled, the ratio will be 3 : 4, and the fraction of marbles\nthat are red will be\n4\n3+4 = 4\n7.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q08",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The sums of three whole numbers taken in pairs are 12, 17, and 19. What is the middle number?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the three whole numbers be a < b < c. The set of sums of\npairs of these numbers is (a + b, a + c, b + c) = (12, 17, 19). Thus 2(a + b + c) =\n(a + b) + (a + c) + (b + c) = 12 + 17 + 19 = 48, and a + b + c = 24. If follows that\n(a, b, c) = (24 −19, 24 −17, 24 −12) = (5, 7, 12). Therefore the middle number\nis 7.\n2012-Solutions-AMC10A.indd   2\n11/11/2011   9:50:35 AM\n\n2012 AMC10A Solutions\n3",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q09",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "A pair of six-sided fair dice are labeled so that one die has only even numbers (two each of 2,\n4, and 6), and the other die has only odd numbers (two each of 1, 3, and 5). The pair of dice is\nrolled. What is the probability that the sum of the numbers on top of the two dice is 7?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n5",
+      "C": "1\n4",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The sum could be 7 only if the even die showed 2 and the odd\nshowed 5, the even showed 4 and the odd showed 3, or the even showed 6 and\nthe odd showed 1. Each of these events can occur in 2·2 = 4 ways. Hence there\nare 12 ways for a 7 to occur. There are 6 · 6 = 36 possible outcomes, so the\nprobability that a 7 occurs is 12\n36 = 1\n3.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q10",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Mary divides a circle into 12 sectors. The central angles of these sectors, measured in degrees,\nare all integers and they form an arithmetic sequence. What is the degree measure of the small-\nest possible sector angle?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "10",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let a be the initial term and d the common diﬀerence for the\narithmetic sequence. Then the sum of the degree measures of the central angles\nis\na + (a + d) + · · · + (a + 11d) = 12a + 66d = 360,\nso 2a + 11d = 60. Letting d = 4 yields the smallest possible positive integer\nvalue for a, namely a = 8.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q11",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Externally tangent circles with centers at points A and B have radii of lengths 5 and 3, respec-\ntively. A line externally tangent to both circles intersects ray AB at point C. What is BC?",
+    "answer_choices": {
+      "A": "4",
+      "B": "4.8",
+      "C": "10.2",
+      "D": "12",
+      "E": "14.4"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let D and E be the points of tangency to circles A and B,\nrespectively, of the common tangent line that intersects ray AB at point C.\nThen AD = 5, BE = 3, and AB = 5 + 3 = 8. Because right triangles ADC and\nBEC are similar, it follows that\nBC\nAC = BE\nAD,\nso\nBC\nBC + 8 = 3\n5.\nSolving gives BC = 12.\nD\nE\nC\n5\n3\nB\nA\n8\n2012-Solutions-AMC10A.indd   3\n11/11/2011   9:50:35 AM\n\n2012 AMC10A Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q12",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A year is a leap year if and only if the year number is divisible by 400 (such as 2000) or is divisible\nby 4 but not by 100 (such as 2012). The 200th anniversary of the birth of novelist Charles Dickens\nwas celebrated on February 7, 2012, a Tuesday. On what day of the week was Dickens born?",
+    "answer_choices": {
+      "A": "Friday",
+      "B": "Saturday",
+      "C": "Sunday",
+      "D": "Monday",
+      "E": "Tuesday"
+    },
+    "correct_answer": "A",
+    "solution_text": "There were 200·365 = 73000 non-leap days in the 200-year time\nperiod from February 7, 1812 to February 7, 2012. One fourth of those years\ncontained a leap day, except for 1900, so there were 1\n4 · 200 −1 = 49 leap days\nduring that time. Therefore Dickens was born 73049 days before a Tuesday.\nBecause the same day of the week occurs every 7 days and 73049 = 7·10435+4,\nthe day of Dickens’ birth (February 7, 1812) was 4 days before a Tuesday, which\nwas a Friday.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q13",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "An iterative average of the numbers 1, 2, 3, 4, and 5 is computed in the following way. Arrange\nthe ﬁve numbers in some order. Find the mean of the ﬁrst two numbers, then ﬁnd the mean of\nthat with the third number, then the mean of that with the fourth number, and ﬁnally the mean\nof that with the ﬁfth number. What is the difference between the largest and smallest possible\nvalues that can be obtained using this procedure?",
+    "answer_choices": {
+      "A": "31\n16",
+      "B": "2",
+      "C": "17\n8",
+      "D": "3",
+      "E": "65"
+    },
+    "correct_answer": "C",
+    "solution_text": "If the numbers are arranged in the order a, b, c, d, e, then the\niterative average is\na+b\n2\n+c\n2\n+d\n2\n+ e\n2\n= a + b + 2c + 4d + 8e\n16\n.\nThe largest value is obtained by letting (a, b, c, d, e) = (1, 2, 3, 4, 5) or (2, 1, 3, 4, 5),\nand the smallest value is obtained by letting (a, b, c, d, e) = (5, 4, 3, 2, 1) or\n(4, 5, 3, 2, 1). In the former case the iterative average is 65/16, and in the latter\ncase the iterative average is 31/16, so the desired diﬀerence is\n65\n16 −31\n16 = 34\n16 = 17\n8 .",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q14",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Chubby makes nonstandard checkerboards that have 31 squares on each side. The checker-\nboards have a black square in every corner and alternate red and black squares along every row\nand column. How many black squares are there on such a checkerboard?",
+    "answer_choices": {
+      "A": "480",
+      "B": "481",
+      "C": "482",
+      "D": "483",
+      "E": "484"
+    },
+    "correct_answer": "B",
+    "solution_text": "Separate the modiﬁed checkerboard into two parts: the ﬁrst 30\ncolumns and the last column. The larger section consists of rows, each containing\n15 black squares. The last column contains 16 black squares. Thus the total\nnumber of black squares is 31 · 15 + 16 = 481.\nOR\nThere are 16 rows that have 16 black squares and 15 rows that have 15 black\nsquares, so the total number of black squares is 162 + 152 = 481.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q15",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Three unit squares and two line segments connecting two pairs of vertices are shown. What is\nthe area of △ABC?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n5",
+      "C": "2\n9",
+      "D": "1\n3",
+      "E": "√\n2\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Place the ﬁgure on the coordinate plane with A at the origin, B\non the positive x-axis, and label the other points as shown. Then the equation\nof line AE is y = −1\n2x, and the equation of line BF is y = 2x −2. Solving the\nsimultaneous equations shows that C = ( 4\n5, −2\n5). Therefore △ABC has base\nAB = 1 and altitude 2\n5, so its area is 1\n5.\n2012-Solutions-AMC10A.indd   4\n11/11/2011   9:50:35 AM\n\n2012 AMC10A Solutions\n5\nA\nC\nB\nF\nD\nE\nOR\nCongruent right triangles AED and FBA have the property that their cor-\nresponding legs are perpendicular; hence their hypotenuses are perpendicular.\nTherefore ∠ACB is a right angle and △ACB is similar to △FAB. Because\nAB = 1 and BF =\n√\n5, the ratio of the area of △ACB to that of △FAB is 1\nto 5. The area of △FAB is 1, so the area of △ACB is 1\n5.",
+    "has_image": true
+  },
+  {
+    "id": "2012-AMC10A-Q16",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Three runners start running simultaneously from the same point on a 500-meter circular track.\nThey each run clockwise around the course maintaining constant speeds of 4.4, 4.8, and 5.0\nmeters per second. The runners stop once they are all together again somewhere on the circular\ncourse. How many seconds do the runners run?",
+    "answer_choices": {
+      "A": "1, 000",
+      "B": "1, 250",
+      "C": "2, 500",
+      "D": "5, 000",
+      "E": "10, 000"
+    },
+    "correct_answer": "C",
+    "solution_text": "Label the runners A, B, and C in increasing order of speed.\nAfter the start, runner B and runner C will be together again once runner C has\nrun an extra 500 meters. Hence it takes\n500\n5.0−4.8 = 2500 seconds for runners B\nand C to be together again. Similarly, it takes\n500\n4.8−4.4 = 1250 seconds for runner\nA and runner B to be together again. Runners A and B will also be together\nat 2 · 1250 = 2500 seconds, at which time all three runners will be together.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q17",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let a and b be relatively prime integers with a > b > 0 and a^{3}−b^{3}\n(a−b)^{3} = 73\n3 . What is a −b?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that\na3 −b3\n(a −b)3 = a2 + ab + b2\na2 −2ab + b2 .\nHence the given equation may be written as 3a2+3ab+3b2 = 73a2−146ab+73b2.\nCombining like terms and factoring gives (10a−7b)(7a−10b) = 0. Because a > b,\nand a and b are relatively prime, a = 10 and b = 7. Thus a −b = 3.\n2012-Solutions-AMC10A.indd   5\n11/11/2011   9:50:35 AM\n\n2012 AMC10A Solutions\n6",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q18",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "The closed curve in the ﬁgure is made up of 9 congruent circular arcs each of length 2π\n3 , where\neach of the centers of the corresponding circles is among the vertices of a regular hexagon of\nside 2. What is the area enclosed by the curve?\n\n◦\n◦\n◦\n◦\n◦\n◦",
+    "answer_choices": {
+      "A": "2π + 6",
+      "B": "2π + 4\n√\n3",
+      "C": "3π + 4",
+      "D": "2π + 3\n√\n3 + 2",
+      "E": "π + 6\n√\n3"
+    },
+    "correct_answer": "E",
+    "solution_text": "The labeled circular sectors in the ﬁgure each have the same\narea because they are all 2π\n3 -sectors of a circle of radius 1. Therefore the area\nenclosed by the curve is equal to the area of a circle of radius 1 plus the area\nof a regular hexagon of side 2. Because the regular hexagon can be partitioned\ninto 6 congruent equilateral triangles of side 2, it follows that the required area\nis\nπ + 6\n\u001f√\n3\n4 · 22\n\n= π + 6\n√\n3 .",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q19",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Paula the painter and her two helpers each paint at constant, but different, rates. They always\nstart at 8:00 AM, and all three always take the same amount of time to eat lunch. On Monday\nthe three of them painted 50% of a house, quitting at 4:00 PM. On Tuesday, when Paula wasn’t\nthere, the two helpers painted only 24% of the house and quit at 2:12 PM. On Wednesday Paula\nworked by herself and ﬁnished the house by working until 7:12 PM. How long, in minutes, was\neach day’s lunch break?",
+    "answer_choices": {
+      "A": "30",
+      "B": "36",
+      "C": "42",
+      "D": "48",
+      "E": "60"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the length of the lunch break be m minutes. Then the\nthree painters each worked 480−m minutes on Monday, the two helpers worked\n372−m minutes on Tuesday, and Paula worked 672−m minutes on Wednesday.\nIf Paula paints p% of the house per minute and her helpers paint a total of h%\nof the house per minute, then\n(p + h)(480 −m) = 50,\nh(372 −m) = 24, and\np(672 −m) = 26.\nAdding the last two equations gives 672p+372h−mp−mh = 50, and subtracting\nthis equation from the ﬁrst one gives 108h −192p = 0, so h = 16p\n9 . Substitution\ninto the ﬁrst equation then leads to the system\n25p\n9 (480 −m) = 50,\np(672 −m) = 26.\nThe solution of this system is p =\n1\n24 and m = 48. Note that h =\n2\n27.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q20",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "A 3×3 square is partitioned into 9 unit squares. Each unit square is painted either white or black\nwith each color being equally likely, chosen independently and at random. The square is the\nrotated 90^{◦}clockwise about its center, and every white square in a position formerly occupied\nby a black square is painted black. The colors of all other squares are left unchanged. What is\nthe probability that the grid is now entirely black?",
+    "answer_choices": {
+      "A": "49\n512",
+      "B": "7\n64",
+      "C": "121\n1024",
+      "D": "81\n512",
+      "E": "9\n32"
+    },
+    "correct_answer": "A",
+    "solution_text": "There are 24 = 16 possible initial colorings for the four corner\nsquares. If their initial coloring is BBBB, one of the four cyclic permutations of\nBBBW, or one of the two cyclic permutations of BWBW, then all four corner\nsquares are black at the end. If the initial coloring is WWWW, one of the\nfour cyclic permutations of BWWW, or one of the four cyclic permutations of\n2012-Solutions-AMC10A.indd   6\n11/11/2011   9:50:35 AM\n\n2012 AMC10A Solutions\n7\nBBWW, then at least one corner square is white at the end. Hence all four\ncorner squares are black at the end with probability\n7\n16. Similarly, all four edge\nsquares are black at the end with probability\n7\n16. The center square is black\nat the end if and only if it was initially black, so it is black at the end with\nprobability\n1\n2.\nThe probability that all nine squares are black at the end is\n1\n2 ·\n\u001f 7\n16\n\u001e2 =\n49\n512.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q21",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let points A = (0, 0, 0), B = (1, 0, 0), C = (0, 2, 0), and D = (0, 0, 3). Points E, F, G, and H are\nmidpoints of line segments BD, AB, AC, and DC respectively. What is the area of EFGH?",
+    "answer_choices": {
+      "A": "√\n2",
+      "B": "2\n√\n5\n3",
+      "C": "3\n√\n5\n4",
+      "D": "√\n3",
+      "E": "2\n√\n7\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "The midpoint formula gives E = ( 1\n2, 0, 3\n2), F = ( 1\n2, 0, 0), G =\n(0, 1, 0), and H = (0, 1, 3\n2). Note that EF = GH = 3\n2, EF ⊥EH, GF ⊥GH,\nand\nEH = FG =\n\u001d\u001c1\n2\n\u001b2\n+ 12 =\n√\n5\n2 .\nTherefore EFGH is a rectangle with area 3\n2 ·\n√\n5\n2 = 3\n√\n5\n4 .\nA\nB\nC\nD\nE\nF\nG\nH",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q22",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "The sum of the ﬁrst m positive odd integers is 212 more than the sum of the ﬁrst n positive even\nintegers. What is the sum of all possible values of n?",
+    "answer_choices": {
+      "A": "255",
+      "B": "256",
+      "C": "257",
+      "D": "258",
+      "E": "259"
+    },
+    "correct_answer": "A",
+    "solution_text": "The sum of the ﬁrst k positive integers is k(k+1)\n2\n. Therefore the\nsum of the ﬁrst k even integers is\n2 + 4 + 6 + · · · + 2k = 2(1 + 2 + 3 + · · · + k) = 2 · k(k + 1)\n2\n= k(k + 1).\nThe sum of the ﬁrst k odd integers is\n(1 + 2 + 3 + · · · + 2k) −(2 + 4 + 6 + · · · + 2k) = 2k(2k + 1)\n2\n−k(k + 1) = k2.\nThe given conditions imply that m2 −212 = n(n + 1), which may be rewritten\nas n2 + n + (212 −m2) = 0. The discriminant for n in this quadratic equation is\n1−4(212−m2) = 4m2 −847, and this must be the square of an odd integer. Let\np2 = 4m2 −847, and rearrange this equation so that (2m + p)(2m −p) = 847.\n2012-Solutions-AMC10A.indd   7\n11/11/2011   9:50:35 AM\n\n2012 AMC10A Solutions\n8\nThe only factor pairs for 847 are 847·1, 121·7, and 77·11. Equating these pairs\nto 2m + p and 2m −p yields (m, p) = (212, 423), (32, 57), and (22, 33). Note\nthat the corresponding values of n are found using n = −1+p\n2\n, which yields 211,\n28, and 16, respectively. The sum of the possible values of n is 255.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q23",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Adam, Benin, Chiang, Deshawn, Esther, and Fiona have internet accounts. Some, but not all, of\n\nthem are internet friends with each other, and none of them has an internet friend outside this\ngroup. Each of them has the same number of internet friends. In how many different ways can\nthis happen?",
+    "answer_choices": {
+      "A": "60",
+      "B": "170",
+      "C": "290",
+      "D": "320",
+      "E": "660"
+    },
+    "correct_answer": "B",
+    "solution_text": "This situation can be modeled with a graph having these six\npeople as vertices, in which two vertices are joined by an edge if and only if the\ncorresponding people are internet friends. Let n be the number of friends each\nperson has; then 1 ≤n ≤4. If n = 1, then the graph consists of three edges\nsharing no endpoints. There are 5 choices for Adam’s friend and then 3 ways to\npartition the remaining 4 people into 2 pairs of friends, for a total of 5 · 3 = 15\npossibilities. The case n = 4 is complementary, with non-friendship playing the\nrole of friendship, so there are 15 possibilities in that case as well.\nFor n = 2, the graph must consist of cycles, and the only two choices are\ntwo triangles (3-cycles) and a hexagon (6-cycle).\nIn the former case, there\nare\n\u001f5\n2\n\n= 10 ways to choose two friends for Adam and that choice uniquely\ndetermines the triangles. In the latter case, every permutation of the six vertices\ndetermines a hexagon, but each hexagon is counted 6·2 = 12 times, because the\nhexagon can start at any vertex and be traversed in either direction. This gives\n6!\n12 = 60 hexagons, for a total of 10 + 60 = 70 possibilities. The complementary\ncase n = 3 provides 70 more. The total is therefore 15 + 15 + 70 + 70 = 170.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q24",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let a, b, and c be positive integers with a ≥b ≥c such that\na^{2} −b^{2} −c^{2} + ab = 2011 and\na^{2} + 3b^{2} + 3c^{2} −3ab −2ac −2bc = −1997\nWhat is a?",
+    "answer_choices": {
+      "A": "249",
+      "B": "250",
+      "C": "251",
+      "D": "252",
+      "E": "253"
+    },
+    "correct_answer": "E",
+    "solution_text": "Adding the two equations gives\n2a2 + 2b2 + 2c2 −2ab −2bc −2ac = 14,\nso\n(a −b)2 + (b −c)2 + (c −a)2 = 14.\nNote that there is a unique way to express 14 as the sum of perfect squares\n(up to permutations), namely, 14 = 32 + 22 + 12. Because a −b, b −c, and\nc −a are integers with their sum equal to 0 and a ≥b ≥c, it follows that\na −c = 3 and either a −b = 2 and b −c = 1, or a −b = 1 and b −c =\n2.\nTherefore either (a, b, c) = (c + 3, c + 1, c) or (a, b, c) = (c + 3, c + 2, c).\nSubstituting the relations in the ﬁrst case into the ﬁrst given equation yields\n2011 = a2 −c2 + ab −b2 = (a −c)(a + c) + (a −b)b = 3(2c + 3) + 2(c + 1).\nSolving gives (a, b, c) = (253, 251, 250). The second case does not yield an integer\nsolution. Therefore a = 253.\n2012-Solutions-AMC10A.indd   8\n11/11/2011   9:50:35 AM\n\n012 AMC10A Solutions\n9",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10A-Q25",
+    "year": 2012,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Real numbers x, y, and z are chosen independently and at random from the interval [0, n] for\nsome positive integer n. The probability that no two of x, y, and z are within 1 unit of each other\nis greater than 1\n2. What is the smallest possible value of n?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11\n–"
+    },
+    "correct_answer": "D",
+    "solution_text": "It may be assumed that x ≤y ≤z. Because there are six possible\nways of permuting the triple (x, y, z), it follows that the set of all triples (x, y, z)\nwith 0 ≤x ≤y ≤z ≤n is a region whose volume is 1\n6 of the volume of the cube\n[0, n]3, that is 1\n6n3. Let S be the set of triples meeting the required condition. For\nevery (x, y, z) ∈S consider the translation (x, y, z) \u001d→(x′, y′, z′) = (x, y −1, z −\n2). Note that y′ = y −1 > x = x′ and z′ = z −2 > y −1 = y′. Thus the image\nof S under this translation is equal to {(x′, y′, z′) : 0 ≤x′ < y′ < z′ ≤n −2}.\nAgain by symmetry of the possible permutations of the triples (x′, y′, z′), the\nvolume of this set is 1\n6(n −2)3. Because 73\n93 = 343\n729 < 1\n2 and\n83\n103 =\n512\n1000 > 1\n2, the\nsmallest possible value of n is 10.\n2012-Solutions-AMC10A.indd   9\n11/11/2011   9:50:35 AM\n\nThe\nAmerican Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCasualty Actuarial Society\nD.E. Shaw & Co.\nIDEA Math\nJane Street\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nW. H. Freeman and Company\nThe problems and solutions in this contest were proposed by Bernardo Abrego,\nBetsy Bennett, Steve Dunbar, Michelle Ghrist, Peter Gilchrist, Jerrold Grossman,\nDan Kennedy, Joe Kennedy, David Torney, David Wells, LeRoy Wenstrom, and Ron\nYannone.\n2012-Solutions-AMC10A.indd   10\n11/11/2011   9:50:35 AM",
+    "has_image": false
+  }
+]

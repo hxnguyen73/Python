@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2003-AMC10B-Q01",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Which of the following is the same as\n2 − 4 + 6 − 8 + 10 − 12 + 14\n3 − 6 + 9 − 12 + 15 − 18 + 21\n?",
+    "answer_choices": {
+      "A": "−1",
+      "B": "−2\n3",
+      "C": "2\n3",
+      "D": "1",
+      "E": "14\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "We have\n(2 − 4 + 6 − 8 + 10 − 12 + 14) / (3 − 6 + 9 − 12 + 15 − 18 + 21)\n= 2(1 − 2 + 3 − 4 + 5 − 6 + 7) / 3(1 − 2 + 3 − 4 + 5 − 6 + 7) = 2/3.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q02",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Al gets the disease algebritis and must take one green pill and one pink pill each day for two weeks. A green pill costs $1 more than a pink pill, and Al's pills cost a total of $546 for the two weeks. How much does one green pill cost?",
+    "answer_choices": {
+      "A": "$7",
+      "B": "$14",
+      "C": "$19",
+      "D": "$20",
+      "E": "$39"
+    },
+    "correct_answer": "D",
+    "solution_text": "The cost of each day's pills is 546/14 = 39 dollars. If x denotes the cost of one green pill, then x + (x − 1) = 39, so x = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q03",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The sum of 5 consecutive even integers is 4 less than the sum of the first 8 consecutive odd counting numbers. What is the smallest of the even integers?",
+    "answer_choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12",
+      "E": "14"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let n be the smallest of the even integers. Since 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64, we have 60 = n + (n + 2) + (n + 4) + (n + 6) + (n + 8) = 5n + 20, so n = 8.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q04",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Rose fills each of the rectangular regions of her rectangular flower bed with a different type of flower. The lengths, in feet, of the rectangular regions in her flower bed are as shown in the figure. She plants one flower per square foot in each region. Asters cost $1 each, begonias $1.50 each, cannas $2 each, dahlias $2.50 each, and Easter lilies $3 each. What is the least possible cost, in dollars, for her garden?\n      4      7\n5              3\n               3\n1\n      6      5",
+    "answer_choices": {
+      "A": "108",
+      "B": "115",
+      "C": "132",
+      "D": "144",
+      "E": "156"
+    },
+    "correct_answer": "A",
+    "solution_text": "To minimize the cost, Rose should place the most expensive flowers in the smallest region, the next most expensive in the second smallest, etc. The areas of the regions are 4, 6, 15, 20, and 21 square feet, so the minimal total cost, in dollars, is (3)(4) + (2.5)(6) + (2)(15) + (1.5)(20) + (1)(21) = 108.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10B-Q05",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Moe uses a mower to cut his rectangular 90-foot by 150-foot lawn. The swath he cuts is 28 inches wide, but he overlaps each cut by 4 inches to make sure that no grass is missed. He walks at the rate of 5000 feet per hour while pushing the mower. Which of the following is closest to the number of hours it will take Moe to mow his lawn?",
+    "answer_choices": {
+      "A": "0.75",
+      "B": "0.8",
+      "C": "1.35",
+      "D": "1.5",
+      "E": "3"
+    },
+    "correct_answer": "C",
+    "solution_text": "The area of the lawn is 90 · 150 = 13,500 ft^2. Moe cuts about two square feet for each foot he pushes the mower forward, so he cuts 2(5000) = 10,000 ft^2 per hour. Therefore, it takes about 13,500/10,000 = 1.35 hours.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q06",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Many television screens are rectangles that are measured by the length of their diagonals. The ratio of the horizontal length to the height in a standard television screen is 4 : 3. The horizontal length of a \"27-inch\" television screen is closest, in inches, to which of the following?\nDiagonal\nHeight\nLength",
+    "answer_choices": {
+      "A": "20",
+      "B": "20.5",
+      "C": "21",
+      "D": "21.5",
+      "E": "22"
+    },
+    "correct_answer": "D",
+    "solution_text": "The height, length, and diagonal are in the ratio 3 : 4 : 5. The length of the diagonal is 27, so the horizontal length is (4/5)(27) = 21.6 inches.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10B-Q07",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "The symbolism ⌊x⌋ denotes the largest integer not exceeding x. For example, ⌊3⌋ = 3, and ⌊9/2⌋ = 4. Compute\n⌊√1⌋ + ⌊√2⌋ + ⌊√3⌋ + · · · + ⌊√16⌋.",
+    "answer_choices": {
+      "A": "35",
+      "B": "38",
+      "C": "40",
+      "D": "42",
+      "E": "136"
+    },
+    "correct_answer": "B",
+    "solution_text": "The first three values in the sum are 1, the next five are 2, the next seven are 3, and the final one is 4 for a total of 3 · 1 + 5 · 2 + 7 · 3 + 1 · 4 = 38.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q08",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "The second and fourth terms of a geometric sequence are 2 and 6. Which of the following is a possible first term?",
+    "answer_choices": {
+      "A": "−√3",
+      "B": "−2√3\n3",
+      "C": "−√3\n3",
+      "D": "√3",
+      "E": "3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the sequence be denoted a, ar, ar^2, ar^3, . . ., with ar = 2 and ar^3 = 6. Then r^2 = 3 and r = √3 or r = −√3. Therefore a = 2√3/3 or a = −2√3/3.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q09",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Find the value of x that satisfies the equation\n25^{−2} = 5^{48/x}\n5^{26/x} · 25^{17/x}",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "6",
+      "E": "9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Write all the terms with the common base 5. Then\n5^{−4} = 25^{−2} = 5^{48/x} / (5^{26/x} · 25^{17/x}) = 5^{48/x} / (5^{26/x} · 5^{34/x}) = 5^{(48−26−34)/x} = 5^{−12/x}.\nIt follows that −12/x = −4, so x = 3.\nOR\nFirst write 25 as 5^2. Raising both sides to the x power gives 5^{−4x} = 5^{48} / (5^{26} · 5^{34}) = 5^{48−26−34} = 5^{−12}. So −4x = −12 and x = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q10",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "Nebraska, the home of the AMC, changed its license plate scheme. Each old license plate consisted of a letter followed by four digits. Each new license plate consists of three letters followed by three digits. By how many times is the number of possible license plates increased?",
+    "answer_choices": {
+      "A": "26\n10",
+      "B": "26^{2}\n10^{2}",
+      "C": "26^{2}\n10",
+      "D": "26^{3}\n10^{3}",
+      "E": "26^{3}\n10^{2}"
+    },
+    "correct_answer": "C",
+    "solution_text": "In the old scheme 26 × 10^4 different plates could be constructed. In the new scheme 26^3 × 10^3 different plates can be constructed. There are (26^3 × 10^3) / (26 × 10^4) = 26^2/10 times as many possible plates with the new scheme.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q11",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A line with slope 3 intersects a line with slope 5 at the point (10, 15). What is the distance between the x-intercepts of these two lines?",
+    "answer_choices": {
+      "A": "2",
+      "B": "5",
+      "C": "7",
+      "D": "12",
+      "E": "20"
+    },
+    "correct_answer": "A",
+    "solution_text": "The two lines have equations y − 15 = 3(x − 10) and y − 15 = 5(x − 10). The x-intercepts, obtained by setting y = 0 in the respective equations, are 5 and 7. The distance between the points (5, 0) and (7, 0) is 2.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q12",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Al, Betty, and Clare split $1000 among them to be invested in different ways. Each begins with a different amount. At the end of one year they have a total of $1500. Betty and Clare have both doubled their money, whereas Al has managed to lose $100. What was Al's original portion?",
+    "answer_choices": {
+      "A": "$250",
+      "B": "$350",
+      "C": "$400",
+      "D": "$450",
+      "E": "$500"
+    },
+    "correct_answer": "C",
+    "solution_text": "Denote the original portions for Al, Betty, and Clare as a, b, and c, respectively. Then a + b + c = 1000 and a − 100 + 2(b + c) = 1500. Substituting b + c = 1000 − a in the second equation, we have a − 100 + 2(1000 − a) = 1500. This yields a = 400, which is Al's original portion.\nNote that although we know that b + c = 600, we have no way of determining either b or c.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q13",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Let ♣(x) denote the sum of the digits of the positive integer x. For example, ♣(8) = 8 and ♣(123) = 1 + 2 + 3 = 6. For how many two-digit values of x is ♣(♣(x)) = 3?",
+    "answer_choices": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let y = ♣(x). Since x ≤ 99, we have y ≤ 18. Thus if ♣(y) = 3, then y = 3 or y = 12. The 3 values of x for which ♣(x) = 3 are 12, 21, and 30, and the 7 values of x for which ♣(x) = 12 are 39, 48, 57, 66, 75, 84, and 93. There are 10 values in all.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q14",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Given that 3^{8} · 5^{2} = a^{b}, where both a and b are positive integers, find the smallest possible value for a + b.",
+    "answer_choices": {
+      "A": "25",
+      "B": "34",
+      "C": "351",
+      "D": "407",
+      "E": "900"
+    },
+    "correct_answer": "D",
+    "solution_text": "Since a must be divisible by 5, and 3^8 · 5^2 is divisible by 5^2, but not by 5^3, we have b ≤ 2. If b = 1, then a^b = (3^8 · 5^2)^1 = (164,025)^1 and a + b = 164,026. If b = 2, then a^b = (3^4 · 5)^2 = 405^2 so a + b = 407, which is the smallest value.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q15",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "There are 100 players in a singles tennis tournament. The tournament is single elimination, meaning that a player who loses a match is eliminated. In the first round, the strongest 28 players are given a bye, and the remaining 72 players are paired off to play. After each round, the remaining players play in the next round. The match continues until only one player remains unbeaten. The total number of matches played is",
+    "answer_choices": {
+      "A": "a prime number",
+      "B": "divisible by 2",
+      "C": "divisible by 5",
+      "D": "divisible by 7",
+      "E": "divisible by 11"
+    },
+    "correct_answer": "E",
+    "solution_text": "In the first round 100 − 64 = 36 players are eliminated, one per match. In the second round there are 32 matches, in the third 16, then 8, 4, 2, and 1. The total number of matches is: 36 + 32 + 16 + 8 + 4 + 2 + 1 = 99. Note that 99 is divisible by 11, but 99 does not satisfy any of the other conditions given as answer choices.\nOR\nIn each match, precisely one player is eliminated. Since there were 100 players in the tournament and all but one is eliminated, there must be 99 matches.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q16",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A restaurant offers three desserts, and exactly twice as many appetizers as main courses. A dinner consists of an appetizer, a main course, and a dessert. What is the least number of main courses that the restaurant should offer so that a customer could have a different dinner each night in the year 2003?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let m denote the number of main courses needed to meet the requirement. Then the number of dinners available is 3 · m · 2m = 6m^2. Thus m^2 must be at least 365/6 ≈ 61. Since 7^2 = 49 < 61 < 64 = 8^2, 8 main courses is enough, but 7 is not.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q17",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "An ice cream cone consists of a sphere of vanilla ice cream and a right circular cone that has the same diameter as the sphere. If the ice cream melts, it will exactly fill the cone. Assume that the melted ice cream occupies 75% of the volume of the frozen ice cream. What is the ratio of the cone's height to its radius?",
+    "answer_choices": {
+      "A": "2 : 1",
+      "B": "3 : 1",
+      "C": "4 : 1",
+      "D": "16 : 3",
+      "E": "6 : 1"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let r be the radius of the sphere and cone, and let h be the height of the cone. Then the conditions of the problem imply that (3/4)(4/3)πr^3 = (1/3)πr^2 h, so h = 3r. Therefore, the ratio of h to r is 3 : 1.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q18",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "What is the largest integer that is a divisor of\n(n + 1)(n + 3)(n + 5)(n + 7)(n + 9)\nfor all positive even integers n?",
+    "answer_choices": {
+      "A": "3",
+      "B": "5",
+      "C": "11",
+      "D": "15",
+      "E": "165"
+    },
+    "correct_answer": "D",
+    "solution_text": "Among five consecutive odd numbers, at least one is divisible by 3 and exactly one is divisible by 5, so the product is always divisible by 15. The cases n = 2, n = 10, and n = 12 demonstrate that no larger common divisor is possible, since 15 is the greatest common divisor of 3·5·7·9·11, 11·13·15·17·19, and 13·15·17·19·21.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q19",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Three semicircles of radius 1 are constructed on diameter AB of a semicircle of radius 2. The centers of the small semicircles divide AB into four line segments of equal length, as shown. What is the area of the shaded region that lies within the large semicircle but outside the smaller semicircles?",
+    "answer_choices": {
+      "A": "π − √3",
+      "B": "π − √2",
+      "C": "(π + √2)/2",
+      "D": "(π + √3)/2",
+      "E": "(7/6)π − √3/2"
+    },
+    "correct_answer": "E",
+    "solution_text": "The area of the larger semicircle is (1/2)π(2)^2 = 2π. The region deleted from the larger semicircle consists of five congruent sectors and two equilateral triangles. The area of each of the sectors is (1/6)π(1)^2 = π/6 and the area of each triangle is (1/2) · 1 · (√3/2) = √3/4, so the area of the shaded region is 2π − 5 · (π/6) − 2 · (√3/4) = (7/6)π − √3/2.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10B-Q20",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In rectangle ABCD, AB = 5 and BC = 3. Points F and G are on CD so that DF = 1 and GC = 2. Lines AF and BG intersect at E. Find the area of △AEB.\nE\nD  1  F     G  2  C\n3                    3\nA         5          B",
+    "answer_choices": {
+      "A": "10",
+      "B": "21\n2",
+      "C": "12",
+      "D": "25\n2",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let H be the foot of the perpendicular from E to DC. Since CD = AB = 5, FG = 2, and △FEG is similar to △AEB, we have EH/(EH + 3) = 2/5, so 5EH = 2EH + 6, and EH = 2. Hence Area(△AEB) = (1/2)(2 + 3) · 5 = 25/2.\nOR\nLet I be the foot of the perpendicular from E to AB. Since △EIA is similar to △ADF and △EIB is similar to △BCG, we have AI/EI = 1/3 and (5 − AI)/EI = 2/3. Adding gives 5/EI = 1, so EI = 5. The area of the triangle is (1/2) · 5 · 5 = 25/2.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10B-Q21",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "A bag contains two red beads and two green beads. You reach into the bag and pull out a bead, replacing it with a red bead regardless of the color you pulled out. What is the probability that all beads in the bag are red after three such replacements?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "5\n32",
+      "C": "9\n32",
+      "D": "3\n8",
+      "E": "7\n16"
+    },
+    "correct_answer": "C",
+    "solution_text": "The beads will all be red at the end of the third draw precisely when two green beads are chosen in the three draws. If the first bead drawn is green, then there will be one green and three red beads in the bag before the second draw. So the probability that green beads are drawn in the first two draws is (1/2) · (1/4) = 1/8. The probability that a green bead is chosen, then a red bead, and then a green bead, is (1/2) · (3/4) · (1/4) = 3/32. Finally, the probability that a red bead is chosen then two green beads is (1/2) · (1/2) · (1/4) = 1/16. The sum of these probabilities is 1/8 + 3/32 + 1/16 = 9/32.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q22",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Other",
+    "difficulty": "hard",
+    "problem_text": "A clock chimes once at 30 minutes past each hour and chimes on the hour according to the hour. For example, at 1 PM there is one chime and at noon and midnight there are twelve chimes. Starting at 11:15 AM on February 26, 2003, on what date will the 2003rd chime occur?",
+    "answer_choices": {
+      "A": "March 8",
+      "B": "March 9",
+      "C": "March 10",
+      "D": "March 20",
+      "E": "March 21"
+    },
+    "correct_answer": "B",
+    "solution_text": "In any twelve-hour period, there are 12 half-hour chimes and 1 + 2 + 3 + . . . + 12 = 78 on-the-hour chimes. Hence, a twelve-hour period results in 90 chimes. Dividing 2003 by 90 yields a quotient of 22.25. Therefore the 2003rd chime will occur a little more than 11 days later, on March 9.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q23",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A regular octagon ABCDEFGH has an area of one square unit. What is the area of the rectangle ABEF?\nA  B\nH      C\nG      D\nF  E",
+    "answer_choices": {
+      "A": "1 − √2\n2",
+      "B": "√2\n4",
+      "C": "√2 − 1",
+      "D": "1\n2",
+      "E": "1 + √2\n4"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let O be the intersection of the diagonals of ABEF. Since the octagon is regular, △AOB has area 1/8. Since O is the midpoint of AE, △OAB and △BOE have the same area. Thus △ABE has area 1/4, so ABEF has area 1/2.\nOR\nLet O be the intersection of the diagonals of the square IJKL. Rectangles ABJI, JCDK, KEFL, and LGHI are congruent. Also IJ = AB = AH, so the right isosceles triangles △AIH and △JOI are congruent. By symmetry, the area in the center square IJKL is the sum of the areas of △AIH, △CJB, △EKD, and △GLF. Thus the area of rectangle ABEF is half the area of the octagon.",
+    "has_image": true
+  },
+  {
+    "id": "2003-AMC10B-Q24",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "The first four terms in an arithmetic sequence are x + y, x − y, xy, and x/y, in that order. What is the fifth term?",
+    "answer_choices": {
+      "A": "−15\n8",
+      "B": "−6\n5",
+      "C": "0",
+      "D": "27\n20",
+      "E": "123\n40"
+    },
+    "correct_answer": "E",
+    "solution_text": "Since the difference of the first two terms is −2y, the third and fourth terms of the sequence must be x − 3y and x − 5y. Thus x − 3y = xy and x − 5y = x/y, so xy − 5y^2 = x. Combining these equations we obtain (x − 3y) − 5y^2 = x and, therefore, −3y − 5y^2 = 0. Since y cannot be 0, we have y = −3/5, and it follows that x = −9/8. The fifth term in the sequence is x − 7y = 123/40.",
+    "has_image": false
+  },
+  {
+    "id": "2003-AMC10B-Q25",
+    "year": 2003,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many distinct four-digit numbers are divisible by 3 and have 23 as their last two digits?",
+    "answer_choices": {
+      "A": "27",
+      "B": "30",
+      "C": "33",
+      "D": "81",
+      "E": "90"
+    },
+    "correct_answer": "B",
+    "solution_text": "A number is divisible by 3 if and only if the sum of its digits is divisible by 3. So a four-digit number ab23 is divisible by 3 if and only if the two-digit number ab leaves a remainder of 1 when divided by 3. There are 90 two-digit numbers, of which 90/3 = 30 leave a remainder of 1 when divided by 3.",
+    "has_image": false
+  }
+]

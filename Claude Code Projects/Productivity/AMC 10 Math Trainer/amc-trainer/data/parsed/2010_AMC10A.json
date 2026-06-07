@@ -1,0 +1,458 @@
+[
+  {
+    "id": "2010-AMC10A-Q01",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Mary’s top book shelf holds ﬁve books with the following widths, in centimeters: 6, 1\n2, 1, 2.5, and\n10. What is the average book width, in centimeters?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "D",
+    "solution_text": "The average of the ﬁve values is\n6 + 0.5 + 1 + 2.5 + 10\n5\n= 20\n5 = 4.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q02",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Four identical squares and one rectangle are placed together to form one large square as shown.\nThe length of the rectangle is how many times as large as its width?",
+    "answer_choices": {
+      "A": "5\n4",
+      "B": "4\n3",
+      "C": "3\n2",
+      "D": "2",
+      "E": "3"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let s be the side length of the smaller square. Then the length\nof the rectangle is 4s, and the width is 4s −s = 3s. Hence the rectangle length\nis 4s\n3s = 4\n3 times as large as its width.",
+    "has_image": true
+  },
+  {
+    "id": "2010-AMC10A-Q03",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Tyrone had 97 marbles and Eric had 11 marbles. Tyrone then gave some of his marbles to Eric\nso that Tyrone ended with twice as many marbles as Eric. How many marbles did Tyrone give\nto Eric?",
+    "answer_choices": {
+      "A": "3",
+      "B": "13",
+      "C": "18",
+      "D": "25",
+      "E": "29"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x be the number of marbles that Tyrone gave to Eric. Then\n97 −x = 2(11 + x). Solving this equation yields x = 25.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q04",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A book that is to be recorded onto compact discs takes 412 minutes to read aloud. Each disc\ncan hold up to 56 minutes of reading. Assume that the smallest possible number of discs is\nused and that each disc contains the same length of reading. How many minutes of reading\nwill each disc contain?",
+    "answer_choices": {
+      "A": "50.2",
+      "B": "51.5",
+      "C": "52.4",
+      "D": "53.8",
+      "E": "55.2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because 412 ÷ 56 is between 7 and 8, the reading will need 8\ndiscs. Therefore each disc will contain 412 ÷ 8 = 51.5 minutes of reading.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q05",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The area of a circle whose circumference is 24π is kπ. What is the value of k?",
+    "answer_choices": {
+      "A": "6",
+      "B": "12",
+      "C": "24",
+      "D": "36",
+      "E": "144"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because the circumference is 2πr = 24π, the radius r is 12.\nTherefore the area is πr2 = 144π, and k = 144.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q06",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For positive numbers x and y the operation ♠(x, y) is deﬁned as\n♠(x, y) = x −1\ny\nWhat is ♠(2, ♠(2, 2))?",
+    "answer_choices": {
+      "A": "2\n3",
+      "B": "1",
+      "C": "4\n3",
+      "D": "5\n3",
+      "E": "2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that ♠(2, 2) = 2 −1\n2 = 3\n2. Therefore\n♠(2, ♠(2, 2)) = ♠\n\n2, 3\n2\n\n= 2 −2\n3 = 4\n3.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q07",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Crystal has a running course marked out for her daily run. She starts this run by heading due\nnorth for one mile. She then runs northeast for one mile, then southeast for one mile. The last\nportion of her run takes her on a straight line back to where she started. How far, in miles is this\nlast portion of her run?",
+    "answer_choices": {
+      "A": "1",
+      "B": "√\n2",
+      "C": "√\n3",
+      "D": "2",
+      "E": "2\n√\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "When Crystal travels one mile northeast she travels\n√\n2\n2\nmiles\nnorth and\n√\n2\n2 miles east. Similarly, when she travels southeast for one mile she\ntravels\n√\n2\n2\nmiles south and\n√\n2\n2\nmiles east. Just before the last portion of her\nrun she has traveled a net of 1 +\n√\n2\n2 −\n√\n2\n2 = 1 miles north, and\n√\n2\n2 +\n√\n2\n2 =\n√\n2\nmiles east. By the Pythagorean Theorem, the last portion of her run is\n\n12 + (\n√\n2)2 =\n√\n1 + 2 =\n√\n3\nmiles.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q08",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Tony works 2 hours a day and is paid $0.50 per hour for each full year of his age. During a six\nmonth period Tony worked 50 days and earned $630. How old was Tony at the end of the six\nmonth period?",
+    "answer_choices": {
+      "A": "9",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": "D",
+    "solution_text": "Tony worked for 2 · 50 = 100 hours. His average earnings per\nhour during this period is\n$630\n100\n= $6.30 .\nHence his average age during this\nperiod was $6.30\n$0.50 = 12.6, and so at the end of the six month period he was 13.\n2010-Solutions-AMC10A.indd   2\n12/2/2009   10:51:37 AM\n\nSolutions\n2010 AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q09",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A palindrome, such as 83438, is a number that remains the same when its digits are reversed.\nThe numbers x and x + 32 are three-digit and four-digit palindromes, respectively. What is the\nsum of the digits of x?",
+    "answer_choices": {
+      "A": "20",
+      "B": "21",
+      "C": "22",
+      "D": "23",
+      "E": "24"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let x + 32 be written in the form CDDC. Because x has three\ndigits, 1000 < x + 32 < 1032, and so C = 1 and D = 0. Hence x = 1001 −32 =\n969, and the sum of the digits of x is 9 + 6 + 9 = 24.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q10",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Marvin had a birthday on Tuesday, May 27 in the leap year 2008. In what year will his birthday\nnext fall on a Saturday?",
+    "answer_choices": {
+      "A": "2011",
+      "B": "2012",
+      "C": "2013",
+      "D": "2015",
+      "E": "2017"
+    },
+    "correct_answer": "E",
+    "solution_text": "A non-leap year has 365 days, and 365 = 52 · 7 + 1, so there are\n52 weeks and 1 day in a non-leap year. Because May 27 was after leap day in\n2008, Marvin’s birthday fell on Wednesday in 2009, and will fall on Thursday\nin 2010 and Friday in 2011. His birthday will be on Sunday in the leap year\n2012, Monday in 2013, Tuesday in 2014, Wednesday in 2015, Friday in 2016,\nand Saturday in 2017.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q11",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The length of the interval of solutions of the inequality a ≤2x + 3 ≤b is 10. What is b −a?",
+    "answer_choices": {
+      "A": "6",
+      "B": "10",
+      "C": "15",
+      "D": "20",
+      "E": "30"
+    },
+    "correct_answer": "D",
+    "solution_text": "The solution of the inequality is\na −3\n2\n≤x ≤b −3\n2\n.\nIf b−3\n2\n−a−3\n2\n= 10, then b −a = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q12",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Logan is constructing a scaled model of his town. The city’s water tower stands 40 meters high,\nand the top portion is a sphere that holds 100, 000 liters of water. Logan’s miniature water tower\nholds 0.1 liters. How tall, in meters, should Logan make his tower?",
+    "answer_choices": {
+      "A": "0.04",
+      "B": "0.4\nπ",
+      "C": "0.4",
+      "D": "4\nπ",
+      "E": "4"
+    },
+    "correct_answer": "C",
+    "solution_text": "The volume scale for Logan’s model is 0.1 : 100,000 = 1 :\n1,000,000. Therefore the linear scale is 1 :\n3√1,000,000, which is 1 : 100. Logan’s\nwater tower should stand\n40\n100 = 0.4 meters tall.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q13",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Angelina drove at an average rate of 80 kph and then stopped 20 minutes for gas. After the stop,\nshe drove at an average rate of 100 kph. Altogether she drove 250 km in a total trip time of 3\nhours including the stop. Which equation could be used to solve for the time t in hours that she\ndrove before her stop?",
+    "answer_choices": {
+      "A": "80t + 100(8/3 −t) = 250",
+      "B": "80t = 250",
+      "C": "100t = 250",
+      "D": "90t = 250",
+      "E": "80(8/3 −t) + 100t = 250"
+    },
+    "correct_answer": "A",
+    "solution_text": "Angelina drove 80t km before she stopped. After her stop, she\ndrove (3 −1\n3 −t) hours at an average rate of 100 kph, so she covered 100( 8\n3 −t)\nkm in that time. Therefore 80t + 100( 8\n3 −t) = 250. Note that t = 5\n6.s",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q14",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Triangle ABC has AB = 2 · AC. Let D and E be on AB and BC, respectively, such that\n∠BAE = ∠ACD. Let F be the intersection of segments AE and CD, and suppose that △CFE\nis equilateral. What is ∠ACB?",
+    "answer_choices": {
+      "A": "60^{◦}",
+      "B": "75^{◦}",
+      "C": "90^{◦}",
+      "D": "105^{◦}",
+      "E": "120^{◦}"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let α = ∠BAE = ∠ACD = ∠ACF.\nBecause △CFE is\nequilateral, it follows that ∠CFA = 120◦and then\n∠FAC = 180◦−120◦−∠ACF = 60◦−α.\nTherefore\n∠BAC = ∠BAE + ∠FAC = α + (60◦−α) = 60◦.\nBecause AB = 2·AC, it follows that △BAC is a 30 – 60 – 90◦triangle, and thus\n∠ACB = 90◦.\n2010-Solutions-AMC10A.indd   3\n12/2/2009   10:51:37 AM\n\nSolutions\n2010 AMC 10 A\n4\nA\nB\nC\nD\nE\nF",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q15",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Logic",
+    "difficulty": "medium",
+    "problem_text": "In a magical swamp there are two species of talking amphibians: toads, whose statements are\nalways true, and frogs, whose statements are always false. Four amphibians, Brian, Chris, LeRoy,\nand Mike live together in the swamp, and they make the following statements:\nBrian: ”Mike and I are different species.”\nChris: ”LeRoy is a frog.”\nLeRoy: ”Chris is a frog.”\nMike: ”Of the four of us, at least two are toads.”\nHow many of these amphibians are frogs?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "D",
+    "solution_text": "LeRoy and Chris cannot both be frogs, because their statements\nwould be true and frogs lie. Also LeRoy and Chris cannot both be toads, because\nthen their statements would be false, and toads tell the truth. Hence between\nLeRoy and Chris, exactly one must be a toad.\nIf Brian is a toad, then Mike must be a frog, but this is a contradiction as Mike’s\nstatement would then be true. Hence Brian is a frog, so Brian’s statement must\nbe false, and Mike must be a frog. Altogether there are 3 frogs: Brian, Mike,\nand either LeRoy or Chris.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q16",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Nondegenerate △ABC has integer side lengths, BD is an angle bisector, AD = 3, and DC = 8.\nWhat is the smallest possible value of the perimeter?",
+    "answer_choices": {
+      "A": "30",
+      "B": "33",
+      "C": "35",
+      "D": "36",
+      "E": "37"
+    },
+    "correct_answer": "B",
+    "solution_text": "By the Angle Bisector Theorem, 8 · BA = 3 · BC. Thus BA\nmust be a multiple of 3. If BA = 3, the triangle is degenerate. If BA = 6, then\nBC = 16, and the perimeter is 6 + 16 + 11 = 33.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q17",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A solid cube has side length 3 inches. A 2-inch by 2-inch square hole is cut into the center of\neach face. The edges of each cut are parallel to the edges of the cube, and each hole goes all\nthe way through the cube. What is the volume, in cubic inches, of the remaining solid?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "10",
+      "D": "12",
+      "E": "15"
+    },
+    "correct_answer": "A",
+    "solution_text": "The volume of the solid cube is 27 in3. The ﬁrst hole to be\ncut removes 2 × 2 × 3 = 12 in3 from the volume.\nThe other holes remove\n2 × 2 × 0.5 = 2 in3 from each of the four remaining faces. The volume of the\nremaining solid is 27 −12 −4(2) = 7 in3.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q18",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Bernardo randomly picks 3 distinct numbers from the set {1, 2, 3, 4, 5, 6, 7, 8, 9} and arranges\nthem in descending order to form a 3-digit number. Silvia randomly picks 3 distinct numbers\nfrom the set {1, 2, 3, 4, 5, 6, 7, 8} and also arranges them in descending order to form a 3-digit\nnumber. What is the probability that Bernardo’s number is larger than Silvia’s number?",
+    "answer_choices": {
+      "A": "47\n72",
+      "B": "37\n56",
+      "C": "2\n3",
+      "D": "49\n72",
+      "E": "39\n56"
+    },
+    "correct_answer": "B",
+    "solution_text": "The probability that Bernardo picks a 9 is\n3\n9 =\n1\n3. In this\ncase, his three-digit number will begin with a 9 and will be larger than Silvia’s\nthree-digit number.\nIf Bernardo does not pick a 9, then Bernardo and Silvia will form the same\nnumber with probability\n1\n\u001f8\n3\n\u001e = 1\n56.\nIf they do not form the same number then Bernardo’s number will be larger 1\n2\nof the time.\n2010-Solutions-AMC10A.indd   4\n12/2/2009   10:51:37 AM\n\nSolutions\n2010 AMC 10 A\n5\nHence the probability is\n1\n3 + 2\n3 · 1\n2(1 −1\n56) = 111\n168 = 37\n56.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q19",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Equiangular hexagon ABCDEF has side lengths AB = CD = EF = 1 and BC = DE = FA =\nr. The area of △ACE is 70% of the area of the hexagon. What is the sum of all possible values\nof r?",
+    "answer_choices": {
+      "A": "4\n√\n3\n3",
+      "B": "10\n3",
+      "C": "4",
+      "D": "17\n4",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Triangles ABC, CDE and EFA are congruent, so △ACE is\nequilateral. Let X be the intersection of the lines AB and EF and deﬁne Y\nand Z similarly as shown in the ﬁgure. Because ABCDEF is equiangular, it\nfollows that ∠XAF = ∠AFX = 60◦. Thus △XAF is equilateral. Let H be the\nmidpoint of XF. By the Pythagorean Theorem,\nAE2 = AH2 + HE2 = (\n√\n3\n2 r)2 + (r\n2 + 1)2 = r2 + r + 1\nThus, the area of △ACE is\n√\n3\n4 AE2 =\n√\n3\n4 (r2 + r + 1).\nThe area of hexagon ABCDEF is equal to\n[XY Z] −[XAF] −[Y CB] −[ZED] =\n√\n3\n4\n\n(2r + 1)2 −3r2\n=\n√\n3\n4 (r2 + 4r + 1)\nBecause [ACE] =\n7\n10[ABCDEF], it follows that\nr2 + r + 1 = 7\n10(r2 + 4r + 1)\nfrom which r2 −6r + 1 = 0 and r = 3 ± 2\n√\n2. The sum of all possible values of\nr is 6.\nA\nB\nC\nD\nE\nF\nX\nY\nZ\n2010-Solutions-AMC10A.indd   5\n12/2/2009   10:51:38 AM\n\nSolutions\n2010 AMC 10 A\n6",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q20",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A ﬂy trapped inside a cubical box with side length 1 meter decides to relieve its boredom by\nvisiting each corner of the box. It will begin and end in the same corner and visit each of the\nother corners exactly once. To get from a corner to any other corner, it will either ﬂy or crawl in\na straight line. What is the maximum possible length, in meters, of its path?",
+    "answer_choices": {
+      "A": "4 + 4\n√\n2",
+      "B": "2 + 4\n√\n2 + 2\n√\n3",
+      "C": "2 + 3\n√\n2 + 3\n√\n3",
+      "D": "4\n√\n2 + 4\n√\n3",
+      "E": "3\n√\n2 + 5\n√\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Each of the 8 lines segments on the ﬂy’s path is an edge, a face\ndiagonal, or an interior diagonal of the cube. These three type of line segments\nhave lengths 1,\n√\n2, and\n√\n3, respectively. Because each vertex of the cube is\nvisited only once, the two line segments that meet at a vertex have a combined\nlength of at most\n√\n2 +\n√\n3. Therefore the sum of the lengths of the 8 segments\nis at most 4\n√\n2 + 4\n√\n3. This maximum is achieved by the path\nA →G →B →H →C →E →D →F →A.\nA\nB\nC\nD\nE\nF\nG\nH",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q21",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "The polynomial x^{3} −ax^{2} + bx −2010 has three positive integer zeros. What is the smallest\npossible value of a?",
+    "answer_choices": {
+      "A": "78",
+      "B": "88",
+      "C": "98",
+      "D": "108",
+      "E": "118"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let the polynomial be (x −r)(x −s)(x −t) with 0 < r ≤s ≤t.\nThen rst = 2010 = 2 · 3 · 5 · 67, and r + s + t = a. If t = 67, then rs = 30, and\nr + s is minimized when r = 5 and s = 6. In that case a = 67 + 5 + 6 = 78. If\nt ̸= 67, then a > t ≥2 · 67 = 134, so the minimum value of a is 78.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q22",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Eight points are chosen on a circle, and chords are drawn connecting every pair of points. No\nthree chords intersect in a single point inside the circle. How many triangles with all three ver-\ntices in the interior of the circle are created?",
+    "answer_choices": {
+      "A": "28",
+      "B": "56",
+      "C": "70",
+      "D": "84",
+      "E": "140"
+    },
+    "correct_answer": "A",
+    "solution_text": "Three chords create a triangle if and only if they intersect\npairwise inside the circle.\nTwo chords intersect inside the circle if and only\nif their endpoints alternate in order around the circle.\nTherefore, if points\nA, B, C, D, E, and F are in order around the circle, then only the chords AD,\nBE, CF all intersect pairwise inside the circle.\nThus every set of 6 points\ndetermines a unique triangle, and there are\n\u001f8\n6\n\n= 28 such triangles.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q24",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "The number obtained from the last two nonzero digits of 90! is equal to n. What is n?",
+    "answer_choices": {
+      "A": "12",
+      "B": "32",
+      "C": "48",
+      "D": "52",
+      "E": "68"
+    },
+    "correct_answer": "A",
+    "solution_text": "There are 18 factors of 90! that are multiples of 5, 3 factors\nthat are multiples of 25, and no factors that are multiples of higher powers of\n5. Also, there are more than 45 factors of 2 in 90!. Thus 90! = 1021N where N\nis an integer not divisible by 10, and if N ≡n (mod100) with 0 < n ≤99, then\nn is a multiple of 4.\nLet 90! = AB where A consists of the factors that are relatively prime to 5 and\nB consists of the factors that are divisible by 5. Note that \u001f4\nj=1(5k + j) ≡\n5k(1 + 2 + 3 + 4) + 1 · 2 · 3 · 4 ≡24 (mod25), thus\nA\n=\n(1 · 2 · 3 · 4) · (6 · 7 · 8 · 9) · · · · · (86 · 87 · 88 · 89)\n≡\n2418 ≡(−1)18 ≡1 (mod25).\nSimilarly,\nB = (5 · 10 · 15 · 20) · (30 · 35 · 40 · 45) · (55 · 60 · 65 · 70) · (80 · 85 · 90) · (25 · 50 · 75),\nthus\nB\n521\n=\n(1 · 2 · 3 · 4) · (6 · 7 · 8 · 9) · (11 · 12 · 13 · 14) · (16 · 17 · 18) · (1 · 2 · 3)\n≡\n243 · (−9) · (−8) · (−7) · 6 ≡(−1)3 · 1 ≡−1 (mod25).\nFinally, 221 = 2 · (210)2 = 2 · (1024)2 ≡2 · (−1)2 ≡2 (mod25), so 13 · 221 ≡\n13 · 2 ≡1 (mod25). Therefore\nN\n≡\n(13 · 221)N = 13 · 90!\n521 = 13 · A · B\n521 ≡13 · 1 · (−1) (mod25)\n≡\n−13 ≡12 (mod25).\nThus n is equal to 12, 37, 62, or 87, and because n is a multiple of 4, it follows\nthat n = 12.",
+    "has_image": false
+  },
+  {
+    "id": "2010-AMC10A-Q25",
+    "year": 2010,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Jim starts with a positive integer n and creates a sequence of numbers. Each successive num-\nber is obtained by subtracting the largest possible integer square less than or equal to the cur-\nrent number until zero is reached. For example, if Jim starts with n = 55, then his sequence\ncontains 5 numbers:\n55\n55 −7^{2} = 6\n6 −2^{2} = 2\n2 −1^{2} = 1\n1 −1^{2} = 0\nLet N be the smallest number for which Jim’s sequence has 8 numbers. What is the units digit\nof N?",
+    "answer_choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7",
+      "E": "9"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the sequence be (a1, a2, . . . , a8). For j > 1, aj−1 = aj + m2\nfor some m such that aj < (m + 1)2 −m2 = 2m + 1. To minimize the value\nof a1, construct the sequence in reverse order and choose the smallest possible\nvalue of m for each j, 2 ≤j ≤8.\nThe terms in reverse order are a8 = 0,\na7 = 1, a6 = 1 + 12 = 2, a5 = 2 + 12 = 3, a4 = 3 + 22 = 7, a3 = 7 + 42 = 23,\na2 = 23 + 122 = 167, and N = a1 = 167 + 842 = 7223, which has the unit digit\n3.\n2010-Solutions-AMC10A.indd   7\n12/2/2009   10:51:38 AM\n\nSolutions\n2010 AMC 10 A\n8\nThe problems and solutions in this contest were proposed by Bernardo Abrego,\nBetsy Bennett, Steven Blasberg, Steven Davis, Sundeep Desai, Steven Dunbar, Sister\nJosannae Furey, David Grabiner, Michelle Ghrist, Jerrold Grossman, Brian Hartwig,\nDan Kennedy, Joe Kennedy, Mike Korn, Leon La Spina, Glen Marr, Raymond Scacalossi,\nDavid Wells, LeRoy Wenstrom, Woody Wenstrom, and Ron Yannone.\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCasualty Actuarial Society\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nMathPath\nMath Zoom Academy\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.\n2010-Solutions-AMC10A.indd   8\n12/2/2009   10:51:39 AM",
+    "has_image": false
+  }
+]

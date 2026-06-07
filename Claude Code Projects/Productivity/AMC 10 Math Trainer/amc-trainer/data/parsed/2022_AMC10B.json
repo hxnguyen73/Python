@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2022-AMC10B-Q01",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Deﬁne x ⋄y to be |x −y| for all real numbers x and y. What is the value of\n(1 ⋄(2 ⋄3)) −((1 ⋄2) ⋄3)?",
+    "answer_choices": {
+      "A": "−2",
+      "B": "−1",
+      "C": "0",
+      "D": "1",
+      "E": "2"
+    },
+    "correct_answer": "A",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q02",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "In rhombus ABCD, point P lies on segment AD such that BP ⊥AD, AP = 3, and PD = 2.\nWhat is the area of ABCD?",
+    "answer_choices": {
+      "A": "3\n√\n5",
+      "B": "10",
+      "C": "6\n√\n5",
+      "D": "20",
+      "E": "25"
+    },
+    "correct_answer": "D",
+    "solution_text": "",
+    "has_image": true
+  },
+  {
+    "id": "2022-AMC10B-Q03",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "How many three-digit positive integers have an odd number of even digits?",
+    "answer_choices": {
+      "A": "150",
+      "B": "250",
+      "C": "350",
+      "D": "450",
+      "E": "550"
+    },
+    "correct_answer": "D",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q04",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "A donkey suffers an attack of hiccups and the ﬁrst hiccup happens at 4:00 one afternoon. Sup-\npose that the donkey hiccups regularly every 5 seconds. At what time does the donkey’s 700th\nhiccup occur?",
+    "answer_choices": {
+      "A": "15 seconds after 4:58",
+      "B": "20 seconds after 4:58",
+      "C": "25 seconds after 4:58",
+      "D": "30 seconds after 4:58",
+      "E": "35 seconds after 4:58"
+    },
+    "correct_answer": "A",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q05",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the value of\n(1+ 1\n3 )(1+ 1\n5 )(1+ 1\n7 )\nq\n(1−1\n32 )(1−1\n52 )(1−1\n72 )?",
+    "answer_choices": {
+      "A": "√\n3",
+      "B": "2",
+      "C": "√\n15",
+      "D": "4",
+      "E": "√\n105"
+    },
+    "correct_answer": "B",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q06",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "How many of the ﬁrst ten numbers of the sequence 121, 11211, 1112111, ... are prime numbers?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "A",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q07",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For how many values of the constant k will the polynomial x^{2} +kx+36 have two distinct integer\nroots?",
+    "answer_choices": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "14",
+      "E": "16"
+    },
+    "correct_answer": "B",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q08",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Consider the following 100 sets of 10 elements each:\n{1, 2, 3, · · · , 10},\n{11, 12, 13, · · · , 20},\n{21, 22, 23, · · · , 30},\n...\n{991, 992, 993, · · · , 1000}.\nHow many of these sets contain exactly two multiples of 7?",
+    "answer_choices": {
+      "A": "40",
+      "B": "42",
+      "C": "42",
+      "D": "49",
+      "E": "50"
+    },
+    "correct_answer": "D",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q10",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Camila writes down ﬁve positive integers. The unique mode of these integers is 2 greater than\ntheir median, and the median is 2 greater than their arithmetic mean. What is the least possible\nvalue for the mode?",
+    "answer_choices": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "11",
+      "E": "13"
+    },
+    "correct_answer": "C",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q11",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "All the high schools in a large school district are involved in a fundraiser selling T-shirts. Which\nof\nthe choices below is logically equivalent to the statement ”No school bigger than Euclid HS sold\nmore\nT-shirts than Euclid HS”?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q13",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The positive difference between a pair of primes is equal to 2, and the positive difference be-\ntween the cubes of the two primes is 31106. What is the sum of the digits of the least prime that\nis greater than those two primes?",
+    "answer_choices": {
+      "A": "8",
+      "B": "10",
+      "C": "11",
+      "D": "13",
+      "E": "16"
+    },
+    "correct_answer": "D",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q14",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Suppose that S is a subset of {1, 2, 3, ..., 25} such that the sum of any two (not necessarily\ndistinct) elements of S is never an element of S. What is the maximum number of elements S\nmay contain?",
+    "answer_choices": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "15",
+      "E": "16"
+    },
+    "correct_answer": "D",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q15",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let S^{n} be the sum of the ﬁrst n term of an arithmetic sequence that has a common difference\nof 2. The quotient S^{3n}\nS^{n} does not depend on n. What is S^{20}?",
+    "answer_choices": {
+      "A": "340",
+      "B": "360",
+      "C": "380",
+      "D": "400",
+      "E": "420"
+    },
+    "correct_answer": "B",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q16",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The diagram below shows a rectangle with side lengths 4 and 8 and a square with side length\n5. Three vertices of the square lie on three different sides of the rectangle, as shown. What is\nthe area of the region inside both the square and the rectangle?\n4\n8\n5",
+    "answer_choices": {
+      "A": "151\n8",
+      "B": "153\n8",
+      "C": "151\n2",
+      "D": "155\n8",
+      "E": "157\n8"
+    },
+    "correct_answer": "C",
+    "solution_text": "",
+    "has_image": true
+  },
+  {
+    "id": "2022-AMC10B-Q17",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "One of the following numbers is not divisible by any prime number less than 10. Which is it?",
+    "answer_choices": {
+      "A": "2^{606} −1",
+      "B": "2^{606} + 1",
+      "C": "2^{607} −1",
+      "D": "2^{607} + 1",
+      "E": "2^{607} + 3^{607}"
+    },
+    "correct_answer": "D",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q18",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Consider systems of three linear equations with unknowns x, y, and z,\na^{1}x + b^{1}y + c^{1}z = 0\na^{2}x + b^{2}y + c^{2}z = 0\na^{3}x + b^{3}y + c^{3}z = 0\nwhere each of the coefﬁcients is either 0 or 1 and the system has a solution other than x = y =\nz = 0. For example, one such system is {1x+1y+0z = 0, 0x+1y+1z = 0, 0x+0y+0z = 0} with\na nonzero solution of {x, y, z} = {1, −1, 1}. How many such systems are there? (The equations\nin a system need not be distinct, and two systems containing the same equations in a different\norder are considered different.)",
+    "answer_choices": {
+      "A": "302",
+      "B": "338",
+      "C": "340",
+      "D": "343",
+      "E": "344"
+    },
+    "correct_answer": "E",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q19",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Each square in a 5 × 5 grid is either ﬁlled or empty, and has up to eight adjacent neighboring\nsquares, where neighboring squares share either a side or a corner. The grid is transformed by\nthe following rules:\n- Any ﬁlled square with two or three ﬁlled neighbors remains ﬁlled.\n- Any empty square with exactly three ﬁlled neighbors becomes a ﬁlled square.\n- All other squares remain empty or become empty.\nA sample transformation is shown in the ﬁgure below.\n\nInitial\nTransformed\nSuppose the 5 × 5 grid has a border of empty squares surrounding a 3 × 3 subgrid. How many\ninitial conﬁgurations will lead to a transformed grid consisting of a single ﬁlled square in the\ncenter after a single transformation? (Rotations and reﬂections of the same conﬁguration are\nconsidered different.)\n?\n?\n?\n?\n?\n?\n?\n?\n?\nInitial\nTransformed",
+    "answer_choices": {
+      "A": "14",
+      "B": "18",
+      "C": "22",
+      "D": "26",
+      "E": "30"
+    },
+    "correct_answer": "C",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q20",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let ABCD be a rhombus with ∠ADC = 46^{◦}. Let E be the midpoint of CD, and let F be the\npoint on BE such that AF is perpendicular to BE. What is the degree measure of ∠BFC?",
+    "answer_choices": {
+      "A": "110",
+      "B": "111",
+      "C": "112",
+      "D": "113",
+      "E": "114"
+    },
+    "correct_answer": "B",
+    "solution_text": "",
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q21",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let P(x) be a polynomial with rational coefﬁcients such that when P(x) is divided by the poly-\nnomial x^{2} + x + 1, the remainder is x + 2, and when P(x) is divided by the polynomial x^{2} + 1,\nthe remainder is 2x + 1. There is a unique polynomial of least degree with these two properties.\nWhat is the sum of the squares of the coefﬁcients of that polynomial?",
+    "answer_choices": {
+      "A": "10",
+      "B": "13",
+      "C": "19",
+      "D": "20",
+      "E": "23"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q22",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let S be the set of circles in the coordinate plane that are tangent to each of the three circles\nwith equations x^{2} + y^{2} = 4, x^{2} + y^{2} = 64, and (x −5)^{2} + y^{2} = 3. What is the sum of the areas of\n\nall circles in S?",
+    "answer_choices": {
+      "A": "48π",
+      "B": "68π",
+      "C": "96π",
+      "D": "102π",
+      "E": "136π"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q23",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Ant Amelia starts on the number line at 0 and crawls in the following manner. For n = 1, 2, 3,\nAmelia chooses a time duration t^{n} and an increment x^{n} independently and uniformly at random\nfrom the interval (0, 1). During the nth step of the process, Amelia moves x^{n} units in the positive\ndirection, using up t^{n} minutes. If the total elapsed time has exceeded 1 minute during the nth\nstep, she stops at the end of that step; otherwise, she continues with the next step, taking at\nmost 3 steps in all. What is the probability that Amelia’s position when she stops will be greater\nthan 1?",
+    "answer_choices": {
+      "A": "1\n3",
+      "B": "1\n2",
+      "C": "2\n3",
+      "D": "3\n4",
+      "E": "5\n6"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q24",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Functions",
+    "difficulty": "hard",
+    "problem_text": "Consider functions f that satisfy |f(x)−f(y)| ≤1\n2|x−y| for all real numbers x and y. Of all such\nfunctions that also satisfy the equation f(300) = f(900), what is the greatest possible value of\nf(f(800)) −f(f(400))?",
+    "answer_choices": {
+      "A": "25",
+      "B": "50",
+      "C": "100",
+      "D": "150",
+      "E": "200"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2022-AMC10B-Q25",
+    "year": 2022,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let x^{0}, x^{1}, x^{2}, · · · be a sequence of numbers, where each x^{k} is either 0 or 1. For each positive\ninteger n, deﬁne\nS^{n} =\nn−1\nX\nk=0\nx^{k}2^{k}\nSuppose 7S^{n} ≡1 (mod 2^{n}) for all n ≥1. What is the value of the sum\nx^{2019} + 2x^{2020} + 4x^{2021} + 8x^{2022}?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "12",
+      "D": "14",
+      "E": "15\n–"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  }
+]

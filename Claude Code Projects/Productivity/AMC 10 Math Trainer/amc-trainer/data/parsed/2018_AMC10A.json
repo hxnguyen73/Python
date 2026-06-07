@@ -1,0 +1,420 @@
+[
+  {
+    "id": "2018-AMC10A-Q01",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the value of\n(2 + 1)^{−1} + 1\n−1\n+ 1\n−1\n+ 1?",
+    "answer_choices": {
+      "A": "5\n8",
+      "B": "11\n7",
+      "C": "8\n5",
+      "D": "18\n11",
+      "E": "15\n8"
+    },
+    "correct_answer": "B",
+    "solution_text": "Computing inside to outside yields:\n\u0012\u0010\n(2 + 1)−1 + 1\n\u0011−1\n+ 1\n\u0013−1\n+ 1 =\n \u00124\n3\n\u0013−1\n+ 1\n!−1\n+ 1\n=\n\u00127\n4\n\u0013−1\n+ 1\n= 11\n7 .\nNote: The successive denominators and numerators of numbers ob-\ntained from this pattern are the Lucas numbers.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q02",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Liliane has 50% more soda than Jacqueline, and Alice has 25% more soda than Jacqueline.\nWhat is the relationship between the amounts of soda that Liliane and Alica have?",
+    "answer_choices": {
+      "A": "January 2",
+      "B": "January 12",
+      "C": "January 22",
+      "D": "February 11",
+      "E": "February 12\n4"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let L, J, and A be the amounts of soda that Liliane,\nJacqueline, and Alice have, respectively. The given information im-\nplies that L = 1.50J = 3\n2J and A = 1.25J = 5\n4J, and hence J = 4\n5A.\nThen\nL = 3\n2 · 4\n5A = 6\n5A = 1.20A,\nso Liliane has 20% more soda than Alice.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q04",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "How many ways can a student schedule 3 mathematics courses – algebra, geometry, and num-\nber theory – in a 6-period day if no two mathematics courses can be taken in consecutive peri-\nods? (What courses the student takes during the other 3 periods is of no concern here.)",
+    "answer_choices": {
+      "A": "3",
+      "B": "6",
+      "C": "12",
+      "D": "18",
+      "E": "24"
+    },
+    "correct_answer": "E",
+    "solution_text": "There are 4 choices for the periods in which the\nmathematics courses can be taken: periods 1, 3, 5; periods 1, 3, 6;\nperiods 1, 4, 6; and periods 2, 4, 6. Each choice of periods allows\n3! = 6 ways to order the 3 mathematics courses. Therefore there are\n4 · 6 = 24 ways of arranging a schedule.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q05",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Alice, Bob, and Charlie were on a hike and were wondering how far away the nearest town was.\nWhen Alice said, ”We are at least 6 miles away,” Bob replied, ”We are at most 5 miles away.”\nCharlie then remarked, ”Actually the nearest town is at most 4 miles away.” It turned out that\nnone of the three statements were true. Let d be the distance in miles to the nearest town.\nWhich of the following intervals is the set of all possible values of d?",
+    "answer_choices": {
+      "A": "(0, 4)",
+      "B": "(4, 5)",
+      "C": "(4, 6)",
+      "D": "(5, 6)",
+      "E": "(5, ∞)"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because the statements of Alice, Bob, and Charlie\nare all incorrect, the actual distance d satisﬁes d < 6, d > 5, and\nd > 4. Hence the actual distance lies in the interval (5, 6).\n\n2018 AMC 10A Solutions\n3",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q06",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Sangho uploaded a video to a website where viewers can vote that they like or dislike a video.\nEach video begins with a score of 0, and the score increases by 1 for each like vote and de-\ncreases by 1 for each dislike vote. At one point Sangho saw that his video had a score of 90,\nand that 65% of the votes cast on his video were like votes. How many votes had been cast on\nSangho’s video at that point?",
+    "answer_choices": {
+      "A": "200",
+      "B": "300",
+      "C": "400",
+      "D": "500",
+      "E": "600"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let N be the number of votes cast. Then 0.65N\nof them were like votes, and 0.35N of them were dislike votes. The\ncurrent score for Sangho’s video is then 0.65N −0.35N = 0.3N = 90.\nThus N = 90 ÷ (0.3) = 300.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q08",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Joe has a collection of 23 coins, consisting of 5-cent coins, 10-cent coins, and 25-cent coins.\nHe has 3 more 10-cent coins than 5-cent coins, and the total value of his collection is 320 cents.\nHow many more 25-cent coins does Joe have than 5-cent coins?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let n be the number of 5-cent coins Joe has, and let\nx be the requested value—the number of 25-cent coins Joe has minus\nthe number of 5-cent coins he has.\nThen Joe has (n + 3) 10-cent\ncoins and (n + x) 25-cent coins. The given information leads to the\nequations\nn + (n + 3) + (n + x) = 23\n5n + 10(n + 3) + 25(n + x) = 320.\nThese equations simplify to 3n + x = 20 and 8n + 5x = 58. Solving\nthese equations simultaneously yields n = 6 and x = 2. Joe has 2\nmore 25-cent coins than 5-cent coins. Indeed, Joe has 6 5-cent coins,\n9 10-cent coins, and 8 25-cent coins.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q09",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "All of the triangles in the diagram below are similar to iscoceles triangle ABC, in which AB =\nAC. Each of the 7 smallest triangles has area 1, and △ABC has area 40. What is the area of\ntrapezoid DBCE?",
+    "answer_choices": {
+      "A": "16",
+      "B": "18",
+      "C": "20",
+      "D": "22",
+      "E": "24"
+    },
+    "correct_answer": "E",
+    "solution_text": "The length of the base DE of △ADE is 4 times\nthe length of the base of a small triangle, so the area of △ADE is\n42 ·1 = 16. Therefore the area of DBCE is the area of △ABC minus\nthe area of △ADE, which is 40 −16 = 24.",
+    "has_image": true
+  },
+  {
+    "id": "2018-AMC10A-Q10",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Suppose that real number x satisﬁes\np\n49 −x^{2} −\np\n25 −x^{2} = 3.\nWhat is the value of\n√\n49 −x^{2} +\n√\n25 −x^{2}?",
+    "answer_choices": {
+      "A": "8",
+      "B": "√\n33 + 8",
+      "C": "9",
+      "D": "2\n√\n10 + 4",
+      "E": "12"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let\na =\np\n49 −x2 −\np\n25 −x2\nand\nb =\np\n49 −x2 +\np\n25 −x2.\nThen ab = (49 −x2) −(25 −x2) = 24, so b = 24\na = 24\n3 = 8.\nOR\n\n2018 AMC 10A Solutions\n4\nThe given equation can be solved directly. Adding\n√\n25 −x2 to both\nsides of the equation and squaring leads to 15 = 6\n√\n25 −x2. Solving\nfor x2 gives x2 = 75\n4 . Substituting this value into\n√\n49 −x2+\n√\n25 −x2\ngives the value 8.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q11",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "When 7 fair standard 6-sided dice are thrown, the probability that the sum of the numbers on\nthe top faces is 10 can be written as\nn\n6^{7} ,\nwhere n is a positive integer. What is n?",
+    "answer_choices": {
+      "A": "42",
+      "B": "49",
+      "C": "56",
+      "D": "63",
+      "E": "84"
+    },
+    "correct_answer": "E",
+    "solution_text": "The only ways to achieve a sum of 10 by adding 7\nunordered integers between 1 and 6 inclusive are (i) six 1s and one 4;\n(ii) ﬁve 1s, one 2, and one 3; or (iii) four 1s and three 2s. The number\nof ways to order the outcomes among the 7 dice are 7 in case (i),\n7 · 6 = 42 in case (ii), and\n\u00007\n3\n\u0001\n= 35 in case (iii). There are 67 possible\noutcomes. Therefore n = 7 + 42 + 35 = 84.\nOR\nThe number of ways to achieve a sum of 10 by adding 7 ordered\nintegers between 1 and 6, inclusive, is the same as the number of\nways to insert 6 bars in the spaces between stars in a row of 10\nstars (with no more than one bar per space). For example, the sum\n1 + 1 + 2 + 1 + 3 + 1 + 1 corresponds to ∗| ∗| ∗∗| ∗| ∗∗∗| ∗|∗. The\nnumber of ways of inserting 6 bars in the 9 spaces in a row of 10 stars\nis\n\u00009\n6\n\u0001\n= 84. (This approach is referred to as “stars and bars”.)",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q12",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs of real numbers (x, y) satisfy the following system of equations?\nx + 3y = 3\n|x| −|y|\n = 1",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "8"
+    },
+    "correct_answer": "C",
+    "solution_text": "The graph of the system is shown below.\n–4\n–2\n2\n4\n–4\n–2\n2\n4\nThe graph of the ﬁrst equation is a line with x-intercept (3, 0) and\ny-intercept (0, 1). To draw the graph of the second equation, consider\nthe equation quadrant by quadrant. In the ﬁrst quadrant x > 0 and\ny > 0, and thus the second equation is equivalent to |x−y| = 1, which\nin turn is equivalent to y = x ± 1. Its graph consists of the rays with\n\n2018 AMC 10A Solutions\n5\nendpoints (0, 1) and (1, 0), as shown. In the second quadrant x < 0\nand y > 0. The corresponding graph is the reﬂection of the ﬁrst quad-\nrant graph across the y-axis. The rest of the graph can be sketched by\nfurther reﬂections of the ﬁrst-quadrant graph across the coordinate\naxes, resulting in the ﬁgure shown. There are 3 intersection points:\n(−3, 2), (0, 1), and\n\u0000 3\n2, 1\n2\n\u0001\n, as shown.\nOR\nThe second equation implies that x = y ± 1 or x = −y ± 1. There are\nfour cases:\n• If x = y + 1, then (y + 1) + 3y = 3, so (x, y) =\n\u0000 3\n2, 1\n2\n\u0001\n.\n• If x = y −1, then (y −1) + 3y = 3, so (x, y) = (0, 1).\n• If x = −y + 1, then (−y + 1) + 3y = 3, so again (x, y) = (0, 1).\n• If x = −y −1, then (−y −1) + 3y = 3, so (x, y) = (−3, 2).\nIt may be checked that each of these ordered pairs actually satisﬁes\nthe given equations, so the total number of solutions is 3.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q13",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A paper triangle with sides of lengths 3, 4, and 5 inches, as shown, is folded so that point A falls\non point B. What is the length in inches of the crease?\nA\nB\nC\n4\n3\n5",
+    "answer_choices": {
+      "A": "1 + 1\n2\n√\n2",
+      "B": "√\n3",
+      "C": "7\n4",
+      "D": "15\n8",
+      "E": "2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The paper’s long edge AB is the hypotenuse of right\ntriangle ACB, and the crease lies along the perpendicular bisector\nof AB. Because AC > BC, the crease hits AC rather than BC. Let\nD be the midpoint of AB, and let E be the intersection of AC and the\nline through D perpendicular to AB. Then the crease in the paper\nis DE. Because △ADE ∼△ACB, it follows that DE\nAD = CB\nAC = 3\n4.\nThus\nDE = AD · CB\nAC = 5\n2 · 3\n4 = 15\n8 .\nA\nC\nE\nB\n5\nD\n4\n3",
+    "has_image": true
+  },
+  {
+    "id": "2018-AMC10A-Q14",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "What is the greatest integer less than or equal to\n3^{100} + 2^{100}\n3^{96} + 2^{96} ?",
+    "answer_choices": {
+      "A": "80",
+      "B": "81",
+      "C": "96",
+      "D": "97",
+      "E": "625"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because the powers-of-3 terms greatly dominate the\npowers-of-2 terms, the given fraction should be close to\n3100\n396 = 34 = 81.\n\n2018 AMC 10A Solutions\n6\nNote that\n\u00003100 + 2100\u0001\n−81\n\u0000396 + 296\u0001\n= 2100 −81 · 296 = (16 −81) · 296 < 0,\nso the given fraction is less than 81. On the other hand\n\u00003100 + 2100\u0001\n−80\n\u0000396 + 296\u0001\n= 396(81−80)−296(80−16) = 396−2102.\nBecause 32 > 23,\n396 =\n\u000032\u000148 >\n\u000023\u000148 = 2144 > 2102,\nit follows that\n\u00003100 + 2100\u0001\n−80\n\u0000396 + 296\u0001\n> 0,\nand the given fraction is greater than 80.\nTherefore the greatest\ninteger less than or equal to the given fraction is 80.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q15",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Two circles of radius 5 are externally tangent to each other and are internally tangent to a circle\nof radius 13 at points A and B, as shown in the diagram. The distance AB can be written in the\nform m\nn , where m and n are relatively prime positive integers. What is m + n?",
+    "answer_choices": {
+      "A": "21",
+      "B": "29",
+      "C": "58",
+      "D": "69",
+      "E": "93"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let C be the center of the larger circle, and let D\nand E be the centers of the two smaller circles, as shown. Points\nC, D, and A are collinear because the radii are perpendicular to the\ncommon tangent at the point of tangency, and so are C, E, and B.\nThese points form two isosceles triangles that share a vertex angle.\nThus △CAB ∼△CDE, and therefore AB\nDE = CA\nCD, so\nAB = DE · CA\nCD\n= (5 + 5) · 13\n13 −5\n= 65\n4 ,\nand the requested sum is 65 + 4 = 69.\nB\nA\nC\nD\nE\n\n2018 AMC 10A Solutions\n7",
+    "has_image": true
+  },
+  {
+    "id": "2018-AMC10A-Q16",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Right triangle ABC has leg lengths AB = 20 and BC = 21. Including AB and BC, how many\nline segments with integer length can be drawn from vertex B to a point on hypotenuse AC?",
+    "answer_choices": {
+      "A": "5",
+      "B": "8",
+      "C": "12",
+      "D": "13",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "The area of △ABC is 210. Let D be the foot of\nthe altitude from B to AC. By the Pythagorean Theorem, AC =\n√\n202 + 212 = 29, so 210 = 1\n2 ·29·BD, and BD = 14 14\n29. Two segments\nof every length from 15 through 19 can be constructed from B to AC.\nIn addition to these 10 segments and the 2 legs, there is a segment of\nlength 20 from B to a point on AC near C, for a total of 13 segments\nwith integer length.\nA\nB\nC\n20\n21\nD",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q17",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Let S be a set of 6 integers taken from {1, 2, . . . , 12} with the property that if a and b are elements\nof S with a < b, then b is not a multiple of a. What is the least possible value of an element in S?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "7"
+    },
+    "correct_answer": "C",
+    "solution_text": "If 1 ∈S, then S can have only 1 element, not 6\nelements. If 2 is the least element of S, then 2, 3, 5, 7, 9, and 11 are\navailable to be in S, but 3 and 9 cannot both be in S, so the largest\npossible size of S is 5. If 3 is the least element, then 3, 4, 5, 7, 8, 10,\nand 11 are available, but at most one of 4 and 8 can be in S and at\nmost one of 5 and 10 can be in S, so again S has size at most 5. The\nset S = {4, 6, 7, 9, 10, 11} has the required property, so 4 is the least\npossible element of S.\nOR\nAt most one integer can be selected for S from each of the following\n6 groups: {1, 2, 4, 8}, {3, 6, 12}, {5, 10}, {7}, {9}, and {11}. Because\nS consists of 6 distinct integers, exactly one integer must be selected\nfrom each of these 6 groups. Therefore 7, 9, and 11 must be in S.\nBecause 9 is in S, 3 must not be in S. This implies that either 6 or\n12 must be selected from the second group, so neither 1 nor 2 can be\nselected from the ﬁrst group. If 4 is selected from the ﬁrst group, the\ncollection of integers {4, 5, 6, 7, 9, 11} is one possibility for the set S.\nTherefore 4 is the least possible element of S.\nNote: The two collections given in the solutions are the only ones\nwith least element 4 that have the given property. This problem is\na special case of the following result of Paul Erd˝os from the 1930s:\n\n2018 AMC 10A Solutions\n8\nGiven n integers a1, a2, . . . , an, no one of them dividing any other,\nwith a1 < a2 < · · · < an ≤2n, let the integer k be determined by the\ninequalities 3k < 2n < 3k+1. Then a1 ≥2k, and this bound is sharp.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q18",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "How many nonnegative integers can be written in the form\na^{7} · 3^{7} + a^{6} · 3^{6} + a^{5} · 3^{5} + a^{4} · 3^{4} + a^{3} · 3^{3} + a^{2} · 3^{2} + a^{1} · 3^{1} + a^{0} · 3^{0},\nwhere a^{i} ∈{−1, 0, 1} for 0 ≤i ≤7?",
+    "answer_choices": {
+      "A": "512",
+      "B": "729",
+      "C": "1094",
+      "D": "3281",
+      "E": "59, 048"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let S be the set of integers, both negative and non-\nnegative, having the given form. Increasing the value of ai by 1 for\n0 ≤i ≤7 creates a one-to-one correspondence between S and the\nternary (base 3) representation of the integers from 0 through 38 −1,\nso S contains 38 = 6561 elements. One of those is 0, and by symmetry,\nhalf of the others are positive, so S contains 1 + 1\n2 · (6561 −1) = 3281\nelements.\nOR\nFirst note that if an integer N can be written in this form, then\nN −1 can also be written in this form as long as not all the ai in\nthe representation of N are equal to −1. A procedure to alter the\nrepresentation of N so that it will represent N −1 instead is to ﬁnd\nthe least value of i such that ai ̸= −1, reduce the value of that ai by 1,\nand set ai = 1 for all lower values of i. By the formula for the sum of\na ﬁnite geometric series, the greatest integer that can be written in\nthe given form is\n38 −1\n3 −1 = 3280.\nTherefore, 3281 nonnegative integers can be written in this form,\nnamely all the integers from 0 through 3280, inclusive. (The negative\nintegers from −3280 through −1 can also be written in this way.)\nOR\nThink of the indicated sum as an expansion in base 3 using “digits”\n−1, 0, and 1. Note that the leftmost digit ak of any positive integer\nthat can be written in this form cannot be negative and therefore\nmust be 1. Then there are 3 choices for each of the remaining k digits\nto the right of ak, resulting in 3k positive integers that can be written\nin the indicated form. Thus there are\n7\nX\nk=0\n3k = 38 −1\n3 −1 = 3280\npositive numbers of the indicated form. Because 0 can also be written\nin this form, the number of nonnegative integers that can be written\nin the indicated form is 3281.\n\n2018 AMC 10A Solutions\n9",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q19",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "A number m is randomly selected from the set {11, 13, 15, 17, 19}, and a number n is randomly\nselected from {1999, 2000, 2001, . . . , 2018}. What is the probability that m^{n} has a units digit of\n1?",
+    "answer_choices": {
+      "A": "1\n5",
+      "B": "1\n4",
+      "C": "3\n10",
+      "D": "7\n20",
+      "E": "2\n5"
+    },
+    "correct_answer": "E",
+    "solution_text": "For m ∈{11, 13, 15, 17, 19}, let p(m) denote the prob-\nability that mn has units digit 1, where n is chosen at random from\nthe set S = {1999, 2000, 2001, . . . , 2018}. Then the desired probabil-\nity is equal to 1\n5\n\u0000p(11) + p(13) + p(15) + p(17) + p(19)\n\u0001\n. Because any\npositive integral power of 11 always has units digit 1, p(11) = 1, and\nbecause any positive integral power of 15 always has units digit 5,\np(15) = 0. Note that S has 20 elements, exactly 5 of which are con-\ngruent to j mod 4 for each of j = 0, 1, 2, 3. The units digits of powers\nof 13 and 17 cycle in groups of 4. More precisely,\n\u000013k mod 10\n\u00012018\nk=1999 = (7, 1, 3, 9, 7, 1, . . . , 3, 9)\nand\n\u000017k mod 10\n\u00012018\nk=1999 = (3, 1, 7, 9, 3, 1, . . . , 7, 9).\nThus p(13) = p(17) =\n5\n20 = 1\n4. Finally, note that the units digit of\n19k is 1 or 9, according to whether k is even or odd, respectively.\nThus p(19) = 1\n2. Hence the requested probability is\n1\n5\n\u0012\n1 + 1\n4 + 0 + 1\n4 + 1\n2\n\u0013\n= 2\n5.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q20",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "A scanning code consists of a 7 × 7 grid of squares, with some of its squares colored black\nand the rest colored white. There must be at least one square of each color in this grid of 49\nsquares. A scanning code is called symmetric if its look does not change when the entire square\nis rotated by a multiple of 90^{◦}counterclockwise around its center, nor when it is reﬂected across\na line joining opposite corners or a line joining midpoints of opposite sides. What is the total\nnumber of possible symmetric scanning codes?",
+    "answer_choices": {
+      "A": "510",
+      "B": "1022",
+      "C": "8190",
+      "D": "8192",
+      "E": "65,534"
+    },
+    "correct_answer": "B",
+    "solution_text": "None of the squares that are marked with dots in\nthe sample scanning code shown below can be mapped to any other\nmarked square by reﬂections or non-identity rotations.\nTherefore\nthese 10 squares can be arbitrarily colored black or white in a symmet-\nric scanning code, with the exception of “all black” and “all white”.\nOn the other hand, reﬂections or rotations will map these squares to\nall the other squares in the scanning code, so once these 10 colors\nare speciﬁed, the symmetric scanning code is completely determined.\nThus there are 210 −2 = 1022 symmetric scanning codes.\n\n2018 AMC 10A Solutions\n10\nOR\nThe diagram below shows the orbits of each square under rotations\nand reﬂections. Because the scanning code must look the same under\nthese transformations, all squares in the same orbit must get the same\ncolor, but one is free to choose the color for each orbit, except for the\nchoice of “all black” and “all white”. Because there are 10 orbits,\nthere are 210 −2 = 1022 symmetric scanning codes.\nE\nE\nE\nE\nA\nA\nA\nA\nB\nB\nB\nB\nB\nB\nB\nB\nC\nC\nC\nC\nC\nC\nC\nC\nF\nF\nF\nF\nF\nF\nF\nF\nD\nD\nD\nD\nG\nG\nG\nG\nH\nH\nH\nH\nI\nI\nI\nI\nJ",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q21",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Which of the following describes the set of values of a for which the curves x^{2} + y^{2} = a^{2} and\ny = x^{2} −a in the real xy-plane intersect at exactly 3 points?",
+    "answer_choices": {
+      "A": "a = 1\n4",
+      "B": "1\n4 < a < 1\n2",
+      "C": "a > 1\n4",
+      "D": "a = 1\n2",
+      "E": "a > 1\n2"
+    },
+    "correct_answer": "E",
+    "solution_text": "Solving the second equation for x2 gives x2 = y + a,\nand substituting into the ﬁrst equation gives y2 + y + (a −a2) = 0.\nThe polynomial in y can be factored as (y + (1 −a))(y + a), so the\nsolutions are y = a −1 and y = −a. (Alternatively, the solutions\ncan be obtained using the quadratic formula.)\nThe corresponding\nequations for x are x2 = 2a −1 and x2 = 0. The second equation\nalways has the solution x = 0, corresponding to the point of tangency\nat the vertex of the parabola y = x2 −a.\nThe ﬁrst equation has\n2 solutions if and only if a > 1\n2, corresponding to the 2 symmetric\nintersection points of the parabola with the circle.\nThus the two\ncurves intersect at 3 points if and only if a > 1\n2.\nOR\nSubstituting the value for y from the second equation into the ﬁrst\nequation yields\nx2 +\n\u0000x2 −a\n\u00012 = a2,\nwhich is equivalent to\nx2\u0000x2 −(2a −1)\n\u0001\n= 0.\n\n2018 AMC 10A Solutions\n11\nThe ﬁrst factor gives the solution x = 0, and the second factor gives\n2 other solutions if a > 1\n2 and no other solutions if a ≤1\n2. Thus there\nare 3 solutions if and only if a > 1\n2.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q22",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Let a, b, c, and d be positive integers such that gcd(a, b) = 24, gcd(b, c) = 36, gcd(c, d) = 54, and\n70 < gcd(d, a) < 100. Which of the following must be a divisor of a?",
+    "answer_choices": {
+      "A": "5",
+      "B": "7",
+      "C": "11",
+      "D": "13",
+      "E": "17"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because gcd(a, b) = 24 = 23 · 3 and gcd(b, c) = 36 =\n22·32, it follows that a is divisible by 2 and 3 but not by 32. Similarly,\nbecause gcd(b, c) = 22 · 32 and gcd(c, d) = 54 = 2 · 33, it follows that\nd is divisible by 2 and 3 but not by 22. Therefore gcd(d, a) = 2 · 3 · n,\nwhere n is a product of primes that do not include 2 or 3. Because\n70 < gcd(d, a) < 100 and n is an integer, it must be that 12 ≤n ≤16,\nso n = 13, and 13 must also be a divisor of a. The conditions are\nsatisﬁed if a = 23 · 3 · 13 = 312, b = 23 · 32 = 72, c = 22 · 33 = 108,\nand d = 2 · 33 · 13 = 702.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q24",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Triangle ABC with AB = 50 and AC = 10 has area 120. Let D be the midpoint of AB, and\nlet E be the midpoint of AC. The angle bisector of ∠BAC intersects DE and BC at F and G,\nrespectively. What is the area of quadrilateral FDBG?",
+    "answer_choices": {
+      "A": "60",
+      "B": "65",
+      "C": "70",
+      "D": "75",
+      "E": "80"
+    },
+    "correct_answer": "D",
+    "solution_text": "Because AB is 5\n6 of AB + AC, it follows from the\nAngle Bisector Theorem that DF is 5\n6 of DE, and BG is 5\n6 of BC.\nBecause trapezoids FDBG and EDBC have the same height, the\narea of FDBG is 5\n6 of the area of EDBC. Furthermore, the area of\n△ADE is 1\n4 of the area of △ABC, so its area is 30, and the area of\ntrapezoid EDBC is 120−30 = 90. Therefore the area of quadrilateral\nFDBG is 5\n6 · 90 = 75.\nA\nB\nC\nD\nE\nG\nF\nNote: The ﬁgure (not drawn to scale) shows the situation in which\n∠ACB is acute. In this case BC ≈59.0 and ∠BAC ≈151◦. It is also\npossible for ∠ACB to be obtuse, with BC ≈41.5 and ∠BAC ≈29◦.\nThese values can be calculated using the Law of Cosines and the sine\nformula for area.",
+    "has_image": false
+  },
+  {
+    "id": "2018-AMC10A-Q25",
+    "year": 2018,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "For a positive integer n and nonzero digits a, b, and c, let A^{n} be the n-digit integer each of whose\ndigits is equal to a; let B^{n} be the n-digit integer each of whose digits is equal to b, and let C^{n} be\nthe 2n-digit (not n-digit) integer each of whose digits is equal to c. What is the greatest possible\nvalue of a + b + c for which there are at least two values of n such that C^{n} −B^{n} = A^{2}\nn?",
+    "answer_choices": {
+      "A": "12",
+      "B": "14",
+      "C": "16",
+      "D": "18",
+      "E": "20"
+    },
+    "correct_answer": "D",
+    "solution_text": "The equation Cn −Bn = A2\nn is equivalent to\nc · 102n −1\n9\n−b · 10n −1\n9\n= a2\n\u001210n −1\n9\n\u00132\n.\nDividing by 10n −1 and clearing fractions yields\n(9c −a2) · 10n = 9b −9c −a2.\nAs this must hold for two diﬀerent values n1 and n2, there are two\nsuch equations, and subtracting them gives\n\u00009c −a2\u0001\n(10n1 −10n2) = 0.\nThe second factor is non-zero, so 9c−a2 = 0 and thus 9b−9c−a2 = 0.\nFrom this it follows that c =\n\u0000 a\n3\n\u00012 and b = 2c. Hence digit a must\nbe 3, 6, or 9, with corresponding values 1, 4, or 9 for c, and 2, 8, or\n\n2018 AMC 10A Solutions\n13\n18 for b. The case b = 18 is invalid, so there are just two triples of\npossible values for a, b, and c, namely (3, 2, 1) and (6, 8, 4). In fact,\nin these cases, Cn −Bn = A2\nn for all positive integers n; for example,\n4444−88 = 4356 = 662. The second triple has the greater coordinate\nsum, 6 + 8 + 4 = 18.\nProblems and solutions were contributed by David Altizio, Risto\nAtanasov, George Bauer, Ivan Borsenco, Thomas Butts, Barbara\nCurrier, Steve Dunbar, Marta Eso, Zachary Franco, Peter Gilchrist,\nJerrold Grossman, Chris Jeuell, Jonathan Kane, Joe Kennedy, Michael\nKhoury, Hugh Montgomery, Mohamed Omar, Albert Otto, Joachim\nRebholz, Michael Tang, David Wells, and Carl Yerger.\n\nThe\nMAA American Mathematics Competitions\nare supported by\nInnovator’s Circle\nThe D. E. Shaw Group\nSusquehanna International Group\nTudor Investment Corporation\nTwo Sigma\nWinner’s Circle\nMathWorks\nAchiever’s Circle\nArt of Problem Solving\nJane Street Capital\nSustainer’s Circle\nAmerican Mathematical Society\nAnsatz Capital\nArmy Educational Outreach Program\nCollaborator’s Circle\nAmerican Statistical Association\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nMu Alpha Theta\nSociety for Industrial and Applied Mathematics",
+    "has_image": false
+  }
+]

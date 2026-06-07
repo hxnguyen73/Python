@@ -1,0 +1,382 @@
+[
+  {
+    "id": "2023-AMC10A-Q01",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Cities A and B are 45 miles apart. Alicia lives in A and Beth lives in B. Alicia bikes towards B at\n18 miles per hour. Leaving at the same time, Beth bikes toward A at 12 miles per hour. How many\nmiles from City A will they be when they meet?",
+    "answer_choices": {
+      "A": "20",
+      "B": "24",
+      "C": "25",
+      "D": "26",
+      "E": "27"
+    },
+    "correct_answer": "C",
+    "solution_text": "(2(2(2(2(2(2 + 1) + 1) + 1) + 1) + 1) + 1)\n= (2(2(2(2(2(3) + 1) + 1) + 1) + 1) + 1)\n= (2(2(2(2(7) + 1) + 1) + 1) + 1)\n= (2(2(2(15) + 1) + 1) + 1)\n= (2(2(31) + 1) + 1)\n= (2(63) + 1)\n= 127\nObserve that each intermediate result is 1 less than a power of 2.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q02",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The weight of 1\n3 of a large pizza together with 3^{1}\n2 cups of orange slices is the same as the weight\nof 3\n4 of a large pizza together with 1\n2 cup of orange slices. A cup of orange slices weighs 1\n4 of a\npound. What is the weight, in pounds, of a large pizza?",
+    "answer_choices": {
+      "A": "1^{4}\n5",
+      "B": "2",
+      "C": "2^{2}\n5",
+      "D": "3",
+      "E": "3^{3}\n5"
+    },
+    "correct_answer": "D",
+    "solution_text": "The cheapest popsicles cost $3.00 ÷ 5 = $0.60 each.\nBecause 14·$0.60 = $8.40 and Pablo has just $8, he could not pay for\n14 popsicles even if he were allowed to buy partial boxes. The best\nhe can hope for is 13 popsicles, and he can achieve that by buying\ntwo 5-popsicle boxes (for $6) and one 3-popsicle box (for $2).\nOR\nIf Pablo buys two single popsicles for $1 each, he could have bought\na 3-popsicle box for the same amount of money. Similarly, if Pablo\nbuys three single popsicles or both one 3-popsicle box and one single\npopsicle, he could have bought a 5-popsicle box for the same amount\nof money. If Pablo buys two 3-popsicle boxes, he could have bought\na 5-popsicle box and a single popsicle for the same amount of money.\nThe previous statements imply that a maximum number of popsicles\nfor a given amount of money can be obtained by buying either at most\none single popsicle and the rest 5-popsicle boxes, or a single 3-popsicle\nbox and the rest 5-popsicle boxes. When Pablo has $8, he can obtain\nthe maximum number of popsicles by buying two 5-popsicle boxes and\none 3-popsicle box. This gives a total of 2 · 5 + 1 · 3 = 13 popsicles.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q03",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "How many positive perfect squares less than 2023 are divisible by 5?",
+    "answer_choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11",
+      "E": "12"
+    },
+    "correct_answer": "B",
+    "solution_text": "The area of the garden is 15 · 10 = 150 square feet,\nand the combined area of the six ﬂower beds is 6 · 6 · 2 = 72 square\nfeet. Therefore the area of the walkways is 150 −72 = 78 square feet.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q04",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A quadrilateral has all integer sides lengths, a perimeter of 26, and one side of length 4. What is\nthe greatest possible length of one side of this quadrilateral?",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12",
+      "E": "13"
+    },
+    "correct_answer": "B",
+    "solution_text": "After exactly half a minute there will be 3 toys in\nthe box and 27 toys outside the box. During the next half-minute,\nMia takes 2 toys out and her mom puts 3 toys into the box. This\n\n2017 AMC 10A Solutions\n3\nmeans that during this half-minute the number of toys in the box\nwas increased by 1. The same argument applies to each of the fol-\nlowing half-minutes until all the toys are in the box for the ﬁrst time.\nTherefore it takes 1 + 27 · 1 = 28 half-minutes, which is 14 minutes,\nto complete the task.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q05",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "How many digits are in the base-ten representation of 8^{5} · 5^{10} · 15^{5}?",
+    "answer_choices": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "17",
+      "E": "18"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let the two numbers be x and y. Then x + y = 4xy.\nDividing this equation by xy gives\n1\ny + 1\nx = 4.\nOne such pair of\nnumbers is x = 1\n3, y = 1.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q06",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "An integer is assigned to each vertex of a cube. The value of an edge is deﬁned to be the sum\nof the values of the two vertices it touches, and the value of a face is deﬁned to be the sum of\nthe values of the four edges surrounding it. The value of the cube is deﬁned as the sum of the\nvalues of its six faces. Suppose the sum of the integers assigned to the vertices is 21. What is\nthe value of the cube?",
+    "answer_choices": {
+      "A": "42",
+      "B": "63",
+      "C": "84",
+      "D": "126",
+      "E": "252"
+    },
+    "correct_answer": "B",
+    "solution_text": "The given statement is logically equivalent to its\ncontrapositive: If a student did not receive an A on the exam, then\nthe student did not get all the multiple choice questions right, which\nmeans that he got at least one of them wrong. None of the other\nstatements follows logically from the given implication; the teacher\nmade no promises concerning students who did not get all the multiple\nchoice questions right. In particular, a statement does not imply its\ninverse or its converse; and the negation of the statement that Lewis\ngot all the questions right is not the statement that he got all the\nquestions wrong.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q07",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Janet rolls a standard 6-sided die 4 times and keeps a running total of the numbers she rolls.\nWhat is the probability that at some point, her running total will equal 3?",
+    "answer_choices": {
+      "A": "2\n9",
+      "B": "49\n216",
+      "C": "25\n108",
+      "D": "17\n72",
+      "E": "13\n54"
+    },
+    "correct_answer": "A",
+    "solution_text": "If the square had side length x, then Jerry’s path had\nlength 2x, and Silvia’s path along the diagonal, by the Pythagorean\nTheorem, had length\n√\n2x.\nTherefore Silvia’s trip was shorter by\n2x −\n√\n2x, and the required percentage is\n2x −\n√\n2x\n2x\n= 1 −\n√\n2\n2\n≈1 −0.707 = 0.293 = 29.3%.\nThe closest of the answer choices is 30%.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q08",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Barb the baker creates a new temperature system for baking bread, Breadus, which is linearly\nbased on Fahrenheit. Bread rises at 110 F^{◦}, which is 0 on the Breadus scale. Bread bakes at 350\nF^{◦}, which is 100 on the Breadus scale. Bread is done when it’s internal temperature is 200 F^{◦}.\nWhat is this temperature on the Breadus scale?",
+    "answer_choices": {
+      "A": "33",
+      "B": "34.5",
+      "C": "36",
+      "D": "37.5",
+      "E": "39"
+    },
+    "correct_answer": "B",
+    "solution_text": "Each of the 20 people who know each other shakes\nhands with 10 people. Each of the 10 people who know no one shakes\nhands with 29 people. Because each handshake involves two people,\nthe number of handshakes is 1\n2(20 · 10 + 10 · 29) = 245.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q09",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A digital display shows the current date as an 8-digit integer consisting of a 4-digit year, followed\nby a 2-digit month, followed by a 2-digit date within the month. For example, Arbor Day this year\nis displayed as 20230428. For how many dates in 2023 will each digit appear an even number\nof times in the 8-digital display for that date?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that Penny is going downhill on the segment on\nwhich Minnie is going uphill, and vice versa. Minnie needs 10\n5 hours\nto go from A to B, 15\n30 hours to go from B to C, and 20\n20 hours to go\nfrom C to A, a total of 3 1\n2 hours. Penny’s time is 20\n30 + 15\n10 + 10\n40 = 2 5\n12\nhours. It takes Minnie 3 1\n2 −2 5\n12 = 1 1\n12 hours, which is 65 minutes,\nlonger.\n\n2017 AMC 10A Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q10",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Maureen is keeping track of the mean of her quiz scores this semester. If Maureen scores\nan 11 on the next quiz, her mean will increase by 1. If she scores an 11 on each of the next\nthree quizzes, her mean will increase by 2. What is the mean of her quiz scores currently?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correct_answer": "B",
+    "solution_text": "Four rods can form a quadrilateral with positive area\nif and only if the length of the longest rod is less than the sum of the\nlengths of the other three. Therefore if the fourth rod has length n cm,\nthen n must satisfy the inequalities 15 < 3+7+n and n < 3+7+15,\nthat is, 5 < n < 25. Because n is an integer, it must be one of the 19\nintegers from 6 to 24, inclusive. However, the rods of lengths 7 cm\nand 15 cm have already been chosen, so the number of rods that Joy\ncan choose is 19 −2 = 17.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q11",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A square of area 2 is inscribed in a square of area 3, creating four congruent triangles, as shown\nbelow. What is the ratio of the shorter leg to the longer leg in the shaded right triangle?",
+    "answer_choices": {
+      "A": "1\n5",
+      "B": "1\n4",
+      "C": "2 −\n√\n3",
+      "D": "√\n3 −\n√\n2",
+      "E": "√\n2 −1"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let h = AB. The region consists of a solid circular\ncylinder of radius 3 and height h, together with two solid hemispheres\nof radius 3 centered at A and B.\nThe volume of the cylinder is\nπ · 32 · h = 9πh, and the two hemispheres have a combined volume of\n4\n3π · 33 = 36π. Therefore 9πh + 36π = 216π, and h = 20.",
+    "has_image": true
+  },
+  {
+    "id": "2023-AMC10A-Q12",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many three-digit positive integers N satisfy the following properties?\n\n- The number N is divisible by 7.\n- The number formed by reversing the digits of N is divisible by 5.",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": "E",
+    "solution_text": "Suppose that the two larger quantities are the ﬁrst\nand the second. Then 3 = x + 2 ≥y −4. This is equivalent to x = 1\nand y ≤7, and its graph is the downward-pointing ray with endpoint\n(1, 7). Similarly, if the two larger quantities are the ﬁrst and third,\nthen 3 = y −4 ≥x + 2. This is equivalent to y = 7 and x ≤1, and its\ngraph is the leftward-pointing ray with endpoint (1, 7). Finally, if the\ntwo larger quantities are the second and third, then x+2 = y−4 ≥3.\nThis is equivalent to y = x + 6 and x ≥1, and its graph is the ray\nwith endpoint (1, 7) that points upward and to the right. Thus the\ngraph consists of three rays with common endpoint (1, 7).\n−4\n−1\n1\n4\n7\n10\n1\n4\n7\n10\n13\nNote: This problem is related to a relatively new area of mathematics\ncalled tropical geometry.\n\n2017 AMC 10A Solutions\n5",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q13",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Abdul and Chiang are standing 48 feet apart in a ﬁeld. Bharat is standing in the same ﬁeld as\nfar from Abdul as possible so that the angle formed by his lines of sight to Abdul and Chiang\nmeasures 60^{◦}. What is the square of the distance (in feet) between Abdul and Bharat?",
+    "answer_choices": {
+      "A": "1728",
+      "B": "2601",
+      "C": "3072",
+      "D": "4608",
+      "E": "6912"
+    },
+    "correct_answer": "D",
+    "solution_text": "The sequence starts 0, 1, 1, 2, 0, 2, 2, 1, 0, 1, 1, 2, . . ..\nNotice that the pattern repeats and the period is 8. Thus no matter\nwhich 8 consecutive numbers are added, the answer will be 0 + 1 +\n1 + 2 + 0 + 2 + 2 + 1 = 9.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q14",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A number is chosen at random from among the ﬁrst 100 positive integers, and a positive integer\ndivisor of that number is then chosen at random. What is the probability that the chosen divisor\nis divisible by 11?",
+    "answer_choices": {
+      "A": "4\n100",
+      "B": "9\n200",
+      "C": "1\n20",
+      "D": "11\n200",
+      "E": "3\n50"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let M be the cost of Roger’s movie ticket, and let S be\nthe cost of Roger’s soda. Then M = 0.20(A−S) and S = 0.05(A−M).\nThus 5M + S = A and M + 20S = A. Solving the system for M and\nS in terms of A gives M = 19\n99A and S =\n4\n99A. The total cost of the\nmovie ticket and soda as a fraction of A is 23\n99 = 0.2323 . . . ≈23%.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q16",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "In a table tennis tournament every participant played every other participant exactly once. Al-\nthough there were twice as many right-handed players as left-handed players, the number of\ngames won by left-handed players was 40% more than the number of games won by right-\nhanded players. (There were no ties and no ambidextrous players.) What is the total number of\ngames played?",
+    "answer_choices": {
+      "A": "15",
+      "B": "36",
+      "C": "45",
+      "D": "48",
+      "E": "66"
+    },
+    "correct_answer": "B",
+    "solution_text": "Horse k will again be at the starting point after t\nminutes if and only if k is a divisor of t. Let I(t) be the number of\nintegers k with 1 ≤k ≤10 that divide t. Then I(1) = 1, I(2) = 2,\nI(3) = 2, I(4) = 3, I(5) = 2, I(6) = 4, I(7) = 2, I(8) = 4, I(9) = 3,\nI(10) = 4, I(11) = 1, and I(12) = 5. Thus T = 12 and the requested\nsum of digits is 1 + 2 = 3.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q18",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "A rhombic dodecahedron is a solid with 12 congruent rhombus faces. At every vertex, 3 or 4\nedges meet, depending on the vertex. How many vertices have exactly 3 edges meet?",
+    "answer_choices": {
+      "A": "24",
+      "B": "48",
+      "C": "60",
+      "D": "72",
+      "E": "96"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x be the probability that Amelia wins. Then\nx = 1\n3 +\n\n1 −1\n3\n\n1 −2\n5\n\nx, because either Amelia wins on the ﬁrst\ntoss, or, if she and Blaine both get tails, then the chance of her\nwinning from that point onward is also x. Solving this equation gives\nx = 5\n9. The requested diﬀerence is 9 −5 = 4.\nOR\nThe probability that Amelia wins on the ﬁrst toss is 1\n3, the probability\nthat Amelia wins on the second toss is 2\n3 · 3\n5 · 1\n3, and so on. Therefore\nthe probability that Amelia wins is\n1\n3 + 2\n3 · 3\n5 · 1\n3 +\n\u001d2\n3\n\u001c2\n·\n\u001d3\n5\n\u001c2\n· 1\n3 + · · · = 1\n3 ·\n\u001b\n1 + 2\n5 +\n\u001d2\n5\n\u001c2\n+ · · ·\n\u001a\n= 1\n3 ·\n1\n1 −2\n5\n= 5\n9.\nOR\nLet n ≥0 be the greatest integer such that Amelia and Blaine each\ntoss tails n times in a row. Then the game will end in the next round\nof tosses, either because Amelia tosses a head, which will occur with\nprobability\n1\n3, or because Amelia tosses a tail and Blaine tosses a\nhead, which will occur with probability 2\n3 · 2\n5 =\n4\n15. The probability\nthat it is Amelia who wins is therefore\n1\n3\n1\n3 + 4\n15\n= 5\n9.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q21",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "Let P(x) be the unique polynomial of minimal degree with the following properties:\nP(x) has leading coefﬁcient 1, 1 is a root of P(x)−1, 2 is a root of P(x−2), 3 is a root of P(3x),\n4 is a root of 4P(x)\nThe roots of P(x) are integers, with one exception. The root that is not an integer can be written\nin the form m\nn , where m and n are relatively prime positive integers. What is m + n?",
+    "answer_choices": {
+      "A": "41",
+      "B": "43",
+      "C": "45",
+      "D": "47",
+      "E": "49"
+    },
+    "correct_answer": "D",
+    "solution_text": "In the ﬁrst ﬁgure △FEB ∼△DCE, so\nx\n3−x = 4−x\nx\nand x = 12\n7 . In the second ﬁgure, the small triangles are similar to\nthe large one, so the lengths of the portions of the side of length 3 are\nas shown. Solving 3\n5y + 5\n4y = 3 yields y = 60\n37. Thus x\ny = 12\n7 · 37\n60 = 37\n35.\n4 −x\n3 −x\nx\nx\nA\nD\nE\nF\nC\nB\ny\ny\n3\n5y\n5\n4y",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q23",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Positive integer divisors a and b of n are called complementary if ab = n. Given that N has a pair\nof complementary divisors that differ by 20 and a pair of complementary divisors that differ by\n23, ﬁnd the sum of the digits of N.",
+    "answer_choices": {
+      "A": "11",
+      "B": "13",
+      "C": "15",
+      "D": "17",
+      "E": "19"
+    },
+    "correct_answer": "B",
+    "solution_text": "There are\n\u001f25\n3\n\n= 25·24·23\n6\n= 2300 ways to choose three\nvertices, but in some cases they will fall on a line. There are 5·\n\u001f5\n3\n\n= 50\nthat fall on a horizontal line, another 50 that fall on a vertical line,\n\u001f5\n3\n\n+2\n\u001f4\n3\n\n+2\n\u001f3\n3\n\n= 20 that fall on a line with slope 1, another 20 that\nfall on a line with slope −1, and 3 each that fall on lines with slopes 2,\n−2, 1\n2, and −1\n2. Therefore the answer is 2300−50−50−20−20−12 =\n2148.",
+    "has_image": false
+  },
+  {
+    "id": "2023-AMC10A-Q24",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Six regular hexagonal blocks of side length 1 unit are arranged inside a regular hexagonal frame.\nEach block lies along an inside edge of the frame and is aligned with two other blocks, as shown\nin the ﬁgure below. The distance from any corner of the frame to the nearest vertex of a block\nis 3\n7 unit. What is the area of the region inside the frame not occupied by the blocks?",
+    "answer_choices": {
+      "A": "13\n√\n3\n3",
+      "B": "216\n√\n3\n49",
+      "C": "9\n√\n3\n2",
+      "D": "14\n√\n3\n3",
+      "E": "243\n√\n3\n49"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let q be the additional root of f(x). Then\nf(x) = (x −q)(x3 + ax2 + x + 10)\n= x4 + (a −q)x3 + (1 −qa)x2 + (10 −q)x −10q.\nThus 100 = 10−q, so q = −90 and c = −10q = 900. Also 1 = a−q =\na + 90, so a = −89. It follows, using the factored form of f shown\nabove, that f(1) =\n\n1−(−90)\n\n·(1−89+1+10) = 91·(−77) = −7007.",
+    "has_image": true
+  },
+  {
+    "id": "2023-AMC10A-Q25",
+    "year": 2023,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "If A and B are vertices of a polyhedron, deﬁne the distance d(A, B) to be the minimum number\nof edges of the polyhedron one must traverse in order to connect A and B. For example, if AB\nis an edge of the polyhedron, then d(A, B) = 1, but if AC and CB are edges and AB is not\nan edge, then d(A, B) = 2. Let Q, R, and S be randomly chosen distinct vertices of a regular\nicosahedron (regular polyhedron made up of 20 equilateral triangles). What is the probability\nthat d(Q, R) > d(R, S)?",
+    "answer_choices": {
+      "A": "7\n22",
+      "B": "1\n3",
+      "C": "3\n8",
+      "D": "5\n12",
+      "E": "1\n2"
+    },
+    "correct_answer": "A",
+    "solution_text": "Recall the divisibility test for 11: A three-digit num-\nber a b c is divisible by 11 if and only if a −b + c is divisible by 11.\nThe smallest and largest three-digit multiples of 11 are, respectively,\n110 = 10·11 and 990 = 90·11, so the number of three-digit multiples\nof 11 is 90 −10 + 1 = 81. They may be grouped as follows:\n•\nThere are 9 multiples of 11 that have the form a a 0 for 1 ≤a ≤9.\nThey can each be permuted to form a total of 2 three-digit integers. In\neach case a a 0 is a multiple of 11 and a 0 a is not, so these 9 multiples\nof 11 give 18 integers with the required property.\n•\nThere are 8 multiples of 11 that have the form a b a, namely 121,\n242, 363, 484, 616, 737, 858, and 979. They can each be permuted to\nform a total of 3 three-digit integers. In each case a b a is a multiple\n\n2017 AMC 10A Solutions\n10\nof 11, but neither a a b nor b a a is, so these 8 multiples of 11 give 24\nintegers with the required property.\n•\nIf a three-digit multiple of 11 has distinct digits and one digit is 0,\nit must have the form a 0 c with a+c = 11. There are 8 such integers,\nnamely 209, 308, 407, . . . , 902. They can each be permuted to form\na total of 4 three-digit integers, but these 8 multiples of 11 give only\n4 distinct sets of permutations, leading to 4 · 4 = 16 integers with the\nrequired property.\n•\nThe remaining 81 −(9 + 8 + 8) = 56 three-digit multiples of 11\nall have the form a b c, where a, b, and c are distinct nonzero digits.\nThey can each be permuted to form a total of 6 three-digit integers,\nand in each case both a b c and c b a—and only these—are multiples\nof 11. Therefore these 56 multiples of 11 give only 28 distinct sets\nof permutations, leading to 28 · 6 = 168 integers with the required\nproperty.\nThe total number of integers with the required property is 18 + 24 +\n16 + 168 = 226.\nProblems and solutions were contributed by Stephen Adams, Paul Baird-\nSmith, Steven Davis, Marta Eso, Silvia Fernandez, Peter Gilchrist, Jerrold\nGrossman, Jonathan Kane, Joe Kennedy, Michael Khoury, Steven Miller,\nHugh Montgomery, Yasick Nemenov, Mark Saul, Walter Stromquist, Roger\nWaggoner, Dave Wells, and Carl Yerger.\n\nThe\nMAA American Mathematics Competitions\nare supported by\nAcademy of Applied Science\nAkamai Foundation\nAmerican Mathematical Society\nAmerican Statistical Association\nAnsatz Capital\nArmy Educational Outreach Program\nArt of Problem Solving\nCasualty Actuarial Society\nConference Board of the Mathematical Sciences\nThe DE Shaw Group\nDropbox\nExpii, Inc\nIDEA MATH, LLC\nJane Street Capital\nMathWorks\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nSimons Foundation\nSociety for Industrial and Applied Mathematics\nStar League\nSusquehanna International Group\nTudor Investment Corp\nTwo Sigma",
+    "has_image": false
+  }
+]

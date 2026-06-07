@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2024-AMC10B-Q01",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In a long line of people, the 1013th person from the left is also the 1010th person from the right.\nHow many people are in the line?",
+    "answer_choices": {
+      "A": "2021",
+      "B": "2022",
+      "C": "2023",
+      "D": "2024",
+      "E": "2025"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q02",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is 10! −7! · 6!?",
+    "answer_choices": {
+      "A": "−120",
+      "B": "0",
+      "C": "120",
+      "D": "600",
+      "E": "720"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q03",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "For how many integer values of x is |2x| ≤7π?",
+    "answer_choices": {
+      "A": "16",
+      "B": "17",
+      "C": "19",
+      "D": "20",
+      "E": "21"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q04",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Balls numbered 1, 2, 3, . . . are deposited in 5 bins, labeled A, B, C, D, and E, using the following\nprocedure. Ball 1 is deposited in bin A, and balls 2 and 3 are deposted in B. The next three\nballs are deposited in bin C, the next 4 in bin D, and so on, cycling back to bin A after balls are\ndeposited in bin E. (For example, 22, 23, . . . , 28 are despoited in bin B at step 7 of this process.)\nIn which bin is ball 2024 deposited?",
+    "answer_choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D",
+      "E": "E"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q05",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In the following expression, Melanie changed some of the plus signs to minus signs:\n1 + 3 + 5 + 7 + · · · + 97 + 99\nWhen the new expression was evaluated, it was negative. What is the least number of plus signs\nthat Melanie could have changed to minus signs?",
+    "answer_choices": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "17",
+      "E": "18"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q06",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A rectangle has integer side lengths and an area of 2024. What is the least possible perimeter\nof the rectangle?",
+    "answer_choices": {
+      "A": "160",
+      "B": "180",
+      "C": "222",
+      "D": "228",
+      "E": "390"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q07",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "What is the remainder when 7^{2024} + 7^{2025} + 7^{2026} is divided by 19?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "7",
+      "D": "11",
+      "E": "18"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q08",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let N be the product of all the positive integer divisors of 42. What is the units digit of N?",
+    "answer_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q09",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Real numbers a, b and c have arithmetic mean 0. The arithmetic mean of a^{2}, b^{2} and c^{2} is 10. What\nis the arithmetic mean of ab, ac and bc?",
+    "answer_choices": {
+      "A": "−5",
+      "B": "−10\n3",
+      "C": "−10\n9",
+      "D": "0",
+      "E": "10\n9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q10",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Quadrilateral ABCD is a parallelogram, and E is the midpoint of the side AD. Let F be the\nintersection of lines EB and AC. What is the ratio of the area of quadrilateral CDEF to the\narea of triangle CFB?",
+    "answer_choices": {
+      "A": "5 : 4",
+      "B": "4 : 3",
+      "C": "3 : 2",
+      "D": "5 : 3",
+      "E": "2 : 1"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q11",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In the ﬁgure below WXYZ is a rectangle with WX = 4 and WZ = 8. Point M lies on XY, point A lies on YZ, and ∠WMA is a right angle. The areas of △WXM and △WAZ are equal. What is the area of △WMA?",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2024-AMC10B-Q12",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A group of 100 students from different countries meet at a mathematics competition. Each\nstudent speaks the same number of languages, and, for every pair of students A and B, student\nA speaks some language that student B does not speak, and student B speaks some language\nthat student A does not speak. What is the least possible total number of languages spoken by\nall the students?",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "12",
+      "D": "51",
+      "E": "100"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q13",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Positive integers x and y satisfy the equation √x+√y =\n√\n1183. What is the minimum possible\nvalue of x + y?",
+    "answer_choices": {
+      "A": "585",
+      "B": "595",
+      "C": "623",
+      "D": "700",
+      "E": "791"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q14",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A dartboard is the region B in the coordinate plane consisting of points (x, y) such that |x|+|y| ≤\n8. A target T is the region where (x^{2} + y^{2} −25)^{2} ≤49. A dart is thrown at a random point in B.\nThe probability that the dart lands in T can be expressed as m\nn π, where m and n are relatively\nprime positive integers. What is m + n?",
+    "answer_choices": {
+      "A": "39",
+      "B": "71",
+      "C": "73",
+      "D": "75",
+      "E": "135"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q15",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A list of 9 real numbers consists of 1, 2.2, 3.2, 5.2, 6.2, 7, as well as x, y, z with x ≤y ≤z. The\nrange of the list is 7, and the mean and median are both positive integers. How many ordered\ntriples (x, y, z) are possible?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "inﬁnitely many"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q16",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Jerry likes to play with numbers. One day, he wrote all the integers from 1 to 2024 on the white-\nboard. Then he repeatedly chose four numbers on the whiteboard, erased them, and replaced\nthem with either their sum or their product. (For example, Jerry’s ﬁrst step might have been to\nerase 1, 2, 3, and 5, and then write either 11, their sum, or 30, their product, on the whiteboard.)\nAfter repeatedly performing this operation, Jerry noticed that all the remaining numbers on the\nboard were odd. What is the maximum possible number of integers on the board at that time?",
+    "answer_choices": {
+      "A": "1010",
+      "B": "1011",
+      "C": "1012",
+      "D": "1013",
+      "E": "1014"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q17",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In a race among 5 snails, there is at most one tie, but that tie can involve any number of snails.\nFor example, the result of the race might be that Dazzler is ﬁrst; Abby, Cyrus, and Elroy are tied\nfor second, and Bruna is ﬁfth. How many different results of the race are possible?",
+    "answer_choices": {
+      "A": "180",
+      "B": "361",
+      "C": "420",
+      "D": "431",
+      "E": "720"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q18",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "How many different remainders can result when the 100th power of an integer is divided by 125?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "25",
+      "E": "125"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q19",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "In the following table, each question mark is to be replaced by ”Possible” or ”Not Possible” to\nindicate whether a nonvertical line with the given slope can contain the given number of lattice\npoints (points both of whose coordinates are integers). How many of the 12 entries will be\n”Possible”?\nzero\nexactly one\nexactly two\nmore than two\nzero slope\n?\n?\n?\n?\nnonzero rational slope\n?\n?\n?\n?\nirrational slope\n?\n?\n?\n?",
+    "answer_choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q20",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Three different pairs of shoes are placed in a row so that no left shoe is next to a right shoe from a different pair. In how many ways can these six shoes be lined up?",
+    "answer_choices": {
+      "A": "60",
+      "B": "72",
+      "C": "90",
+      "D": "108",
+      "E": "120"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q21",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Two straight pipes (circular cylinders), with radii 1 and 1\n4, lie parallel and in contact on a ﬂat ﬂoor.\nThe ﬁgure below shows a head-on view. What is the sum of the possible radii of a third parallel\npipe lying on the same ﬂoor and in contact with both?",
+    "answer_choices": {
+      "A": "1\n9",
+      "B": "1",
+      "C": "10\n9",
+      "D": "11\n9",
+      "E": "19\n9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2024-AMC10B-Q22",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "A group of 16 people will be partitioned into 4 indistinguishable 4-person committees. Each\ncommittee will have one chairperson and one secretary. The number of different ways to make\nthese assignments can be written as 3^{r}M, where r and M are positive integers and M is not\ndivisible by 3. What is r?",
+    "answer_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q23",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "The Fibonacci numbers are defined by $F^{1}$ = 1, $F^{2}$ = 1, and $F^{n}$ = $F^{n-1}$ + $F^{n-2}$ for n ≥ 3. What is $\\frac{F^{2}}{F^{1}}$ + $\\frac{F^{4}}{F^{2}}$ + $\\frac{F^{6}}{F^{3}}$ + · · · + $\\frac{F^{20}}{F^{10}}$?",
+    "answer_choices": {
+      "A": "318",
+      "B": "319",
+      "C": "320",
+      "D": "321",
+      "E": "322"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": false
+  },
+  {
+    "id": "2024-AMC10B-Q24",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Let\nP(m) = m\n2 + m^{2}\n4 + m^{4}\n8 + m^{8}\n8 .\nHow many of the values of P(2022), P(2023), P(2024), and P(2025) are integers?",
+    "answer_choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  },
+  {
+    "id": "2024-AMC10B-Q25",
+    "year": 2024,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Other",
+    "difficulty": "medium",
+    "problem_text": "Each of 27 bricks (right rectangular prisms) has dimensions a × b × c, where a, b, and c are\npairwise relatively prime positive integers. These bricks are arranged to form a 3 × 3 × 3 block,\nas shown on the left below. A 28[sup]th[/sup] brick with the same dimensions is introduced, and\nthese bricks are reconﬁgured into a 2 × 2 × 7 block, shown on the right. The new block is 1 unit\ntaller, 1 unit wider, and 1 unit deeper than the old one. What is a + b + c?\n\npng",
+    "answer_choices": {
+      "A": "88",
+      "B": "89",
+      "C": "90",
+      "D": "91",
+      "E": "92\n–"
+    },
+    "correct_answer": null,
+    "solution_text": null,
+    "has_image": true
+  }
+]

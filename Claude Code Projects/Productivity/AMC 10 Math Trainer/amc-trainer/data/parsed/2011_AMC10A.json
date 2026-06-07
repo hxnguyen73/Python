@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2011-AMC10A-Q01",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A cell phone plan costs $20 each month, plus 5¢ per text message sent, plus 10¢ for each minute\nused over 30 hours. In January Michelle sent 100 text messages and talked for 30.5 hours. How\nmuch did she have to pay?",
+    "answer_choices": {
+      "A": "$24.00",
+      "B": "$24.50",
+      "C": "$25.50",
+      "D": "$28.00",
+      "E": "$30.00"
+    },
+    "correct_answer": "D",
+    "solution_text": "The text messages cost $0.05 · 100 = $5.00, and the 30 minutes\nof excess chatting cost $0.10 · 30 = $3.00.\nTherefore the total bill came to\n$5 + $3 + $20 = $28.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q02",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "A small bottle of shampoo can hold 35 milliliters of shampoo, whereas a large bottle can hold\n500 milliliters of shampoo. Jasmine wants to buy the minimum number of small bottles neces-\nsary to completely ﬁll a large bottle. How many bottles must she buy?",
+    "answer_choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because 14 · 35 = 490 < 500 and 15 · 35 = 525 ≥500, the\nminimum number of bottles that she needs to buy is 15.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q03",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Suppose [a b] denotes the average of a and b, and {a b c} denotes the average of a, b, and c.\nWhat is {{1 1 0} [0 1] 0}?",
+    "answer_choices": {
+      "A": "2\n9",
+      "B": "5\n18",
+      "C": "1\n3",
+      "D": "7\n18",
+      "E": "2\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "First note that {1 1 0} = 2\n3 and [0 1] = 1\n2. Therefore\n{{1 1 0} [0 1] 0} = {2\n3\n1\n2 0} =\n2\n3 + 1\n2 + 0\n3\n= 7\n18 .",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q04",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Sequences & Series",
+    "difficulty": "easy",
+    "problem_text": "Let X and Y be the following sums of arithmetic sequences:\nX\n=\n10 + 12 + 14 + · · · + 100,\nY\n=\n12 + 14 + 16 + · · · + 102.\nWhat is the value of Y −X?",
+    "answer_choices": {
+      "A": "92",
+      "B": "98",
+      "C": "100",
+      "D": "102",
+      "E": "112"
+    },
+    "correct_answer": "A",
+    "solution_text": "Every term in X except 10 appears in Y . Every term in Y\nexcept 102 appears in X. Therefore Y −X = 102 −10 = 92.\nOR\nThe sum X has 46 terms because it includes all 50 even positive integers less\nthan or equal to 100 except for 2, 4, 6, and 8. The sum Y has the same number of\nterms, and every term in Y exceeds the corresponding term in X by 2. Therefore\nY −X = 46 · 2 = 92.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q05",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "At an elementary school, the students in third grade, fourth grade, and ﬁfth grade run an aver-\nage of 12, 15, and 10 minutes per day, respectively. There are twice as many third graders as\nfourth graders, and twice as many fourth graders as ﬁfth graders. What is the average number\nof minutes run per day by these students?",
+    "answer_choices": {
+      "A": "12",
+      "B": "37\n3",
+      "C": "88\n7",
+      "D": "13",
+      "E": "14"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let N equal the number of ﬁfth graders. Then there are 2N\nfourth graders and 4N third graders.\nThe total number of minutes run per\nday by the students is 4N · 12 + 2N · 15 + N · 10 = 88N. There are a total of\n4N + 2N + N = 7N students, so the average number of minutes run by the\nstudents per day is 88N\n7N = 88\n7 .",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q06",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Set A has 20 elements, and set B has 15 elements. What is the smallest possible number of\nelements in A ∪B, the union of A and B?",
+    "answer_choices": {
+      "A": "5",
+      "B": "15",
+      "C": "20",
+      "D": "35",
+      "E": "300"
+    },
+    "correct_answer": "C",
+    "solution_text": "The union must contain all of the elements of A, so it has at\nleast 20 elements. It is possible that B is a subset of A, in which case there are\nno additional elements.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q07",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Which of the following equations does NOT have a solution?",
+    "answer_choices": {
+      "A": "(x + 7)^{2} = 0",
+      "B": "| −3x| + 5 = 0",
+      "C": "√−x −2 = 0",
+      "D": "√x −8 = 0",
+      "E": "| −3x| −4 = 0"
+    },
+    "correct_answer": "B",
+    "solution_text": "Because |−3x|+5 is strictly positive, the equation |−3x|+5 = 0\nhas no solution. The solutions of equations (A), (C), (D), and (E) are −7,\n−4, 64, and ± 4\n3, respectively.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q08",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Last summer 30% of the birds living on Town Lake were geese, 25% were swans, 10% were\nherons, and 35% were ducks. What percent of the birds that were not swans were geese?",
+    "answer_choices": {
+      "A": "20",
+      "B": "30",
+      "C": "40",
+      "D": "50",
+      "E": "60"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because 75% of the birds were not swans and 30% of the birds\nwere geese, it follows that 30\n75 · 100% = 40% of the birds that were not swans\nwere geese.\n\nSolutions\n2011 AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q09",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A rectangular region is bounded by the graphs of the equations y = a, y = −b, x = −c, and\nx = d, where a, b, c, and d are all positive numbers. Which of the following represents the area\nof this region?",
+    "answer_choices": {
+      "A": "ac + ad + bc + bd",
+      "B": "ac −ad + bc −bd",
+      "C": "ac + ad −bc −bd",
+      "D": "−ac −ad +\nbc + bd",
+      "E": "ac −ad −bc + bd"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because a, b, c, and d are positive numbers, a > −b and d > −c.\nTherefore the height of the rectangle is a + b and the width is c + d. The area\nof the region is (a + b)(c + d) = ac + ad + bc + bd.\nx\ny\nx=d\nx=–c\ny=a\ny=–b",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q10",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "A majority of the 30 students in Ms. Deameanor’s class bought pencils at the school bookstore.\nEach of these students bought the same number of pencils, and this number was greater than\n1. The cost of a pencil in cents was greater than the number of pencils each student bought,\nand the total cost of all the pencils was $17.71. What was the cost of a pencil in cents?",
+    "answer_choices": {
+      "A": "7",
+      "B": "11",
+      "C": "17",
+      "D": "23",
+      "E": "77"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let C be the cost of a pencil in cents, N be the number of\npencils each student bought, and S be the number of students who bought\npencils. Then C · N · S = 1771 = 7 · 11 · 23, and C > N > 1. Because a majority\nof the students bought pencils, 30 ≥S > 30\n2 = 15. Therefore S = 23, N = 7,\nand C = 11.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q11",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Square EFGH has one vertex on each side of square ABCD. Point E is on AB with AE =\n7 · EB. What is the ratio of the area of EFGH to the area of ABCD?",
+    "answer_choices": {
+      "A": "49\n64",
+      "B": "25\n32",
+      "C": "7\n8",
+      "D": "5\n√\n2\n8",
+      "E": "√\n14\n4"
+    },
+    "correct_answer": "B",
+    "solution_text": "Without loss of generality, assume that F lies on BC and\nthat EB = 1.\nThen AE = 7 and AB = 8.\nBecause EFGH is a square,\nBF = AE = 7, so the hypotenuse EF of △EBF has length\n√\n12 + 72 =\n√\n50.\nThe ratio of the area of EFGH to that of ABCD is therefore\nEF 2\nAB2 = 50\n64 = 25\n32.\nA\nB\nC\nD\nE\nF\nG\nH\n1\n7\n\nSolutions\n2011 AMC 10 A\n4",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q12",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "The players on a basketball team made some three-point shots, some two-point shots, and\nsome one-point free throws. They scored as many points with two-point shots as with three-\npoint shots. Their number of successful free throws was one more than their number of suc-\ncessful two-point shots. The team’s total score was 61 points. How many free throws did they\nmake?",
+    "answer_choices": {
+      "A": "13",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "17"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let x, y, and z be the number of successful three-point shots,\ntwo-point shots, and free throws, respectively. Then the given conditions imply\n3x + 2y + z = 61,\n2y = 3x, and\ny + 1 = z.\nSolving results in x = 8, y = 12, and z = 13. Hence the team made 13 free\nthrows.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q13",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "How many even integers are there between 200 and 700 whose digits are all different and come\nfrom the set 1,2,5,7,8,9?",
+    "answer_choices": {
+      "A": "12",
+      "B": "20",
+      "C": "72",
+      "D": "120",
+      "E": "200"
+    },
+    "correct_answer": "A",
+    "solution_text": "Because the numbers are even, they must end in either 2 or 8.\nIf the last digit is 2, the ﬁrst digit must be 5 and thus there are four choices\nremaining for the middle digit. If the last digit is 8, then there are two choices\nfor the ﬁrst digit, either 2 or 5, and for each choice there are four possibilities\nfor the middle digit. The total number of choices is then 4 + 2 · 4 = 12.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q14",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "A pair of standard 6-sided fair dice is rolled once. The sum of the numbers rolled determines\nthe diameter of a circle. What is the probability that the numerical value of the area of the circle\nis less than the numerical value of the circle’s circumference?",
+    "answer_choices": {
+      "A": "1\n36",
+      "B": "1\n12",
+      "C": "1\n6",
+      "D": "1\n4",
+      "E": "5"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let d be the sum of the numbers rolled. The conditions are\nsatisﬁed if and only if π\n\u001f d\n2\n\u001e2 < πd, that is, d < 4. Of the 36 equally likely\noutcomes for the roll of the two dice, one has a sum of 2 and two have sums of\n3. Thus the desired probability is 1+2\n36 =\n1\n12.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q15",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Roy bought a new battery-gasoline hybrid car. On a trip the car ran exclusively on its battery for\nthe ﬁrst 40 miles, then ran exclusively on gasoline for the rest of the trip, using gasoline at a rate\nof 0.02 gallons per mile. On the whole trip he averaged 55 miles per gallon. How long was the\ntrip in miles?",
+    "answer_choices": {
+      "A": "140",
+      "B": "240",
+      "C": "440",
+      "D": "640",
+      "E": "840"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let x be the number of miles driven exclusively on gasoline.\nThen the total number of miles traveled is x + 40, and the amount of gas used\nis 0.02x gallons. Therefore the average number of miles per gallon is\nx + 40\n0.02x = 55 .\nSolving results in x = 400, so the total number of miles traveled is 440.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q16",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Which of the following is equal to\np\n9 −6\n√\n2 +\np\n9 + 6\n√\n2?",
+    "answer_choices": {
+      "A": "3\n√\n2",
+      "B": "2\n√\n6",
+      "C": "7\n√\n2\n2",
+      "D": "3\n√\n3",
+      "E": "6"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let k =\n\n9 −6\n√\n2 +\n\n9 + 6\n√\n2.\nSquaring both sides and\nsimplifying results in\nk2 = 9 −6\n√\n2 + 2\n\n(9 −6\n√\n2)(9 + 6\n√\n2) + 9 + 6\n√\n2\n= 18 + 2\n√\n81 −72\n= 18 + 2\n√\n9\n= 24\nBecause k > 0, k = 2\n√\n6.\n\nSolutions\n2011 AMC 10 A\n5",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q17",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "In the eight-term sequence A, B, C, D, E, F, G, H, the value of C is 5 and the sum of any three\nconsecutive terms is 30. What is A + H?",
+    "answer_choices": {
+      "A": "17",
+      "B": "18",
+      "C": "25",
+      "D": "26",
+      "E": "43"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that for any four consecutive terms, the ﬁrst and last terms\nmust be equal. For example, consider B, C, D, and E; because\nB + C + D = 30 = C + D + E ,\nwe must have B = E. Hence A = D = G, and C = F = 5. The required sum\nA + H = G + (30 −G −F) = 30 −5 = 25.\nOR\nNote that\nA + C + H = (A + B + C) −(B + C + D) + (C + D + E)\n−(E + F + G) + (F + G + H)\n= 3 · 30 −2 · 30 = 30.\nHence A + H = 30 −C = 25.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q18",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Circles A, B, and C each have radius 1. Circles A and B share one point of tangency. Circle C\nhas a point of tangency with the midpoint of AB. What is the area inside Circle C but outside\ncircle A and circle B ?",
+    "answer_choices": {
+      "A": "3 −π\n2",
+      "B": "π\n2",
+      "C": "2",
+      "D": "3π\n4",
+      "E": "1 + π\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let D be the midpoint of AB, and let circle C intersect circles\nA and B at E and F, respectively, distinct from D. The shaded portion of unit\nsquare ADCE has area 1−π\n4 , as does the shaded portion of unit square BDCF.\nThe portion of the shaded region which is outside these squares is a semicircle\nof radius 1 and has area π\n2 . The total shaded area is 2\n\n1 −π\n4\n\n+ π\n2 = 2.\nOR\nLet D, E, and F be deﬁned as in the ﬁrst solution, and let G be diametrically\nopposite D on circle C. The shaded area is equal to the area of square DFGE,\nwhich has diagonal length 2. Its side length is\n√\n2, and its area is\n\u001f√\n2\n\u001e2 = 2.\nA\nB\nC\nD\nE\nF\nG",
+    "has_image": true
+  },
+  {
+    "id": "2011-AMC10A-Q19",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "In 1991 the population of a town was a perfect square. Ten years later, after an increase of\n150 people, the population was 9 more than a perfect square. Now, in 2011, with an increase\nof another 150 people, the population is once again a perfect square. Which of the following is\nclosest to the percent growth of the town’s population during this twenty-year period?",
+    "answer_choices": {
+      "A": "42",
+      "B": "47",
+      "C": "52",
+      "D": "57",
+      "E": "62"
+    },
+    "correct_answer": "E",
+    "solution_text": "Let p2, q2 +9, and r2 = p2 +300 be the populations of the town\nin 1991, 2001, and 2011, respectively. Then q2 + 9 = p2 + 150, so q2 −p2 = 141.\nTherefore (q −p)(q + p) = 141, and so either q −p = 3 and q + p = 47, or\nq −p = 1 and q + p = 141. These give p = 22 or p = 70. Note that if p = 70,\nthen 702 + 300 = 5200 = 52 · 102, which is not a perfect square. Thus p = 22,\np2 = 484, p2 + 150 = 634 = 252 + 9, and p2 + 300 = 784 = 282. The percent\ngrowth from 1991 to 2011 was 784−484\n484\n≈62%.\n\nSolutions\n2011 AMC 10 A\n6",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q20",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Two points on the circumference of a circle of radius r are selected independently and at ran-\ndom. From each point a chord of length r is drawn in a clockwise direction. What is the probability\nthat the two chords intersect?",
+    "answer_choices": {
+      "A": "1\n6",
+      "B": "1\n5",
+      "C": "1\n4",
+      "D": "1\n3",
+      "E": "1\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let point A be the ﬁrst point chosen, and let point B be\nthe opposite endpoint of the corresponding chord. Drawing a radius to each\nendpoint of this chord of length r results in an equilateral triangle. Hence a\nchord of length r subtends an arc 1\n6 the circumference of the circle. Let diameter\nFC be parallel to AB, and divide the circle into six equal portions as shown.\nThe second point chosen will result in a chord that intersects AB if and only if\nthe point is chosen from minor\n\nFB. Hence the probability is 1\n3.\nA\nB\nC\nD\nE\nF\nr\nr\nr",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q21",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Two counterfeit coins of equal weight are mixed with 8 identical genuine coins. The weight of\neach of the counterfeit coins is different from the weight of each of the genuine coins. A pair of\ncoins is selected at random without replacement from the 10 coins. A second pair is selected at\nrandom without replacement from the remaining 8 coins. The combined weight of the ﬁrst pair\nis equal to the combined weight of the second pair. What is the probability that all 4 selected\ncoins are genuine?",
+    "answer_choices": {
+      "A": "7\n11",
+      "B": "9\n13",
+      "C": "11\n15",
+      "D": "15\n19",
+      "E": "15"
+    },
+    "correct_answer": "D",
+    "solution_text": "The weights of the two pairs of coins are equal if each pair\ncontains the same number of counterfeit coins. Therefore either the ﬁrst pair\nand the second pair both contain only genuine coins, or the ﬁrst pair and the\nsecond pair both contain one counterfeit coin. The number of ways to choose\nthe coins in the ﬁrst case is\n\u001d8\n2\n\n·\n\u001d6\n2\n\n= 420. The number of ways to choose the\ncoins in the second case is 8 · 2 · 7 · 1 = 112. Therefore the requested probability\nis\n420\n112+420 = 15\n19.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q22",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 22,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Each vertex of convex pentagon ABCDE is to be assigned a color. There are 6 colors to choose\nfrom, and the ends of each diagonal must have different colors. How many different colorings\nare possible?",
+    "answer_choices": {
+      "A": "2520",
+      "B": "2880",
+      "C": "3120",
+      "D": "3250",
+      "E": "3750"
+    },
+    "correct_answer": "C",
+    "solution_text": "If ﬁve distinct colors are used, then there are\n\u001d6\n5\n\n= 6 diﬀerent\ncolor choices possible. They may be arranged in 5! = 120 ways on the pentagon,\nresulting in 120 · 6 = 720 colorings.\nIf four distinct colors are used, then there is one duplicated color, so there are\n\u001d6\n4\n\u001c\u001d4\n1\n\n= 60 diﬀerent color choices possible. The duplicated color must appear\non neighboring vertices. There are 5 neighbor choices and 3! = 6 ways to color\nthe remaining three vertices, resulting in a total of 60 · 5 · 6 = 1800 colorings.\nIf three distinct colors are used, then there must be two duplicated colors, so\nthere are\n\u001d6\n3\n\u001c\u001d3\n2\n\n= 60 diﬀerent color choices possible. The non-duplicated color\nmay appear in 5 locations. As before, a duplicated color must appear on neigh-\nboring vertices, so there are 2 ways left to color the remaining vertices. In this\ncase there are 60 · 5 · 2 = 600 colorings possible.\nThere are no colorings with two or fewer colors. The total number of colorings\nis 720 + 1800 + 600 = 3120.\n\nSolutions\n2011 AMC 10 A\n7",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q23",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Seven students count from 1 to 1000 as follows:\n-Alice says all the numbers, except she skips the middle number in each consecutive group of\nthree numbers. That is, Alice says 1, 3, 4, 6, 7, 9, · · · , 997, 999, 1000.\n-Barbara says all of the numbers that Alice doesn’t say, except she also skips the middle number\nin each consecutive group of three numbers.\n-Candice says all of the numbers that neither Alice nor Barbara says, except she also skips the\nmiddle number in each consecutive group of three numbers.\n-Debbie, Eliza, and Fatima say all of the numbers that none of the students with the ﬁrst names\nbeginning before theirs in the alphabet say, except each also skips the middle number in each\nof her consecutive groups of three numbers.\n-Finally, George says the only number that no one else says.\nWhat number does George say?",
+    "answer_choices": {
+      "A": "37",
+      "B": "242",
+      "C": "365",
+      "D": "728",
+      "E": "998"
+    },
+    "correct_answer": "C",
+    "solution_text": "After each person counts, the numbers left for the next person\nform an arithmetic progression. For example, Alice leaves all of the numbers\n2, 5, 8, 11, 14, . . . , 2 + 3 · 332 for Barbara.\nIf a student leaves the progression\na, a + d, a + 2d, a + 3d, a + 4d, . . . , then the next student leaves the progression\na + d, (a + d) + 3d, (a + d) + 6d, . . . .\nThis implies that in the following table, each number in the third column is\nthree times the previous entry in the third column, and each entry in the second\ncolumn is the sum of the two entries in the row above:\nLeft for\nFirst Term\nCommon Diﬀerence\nAlice\n1\n1\nBarbara\n2\n3\nCandice\n5\n9\nDebbie\n14\n27\nEliza\n41\n81\nFatima\n122\n243\nGeorge\n365\n729\nGeorge is left with the single term 365.\nOR\nThe numbers skipped by Alice are the middle numbers in each consecutive group\nof 3, that is, 2, 5, 8, and so on. The numbers skipped by Alice and Barbara are\nthe middle numbers in each group of 9, that is, 5, 14, 23, and so on. In general,\nthe numbers skipped by all of the ﬁrst n students are the middle numbers in\neach group of 3n. Because 36 = 729, the only number not exceeding 1000 that\nis skipped by the ﬁrst six students is 729+1\n2\n= 365. That is the number that\nGeorge says.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q24",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Two distinct regular tetrahedra have all their vertices among the vertices of the same unit cube.\nWhat is the volume of the region formed by the intersection of the tetrahedra?",
+    "answer_choices": {
+      "A": "1\n12",
+      "B": "√\n2\n12",
+      "C": "√\n3\n12",
+      "D": "1\n6",
+      "E": "√\n2\n6"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the tetrahedra be T1 and T2, and let R be their intersection.\nLet squares ABCD and EFGH, respectively, be the top and bottom faces of\nthe unit cube, with E directly under A and F directly under B. Without loss\nof generality, T1 has vertices A, C, F, and H, and T2 has vertices B, D, E, and\nG. One face of T1 is △ACH, which intersects edges of T2 at the midpoints J,\nK, and L of AC, CH, and HA, respectively. Let S be the tetrahedron with\nvertices J, K, L, and D. Then S is similar to T2 and is contained in T2, but not\nin R. The other three faces of T1 each cut oﬀfrom T2 a tetrahedron congruent\nto S. Therefore the volume of R is equal to the volume of T2 minus four times\nthe volume of S.\nA regular tetrahedron of edge length s has base area\n√\n3\n4 s2 and altitude\n√\n6\n3 s,\nso its volume is 1\n3\n\u001f √\n3\n4 s2\u001e \u001f √\n6\n3 s\n\n=\n√\n2\n12 s3. Because the edges of tetrahedron T2\nare face diagonals of the cube, T2 has edge length\n√\n2. Because J and K are\n\nSolutions\n2011 AMC 10 A\n8\ncenters of adjacent faces of the cube, tetrahedron S has edge length\n√\n2\n2 . Thus\nthe volume of R is\n√\n2\n12\n\n(\n√\n2)3 −4\n\u001d√\n2\n2\n\u001c3\n= 1\n6.\nOR\nLet T1 and T2 be labeled as in the previous solution. The cube is partitioned\nby T1 and T2 into 8 tetrahedra congruent to DJKL (one for every vertex of the\ncube), 12 tetrahedra congruent to AJLD (one for every edge of the cube), and\nthe solid T1 ∩T2. Because the bases AJL and JLK are equilateral triangles\nwith the same area, and the altitudes to vertex D of the tetrahedra AJLD and\nDJKL are the same, it follows that the volumes of AJLD and DJKL are equal.\nMoreover,\nVolume(AJLD) = 1\n3Area(ALD) · hJ,\nwhere hJ = 1\n2 is the distance from J to the face ALD, and Area(ALD) = 1\n4.\nTherefore Volume(AJLD) = 1\n3 · 1\n4 · 1\n2 =\n1\n24, and thus the volume of T1 ∩T2 is\nequal to 1 −(8 + 12) · 1\n24 = 1\n6.",
+    "has_image": false
+  },
+  {
+    "id": "2011-AMC10A-Q25",
+    "year": 2011,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Let R be a square region and n ≥4 an integer. A point X in the interior of R is called n-ray\npartitional if there are n rays emanating from X that divide R into n triangles of equal area. How\nmany points are 100-ray partitional but not 60-ray partitional?",
+    "answer_choices": {
+      "A": "1500",
+      "B": "1560",
+      "C": "2320",
+      "D": "2480",
+      "E": "2500"
+    },
+    "correct_answer": "C",
+    "solution_text": "Assume without loss of generality that R is bounded by the\nsquare with vertices A = (0, 0), B = (1, 0), C = (1, 1), and D = (0, 1), and let\nX = (x, y) be n-ray partitional. Because the n rays partition R into triangles,\nthey must include the rays from X to A, B, C, and D. Let the number of\nrays intersecting the interiors of AB, BC, CD, and DA be n1, n2, n3, and n4,\nrespectively. Because △ABX ∪△CDX has the same area as △BCX ∪△DAX,\n\nSolutions\n2011 AMC 10 A\n9\nit follows that n1 + n3 = n2 + n4 = n\n2 −2, so n is even. Furthermore, the n1 + 1\ntriangles with one side on AB have equal area, so each has area 1\n2 ·\n1\nn1+1 · y.\nSimilarly, the triangles with sides on BC, CD, and DA have areas 1\n2·\n1\nn2+1·(1−x),\n1\n2 ·\n1\nn3+1 · (1 −y), and 1\n2 ·\n1\nn4+1 · x, respectively. Setting these expressions equal\nto each other gives\nx =\nn4 + 1\nn2 + n4 + 2 = 2(n4 + 1)\nn\nand y =\nn1 + 1\nn1 + n3 + 2 = 2(n1 + 1)\nn\n.\nThus an n-ray partitional point must have the form X = ( 2a\nn , 2b\nn ) with 1 ≤a < n\n2\nand 1 ≤b < n\n2 . Conversely, if X has this form, R is partitioned into n triangles\nof equal area by the rays from X that partition AB, BC, CD, and DA into b,\nn\n2 −a, n\n2 −b, and a congruent segments, respectively.\nAssume X is 100-ray partitional.\nIf X is also 60-ray partitional, then X =\n( a\n50, b\n50) = ( c\n30, d\n30) for some integers 1 ≤a, b ≤49 and 1 ≤c, d ≤29. Thus\n3a = 5c and 3b = 5d; that is, both a and b are multiples of 5. Conversely, if a\nand b are multiples of 5, then\nX =\n\u001f a\n50, b\n50\n\n=\n\n3a\n5\n30 ,\n3b\n5\n30\n\nis 60-ray partitional. Because there are exactly 9 multiples of 5 between 1 and\n49, the required number of points X is equal to 492 −92 = 40 · 58 = 2320.\n\nThe\nAmerican Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCasualty Actuarial Society\nD.E. Shaw & Co.\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nJane Street\nMathPath\nMath Zoom Academy\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nThe problems and solutions in this contest were proposed by Bernardo Abrego,\nBetsy Bennett, Steve Dunbar, Michelle Ghrist, Peter Gilchrist, Jerrold Grossman,\nDan Kennedy, Joe Kennedy, David Torney, David Wells, LeRoy Wenstrom, and Ron\nYannone.",
+    "has_image": false
+  }
+]

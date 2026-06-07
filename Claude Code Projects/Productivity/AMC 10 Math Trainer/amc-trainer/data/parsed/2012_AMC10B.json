@@ -1,0 +1,477 @@
+[
+  {
+    "id": "2012-AMC10B-Q01",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "Each third-grade classroom at Pearl Creek Elementary has 18 students and 2 pet rabbits. How\nmany more students than rabbits are there in all 4 of the third-grade classrooms?",
+    "answer_choices": {
+      "A": "48",
+      "B": "56",
+      "C": "64",
+      "D": "72",
+      "E": "80"
+    },
+    "correct_answer": "C",
+    "solution_text": "There are 18−2 = 16 more students than rabbits per classroom.\nAltogether there are 4 · 16 = 64 more students than rabbits.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q02",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A circle of radius 5 is inscribed in a rectangle as shown. The ratio of the the length of the rect-\nangle to its width is 2 : 1. What is the area of the rectangle?",
+    "answer_choices": {
+      "A": "50",
+      "B": "100",
+      "C": "125",
+      "D": "150",
+      "E": "200"
+    },
+    "correct_answer": "E",
+    "solution_text": "The width of the rectangle is the diameter of the circle, so the\nwidth is 2 · 5 = 10. The length of the rectangle is 2 · 10 = 20. Therefore the area\nof the rectangle is 10 · 20 = 200.",
+    "has_image": true
+  },
+  {
+    "id": "2012-AMC10B-Q03",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "The point in the xy-plane with coordinates (1000, 2012) is reﬂected across line y = 2000. What\nare the coordinates of the reﬂected point?",
+    "answer_choices": {
+      "A": "(998, 2012)",
+      "B": "(1000, 1988)",
+      "C": "(1000, 2024)",
+      "D": "(1000, 4012)",
+      "E": "(1012, 2012)"
+    },
+    "correct_answer": "B",
+    "solution_text": "The given point is 12 units above the horizontal line y = 2000.\nThe reﬂected point will be 12 units below the line, and 24 units below the given\npoint. The coordinates of the reﬂected point are (1000, 1988).",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q04",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "When Ringo places his marbles into bags with 6 marbles per bag, he has 4 marbles left over.\nWhen Paul does the same with his marbles, he has 3 marbles left over. Ringo and Paul pool\ntheir marbles and place them into as many bags as possible, with 6 marbles per bag. How\nmany marbles will be left over?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "A",
+    "solution_text": "The 7 marbles left over will ﬁll one more bag of 6 marbles\nleaving 1 marble left over.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q05",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Anna enjoys dinner at a restaurant in Washington, D.C., where the sales tax on meals is 10%.\nShe leaves a 15% tip on the prices of her meal before the sales tax is added, and the tax is\ncalculated on the pre-tip amount. She spends a total of 27.50 for dinner. What is the cost of here\ndinner without tax or tip?",
+    "answer_choices": {
+      "A": "$18",
+      "B": "$20",
+      "C": "$21",
+      "D": "$22",
+      "E": "$24"
+    },
+    "correct_answer": "D",
+    "solution_text": "Tax is 10% and tip is 15%, so her total cost is 100% + 10% +\n15% = 125% of her meal. Thus her meal costs $27.50\n1.25 = $22.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q06",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "In order to estimate the value of x −y where x and y are real numbers with x > y > 0, Xiaoli\nrounded x up by a small amount, rounded y down by the same amount, and then subtracted her\nvalues. Which of the following statements is necessarily correct?",
+    "answer_choices": {
+      "A": "Her estimate is larger than x −y",
+      "B": "Her estimate is smaller than x −y",
+      "C": "Her estimate equals x −y",
+      "D": "Her estimate equals y −x",
+      "E": "Her estimate is 0"
+    },
+    "correct_answer": "A",
+    "solution_text": "Consider x and y as points on the real number line, with x\nnecessarily to the right of y.\nThen x −y is the distance between x and y.\nXiaoli’s rounding moved x to the right and moved y to the left. Therefore the\ndistance between them increased, and her estimate is larger than x −y.\nTo see that the other answer choices are not correct, let x = 2.9 and y = 2.1,\nand round each by 0.1 . Then x −y = 0.8 and Xiaoli’s estimated diﬀerence is\n(2.9 + 0.1) −(2.1 −0.1) = 1.0 .",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q07",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "For a science project, Sammy observed a chipmunk and a squirrel stashing acorns in holes. The\nchipmunk hid 3 acorns in each of the holes it dug. The squirrel hid 4 acorns in each of the holes\nit dug. They each hid the same\nnumber of acorns, although the squirrel needed 4 fewer holes. How many acorns did the chip-\nmunk hide?",
+    "answer_choices": {
+      "A": "30",
+      "B": "36",
+      "C": "42",
+      "D": "48",
+      "E": "54"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let h be the number of holes dug by the chipmunk. Then the\nchipmunk hid 3h acorns, while the squirrel hid 4(h −4) acorns. Since they hid\nthe same number of acorns, 3h = 4(h −4). Solving gives h = 16. Thus the\nchipmunk hid 3 · 16 = 48 acorns.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q08",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is the sum of all integer solutions to 1 < (x −2)^{2} < 25?",
+    "answer_choices": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "19",
+      "E": "25"
+    },
+    "correct_answer": "B",
+    "solution_text": "If x −2 > 0, then the given inequality is equivalent to 1 <\nx −2 < 5, or 3 < x < 7. The integer solutions in this case are 4, 5, and 6.\nIf x −2 < 0, then the given inequality is equivalent to −5 < x −2 < −1, or\n−3 < x < 1. The integer solutions in this case are −2, −1, and 0. The sum of\nall integer solutions is 12.\nOR\n\n2012 AMC10B Solutions\n3\nThe given inequality is equivalent to 1 < |x −2| < 5. The solution set consists\nof all numbers whose distance from 2 on the number line is strictly between 1\nand 5. Because only integer solutions are sought, this set is {−2, −1, 0, 4, 5, 6}.\nThe required sum is 12.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q09",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Two integers have a sum of 26. When two more integers are added to the ﬁrst two integers the\nsum is 41. Finally when two more integers are added to the sum of the previous four integers\nthe sum is 57. What is the minimum number of even integers among the 6 integers?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correct_answer": "A",
+    "solution_text": "The sum of two integers is even if they are both even or both\nodd. The sum of two integers is odd if one is even and one is odd. Only the\nmiddle two integers have an odd sum, namely 41 −26 = 15. Hence at least one\ninteger must be even. A list satisfying the given conditions in which there is\nonly one even integer is 1, 25, 1, 14, 1, 15.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q10",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "How many ordered pairs of positive integers (M, N) staisfy the equation M\n6 = 6\nN ?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "D",
+    "solution_text": "Multiplying the given equation by 6N gives MN = 36. The\ndivisors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, and 36. Each of these divisors can be\npaired with a divisor to make a product of 36. Hence there are 9 ordered pairs\n(M, N).",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q11",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "A dessert chef prepares the dessert for every day of a week starting with Sunday. The dessert\neach day is either cake, pie, ice cream, or pudding. The same dessert may not be served two\ndays in a row. There must be cake on Friday because of a birthday. How many different dessert\nmenus for the week are possible?",
+    "answer_choices": {
+      "A": "729",
+      "B": "972",
+      "C": "1024",
+      "D": "2187",
+      "E": "2304"
+    },
+    "correct_answer": "A",
+    "solution_text": "There are 3 choices for Saturday (anything except cake) and\nfor the same reason 3 choices for Thursday. Similarly there are 3 choices for\nWednesday, Tuesday, Monday, and Sunday (anything except what was to be\nserved the following day). Therefore there are 36 = 729 possible dessert menus.\nOR\nIf any dessert could be served on Friday, there would be 4 choices for Sunday\nand 3 for each of the other six days. There would be a total of 4 · 36 dessert\nmenus for the week, and each dessert would be served on Friday with equal\nfrequency. Because cake is the dessert for Friday, this total is too large by a\nfactor of 4. The actual total is 36 = 729.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q12",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Point B is due east of point A. Point C is due north of point B. The distance between points\nA and C is 10\n√\n2 meters, and ∠BAC = 45^{◦}. Point D is 20 meters due north of point C. The\ndistance AD is between which two integers?",
+    "answer_choices": {
+      "A": "30 and 31",
+      "B": "31 and 32",
+      "C": "32 and 33",
+      "D": "33 and 34",
+      "E": "34 and 35"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that ∠ABC = 90◦, so △ABC is a 45 – 45 – 90◦triangle.\nBecause hypotenuse AC = 10\n√\n2, the legs of △ABC have length 10. Therefore\nAB = 10 and BD = BC + CD = 10 + 20 = 30. By the Pythagorean Theorem,\nAD =\n\n102 + 302 =\n√\n1000.\nBecause 312 = 961 and 322 = 1024, it follows that 31 < AD < 32.\n\n2012 AMC10B Solutions\n4\nA\nB\nC\nD\n10\n10\n10\n√\n2\n20",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q13",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "It takes Clea 60 seconds to walk down an escalator when it is not operating and only 24 seconds\nto walk down the escalator when it is operating. How many seconds does it take Clea to ride\ndown the operating escalator when she just stands on it?",
+    "answer_choices": {
+      "A": "36",
+      "B": "40",
+      "C": "42",
+      "D": "48",
+      "E": "52"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let x be Clea’s rate of walking and r be the rate of the moving\nescalator. Because the distance is constant, 24(x+r) = 60x. Solving for r yields\nr = 3\n2x. Let t be the time required for Clea to make the escalator trip while\njust standing on it. Then rt = 60x, so 3\n2xt = 60x. Therefore t = 40 seconds.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q14",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Two equilateral triangles are contained in a square whose side length is 2\n√\n3. The bases of these\ntriangles are the opposite sides of the square, and their intersection is a rhombus. What is the\narea of the rhombus?",
+    "answer_choices": {
+      "A": "3\n2",
+      "B": "√\n3",
+      "C": "2\n√\n2 −1",
+      "D": "8\n√\n3 −12",
+      "E": "4\n√\n3\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Construct the altitude for one of the equilateral triangles to\nits base on the square. Label the vertices of one of the resulting 30 – 60 – 90◦\ntriangles A, B, and C, as shown. Then AB =\n√\n3 and BC = 3. Label one\nof the intersection points of the two equilateral triangles D and the center of\nthe square E.\nThen △CDE is a 30 – 60 – 90◦triangle, CE = 3 −\n√\n3, and\nDE = 3−\n√\n3\n√\n3\n=\n√\n3 −1. The area of △CDE is 1\n2 · (3 −\n√\n3) · (\n√\n3 −1) = 2\n√\n3 −3.\nHence the area of the rhombus is 4 · (2\n√\n3 −3) = 8\n√\n3 −12.\nA\nB\nC\nD\nE\n√\n3\n2\n√\n3",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q15",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 15,
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "problem_text": "In a round-robin tournament with 6 teams, each team plays one game against each other team,\nand each game results in one team winning and one team losing. At the end of the tournament,\nthe teams are ranked by the number of games won. What is the maximum number of teams\nthat could be tied for the most wins at the end of the tournament?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "correct_answer": "D",
+    "solution_text": "A total of 15 games are played, so all 6 teams could not be\ntied for the most wins as this would require 15\n6 = 2.5 wins per team. However,\nit is possible for 5 teams to be tied, each with 3 wins and 2 losses. One such\n\n2012 AMC10B Solutions\n5\noutcome can be constructed by labeling 5 of the teams A, B, C, D, and E, and\nplacing these labels at distinct points on a circle. If each of these teams beat\nthe 2 labeled teams clockwise from its respective labeled point, as well as the\nremaining unlabeled team, all 5 would tie with 3 wins and 2 losses.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q16",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 16,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Three circles with radius 2 are mutually tangent. What is the total area of the circles and the\nregion bounded by them, as shown in the ﬁgure?",
+    "answer_choices": {
+      "A": "10π + 4\n√\n3",
+      "B": "13π −\n√\n3",
+      "C": "12π +\n√\n3",
+      "D": "10π + 9",
+      "E": "13π"
+    },
+    "correct_answer": "A",
+    "solution_text": "Connect the centers of the three circles to form an equilateral\ntriangle with side length 4. Then the requested area is equal to the area of this\ntriangle and a 300◦sector of each circle. The equilateral triangle has base 4 and\naltitude 2\n√\n3, so its area is\n1\n2 · 4 · 2\n√\n3 = 4\n√\n3.\nThe area of each sector is 300\n360 ·π·22 = 10π\n3 . Hence the total area is 3· 10π\n3 +4\n√\n3 =\n10π + 4\n√\n3.",
+    "has_image": true
+  },
+  {
+    "id": "2012-AMC10B-Q17",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Jesse cuts a circular paper disk of radius 12 along two radii to form two sectors, the smaller\nhaving a central angle of 120 degrees. He makes two circular cones, using each sector to form\nthe lateral surface of a cone. What is the ratio of the volume of the smaller cone to that of the\nlarger?",
+    "answer_choices": {
+      "A": "1\n8",
+      "B": "1\n4",
+      "C": "√\n10\n10",
+      "D": "√\n5\n6",
+      "E": "√\n10\n5"
+    },
+    "correct_answer": "C",
+    "solution_text": "Each sector forms a cone with slant height 12. The circumference\nof the base of the smaller cone is 120\n360 · 2 · 12 · π = 8π. Hence the radius of the\nbase of the smaller cone is 4 and its height is\n√\n122 −42 = 8\n√\n2. Similarly, the\ncircumference of the base of the larger cone is 16π. Hence the radius of the base\nof the larger cone is 8 and its height is 4\n√\n5. The ratio of the volume of the\nsmaller cone to the volume of larger cone is\n1\n3π · 42 · 8\n√\n2\n1\n3π · 82 · 4\n√\n5 =\n√\n10\n10 .\n16π\n8π\n12\n4\n8\n12\n12\n8\n√\n2\n4\n√\n5\n8π\n12\n16π\n\n2012 AMC10B Solutions\n6",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q18",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "Suppose that one of every 500 people in a certain population has a particular disease, which\ndisplays no symptoms. A blood test is available for screening for this disease. For a person\nwho has this disease, the test always turns out positive. For a person who does not have the\ndisease, however, there is a 2% false positive rate; in other words, for such people, 98% of the\ntime the test will turn out negative, but 2% of the time the test will turn out positive and will\nincorrectly indicate that the person has the disease. Let p be the probability that a person who\nis chosen at random from the population and gets a positive test result actually has the disease.\nWhich of the following is closest to p?",
+    "answer_choices": {
+      "A": "1\n98",
+      "B": "1\n9",
+      "C": "1\n11",
+      "D": "49\n99",
+      "E": "98\n99"
+    },
+    "correct_answer": "C",
+    "solution_text": "On average for every 500 people tested, 1 will test positive\nbecause he or she has the disease, while 2% · 499 ≈10 will test positive even\nthough they do not have the disease. In other words, of approximately 11 people\nwho test positive, only 1 has the disease, so the probability is approximately\n1\n11.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q19",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "In rectangle ABCD, AB = 6, AD = 30, and G is the midpoint of AD. Segment AB is extended 2\nunits beyond B to point E, and F is the intersection of ED and BC. What is the area of BFDG?",
+    "answer_choices": {
+      "A": "133\n2",
+      "B": "67",
+      "C": "135\n2",
+      "D": "68",
+      "E": "137\n2"
+    },
+    "correct_answer": "C",
+    "solution_text": "Because △EBF is similar to △EAD, it follows that BF\nAD = BE\nAE ,\nor BF\n30 = 2\n8, giving BF = 15\n2 . The area of trapezoid BFDG is\n1\n2h(b1 + b2) = 1\n2 · AB · (BF + GD) = 1\n2 · 6 ·\n\u001f15\n2 + 15\n\n= 135\n2 .\nA\nB\nC\nD\nF\nG\n6\nE\n2\n30",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q20",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Bernado and Silvia play the following game. An integer between 0 and 999, inclusive, is selected\nand given to Bernado. Whenever Bernado receives a number, he doubles it and passes the result\nto Silvia. Whenever Silvia receives a number, she adds 50 to it and passes the result to Bernado.\nThe winner is the last person who produces a number less than 1000. Let N be the smallest\ninitial number that results in a win for Bernado. What is the sum of the digits of N?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "A",
+    "solution_text": "The smallest initial number for which Bernardo wins after\none round is the smallest integer solution of 2n + 50 ≥1000, which is 475. The\nsmallest initial number for which he wins after two rounds is the smallest integer\nsolution of 2n + 50 ≥475, which is 213. Similarly, the smallest initial numbers\nfor which he wins after three and four rounds are 82 and 16, respectively. There\nis no initial number for which Bernardo wins after more than four rounds. Thus\nN = 16, and the sum of the digits of N is 7.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q21",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Four distinct points are arranged in a plane so that the segments connecting them has lengths\na, a, a, a, 2a, and b. What is the ratio of b to a?",
+    "answer_choices": {
+      "A": "√\n3",
+      "B": "2",
+      "C": "√\n5",
+      "D": "3",
+      "E": "π"
+    },
+    "correct_answer": "A",
+    "solution_text": "Since 4 of the 6 segments have length a, some 3 of the points\n(call them A, B, and C) must form an equilateral triangle of side length a. The\nfourth point D must be a distance a from one of A, B, or C, and without loss of\ngenerality it can be assumed to be A. Thus D lies on a circle of radius a centered\nat A. The distance from D to one of the other 2 points (which can be assumed\nto be B) is 2a, so BD is a diameter of this circle and therefore is the hypotenuse\nof right triangle DCB with legs of lengths a and b. Thus b2 = (2a)2 −a2 = 3a2,\nand the ratio of b to a is\n√\n3.\n\n2012 AMC10B Solutions\n7",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q22",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 22,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Let (a^{1}, a^{2}, . . . , a^{10}) be a list of the ﬁrst 10 positive integers such that for each 2 ≤i ≤10 either\na^{i} + 1 or a^{i} −1 or both appear somewhere before a^{i} in the list. How many such lists are there?",
+    "answer_choices": {
+      "A": "120",
+      "B": "512",
+      "C": "1024",
+      "D": "181, 440",
+      "E": "362, 880"
+    },
+    "correct_answer": "B",
+    "solution_text": "If a1 = 1, then the list must be an increasing sequence. Other-\nwise let k = a1. Then the numbers 1 through k −1 must appear in increasing\norder from right to left, and the numbers from k through 10 must appear in in-\ncreasing order from left to right. For 2 ≤k ≤10 there are\n\u001f 9\nk−1\n\nways to choose\npositions in the list for the numbers from 1 through k −1, and the positions of\nthe remaining numbers are then determined. The number of lists is therefore\n1 +\n10\n\nk=2\n\n9\nk −1\n\u001b\n=\n9\n\nk=0\n\u001c9\nk\n\u001b\n= 29 = 512.\nOR\nIf a10 is not 1 or 10, then numbers larger than a10 must appear in reverse order\nin the list, and numbers smaller than a10 must appear in order. However, 1 and\n10 cannot both appear ﬁrst in the list, so the placement of either 1 or 10 would\nviolate the given conditions. Hence a10 = 1 or 10. By similar reasoning, when\nreading the list from right to left the number that appears next must be the\nsmallest or largest unused integer from 1 to 10. This gives 2 choices for each\nterm until there is one number left. Hence there are 29 = 512 choices.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q23",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "A solid tetrahedron is sliced off a solid wooden unit cube by a plane passing through two non-\nadjacent vertices on one face and one vertex on the opposite face not adjacent to either of the\nﬁrst two vertices. The tetrahedron is discarded and the remaining portion of the cube is placed\non a table with the cut surface face down. What is the height of this object?",
+    "answer_choices": {
+      "A": "√\n3\n3",
+      "B": "2\n√\n2\n3",
+      "C": "1",
+      "D": "2\n√\n3\n3",
+      "E": "√\n2"
+    },
+    "correct_answer": "D",
+    "solution_text": "The discarded tetrahedron can be viewed as having an isosceles\nright triangle of side 1 as its base, with an altitude of 1. Therefore its volume is\n1\n6. It can also be viewed as having an equilateral triangle of side length\n√\n2 as\nits base, in which case its altitude h must satisfy\n1\n3 ·\n√\n3\n4\n\u001a√\n2\n\u00192\n· h = 1\n6,\nwhich implies that h =\n√\n3\n3 .\nThe height of the remaining solid is the long\ndiagonal of the cube minus h, which is\n√\n3 −\n√\n3\n3 = 2\n√\n3\n3 .\n1\n1\n√\n2\n√\n2\n√\n2\n1\n\n2012 AMC10B Solutions\n8",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q24",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 24,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "Amy, Beth, and Jo listen to four different songs and discuss which ones they like. No song is\nliked by all three. Furthermore, for each of the three pairs of the girls, there is at least one song\nliked by those two girls but disliked by the third. In how many different ways is this possible?",
+    "answer_choices": {
+      "A": "108",
+      "B": "132",
+      "C": "671",
+      "D": "846",
+      "E": "1105"
+    },
+    "correct_answer": "B",
+    "solution_text": "There are two cases to consider.\nCase 1\nEach song is liked by two of the girls. Then one of the three pairs of girls likes\none of the six possible pairs of songs, one of the remaining pairs of girls likes one\nof the remaining two songs, and the last pair of girls likes the last song. This\ncase can occur in 3 · 6 · 2 = 36 ways.\nCase 2\nThree songs are each liked by a diﬀerent pair of girls, and the fourth song is\nliked by at most one girl. There are 4! = 24 ways to assign the songs to these\nfour categories, and the last song can be liked by Amy, Beth, Jo, or no one.\nThis case can occur in 24 · 4 = 96 ways.\nThe total number of possibilities is 96 + 36 = 132.",
+    "has_image": false
+  },
+  {
+    "id": "2012-AMC10B-Q25",
+    "year": 2012,
+    "exam": "AMC10B",
+    "question_number": 25,
+    "topic": "Combinatorics",
+    "difficulty": "hard",
+    "problem_text": "A bug travels from A to B along the segments in the hexagonal lattice pictured below. The\nsegments marked with an arrow can be traveled only in the direction of the arrow, and the bug\nnever travels the same segment more than once. How many different paths are there?",
+    "answer_choices": {
+      "A": "2112",
+      "B": "2304",
+      "C": "2368",
+      "D": "2384",
+      "E": "2400\n–"
+    },
+    "correct_answer": "E",
+    "solution_text": "Label the columns having arrows as c1, c2, c3, . . . , c7 according to the ﬁgure. Call\nthose segments that can be traveled only from left to right forward segments.\nCall the segments s1, s2, and s3, in columns c2, c4, and c6, respectively, which\ncan be traveled only from right to left, back segments. Denote S as the set of\nback segments traveled for a path.\nFirst suppose that S = ∅. Because it is not possible to travel a segment more\nthan once, it follows that the path is uniquely determined by choosing one\nforward segment in each of the columns cj.\nThere are 2, 2, 4, 4, 4, 2, and\n2 choices for the forward segment in columns c1, c2, c3, c4, c5, c6, and c7,\nrespectively. This gives a total of 210 total paths in this case.\nNext suppose that S = {s1}. The two forward segments in c2, together with s1,\nneed to be part of the path, and once the forward segment from c1 is chosen, the\norder in which the segments of c2 are traveled is determined. Moreover, there\nare only 2 choices for possible segments in c3 depending on the last segment\ntraveled in c2, either the bottom 2 or the top 2. For the rest of the columns, the\npath is determined by choosing any forward segment. Thus the total number\nof paths in this case is 2 · 1 · 2 · 4 · 4 · 2 · 2 = 28, and by symmetry this is also\nthe total for the number of paths when S = {s3}. A similar argument gives\n2 · 1 · 2 · 4 · 2 · 1 · 2 = 26 trips for the case when S = {s1, s3}.\n\n2012 AMC10B Solutions\n9\nSuppose S = {s2}. Because s2 is traveled, it follows that 2 forward segments in\nc4 need to belong to the path, one of them above s2 (2 choices) and the other\nbelow it (2 choices). Once these are determined, there are 2 possible choices for\nthe order in which these segments are traveled: the bottom forward segment\nﬁrst, then s2, then the top forward segment, or vice versa.\nNext, there are\nonly 2 possible forward segments that can be selected in c3 and also only 2\npossible forward segments that can be selected in c5. The forward segments in\nc1, c2, c6, and c7 can be freely selected (2 choices each). This gives a total of\n(23 · 2 · 2) · 24 = 29 paths.\nIf S = {s1, s2}, then the analysis is similar, except for the last step, where the\nforward segments of c1 and c2 are determined by the previous choices. Thus\nthere are (23 · 2 · 2) · 22 = 27 possibilities, and by symmetry the same number\nwhen S = {s2, s3}.\nFinally, if S = {s1, s2, s3}, then in the last step, all forward segments of c1, c2, c6,\nand c7 are determined by the previous choices and hence there are 23 · 2 · 2 = 25\npossible paths. Altogether the total number of paths is 210 + 2 · 28 + 26 + 29 +\n2 · 27 + 25 = 2400.\n\nThe problems and solutions in this contest were proposed by Bernardo Abrego,\nBetsy Bennett, Steven Davis, Steve Dunbar, Doug Faires, Sister Josannae Furey,\nMichelle Ghrist, Peter Gilchrist, Jerrold Grossman, Joe Kennedy, Eugene Veklerov,\nDavid Wells, LeRoy Wenstrom, and Ron Yannone.\nThe\nAmerican Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCasualty Actuarial Society\nD.E. Shaw & Co.\nIDEA Math\nJane Street\nMu Alpha Theta\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nW. H. Freeman and Company",
+    "has_image": true
+  }
+]

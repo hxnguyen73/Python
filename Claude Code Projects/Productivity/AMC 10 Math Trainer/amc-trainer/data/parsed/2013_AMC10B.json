@@ -1,0 +1,325 @@
+[
+  {
+    "id": "2013-AMC10B-Q01",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 1,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "What is 2+4+6\n1+3+5 −1+3+5\n2+4+6?",
+    "answer_choices": {
+      "A": "−1",
+      "B": "5\n36",
+      "C": "7\n12",
+      "D": "49\n20",
+      "E": "43\n3"
+    },
+    "correct_answer": "C",
+    "solution_text": "Simplifying gives\n2+4+6\n1+3+5 −1+3+5\n2+4+6 = 12\n9 −9\n12 = 4\n3 −3\n4 = 16−9\n12\n=\n7\n12 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q02",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 2,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "Mr Green measures his rectangular garden by walking two of the sides and ﬁnds that it is 15\nsteps by 20 steps. Each or Mr Green’s steps is two feet long. Mr Green expect half a pound of\npotatoes per square foot from his garden. How many pounds of potatoes does Mr Green expect\nfrom his garden?",
+    "answer_choices": {
+      "A": "600",
+      "B": "800",
+      "C": "1000",
+      "D": "1200",
+      "E": "1400"
+    },
+    "correct_answer": "A",
+    "solution_text": "The garden is 2 · 15 = 30 feet wide and 2 · 20 = 40 feet long.\nHence Mr. Green expects 1\n2 · 30 · 40 = 600 pounds of potatoes.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q03",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 3,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "On a particular January day, the high temperature in Lincoln, Nebraska, was 16 degrees higher\nthan the low temperature, and the average of the high and low temperatures was 3^{◦}. In degrees,\nwhat was the low temperature in Lincoln that day?",
+    "answer_choices": {
+      "A": "−13",
+      "B": "−8",
+      "C": "−5",
+      "D": "3",
+      "E": "11"
+    },
+    "correct_answer": "C",
+    "solution_text": "The diﬀerence between the high and low temperatures was 16\ndegrees, so the diﬀerence between each of these and the average temperature\nwas 8 degrees. The low temperature was 8 degrees less than the average, so it\nwas 3◦−8◦= −5◦.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q04",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 4,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "When counting from 3 to 201, 53 is the 51^{st} number counted. When counting backwards from\n201 to 3, 53 is the n^{th} number counted. What is n?",
+    "answer_choices": {
+      "A": "146",
+      "B": "147",
+      "C": "148",
+      "D": "149",
+      "E": "150"
+    },
+    "correct_answer": "D",
+    "solution_text": "The number 201 is the 1st number counted when proceeding\nbackwards from 201 to 3. In turn, 200 is the 2nd number, 199 is the 3rd number,\nand x is the (202−x)th number. Therefore 53 is the (202−53)th number, which\nis the 149th number.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q05",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 5,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Positive integers a and b are each less than 6. What is the smallest possible value for 2·a−a·b?",
+    "answer_choices": {
+      "A": "−20",
+      "B": "−15",
+      "C": "−10",
+      "D": "0",
+      "E": "2"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that 2·a−a·b = (2−b)a. This expression is negative when\nb > 2. Hence the product is minimized when a and b are as large as possible.\nThe minimum value is (2 −5) · 5 = −15.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q06",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 6,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "The average age of 33 ﬁfth-graders is 11. The average age of 55 of their parents is 33. What is\nthe average age of all of these parents and ﬁfth-graders?",
+    "answer_choices": {
+      "A": "22",
+      "B": "23.25",
+      "C": "24.75",
+      "D": "26.25",
+      "E": "28"
+    },
+    "correct_answer": "C",
+    "solution_text": "The sum of all the ages is 55 · 33 + 33 · 11 = 33 · 66, so the\naverage of all the ages is\n33 · 66\n55 + 33 = 33 · 66\n88\n= 33 · 3\n4\n= 24.75 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q07",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 7,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Six points are equally spaced around a circle of radius 1. Three of these points are the vertices\nof a triangle that is neither equilateral nor isosceles. What is the area of this triangle?",
+    "answer_choices": {
+      "A": "√\n3\n3",
+      "B": "√\n3\n2",
+      "C": "1",
+      "D": "√\n2",
+      "E": "2"
+    },
+    "correct_answer": "B",
+    "solution_text": "The six points divide the circle into six arcs each measuring\n60◦. By the Inscribed Angle Theorem, the angles of the triangle can only be\n30◦, 60◦, 90◦, and 120◦. Because the angles of the triangle are pairwise distinct\nthe triangle must be a 30 – 60 – 90◦triangle. Therefore the hypotenuse of the\ntriangle is the diameter of the circle, and the legs have lengths 1 and\n√\n3. The\narea of the triangle is 1\n2 · 1 ·\n√\n3 =\n√\n3\n2 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q08",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Ray’s car averages 40 miles per gallon of gasoline, and Tom’s car averages 10 miles per gallon\nof gasoline. Ray and Tom each drive the same number of miles. What is the cars’ combined rate\nof miles per gallon of gasoline?",
+    "answer_choices": {
+      "A": "10",
+      "B": "16",
+      "C": "25",
+      "D": "30",
+      "E": "40"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let D equal the distance traveled by each car. Then Ray’s car\nuses D\n40 gallons of gasoline and Tom’s car uses D\n10 gallons of gasoline. The cars\n\n2013 AMC10B Solutions\n3\ncombined miles per gallon of gasoline is\n2D\n( D\n40 + D\n10) = 16.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q09",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Three positive integers are each greater than 1, have a product of 27000, and are pairwise rela-\ntively prime. What is their sum?",
+    "answer_choices": {
+      "A": "100",
+      "B": "137",
+      "C": "156",
+      "D": "160",
+      "E": "165"
+    },
+    "correct_answer": "D",
+    "solution_text": "Note that\n27,000 = 23 · 33 · 53.\nThe only three pairwise relatively prime positive integers greater than 1 with a\nproduct of 27,000 are 8, 27, and 125. The sum of these numbers is 160.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q10",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 10,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "A basketball team’s players were successful on 50% of their two-point shots and 40% of their\nthree-point shots, which resulted in 54 points. They attempted 50% more two-point shots than\nthree-point shots. How many three-point shots did they attempt?",
+    "answer_choices": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "25",
+      "E": "30"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let x denote the number of three-point shots attempted. Then\nthe number of three-point shots made was 0.4x, resulting in 3(0.4x) = 1.2x\npoints.\nThe number of two-point shots attempted was 1.5x, and they were\nsuccessful on 0.5(1.5x) = 0.75x of them resulting in 2(0.75x) = 1.5x points.\nThe number of points scored was 1.2x + 1.5x = 54, so x = 20.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q11",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Real numbers x and y satisfy the equation x^{2} + y^{2} = 10x −6y −34. What is x + y?",
+    "answer_choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "B",
+    "solution_text": "By completing the square the equation can be rewritten as\nfollows:\nx2 + y2 = 10x −6y −34,\nx2 −10x + 25 + y2 + 6y + 9 = 0,\n(x −5)2 + (y + 3)2 = 0.\nTherefore x = 5 and y = −3, so x + y = 2 .",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q12",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 12,
+    "topic": "Probability",
+    "difficulty": "easy",
+    "problem_text": "Let S be the set of sides and diagonals of a regular pentagon. A pair of elements of S are\nselected at random without replacement. What is the probability that the two chosen segments\nhave the same length?",
+    "answer_choices": {
+      "A": "2\n5",
+      "B": "4\n9",
+      "C": "1\n2",
+      "D": "5\n9",
+      "E": "4\n5"
+    },
+    "correct_answer": "B",
+    "solution_text": "The ﬁve sides of the pentagon are congruent, and the ﬁve\ncongruent diagonals are longer than the sides. Once one segment is selected, 4\nof the 9 remaining segments have the same length as that segment. Therefore\nthe requested probability is 4\n9.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q13",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 13,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "Jo and Blair take turns counting from 1 to one more than the last number said by the other\nperson. Jo starts by saying ”1”, so Blair follows by saying ”1, 2”. Jo then says ”1, 2, 3”, and so on.\nWhat is the 53rd number said?",
+    "answer_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "E",
+    "solution_text": "Note that Jo starts by saying 1 number, and this is followed by\nBlair saying 2 numbers, then Jo saying 3 numbers, and so on. After someone\ncompletes her turn after saying the number n, then 1+2+3+· · ·+n = 1\n2n(n + 1)\nnumbers have been said. If n = 9 then 45 numbers have been said. Therefore\nthere are 53−45 = 8 more numbers that need to be said. The 53rd number said\nis 8.\n\n2013 AMC10B Solutions\n4",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q14",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 14,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Deﬁne a♣b = a^{2}b −ab^{2}. Which of the following describes the set of points (x, y) for which\nx♣y = y♣x?",
+    "answer_choices": {
+      "A": "13",
+      "B": "13.5",
+      "C": "14",
+      "E": "3\n√\n2\n2\n16\nIn △ABC, medians AD and CE intersect at P, PE = 1.5, PD = 2, and DE = 2.5. What is the\narea of AEDC?\n\nA\nB\nC\nD\nE\nP",
+      "D": "14.5"
+    },
+    "correct_answer": "E",
+    "solution_text": "The equation x♣y = y♣x is equivalent to x2y−xy2 = y2x−yx2.\nThis equation is euivalent to gives 2xy(x−y) = 0. This equation will hold exactly\nif x = 0, y = 0, or x = y. The solution set consists of three lines: the x-axis,\nthe y-axis, and the line x = y.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q17",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 17,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Alex has 75 red tokens and 75 blue tokens. There is a booth where Alex can give two red tokens\nand receive in return a silver token and a blue token, and another booth where Alex can give three\nblue tokens and receive in return a silver token and a red token. Alex continues to exchange\ntokens until no more exchanges are possible. How many silver tokens will Alex have at the end?",
+    "answer_choices": {
+      "A": "33",
+      "B": "34",
+      "C": "45",
+      "E": "103\n18\nThe number 2013 has the property that its units digit is the sum of its other digits, that is 2 + 0 +\n1 = 3. How many integers less than 2013 but greater than 1000 share this property?",
+      "D": "46"
+    },
+    "correct_answer": "E",
+    "solution_text": "After Alex makes m exchanges at the ﬁrst booth and n exchanges\nat the second booth, Alex has 75−(2m−n) red tokens, 75−(3n−m) blue tokens,\nand m+n silver tokens. No more exchanges are possible when he has fewer than\n2 red tokens and fewer than 3 blue tokens. Therefore no more exchanges are\npossible if and only if 2m −n ≥74 and 3n −m ≥73. Equality can be achieved\nwhen (m, n) = (59, 44), and Alex will have 59 + 44 = 103 silver tokens.\nNote that the following exchanges produce 103 silver tokens:\nRed Tokens\nBlue Tokens\nSilver Tokens\nExchange 75 blue tokens\n100\n0\n25\nExchange 100 red tokens\n0\n50\n75\nExchange 48 blue tokens\n16\n2\n91\nExchange 16 red tokens\n0\n10\n99\nExchange 9 blue tokens\n3\n1\n102\nExchange 2 red tokens\n1\n2\n103",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q19",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 19,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "problem_text": "The real numbers c, b, a form an arithmetic sequence with a ≥b ≥c ≥0. The quadratic ax^{2} +\nbx + c has exactly one root. What is this root?",
+    "answer_choices": {
+      "A": "−7 −4\n√\n3",
+      "B": "−2 −\n√\n3",
+      "C": "−1",
+      "D": "−2 +\n√\n3",
+      "E": "−7 + 4\n√\n3"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let the common diﬀerence in the arithmetic sequence be d,\nso that a = b + d and c = b −d. Because the quadratic has exactly one root,\nb2 −4ac = 0. Substitution gives b2 = 4(b + d)(b −d), and therefore 3b2 = 4d2.\nBecause b ≥0 and d ≥0, it follows that\n√\n3b = 2d. Thus the real root is\n−b ±\n√\nb2 −4ac\n2a\n= −b\n2a =\n−b\n2(b + d) =\n−b\n2\n³\nb +\n√\n3\n2 b\n´ = −2 +\n√\n3 .\n\n2013 AMC10B Solutions\n6\nNote that the quadratic equation x2 + (4 −2\n√\n3)x + 7 −4\n√\n3 satisﬁes the given\nconditions.",
+    "has_image": false
+  },
+  {
+    "id": "2013-AMC10B-Q20",
+    "year": 2013,
+    "exam": "AMC10B",
+    "question_number": 20,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "The number 2013 is expressed in the form\n2013 = a^{1}!a^{2}! · · · a^{m}!\nb^{1}!b^{2}! · · · b^{n}! ,\nwhere a^{1} ≥a^{2} ≥· · · ≥a^{m} and b^{1} ≥b^{2} ≥· · · ≥b^{n} are positive integers and a^{1} + b^{1} is as small\nas possible. What is |a^{1} −b^{1}|?",
+    "answer_choices": {
+      "A": "384",
+      "B": "576",
+      "C": "1152",
+      "E": "273\n\n22\nThe regular octagon ABCDEFGH has its center at J. Each of the vertices and the center are\nto be associated with one of the digits 1 through 9, with each digit used once, in such a way that\nthe sums of the numbers on the lines AJE, BJF, CJG, and DJH are equal. In how many ways\ncan this be done?",
+      "D": "1680"
+    },
+    "correct_answer": "B",
+    "solution_text": "The prime factorization of 2013 is 3 · 11 · 61. There must be a\nfactor of 61 in the numerator, so a1 ≥61. Since a1! will have a factor of 59 and\n2013 does not, there must be a factor of 59 in the denominator, and b1 ≥59.\nThus a1 + b1 ≥120, and this minimum value can be achieved only if a1 = 61\nand b1 = 59. Furthermore, this minimum value is attainable because\n2013 = (61!)(11!)(3!)\n(59!)(10!)(5!).\nThus |a1 −b1| = a1 −b1 = 61 −59 = 2.",
+    "has_image": false
+  }
+]

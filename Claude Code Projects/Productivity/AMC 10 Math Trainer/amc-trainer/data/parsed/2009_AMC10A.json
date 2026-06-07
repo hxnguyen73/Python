@@ -1,0 +1,439 @@
+[
+  {
+    "id": "2009-AMC10A-Q01",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 1,
+    "topic": "Other",
+    "difficulty": "easy",
+    "problem_text": "One can holds 12 ounces of soda. What is the minimum number of cans to provide a gallon (128\nounces) of soda?",
+    "answer_choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because 128\n12 = 10 2\n3, there must be 11 cans.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q02",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 2,
+    "topic": "Combinatorics",
+    "difficulty": "easy",
+    "problem_text": "Four coins are picked out of a piggy bank that contains a collection of pennies, nickels, dimes,\nand quarters. Which of the following could not be the total value of the four coins, in cents?",
+    "answer_choices": {
+      "A": "15",
+      "B": "25",
+      "C": "35",
+      "D": "45",
+      "E": "55"
+    },
+    "correct_answer": "A",
+    "solution_text": "The value of any combination of four coins that includes pennies\ncannot be a multiple of 5 cents, and the value of any combination of four coins\nthat does not include pennies must exceed 15 cents. Therefore the total value\ncannot be 15 cents. The other four amounts can be made with, respectively,\none dime and three nickels; three dimes and one nickel; one quarter, one dime\nand two nickels; and one quarter and three dimes.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q04",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 4,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Eric plans to compete in a triathlon. He can average 2 miles per hour in the 1\n4-mile swim and 6\nmiles per hour in the 3-mile run. His goal is to ﬁnish the triathlon in 2 hours. To accomplish his\ngoal what must his average speed, in miles per hour, be for the 15-mile bicycle ride?",
+    "answer_choices": {
+      "A": "120\n11",
+      "B": "11",
+      "C": "56\n5",
+      "D": "45\n4",
+      "E": "12"
+    },
+    "correct_answer": "A",
+    "solution_text": "Eric can complete the swim in 1/4\n2\n=\n1\n8 of an hour. He can\ncomplete the run in 3\n6 = 1\n2 of an hour. This leaves 2 −1\n8 −1\n2 = 11\n8 hours to\ncomplete the bicycle ride. His average speed for the ride must be\n15\n11/8 = 120\n11\nmiles per hour.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q05",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 5,
+    "topic": "Number Theory",
+    "difficulty": "easy",
+    "problem_text": "What is the sum of the digits of the square of 111, 111, 111?",
+    "answer_choices": {
+      "A": "18",
+      "B": "27",
+      "C": "45",
+      "D": "63",
+      "E": "81"
+    },
+    "correct_answer": "E",
+    "solution_text": "The square of 111,111,111 is\n1 1 1 1 1 1 1 1 1\n×1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1\n1 2 3 4 5 6 7 8 9 8 7 6 5 4 3 2 1\nHence the sum of the digits of the square of 111,111,111 is 81.\n\nSolutions\n2009\n10th AMC 10 A\n3",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q06",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 6,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "problem_text": "A circle of radius 2 is inscribed in a semicircle, as shown. The area inside the semicircle but\noutside the circle is shaded. What fraction of the semicircle’s area is shaded?\n2",
+    "answer_choices": {
+      "A": "1\n2",
+      "B": "π\n6",
+      "C": "2\nπ",
+      "D": "2\n3",
+      "E": "3\nπ"
+    },
+    "correct_answer": "A",
+    "solution_text": "The semicircle has radius 4 and total area 1\n2 · π · 42 = 8π. The\narea of the circle is π · 22 = 4π. The fraction of the area that is not shaded is\n4π\n8π = 1\n2, and hence the fraction of the area that is shaded is also 1\n2.\n2\n2",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10A-Q07",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 7,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "A carton contains milk that is 2% fat, and amount that is 40% less fat than the amount contained\nin a carton of whole milk. What is the percentage of fat in whole milk?",
+    "answer_choices": {
+      "A": "12\n5",
+      "B": "3",
+      "C": "10\n3",
+      "D": "38",
+      "E": "42"
+    },
+    "correct_answer": "C",
+    "solution_text": "Suppose whole milk is x% fat. Then 60% of x is equal to 2.\nThus\nx = 2\n0.6 = 20\n6 = 10\n3 .",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q08",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 8,
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "problem_text": "Three generations of the Wen family are going to the movies, two from each generation. The two\nmembers of the youngest generation receive a 50% discount as children. The two members of\nthe oldest generation receive a 25% discount as senior citizens. The two members of the middle\ngeneration receive no discount. Grandfather Wen, whose senior ticket costs $6.00, is paying for\neveryone. How many dollars must he pay?",
+    "answer_choices": {
+      "A": "34",
+      "B": "36",
+      "C": "42",
+      "D": "46",
+      "E": "48"
+    },
+    "correct_answer": "B",
+    "solution_text": "Grandfather Wen’s ticket costs $6, which is 3\n4 of the full price,\nso each ticket at full price costs 4\n3 · 6 = 8 dollars, and each child’s ticket costs\n1\n2 · 8 = 4 dollars. The cost of all the tickets is 2($6 + $8 + $4) = $36.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q09",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 9,
+    "topic": "Number Theory",
+    "difficulty": "medium",
+    "problem_text": "Positive integers a, b, and 2009, with a < b < 2009, form a geometric sequence with an integer\nratio. What is a?",
+    "answer_choices": {
+      "A": "7",
+      "B": "41",
+      "C": "49",
+      "D": "289",
+      "E": "2009"
+    },
+    "correct_answer": "B",
+    "solution_text": "Let the ratio be r. Then ar2 = 2009 = 41 · 72. Because r must\nbe an integer greater than 1, the only possible value of r is 7, and a = 41.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q10",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 10,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Triangle ABC has a right angle at B. Point D is the foot of the altitude from B, AD = 3, and\nDC = 4. What is the area of △ABC?\nA\nB\nC\nD\n3\n4",
+    "answer_choices": {
+      "A": "4\n√\n3",
+      "B": "7\n√\n3",
+      "C": "21",
+      "D": "14\n√\n3",
+      "E": "42"
+    },
+    "correct_answer": "B",
+    "solution_text": "By the Pythagorean Theorem, AB2 = BD2+9, BC2 = BD2+16,\nand AB2 + BC2 = 49. Adding the ﬁrst two equations and substituting gives\n2·BD2+25 = 49. Then BD = 2\n√\n3, and the area of △ABC is 1\n2 ·7·2\n√\n3 = 7\n√\n3.\nOR\nBecause △ADB and △BDC are similar, BD\n3\n=\n4\nBD, from which BD = 2\n√\n3.\nTherefore the area of △ABC is 1\n2 · 7 · 2\n√\n3 = 7\n√\n3 .",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q11",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 11,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "One dimension of a cube is increased by 1, another is decreased by 1, and the third is left un-\nchanged. The volume of the new rectangular solid is 5 less than that of the cube. What was the\nvolume of the cube?",
+    "answer_choices": {
+      "A": "8",
+      "B": "27",
+      "C": "64",
+      "D": "125",
+      "E": "216"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let x be the side length of the cube. Then the volume of the\ncube was x3, and the volume of the new solid is x(x + 1)(x −1) = x3 −x.\nTherefore x3 −x = x3 −5, from which x = 5, and the volume of the cube was\n53 = 125.\n\nSolutions\n2009\n10th AMC 10 A\n4",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q12",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 12,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "In quadrilateral ABCD, AB = 5, BC = 17, CD = 5, DA = 9, and BD is an integer. What is BD?",
+    "answer_choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14",
+      "E": "15"
+    },
+    "correct_answer": "C",
+    "solution_text": "Let x be the length of BD. By the triangle inequality on △BCD,\n5 + x > 17, so x > 12. By the triangle inequality on △ABD, 5 + 9 > x, so\nx < 14. Since x must be an integer, x = 13.",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10A-Q13",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 13,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Suppose that P = 2^{m} and Q = 3^{n}. Which of the following is equal to 12^{mn} for every pair of\nintegers (m, n)?",
+    "answer_choices": {
+      "A": "P 2Q",
+      "B": "P nQ^{m}",
+      "C": "P nQ^{2m}",
+      "D": "P 2mQ^{n}",
+      "E": "P 2nQ^{m}"
+    },
+    "correct_answer": "E",
+    "solution_text": "Note that\n12mn = (22 · 3)mn = 22mn · 3mn = (2m)2n · (3n)m = P 2nQm.\nRemark: The pair of integers (2, 1) shows that the other choices are not possible.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q14",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 14,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Four congruent rectangles are placed as shown. The area of the outer square is 4 times that of\nthe inner square. What is the ratio of the length of the longer side of each rectangle to the length\nof its shorter side?",
+    "answer_choices": {
+      "A": "3",
+      "B": "√\n10",
+      "C": "2 +\n√\n2",
+      "D": "2\n√\n3",
+      "E": "4"
+    },
+    "correct_answer": "A",
+    "solution_text": "Let the lengths of the shorter and longer side of each rectangle\nbe x and y, respectively. The outer and inner squares have side lengths y + x\nand y −x, respectively, and the ratio of their side lengths is\n√\n4 = 2. Therefore\ny + x = 2(y −x), from which y = 3x.",
+    "has_image": true
+  },
+  {
+    "id": "2009-AMC10A-Q15",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 15,
+    "topic": "Sequences & Series",
+    "difficulty": "medium",
+    "problem_text": "The ﬁgures F^{1}, F^{2}, F^{3}, and F^{4} shown are the ﬁrst in a sequence of ﬁgures. For n ≥3, F^{n} is\nconstructed from F^{n−1} by surrounding it with a square and placing one more diamond on each\nside of the new square than F^{n−1} had on each side of its outside square. For example, ﬁgure F^{3}\nhas 13 diamonds. How many diamonds are there in ﬁgure F^{20}?\nF^{1}\nF^{2}\nF^{3}\nF^{4}",
+    "answer_choices": {
+      "A": "401",
+      "B": "485",
+      "C": "585",
+      "D": "626",
+      "E": "761"
+    },
+    "correct_answer": "E",
+    "solution_text": "The outside square for Fn has 4 more diamonds on its boundary\nthan the outside square for Fn−1.\nBecause the outside square of F2 has 4\ndiamonds, the outside square of Fn has 4(n−2)+4 = 4(n−1) diamonds. Hence\nthe number of diamonds in ﬁgure Fn is the number of diamonds in Fn−1 plus\n4(n −1), or\n1 + 4 + 8 + 12 + · · · + 4(n −2) + 4(n −1)\n= 1 + 4(1 + 2 + 3 + · · · + (n −2) + (n −1))\n= 1 + 4(n −1)n\n2\n= 1 + 2(n −1)n.\nTherefore ﬁgure F20 has 1 + 2 · 19 · 20 = 761 diamonds.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q16",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 16,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Let a, b, c, and d be real numbers with |a −b| = 2, |b −c| = 3, and |c −d| = 4. What is the sum of\nall possible values of |a −d|?",
+    "answer_choices": {
+      "A": "9",
+      "B": "12",
+      "C": "15",
+      "D": "18",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "solution_text": "The given conditions imply that b = a ± 2, c = b ± 3 = a ± 2 ± 3,\nand d = c ± 4 = a ± 2 ± 3 ± 4, where the signs can be combined in all possible\nways. Therefore the possible values of |a −d| are 2 + 3 + 4 = 9, 2 + 3 −4 = 1,\n2 −3 + 4 = 3, and −2 + 3 + 4 = 5. The sum of all possible values of |a −d| is\n9 + 1 + 3 + 5 = 18.\nOR\nThe equations in the problem statement are true for numbers a, b, c, d if and\nonly if they are true for a+r, b+r, c+r, d+r, where r is any real number. The\nvalue of |a −d| is also unchanged with this substitution. Therefore there is no\n\nSolutions\n2009\n10th AMC 10 A\n5\nloss of generality in letting b = 0, and we can then write down the possibilities\nfor the other variables:\na\nb\nc\nd\n2\n{2\n0\n3\n{3\n7\n{1\n{7\n1\nThe diﬀerent possible values for |a −d| are\n|2 −7| = 5,\n|2 −(−1)| = 3,\n|2 −1| = 1,\n|2 −(−7)| = 9.\nThe sum of these possible values is 18.\nA\nB\nC\nD\nE\nF\n3\n4\n5",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q17",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 17,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "problem_text": "Rectangle ABCD has AB = 4 and BC = 3. Segment EF is constructed through B so that EF\nis perpendicular to DB, and A and C lie on DE and DF, respectively. What is EF?",
+    "answer_choices": {
+      "A": "9",
+      "B": "10",
+      "C": "125\n12",
+      "D": "103\n9",
+      "E": "12"
+    },
+    "correct_answer": "C",
+    "solution_text": "Note that DB = 5 and △EBA, △DBC,\nand △BFC are all similar.\nTherefore\n4\nEB = 3\n5, so EB = 20\n3 . Similarly,\n3\nBF = 4\n5, so\nBF = 15\n4 .\nThus\nEF = EB + BF = 20\n3 + 15\n4 = 125\n12 .",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q18",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 18,
+    "topic": "Probability",
+    "difficulty": "medium",
+    "problem_text": "At Jefferson Summer Camp, 60% of the children play soccer, 30% of the children swim, and 40%\n\nof the soccer players swim. To the nearest whole percent, what percent of the non-swimmers\nplay soccer?",
+    "answer_choices": {
+      "A": "30%",
+      "B": "40%",
+      "C": "49%",
+      "D": "51%",
+      "E": "70%"
+    },
+    "correct_answer": "D",
+    "solution_text": "For every 100 children, 60 are soccer players and 40 are non-\nsoccer players. Of the 60 soccer players, 40% or 60× 40\n100 = 24 are also swimmers,\nso 36 are non-swimmers. Of the 100 children, 30 are swimmers and 70 are non-\nswimmers. The fraction of non-swimmers who play soccer is 36\n70 ≈.51, or 51%.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q19",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 19,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "Circle A has radius 100. Circle B has an integer radius r < 100 and remains internally tangent\nto circle A as it rolls once around the circumference of circle A. The two circles have the same\npoints of tangency at the beginning and end of circle B’s trip. How many possible values can r\nhave?",
+    "answer_choices": {
+      "A": "4",
+      "B": "8",
+      "C": "9",
+      "D": "50",
+      "E": "90"
+    },
+    "correct_answer": "B",
+    "solution_text": "Circles A and B have circumferences 200π and 2πr, respectively.\nAfter circle B begins to roll, its initial point of tangency with circle A touches\ncircle A again a total of\n200π\n2πr = 100\nr\ntimes. In order for this to be an integer greater than 1, r must be one of the\nintegers 1, 2, 4, 5, 10, 20, 25, or 50. Hence there are a total of 8 possible values\nof r.\n\nSolutions\n2009\n10th AMC 10 A\n6",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q20",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 20,
+    "topic": "Algebra",
+    "difficulty": "medium",
+    "problem_text": "Andrea and Lauren are 20 kilometers apart. They bike toward one another with Andrea traveling\nthree times as fast as Lauren, and the distance between them decreasing at a rate of 1 kilometer\nper minute. After 5 minutes, Andrea stops biking because of a ﬂat tire and waits for Lauren. After\nhow many minutes from the time they started to bike does Lauren reach Andrea?",
+    "answer_choices": {
+      "A": "20",
+      "B": "30",
+      "C": "55",
+      "D": "65",
+      "E": "80"
+    },
+    "correct_answer": "D",
+    "solution_text": "Let r be the rate that Lauren bikes, in kilometers per minute.\nThen r + 3r = 1, so r = 1\n4. In the ﬁrst 5 minutes, the distance between Andrea\nand Lauren decreases by 5 · 1 = 5 kilometers, leaving Lauren to travel the\nremaining 15 kilometers between them. This requires\n15\n1\n4\n= 60\nminutes, so the total time since they started biking is 5 + 60 = 65 minutes.\n1",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q21",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 21,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Many Gothic cathedrals have windows with portions containing a ring of congruent circles that\nare circumscribed by a larger circle, In the ﬁgure shown, the number of smaller circles is four.\nWhat is the ratio of the sum of the areas of the four smaller circles to the area of the larger\ncircle?",
+    "answer_choices": {
+      "A": "1\n9",
+      "B": "1\n8",
+      "C": "1\n6",
+      "D": "2\n11",
+      "E": "1\n5"
+    },
+    "correct_answer": "C",
+    "solution_text": "It may be assumed that the smaller cir-\ncles each have radius 1.\nTheir centers form a square\nwith side length 2 and diagonal length 2\n√\n2. Thus the\ndiameter of the large circle is 2 + 2\n√\n2, so its area is\n(1 +\n√\n2)2π = (3 + 2\n√\n2)π. The desired ratio is\n4π\n(3 + 2\n√\n2)π = 4(3 −2\n√\n2).",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q23",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 23,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "problem_text": "Convex quadrilateral ABCD has AB = 9 and CD = 12. Diagonals AC and BD intersect at E,\nAC = 14, and △AED and △BEC have equal areas. What is AE?",
+    "answer_choices": {
+      "A": "9\n2",
+      "B": "50\n11",
+      "C": "21\n4",
+      "D": "17\n3",
+      "E": "6"
+    },
+    "correct_answer": "E",
+    "solution_text": "Because △AED and △BEC have equal areas, so do △ACD\nand △BCD. Side CD is common to △ACD and △BCD, so the altitudes from\nA and B to CD have the same length. Thus AB ∥CD, so △ABE is similar to\n△CDE with similarity ratio\nAE\nEC = AB\nCD = 9\n12 = 3\n4.\nLet AE = 3x and EC = 4x. Then 7x = AE + EC = AC = 14, so x = 2, and\nAE = 3x = 6.\nA\nB\nC\nD\nE\n9\n12",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q24",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 24,
+    "topic": "Probability",
+    "difficulty": "hard",
+    "problem_text": "Three distinct vertices of a cube are chosen at random. What is the probability that the plane\n\ndetermined by these three vertices contains points inside the cube?",
+    "answer_choices": {
+      "A": "1\n4",
+      "B": "3\n8",
+      "C": "4\n7",
+      "D": "5\n7",
+      "E": "3\n4"
+    },
+    "correct_answer": "C",
+    "solution_text": "A plane that intersects at least three vertices of a cube either\ncuts into the cube or is coplanar with a cube face. Therefore the three randomly\nchosen vertices result in a plane that does not contain points inside the cube if\nand only if the three vertices come from the same face of the cube. There are\n6 cube faces, so the number of ways to choose three vertices on the same cube\nface is 6 ·\n¡4\n3\n¢\n= 24. The total number of ways to choose the distinct vertices\nwithout restriction is\n¡8\n3\n¢\n= 56. Hence the probability is 1 −24\n56 = 4\n7.",
+    "has_image": false
+  },
+  {
+    "id": "2009-AMC10A-Q25",
+    "year": 2009,
+    "exam": "AMC10A",
+    "question_number": 25,
+    "topic": "Number Theory",
+    "difficulty": "hard",
+    "problem_text": "For k > 0, let I^{k} = 10 . . . 064, where there are k zeros between the 1 and the 6. Let N(k) be the\nnumber of factors of 2 in the prime factorization of I^{k}. What is the maximum value of N(k)?",
+    "answer_choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9",
+      "E": "10"
+    },
+    "correct_answer": "B",
+    "solution_text": "Note that Ik = 2k+2 · 5k+2 + 26. For k < 4, the ﬁrst term is not\ndivisible by 26, so N(k) < 6. For k > 4, the ﬁrst term is divisible by 27, but the\nsecond term is not, so N(k) < 7. For k = 4, I4 = 26(56 + 1), and because the\nsecond factor is even, N(4) ≥7. In fact the second factor is a sum of cubes so\n(56 + 1) = ((52)3 + 13) = (52 + 1)((52)2 −52 + 1).\nThe factor 52 + 1 = 26 is divisible by 2 but not 4, and the second factor is odd,\nso 56 + 1 contributes one more factor of 2. Hence the maximum value for N(k)\nis 7.\nThe problems and solutions in this contest were proposed by Steve Blasberg,\nThomas Butts, Steven Davis, Steve Dunbar, Douglas Faires, Jerrold Grossman, John\nHaverhals, Elgin Johnston, Joe Kennedy, Bonnie Leitch, David Wells, LeRoy Wen-\nstrom, Woody Wenstrom, and Ron Yannone.\n\nThe\nAmerican  Mathematics Competitions\nare Sponsored by\nThe Mathematical Association of America\nThe Akamai Foundation\nContributors\nAcademy of Applied Sciences\nAmerican Mathematical Association of Two-Year Colleges\nAmerican Mathematical Society\nAmerican Society of Pension Actuaries\nAmerican Statistical Association\nArt of Problem Solving\nAwesome Math\nCanada/USA Mathcamp\nCasualty Actuarial Society\nClay Mathematics Institute\nIDEA Math\nInstitute for Operations Research and the Management Sciences\nL. G. Balfour Company\nMath Zoom Academy\nMu Alpha Theta\nNational Assessment & Testing\nNational Council of Teachers of Mathematics\nPi Mu Epsilon\nSociety of Actuaries\nU.S.A. Math Talent Search\nW. H. Freeman and Company\nWolfram Research Inc.",
+    "has_image": false
+  }
+]
