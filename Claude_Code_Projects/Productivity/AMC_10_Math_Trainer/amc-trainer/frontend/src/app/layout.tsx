@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Link from 'next/link';
+import NavbarStreak from '@/components/NavbarStreak';
 import './globals.css';
 
 const geistSans = Geist({
@@ -33,8 +34,23 @@ function Navbar() {
         href="/"
         className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
       >
-        Problems
+        📚 Problems
       </Link>
+      <Link
+        href="/progress"
+        className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
+      >
+        📊 Progress
+      </Link>
+      <Link
+        href="/settings"
+        className="text-sm text-zinc-400 hover:text-zinc-100 transition-colors"
+      >
+        ⚙️ Settings
+      </Link>
+      <div className="ml-auto">
+        <NavbarStreak />
+      </div>
     </nav>
   );
 }

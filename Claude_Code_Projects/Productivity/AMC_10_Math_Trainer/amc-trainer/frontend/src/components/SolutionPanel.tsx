@@ -8,14 +8,16 @@ interface Props {
   solutionText: string | null;
   correctAnswer: string | null;
   onReveal?: () => void;
+  onSolutionViewed?: () => void;
 }
 
-export default function SolutionPanel({ solutionText, correctAnswer, onReveal }: Props) {
+export default function SolutionPanel({ solutionText, correctAnswer, onReveal, onSolutionViewed }: Props) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleShow = () => {
     setIsOpen(true);
     onReveal?.();
+    onSolutionViewed?.();
   };
 
   const handleHide = () => {

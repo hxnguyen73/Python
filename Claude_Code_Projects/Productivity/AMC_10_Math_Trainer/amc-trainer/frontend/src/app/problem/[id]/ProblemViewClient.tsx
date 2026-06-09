@@ -64,8 +64,11 @@ export default function ProblemViewClient({
 }: Props) {
   const router = useRouter();
   const timerRef = useRef<ProblemTimerHandle>(null);
+  const startTimeRef = useRef<number>(Date.now());
 
   const [submitted, setSubmitted] = useState(false);
+  const [solutionViewed, setSolutionViewed] = useState(false);
+  const [earnedPoints, setEarnedPoints] = useState<number | null>(null);
 
   const backHref = filterParams ? `/?${filterParams}` : '/';
   const prevHref = prevId ? `/problem/${prevId}${filterParams ? `?${filterParams}` : ''}` : null;
@@ -76,27 +79,68 @@ export default function ProblemViewClient({
     classes: 'bg-zinc-700/50 text-zinc-400 border border-zinc-600',
   };
 
+  // Reset state when problem changes
+  useEffect(() => {
+    setSubmitted(false);
+    setSolutionViewed(false);
+    setEarnedPoints(null);
+    startTimeRef.current = Date.now();
+  }, [problem.id]);
+
   // Keyboard navigation
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
-      if (e.key === 'ArrowLeft' && prevHref) {
-        router.push(prevHref);
-      } else if (e.key === 'ArrowRight' && nextHref) {
-        router.push(nextHref);
-      }
+      if (e.key === 'ArrowLeft' && prevHref) router.push(prevHref);
+      else if (e.key === 'ArrowRight' && nextHref) router.push(nextHref);
     };
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
   }, [prevHref, nextHref, router]);
 
-  const handleAnswerSubmit = (_answer: string, _correct: boolean) => {
+  const handleAnswerSubmit = (answer: string, correct: boolean) => {
     setSubmitted(true);
     timerRef.current?.stop();
+
+    const timeSpent = Math.round((Date.now() - startTimeRef.current) / 1000);
+    const isCorrect = correct;
+    const sv = solutionViewed;
+
+    let score = 0;
+    if (isCorrect) {
+      if (sv) score = 1;
+      else score = 6;
+    }
+    setEarnedPoints(score);
+
+    fetch('/api/progress/log', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        problem_id: problem.id,
+        is_morphed: false,
+        topic: problem.topic,
+        difficulty: problem.difficulty,
+        time_spent_seconds: timeSpent,
+        answer_selected: answer,
+        correct_answer: problem.correct_answer ?? '',
+        is_correct: isCorrect,
+        hints_viewed: 0,
+        solution_viewed: sv,
+      }),
+    }).catch(() => {});
   };
 
   const handleRevealSolution = () => {
     timerRef.current?.pause();
+  };
+
+  const handleSolutionViewed = () => {
+    setSolutionViewed(true);
+    if (submitted && earnedPoints !== null) {
+      // downgrade points if solution viewed after submit
+      setEarnedPoints(1);
+    }
   };
 
   return (
@@ -180,6 +224,22 @@ export default function ProblemViewClient({
           onSubmit={handleAnswerSubmit}
         />
 
+        {/* Points earned */}
+        {submitted && earnedPoints !== null && (
+          <div className="mt-3 text-sm text-zinc-400">
+            Points earned this attempt:{' '}
+            <span className={cn(
+              'font-bold',
+              earnedPoints === 6 ? 'text-green-400' : earnedPoints >= 4 ? 'text-yellow-400' : earnedPoints === 1 ? 'text-orange-400' : 'text-red-400'
+            )}>
+              {earnedPoints} / 6
+            </span>
+            {solutionViewed && earnedPoints > 0 && (
+              <span className="ml-2 text-zinc-500">(solution viewed)</span>
+            )}
+          </div>
+        )}
+
         {/* Action buttons — only after submit */}
         {submitted && (
           <div className="mt-6 flex flex-wrap items-center gap-3">
@@ -199,6 +259,7 @@ export default function ProblemViewClient({
             solutionText={problem.solution_text ?? null}
             correctAnswer={problem.correct_answer ?? null}
             onReveal={handleRevealSolution}
+            onSolutionViewed={handleSolutionViewed}
           />
         )}
       </main>
