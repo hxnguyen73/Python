@@ -37,7 +37,7 @@ export async function POST(request: Request) {
     timestamp: new Date().toISOString(),
   };
 
-  const data = readProgress();
+  const data = await readProgress();
   const today = todayString();
 
   let session = data.sessions.find((s) => s.date === today);
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
   );
 
   updateTopicStats(data.topic_stats, attempt);
-  writeProgress(data);
+  await writeProgress(data);
 
   return Response.json({ ok: true, score_value });
 }

@@ -12,7 +12,7 @@ export async function GET() {
   const { default: Anthropic } = await import('@anthropic-ai/sdk');
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-  const data = readProgress();
+  const data = await readProgress();
   const summary = buildSummary(data);
 
   const progressSummaryText = JSON.stringify(

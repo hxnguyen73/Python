@@ -1,5 +1,4 @@
-import fs from 'fs';
-import path from 'path';
+import { createClient } from '@supabase/supabase-js';
 
 export interface ProblemAttempt {
   problem_id: string;
@@ -46,37 +45,46 @@ export interface ProgressData {
   topic_stats: Record<string, TopicStat>;
 }
 
-const PROGRESS_PATH = path.join(
-  process.cwd(),
-  '..',
-  'data',
-  'progress',
-  'progress.json'
-);
+const PROGRESS_ID = 'default';
 
-export function readProgress(): ProgressData {
-  try {
-    const raw = fs.readFileSync(PROGRESS_PATH, 'utf-8');
-    return JSON.parse(raw) as ProgressData;
-  } catch {
-    return {
-      student: {
-        name: 'Student',
-        started: new Date().toISOString().slice(0, 10),
-        target_exam_date: '2026-11-07',
-        daily_goal: 10,
-        show_timer: true,
-      },
-      sessions: [],
-      topic_stats: {},
-    };
-  }
+function defaultProgressData(): ProgressData {
+  return {
+    student: {
+      name: 'Student',
+      started: new Date().toISOString().slice(0, 10),
+      target_exam_date: '2026-11-07',
+      daily_goal: 10,
+      show_timer: true,
+    },
+    sessions: [],
+    topic_stats: {},
+  };
 }
 
-export function writeProgress(data: ProgressData): void {
-  const dir = path.dirname(PROGRESS_PATH);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(PROGRESS_PATH, JSON.stringify(data, null, 2), 'utf-8');
+function getSupabase() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) throw new Error('Supabase env vars not set (NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)');
+  return createClient(url, key);
+}
+
+export async function readProgress(): Promise<ProgressData> {
+  const supabase = getSupabase();
+  const { data, error } = await supabase
+    .from('progress')
+    .select('data')
+    .eq('id', PROGRESS_ID)
+    .single();
+
+  if (error || !data) return defaultProgressData();
+  return data.data as ProgressData;
+}
+
+export async function writeProgress(progress: ProgressData): Promise<void> {
+  const supabase = getSupabase();
+  await supabase
+    .from('progress')
+    .upsert({ id: PROGRESS_ID, data: progress });
 }
 
 export function calcScore(attempt: Pick<ProblemAttempt, 'is_correct' | 'hints_viewed' | 'solution_viewed'>): number {
@@ -153,8 +161,6 @@ export function buildSummary(data: ProgressData): ProgressSummary {
 
   const overall_accuracy = totalProblems > 0 ? totalCorrect / totalProblems : 0;
 
-  // AMC score: +6 per correct, 0 per wrong, out of 150 (25 questions × 6)
-  // Estimate based on recent 25 problems or overall accuracy
   const recent25 = allAttempts.slice(-25);
   const recent25Correct = recent25.filter((a) => a.is_correct).length;
   const amc_equivalent_score = recent25.length > 0
@@ -168,7 +174,6 @@ export function buildSummary(data: ProgressData): ProgressSummary {
     .filter(([, s]) => s.attempted >= 3 && s.accuracy > 0.8)
     .map(([t]) => t);
 
-  // Streak: count consecutive days with activity ending today
   const sessionDates = new Set(data.sessions.map((s) => s.date));
   let streak = 0;
   const now = new Date();

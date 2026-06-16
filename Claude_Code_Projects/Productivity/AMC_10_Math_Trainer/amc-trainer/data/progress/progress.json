@@ -69,6 +69,27 @@
           "timestamp": "2026-06-09T03:29:07.404Z"
         }
       ]
+    },
+    {
+      "session_id": "1781149066741-q65b9p",
+      "date": "2026-06-11",
+      "duration_minutes": 0,
+      "problems_attempted": [
+        {
+          "problem_id": "2000-AMC10-Q06",
+          "is_morphed": false,
+          "topic": "Sequences & Series",
+          "difficulty": "medium",
+          "time_spent_seconds": 5,
+          "answer_selected": "D",
+          "correct_answer": "C",
+          "is_correct": false,
+          "hints_viewed": 0,
+          "solution_viewed": false,
+          "score_value": 0,
+          "timestamp": "2026-06-11T03:37:46.740Z"
+        }
+      ]
     }
   ],
   "topic_stats": {
@@ -84,12 +105,13 @@
       ]
     },
     "Sequences & Series": {
-      "attempted": 1,
+      "attempted": 2,
       "correct": 0,
       "accuracy": 0,
-      "avg_time_seconds": 53,
+      "avg_time_seconds": 29,
       "trend": "stable",
       "recent_scores": [
+        0,
         0
       ]
     },
