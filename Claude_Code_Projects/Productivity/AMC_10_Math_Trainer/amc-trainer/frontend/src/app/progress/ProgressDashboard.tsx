@@ -55,14 +55,19 @@ function trendIcon(trend: string): string {
 export default function ProgressDashboard() {
   const [summary, setSummary] = useState<ProgressSummary | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [recs, setRecs] = useState<Recommendations | null>(null);
   const [recsLoading, setRecsLoading] = useState(false);
 
   const fetchSummary = useCallback(async () => {
     setLoading(true);
+    setError(null);
     try {
       const res = await fetch('/api/progress/summary');
+      if (!res.ok) throw new Error(`Server error ${res.status}`);
       setSummary(await res.json());
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Failed to load progress');
     } finally {
       setLoading(false);
     }
@@ -82,10 +87,24 @@ export default function ProgressDashboard() {
     }
   };
 
-  if (loading || !summary) {
+  if (loading) {
     return (
       <div className="flex-1 flex items-center justify-center text-zinc-500 text-sm">
         Loading progress...
+      </div>
+    );
+  }
+
+  if (error || !summary) {
+    return (
+      <div className="flex-1 flex flex-col items-center justify-center gap-3 text-zinc-500 text-sm">
+        <p className="text-red-400">{error ?? 'Failed to load progress data.'}</p>
+        <button
+          onClick={fetchSummary}
+          className="px-4 py-1.5 rounded-lg text-sm font-medium bg-zinc-800 hover:bg-zinc-700 text-zinc-300 transition-colors"
+        >
+          Retry
+        </button>
       </div>
     );
   }

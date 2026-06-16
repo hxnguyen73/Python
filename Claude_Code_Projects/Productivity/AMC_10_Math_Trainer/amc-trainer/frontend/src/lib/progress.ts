@@ -69,15 +69,19 @@ function getSupabase() {
 }
 
 export async function readProgress(): Promise<ProgressData> {
-  const supabase = getSupabase();
-  const { data, error } = await supabase
-    .from('progress')
-    .select('data')
-    .eq('id', PROGRESS_ID)
-    .single();
+  try {
+    const supabase = getSupabase();
+    const { data, error } = await supabase
+      .from('progress')
+      .select('data')
+      .eq('id', PROGRESS_ID)
+      .single();
 
-  if (error || !data) return defaultProgressData();
-  return data.data as ProgressData;
+    if (error || !data) return defaultProgressData();
+    return data.data as ProgressData;
+  } catch {
+    return defaultProgressData();
+  }
 }
 
 export async function writeProgress(progress: ProgressData): Promise<void> {
